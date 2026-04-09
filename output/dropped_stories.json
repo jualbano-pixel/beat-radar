@@ -1,0 +1,5546 @@
+[
+  {
+    "title": "A self-driving car in Texas hit and killed a mother duck, sparking neighborhood outrage",
+    "source": "TechCrunch",
+    "date": "2026-04-08T21:19:07.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Amazon to end support for older Kindle devices",
+    "source": "TechCrunch",
+    "date": "2026-04-08T19:56:16.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Hack-for-hire group caught targeting Android devices and iCloud backups",
+    "source": "TechCrunch",
+    "date": "2026-04-08T18:51:20.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Volkswagen begins testing its self-driving microbuses in Los Angeles ahead of launch with Uber",
+    "source": "TechCrunch",
+    "date": "2026-04-08T17:19:16.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "These are the countries moving to ban social media for children",
+    "source": "TechCrunch",
+    "date": "2026-04-08T16:30:53.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "British cryptographer Adam Back denies NYT report that he is Bitcoin creator Satoshi Nakamoto",
+    "source": "TechCrunch",
+    "date": "2026-04-08T16:03:21.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Hackers steal and leak sensitive LAPD police documents",
+    "source": "TechCrunch",
+    "date": "2026-04-08T15:38:34.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "As YouTube grows on TV, it eyes more interactive video across formats",
+    "source": "TechCrunch",
+    "date": "2026-04-08T14:03:04.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Final 3 days to save up to $500 on your TechCrunch Disrupt 2026 pass",
+    "source": "TechCrunch",
+    "date": "2026-04-08T14:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Dyson made a handheld version of its iconic fans",
+    "source": "The Verge",
+    "date": "2026-04-09T00:01:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "I finally get the iPhone Air",
+    "source": "The Verge",
+    "date": "2026-04-08T19:45:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "The Neo Effect: How Apple&#8217;s cheapest Mac is changing the PC game",
+    "source": "The Verge",
+    "date": "2026-04-08T18:21:50.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Amazon’s Smart Thermostat can help lower your energy bills, and it’s down to $62",
+    "source": "The Verge",
+    "date": "2026-04-08T15:56:34.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "The Miniature Wife was an exercise in visual trickery",
+    "source": "The Verge",
+    "date": "2026-04-08T15:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "8 Best Cheap Laptops (2026): Chromebooks, the MacBook Neo, and More",
+    "source": "Wired",
+    "date": "2026-04-08T10:00:00.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "Our Favorite Video Doorbell Is $40 Off",
+    "source": "Wired",
+    "date": "2026-04-07T18:03:40.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "Best Laptop Stands (2026): After Testing 25+ Models, These 5 Stand Out",
+    "source": "Wired",
+    "date": "2026-04-07T10:00:00.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "AirDoctor Coupon Codes: 40% Off | April 2026",
+    "source": "Wired",
+    "date": "2026-04-07T05:00:00.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "Hoka Coupon Codes: 10% Off | April 2026",
+    "source": "Wired",
+    "date": "2026-04-07T05:00:00.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "Bose Promo Code: 40% Off Bose for April 2026",
+    "source": "Wired",
+    "date": "2026-04-07T05:00:00.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "$50 Target Promo Code & Coupons | April 2026",
+    "source": "Wired",
+    "date": "2026-04-07T05:00:00.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "60% Off Groupon Promo Code | April 2026",
+    "source": "Wired",
+    "date": "2026-04-07T05:00:00.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "15% Off Adidas Promo Code | April 2026",
+    "source": "Wired",
+    "date": "2026-04-07T05:00:00.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "30% VistaPrint Coupon & Promo Codes | April 2026",
+    "source": "Wired",
+    "date": "2026-04-07T05:00:00.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "$100 Off Shark Promo Code | This April",
+    "source": "Wired",
+    "date": "2026-04-07T05:00:00.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "One of Our Favorite 360 Cams Is 35 Percent Off",
+    "source": "Wired",
+    "date": "2026-04-06T17:03:05.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "8 Best Apple Watch Accessories (2026): Bands, Chargers, and More",
+    "source": "Wired",
+    "date": "2026-04-06T12:00:00.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "Apple’s Fanciest Watch Is $100 Off",
+    "source": "Wired",
+    "date": "2026-04-08T17:46:21.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Amazon Pulls Support for Perfectly Fine Older Kindles",
+    "source": "Wired",
+    "date": "2026-04-08T16:54:08.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "The Next Attorney General Will Probably Be an Election Denier",
+    "source": "Wired",
+    "date": "2026-04-08T15:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Ikea’s New Lineup of Smart Home Gear Is Quietly Changing the Game",
+    "source": "Wired",
+    "date": "2026-04-08T13:16:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "The Best Automatic Litter Box of 2026: Petkit and Litter-Robot",
+    "source": "Wired",
+    "date": "2026-04-08T11:38:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Best Lightweight Hiking Boots (2026): La Sportiva, Salomon, Keen, and More",
+    "source": "Wired",
+    "date": "2026-04-08T10:30:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Fender ELIE 6 Bluetooth Speaker Review: Big Sound, App on the Way",
+    "source": "Wired",
+    "date": "2026-04-08T10:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Men Are Buying Hacking Tools to Use Against Their Wives and Friends",
+    "source": "Wired",
+    "date": "2026-04-08T07:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "The iPhone Gets a D– for Repairability",
+    "source": "Wired",
+    "date": "2026-04-07T20:59:10.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Artemis II’s Breathtaking View of the Far Side of the Moon",
+    "source": "Wired",
+    "date": "2026-04-07T18:34:52.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Best Electric Bikes (2026): Commuting, Cargo Bikes, Mountain Biking",
+    "source": "Wired",
+    "date": "2026-04-07T12:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "The 5 Best Outdoor Pizza Ovens: Wood-Fired, Gas, Propane (2026)",
+    "source": "Wired",
+    "date": "2026-04-07T11:33:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "My Blissful Week as a ‘Do Not Disturb’ Maximalist",
+    "source": "Wired",
+    "date": "2026-04-07T11:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "He Started a Social Network Alone. Then 5 Million People Signed Up",
+    "source": "Wired",
+    "date": "2026-04-07T10:30:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Best Mesh Wi-Fi Systems (2026): Netgear, Asus, Amazon, and More",
+    "source": "Wired",
+    "date": "2026-04-07T10:30:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Nobody Knows How to File Taxes on Prediction Market Wins",
+    "source": "Wired",
+    "date": "2026-04-07T09:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Europe Gets Serious About Age Verification Online",
+    "source": "Wired",
+    "date": "2026-04-07T06:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "A Single Strike Won’t Shut Off the Gulf’s Desalination System",
+    "source": "Wired",
+    "date": "2026-04-06T20:23:04.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Gozney Dome Gen 2 Review: The Ultimate Backyard Flex",
+    "source": "Wired",
+    "date": "2026-04-06T16:57:49.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Artemis II: Everything We Know as Its Crew Approaches the Far Side of the Moon",
+    "source": "Wired",
+    "date": "2026-04-06T14:21:04.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "The DOJ Misled a Judge About How It’s Using Voter Roll Data",
+    "source": "Wired",
+    "date": "2026-04-06T11:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Robot Mowers Are Actually Good Now",
+    "source": "Wired",
+    "date": "2026-04-06T10:30:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Snake Bros Keep Getting Bitten by Their Lethal Pets. Only Zoos Can Save Them",
+    "source": "Wired",
+    "date": "2026-04-06T10:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "5 Mysteries That the Artemis Missions to the Moon Could Finally Solve",
+    "source": "Wired",
+    "date": "2026-04-06T09:30:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Join us for OpenAI’s first developer conference on November 6 in San Francisco",
+    "source": "OpenAI Blog",
+    "date": "2023-09-06T07:00:00.000Z",
+    "reason_dropped": "hard_excluded_event_promo"
+  },
+  {
+    "title": "Stripe",
+    "source": "OpenAI Blog",
+    "date": "2023-03-14T07:00:00.000Z",
+    "reason_dropped": "garbage_title"
+  },
+  {
+    "title": "GPT-4",
+    "source": "OpenAI Blog",
+    "date": "2023-03-14T07:00:00.000Z",
+    "reason_dropped": "garbage_title"
+  },
+  {
+    "title": "Jukebox",
+    "source": "OpenAI Blog",
+    "date": "2020-04-30T07:00:00.000Z",
+    "reason_dropped": "garbage_title"
+  },
+  {
+    "title": "MuseNet",
+    "source": "OpenAI Blog",
+    "date": "2019-04-25T07:00:00.000Z",
+    "reason_dropped": "garbage_title"
+  },
+  {
+    "title": "Dota 2",
+    "source": "OpenAI Blog",
+    "date": "2017-08-11T07:00:00.000Z",
+    "reason_dropped": "garbage_title"
+  },
+  {
+    "title": "Distill",
+    "source": "OpenAI Blog",
+    "date": "2017-03-20T07:00:00.000Z",
+    "reason_dropped": "garbage_title"
+  },
+  {
+    "title": "Team++",
+    "source": "OpenAI Blog",
+    "date": "2016-03-31T07:00:00.000Z",
+    "reason_dropped": "garbage_title"
+  },
+  {
+    "title": "The truth left out from Elon Musk’s recent court filing",
+    "source": "OpenAI Blog",
+    "date": "2026-01-16T12:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "OpenAI’s Raising Concerns Policy",
+    "source": "OpenAI Blog",
+    "date": "2026-01-12T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "American-made innovation",
+    "source": "OpenAI Blog",
+    "date": "2025-09-22T11:30:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Outbound coordinated vulnerability disclosure policy",
+    "source": "OpenAI Blog",
+    "date": "2025-09-22T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Introducing Stargate UK",
+    "source": "OpenAI Blog",
+    "date": "2025-09-16T14:30:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Helping people when they need it most",
+    "source": "OpenAI Blog",
+    "date": "2025-08-26T04:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Expanding on what we missed with sycophancy",
+    "source": "OpenAI Blog",
+    "date": "2025-05-02T08:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Announcing The Stargate Project",
+    "source": "OpenAI Blog",
+    "date": "2025-01-21T13:30:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Adebayo Ogunlesi joins OpenAI’s Board of Directors",
+    "source": "OpenAI Blog",
+    "date": "2025-01-14T09:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "OpenAI’s Economic Blueprint",
+    "source": "OpenAI Blog",
+    "date": "2025-01-13T03:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Why OpenAI’s structure must evolve to advance our mission",
+    "source": "OpenAI Blog",
+    "date": "2024-12-27T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Dr. Ronnie Chatterji named OpenAI’s first Chief Economist",
+    "source": "OpenAI Blog",
+    "date": "2024-10-22T10:05:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "New Credit Facility Enhances Financial Flexibility",
+    "source": "OpenAI Blog",
+    "date": "2024-10-03T07:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "An update on our safety & security practices",
+    "source": "OpenAI Blog",
+    "date": "2024-09-16T13:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Disrupting a covert Iranian influence operation",
+    "source": "OpenAI Blog",
+    "date": "2024-08-16T11:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Strategic Content Partnership with TIME",
+    "source": "OpenAI Blog",
+    "date": "2024-06-27T06:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "A Holistic Approach to Undesired Content Detection in the Real World",
+    "source": "OpenAI Blog",
+    "date": "2024-06-20T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Collaborating with Carlyle to Chart the Future of Private Equity",
+    "source": "OpenAI Blog",
+    "date": "2024-05-14T08:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Understanding the source of what we see and hear online",
+    "source": "OpenAI Blog",
+    "date": "2024-05-07T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Accelerating the development of life-saving treatments",
+    "source": "OpenAI Blog",
+    "date": "2024-04-24T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "OpenAI’s commitment to child safety: adopting safety by design principles",
+    "source": "OpenAI Blog",
+    "date": "2024-04-23T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "OpenAI’s technology explained",
+    "source": "OpenAI Blog",
+    "date": "2023-10-11T07:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Insights from global conversations",
+    "source": "OpenAI Blog",
+    "date": "2023-06-29T07:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Questions for the Record",
+    "source": "OpenAI Blog",
+    "date": "2023-06-22T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Best practices for deploying language models",
+    "source": "OpenAI Blog",
+    "date": "2022-06-02T07:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Solving (some) formal math olympiad problems",
+    "source": "OpenAI Blog",
+    "date": "2022-02-02T08:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Helen Toner joins OpenAI’s board of directors",
+    "source": "OpenAI Blog",
+    "date": "2021-09-08T07:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Transfer of adversarial robustness between perturbation types",
+    "source": "OpenAI Blog",
+    "date": "2019-05-03T07:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Computational limitations in robust classification and win-win results",
+    "source": "OpenAI Blog",
+    "date": "2019-02-04T08:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Large-scale study of curiosity-driven learning",
+    "source": "OpenAI Blog",
+    "date": "2018-08-13T07:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Learning dexterity",
+    "source": "OpenAI Blog",
+    "date": "2018-07-30T07:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Variational option discovery algorithms",
+    "source": "OpenAI Blog",
+    "date": "2018-07-26T07:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Retro Contest: Results",
+    "source": "OpenAI Blog",
+    "date": "2018-06-22T07:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Learning policy representations in multiagent systems",
+    "source": "OpenAI Blog",
+    "date": "2018-06-17T07:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Improving GANs using optimal transport",
+    "source": "OpenAI Blog",
+    "date": "2018-03-15T07:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "On first-order meta-learning algorithms",
+    "source": "OpenAI Blog",
+    "date": "2018-03-08T08:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Scaling Kubernetes to 2,500 nodes",
+    "source": "OpenAI Blog",
+    "date": "2018-01-18T08:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Interpretable and pedagogical examples",
+    "source": "OpenAI Blog",
+    "date": "2017-11-02T07:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Sim-to-real transfer of robotic control with dynamics randomization",
+    "source": "OpenAI Blog",
+    "date": "2017-10-18T07:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Asymmetric actor critic for image-based robot learning",
+    "source": "OpenAI Blog",
+    "date": "2017-10-18T07:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Nonlinear computation in deep linear networks",
+    "source": "OpenAI Blog",
+    "date": "2017-09-29T07:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Learning with opponent-learning awareness",
+    "source": "OpenAI Blog",
+    "date": "2017-09-13T07:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Hindsight Experience Replay",
+    "source": "OpenAI Blog",
+    "date": "2017-07-05T07:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "UCB exploration via Q-ensembles",
+    "source": "OpenAI Blog",
+    "date": "2017-06-05T07:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Equivalence between policy gradients and soft Q-learning",
+    "source": "OpenAI Blog",
+    "date": "2017-04-21T07:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Unsupervised sentiment neuron",
+    "source": "OpenAI Blog",
+    "date": "2017-04-06T07:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "One-shot imitation learning",
+    "source": "OpenAI Blog",
+    "date": "2017-03-21T07:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Third-person imitation learning",
+    "source": "OpenAI Blog",
+    "date": "2017-03-06T08:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "PixelCNN++: Improving the PixelCNN with discretized logistic mixture likelihood and other modifications",
+    "source": "OpenAI Blog",
+    "date": "2017-01-19T08:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Variational lossy autoencoder",
+    "source": "OpenAI Blog",
+    "date": "2016-11-08T08:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Team update",
+    "source": "OpenAI Blog",
+    "date": "2016-08-16T07:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Special projects",
+    "source": "OpenAI Blog",
+    "date": "2016-07-28T07:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Welcome, Pieter and Shivon!",
+    "source": "OpenAI Blog",
+    "date": "2016-04-26T07:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Making AI work for everyone, everywhere: our approach to localization",
+    "source": "OpenAI Blog",
+    "date": "2026-02-06T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "GPT-5 lowers the cost of cell-free protein synthesis",
+    "source": "OpenAI Blog",
+    "date": "2026-02-05T11:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing Trusted Access for Cyber",
+    "source": "OpenAI Blog",
+    "date": "2026-02-05T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing OpenAI Frontier",
+    "source": "OpenAI Blog",
+    "date": "2026-02-05T06:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing GPT-5.3-Codex",
+    "source": "OpenAI Blog",
+    "date": "2026-02-05T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Navigating health questions with ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2026-02-05T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "GPT-5.3-Codex System Card",
+    "source": "OpenAI Blog",
+    "date": "2026-02-05T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Unlocking the Codex harness: how we built the App Server",
+    "source": "OpenAI Blog",
+    "date": "2026-02-04T13:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "The Sora feed philosophy",
+    "source": "OpenAI Blog",
+    "date": "2026-02-03T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Snowflake and OpenAI partner to bring frontier intelligence to enterprise data",
+    "source": "OpenAI Blog",
+    "date": "2026-02-02T06:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing the Codex app",
+    "source": "OpenAI Blog",
+    "date": "2026-02-02T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Inside OpenAI’s in-house data agent",
+    "source": "OpenAI Blog",
+    "date": "2026-01-29T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2026-01-29T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Taisei Corporation shapes the next generation of talent with AI",
+    "source": "OpenAI Blog",
+    "date": "2026-01-29T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "The next chapter for AI in the EU",
+    "source": "OpenAI Blog",
+    "date": "2026-01-28T01:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "EMEA Youth & Wellbeing Grant",
+    "source": "OpenAI Blog",
+    "date": "2026-01-28T01:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Keeping your data safe when an AI agent clicks a link",
+    "source": "OpenAI Blog",
+    "date": "2026-01-28T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "PVH reimagines the future of fashion with OpenAI",
+    "source": "OpenAI Blog",
+    "date": "2026-01-27T06:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing Prism",
+    "source": "OpenAI Blog",
+    "date": "2026-01-27T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "TRUSTBANK uses AI agents to personalize Furusato Nozei gifts",
+    "source": "OpenAI Blog",
+    "date": "2026-01-27T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "How Indeed uses AI to help evolve the job search",
+    "source": "OpenAI Blog",
+    "date": "2026-01-26T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Unrolling the Codex agent loop",
+    "source": "OpenAI Blog",
+    "date": "2026-01-23T12:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Scaling PostgreSQL to power 800 million ChatGPT users",
+    "source": "OpenAI Blog",
+    "date": "2026-01-22T12:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Inside GPT-5 for Work: How Businesses Use GPT-5",
+    "source": "OpenAI Blog",
+    "date": "2026-01-22T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Inside Praktika's conversational approach to language learning",
+    "source": "OpenAI Blog",
+    "date": "2026-01-22T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "How Higgsfield turns simple ideas into cinematic social videos",
+    "source": "OpenAI Blog",
+    "date": "2026-01-21T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "How countries can end the capability overhang",
+    "source": "OpenAI Blog",
+    "date": "2026-01-21T01:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing Edu for Countries",
+    "source": "OpenAI Blog",
+    "date": "2026-01-21T01:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Horizon 1000: Advancing AI for primary healthcare",
+    "source": "OpenAI Blog",
+    "date": "2026-01-20T21:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Stargate Community",
+    "source": "OpenAI Blog",
+    "date": "2026-01-20T19:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Cisco and OpenAI redefine enterprise engineering with AI agents",
+    "source": "OpenAI Blog",
+    "date": "2026-01-20T11:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "ServiceNow powers actionable enterprise AI with OpenAI",
+    "source": "OpenAI Blog",
+    "date": "2026-01-20T05:45:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Our approach to age prediction",
+    "source": "OpenAI Blog",
+    "date": "2026-01-20T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "AI for self empowerment",
+    "source": "OpenAI Blog",
+    "date": "2026-01-18T12:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "A business that scales with the value of intelligence",
+    "source": "OpenAI Blog",
+    "date": "2026-01-18T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Our approach to advertising and expanding access to ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2026-01-16T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing ChatGPT Go, now available worldwide",
+    "source": "OpenAI Blog",
+    "date": "2026-01-16T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Investing in Merge Labs",
+    "source": "OpenAI Blog",
+    "date": "2026-01-15T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Strengthening the U.S. AI supply chain through domestic manufacturing",
+    "source": "OpenAI Blog",
+    "date": "2026-01-15T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI partners with Cerebras",
+    "source": "OpenAI Blog",
+    "date": "2026-01-14T14:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Zenken boosts a lean sales team with ChatGPT Enterprise",
+    "source": "OpenAI Blog",
+    "date": "2026-01-13T16:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI and SoftBank Group partner with SB Energy",
+    "source": "OpenAI Blog",
+    "date": "2026-01-09T11:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Datadog uses Codex for system-level code review",
+    "source": "OpenAI Blog",
+    "date": "2026-01-09T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI for Healthcare",
+    "source": "OpenAI Blog",
+    "date": "2026-01-08T12:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Netomi’s lessons for scaling agentic systems into the enterprise",
+    "source": "OpenAI Blog",
+    "date": "2026-01-08T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "How Tolan builds voice-first AI with GPT-5.1",
+    "source": "OpenAI Blog",
+    "date": "2026-01-07T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing ChatGPT Health",
+    "source": "OpenAI Blog",
+    "date": "2026-01-07T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Announcing OpenAI Grove Cohort 2",
+    "source": "OpenAI Blog",
+    "date": "2026-01-02T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Continuously hardening ChatGPT Atlas against prompt injection",
+    "source": "OpenAI Blog",
+    "date": "2025-12-22T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "One in a million: celebrating the customers shaping AI’s future",
+    "source": "OpenAI Blog",
+    "date": "2025-12-22T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Evaluating chain-of-thought monitorability",
+    "source": "OpenAI Blog",
+    "date": "2025-12-18T12:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Updating our Model Spec with teen protections",
+    "source": "OpenAI Blog",
+    "date": "2025-12-18T11:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "AI literacy resources for teens and parents",
+    "source": "OpenAI Blog",
+    "date": "2025-12-18T11:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Deepening our collaboration with the U.S. Department of Energy",
+    "source": "OpenAI Blog",
+    "date": "2025-12-18T11:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Addendum to GPT-5.2 System Card: GPT-5.2-Codex",
+    "source": "OpenAI Blog",
+    "date": "2025-12-18T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing GPT-5.2-Codex",
+    "source": "OpenAI Blog",
+    "date": "2025-12-18T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing GPT-5.2-Codex",
+    "source": "OpenAI Blog",
+    "date": "2025-12-18T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing OpenAI Academy for News Organizations",
+    "source": "OpenAI Blog",
+    "date": "2025-12-17T06:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "The state of enterprise AI",
+    "source": "OpenAI Blog",
+    "date": "2025-12-17T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Developers can now submit apps to ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2025-12-17T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Evaluating AI’s ability to perform scientific research tasks",
+    "source": "OpenAI Blog",
+    "date": "2025-12-16T09:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Measuring AI’s capability to accelerate biological research",
+    "source": "OpenAI Blog",
+    "date": "2025-12-16T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "The new ChatGPT Images is here",
+    "source": "OpenAI Blog",
+    "date": "2025-12-16T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "How We Used Codex to Ship Sora for Android in 28 Days",
+    "source": "OpenAI Blog",
+    "date": "2025-12-12T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "BBVA and OpenAI collaborate to transform global banking",
+    "source": "OpenAI Blog",
+    "date": "2025-12-12T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "BNY builds “AI for everyone, everywhere” with OpenAI",
+    "source": "OpenAI Blog",
+    "date": "2025-12-12T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Advancing science and math with GPT-5.2",
+    "source": "OpenAI Blog",
+    "date": "2025-12-11T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "How Podium is arming 10,000+ SMBs with AI agents",
+    "source": "OpenAI Blog",
+    "date": "2025-12-11T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
+    "source": "OpenAI Blog",
+    "date": "2025-12-11T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing GPT-5.2",
+    "source": "OpenAI Blog",
+    "date": "2025-12-11T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Ten years",
+    "source": "OpenAI Blog",
+    "date": "2025-12-11T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Update to GPT-5 System Card: GPT-5.2",
+    "source": "OpenAI Blog",
+    "date": "2025-12-11T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Strengthening cyber resilience as AI capabilities advance",
+    "source": "OpenAI Blog",
+    "date": "2025-12-10T12:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "How Scout24 is building the next generation of real-estate search with AI",
+    "source": "OpenAI Blog",
+    "date": "2025-12-09T16:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI co-founds Agentic AI Foundation, donates AGENTS.md",
+    "source": "OpenAI Blog",
+    "date": "2025-12-09T09:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Launching our first OpenAI Certifications courses",
+    "source": "OpenAI Blog",
+    "date": "2025-12-09T06:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
+    "source": "OpenAI Blog",
+    "date": "2025-12-09T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Commonwealth Bank of Australia builds AI fluency at scale",
+    "source": "OpenAI Blog",
+    "date": "2025-12-09T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI appoints Denise Dresser as Chief Revenue Officer",
+    "source": "OpenAI Blog",
+    "date": "2025-12-09T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Instacart and OpenAI partner on AI shopping experiences",
+    "source": "OpenAI Blog",
+    "date": "2025-12-08T06:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "The state of enterprise AI",
+    "source": "OpenAI Blog",
+    "date": "2025-12-08T04:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "How Virgin Atlantic uses AI to enhance every step of travel",
+    "source": "OpenAI Blog",
+    "date": "2025-12-08T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing OpenAI for Australia",
+    "source": "OpenAI Blog",
+    "date": "2025-12-04T19:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "How confessions can keep language models honest",
+    "source": "OpenAI Blog",
+    "date": "2025-12-03T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI to acquire Neptune",
+    "source": "OpenAI Blog",
+    "date": "2025-12-03T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Announcing the initial People-First AI Fund grantees",
+    "source": "OpenAI Blog",
+    "date": "2025-12-03T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Inside Mirakl's agentic commerce vision",
+    "source": "OpenAI Blog",
+    "date": "2025-12-01T22:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Funding grants for new research into AI and mental health",
+    "source": "OpenAI Blog",
+    "date": "2025-12-01T12:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI and NORAD team up to bring new magic to “NORAD Tracks Santa”",
+    "source": "OpenAI Blog",
+    "date": "2025-12-01T06:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption",
+    "source": "OpenAI Blog",
+    "date": "2025-12-01T05:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Accenture and OpenAI accelerate enterprise AI success",
+    "source": "OpenAI Blog",
+    "date": "2025-12-01T05:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Mixpanel security incident: what OpenAI users need to know",
+    "source": "OpenAI Blog",
+    "date": "2025-11-26T19:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Expanding data residency access to business customers worldwide",
+    "source": "OpenAI Blog",
+    "date": "2025-11-25T22:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Our approach to mental health-related litigation",
+    "source": "OpenAI Blog",
+    "date": "2025-11-25T12:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Inside JetBrains—the company reshaping how the world writes code",
+    "source": "OpenAI Blog",
+    "date": "2025-11-25T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing shopping research in ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2025-11-24T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "GPT-5 and the future of mathematical discovery",
+    "source": "OpenAI Blog",
+    "date": "2025-11-24T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI and Foxconn collaborate to strengthen U.S. manufacturing across the AI supply chain",
+    "source": "OpenAI Blog",
+    "date": "2025-11-20T14:50:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Helping 1,000 small businesses build with AI",
+    "source": "OpenAI Blog",
+    "date": "2025-11-20T06:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Early experiments in accelerating science with GPT-5",
+    "source": "OpenAI Blog",
+    "date": "2025-11-20T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Strengthening our safety ecosystem with external testing",
+    "source": "OpenAI Blog",
+    "date": "2025-11-19T12:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "How evals drive the next chapter in AI for businesses",
+    "source": "OpenAI Blog",
+    "date": "2025-11-19T11:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI and Target team up on new AI-powered experiences",
+    "source": "OpenAI Blog",
+    "date": "2025-11-19T06:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Building more with GPT-5.1-Codex-Max",
+    "source": "OpenAI Blog",
+    "date": "2025-11-19T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "How Scania accelerates work with AI across its global workforce",
+    "source": "OpenAI Blog",
+    "date": "2025-11-19T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "GPT-5.1-Codex-Max System Card",
+    "source": "OpenAI Blog",
+    "date": "2025-11-19T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "A free version of ChatGPT built for teachers",
+    "source": "OpenAI Blog",
+    "date": "2025-11-19T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Intuit and OpenAI join forces on new AI-powered experiences",
+    "source": "OpenAI Blog",
+    "date": "2025-11-18T05:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI named Emerging Leader in Generative AI",
+    "source": "OpenAI Blog",
+    "date": "2025-11-17T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing OpenAI for Ireland",
+    "source": "OpenAI Blog",
+    "date": "2025-11-14T04:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Understanding neural networks through sparse circuits",
+    "source": "OpenAI Blog",
+    "date": "2025-11-13T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "How Philips is scaling AI literacy across 70,000 employees",
+    "source": "OpenAI Blog",
+    "date": "2025-11-13T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing group chats in ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2025-11-13T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing GPT-5.1 for developers",
+    "source": "OpenAI Blog",
+    "date": "2025-11-13T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Neuro drives national retail wins with ChatGPT Business",
+    "source": "OpenAI Blog",
+    "date": "2025-11-12T11:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Fighting the New York Times’ invasion of user privacy",
+    "source": "OpenAI Blog",
+    "date": "2025-11-12T06:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "GPT-5.1: A smarter, more conversational ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2025-11-12T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "GPT-5.1 Instant and GPT-5.1 Thinking System Card Addendum",
+    "source": "OpenAI Blog",
+    "date": "2025-11-12T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Free ChatGPT for transitioning U.S. servicemembers and veterans",
+    "source": "OpenAI Blog",
+    "date": "2025-11-10T02:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Understanding prompt injections: a frontier security challenge",
+    "source": "OpenAI Blog",
+    "date": "2025-11-07T11:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Notion’s GPT‑5 rebuild unlocks autonomous AI workflows",
+    "source": "OpenAI Blog",
+    "date": "2025-11-07T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "How BBVA is scaling AI from pilot to practice across the org",
+    "source": "OpenAI Blog",
+    "date": "2025-11-06T09:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "AI progress and recommendations",
+    "source": "OpenAI Blog",
+    "date": "2025-11-06T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing the Teen Safety Blueprint",
+    "source": "OpenAI Blog",
+    "date": "2025-11-06T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "How CRED is tapping AI to deliver premium customer experiences",
+    "source": "OpenAI Blog",
+    "date": "2025-11-05T21:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "How Chime is redefining marketing through AI",
+    "source": "OpenAI Blog",
+    "date": "2025-11-05T15:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "1 million business customers putting AI to work",
+    "source": "OpenAI Blog",
+    "date": "2025-11-05T05:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Brazil’s AI moment is here",
+    "source": "OpenAI Blog",
+    "date": "2025-11-04T15:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing IndQA",
+    "source": "OpenAI Blog",
+    "date": "2025-11-03T22:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "AWS and OpenAI announce multi-year strategic partnership",
+    "source": "OpenAI Blog",
+    "date": "2025-11-03T06:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Expanding Stargate to Michigan",
+    "source": "OpenAI Blog",
+    "date": "2025-10-30T13:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing Aardvark: OpenAI’s agentic security researcher",
+    "source": "OpenAI Blog",
+    "date": "2025-10-30T11:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "How we built OWL, the new architecture behind our ChatGPT-based browser, Atlas",
+    "source": "OpenAI Blog",
+    "date": "2025-10-30T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing gpt-oss-safeguard",
+    "source": "OpenAI Blog",
+    "date": "2025-10-29T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "gpt-oss-safeguard technical report",
+    "source": "OpenAI Blog",
+    "date": "2025-10-29T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Advancing organizational transformation for business innovation",
+    "source": "OpenAI Blog",
+    "date": "2025-10-28T17:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Doppel’s AI defense system stops attacks before they spread",
+    "source": "OpenAI Blog",
+    "date": "2025-10-28T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Built to benefit everyone",
+    "source": "OpenAI Blog",
+    "date": "2025-10-28T06:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "The next chapter of the Microsoft–OpenAI partnership",
+    "source": "OpenAI Blog",
+    "date": "2025-10-28T06:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Seizing the AI opportunity",
+    "source": "OpenAI Blog",
+    "date": "2025-10-27T12:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Strengthening ChatGPT’s responses in sensitive conversations",
+    "source": "OpenAI Blog",
+    "date": "2025-10-27T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Addendum to GPT-5 System Card: Sensitive conversations",
+    "source": "OpenAI Blog",
+    "date": "2025-10-27T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Steuerrecht.com delivers client-ready legal analysis with ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2025-10-27T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI acquires Software Applications Incorporated, maker of Sky",
+    "source": "OpenAI Blog",
+    "date": "2025-10-23T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Consensus accelerates research with GPT-5 and Responses API",
+    "source": "OpenAI Blog",
+    "date": "2025-10-23T09:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Work smarter with your company knowledge in ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2025-10-23T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "AI in South Korea—OpenAI’s Economic Blueprint",
+    "source": "OpenAI Blog",
+    "date": "2025-10-23T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "The next chapter for UK sovereign AI",
+    "source": "OpenAI Blog",
+    "date": "2025-10-22T16:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "AI in Japan—OpenAI’s Japan Economic Blueprint",
+    "source": "OpenAI Blog",
+    "date": "2025-10-22T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Continue your ChatGPT experience beyond WhatsApp",
+    "source": "OpenAI Blog",
+    "date": "2025-10-21T17:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing ChatGPT Atlas, the browser with ChatGPT built in",
+    "source": "OpenAI Blog",
+    "date": "2025-10-21T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Plex Coffee delivers fast, personal service with ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2025-10-15T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Expert Council on Well-Being and AI",
+    "source": "OpenAI Blog",
+    "date": "2025-10-14T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Argentina’s AI opportunity",
+    "source": "OpenAI Blog",
+    "date": "2025-10-14T06:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI and Broadcom announce strategic collaboration to deploy 10 gigawatts of OpenAI-designed AI accelerators",
+    "source": "OpenAI Blog",
+    "date": "2025-10-13T06:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "HYGH speeds development and campaigns with ChatGPT Business",
+    "source": "OpenAI Blog",
+    "date": "2025-10-10T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Defining and evaluating political bias in LLMs",
+    "source": "OpenAI Blog",
+    "date": "2025-10-09T13:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "HiBob turns 2,500 GPTs into product and team growth",
+    "source": "OpenAI Blog",
+    "date": "2025-10-08T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Disrupting malicious uses of AI: October 2025",
+    "source": "OpenAI Blog",
+    "date": "2025-10-07T03:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Codex is now generally available",
+    "source": "OpenAI Blog",
+    "date": "2025-10-06T10:50:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing apps in ChatGPT and the new Apps SDK",
+    "source": "OpenAI Blog",
+    "date": "2025-10-06T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "AMD and OpenAI announce strategic partnership to deploy 6 gigawatts of AMD GPUs",
+    "source": "OpenAI Blog",
+    "date": "2025-10-06T06:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Accelerating AI adoption in Europe",
+    "source": "OpenAI Blog",
+    "date": "2025-10-06T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing AgentKit, new Evals, and RFT for agents",
+    "source": "OpenAI Blog",
+    "date": "2025-10-06T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "With GPT-5, Wrtn builds lifestyle AI for millions in Korea",
+    "source": "OpenAI Blog",
+    "date": "2025-10-02T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI announces strategic collaboration with Japan’s Digital Agency",
+    "source": "OpenAI Blog",
+    "date": "2025-10-02T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Samsung and SK join OpenAI’s Stargate initiative to advance global AI infrastructure",
+    "source": "OpenAI Blog",
+    "date": "2025-10-01T03:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Launching Sora responsibly",
+    "source": "OpenAI Blog",
+    "date": "2025-09-30T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Sora 2 System Card",
+    "source": "OpenAI Blog",
+    "date": "2025-09-30T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Sora 2 is here",
+    "source": "OpenAI Blog",
+    "date": "2025-09-30T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Converting inbound leads into customers at OpenAI",
+    "source": "OpenAI Blog",
+    "date": "2025-09-29T13:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Driving sales productivity and customer success at OpenAI",
+    "source": "OpenAI Blog",
+    "date": "2025-09-29T13:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Building OpenAI with OpenAI",
+    "source": "OpenAI Blog",
+    "date": "2025-09-29T13:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Turning contracts into searchable data at OpenAI",
+    "source": "OpenAI Blog",
+    "date": "2025-09-29T13:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Empowering teams to unlock insights faster at OpenAI",
+    "source": "OpenAI Blog",
+    "date": "2025-09-29T13:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Improving support with every interaction at OpenAI",
+    "source": "OpenAI Blog",
+    "date": "2025-09-29T13:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing parental controls",
+    "source": "OpenAI Blog",
+    "date": "2025-09-29T03:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Combating online child sexual exploitation & abuse",
+    "source": "OpenAI Blog",
+    "date": "2025-09-29T03:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol",
+    "source": "OpenAI Blog",
+    "date": "2025-09-29T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Partnering with AARP to help keep older adults safe online",
+    "source": "OpenAI Blog",
+    "date": "2025-09-26T06:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "More ways to work with your team and tools in ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2025-09-25T11:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Measuring the performance of our models on real-world tasks",
+    "source": "OpenAI Blog",
+    "date": "2025-09-25T09:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing ChatGPT Pulse",
+    "source": "OpenAI Blog",
+    "date": "2025-09-25T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "ENEOS Materials brings ChatGPT Enterprise to manufacturing",
+    "source": "OpenAI Blog",
+    "date": "2025-09-24T17:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "SAP and OpenAI partner to launch sovereign ‘OpenAI for Germany’",
+    "source": "OpenAI Blog",
+    "date": "2025-09-24T04:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI, Oracle, and SoftBank expand Stargate with five new AI datacenter sites",
+    "source": "OpenAI Blog",
+    "date": "2025-09-23T14:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "CNA is transforming its newsroom with AI",
+    "source": "OpenAI Blog",
+    "date": "2025-09-22T17:17:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "SchoolAI builds an AI platform that empowers teachers",
+    "source": "OpenAI Blog",
+    "date": "2025-09-22T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI and NVIDIA announce strategic partnership to deploy 10 gigawatts of NVIDIA systems",
+    "source": "OpenAI Blog",
+    "date": "2025-09-22T08:45:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Detecting and reducing scheming in AI models",
+    "source": "OpenAI Blog",
+    "date": "2025-09-17T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Teen safety, freedom, and privacy",
+    "source": "OpenAI Blog",
+    "date": "2025-09-16T06:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Building towards age prediction",
+    "source": "OpenAI Blog",
+    "date": "2025-09-16T06:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing upgrades to Codex",
+    "source": "OpenAI Blog",
+    "date": "2025-09-15T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "How people are using ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2025-09-15T03:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Addendum to GPT-5 system card: GPT-5-Codex",
+    "source": "OpenAI Blog",
+    "date": "2025-09-15T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Working with US CAISI and UK AISI to build more secure AI systems",
+    "source": "OpenAI Blog",
+    "date": "2025-09-12T12:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Statement on OpenAI’s Nonprofit and PBC",
+    "source": "OpenAI Blog",
+    "date": "2025-09-11T14:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "A joint statement from OpenAI and Microsoft",
+    "source": "OpenAI Blog",
+    "date": "2025-09-11T14:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "SafetyKit scales risk agents with OpenAI’s most capable models",
+    "source": "OpenAI Blog",
+    "date": "2025-09-09T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "A People-First AI Fund: $50M to support nonprofits",
+    "source": "OpenAI Blog",
+    "date": "2025-09-08T14:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Why language models hallucinate",
+    "source": "OpenAI Blog",
+    "date": "2025-09-05T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "GPT-5 bio bug bounty call",
+    "source": "OpenAI Blog",
+    "date": "2025-09-05T08:45:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI and Greek Government launch ‘OpenAI for Greece’",
+    "source": "OpenAI Blog",
+    "date": "2025-09-05T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Expanding economic opportunity with AI",
+    "source": "OpenAI Blog",
+    "date": "2025-09-04T11:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Vijaye Raji to become CTO of Applications with acquisition of Statsig",
+    "source": "OpenAI Blog",
+    "date": "2025-09-02T11:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Building more helpful ChatGPT experiences for everyone",
+    "source": "OpenAI Blog",
+    "date": "2025-09-02T04:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing gpt-realtime and Realtime API updates",
+    "source": "OpenAI Blog",
+    "date": "2025-08-28T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Supporting nonprofit and community innovation",
+    "source": "OpenAI Blog",
+    "date": "2025-08-28T05:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Collective alignment: public input on our Model Spec",
+    "source": "OpenAI Blog",
+    "date": "2025-08-27T13:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI and Anthropic share findings from a joint safety evaluation",
+    "source": "OpenAI Blog",
+    "date": "2025-08-27T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Announcing the OpenAI Learning Accelerator",
+    "source": "OpenAI Blog",
+    "date": "2025-08-25T06:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Accelerating life sciences research",
+    "source": "OpenAI Blog",
+    "date": "2025-08-22T08:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Scaling domain expertise in complex, regulated domains",
+    "source": "OpenAI Blog",
+    "date": "2025-08-21T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Mixi reimagines communication with ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2025-08-20T17:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Q&A with DoorDash’s CPO, Mariana Garavaglia",
+    "source": "OpenAI Blog",
+    "date": "2025-08-18T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Scaling accounting capacity with OpenAI",
+    "source": "OpenAI Blog",
+    "date": "2025-08-12T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI’s letter to Governor Newsom on harmonized regulation",
+    "source": "OpenAI Blog",
+    "date": "2025-08-12T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing GPT-5 for developers",
+    "source": "OpenAI Blog",
+    "date": "2025-08-07T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "GPT-5 and the new era of work",
+    "source": "OpenAI Blog",
+    "date": "2025-08-07T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Coding and design with GPT-5",
+    "source": "OpenAI Blog",
+    "date": "2025-08-07T00:03:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Creative writing with GPT-5",
+    "source": "OpenAI Blog",
+    "date": "2025-08-07T00:02:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Medical research with GPT-5",
+    "source": "OpenAI Blog",
+    "date": "2025-08-07T00:01:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "From hard refusals to safe-completions: toward output-centric safety training",
+    "source": "OpenAI Blog",
+    "date": "2025-08-07T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "GPT-5 System Card",
+    "source": "OpenAI Blog",
+    "date": "2025-08-07T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "How Cursor uses GPT-5",
+    "source": "OpenAI Blog",
+    "date": "2025-08-07T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "How Amgen uses GPT-5",
+    "source": "OpenAI Blog",
+    "date": "2025-08-07T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing GPT-5",
+    "source": "OpenAI Blog",
+    "date": "2025-08-07T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "First look at GPT-5",
+    "source": "OpenAI Blog",
+    "date": "2025-08-07T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Providing ChatGPT to the Entire U.S. Federal Workforce",
+    "source": "OpenAI Blog",
+    "date": "2025-08-06T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing gpt-oss",
+    "source": "OpenAI Blog",
+    "date": "2025-08-05T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "gpt-oss-120b & gpt-oss-20b Model Card",
+    "source": "OpenAI Blog",
+    "date": "2025-08-05T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Open Weights and AI for All",
+    "source": "OpenAI Blog",
+    "date": "2025-08-05T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Estimating worst case frontier risks of open weight LLMs",
+    "source": "OpenAI Blog",
+    "date": "2025-08-05T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "What we’re optimizing ChatGPT for",
+    "source": "OpenAI Blog",
+    "date": "2025-08-04T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Figma uses AI to transform digital design",
+    "source": "OpenAI Blog",
+    "date": "2025-08-01T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing Stargate Norway",
+    "source": "OpenAI Blog",
+    "date": "2025-07-31T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Three lessons for creating a sustainable AI advantage",
+    "source": "OpenAI Blog",
+    "date": "2025-07-30T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing study mode in ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2025-07-29T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Resolving digital threats 100x faster with OpenAI",
+    "source": "OpenAI Blog",
+    "date": "2025-07-24T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Announcing OpenAI DevDay 2025",
+    "source": "OpenAI Blog",
+    "date": "2025-07-23T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Model ML is helping financial firms rebuild with AI from the ground up",
+    "source": "OpenAI Blog",
+    "date": "2025-07-23T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Pioneering an AI clinical copilot with Penda Health",
+    "source": "OpenAI Blog",
+    "date": "2025-07-22T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Stargate advances with 4.5 GW partnership with Oracle",
+    "source": "OpenAI Blog",
+    "date": "2025-07-22T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI’s new economic analysis",
+    "source": "OpenAI Blog",
+    "date": "2025-07-22T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI and UK Government announce strategic partnership to deliver AI-driven growth",
+    "source": "OpenAI Blog",
+    "date": "2025-07-21T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "AI as the greatest source of empowerment for all",
+    "source": "OpenAI Blog",
+    "date": "2025-07-21T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "A $50 million fund to build with communities",
+    "source": "OpenAI Blog",
+    "date": "2025-07-18T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "ChatGPT agent System Card",
+    "source": "OpenAI Blog",
+    "date": "2025-07-17T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing ChatGPT agent",
+    "source": "OpenAI Blog",
+    "date": "2025-07-17T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Statement from the OpenAI Board of Directors on the Nonprofit Commission Report",
+    "source": "OpenAI Blog",
+    "date": "2025-07-17T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI nonprofit jam",
+    "source": "OpenAI Blog",
+    "date": "2025-07-17T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Agent bio bug bounty call",
+    "source": "OpenAI Blog",
+    "date": "2025-07-17T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Invideo AI uses OpenAI models to create videos 10x faster",
+    "source": "OpenAI Blog",
+    "date": "2025-07-17T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Intellectual freedom by design",
+    "source": "OpenAI Blog",
+    "date": "2025-07-15T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "The EU Code of Practice and future of AI in Europe",
+    "source": "OpenAI Blog",
+    "date": "2025-07-11T09:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Sam & Jony",
+    "source": "OpenAI Blog",
+    "date": "2025-07-09T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Working with 400,000 teachers to shape the future of AI in schools",
+    "source": "OpenAI Blog",
+    "date": "2025-07-08T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "No-code personal agents, powered by GPT-4.1 and Realtime API",
+    "source": "OpenAI Blog",
+    "date": "2025-07-01T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "AI in Australia—OpenAI’s Economic Blueprint",
+    "source": "OpenAI Blog",
+    "date": "2025-06-30T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Customizable, no-code voice agent automation with GPT-4o",
+    "source": "OpenAI Blog",
+    "date": "2025-06-26T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Driving scalable growth with OpenAI o3, GPT-4.1, and CUA",
+    "source": "OpenAI Blog",
+    "date": "2025-06-24T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Toward understanding and preventing misalignment generalization",
+    "source": "OpenAI Blog",
+    "date": "2025-06-18T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Preparing for future AI risks in biology",
+    "source": "OpenAI Blog",
+    "date": "2025-06-18T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing OpenAI for Government",
+    "source": "OpenAI Blog",
+    "date": "2025-06-16T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Bringing the magic of AI to Mattel’s iconic brands",
+    "source": "OpenAI Blog",
+    "date": "2025-06-12T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Scaling security with responsible disclosure",
+    "source": "OpenAI Blog",
+    "date": "2025-06-09T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "How we’re responding to The New York Times’ data demands in order to protect user privacy",
+    "source": "OpenAI Blog",
+    "date": "2025-06-05T16:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Disrupting malicious uses of AI: June 2025",
+    "source": "OpenAI Blog",
+    "date": "2025-06-05T02:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Creating websites in minutes with AI Website Builder",
+    "source": "OpenAI Blog",
+    "date": "2025-05-29T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Addendum to OpenAI o3 and o4-mini system card: OpenAI o3 Operator",
+    "source": "OpenAI Blog",
+    "date": "2025-05-23T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Deutschland",
+    "source": "OpenAI Blog",
+    "date": "2025-05-22T23:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Shipping code faster with o3, o4-mini, and GPT-4.1",
+    "source": "OpenAI Blog",
+    "date": "2025-05-22T10:25:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing Stargate UAE",
+    "source": "OpenAI Blog",
+    "date": "2025-05-22T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "New tools and features in the Responses API",
+    "source": "OpenAI Blog",
+    "date": "2025-05-21T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing Codex",
+    "source": "OpenAI Blog",
+    "date": "2025-05-16T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Addendum to o3 and o4-mini system card: Codex",
+    "source": "OpenAI Blog",
+    "date": "2025-05-16T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "AI powers Expedia’s marketing evolution",
+    "source": "OpenAI Blog",
+    "date": "2025-05-14T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing HealthBench",
+    "source": "OpenAI Blog",
+    "date": "2025-05-12T10:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Expands Leadership with Fidji Simo",
+    "source": "OpenAI Blog",
+    "date": "2025-05-07T21:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI’s response to the Department of Energy on AI infrastructure",
+    "source": "OpenAI Blog",
+    "date": "2025-05-07T18:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing data residency in Asia",
+    "source": "OpenAI Blog",
+    "date": "2025-05-07T18:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "The San Antonio Spurs use ChatGPT to scale impact on and off the court",
+    "source": "OpenAI Blog",
+    "date": "2025-05-07T09:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Lowe’s puts project expertise into every hand",
+    "source": "OpenAI Blog",
+    "date": "2025-05-07T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing OpenAI for Countries",
+    "source": "OpenAI Blog",
+    "date": "2025-05-07T03:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing AI stories: daily benefits shine a light on bigger opportunities",
+    "source": "OpenAI Blog",
+    "date": "2025-05-06T10:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "AI helps John Deere transform agriculture",
+    "source": "OpenAI Blog",
+    "date": "2025-05-06T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Evolving OpenAI’s structure",
+    "source": "OpenAI Blog",
+    "date": "2025-05-05T11:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Lowe’s leverages AI to power home improvement retail",
+    "source": "OpenAI Blog",
+    "date": "2025-05-05T05:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Sycophancy in GPT-4o: what happened and what we’re doing about it",
+    "source": "OpenAI Blog",
+    "date": "2025-04-29T18:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "New in ChatGPT for Business: April 2025",
+    "source": "OpenAI Blog",
+    "date": "2025-04-24T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing our latest image generation model in the API",
+    "source": "OpenAI Blog",
+    "date": "2025-04-23T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Speak is personalizing language learning with AI",
+    "source": "OpenAI Blog",
+    "date": "2025-04-22T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "The Washington Post partners with OpenAI on search content",
+    "source": "OpenAI Blog",
+    "date": "2025-04-22T06:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Thinking with images",
+    "source": "OpenAI Blog",
+    "date": "2025-04-16T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI o3 and o4-mini System Card",
+    "source": "OpenAI Blog",
+    "date": "2025-04-16T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing OpenAI o3 and o4-mini",
+    "source": "OpenAI Blog",
+    "date": "2025-04-16T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI announces nonprofit commission advisors",
+    "source": "OpenAI Blog",
+    "date": "2025-04-15T13:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Our updated Preparedness Framework",
+    "source": "OpenAI Blog",
+    "date": "2025-04-15T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing GPT-4.1 in the API",
+    "source": "OpenAI Blog",
+    "date": "2025-04-14T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "BrowseComp: a benchmark for browsing agents",
+    "source": "OpenAI Blog",
+    "date": "2025-04-10T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Pioneers Program",
+    "source": "OpenAI Blog",
+    "date": "2025-04-09T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Canva enables creativity with AI",
+    "source": "OpenAI Blog",
+    "date": "2025-04-07T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI’s EU Economic Blueprint",
+    "source": "OpenAI Blog",
+    "date": "2025-04-07T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "New commission to provide insight as OpenAI builds the world’s best-equipped nonprofit",
+    "source": "OpenAI Blog",
+    "date": "2025-04-02T12:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "PaperBench: Evaluating AI’s Ability to Replicate AI Research",
+    "source": "OpenAI Blog",
+    "date": "2025-04-02T10:15:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Our response to the UK’s copyright consultation",
+    "source": "OpenAI Blog",
+    "date": "2025-04-02T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "New funding to build towards AGI",
+    "source": "OpenAI Blog",
+    "date": "2025-03-31T15:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Moving from intent-based bots to proactive AI agents",
+    "source": "OpenAI Blog",
+    "date": "2025-03-27T09:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Security on the path to AGI",
+    "source": "OpenAI Blog",
+    "date": "2025-03-26T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing 4o Image Generation",
+    "source": "OpenAI Blog",
+    "date": "2025-03-25T11:05:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Addendum to GPT-4o System Card: 4o image generation",
+    "source": "OpenAI Blog",
+    "date": "2025-03-25T11:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Automating 90% of finance and legal work with agents",
+    "source": "OpenAI Blog",
+    "date": "2025-03-25T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Scaling the OpenAI Academy",
+    "source": "OpenAI Blog",
+    "date": "2025-03-25T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Leadership updates",
+    "source": "OpenAI Blog",
+    "date": "2025-03-24T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Early methods for studying affective use and emotional well-being on ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2025-03-21T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Personalizing travel at scale with OpenAI",
+    "source": "OpenAI Blog",
+    "date": "2025-03-20T23:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing next-generation audio models in the API",
+    "source": "OpenAI Blog",
+    "date": "2025-03-20T11:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "EliseAI improves housing and healthcare efficiency with AI",
+    "source": "OpenAI Blog",
+    "date": "2025-03-18T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "New in ChatGPT for Business: March 2025",
+    "source": "OpenAI Blog",
+    "date": "2025-03-18T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "The court rejects Elon’s latest attempt to slow OpenAI down",
+    "source": "OpenAI Blog",
+    "date": "2025-03-14T09:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI’s proposals for the U.S. AI Action Plan",
+    "source": "OpenAI Blog",
+    "date": "2025-03-13T03:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Driving growth and ‘WOW’ moments with OpenAI",
+    "source": "OpenAI Blog",
+    "date": "2025-03-12T18:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "New tools for building agents",
+    "source": "OpenAI Blog",
+    "date": "2025-03-11T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Detecting misbehavior in frontier reasoning models",
+    "source": "OpenAI Blog",
+    "date": "2025-03-10T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Nubank elevates customer experiences with OpenAI",
+    "source": "OpenAI Blog",
+    "date": "2025-03-07T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Accelerating engineering cycles 20% with OpenAI",
+    "source": "OpenAI Blog",
+    "date": "2025-03-06T09:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "LaunchDarkly's approach to AI-powered product management",
+    "source": "OpenAI Blog",
+    "date": "2025-03-04T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing NextGenAI",
+    "source": "OpenAI Blog",
+    "date": "2025-03-04T06:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "1,000 Scientist AI Jam Session",
+    "source": "OpenAI Blog",
+    "date": "2025-02-28T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Supporting sellers with enhanced product listings",
+    "source": "OpenAI Blog",
+    "date": "2025-02-27T14:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI GPT-4.5 System Card",
+    "source": "OpenAI Blog",
+    "date": "2025-02-27T12:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing GPT-4.5",
+    "source": "OpenAI Blog",
+    "date": "2025-02-27T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Building an autonomous financial analyst with o1 and o3-mini",
+    "source": "OpenAI Blog",
+    "date": "2025-02-27T09:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Deep research System Card",
+    "source": "OpenAI Blog",
+    "date": "2025-02-25T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Estonia and OpenAI to bring ChatGPT to schools nationwide",
+    "source": "OpenAI Blog",
+    "date": "2025-02-25T04:15:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Disrupting malicious uses of AI",
+    "source": "OpenAI Blog",
+    "date": "2025-02-21T06:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Uber enables outstanding on-demand experiences with AI",
+    "source": "OpenAI Blog",
+    "date": "2025-02-20T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "College students and ChatGPT adoption in the US",
+    "source": "OpenAI Blog",
+    "date": "2025-02-20T06:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing the SWE-Lancer benchmark",
+    "source": "OpenAI Blog",
+    "date": "2025-02-18T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI and Guardian Media Group launch content partnership",
+    "source": "OpenAI Blog",
+    "date": "2025-02-14T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Fanatics Betting and Gaming uses AI to focus on the big picture",
+    "source": "OpenAI Blog",
+    "date": "2025-02-13T10:01:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Wayfair is shaping the future of retail with AI",
+    "source": "OpenAI Blog",
+    "date": "2025-02-13T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Using OpenAI o1 for financial analysis",
+    "source": "OpenAI Blog",
+    "date": "2025-02-13T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Sharing the latest Model Spec",
+    "source": "OpenAI Blog",
+    "date": "2025-02-12T13:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI partners with Schibsted Media Group",
+    "source": "OpenAI Blog",
+    "date": "2025-02-10T06:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing the Intelligence Age",
+    "source": "OpenAI Blog",
+    "date": "2025-02-09T22:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI at the Paris AI Action Summit",
+    "source": "OpenAI Blog",
+    "date": "2025-02-07T17:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing data residency in Europe",
+    "source": "OpenAI Blog",
+    "date": "2025-02-05T22:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI and the CSU system bring AI to 500,000 students & faculty",
+    "source": "OpenAI Blog",
+    "date": "2025-02-04T11:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Creating nail art with ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2025-02-04T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Catching halibut with ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2025-02-04T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Building a custom math tutor powered by ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2025-02-04T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Understanding complex trends with deep research",
+    "source": "OpenAI Blog",
+    "date": "2025-02-02T16:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing deep research",
+    "source": "OpenAI Blog",
+    "date": "2025-02-02T16:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI o3-mini System Card",
+    "source": "OpenAI Blog",
+    "date": "2025-01-31T11:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI o3-mini",
+    "source": "OpenAI Blog",
+    "date": "2025-01-31T11:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Strengthening America’s AI leadership with the U.S. National Laboratories",
+    "source": "OpenAI Blog",
+    "date": "2025-01-30T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing ChatGPT Gov",
+    "source": "OpenAI Blog",
+    "date": "2025-01-28T06:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Computer-Using Agent",
+    "source": "OpenAI Blog",
+    "date": "2025-01-23T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing Operator",
+    "source": "OpenAI Blog",
+    "date": "2025-01-23T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Operator System Card",
+    "source": "OpenAI Blog",
+    "date": "2025-01-23T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Bertelsmann powers creativity and productivity with OpenAI",
+    "source": "OpenAI Blog",
+    "date": "2025-01-22T17:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Trading inference-time compute for adversarial robustness",
+    "source": "OpenAI Blog",
+    "date": "2025-01-22T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Stargate Infrastructure",
+    "source": "OpenAI Blog",
+    "date": "2025-01-21T13:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "The power of personalized AI",
+    "source": "OpenAI Blog",
+    "date": "2025-01-17T13:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Partnering with Axios expands OpenAI’s work with the news industry",
+    "source": "OpenAI Blog",
+    "date": "2025-01-15T03:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Deliberative alignment: reasoning enables safer language models",
+    "source": "OpenAI Blog",
+    "date": "2024-12-20T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI o1 and new tools for developers",
+    "source": "OpenAI Blog",
+    "date": "2024-12-17T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Elon Musk wanted an OpenAI for-profit",
+    "source": "OpenAI Blog",
+    "date": "2024-12-13T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Boosting the customer retail experience with GPT-4o mini",
+    "source": "OpenAI Blog",
+    "date": "2024-12-11T06:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Sora is here",
+    "source": "OpenAI Blog",
+    "date": "2024-12-09T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Animator Lyndon Barrois creates new worlds with Sora",
+    "source": "OpenAI Blog",
+    "date": "2024-12-09T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Minne Atairu & Sora",
+    "source": "OpenAI Blog",
+    "date": "2024-12-09T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Sora System Card",
+    "source": "OpenAI Blog",
+    "date": "2024-12-09T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Vallée Duhamel & Sora",
+    "source": "OpenAI Blog",
+    "date": "2024-12-09T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Put AI to work for your product team",
+    "source": "OpenAI Blog",
+    "date": "2024-12-09T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing ChatGPT Pro",
+    "source": "OpenAI Blog",
+    "date": "2024-12-05T10:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI o1 System Card",
+    "source": "OpenAI Blog",
+    "date": "2024-12-05T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI and Future partner on specialist content",
+    "source": "OpenAI Blog",
+    "date": "2024-12-04T23:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Shaping the future of financial services",
+    "source": "OpenAI Blog",
+    "date": "2024-12-04T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Advancing red teaming with people and AI",
+    "source": "OpenAI Blog",
+    "date": "2024-11-21T10:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Empowering a global org with ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2024-11-21T05:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Building smarter maps with GPT-4o vision fine-tuning",
+    "source": "OpenAI Blog",
+    "date": "2024-11-20T17:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Rox goes “all in” on OpenAI",
+    "source": "OpenAI Blog",
+    "date": "2024-11-19T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI en France",
+    "source": "OpenAI Blog",
+    "date": "2024-11-15T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "A Student’s Guide to Writing with ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2024-11-13T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Data-driven beauty and creativity with ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2024-11-13T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI’s comments to the NTIA on data center growth, resilience, and security",
+    "source": "OpenAI Blog",
+    "date": "2024-11-04T12:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing ChatGPT search",
+    "source": "OpenAI Blog",
+    "date": "2024-10-31T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Promega’s top-down adoption of ChatGPT accelerates manufacturing, sales, and marketing",
+    "source": "OpenAI Blog",
+    "date": "2024-10-31T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Put AI to work for marketing teams",
+    "source": "OpenAI Blog",
+    "date": "2024-10-31T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing SimpleQA",
+    "source": "OpenAI Blog",
+    "date": "2024-10-30T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Delivering high-performance customer support",
+    "source": "OpenAI Blog",
+    "date": "2024-10-29T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI’s approach to AI and national security",
+    "source": "OpenAI Blog",
+    "date": "2024-10-24T14:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Simplifying, stabilizing, and scaling continuous-time consistency models",
+    "source": "OpenAI Blog",
+    "date": "2024-10-23T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI appoints Scott Schools as Chief Compliance Officer",
+    "source": "OpenAI Blog",
+    "date": "2024-10-22T10:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI and the Lenfest Institute AI Collaborative and Fellowship program",
+    "source": "OpenAI Blog",
+    "date": "2024-10-22T06:05:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Solving complex problems with OpenAI o1 models",
+    "source": "OpenAI Blog",
+    "date": "2024-10-17T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Evaluating fairness in ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2024-10-15T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+    "source": "OpenAI Blog",
+    "date": "2024-10-10T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "An update on disrupting deceptive uses of AI",
+    "source": "OpenAI Blog",
+    "date": "2024-10-09T03:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI and Hearst Content Partnership",
+    "source": "OpenAI Blog",
+    "date": "2024-10-08T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing canvas, a new way to write and code with ChatGPT.",
+    "source": "OpenAI Blog",
+    "date": "2024-10-03T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "New funding to scale the benefits of AI",
+    "source": "OpenAI Blog",
+    "date": "2024-10-02T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing the Realtime API",
+    "source": "OpenAI Blog",
+    "date": "2024-10-01T10:05:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing vision to the fine-tuning API",
+    "source": "OpenAI Blog",
+    "date": "2024-10-01T10:04:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Prompt Caching in the API",
+    "source": "OpenAI Blog",
+    "date": "2024-10-01T10:03:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Model Distillation in the API",
+    "source": "OpenAI Blog",
+    "date": "2024-10-01T10:02:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Creating agent and human collaboration with GPT 4o",
+    "source": "OpenAI Blog",
+    "date": "2024-10-01T09:59:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Put AI to work: Automate and scale financial operations",
+    "source": "OpenAI Blog",
+    "date": "2024-09-30T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Upgrading the Moderation API with our new multimodal moderation model",
+    "source": "OpenAI Blog",
+    "date": "2024-09-26T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Minnesota’s Enterprise Translation Office uses ChatGPT to bridge language gaps",
+    "source": "OpenAI Blog",
+    "date": "2024-09-26T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI and GEDI partner for Italian news content",
+    "source": "OpenAI Blog",
+    "date": "2024-09-26T04:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing Verdi, an AI dev platform powered by GPT-4o",
+    "source": "OpenAI Blog",
+    "date": "2024-09-24T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing the OpenAI Academy",
+    "source": "OpenAI Blog",
+    "date": "2024-09-23T03:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Genmab launches “AI Everywhere”",
+    "source": "OpenAI Blog",
+    "date": "2024-09-19T04:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Using GPT-4 to improve teaching and learning in Brazil",
+    "source": "OpenAI Blog",
+    "date": "2024-09-17T05:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing OpenAI o1",
+    "source": "OpenAI Blog",
+    "date": "2024-09-12T10:03:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Learning to reason with LLMs",
+    "source": "OpenAI Blog",
+    "date": "2024-09-12T10:02:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI o1-mini",
+    "source": "OpenAI Blog",
+    "date": "2024-09-12T10:01:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI o1 Contributions",
+    "source": "OpenAI Blog",
+    "date": "2024-09-12T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI o1 System Card External Testers Acknowledgements",
+    "source": "OpenAI Blog",
+    "date": "2024-09-12T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Economics and reasoning with OpenAI o1",
+    "source": "OpenAI Blog",
+    "date": "2024-09-12T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Decoding genetics with OpenAI o1",
+    "source": "OpenAI Blog",
+    "date": "2024-09-12T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Coding with OpenAI o1",
+    "source": "OpenAI Blog",
+    "date": "2024-09-12T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Answering quantum physics questions with OpenAI o1",
+    "source": "OpenAI Blog",
+    "date": "2024-09-12T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Put AI to work: Lessons from hundreds of successful deployments",
+    "source": "OpenAI Blog",
+    "date": "2024-09-10T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Using GPT-4 to deliver a new customer service standard",
+    "source": "OpenAI Blog",
+    "date": "2024-09-05T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Personalizing education with ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2024-08-26T04:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Fine-tuning GPT-4o webinar",
+    "source": "OpenAI Blog",
+    "date": "2024-08-26T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI partners with Condé Nast",
+    "source": "OpenAI Blog",
+    "date": "2024-08-20T11:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Putting AI to work at Upwork",
+    "source": "OpenAI Blog",
+    "date": "2024-08-20T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Fine-tuning now available for GPT-4o",
+    "source": "OpenAI Blog",
+    "date": "2024-08-20T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Delivering contextual job matching for millions with OpenAI",
+    "source": "OpenAI Blog",
+    "date": "2024-08-15T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Awakening Sleeping Beauties at The Met",
+    "source": "OpenAI Blog",
+    "date": "2024-08-14T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing SWE-bench Verified",
+    "source": "OpenAI Blog",
+    "date": "2024-08-13T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Zico Kolter Joins OpenAI’s Board of Directors",
+    "source": "OpenAI Blog",
+    "date": "2024-08-08T12:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "GPT-4o System Card External Testers Acknowledgements",
+    "source": "OpenAI Blog",
+    "date": "2024-08-08T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "GPT-4o System Card",
+    "source": "OpenAI Blog",
+    "date": "2024-08-08T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Enabling a data-driven workforce",
+    "source": "OpenAI Blog",
+    "date": "2024-08-08T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Pairing data with APIs to unlock customer value",
+    "source": "OpenAI Blog",
+    "date": "2024-08-07T16:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing Structured Outputs in the API",
+    "source": "OpenAI Blog",
+    "date": "2024-08-06T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "A Primer on the EU AI Act: What It Means for AI Providers and Deployers",
+    "source": "OpenAI Blog",
+    "date": "2024-07-30T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "SearchGPT is a prototype of new AI search features",
+    "source": "OpenAI Blog",
+    "date": "2024-07-25T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Improving Model Safety Behavior with Rule-Based Rewards",
+    "source": "OpenAI Blog",
+    "date": "2024-07-24T09:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "GPT-4o mini: advancing cost-efficient intelligence",
+    "source": "OpenAI Blog",
+    "date": "2024-07-18T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "New compliance and administrative tools for ChatGPT Enterprise",
+    "source": "OpenAI Blog",
+    "date": "2024-07-18T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Prover-Verifier Games improve legibility of language model outputs",
+    "source": "OpenAI Blog",
+    "date": "2024-07-17T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI and Los Alamos National Laboratory announce research partnership",
+    "source": "OpenAI Blog",
+    "date": "2024-07-10T06:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Finding GPT-4’s mistakes with GPT-4",
+    "source": "OpenAI Blog",
+    "date": "2024-06-27T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI acquires Rockset",
+    "source": "OpenAI Blog",
+    "date": "2024-06-21T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Empowering defenders through our Cybersecurity Grant Program",
+    "source": "OpenAI Blog",
+    "date": "2024-06-20T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Consistency Models",
+    "source": "OpenAI Blog",
+    "date": "2024-06-20T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Improved Techniques for Training Consistency Models",
+    "source": "OpenAI Blog",
+    "date": "2024-06-20T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Surging developer productivity with custom GPTs",
+    "source": "OpenAI Blog",
+    "date": "2024-06-18T08:45:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Achieving 10x growth with agentic sales prospecting",
+    "source": "OpenAI Blog",
+    "date": "2024-06-18T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Using GPT-4o reasoning to transform cancer care",
+    "source": "OpenAI Blog",
+    "date": "2024-06-17T04:15:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI appoints Retired U.S. Army General Paul M. Nakasone to Board of Directors",
+    "source": "OpenAI Blog",
+    "date": "2024-06-13T14:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI and Apple announce partnership",
+    "source": "OpenAI Blog",
+    "date": "2024-06-10T11:55:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI welcomes Sarah Friar (CFO) and Kevin Weil (CPO)",
+    "source": "OpenAI Blog",
+    "date": "2024-06-10T10:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Expanding on how Voice Engine works and our safety research",
+    "source": "OpenAI Blog",
+    "date": "2024-06-07T17:45:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Improving India’s critical care infrastructure",
+    "source": "OpenAI Blog",
+    "date": "2024-06-06T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Extracting Concepts from GPT-4",
+    "source": "OpenAI Blog",
+    "date": "2024-06-06T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Disrupting deceptive uses of AI by covert influence operations",
+    "source": "OpenAI Blog",
+    "date": "2024-05-30T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI for Education",
+    "source": "OpenAI Blog",
+    "date": "2024-05-30T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing OpenAI for Nonprofits",
+    "source": "OpenAI Blog",
+    "date": "2024-05-30T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Automating customer support agents",
+    "source": "OpenAI Blog",
+    "date": "2024-05-29T09:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "The Newsroom AI Catalyst: a global program with WAN-IFRA",
+    "source": "OpenAI Blog",
+    "date": "2024-05-29T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Enhancing news in ChatGPT with The Atlantic",
+    "source": "OpenAI Blog",
+    "date": "2024-05-29T07:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "A Content and Product Partnership with Vox Media",
+    "source": "OpenAI Blog",
+    "date": "2024-05-29T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Board Forms Safety and Security Committee",
+    "source": "OpenAI Blog",
+    "date": "2024-05-28T03:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "A landmark multi-year global partnership with News Corp",
+    "source": "OpenAI Blog",
+    "date": "2024-05-22T13:15:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI safety practices",
+    "source": "OpenAI Blog",
+    "date": "2024-05-21T06:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "How the voices for ChatGPT were chosen",
+    "source": "OpenAI Blog",
+    "date": "2024-05-19T23:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Improvements to data analysis in ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2024-05-16T15:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI and Reddit Partnership",
+    "source": "OpenAI Blog",
+    "date": "2024-05-16T13:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Creating an AI-powered Magic Studio",
+    "source": "OpenAI Blog",
+    "date": "2024-05-16T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Ilya Sutskever to leave OpenAI, Jakub Pachocki announced as Chief Scientist",
+    "source": "OpenAI Blog",
+    "date": "2024-05-14T18:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Hello GPT-4o",
+    "source": "OpenAI Blog",
+    "date": "2024-05-13T10:05:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Spring Update",
+    "source": "OpenAI Blog",
+    "date": "2024-05-13T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing GPT-4o and more tools to ChatGPT free users",
+    "source": "OpenAI Blog",
+    "date": "2024-05-13T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing the Model Spec",
+    "source": "OpenAI Blog",
+    "date": "2024-05-08T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Our approach to data and AI",
+    "source": "OpenAI Blog",
+    "date": "2024-05-07T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "API Partnership with Stack Overflow",
+    "source": "OpenAI Blog",
+    "date": "2024-05-06T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "We’re bringing the Financial Times’ world-class journalism to ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2024-04-29T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "GPT-4 API general availability and deprecation of older models in the Completions API",
+    "source": "OpenAI Blog",
+    "date": "2024-04-24T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing ChatGPT and Whisper APIs",
+    "source": "OpenAI Blog",
+    "date": "2024-04-24T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing more enterprise-grade features for API customers",
+    "source": "OpenAI Blog",
+    "date": "2024-04-23T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions",
+    "source": "OpenAI Blog",
+    "date": "2024-04-19T19:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing OpenAI Japan",
+    "source": "OpenAI Blog",
+    "date": "2024-04-14T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Klarna's AI assistant does the work of 700 full-time agents",
+    "source": "OpenAI Blog",
+    "date": "2024-04-05T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing improvements to the fine-tuning API and expanding our custom models program",
+    "source": "OpenAI Blog",
+    "date": "2024-04-04T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Customizing models for legal professionals",
+    "source": "OpenAI Blog",
+    "date": "2024-04-02T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Reducing health insurance costs and improving care",
+    "source": "OpenAI Blog",
+    "date": "2024-04-01T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Start using ChatGPT instantly",
+    "source": "OpenAI Blog",
+    "date": "2024-04-01T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Navigating the challenges and opportunities of synthetic voices",
+    "source": "OpenAI Blog",
+    "date": "2024-03-29T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Making education data accessible",
+    "source": "OpenAI Blog",
+    "date": "2024-03-28T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI’s comment to the NTIA on open model weights",
+    "source": "OpenAI Blog",
+    "date": "2024-03-27T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Sora first impressions",
+    "source": "OpenAI Blog",
+    "date": "2024-03-25T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Embedding AI into developer software",
+    "source": "OpenAI Blog",
+    "date": "2024-03-21T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Building a data-driven, efficient culture with AI",
+    "source": "OpenAI Blog",
+    "date": "2024-03-18T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Enterprise-ready trust and safety",
+    "source": "OpenAI Blog",
+    "date": "2024-03-18T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Reimagining the email experience with AI",
+    "source": "OpenAI Blog",
+    "date": "2024-03-18T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Global news partnerships: Le Monde and Prisa Media",
+    "source": "OpenAI Blog",
+    "date": "2024-03-13T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Saving lives with AI health coaching",
+    "source": "OpenAI Blog",
+    "date": "2024-03-13T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI announces new members to board of directors",
+    "source": "OpenAI Blog",
+    "date": "2024-03-08T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Review completed & Altman, Brockman to continue to lead OpenAI",
+    "source": "OpenAI Blog",
+    "date": "2024-03-08T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Improving health literacy and patient well-being",
+    "source": "OpenAI Blog",
+    "date": "2024-03-06T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Sparking a more productive company with ChatGPT Enterprise",
+    "source": "OpenAI Blog",
+    "date": "2024-03-06T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Using AI to improve patient access to clinical trials",
+    "source": "OpenAI Blog",
+    "date": "2024-03-06T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI and Elon Musk",
+    "source": "OpenAI Blog",
+    "date": "2024-03-05T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Video generation models as world simulators",
+    "source": "OpenAI Blog",
+    "date": "2024-02-15T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Disrupting malicious uses of AI by state-affiliated threat actors",
+    "source": "OpenAI Blog",
+    "date": "2024-02-14T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Memory and new controls for ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2024-02-13T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Response to NIST Executive Order on AI",
+    "source": "OpenAI Blog",
+    "date": "2024-02-02T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Building an early warning system for LLM-aided biological threat creation",
+    "source": "OpenAI Blog",
+    "date": "2024-01-31T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "New embedding models and API updates",
+    "source": "OpenAI Blog",
+    "date": "2024-01-25T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Democratic inputs to AI grant program: lessons learned and implementation plans",
+    "source": "OpenAI Blog",
+    "date": "2024-01-16T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "How OpenAI is approaching 2024 worldwide elections",
+    "source": "OpenAI Blog",
+    "date": "2024-01-15T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Building agricultural database for farmers",
+    "source": "OpenAI Blog",
+    "date": "2024-01-12T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing the GPT Store",
+    "source": "OpenAI Blog",
+    "date": "2024-01-10T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing ChatGPT Team",
+    "source": "OpenAI Blog",
+    "date": "2024-01-10T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI and journalism",
+    "source": "OpenAI Blog",
+    "date": "2024-01-08T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Delivering LLM-powered health solutions",
+    "source": "OpenAI Blog",
+    "date": "2024-01-04T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Increasing accuracy of pediatric visit notes",
+    "source": "OpenAI Blog",
+    "date": "2023-12-14T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Practices for Governing Agentic AI Systems",
+    "source": "OpenAI Blog",
+    "date": "2023-12-14T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Superalignment Fast Grants",
+    "source": "OpenAI Blog",
+    "date": "2023-12-14T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Weak-to-strong generalization",
+    "source": "OpenAI Blog",
+    "date": "2023-12-14T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Partnership with Axel Springer to deepen beneficial use of AI in journalism",
+    "source": "OpenAI Blog",
+    "date": "2023-12-13T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Sam Altman returns as CEO, OpenAI has a new initial board",
+    "source": "OpenAI Blog",
+    "date": "2023-11-29T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI announces leadership transition",
+    "source": "OpenAI Blog",
+    "date": "2023-11-17T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Data Partnerships",
+    "source": "OpenAI Blog",
+    "date": "2023-11-09T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing GPTs",
+    "source": "OpenAI Blog",
+    "date": "2023-11-06T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "New models and developer products announced at DevDay",
+    "source": "OpenAI Blog",
+    "date": "2023-11-06T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI’s Approach to Frontier Risk",
+    "source": "OpenAI Blog",
+    "date": "2023-10-26T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Frontier risk and preparedness",
+    "source": "OpenAI Blog",
+    "date": "2023-10-26T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Frontier Model Forum updates",
+    "source": "OpenAI Blog",
+    "date": "2023-10-25T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "DALL·E 3 is now available in ChatGPT Plus and Enterprise",
+    "source": "OpenAI Blog",
+    "date": "2023-10-19T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Building AI-powered apps for business",
+    "source": "OpenAI Blog",
+    "date": "2023-10-11T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Simplifying contract reviews with AI",
+    "source": "OpenAI Blog",
+    "date": "2023-10-11T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Evolving online forms into dynamic data",
+    "source": "OpenAI Blog",
+    "date": "2023-10-11T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "DALL·E 3 system card",
+    "source": "OpenAI Blog",
+    "date": "2023-10-03T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "ChatGPT can now see, hear, and speak",
+    "source": "OpenAI Blog",
+    "date": "2023-09-25T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "GPT-4V(ision) system card",
+    "source": "OpenAI Blog",
+    "date": "2023-09-25T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Red Teaming Network",
+    "source": "OpenAI Blog",
+    "date": "2023-09-19T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing OpenAI Dublin",
+    "source": "OpenAI Blog",
+    "date": "2023-09-13T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Teaching with AI",
+    "source": "OpenAI Blog",
+    "date": "2023-08-31T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing ChatGPT Enterprise",
+    "source": "OpenAI Blog",
+    "date": "2023-08-28T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI partners with Scale to provide support for enterprises fine-tuning models",
+    "source": "OpenAI Blog",
+    "date": "2023-08-24T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "GPT-3.5 Turbo fine-tuning and API updates",
+    "source": "OpenAI Blog",
+    "date": "2023-08-22T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI acquires Global Illumination",
+    "source": "OpenAI Blog",
+    "date": "2023-08-16T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Using GPT-4 for content moderation",
+    "source": "OpenAI Blog",
+    "date": "2023-08-15T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Confidence-Building Measures for Artificial Intelligence: Workshop proceedings",
+    "source": "OpenAI Blog",
+    "date": "2023-08-01T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Frontier Model Forum",
+    "source": "OpenAI Blog",
+    "date": "2023-07-26T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Moving AI governance forward",
+    "source": "OpenAI Blog",
+    "date": "2023-07-21T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Custom instructions for ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2023-07-20T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Partnership with American Journalism Project to support local news",
+    "source": "OpenAI Blog",
+    "date": "2023-07-18T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Accurately analyzing large scale qualitative data",
+    "source": "OpenAI Blog",
+    "date": "2023-07-07T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Frontier AI regulation: Managing emerging risks to public safety",
+    "source": "OpenAI Blog",
+    "date": "2023-07-06T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing OpenAI London",
+    "source": "OpenAI Blog",
+    "date": "2023-06-28T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Testimony before the U.S. Senate",
+    "source": "OpenAI Blog",
+    "date": "2023-06-22T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Function calling and other API updates",
+    "source": "OpenAI Blog",
+    "date": "2023-06-13T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Comment on NTIA AI Accountability Policy",
+    "source": "OpenAI Blog",
+    "date": "2023-06-12T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Cybersecurity Grant Program",
+    "source": "OpenAI Blog",
+    "date": "2023-06-01T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Improving mathematical reasoning with process supervision",
+    "source": "OpenAI Blog",
+    "date": "2023-05-31T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Democratic inputs to AI",
+    "source": "OpenAI Blog",
+    "date": "2023-05-25T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Governance of superintelligence",
+    "source": "OpenAI Blog",
+    "date": "2023-05-22T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing the ChatGPT app for iOS",
+    "source": "OpenAI Blog",
+    "date": "2023-05-18T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Language models can explain neurons in language models",
+    "source": "OpenAI Blog",
+    "date": "2023-05-09T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "New ways to manage your data in ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2023-04-25T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Announcing OpenAI’s Bug Bounty Program",
+    "source": "OpenAI Blog",
+    "date": "2023-04-11T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Our approach to AI safety",
+    "source": "OpenAI Blog",
+    "date": "2023-04-05T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "March 20 ChatGPT outage: Here’s what happened",
+    "source": "OpenAI Blog",
+    "date": "2023-03-24T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "ChatGPT plugins",
+    "source": "OpenAI Blog",
+    "date": "2023-03-23T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "GPTs are GPTs: An early look at the labor market impact potential of large language models",
+    "source": "OpenAI Blog",
+    "date": "2023-03-17T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Transforming visual accessibility",
+    "source": "OpenAI Blog",
+    "date": "2023-03-14T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Preserving languages for the future",
+    "source": "OpenAI Blog",
+    "date": "2023-03-14T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Powering virtual education for the classroom",
+    "source": "OpenAI Blog",
+    "date": "2023-03-14T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Filling crucial language learning gaps",
+    "source": "OpenAI Blog",
+    "date": "2023-03-14T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Planning for AGI and beyond",
+    "source": "OpenAI Blog",
+    "date": "2023-02-24T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "How should AI systems behave, and who should decide?",
+    "source": "OpenAI Blog",
+    "date": "2023-02-16T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing ChatGPT Plus",
+    "source": "OpenAI Blog",
+    "date": "2023-02-01T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "New AI classifier for indicating AI-written text",
+    "source": "OpenAI Blog",
+    "date": "2023-01-31T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI and Microsoft extend partnership",
+    "source": "OpenAI Blog",
+    "date": "2023-01-23T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Forecasting potential misuses of language models for disinformation campaigns and how to reduce risk",
+    "source": "OpenAI Blog",
+    "date": "2023-01-11T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Delivering nuanced insights from customer feedback",
+    "source": "OpenAI Blog",
+    "date": "2023-01-04T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Fine-tuning GPT-3 to scale video creation",
+    "source": "OpenAI Blog",
+    "date": "2023-01-03T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Creating next-gen characters",
+    "source": "OpenAI Blog",
+    "date": "2023-01-01T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "The power of continuous learning",
+    "source": "OpenAI Blog",
+    "date": "2022-12-23T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Point-E: A system for generating 3D point clouds from complex prompts",
+    "source": "OpenAI Blog",
+    "date": "2022-12-16T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "New and improved embedding model",
+    "source": "OpenAI Blog",
+    "date": "2022-12-15T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Discovering the minutiae of backend systems",
+    "source": "OpenAI Blog",
+    "date": "2022-12-08T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2022-11-30T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "DALL·E API now available in public beta",
+    "source": "OpenAI Blog",
+    "date": "2022-11-03T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Scaling laws for reward model overoptimization",
+    "source": "OpenAI Blog",
+    "date": "2022-10-19T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "DALL·E now available without waitlist",
+    "source": "OpenAI Blog",
+    "date": "2022-09-28T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing Whisper",
+    "source": "OpenAI Blog",
+    "date": "2022-09-21T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "DALL·E: Introducing outpainting",
+    "source": "OpenAI Blog",
+    "date": "2022-08-31T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Our approach to alignment research",
+    "source": "OpenAI Blog",
+    "date": "2022-08-24T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "New and improved content moderation tooling",
+    "source": "OpenAI Blog",
+    "date": "2022-08-10T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Efficient training of language models to fill in the middle",
+    "source": "OpenAI Blog",
+    "date": "2022-07-28T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "A hazard analysis framework for code synthesis large language models",
+    "source": "OpenAI Blog",
+    "date": "2022-07-25T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "DALL·E now available in beta",
+    "source": "OpenAI Blog",
+    "date": "2022-07-20T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Reducing bias and improving safety in DALL·E 2",
+    "source": "OpenAI Blog",
+    "date": "2022-07-18T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "DALL·E 2: Extending creativity",
+    "source": "OpenAI Blog",
+    "date": "2022-07-14T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "DALL·E 2 pre-training mitigations",
+    "source": "OpenAI Blog",
+    "date": "2022-06-28T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Learning to play Minecraft with Video PreTraining",
+    "source": "OpenAI Blog",
+    "date": "2022-06-23T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Evolution through large models",
+    "source": "OpenAI Blog",
+    "date": "2022-06-17T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "AI-written critiques help humans notice flaws",
+    "source": "OpenAI Blog",
+    "date": "2022-06-13T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Techniques for training large neural networks",
+    "source": "OpenAI Blog",
+    "date": "2022-06-09T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Teaching models to express their uncertainty in words",
+    "source": "OpenAI Blog",
+    "date": "2022-05-28T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Powering next generation applications with OpenAI Codex",
+    "source": "OpenAI Blog",
+    "date": "2022-05-24T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "DALL·E 2 research preview update",
+    "source": "OpenAI Blog",
+    "date": "2022-05-18T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI leadership team update",
+    "source": "OpenAI Blog",
+    "date": "2022-05-05T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Hierarchical text-conditional image generation with CLIP latents",
+    "source": "OpenAI Blog",
+    "date": "2022-04-13T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Measuring Goodhart’s law",
+    "source": "OpenAI Blog",
+    "date": "2022-04-13T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "New GPT-3 capabilities: Edit & insert",
+    "source": "OpenAI Blog",
+    "date": "2022-03-15T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "A research agenda for assessing the economic impacts of code generation models",
+    "source": "OpenAI Blog",
+    "date": "2022-03-03T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Economic impacts research at OpenAI",
+    "source": "OpenAI Blog",
+    "date": "2022-03-03T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Lessons learned on language model safety and misuse",
+    "source": "OpenAI Blog",
+    "date": "2022-03-03T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Aligning language models to follow instructions",
+    "source": "OpenAI Blog",
+    "date": "2022-01-27T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing text and code embeddings",
+    "source": "OpenAI Blog",
+    "date": "2022-01-25T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Text and code embeddings by contrastive pre-training",
+    "source": "OpenAI Blog",
+    "date": "2022-01-24T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "WebGPT: Improving the factual accuracy of language models through web browsing",
+    "source": "OpenAI Blog",
+    "date": "2021-12-16T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Customizing GPT-3 for your application",
+    "source": "OpenAI Blog",
+    "date": "2021-12-14T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Residency",
+    "source": "OpenAI Blog",
+    "date": "2021-11-30T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI’s API now available with no waitlist",
+    "source": "OpenAI Blog",
+    "date": "2021-11-18T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Solving math word problems",
+    "source": "OpenAI Blog",
+    "date": "2021-10-29T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Summarizing books with human feedback",
+    "source": "OpenAI Blog",
+    "date": "2021-09-23T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "TruthfulQA: Measuring how models mimic human falsehoods",
+    "source": "OpenAI Blog",
+    "date": "2021-09-08T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Codex",
+    "source": "OpenAI Blog",
+    "date": "2021-08-10T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing Triton: Open-source GPU programming for neural networks",
+    "source": "OpenAI Blog",
+    "date": "2021-07-28T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Evaluating large language models trained on code",
+    "source": "OpenAI Blog",
+    "date": "2021-07-07T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Improving language model behavior by training on a curated dataset",
+    "source": "OpenAI Blog",
+    "date": "2021-06-10T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Scholars 2021: Final projects",
+    "source": "OpenAI Blog",
+    "date": "2021-05-10T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Will Hurd joins OpenAI’s board of directors",
+    "source": "OpenAI Blog",
+    "date": "2021-05-03T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "GPT-3 powers the next generation of apps",
+    "source": "OpenAI Blog",
+    "date": "2021-03-25T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Multimodal neurons in artificial neural networks",
+    "source": "OpenAI Blog",
+    "date": "2021-03-04T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Understanding the capabilities, limitations, and societal impact of large language models",
+    "source": "OpenAI Blog",
+    "date": "2021-02-04T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Scaling Kubernetes to 7,500 nodes",
+    "source": "OpenAI Blog",
+    "date": "2021-01-25T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "CLIP: Connecting text and images",
+    "source": "OpenAI Blog",
+    "date": "2021-01-05T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "DALL·E: Creating images from text",
+    "source": "OpenAI Blog",
+    "date": "2021-01-05T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Organizational update from OpenAI",
+    "source": "OpenAI Blog",
+    "date": "2020-12-29T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI licenses GPT-3 technology to Microsoft",
+    "source": "OpenAI Blog",
+    "date": "2020-09-22T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Generative language modeling for automated theorem proving",
+    "source": "OpenAI Blog",
+    "date": "2020-09-07T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Learning to summarize with human feedback",
+    "source": "OpenAI Blog",
+    "date": "2020-09-04T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Scholars 2020: Final projects",
+    "source": "OpenAI Blog",
+    "date": "2020-07-09T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Procgen and MineRL Competitions",
+    "source": "OpenAI Blog",
+    "date": "2020-06-20T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Image GPT",
+    "source": "OpenAI Blog",
+    "date": "2020-06-17T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI API",
+    "source": "OpenAI Blog",
+    "date": "2020-06-11T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Language models are few-shot learners",
+    "source": "OpenAI Blog",
+    "date": "2020-05-28T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "AI and efficiency",
+    "source": "OpenAI Blog",
+    "date": "2020-05-05T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Improving verifiability in AI development",
+    "source": "OpenAI Blog",
+    "date": "2020-04-16T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Microscope",
+    "source": "OpenAI Blog",
+    "date": "2020-04-14T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI standardizes on PyTorch",
+    "source": "OpenAI Blog",
+    "date": "2020-01-30T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Scaling laws for neural language models",
+    "source": "OpenAI Blog",
+    "date": "2020-01-23T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Dota 2 with large scale deep reinforcement learning",
+    "source": "OpenAI Blog",
+    "date": "2019-12-13T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Deep double descent",
+    "source": "OpenAI Blog",
+    "date": "2019-12-05T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Procgen Benchmark",
+    "source": "OpenAI Blog",
+    "date": "2019-12-03T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Benchmarking safe exploration in deep reinforcement learning",
+    "source": "OpenAI Blog",
+    "date": "2019-11-21T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Safety Gym",
+    "source": "OpenAI Blog",
+    "date": "2019-11-21T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "GPT-2: 1.5B release",
+    "source": "OpenAI Blog",
+    "date": "2019-11-05T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Solving Rubik’s Cube with a robot hand",
+    "source": "OpenAI Blog",
+    "date": "2019-10-15T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Scholars 2020: Applications open",
+    "source": "OpenAI Blog",
+    "date": "2019-10-11T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Fine-tuning GPT-2 from human preferences",
+    "source": "OpenAI Blog",
+    "date": "2019-09-19T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Emergent tool use from multi-agent interaction",
+    "source": "OpenAI Blog",
+    "date": "2019-09-17T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Testing robustness against unforeseen adversaries",
+    "source": "OpenAI Blog",
+    "date": "2019-08-22T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "GPT-2: 6-month follow-up",
+    "source": "OpenAI Blog",
+    "date": "2019-08-20T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Learning Day",
+    "source": "OpenAI Blog",
+    "date": "2019-08-01T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Microsoft invests in and partners with OpenAI to support us building beneficial AGI",
+    "source": "OpenAI Blog",
+    "date": "2019-07-22T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Why responsible AI development needs cooperation on safety",
+    "source": "OpenAI Blog",
+    "date": "2019-07-10T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Robotics Symposium 2019",
+    "source": "OpenAI Blog",
+    "date": "2019-06-05T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Scholars 2019: Final projects",
+    "source": "OpenAI Blog",
+    "date": "2019-05-23T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Fellows Fall 2018: Final projects",
+    "source": "OpenAI Blog",
+    "date": "2019-05-17T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Generative modeling with sparse transformers",
+    "source": "OpenAI Blog",
+    "date": "2019-04-23T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Five defeats Dota 2 world champions",
+    "source": "OpenAI Blog",
+    "date": "2019-04-15T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Five Finals",
+    "source": "OpenAI Blog",
+    "date": "2019-03-26T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Implicit generation and generalization methods for energy-based models",
+    "source": "OpenAI Blog",
+    "date": "2019-03-21T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Scholars 2019: Meet our Scholars",
+    "source": "OpenAI Blog",
+    "date": "2019-03-13T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI LP",
+    "source": "OpenAI Blog",
+    "date": "2019-03-11T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing Activation Atlases",
+    "source": "OpenAI Blog",
+    "date": "2019-03-06T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Neural MMO: A massively multiagent game environment",
+    "source": "OpenAI Blog",
+    "date": "2019-03-04T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Spinning Up in Deep RL: Workshop review",
+    "source": "OpenAI Blog",
+    "date": "2019-02-26T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "AI safety needs social scientists",
+    "source": "OpenAI Blog",
+    "date": "2019-02-19T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Better language models and their implications",
+    "source": "OpenAI Blog",
+    "date": "2019-02-14T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Fellows Summer 2018: Final projects",
+    "source": "OpenAI Blog",
+    "date": "2018-12-19T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "How AI training scales",
+    "source": "OpenAI Blog",
+    "date": "2018-12-14T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Quantifying generalization in reinforcement learning",
+    "source": "OpenAI Blog",
+    "date": "2018-12-06T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Spinning Up in Deep RL",
+    "source": "OpenAI Blog",
+    "date": "2018-11-08T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Learning concepts with energy functions",
+    "source": "OpenAI Blog",
+    "date": "2018-11-07T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Plan online, learn offline: Efficient learning and exploration via model-based control",
+    "source": "OpenAI Blog",
+    "date": "2018-11-05T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Reinforcement learning with prediction-based rewards",
+    "source": "OpenAI Blog",
+    "date": "2018-10-31T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Learning complex goals with iterated amplification",
+    "source": "OpenAI Blog",
+    "date": "2018-10-22T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Scholars 2019: Applications open",
+    "source": "OpenAI Blog",
+    "date": "2018-10-11T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Fellows Winter 2019 & Interns Summer 2019",
+    "source": "OpenAI Blog",
+    "date": "2018-10-09T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "FFJORD: Free-form continuous dynamics for scalable reversible generative models",
+    "source": "OpenAI Blog",
+    "date": "2018-10-02T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Scholars 2018: Final projects",
+    "source": "OpenAI Blog",
+    "date": "2018-09-10T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "The International 2018: Results",
+    "source": "OpenAI Blog",
+    "date": "2018-08-23T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Five Benchmark: Results",
+    "source": "OpenAI Blog",
+    "date": "2018-08-06T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Scholars 2018: Meet our Scholars",
+    "source": "OpenAI Blog",
+    "date": "2018-07-25T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Five Benchmark",
+    "source": "OpenAI Blog",
+    "date": "2018-07-18T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Glow: Better reversible generative models",
+    "source": "OpenAI Blog",
+    "date": "2018-07-09T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Learning Montezuma’s Revenge from a single demonstration",
+    "source": "OpenAI Blog",
+    "date": "2018-07-04T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Five",
+    "source": "OpenAI Blog",
+    "date": "2018-06-25T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Improving language understanding with unsupervised learning",
+    "source": "OpenAI Blog",
+    "date": "2018-06-11T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "GamePad: A learning environment for theorem proving",
+    "source": "OpenAI Blog",
+    "date": "2018-06-02T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Fellows Fall 2018",
+    "source": "OpenAI Blog",
+    "date": "2018-05-30T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Gym Retro",
+    "source": "OpenAI Blog",
+    "date": "2018-05-25T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "AI and compute",
+    "source": "OpenAI Blog",
+    "date": "2018-05-16T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "AI safety via debate",
+    "source": "OpenAI Blog",
+    "date": "2018-05-03T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Evolved Policy Gradients",
+    "source": "OpenAI Blog",
+    "date": "2018-04-18T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Gotta Learn Fast: A new benchmark for generalization in RL",
+    "source": "OpenAI Blog",
+    "date": "2018-04-10T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Retro Contest",
+    "source": "OpenAI Blog",
+    "date": "2018-04-05T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Variance reduction for policy gradient with action-dependent factorized baselines",
+    "source": "OpenAI Blog",
+    "date": "2018-03-20T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Report from the OpenAI hackathon",
+    "source": "OpenAI Blog",
+    "date": "2018-03-15T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Reptile: A scalable meta-learning algorithm",
+    "source": "OpenAI Blog",
+    "date": "2018-03-07T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Scholars",
+    "source": "OpenAI Blog",
+    "date": "2018-03-06T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Some considerations on learning to explore via meta-reinforcement learning",
+    "source": "OpenAI Blog",
+    "date": "2018-03-03T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Multi-Goal Reinforcement Learning: Challenging robotics environments and request for research",
+    "source": "OpenAI Blog",
+    "date": "2018-02-26T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Ingredients for robotics research",
+    "source": "OpenAI Blog",
+    "date": "2018-02-26T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI hackathon",
+    "source": "OpenAI Blog",
+    "date": "2018-02-22T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Preparing for malicious uses of AI",
+    "source": "OpenAI Blog",
+    "date": "2018-02-20T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI supporters",
+    "source": "OpenAI Blog",
+    "date": "2018-02-20T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Interpretable machine learning through teaching",
+    "source": "OpenAI Blog",
+    "date": "2018-02-15T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Discovering types for entity disambiguation",
+    "source": "OpenAI Blog",
+    "date": "2018-02-07T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Requests for Research 2.0",
+    "source": "OpenAI Blog",
+    "date": "2018-01-31T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Block-sparse GPU kernels",
+    "source": "OpenAI Blog",
+    "date": "2017-12-06T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Learning sparse neural networks through L₀ regularization",
+    "source": "OpenAI Blog",
+    "date": "2017-12-04T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Learning a hierarchy",
+    "source": "OpenAI Blog",
+    "date": "2017-10-26T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Generalizing from simulation",
+    "source": "OpenAI Blog",
+    "date": "2017-10-19T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Domain randomization and generative models for robotic grasping",
+    "source": "OpenAI Blog",
+    "date": "2017-10-17T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Competitive self-play",
+    "source": "OpenAI Blog",
+    "date": "2017-10-11T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Meta-learning for wrestling",
+    "source": "OpenAI Blog",
+    "date": "2017-10-11T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Learning to model other minds",
+    "source": "OpenAI Blog",
+    "date": "2017-09-14T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Baselines: ACKTR & A2C",
+    "source": "OpenAI Blog",
+    "date": "2017-08-18T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "More on Dota 2",
+    "source": "OpenAI Blog",
+    "date": "2017-08-16T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Gathering human feedback",
+    "source": "OpenAI Blog",
+    "date": "2017-08-03T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Better exploration with parameter noise",
+    "source": "OpenAI Blog",
+    "date": "2017-07-27T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Proximal Policy Optimization",
+    "source": "OpenAI Blog",
+    "date": "2017-07-20T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Robust adversarial inputs",
+    "source": "OpenAI Blog",
+    "date": "2017-07-17T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Teacher–student curriculum learning",
+    "source": "OpenAI Blog",
+    "date": "2017-07-01T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Faster physics in Python",
+    "source": "OpenAI Blog",
+    "date": "2017-06-28T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Learning from human preferences",
+    "source": "OpenAI Blog",
+    "date": "2017-06-13T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Learning to cooperate, compete, and communicate",
+    "source": "OpenAI Blog",
+    "date": "2017-06-08T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Baselines: DQN",
+    "source": "OpenAI Blog",
+    "date": "2017-05-24T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Robots that learn",
+    "source": "OpenAI Blog",
+    "date": "2017-05-16T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Roboschool",
+    "source": "OpenAI Blog",
+    "date": "2017-05-15T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Stochastic Neural Networks for hierarchical reinforcement learning",
+    "source": "OpenAI Blog",
+    "date": "2017-04-10T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Spam detection in the physical world",
+    "source": "OpenAI Blog",
+    "date": "2017-04-01T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Evolution strategies as a scalable alternative to reinforcement learning",
+    "source": "OpenAI Blog",
+    "date": "2017-03-24T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Learning to communicate",
+    "source": "OpenAI Blog",
+    "date": "2017-03-16T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Emergence of grounded compositional language in multi-agent populations",
+    "source": "OpenAI Blog",
+    "date": "2017-03-15T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Prediction and control with temporal segment models",
+    "source": "OpenAI Blog",
+    "date": "2017-03-12T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Attacking machine learning with adversarial examples",
+    "source": "OpenAI Blog",
+    "date": "2017-02-24T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Adversarial attacks on neural network policies",
+    "source": "OpenAI Blog",
+    "date": "2017-02-08T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Team update",
+    "source": "OpenAI Blog",
+    "date": "2017-01-30T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Faulty reward functions in the wild",
+    "source": "OpenAI Blog",
+    "date": "2016-12-21T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Universe",
+    "source": "OpenAI Blog",
+    "date": "2016-12-05T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI and Microsoft",
+    "source": "OpenAI Blog",
+    "date": "2016-11-15T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "#Exploration: A study of count-based exploration for deep reinforcement learning",
+    "source": "OpenAI Blog",
+    "date": "2016-11-15T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "On the quantitative analysis of decoder-based generative models",
+    "source": "OpenAI Blog",
+    "date": "2016-11-14T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "A connection between generative adversarial networks, inverse reinforcement learning, and energy-based models",
+    "source": "OpenAI Blog",
+    "date": "2016-11-11T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "RL²: Fast reinforcement learning via slow reinforcement learning",
+    "source": "OpenAI Blog",
+    "date": "2016-11-09T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Extensions and limitations of the neural GPU",
+    "source": "OpenAI Blog",
+    "date": "2016-11-02T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Semi-supervised knowledge transfer for deep learning from private training data",
+    "source": "OpenAI Blog",
+    "date": "2016-10-18T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Report from the self-organizing conference",
+    "source": "OpenAI Blog",
+    "date": "2016-10-13T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Transfer from simulation to real world through learning deep inverse dynamics model",
+    "source": "OpenAI Blog",
+    "date": "2016-10-11T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Infrastructure for deep learning",
+    "source": "OpenAI Blog",
+    "date": "2016-08-29T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Machine Learning Unconference",
+    "source": "OpenAI Blog",
+    "date": "2016-08-18T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Concrete AI safety problems",
+    "source": "OpenAI Blog",
+    "date": "2016-06-21T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI technical goals",
+    "source": "OpenAI Blog",
+    "date": "2016-06-20T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Generative models",
+    "source": "OpenAI Blog",
+    "date": "2016-06-16T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Team update",
+    "source": "OpenAI Blog",
+    "date": "2016-05-25T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Adversarial training methods for semi-supervised text classification",
+    "source": "OpenAI Blog",
+    "date": "2016-05-25T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "OpenAI Gym Beta",
+    "source": "OpenAI Blog",
+    "date": "2016-04-27T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Weight normalization: A simple reparameterization to accelerate training of deep neural networks",
+    "source": "OpenAI Blog",
+    "date": "2016-02-25T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing OpenAI",
+    "source": "OpenAI Blog",
+    "date": "2015-12-11T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "We’re creating a new satellite imagery map to help protect Brazil’s forests.",
+    "source": "Google AI Blog",
+    "date": "2026-04-01T13:30:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Transform your headphones into a live personal translator on iOS.",
+    "source": "Google AI Blog",
+    "date": "2026-03-26T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Lyria 3 Pro: Create longer tracks in more Google products",
+    "source": "Google AI Blog",
+    "date": "2026-03-25T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Press Start on April: GeForce NOW Brings 10 Games to the Cloud",
+    "source": "NVIDIA Blog",
+    "date": "2026-04-02T13:00:09.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Game On: Five New Titles Now Streaming on GeForce NOW",
+    "source": "NVIDIA Blog",
+    "date": "2026-03-26T13:00:47.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Smooth Moves: 90 Frames-Per-Second Virtual Reality Arrives on GeForce NOW",
+    "source": "NVIDIA Blog",
+    "date": "2026-03-19T13:00:09.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Extending single-minus amplitudes to gravitons",
+    "source": "OpenAI Blog",
+    "date": "2026-03-04T10:00:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "Understanding AI and learning outcomes",
+    "source": "OpenAI Blog",
+    "date": "2026-03-04T00:00:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "How Axios uses AI to help deliver high-impact local journalism",
+    "source": "OpenAI Blog",
+    "date": "2026-03-04T00:00:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
+    "source": "OpenAI Blog",
+    "date": "2026-03-03T10:00:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "GPT-5.3 Instant System Card",
+    "source": "OpenAI Blog",
+    "date": "2026-03-03T10:00:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "Our agreement with the Department of War",
+    "source": "OpenAI Blog",
+    "date": "2026-02-28T12:30:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "Joint Statement from OpenAI and Microsoft",
+    "source": "OpenAI Blog",
+    "date": "2026-02-27T05:30:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "Scaling AI for everyone",
+    "source": "OpenAI Blog",
+    "date": "2026-02-27T05:30:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "OpenAI and Amazon announce strategic partnership",
+    "source": "OpenAI Blog",
+    "date": "2026-02-27T05:30:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
+    "source": "OpenAI Blog",
+    "date": "2026-02-27T05:30:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "An update on our mental health-related work",
+    "source": "OpenAI Blog",
+    "date": "2026-02-27T00:00:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting",
+    "source": "OpenAI Blog",
+    "date": "2026-02-26T10:00:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "OpenAI Codex and Figma launch seamless code-to-design experience",
+    "source": "OpenAI Blog",
+    "date": "2026-02-26T06:00:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "Disrupting malicious uses of AI | February 2026",
+    "source": "OpenAI Blog",
+    "date": "2026-02-25T00:00:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "Arvind KC appointed Chief People Officer",
+    "source": "OpenAI Blog",
+    "date": "2026-02-24T13:40:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "Why we no longer evaluate SWE-bench Verified",
+    "source": "OpenAI Blog",
+    "date": "2026-02-23T11:00:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "OpenAI announces Frontier Alliance Partners",
+    "source": "OpenAI Blog",
+    "date": "2026-02-23T05:30:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "Our First Proof submissions",
+    "source": "OpenAI Blog",
+    "date": "2026-02-20T14:30:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "Advancing independent research on AI alignment",
+    "source": "OpenAI Blog",
+    "date": "2026-02-19T10:00:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "Introducing OpenAI for India",
+    "source": "OpenAI Blog",
+    "date": "2026-02-18T21:00:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "Introducing EVMbench",
+    "source": "OpenAI Blog",
+    "date": "2026-02-18T00:00:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "GPT-5.2 derives a new result in theoretical physics",
+    "source": "OpenAI Blog",
+    "date": "2026-02-13T11:00:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2026-02-13T10:00:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "Scaling social science research",
+    "source": "OpenAI Blog",
+    "date": "2026-02-13T09:00:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "Beyond rate limits: scaling access to Codex and Sora",
+    "source": "OpenAI Blog",
+    "date": "2026-02-13T09:00:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "Introducing GPT-5.3-Codex-Spark",
+    "source": "OpenAI Blog",
+    "date": "2026-02-12T10:00:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "Harness engineering: leveraging Codex in an agent-first world",
+    "source": "OpenAI Blog",
+    "date": "2026-02-11T09:00:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "Testing ads in ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2026-02-09T11:00:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "Bringing ChatGPT to GenAI.mil",
+    "source": "OpenAI Blog",
+    "date": "2026-02-09T11:00:00.000Z",
+    "reason_dropped": "over_source_limit"
+  }
+]

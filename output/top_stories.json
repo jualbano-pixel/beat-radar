@@ -1,0 +1,414 @@
+{
+  "top_stories": [
+    {
+      "title": "Accelerating the next phase of AI",
+      "source": "OpenAI Blog",
+      "date": "2026-03-31T13:00:00.000Z",
+      "summary": "OpenAI raises $122 billion in new funding to expand frontier AI globally, invest in next-generation compute, and meet growing demand for ChatGPT, Codex, and enterprise AI.",
+      "tags": [
+        "ai_models",
+        "ai_infrastructure",
+        "applied_ai"
+      ],
+      "priority_score": 16.25,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "infrastructure_move",
+        "enterprise_scale_signal",
+        "strategic_finance",
+        "broad_ecosystem_impact",
+        "broader_trend"
+      ],
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the ecosystem, such as enterprises, developers, platforms, users, or regulators. It has practical consequences beyond a narrow technical audience."
+    },
+    {
+      "title": "Developer of VeraCrypt encryption software says Windows users may face boot-up issues after Microsoft locked his account",
+      "source": "TechCrunch",
+      "date": "2026-04-08T15:21:13.000Z",
+      "summary": "The maker of the popular open source file encryption software VeraCrypt said Microsoft locked his online account, which may prevent device owners from booting up their computers.",
+      "tags": [
+        "ai_infrastructure",
+        "applied_ai"
+      ],
+      "priority_score": 14.3,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "infrastructure_move",
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the ecosystem, such as enterprises, developers, platforms, users, or regulators. It has practical consequences beyond a narrow technical audience."
+    },
+    {
+      "title": "Advancing Open Source AI, NVIDIA Donates Dynamic Resource Allocation Driver for GPUs to Kubernetes Community",
+      "source": "NVIDIA Blog",
+      "date": "2026-03-24T08:00:12.000Z",
+      "summary": "Artificial intelligence has rapidly emerged as one of the most critical workloads in modern computing. For the vast majority of enterprises, this workload runs on Kubernetes, an open source platform that automates the deployment, scaling and management of containerized applications. To help the global developer comm...",
+      "tags": [
+        "ai_infrastructure",
+        "applied_ai"
+      ],
+      "priority_score": 13.5,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "infrastructure_move",
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact"
+      ],
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the ecosystem, such as enterprises, developers, platforms, users, or regulators. It has practical consequences beyond a narrow technical audience."
+    },
+    {
+      "title": "Conflicting Rulings Leave Anthropic in ‘Supply-Chain Risk’ Limbo",
+      "source": "Wired",
+      "date": "2026-04-08T22:27:26.000Z",
+      "summary": "A US appeals court ruling is at odds with a separate, lower court decision from March, leaving uncertainty about if and how the US military can use the AI company's Claude model.",
+      "tags": [
+        "ai_models"
+      ],
+      "priority_score": 13.3,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "policy_shift",
+        "safety_or_governance",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because it changes how more than one important group can build, buy, deploy, or govern AI. The impact is broader than a single product or research update."
+    },
+    {
+      "title": "OpenAI to acquire Promptfoo",
+      "source": "OpenAI Blog",
+      "date": "2026-03-09T10:00:00.000Z",
+      "summary": "OpenAI is acquiring Promptfoo, an AI security platform that helps enterprises identify and remediate vulnerabilities in AI systems during development.",
+      "tags": [
+        "applied_ai"
+      ],
+      "priority_score": 13,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "safety_or_governance",
+        "enterprise_scale_signal",
+        "strategic_finance",
+        "multi_group_impact"
+      ],
+      "why_it_matters": "This matters because it changes how more than one important group can build, buy, deploy, or govern AI. The impact is broader than a single product or research update."
+    },
+    {
+      "title": "How Balyasny Asset Management built an AI research engine",
+      "source": "OpenAI Blog",
+      "date": "2026-03-06T00:00:00.000Z",
+      "summary": "By combining rigorous model evaluation, full-platform use of OpenAI, and agent workflows, Balyasny is reinventing investment research.",
+      "tags": [
+        "ai_models",
+        "ai_research",
+        "applied_ai"
+      ],
+      "priority_score": 12.5,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "safety_or_governance",
+        "strategic_finance",
+        "foundational_research",
+        "multi_group_impact"
+      ],
+      "why_it_matters": "This matters because it changes how more than one important group can build, buy, deploy, or govern AI. The impact is broader than a single product or research update."
+    },
+    {
+      "title": "Microsoft’s executive shake-up continues as developer division chief resigns",
+      "source": "The Verge",
+      "date": "2026-04-08T16:56:43.000Z",
+      "summary": "Microsoft is losing another veteran executive. Julia Liuson, head of Microsoft's developer division (DevDiv), is resigning from the software giant after 34 years. Liuson spent the past 12 years leading Microsoft's developer business, during a period Microsoft focused more on open source projects and acquired GitHub...",
+      "tags": [
+        "applied_ai"
+      ],
+      "priority_score": 11.3,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "enterprise_scale_signal",
+        "strategic_finance",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because it changes how more than one important group can build, buy, deploy, or govern AI. The impact is broader than a single product or research update."
+    },
+    {
+      "title": "More Than Meets the Eye: NVIDIA RTX-Accelerated Computers Now Connect Directly to Apple Vision Pro",
+      "source": "NVIDIA Blog",
+      "date": "2026-03-17T17:00:58.000Z",
+      "summary": "NVIDIA and Apple’s collaboration brings native integration of NVIDIA CloudXR 6.0 to visionOS, securely delivering NVIDIA RTX-powered simulators and professional 3D graphics applications — like Immersive for Autodesk VRED on Innoactive’s XR streaming solutions — to Apple Vision Pro.",
+      "tags": [
+        "ai_infrastructure"
+      ],
+      "priority_score": 10.5,
+      "priority_reasons": [
+        "infrastructure_move",
+        "strategic_partnership",
+        "broad_ecosystem_impact"
+      ],
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the ecosystem, such as enterprises, developers, platforms, users, or regulators. It has practical consequences beyond a narrow technical audience."
+    }
+  ],
+  "secondary_signals": [
+    {
+      "title": "NVIDIA, Telecom Leaders Build AI Grids to Optimize Inference on Distributed Networks",
+      "source": "NVIDIA Blog",
+      "date": "2026-03-17T17:00:15.000Z",
+      "summary": "As AI‑native applications scale to more users, agents and devices, the telecommunications network is becoming the next frontier for distributing AI. At NVIDIA GTC 2026, leading operators in the U.S. and Asia showed that this shift is underway, announcing AI grids — geographically distributed and interconnected AI in...",
+      "tags": [
+        "ai_models",
+        "ai_infrastructure"
+      ],
+      "priority_score": 10.5,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "infrastructure_move",
+        "enterprise_scale_signal",
+        "practical_usability_impact"
+      ],
+      "note": "Shows practical adoption or rollout worth tracking."
+    },
+    {
+      "title": "Into the Omniverse: NVIDIA GTC Showcases Virtual Worlds Powering the Physical AI Era",
+      "source": "NVIDIA Blog",
+      "date": "2026-03-26T15:00:56.000Z",
+      "summary": "Editor’s note: This post is part of Into the Omniverse, a series focused on how developers, 3D practitioners, and enterprises can transform their workflows using the latest advances in OpenUSD and NVIDIA Omniverse. NVIDIA GTC last week showcased a turning point in physical AI: Robots, vehicles and factories are scal...",
+      "tags": [
+        "applied_ai"
+      ],
+      "priority_score": 10,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact"
+      ],
+      "note": "Useful because it has broad practical impact across the AI ecosystem."
+    },
+    {
+      "title": "From model to agent: Equipping the Responses API with a computer environment",
+      "source": "OpenAI Blog",
+      "date": "2026-03-11T11:00:00.000Z",
+      "summary": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.",
+      "tags": [
+        "ai_models",
+        "ai_infrastructure"
+      ],
+      "priority_score": 10,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "infrastructure_move",
+        "multi_group_impact"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "Introducing GPT-5.4",
+      "source": "OpenAI Blog",
+      "date": "2026-03-05T10:00:00.000Z",
+      "summary": "Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context.",
+      "tags": [
+        "ai_models",
+        "ai_infrastructure"
+      ],
+      "priority_score": 10,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "infrastructure_move",
+        "multi_group_impact"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "The next phase of enterprise AI",
+      "source": "OpenAI Blog",
+      "date": "2026-04-08T14:00:00.000Z",
+      "summary": "OpenAI outlines the next phase of enterprise AI, as adoption accelerates across industries with Frontier, ChatGPT Enterprise, Codex, and company-wide AI agents.",
+      "tags": [
+        "ai_models",
+        "applied_ai"
+      ],
+      "priority_score": 9.85,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "broader_trend"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "AWS boss explains why investing billions in both Anthropic and OpenAI is an OK conflict",
+      "source": "TechCrunch",
+      "date": "2026-04-08T20:09:14.000Z",
+      "summary": "AWS has an ingrained culture of handling competition, he explained, because the cloud giant also competes with its partners.",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 9.8,
+      "priority_reasons": [
+        "infrastructure_move",
+        "strategic_partnership",
+        "strategic_finance",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Helping developers build safer AI experiences for teens",
+      "source": "OpenAI Blog",
+      "date": "2026-03-24T11:00:00.000Z",
+      "summary": "OpenAI releases prompt-based teen safety policies for developers using gpt-oss-safeguard, helping moderate age-specific risks in AI systems.",
+      "tags": [
+        "ai_models",
+        "ai_research",
+        "applied_ai"
+      ],
+      "priority_score": 9.5,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "safety_or_governance",
+        "enterprise_scale_signal",
+        "practical_usability_impact"
+      ],
+      "note": "Shows practical adoption or rollout worth tracking."
+    },
+    {
+      "title": "Introducing ChatGPT for Excel and new financial data integrations",
+      "source": "OpenAI Blog",
+      "date": "2026-03-05T00:00:00.000Z",
+      "summary": "OpenAI introduces ChatGPT for Excel and new financial app integrations, powered by GPT-5.4 to accelerate modeling, research, and analysis in regulated environments.",
+      "tags": [
+        "ai_models"
+      ],
+      "priority_score": 9.5,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "foundational_research",
+        "broad_ecosystem_impact"
+      ],
+      "note": "Useful because it has broad practical impact across the AI ecosystem."
+    },
+    {
+      "title": "WireGuard VPN developer can’t ship software updates after Microsoft locks account",
+      "source": "TechCrunch",
+      "date": "2026-04-08T21:50:41.000Z",
+      "summary": "The popular open source VPN maker is the second high-profile developer to say Microsoft locked his account without notifying him and is blocking their ability to send software updates to users.",
+      "tags": [
+        "applied_ai"
+      ],
+      "priority_score": 9.3,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "Anthropic’s New Product Aims to Handle the Hard Part of Building AI Agents",
+      "source": "Wired",
+      "date": "2026-04-08T17:00:00.000Z",
+      "summary": "Amid rapid enterprise growth, Anthropic is trying to lower the barrier to entry for businesses to build AI agents with Claude.",
+      "tags": [
+        "ai_infrastructure",
+        "applied_ai"
+      ],
+      "priority_score": 9.3,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "OpenAI to acquire Astral",
+      "source": "OpenAI Blog",
+      "date": "2026-03-19T00:00:00.000Z",
+      "summary": "Accelerates Codex growth to power the next generation of Python developer tools",
+      "tags": [
+        "ai_models",
+        "applied_ai"
+      ],
+      "priority_score": 9,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "enterprise_scale_signal",
+        "strategic_finance",
+        "practical_usability_impact"
+      ],
+      "note": "Shows practical adoption or rollout worth tracking."
+    },
+    {
+      "title": "From Simulation to Production: How to Build Robots With AI",
+      "source": "NVIDIA Blog",
+      "date": "2026-03-18T13:00:13.000Z",
+      "summary": "The latest open models and frameworks from NVIDIA bring together simulation, robot learning and embedded compute to accelerate cloud-to-robot workflows.",
+      "tags": [
+        "ai_models",
+        "ai_infrastructure",
+        "applied_ai"
+      ],
+      "priority_score": 9,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "infrastructure_move",
+        "multi_group_impact",
+        "minor_or_routine"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "From RTX to Spark: NVIDIA Accelerates Gemma 4 for Local Agentic AI",
+      "source": "NVIDIA Blog",
+      "date": "2026-04-02T16:15:58.000Z",
+      "summary": "Open models are driving a new wave of on-device AI, extending innovation beyond the cloud to everyday devices. As these models advance, their value increasingly depends on access to local, real-time context that can turn meaningful insights into action. Designed for this shift, Google’s latest additions to the Gemma...",
+      "tags": [
+        "ai_models"
+      ],
+      "priority_score": 8.7,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "infrastructure_move",
+        "practical_usability_impact"
+      ],
+      "note": "Relevant platform or product movement, but not top-tier today."
+    },
+    {
+      "title": "New ways to balance cost and reliability in the Gemini API",
+      "source": "Google AI Blog",
+      "date": "2026-04-02T16:00:00.000Z",
+      "summary": "Google is introducing two new inference tiers to the Gemini API, Flex and Priority, to balance cost and latency.",
+      "tags": [
+        "ai_infrastructure"
+      ],
+      "priority_score": 8.7,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "infrastructure_move",
+        "practical_usability_impact"
+      ],
+      "note": "Relevant platform or product movement, but not top-tier today."
+    },
+    {
+      "title": "GTC Spotlights NVIDIA RTX PCs and DGX Sparks Running Latest Open Models and AI Agents Locally",
+      "source": "NVIDIA Blog",
+      "date": "2026-03-17T13:00:46.000Z",
+      "summary": "The paradigm of consumer computing has revolved around the concept of a personal device — from PCs to smartphones and tablets. Now, generative AI — particularly OpenClaw — has introduced a new category: agent computers. These devices, like the NVIDIA DGX Spark desktop AI supercomputer or dedicated NVIDIA RTX PCs, ar...",
+      "tags": [
+        "ai_models",
+        "ai_infrastructure"
+      ],
+      "priority_score": 8.5,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "infrastructure_move",
+        "practical_usability_impact"
+      ],
+      "note": "Relevant platform or product movement, but not top-tier today."
+    }
+  ]
+}

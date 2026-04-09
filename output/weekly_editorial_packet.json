@@ -1,0 +1,731 @@
+{
+  "week_of": "2026-04-06",
+  "time_mode": "current",
+  "top_stories": [
+    {
+      "title": "Accelerating the next phase of AI",
+      "source": "OpenAI Blog",
+      "date": "2026-03-31T13:00:00.000Z",
+      "summary": "OpenAI raises $122 billion in new funding to expand frontier AI globally, invest in next-generation compute, and meet growing demand for ChatGPT, Codex, and enterprise AI.",
+      "tags": [
+        "ai_models",
+        "ai_infrastructure",
+        "applied_ai"
+      ],
+      "priority_score": 16.25,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "infrastructure_move",
+        "enterprise_scale_signal",
+        "strategic_finance",
+        "broad_ecosystem_impact",
+        "broader_trend"
+      ],
+      "original_url": "https://openai.com/index/accelerating-the-next-phase-ai",
+      "what_happened": "OpenAI raises $122 billion in new funding to expand frontier AI globally, invest in next-generation compute, and meet growing demand for ChatGPT, Codex, and enterprise AI. The development centers on an AI model, platform capability, or product release rather than a generic market update. It includes a concrete infrastructure, compute, or deployment angle tied to how AI systems are built or run. The development also points to a practical deployment or usage context instead of staying purely theoretical.",
+      "why_this_matters": "This changes the competitive picture because it expands the capital base behind future model development, compute build-out, or acquisitions. It matters operationally because infrastructure shifts change what can be deployed, how fast systems can run, and what those deployments cost. For developers and product teams, this can change what tools are available, what workflows are feasible, and where new application building moves next. The enterprise angle gives this longer shelf life because it points to adoption in production environments rather than limited experimentation."
+    },
+    {
+      "title": "Developer of VeraCrypt encryption software says Windows users may face boot-up issues after Microsoft locked his account",
+      "source": "TechCrunch",
+      "date": "2026-04-08T15:21:13.000Z",
+      "summary": "The maker of the popular open source file encryption software VeraCrypt said Microsoft locked his online account, which may prevent device owners from booting up their computers.",
+      "tags": [
+        "ai_infrastructure",
+        "applied_ai"
+      ],
+      "priority_score": 14.3,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "infrastructure_move",
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact",
+        "editorial_source_confirmation"
+      ],
+      "original_url": "https://techcrunch.com/2026/04/08/veracrypt-encryption-software-windows-microsoft-lock-boot-issues",
+      "what_happened": "The maker of the popular open source file encryption software VeraCrypt said Microsoft locked his online account, which may prevent device owners from booting up their computers. It includes a concrete infrastructure, compute, or deployment angle tied to how AI systems are built or run. The development also points to a practical deployment or usage context instead of staying purely theoretical.",
+      "why_this_matters": "It matters operationally because infrastructure shifts change what can be deployed, how fast systems can run, and what those deployments cost. For developers and product teams, this can change what tools are available, what workflows are feasible, and where new application building moves next. The enterprise angle gives this longer shelf life because it points to adoption in production environments rather than limited experimentation. The effects are likely to spread beyond one company because this touches multiple layers of the AI stack, from builders and buyers to platform operators."
+    },
+    {
+      "title": "Advancing Open Source AI, NVIDIA Donates Dynamic Resource Allocation Driver for GPUs to Kubernetes Community",
+      "source": "NVIDIA Blog",
+      "date": "2026-03-24T08:00:12.000Z",
+      "summary": "Artificial intelligence has rapidly emerged as one of the most critical workloads in modern computing. For the vast majority of enterprises, this workload runs on Kubernetes, an open source platform that automates the deployment, scaling and management of containerized applications. To help the global developer comm...",
+      "tags": [
+        "ai_infrastructure",
+        "applied_ai"
+      ],
+      "priority_score": 13.5,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "infrastructure_move",
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact"
+      ],
+      "original_url": "https://blogs.nvidia.com/blog/nvidia-at-kubecon-2026",
+      "what_happened": "Artificial intelligence has rapidly emerged as one of the most critical workloads in modern computing. For the vast majority of enterprises, this workload runs on Kubernetes, an open source platform that automates the deployment, scaling and management of containerized applications. To help the global developer comm...",
+      "why_this_matters": "It matters operationally because infrastructure shifts change what can be deployed, how fast systems can run, and what those deployments cost. For developers and product teams, this can change what tools are available, what workflows are feasible, and where new application building moves next. The enterprise angle gives this longer shelf life because it points to adoption in production environments rather than limited experimentation. The effects are likely to spread beyond one company because this touches multiple layers of the AI stack, from builders and buyers to platform operators."
+    },
+    {
+      "title": "Conflicting Rulings Leave Anthropic in ‘Supply-Chain Risk’ Limbo",
+      "source": "Wired",
+      "date": "2026-04-08T22:27:26.000Z",
+      "summary": "A US appeals court ruling is at odds with a separate, lower court decision from March, leaving uncertainty about if and how the US military can use the AI company's Claude model.",
+      "tags": [
+        "ai_models"
+      ],
+      "priority_score": 13.3,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "policy_shift",
+        "safety_or_governance",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "original_url": "https://www.wired.com/story/anthropic-appeals-court-ruling",
+      "what_happened": "A US appeals court ruling is at odds with a separate, lower court decision from March, leaving uncertainty about if and how the US military can use the AI company's Claude model. The development centers on an AI model, platform capability, or product release rather than a generic market update.",
+      "why_this_matters": "For developers and product teams, this can change what tools are available, what workflows are feasible, and where new application building moves next. This has policy consequences because it can change compliance expectations, procurement decisions, or the terms under which AI systems are deployed. The safety angle matters because it affects how companies evaluate risk, set product guardrails, or justify broader adoption. This has broader editorial value because it affects more than one important constituency, such as developers, enterprise teams, or platform partners."
+    },
+    {
+      "title": "OpenAI to acquire Promptfoo",
+      "source": "OpenAI Blog",
+      "date": "2026-03-09T10:00:00.000Z",
+      "summary": "OpenAI is acquiring Promptfoo, an AI security platform that helps enterprises identify and remediate vulnerabilities in AI systems during development.",
+      "tags": [
+        "applied_ai"
+      ],
+      "priority_score": 13,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "safety_or_governance",
+        "enterprise_scale_signal",
+        "strategic_finance",
+        "multi_group_impact"
+      ],
+      "original_url": "https://openai.com/index/openai-to-acquire-promptfoo",
+      "what_happened": "OpenAI is acquiring Promptfoo, an AI security platform that helps enterprises identify and remediate vulnerabilities in AI systems during development. The development also points to a practical deployment or usage context instead of staying purely theoretical.",
+      "why_this_matters": "This changes the competitive picture because it expands the capital base behind future model development, compute build-out, or acquisitions. For developers and product teams, this can change what tools are available, what workflows are feasible, and where new application building moves next. The safety angle matters because it affects how companies evaluate risk, set product guardrails, or justify broader adoption. The enterprise angle gives this longer shelf life because it points to adoption in production environments rather than limited experimentation."
+    },
+    {
+      "title": "How Balyasny Asset Management built an AI research engine",
+      "source": "OpenAI Blog",
+      "date": "2026-03-06T00:00:00.000Z",
+      "summary": "By combining rigorous model evaluation, full-platform use of OpenAI, and agent workflows, Balyasny is reinventing investment research.",
+      "tags": [
+        "ai_models",
+        "ai_research",
+        "applied_ai"
+      ],
+      "priority_score": 12.5,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "safety_or_governance",
+        "strategic_finance",
+        "foundational_research",
+        "multi_group_impact"
+      ],
+      "original_url": "https://openai.com/index/balyasny-asset-management",
+      "what_happened": "By combining rigorous model evaluation, full-platform use of OpenAI, and agent workflows, Balyasny is reinventing investment research. The development centers on an AI model, platform capability, or product release rather than a generic market update. The development also points to a practical deployment or usage context instead of staying purely theoretical.",
+      "why_this_matters": "This changes the competitive picture because it expands the capital base behind future model development, compute build-out, or acquisitions. For developers and product teams, this can change what tools are available, what workflows are feasible, and where new application building moves next. The safety angle matters because it affects how companies evaluate risk, set product guardrails, or justify broader adoption. This has broader editorial value because it affects more than one important constituency, such as developers, enterprise teams, or platform partners."
+    },
+    {
+      "title": "Microsoft’s executive shake-up continues as developer division chief resigns",
+      "source": "The Verge",
+      "date": "2026-04-08T16:56:43.000Z",
+      "summary": "Microsoft is losing another veteran executive. Julia Liuson, head of Microsoft's developer division (DevDiv), is resigning from the software giant after 34 years. Liuson spent the past 12 years leading Microsoft's developer business, during a period Microsoft focused more on open source projects and acquired GitHub...",
+      "tags": [
+        "applied_ai"
+      ],
+      "priority_score": 11.3,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "enterprise_scale_signal",
+        "strategic_finance",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "original_url": "https://www.theverge.com/tech/908793/microsoft-devdiv-julia-liuson-resignation",
+      "what_happened": "Microsoft is losing another veteran executive. Julia Liuson, head of Microsoft's developer division (DevDiv), is resigning from the software giant after 34 years. Liuson spent the past 12 years leading Microsoft's developer business, during a period Microsoft focused more on open source projects and acquired GitHub...",
+      "why_this_matters": "This changes the competitive picture because it expands the capital base behind future model development, compute build-out, or acquisitions. For developers and product teams, this can change what tools are available, what workflows are feasible, and where new application building moves next. The enterprise angle gives this longer shelf life because it points to adoption in production environments rather than limited experimentation. This has broader editorial value because it affects more than one important constituency, such as developers, enterprise teams, or platform partners."
+    },
+    {
+      "title": "More Than Meets the Eye: NVIDIA RTX-Accelerated Computers Now Connect Directly to Apple Vision Pro",
+      "source": "NVIDIA Blog",
+      "date": "2026-03-17T17:00:58.000Z",
+      "summary": "NVIDIA and Apple’s collaboration brings native integration of NVIDIA CloudXR 6.0 to visionOS, securely delivering NVIDIA RTX-powered simulators and professional 3D graphics applications — like Immersive for Autodesk VRED on Innoactive’s XR streaming solutions — to Apple Vision Pro.",
+      "tags": [
+        "ai_infrastructure"
+      ],
+      "priority_score": 10.5,
+      "priority_reasons": [
+        "infrastructure_move",
+        "strategic_partnership",
+        "broad_ecosystem_impact"
+      ],
+      "original_url": "https://blogs.nvidia.com/blog/nvidia-cloudxr-apple-vision-pro",
+      "what_happened": "NVIDIA and Apple’s collaboration brings native integration of NVIDIA CloudXR 6.0 to visionOS, securely delivering NVIDIA RTX-powered simulators and professional 3D graphics applications — like Immersive for Autodesk VRED on Innoactive’s XR streaming solutions — to Apple Vision Pro. It includes a concrete infrastructure, compute, or deployment angle tied to how AI systems are built or run.",
+      "why_this_matters": "It matters operationally because infrastructure shifts change what can be deployed, how fast systems can run, and what those deployments cost. The partnership angle matters because it can reshape distribution, integration paths, and which vendors become embedded in enterprise or government stacks. The effects are likely to spread beyond one company because this touches multiple layers of the AI stack, from builders and buyers to platform operators."
+    }
+  ],
+  "secondary_signals": [
+    {
+      "title": "NVIDIA, Telecom Leaders Build AI Grids to Optimize Inference on Distributed Networks",
+      "source": "NVIDIA Blog",
+      "date": "2026-03-17T17:00:15.000Z",
+      "summary": "As AI‑native applications scale to more users, agents and devices, the telecommunications network is becoming the next frontier for distributing AI. At NVIDIA GTC 2026, leading operators in the U.S. and Asia showed that this shift is underway, announcing AI grids — geographically distributed and interconnected AI in...",
+      "tags": [
+        "ai_models",
+        "ai_infrastructure"
+      ],
+      "priority_score": 10.5,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "infrastructure_move",
+        "enterprise_scale_signal",
+        "practical_usability_impact"
+      ],
+      "note": "Shows practical adoption or rollout worth tracking.",
+      "original_url": "https://blogs.nvidia.com/blog/telecom-ai-grids-inference"
+    },
+    {
+      "title": "Into the Omniverse: NVIDIA GTC Showcases Virtual Worlds Powering the Physical AI Era",
+      "source": "NVIDIA Blog",
+      "date": "2026-03-26T15:00:56.000Z",
+      "summary": "Editor’s note: This post is part of Into the Omniverse, a series focused on how developers, 3D practitioners, and enterprises can transform their workflows using the latest advances in OpenUSD and NVIDIA Omniverse. NVIDIA GTC last week showcased a turning point in physical AI: Robots, vehicles and factories are scal...",
+      "tags": [
+        "applied_ai"
+      ],
+      "priority_score": 10,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact"
+      ],
+      "note": "Useful because it has broad practical impact across the AI ecosystem.",
+      "original_url": "https://blogs.nvidia.com/blog/gtc-2026-virtual-worlds-physical-ai"
+    },
+    {
+      "title": "From model to agent: Equipping the Responses API with a computer environment",
+      "source": "OpenAI Blog",
+      "date": "2026-03-11T11:00:00.000Z",
+      "summary": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.",
+      "tags": [
+        "ai_models",
+        "ai_infrastructure"
+      ],
+      "priority_score": 10,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "infrastructure_move",
+        "multi_group_impact"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group.",
+      "original_url": "https://openai.com/index/equip-responses-api-computer-environment"
+    },
+    {
+      "title": "Introducing GPT-5.4",
+      "source": "OpenAI Blog",
+      "date": "2026-03-05T10:00:00.000Z",
+      "summary": "Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context.",
+      "tags": [
+        "ai_models",
+        "ai_infrastructure"
+      ],
+      "priority_score": 10,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "infrastructure_move",
+        "multi_group_impact"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group.",
+      "original_url": "https://openai.com/index/introducing-gpt-5-4"
+    },
+    {
+      "title": "The next phase of enterprise AI",
+      "source": "OpenAI Blog",
+      "date": "2026-04-08T14:00:00.000Z",
+      "summary": "OpenAI outlines the next phase of enterprise AI, as adoption accelerates across industries with Frontier, ChatGPT Enterprise, Codex, and company-wide AI agents.",
+      "tags": [
+        "ai_models",
+        "applied_ai"
+      ],
+      "priority_score": 9.85,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "broader_trend"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group.",
+      "original_url": "https://openai.com/index/next-phase-of-enterprise-ai"
+    },
+    {
+      "title": "AWS boss explains why investing billions in both Anthropic and OpenAI is an OK conflict",
+      "source": "TechCrunch",
+      "date": "2026-04-08T20:09:14.000Z",
+      "summary": "AWS has an ingrained culture of handling competition, he explained, because the cloud giant also competes with its partners.",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 9.8,
+      "priority_reasons": [
+        "infrastructure_move",
+        "strategic_partnership",
+        "strategic_finance",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful supporting editorial signal.",
+      "original_url": "https://techcrunch.com/2026/04/08/aws-boss-explains-why-investing-billions-in-both-anthropic-and-openai-is-an-ok-conflict"
+    },
+    {
+      "title": "Helping developers build safer AI experiences for teens",
+      "source": "OpenAI Blog",
+      "date": "2026-03-24T11:00:00.000Z",
+      "summary": "OpenAI releases prompt-based teen safety policies for developers using gpt-oss-safeguard, helping moderate age-specific risks in AI systems.",
+      "tags": [
+        "ai_models",
+        "ai_research",
+        "applied_ai"
+      ],
+      "priority_score": 9.5,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "safety_or_governance",
+        "enterprise_scale_signal",
+        "practical_usability_impact"
+      ],
+      "note": "Shows practical adoption or rollout worth tracking.",
+      "original_url": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard"
+    },
+    {
+      "title": "Introducing ChatGPT for Excel and new financial data integrations",
+      "source": "OpenAI Blog",
+      "date": "2026-03-05T00:00:00.000Z",
+      "summary": "OpenAI introduces ChatGPT for Excel and new financial app integrations, powered by GPT-5.4 to accelerate modeling, research, and analysis in regulated environments.",
+      "tags": [
+        "ai_models"
+      ],
+      "priority_score": 9.5,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "foundational_research",
+        "broad_ecosystem_impact"
+      ],
+      "note": "Useful because it has broad practical impact across the AI ecosystem.",
+      "original_url": "https://openai.com/index/chatgpt-for-excel"
+    },
+    {
+      "title": "WireGuard VPN developer can’t ship software updates after Microsoft locks account",
+      "source": "TechCrunch",
+      "date": "2026-04-08T21:50:41.000Z",
+      "summary": "The popular open source VPN maker is the second high-profile developer to say Microsoft locked his account without notifying him and is blocking their ability to send software updates to users.",
+      "tags": [
+        "applied_ai"
+      ],
+      "priority_score": 9.3,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group.",
+      "original_url": "https://techcrunch.com/2026/04/08/wireguard-vpn-developer-cant-ship-software-updates-after-microsoft-locks-account"
+    },
+    {
+      "title": "Anthropic’s New Product Aims to Handle the Hard Part of Building AI Agents",
+      "source": "Wired",
+      "date": "2026-04-08T17:00:00.000Z",
+      "summary": "Amid rapid enterprise growth, Anthropic is trying to lower the barrier to entry for businesses to build AI agents with Claude.",
+      "tags": [
+        "ai_infrastructure",
+        "applied_ai"
+      ],
+      "priority_score": 9.3,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group.",
+      "original_url": "https://www.wired.com/story/anthropic-launches-claude-managed-agents"
+    },
+    {
+      "title": "OpenAI to acquire Astral",
+      "source": "OpenAI Blog",
+      "date": "2026-03-19T00:00:00.000Z",
+      "summary": "Accelerates Codex growth to power the next generation of Python developer tools",
+      "tags": [
+        "ai_models",
+        "applied_ai"
+      ],
+      "priority_score": 9,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "enterprise_scale_signal",
+        "strategic_finance",
+        "practical_usability_impact"
+      ],
+      "note": "Shows practical adoption or rollout worth tracking.",
+      "original_url": "https://openai.com/index/openai-to-acquire-astral"
+    },
+    {
+      "title": "From Simulation to Production: How to Build Robots With AI",
+      "source": "NVIDIA Blog",
+      "date": "2026-03-18T13:00:13.000Z",
+      "summary": "The latest open models and frameworks from NVIDIA bring together simulation, robot learning and embedded compute to accelerate cloud-to-robot workflows.",
+      "tags": [
+        "ai_models",
+        "ai_infrastructure",
+        "applied_ai"
+      ],
+      "priority_score": 9,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "infrastructure_move",
+        "multi_group_impact",
+        "minor_or_routine"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group.",
+      "original_url": "https://blogs.nvidia.com/blog/build-robots-with-ai"
+    },
+    {
+      "title": "From RTX to Spark: NVIDIA Accelerates Gemma 4 for Local Agentic AI",
+      "source": "NVIDIA Blog",
+      "date": "2026-04-02T16:15:58.000Z",
+      "summary": "Open models are driving a new wave of on-device AI, extending innovation beyond the cloud to everyday devices. As these models advance, their value increasingly depends on access to local, real-time context that can turn meaningful insights into action. Designed for this shift, Google’s latest additions to the Gemma...",
+      "tags": [
+        "ai_models"
+      ],
+      "priority_score": 8.7,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "infrastructure_move",
+        "practical_usability_impact"
+      ],
+      "note": "Relevant platform or product movement, but not top-tier today.",
+      "original_url": "https://blogs.nvidia.com/blog/rtx-ai-garage-open-models-google-gemma-4"
+    },
+    {
+      "title": "New ways to balance cost and reliability in the Gemini API",
+      "source": "Google AI Blog",
+      "date": "2026-04-02T16:00:00.000Z",
+      "summary": "Google is introducing two new inference tiers to the Gemini API, Flex and Priority, to balance cost and latency.",
+      "tags": [
+        "ai_infrastructure"
+      ],
+      "priority_score": 8.7,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "infrastructure_move",
+        "practical_usability_impact"
+      ],
+      "note": "Relevant platform or product movement, but not top-tier today.",
+      "original_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference"
+    },
+    {
+      "title": "GTC Spotlights NVIDIA RTX PCs and DGX Sparks Running Latest Open Models and AI Agents Locally",
+      "source": "NVIDIA Blog",
+      "date": "2026-03-17T13:00:46.000Z",
+      "summary": "The paradigm of consumer computing has revolved around the concept of a personal device — from PCs to smartphones and tablets. Now, generative AI — particularly OpenClaw — has introduced a new category: agent computers. These devices, like the NVIDIA DGX Spark desktop AI supercomputer or dedicated NVIDIA RTX PCs, ar...",
+      "tags": [
+        "ai_models",
+        "ai_infrastructure"
+      ],
+      "priority_score": 8.5,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "infrastructure_move",
+        "practical_usability_impact"
+      ],
+      "note": "Relevant platform or product movement, but not top-tier today.",
+      "original_url": "https://blogs.nvidia.com/blog/rtx-ai-garage-gtc-2026-nemoclaw"
+    }
+  ],
+  "context_watch": [
+    {
+      "title": "OpenAI partners with Scale to provide support for enterprises fine-tuning models",
+      "source": "OpenAI Blog",
+      "date": "2023-08-24T07:00:00.000Z",
+      "original_url": "https://openai.com/index/openai-partners-with-scale-to-provide-support-for-enterprises-fine-tuning-models",
+      "reason_dropped": "dropped_time_mode",
+      "context_score": 6.5,
+      "context_reasons": [
+        "editorial_impact",
+        "strategic_context",
+        "practical_context"
+      ],
+      "note": "Useful background item with longer-tail strategic context."
+    },
+    {
+      "title": "Snowflake and OpenAI partner to bring frontier intelligence to enterprise data",
+      "source": "OpenAI Blog",
+      "date": "2026-02-02T06:00:00.000Z",
+      "original_url": "https://openai.com/index/snowflake-partnership",
+      "reason_dropped": "dropped_time_mode",
+      "context_score": 6,
+      "context_reasons": [
+        "relevant_ai_signal",
+        "strategic_context",
+        "practical_context",
+        "recent_within_context_pool"
+      ],
+      "note": "Useful background item with longer-tail strategic context."
+    },
+    {
+      "title": "Developers can now submit apps to ChatGPT",
+      "source": "OpenAI Blog",
+      "date": "2025-12-17T00:00:00.000Z",
+      "original_url": "https://openai.com/index/developers-can-now-submit-apps-to-chatgpt",
+      "reason_dropped": "dropped_time_mode",
+      "context_score": 5.5,
+      "context_reasons": [
+        "editorial_impact",
+        "broad_downstream_impact"
+      ],
+      "note": "Useful background context from outside the current monitoring window."
+    },
+    {
+      "title": "The next chapter of the Microsoft–OpenAI partnership",
+      "source": "OpenAI Blog",
+      "date": "2025-10-28T06:00:00.000Z",
+      "original_url": "https://openai.com/index/next-chapter-of-microsoft-openai-partnership",
+      "reason_dropped": "dropped_time_mode",
+      "context_score": 5.5,
+      "context_reasons": [
+        "editorial_impact",
+        "strategic_context"
+      ],
+      "note": "Useful background item with longer-tail strategic context."
+    },
+    {
+      "title": "OpenAI and NVIDIA announce strategic partnership to deploy 10 gigawatts of NVIDIA systems",
+      "source": "OpenAI Blog",
+      "date": "2025-09-22T08:45:00.000Z",
+      "original_url": "https://openai.com/index/openai-nvidia-systems-partnership",
+      "reason_dropped": "dropped_time_mode",
+      "context_score": 5.5,
+      "context_reasons": [
+        "editorial_impact",
+        "strategic_context"
+      ],
+      "note": "Useful background item with longer-tail strategic context."
+    },
+    {
+      "title": "SafetyKit scales risk agents with OpenAI’s most capable models",
+      "source": "OpenAI Blog",
+      "date": "2025-09-09T10:00:00.000Z",
+      "original_url": "https://openai.com/index/safetykit",
+      "reason_dropped": "dropped_time_mode",
+      "context_score": 5.5,
+      "context_reasons": [
+        "editorial_impact",
+        "strategic_context"
+      ],
+      "note": "Useful background item with longer-tail strategic context."
+    },
+    {
+      "title": "OpenAI and Anthropic share findings from a joint safety evaluation",
+      "source": "OpenAI Blog",
+      "date": "2025-08-27T10:00:00.000Z",
+      "original_url": "https://openai.com/index/openai-anthropic-safety-evaluation",
+      "reason_dropped": "dropped_time_mode",
+      "context_score": 5.5,
+      "context_reasons": [
+        "editorial_impact",
+        "strategic_context"
+      ],
+      "note": "Useful background item with longer-tail strategic context."
+    },
+    {
+      "title": "The San Antonio Spurs use ChatGPT to scale impact on and off the court",
+      "source": "OpenAI Blog",
+      "date": "2025-05-07T09:00:00.000Z",
+      "original_url": "https://openai.com/index/san-antonio-spurs",
+      "reason_dropped": "dropped_time_mode",
+      "context_score": 5.5,
+      "context_reasons": [
+        "editorial_impact",
+        "strategic_context"
+      ],
+      "note": "Useful background item with longer-tail strategic context."
+    },
+    {
+      "title": "OpenAI and Microsoft extend partnership",
+      "source": "OpenAI Blog",
+      "date": "2023-01-23T08:00:00.000Z",
+      "original_url": "https://openai.com/index/openai-and-microsoft-extend-partnership",
+      "reason_dropped": "dropped_time_mode",
+      "context_score": 5.5,
+      "context_reasons": [
+        "editorial_impact",
+        "strategic_context"
+      ],
+      "note": "Useful background item with longer-tail strategic context."
+    },
+    {
+      "title": "Microsoft invests in and partners with OpenAI to support us building beneficial AGI",
+      "source": "OpenAI Blog",
+      "date": "2019-07-22T07:00:00.000Z",
+      "original_url": "https://openai.com/index/microsoft-invests-in-and-partners-with-openai",
+      "reason_dropped": "dropped_time_mode",
+      "context_score": 5.5,
+      "context_reasons": [
+        "editorial_impact",
+        "strategic_context"
+      ],
+      "note": "Useful background item with longer-tail strategic context."
+    },
+    {
+      "title": "Scaling PostgreSQL to power 800 million ChatGPT users",
+      "source": "OpenAI Blog",
+      "date": "2026-01-22T12:00:00.000Z",
+      "original_url": "https://openai.com/index/scaling-postgresql",
+      "reason_dropped": "dropped_time_mode",
+      "context_score": 5,
+      "context_reasons": [
+        "editorial_impact",
+        "practical_context",
+        "recent_within_context_pool"
+      ],
+      "note": "Useful background context from outside the current monitoring window."
+    },
+    {
+      "title": "OpenAI partners with Cerebras",
+      "source": "OpenAI Blog",
+      "date": "2026-01-14T14:00:00.000Z",
+      "original_url": "https://openai.com/index/cerebras-partnership",
+      "reason_dropped": "dropped_time_mode",
+      "context_score": 5,
+      "context_reasons": [
+        "relevant_ai_signal",
+        "strategic_context",
+        "recent_within_context_pool"
+      ],
+      "note": "Useful background item with longer-tail strategic context."
+    },
+    {
+      "title": "Zenken boosts a lean sales team with ChatGPT Enterprise",
+      "source": "OpenAI Blog",
+      "date": "2026-01-13T16:00:00.000Z",
+      "original_url": "https://openai.com/index/zenken",
+      "reason_dropped": "dropped_time_mode",
+      "context_score": 5,
+      "context_reasons": [
+        "editorial_impact",
+        "practical_context",
+        "recent_within_context_pool"
+      ],
+      "note": "Useful background context from outside the current monitoring window."
+    },
+    {
+      "title": "OpenAI and SoftBank Group partner with SB Energy",
+      "source": "OpenAI Blog",
+      "date": "2026-01-09T11:00:00.000Z",
+      "original_url": "https://openai.com/index/stargate-sb-energy-partnership",
+      "reason_dropped": "dropped_time_mode",
+      "context_score": 5,
+      "context_reasons": [
+        "relevant_ai_signal",
+        "strategic_context",
+        "recent_within_context_pool"
+      ],
+      "note": "Useful background item with longer-tail strategic context."
+    },
+    {
+      "title": "New compliance and administrative tools for ChatGPT Enterprise",
+      "source": "OpenAI Blog",
+      "date": "2024-07-18T00:00:00.000Z",
+      "original_url": "https://openai.com/index/new-tools-for-chatgpt-enterprise",
+      "reason_dropped": "dropped_time_mode",
+      "context_score": 5,
+      "context_reasons": [
+        "editorial_impact",
+        "broad_downstream_impact"
+      ],
+      "note": "Useful background context from outside the current monitoring window."
+    }
+  ],
+  "theme_clusters": [
+    {
+      "theme": "models",
+      "story_count": 21,
+      "stories": [
+        "Accelerating the next phase of AI",
+        "Developer of VeraCrypt encryption software says Windows users may face boot-up issues after Microsoft locked his account",
+        "Advancing Open Source AI, NVIDIA Donates Dynamic Resource Allocation Driver for GPUs to Kubernetes Community",
+        "Conflicting Rulings Leave Anthropic in ‘Supply-Chain Risk’ Limbo",
+        "OpenAI to acquire Promptfoo",
+        "How Balyasny Asset Management built an AI research engine"
+      ]
+    },
+    {
+      "theme": "infra",
+      "story_count": 12,
+      "stories": [
+        "Accelerating the next phase of AI",
+        "Developer of VeraCrypt encryption software says Windows users may face boot-up issues after Microsoft locked his account",
+        "Advancing Open Source AI, NVIDIA Donates Dynamic Resource Allocation Driver for GPUs to Kubernetes Community",
+        "More Than Meets the Eye: NVIDIA RTX-Accelerated Computers Now Connect Directly to Apple Vision Pro",
+        "NVIDIA, Telecom Leaders Build AI Grids to Optimize Inference on Distributed Networks",
+        "From model to agent: Equipping the Responses API with a computer environment"
+      ]
+    },
+    {
+      "theme": "enterprise",
+      "story_count": 12,
+      "stories": [
+        "Accelerating the next phase of AI",
+        "Developer of VeraCrypt encryption software says Windows users may face boot-up issues after Microsoft locked his account",
+        "Advancing Open Source AI, NVIDIA Donates Dynamic Resource Allocation Driver for GPUs to Kubernetes Community",
+        "OpenAI to acquire Promptfoo",
+        "Microsoft’s executive shake-up continues as developer division chief resigns",
+        "NVIDIA, Telecom Leaders Build AI Grids to Optimize Inference on Distributed Networks"
+      ]
+    },
+    {
+      "theme": "finance_m_and_a",
+      "story_count": 6,
+      "stories": [
+        "Accelerating the next phase of AI",
+        "OpenAI to acquire Promptfoo",
+        "How Balyasny Asset Management built an AI research engine",
+        "Microsoft’s executive shake-up continues as developer division chief resigns",
+        "AWS boss explains why investing billions in both Anthropic and OpenAI is an OK conflict",
+        "OpenAI to acquire Astral"
+      ]
+    },
+    {
+      "theme": "safety",
+      "story_count": 4,
+      "stories": [
+        "Conflicting Rulings Leave Anthropic in ‘Supply-Chain Risk’ Limbo",
+        "OpenAI to acquire Promptfoo",
+        "How Balyasny Asset Management built an AI research engine",
+        "Helping developers build safer AI experiences for teens"
+      ]
+    },
+    {
+      "theme": "partnerships",
+      "story_count": 2,
+      "stories": [
+        "More Than Meets the Eye: NVIDIA RTX-Accelerated Computers Now Connect Directly to Apple Vision Pro",
+        "AWS boss explains why investing billions in both Anthropic and OpenAI is an OK conflict"
+      ]
+    },
+    {
+      "theme": "policy",
+      "story_count": 1,
+      "stories": [
+        "Conflicting Rulings Leave Anthropic in ‘Supply-Chain Risk’ Limbo"
+      ]
+    }
+  ],
+  "notes": {
+    "top_story_count": 8,
+    "secondary_count": 15,
+    "context_count": 15
+  }
+}
