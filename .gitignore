@@ -1,0 +1,13 @@
+node_modules/
+dist/
+build/
+coverage/
+.env
+.env.local
+.DS_Store
+*.log
+
+# scraper outputs
+stories.json
+weekly_editorial_packet.json
+*.tmp
