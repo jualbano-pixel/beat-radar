@@ -2,17 +2,14 @@
   {
     "theme_id": "models_platforms",
     "theme_label": "models and platform releases",
-    "story_count": 19,
-    "cluster_ids": [
-      "event_002"
-    ],
+    "story_count": 18,
+    "cluster_ids": [],
     "story_ids": [
-      "8de9244176e4",
-      "b10804f7fa70",
-      "d9b2cf5fa926",
-      "711477931b31",
-      "3e8561129b9c",
-      "61f074cd5f06",
+      "2af9d701e9e8",
+      "2a5ea513bf26",
+      "ae43fceafe49",
+      "4bf06e965fe4",
+      "58afdf38fa95",
       "a0904673d8e8",
       "096dac0b19bf",
       "44069ef88222",
@@ -23,8 +20,8 @@
       "01572b4c34e9",
       "866a0103d93e",
       "dc37dabb9801",
-      "eea6230f612a",
       "f59abf9daf09",
+      "eea6230f612a",
       "61b0991879bc"
     ],
     "dominant_reason_codes": [
@@ -33,28 +30,23 @@
       "execution_consequence"
     ],
     "dominant_angle_signals": [
-      "model competition tightening",
+      "infrastructure lag visible",
       "developer workflow changing",
-      "infrastructure lag visible"
+      "safety pressure building"
     ],
     "top_story_refs": [
-      "b10804f7fa70",
       "61b0991879bc",
-      "711477931b31"
+      "4bf06e965fe4",
+      "44069ef88222"
     ]
   },
   {
     "theme_id": "infrastructure_execution_gap",
     "theme_label": "infrastructure execution gap",
-    "story_count": 16,
-    "cluster_ids": [
-      "event_001"
-    ],
+    "story_count": 12,
+    "cluster_ids": [],
     "story_ids": [
-      "b32fc52b022a",
-      "0530702acda1",
-      "241a8f6de524",
-      "f8d9e7e3aff6",
+      "a8bdb2b44cdc",
       "a0f97af1ab63",
       "85e9d1a6753c",
       "9f84e2e45d87",
@@ -64,7 +56,6 @@
       "2e2e28858658",
       "15e5a3e9517b",
       "281e6793fa0f",
-      "d5daef56b239",
       "8a8601b30dd9",
       "3dec299964e6"
     ],
@@ -76,43 +67,12 @@
     "dominant_angle_signals": [
       "infrastructure lag visible",
       "enterprise adoption pressure rising",
-      "developer workflow changing"
+      "transition friction emerging"
     ],
     "top_story_refs": [
       "9f84e2e45d87",
-      "f8d9e7e3aff6",
-      "68dd4e8eb02a"
-    ]
-  },
-  {
-    "theme_id": "enterprise_adoption",
-    "theme_label": "enterprise adoption",
-    "story_count": 8,
-    "cluster_ids": [],
-    "story_ids": [
-      "6109aa076149",
-      "4fb7db30a2f5",
-      "7bcd68b5d5cb",
-      "22c2ff8bad8c",
-      "2815eb572abf",
-      "bc30b236bf79",
-      "ba0e40128dd7",
-      "39ce611a50f8"
-    ],
-    "dominant_reason_codes": [
-      "developing_pattern",
-      "market_signal",
-      "meaningful_shift"
-    ],
-    "dominant_angle_signals": [
-      "enterprise adoption pressure rising",
-      "demand still unproven",
-      "regulation moving ahead of capacity"
-    ],
-    "top_story_refs": [
-      "bc30b236bf79",
-      "7bcd68b5d5cb",
-      "22c2ff8bad8c"
+      "68dd4e8eb02a",
+      "f7ea287cd119"
     ]
   },
   {
@@ -121,8 +81,8 @@
     "story_count": 7,
     "cluster_ids": [],
     "story_ids": [
-      "f10b68ee9f82",
-      "e68d5419d98f",
+      "b81e3be78dc0",
+      "c506b4c62f93",
       "4dbb4daa381a",
       "968fbc071042",
       "f7bebe3fb535",
@@ -133,39 +93,67 @@
       "policy_regulatory_move"
     ],
     "dominant_angle_signals": [
-      "policy pressure worth watching",
       "safety pressure building",
-      "policy pressure building"
+      "policy pressure building",
+      "regulation moving ahead of capacity"
     ],
     "top_story_refs": [
       "968fbc071042",
       "5becf449a527",
-      "e68d5419d98f"
+      "4dbb4daa381a"
     ]
   },
   {
-    "theme_id": "supply_chain_strain",
-    "theme_label": "supply chain strain",
+    "theme_id": "enterprise_adoption",
+    "theme_label": "enterprise adoption",
+    "story_count": 5,
+    "cluster_ids": [],
+    "story_ids": [
+      "95384e9055c3",
+      "7bcd68b5d5cb",
+      "22c2ff8bad8c",
+      "2815eb572abf",
+      "bc30b236bf79"
+    ],
+    "dominant_reason_codes": [
+      "policy_regulatory_move",
+      "meaningful_shift",
+      "market_signal"
+    ],
+    "dominant_angle_signals": [
+      "enterprise adoption pressure rising",
+      "demand still unproven",
+      "ongoing platform expansion"
+    ],
+    "top_story_refs": [
+      "bc30b236bf79",
+      "7bcd68b5d5cb",
+      "22c2ff8bad8c"
+    ]
+  },
+  {
+    "theme_id": "industry_repositioning",
+    "theme_label": "industry repositioning",
     "story_count": 3,
     "cluster_ids": [],
     "story_ids": [
-      "b12e0cd1f52c",
-      "2e88f2fe022b",
-      "3ccbf859704f"
+      "866d15f3a2ba",
+      "387cb8d894c7",
+      "f16a35767e05"
     ],
     "dominant_reason_codes": [
-      "execution_consequence",
-      "developing_pattern"
+      "developing_pattern",
+      "policy_regulatory_move"
     ],
     "dominant_angle_signals": [
-      "supply risk rising",
-      "execution gap showing",
-      "regulation moving ahead of capacity"
+      "competitive position shifting",
+      "developer workflow changing",
+      "enterprise adoption pressure rising"
     ],
     "top_story_refs": [
-      "3ccbf859704f",
-      "b12e0cd1f52c",
-      "2e88f2fe022b"
+      "f16a35767e05",
+      "387cb8d894c7",
+      "866d15f3a2ba"
     ]
   },
   {
@@ -189,29 +177,6 @@
     "top_story_refs": [
       "6e5e3c59e178",
       "7a8af0096afd"
-    ]
-  },
-  {
-    "theme_id": "industry_repositioning",
-    "theme_label": "industry repositioning",
-    "story_count": 2,
-    "cluster_ids": [],
-    "story_ids": [
-      "387cb8d894c7",
-      "f16a35767e05"
-    ],
-    "dominant_reason_codes": [
-      "developing_pattern",
-      "policy_regulatory_move"
-    ],
-    "dominant_angle_signals": [
-      "competitive position shifting",
-      "developer workflow changing",
-      "enterprise adoption pressure rising"
-    ],
-    "top_story_refs": [
-      "f16a35767e05",
-      "387cb8d894c7"
     ]
   }
 ]

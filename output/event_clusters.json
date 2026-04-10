@@ -2,75 +2,50 @@
   {
     "cluster_id": "event_001",
     "cluster_kind": "same_event",
-    "lead_story_id": "b32fc52b022a",
+    "lead_story_id": "12aa5eec1666",
     "story_count": 2,
     "story_ids": [
-      "b32fc52b022a",
-      "0530702acda1"
+      "12aa5eec1666",
+      "b1479ded272c"
     ],
     "story_titles": [
-      "WireGuard VPN developer can’t ship software updates after Microsoft locks account",
-      "Developer of VeraCrypt encryption software says Windows users may face boot-up issues after Microsoft locked his account"
+      "ChatGPT has a new $100 per month Pro subscription",
+      "ChatGPT finally offers $100/month Pro plan"
     ],
     "entities": [
-      "microsoft",
-      "wireguard"
+      "openai",
+      "chatgpt",
+      "codex"
     ],
-    "event_label": "WireGuard VPN developer can’t ship software updates after Microsoft locks account",
+    "event_label": "ChatGPT has a new $100 per month Pro subscription",
     "priority_score": 48,
     "editorial_bucket": "context_watch",
-    "primary_theme_id": "infrastructure_execution_gap",
-    "primary_theme_label": "infrastructure execution gap",
     "supporting_story_ids": [
-      "0530702acda1"
+      "b1479ded272c"
     ]
   },
   {
     "cluster_id": "event_002",
     "cluster_kind": "same_event",
-    "lead_story_id": "b10804f7fa70",
+    "lead_story_id": "5388b7312bb8",
     "story_count": 2,
     "story_ids": [
-      "8de9244176e4",
-      "b10804f7fa70"
+      "5388b7312bb8",
+      "9537ece1e0aa"
     ],
     "story_titles": [
-      "Meta debuts the Muse Spark model in a ‘ground-up overhaul’ of its AI",
-      "Meta is reentering the AI race with a new model called Muse Spark"
+      "Florida launches investigation into OpenAI",
+      "Florida AG announces investigation into OpenAI over shooting that allegedly involved ChatGPT"
     ],
     "entities": [
-      "meta"
+      "openai",
+      "chatgpt"
     ],
-    "event_label": "Meta is reentering the AI race with a new model called Muse Spark",
-    "priority_score": 56,
-    "editorial_bucket": "context_watch",
-    "primary_theme_id": "models_platforms",
-    "primary_theme_label": "models and platform releases",
-    "supporting_story_ids": [
-      "8de9244176e4"
-    ]
-  },
-  {
-    "cluster_id": "event_003",
-    "cluster_kind": "same_event",
-    "lead_story_id": "487938567ca0",
-    "story_count": 2,
-    "story_ids": [
-      "68888d3ed659",
-      "487938567ca0"
-    ],
-    "story_titles": [
-      "OpenAI releases a new safety blueprint to address the rise in child sexual exploitation",
-      "Introducing the Child Safety Blueprint"
-    ],
-    "entities": [
-      "openai"
-    ],
-    "event_label": "Introducing the Child Safety Blueprint",
-    "priority_score": 44,
+    "event_label": "Florida launches investigation into OpenAI",
+    "priority_score": 36,
     "editorial_bucket": "context_watch",
     "supporting_story_ids": [
-      "68888d3ed659"
+      "9537ece1e0aa"
     ]
   }
 ]

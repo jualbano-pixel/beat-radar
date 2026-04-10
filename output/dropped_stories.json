@@ -1,116 +1,182 @@
 [
   {
-    "title": "A self-driving car in Texas hit and killed a mother duck, sparking neighborhood outrage",
+    "title": "StubHub to pay $10M to settle FTC allegations over ‘deceptive’ ticket pricing",
     "source": "TechCrunch",
-    "date": "2026-04-08T21:19:07.000Z",
-    "reason_dropped": "low_relevance"
+    "date": "2026-04-09T20:04:12.000Z",
+    "reason_dropped": "hard_excluded_event_promo"
   },
   {
-    "title": "Amazon to end support for older Kindle devices",
+    "title": "How to make the Startup Battlefield Top 20 — and what every company gets regardless",
     "source": "TechCrunch",
-    "date": "2026-04-08T19:56:16.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Hack-for-hire group caught targeting Android devices and iCloud backups",
-    "source": "TechCrunch",
-    "date": "2026-04-08T18:51:20.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Volkswagen begins testing its self-driving microbuses in Los Angeles ahead of launch with Uber",
-    "source": "TechCrunch",
-    "date": "2026-04-08T17:19:16.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "These are the countries moving to ban social media for children",
-    "source": "TechCrunch",
-    "date": "2026-04-08T16:30:53.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "British cryptographer Adam Back denies NYT report that he is Bitcoin creator Satoshi Nakamoto",
-    "source": "TechCrunch",
-    "date": "2026-04-08T16:03:21.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Hackers steal and leak sensitive LAPD police documents",
-    "source": "TechCrunch",
-    "date": "2026-04-08T15:38:34.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "As YouTube grows on TV, it eyes more interactive video across formats",
-    "source": "TechCrunch",
-    "date": "2026-04-08T14:03:04.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Final 3 days to save up to $500 on your TechCrunch Disrupt 2026 pass",
-    "source": "TechCrunch",
-    "date": "2026-04-08T14:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Dyson made a handheld version of its iconic fans",
-    "source": "The Verge",
-    "date": "2026-04-09T00:01:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "I finally get the iPhone Air",
-    "source": "The Verge",
-    "date": "2026-04-08T19:45:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "The Neo Effect: How Apple&#8217;s cheapest Mac is changing the PC game",
-    "source": "The Verge",
-    "date": "2026-04-08T18:21:50.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Amazon’s Smart Thermostat can help lower your energy bills, and it’s down to $62",
-    "source": "The Verge",
-    "date": "2026-04-08T15:56:34.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "The Miniature Wife was an exercise in visual trickery",
-    "source": "The Verge",
-    "date": "2026-04-08T15:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Google Workspace Promo Code: Up to 14% Off in 2026",
-    "source": "Wired",
-    "date": "2026-04-09T05:00:00.000Z",
+    "date": "2026-04-09T18:01:48.000Z",
     "reason_dropped": "hard_excluded_commerce"
   },
   {
-    "title": "20% Off LG Promo Code & Coupons | April 2026",
-    "source": "Wired",
-    "date": "2026-04-09T05:00:00.000Z",
+    "title": "Final 2 days to save up to $500 on your TechCrunch Disrupt 2026 ticket",
+    "source": "TechCrunch",
+    "date": "2026-04-09T14:00:00.000Z",
+    "reason_dropped": "hard_excluded_event_promo"
+  },
+  {
+    "title": "EFF is the latest organization to leave X",
+    "source": "TechCrunch",
+    "date": "2026-04-09T21:26:18.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "What founders can learn from Anjuna’s layoffs and recovery",
+    "source": "TechCrunch",
+    "date": "2026-04-09T21:17:30.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Volkswagen drops all-electric ID.4 in the US in pivot back to gas SUVs",
+    "source": "TechCrunch",
+    "date": "2026-04-09T21:01:36.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "After data breach, $10B-valued startup Mercor is having a month",
+    "source": "TechCrunch",
+    "date": "2026-04-09T19:33:54.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "You can now edit your Instagram comments",
+    "source": "TechCrunch",
+    "date": "2026-04-09T17:49:57.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Avec’s Tinder-style email app allows you to swipe through your inbox",
+    "source": "TechCrunch",
+    "date": "2026-04-09T15:58:22.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "X brings back Voice Notes to X Chat",
+    "source": "TechCrunch",
+    "date": "2026-04-09T15:46:28.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Hacker stole £700,000 from UK energy company by redirecting payment",
+    "source": "TechCrunch",
+    "date": "2026-04-09T15:31:10.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Amazon CEO takes aim at Nvidia, Intel, Starlink, more in annual shareholder letter",
+    "source": "TechCrunch",
+    "date": "2026-04-09T14:27:57.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Here are the best Apple Watch deals available right now",
+    "source": "The Verge",
+    "date": "2026-04-09T22:30:00.000Z",
     "reason_dropped": "hard_excluded_commerce"
   },
   {
-    "title": "NZXT Discount Codes: 50% Off in April 2026",
+    "title": "YouTube Premium is getting pricier",
+    "source": "The Verge",
+    "date": "2026-04-10T11:23:06.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "The EFF is quitting X",
+    "source": "The Verge",
+    "date": "2026-04-09T21:48:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "John Deere will pay farmers $99 million over right-to-repair lawsuit",
+    "source": "The Verge",
+    "date": "2026-04-09T21:21:22.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Samsung’s Galaxy Watch 8 is easier to recommend now it starts at $260",
+    "source": "The Verge",
+    "date": "2026-04-09T21:10:47.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Surfshark Promo Codes: 87% Off | April 2026",
     "source": "Wired",
-    "date": "2026-04-09T05:00:00.000Z",
+    "date": "2026-04-10T05:00:00.000Z",
     "reason_dropped": "hard_excluded_commerce"
   },
   {
-    "title": "30% Off Canon Promo Codes | April 2026",
+    "title": "Naturepedic Promo Codes and Deals: 20% Off",
     "source": "Wired",
-    "date": "2026-04-09T05:00:00.000Z",
+    "date": "2026-04-10T05:00:00.000Z",
     "reason_dropped": "hard_excluded_commerce"
   },
   {
-    "title": "Vimeo Promo Codes and Deals: Save Up to 40%",
+    "title": "20% Off Sephora Promo Code | April 2026",
     "source": "Wired",
-    "date": "2026-04-09T05:00:00.000Z",
+    "date": "2026-04-10T05:00:00.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "Hungryroot Coupon Codes: 30% Off This April",
+    "source": "Wired",
+    "date": "2026-04-10T05:00:00.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "Govee Discount Codes and Deals: 30% Off",
+    "source": "Wired",
+    "date": "2026-04-10T05:00:00.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "Walmart Promo Codes and Coupons: Up to 65% Off",
+    "source": "Wired",
+    "date": "2026-04-10T05:00:00.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "We-Vibe Discount Codes and Deals: Up to 60% Off",
+    "source": "Wired",
+    "date": "2026-04-10T05:00:00.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "Top Nomad Goods Promo Codes: Get 25% Off in April 2026",
+    "source": "Wired",
+    "date": "2026-04-10T05:00:00.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "Instacart Promo Codes & Savings Hacks for April 2026",
+    "source": "Wired",
+    "date": "2026-04-10T05:00:00.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "Sealy Promo Code: Save $200 on Mattresses This Month",
+    "source": "Wired",
+    "date": "2026-04-10T05:00:00.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "Vivid Seats Promo Codes and Deals: Save 10% This April",
+    "source": "Wired",
+    "date": "2026-04-10T05:00:00.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "Factor Promo Code: 50% Off Off Meal Prep",
+    "source": "Wired",
+    "date": "2026-04-10T05:00:00.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "Save $20 on This Already Inexpensive Wireless Mic Set",
+    "source": "Wired",
+    "date": "2026-04-09T17:31:11.000Z",
     "reason_dropped": "hard_excluded_commerce"
   },
   {
@@ -150,7 +216,31 @@
     "reason_dropped": "hard_excluded_commerce"
   },
   {
-    "title": "Bartesian Discount Codes and Deals: Up to 35% Off",
+    "title": "Google Workspace Promo Code: Up to 14% Off in 2026",
+    "source": "Wired",
+    "date": "2026-04-09T05:00:00.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "20% Off LG Promo Code & Coupons | April 2026",
+    "source": "Wired",
+    "date": "2026-04-09T05:00:00.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "NZXT Discount Codes: 50% Off in April 2026",
+    "source": "Wired",
+    "date": "2026-04-09T05:00:00.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "30% Off Canon Promo Codes | April 2026",
+    "source": "Wired",
+    "date": "2026-04-09T05:00:00.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "Vimeo Promo Codes and Deals: Save Up to 40%",
     "source": "Wired",
     "date": "2026-04-09T05:00:00.000Z",
     "reason_dropped": "hard_excluded_commerce"
@@ -162,159 +252,105 @@
     "reason_dropped": "hard_excluded_commerce"
   },
   {
-    "title": "Petlibro Discount Codes: Save Up to 50%",
+    "title": "Aventon Current ADV Electric Mountain Bike Review: Feels Just Like the Real Thing",
     "source": "Wired",
-    "date": "2026-04-09T05:00:00.000Z",
-    "reason_dropped": "hard_excluded_commerce"
+    "date": "2026-04-10T11:30:00.000Z",
+    "reason_dropped": "low_relevance"
   },
   {
-    "title": "Top Home Chef Promo Codes for April 2026",
+    "title": "Best Smart Shades, Blinds, and Curtains (2026): Motorized, Tailor-Made, and More",
     "source": "Wired",
-    "date": "2026-04-09T05:00:00.000Z",
-    "reason_dropped": "hard_excluded_commerce"
+    "date": "2026-04-10T11:00:00.000Z",
+    "reason_dropped": "low_relevance"
   },
   {
-    "title": "Altra Promo Codes: Get 20% Off Plus Free Shipping",
+    "title": "No One Knows Where US Vaccine Policy Goes Next",
     "source": "Wired",
-    "date": "2026-04-09T05:00:00.000Z",
-    "reason_dropped": "hard_excluded_commerce"
+    "date": "2026-04-10T10:00:00.000Z",
+    "reason_dropped": "low_relevance"
   },
   {
-    "title": "8 Best Cheap Laptops (2026): Chromebooks, the MacBook Neo, and More",
+    "title": "Asus ROG Cetra Open Wireless Earbuds Review: Open Gaming Buds?",
     "source": "Wired",
-    "date": "2026-04-08T10:00:00.000Z",
-    "reason_dropped": "hard_excluded_commerce"
+    "date": "2026-04-10T10:00:00.000Z",
+    "reason_dropped": "low_relevance"
   },
   {
-    "title": "Our Favorite Video Doorbell Is $40 Off",
+    "title": "How and When to Watch the Artemis II Mission’s Return to Earth",
     "source": "Wired",
-    "date": "2026-04-07T18:03:40.000Z",
-    "reason_dropped": "hard_excluded_commerce"
+    "date": "2026-04-10T09:00:00.000Z",
+    "reason_dropped": "low_relevance"
   },
   {
-    "title": "Best Laptop Stands (2026): After Testing 25+ Models, These 5 Stand Out",
+    "title": "China Is Cracking Down on Scams. Just Not the Ones Hitting Americans",
     "source": "Wired",
-    "date": "2026-04-07T10:00:00.000Z",
-    "reason_dropped": "hard_excluded_commerce"
+    "date": "2026-04-09T19:14:42.000Z",
+    "reason_dropped": "low_relevance"
   },
   {
-    "title": "AirDoctor Coupon Codes: 40% Off | April 2026",
+    "title": "John Deere Is Paying Farmers $99 Million for Allegedly Monopolizing Repair",
     "source": "Wired",
-    "date": "2026-04-07T05:00:00.000Z",
-    "reason_dropped": "hard_excluded_commerce"
+    "date": "2026-04-09T17:27:32.000Z",
+    "reason_dropped": "low_relevance"
   },
   {
-    "title": "Hoka Coupon Codes: 10% Off | April 2026",
+    "title": "The Iran War Is Tearing MAGA Influencers Apart",
     "source": "Wired",
-    "date": "2026-04-07T05:00:00.000Z",
-    "reason_dropped": "hard_excluded_commerce"
+    "date": "2026-04-09T14:05:38.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "The FBI Didn’t Answer Texts From Minnesota Investigators for Days After Renee Good’s Killing",
+    "source": "Wired",
+    "date": "2026-04-09T13:44:01.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "I Tested the Instagram-Famous Ridge Wallet and I’m a Convert",
+    "source": "Wired",
+    "date": "2026-04-09T13:10:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Fi Mini for Cats Review: Track Your Pets and Monitor Their Activity",
+    "source": "Wired",
+    "date": "2026-04-09T11:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "How Meta Cafeteria Workers Took on ICE—and Won",
+    "source": "Wired",
+    "date": "2026-04-09T11:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "I Asked Netflix’s Reality TV Boss Why So Many Men On Dating Shows Are Terrible",
+    "source": "Wired",
+    "date": "2026-04-09T10:30:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Politicians Are Spending More Money on Security as They Increasingly Become Targets",
+    "source": "Wired",
+    "date": "2026-04-09T10:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "TCL NXTVISION Art TV Review: Just Fine",
+    "source": "Wired",
+    "date": "2026-04-09T10:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Artemis II Astronauts Witnessed 6 Meteorites Colliding With the Moon",
+    "source": "Wired",
+    "date": "2026-04-09T09:00:00.000Z",
+    "reason_dropped": "low_relevance"
   },
   {
     "title": "TurboTax Service Codes: 30% Off TurboTax Full Service Expert | April 2026",
     "source": "Wired",
     "date": "2026-04-09T05:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Apple’s Fanciest Watch Is $100 Off",
-    "source": "Wired",
-    "date": "2026-04-08T17:46:21.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Amazon Pulls Support for Perfectly Fine Older Kindles",
-    "source": "Wired",
-    "date": "2026-04-08T16:54:08.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "The Next Attorney General Will Probably Be an Election Denier",
-    "source": "Wired",
-    "date": "2026-04-08T15:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Ikea’s New Lineup of Smart Home Gear Is Quietly Changing the Game",
-    "source": "Wired",
-    "date": "2026-04-08T13:16:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "The Best Automatic Litter Box of 2026: Petkit and Litter-Robot",
-    "source": "Wired",
-    "date": "2026-04-08T11:38:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Best Lightweight Hiking Boots (2026): La Sportiva, Salomon, Keen, and More",
-    "source": "Wired",
-    "date": "2026-04-08T10:30:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Fender ELIE 6 Bluetooth Speaker Review: Big Sound, App on the Way",
-    "source": "Wired",
-    "date": "2026-04-08T10:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Men Are Buying Hacking Tools to Use Against Their Wives and Friends",
-    "source": "Wired",
-    "date": "2026-04-08T07:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "The iPhone Gets a D– for Repairability",
-    "source": "Wired",
-    "date": "2026-04-07T20:59:10.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Artemis II’s Breathtaking View of the Far Side of the Moon",
-    "source": "Wired",
-    "date": "2026-04-07T18:34:52.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Best Electric Bikes (2026): Commuting, Cargo Bikes, Mountain Biking",
-    "source": "Wired",
-    "date": "2026-04-07T12:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "The 5 Best Outdoor Pizza Ovens: Wood-Fired, Gas, Propane (2026)",
-    "source": "Wired",
-    "date": "2026-04-07T11:33:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "My Blissful Week as a ‘Do Not Disturb’ Maximalist",
-    "source": "Wired",
-    "date": "2026-04-07T11:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "He Started a Social Network Alone. Then 5 Million People Signed Up",
-    "source": "Wired",
-    "date": "2026-04-07T10:30:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Best Mesh Wi-Fi Systems (2026): Netgear, Asus, Amazon, and More",
-    "source": "Wired",
-    "date": "2026-04-07T10:30:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Nobody Knows How to File Taxes on Prediction Market Wins",
-    "source": "Wired",
-    "date": "2026-04-07T09:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Europe Gets Serious About Age Verification Online",
-    "source": "Wired",
-    "date": "2026-04-07T06:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
@@ -324,13 +360,13 @@
     "reason_dropped": "hard_excluded_event_promo"
   },
   {
-    "title": "Stripe",
+    "title": "GPT-4",
     "source": "OpenAI Blog",
     "date": "2023-03-14T07:00:00.000Z",
     "reason_dropped": "garbage_title"
   },
   {
-    "title": "GPT-4",
+    "title": "Stripe",
     "source": "OpenAI Blog",
     "date": "2023-03-14T07:00:00.000Z",
     "reason_dropped": "garbage_title"
@@ -684,6 +720,18 @@
     "reason_dropped": "low_relevance"
   },
   {
+    "title": "Testing ads in ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2026-02-09T11:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Bringing ChatGPT to GenAI.mil",
+    "source": "OpenAI Blog",
+    "date": "2026-02-09T11:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
     "title": "Making AI work for everyone, everywhere: our approach to localization",
     "source": "OpenAI Blog",
     "date": "2026-02-06T10:00:00.000Z",
@@ -708,6 +756,12 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
+    "title": "GPT-5.3-Codex System Card",
+    "source": "OpenAI Blog",
+    "date": "2026-02-05T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
     "title": "Introducing GPT-5.3-Codex",
     "source": "OpenAI Blog",
     "date": "2026-02-05T00:00:00.000Z",
@@ -715,12 +769,6 @@
   },
   {
     "title": "Navigating health questions with ChatGPT",
-    "source": "OpenAI Blog",
-    "date": "2026-02-05T00:00:00.000Z",
-    "reason_dropped": "dropped_time_mode"
-  },
-  {
-    "title": "GPT-5.3-Codex System Card",
     "source": "OpenAI Blog",
     "date": "2026-02-05T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -768,13 +816,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "The next chapter for AI in the EU",
+    "title": "EMEA Youth & Wellbeing Grant",
     "source": "OpenAI Blog",
     "date": "2026-01-28T01:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "EMEA Youth & Wellbeing Grant",
+    "title": "The next chapter for AI in the EU",
     "source": "OpenAI Blog",
     "date": "2026-01-28T01:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -840,13 +888,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "How countries can end the capability overhang",
+    "title": "Introducing Edu for Countries",
     "source": "OpenAI Blog",
     "date": "2026-01-21T01:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Introducing Edu for Countries",
+    "title": "How countries can end the capability overhang",
     "source": "OpenAI Blog",
     "date": "2026-01-21T01:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -894,13 +942,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Our approach to advertising and expanding access to ChatGPT",
+    "title": "Introducing ChatGPT Go, now available worldwide",
     "source": "OpenAI Blog",
     "date": "2026-01-16T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Introducing ChatGPT Go, now available worldwide",
+    "title": "Our approach to advertising and expanding access to ChatGPT",
     "source": "OpenAI Blog",
     "date": "2026-01-16T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -1008,19 +1056,19 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
+    "title": "Introducing GPT-5.2-Codex",
+    "source": "OpenAI Blog",
+    "date": "2025-12-18T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Introducing GPT-5.2-Codex",
+    "source": "OpenAI Blog",
+    "date": "2025-12-18T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
     "title": "Addendum to GPT-5.2 System Card: GPT-5.2-Codex",
-    "source": "OpenAI Blog",
-    "date": "2025-12-18T00:00:00.000Z",
-    "reason_dropped": "dropped_time_mode"
-  },
-  {
-    "title": "Introducing GPT-5.2-Codex",
-    "source": "OpenAI Blog",
-    "date": "2025-12-18T00:00:00.000Z",
-    "reason_dropped": "dropped_time_mode"
-  },
-  {
-    "title": "Introducing GPT-5.2-Codex",
     "source": "OpenAI Blog",
     "date": "2025-12-18T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -1062,12 +1110,6 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "How We Used Codex to Ship Sora for Android in 28 Days",
-    "source": "OpenAI Blog",
-    "date": "2025-12-12T00:00:00.000Z",
-    "reason_dropped": "dropped_time_mode"
-  },
-  {
     "title": "BBVA and OpenAI collaborate to transform global banking",
     "source": "OpenAI Blog",
     "date": "2025-12-12T00:00:00.000Z",
@@ -1080,13 +1122,25 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
+    "title": "How We Used Codex to Ship Sora for Android in 28 Days",
+    "source": "OpenAI Blog",
+    "date": "2025-12-12T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
     "title": "Advancing science and math with GPT-5.2",
     "source": "OpenAI Blog",
     "date": "2025-12-11T10:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "How Podium is arming 10,000+ SMBs with AI agents",
+    "title": "Ten years",
+    "source": "OpenAI Blog",
+    "date": "2025-12-11T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Update to GPT-5 System Card: GPT-5.2",
     "source": "OpenAI Blog",
     "date": "2025-12-11T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -1104,13 +1158,7 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Ten years",
-    "source": "OpenAI Blog",
-    "date": "2025-12-11T00:00:00.000Z",
-    "reason_dropped": "dropped_time_mode"
-  },
-  {
-    "title": "Update to GPT-5 System Card: GPT-5.2",
+    "title": "How Podium is arming 10,000+ SMBs with AI agents",
     "source": "OpenAI Blog",
     "date": "2025-12-11T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -1146,13 +1194,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Commonwealth Bank of Australia builds AI fluency at scale",
+    "title": "OpenAI appoints Denise Dresser as Chief Revenue Officer",
     "source": "OpenAI Blog",
     "date": "2025-12-09T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "OpenAI appoints Denise Dresser as Chief Revenue Officer",
+    "title": "Commonwealth Bank of Australia builds AI fluency at scale",
     "source": "OpenAI Blog",
     "date": "2025-12-09T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -1182,13 +1230,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "How confessions can keep language models honest",
+    "title": "OpenAI to acquire Neptune",
     "source": "OpenAI Blog",
     "date": "2025-12-03T10:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "OpenAI to acquire Neptune",
+    "title": "How confessions can keep language models honest",
     "source": "OpenAI Blog",
     "date": "2025-12-03T10:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -1218,13 +1266,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption",
+    "title": "Accenture and OpenAI accelerate enterprise AI success",
     "source": "OpenAI Blog",
     "date": "2025-12-01T05:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Accenture and OpenAI accelerate enterprise AI success",
+    "title": "OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption",
     "source": "OpenAI Blog",
     "date": "2025-12-01T05:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -1302,18 +1350,6 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Building more with GPT-5.1-Codex-Max",
-    "source": "OpenAI Blog",
-    "date": "2025-11-19T00:00:00.000Z",
-    "reason_dropped": "dropped_time_mode"
-  },
-  {
-    "title": "How Scania accelerates work with AI across its global workforce",
-    "source": "OpenAI Blog",
-    "date": "2025-11-19T00:00:00.000Z",
-    "reason_dropped": "dropped_time_mode"
-  },
-  {
     "title": "GPT-5.1-Codex-Max System Card",
     "source": "OpenAI Blog",
     "date": "2025-11-19T00:00:00.000Z",
@@ -1321,6 +1357,18 @@
   },
   {
     "title": "A free version of ChatGPT built for teachers",
+    "source": "OpenAI Blog",
+    "date": "2025-11-19T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Building more with GPT-5.1-Codex-Max",
+    "source": "OpenAI Blog",
+    "date": "2025-11-19T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "How Scania accelerates work with AI across its global workforce",
     "source": "OpenAI Blog",
     "date": "2025-11-19T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -1350,6 +1398,12 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
+    "title": "Introducing GPT-5.1 for developers",
+    "source": "OpenAI Blog",
+    "date": "2025-11-13T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
     "title": "How Philips is scaling AI literacy across 70,000 employees",
     "source": "OpenAI Blog",
     "date": "2025-11-13T00:00:00.000Z",
@@ -1357,12 +1411,6 @@
   },
   {
     "title": "Introducing group chats in ChatGPT",
-    "source": "OpenAI Blog",
-    "date": "2025-11-13T00:00:00.000Z",
-    "reason_dropped": "dropped_time_mode"
-  },
-  {
-    "title": "Introducing GPT-5.1 for developers",
     "source": "OpenAI Blog",
     "date": "2025-11-13T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -1416,13 +1464,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "AI progress and recommendations",
+    "title": "Introducing the Teen Safety Blueprint",
     "source": "OpenAI Blog",
     "date": "2025-11-06T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Introducing the Teen Safety Blueprint",
+    "title": "AI progress and recommendations",
     "source": "OpenAI Blog",
     "date": "2025-11-06T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -1482,13 +1530,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Introducing gpt-oss-safeguard",
+    "title": "gpt-oss-safeguard technical report",
     "source": "OpenAI Blog",
     "date": "2025-10-29T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "gpt-oss-safeguard technical report",
+    "title": "Introducing gpt-oss-safeguard",
     "source": "OpenAI Blog",
     "date": "2025-10-29T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -1506,13 +1554,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Built to benefit everyone",
+    "title": "The next chapter of the Microsoft–OpenAI partnership",
     "source": "OpenAI Blog",
     "date": "2025-10-28T06:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "The next chapter of the Microsoft–OpenAI partnership",
+    "title": "Built to benefit everyone",
     "source": "OpenAI Blog",
     "date": "2025-10-28T06:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -1524,13 +1572,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Strengthening ChatGPT’s responses in sensitive conversations",
+    "title": "Addendum to GPT-5 System Card: Sensitive conversations",
     "source": "OpenAI Blog",
     "date": "2025-10-27T10:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Addendum to GPT-5 System Card: Sensitive conversations",
+    "title": "Strengthening ChatGPT’s responses in sensitive conversations",
     "source": "OpenAI Blog",
     "date": "2025-10-27T10:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -1710,6 +1758,18 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
+    "title": "Empowering teams to unlock insights faster at OpenAI",
+    "source": "OpenAI Blog",
+    "date": "2025-09-29T13:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Improving support with every interaction at OpenAI",
+    "source": "OpenAI Blog",
+    "date": "2025-09-29T13:30:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
     "title": "Driving sales productivity and customer success at OpenAI",
     "source": "OpenAI Blog",
     "date": "2025-09-29T13:30:00.000Z",
@@ -1728,25 +1788,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Empowering teams to unlock insights faster at OpenAI",
-    "source": "OpenAI Blog",
-    "date": "2025-09-29T13:30:00.000Z",
-    "reason_dropped": "dropped_time_mode"
-  },
-  {
-    "title": "Improving support with every interaction at OpenAI",
-    "source": "OpenAI Blog",
-    "date": "2025-09-29T13:30:00.000Z",
-    "reason_dropped": "dropped_time_mode"
-  },
-  {
-    "title": "Introducing parental controls",
+    "title": "Combating online child sexual exploitation & abuse",
     "source": "OpenAI Blog",
     "date": "2025-09-29T03:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Combating online child sexual exploitation & abuse",
+    "title": "Introducing parental controls",
     "source": "OpenAI Blog",
     "date": "2025-09-29T03:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -1824,13 +1872,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Teen safety, freedom, and privacy",
+    "title": "Building towards age prediction",
     "source": "OpenAI Blog",
     "date": "2025-09-16T06:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Building towards age prediction",
+    "title": "Teen safety, freedom, and privacy",
     "source": "OpenAI Blog",
     "date": "2025-09-16T06:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -1974,13 +2022,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Scaling accounting capacity with OpenAI",
+    "title": "OpenAI’s letter to Governor Newsom on harmonized regulation",
     "source": "OpenAI Blog",
     "date": "2025-08-12T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "OpenAI’s letter to Governor Newsom on harmonized regulation",
+    "title": "Scaling accounting capacity with OpenAI",
     "source": "OpenAI Blog",
     "date": "2025-08-12T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -2016,7 +2064,7 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "From hard refusals to safe-completions: toward output-centric safety training",
+    "title": "How Cursor uses GPT-5",
     "source": "OpenAI Blog",
     "date": "2025-08-07T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -2028,7 +2076,7 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "How Cursor uses GPT-5",
+    "title": "From hard refusals to safe-completions: toward output-centric safety training",
     "source": "OpenAI Blog",
     "date": "2025-08-07T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -2040,13 +2088,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Introducing GPT-5",
+    "title": "First look at GPT-5",
     "source": "OpenAI Blog",
     "date": "2025-08-07T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "First look at GPT-5",
+    "title": "Introducing GPT-5",
     "source": "OpenAI Blog",
     "date": "2025-08-07T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -2058,13 +2106,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Introducing gpt-oss",
+    "title": "gpt-oss-120b & gpt-oss-20b Model Card",
     "source": "OpenAI Blog",
     "date": "2025-08-05T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "gpt-oss-120b & gpt-oss-20b Model Card",
+    "title": "Estimating worst case frontier risks of open weight LLMs",
     "source": "OpenAI Blog",
     "date": "2025-08-05T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -2076,7 +2124,7 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Estimating worst case frontier risks of open weight LLMs",
+    "title": "Introducing gpt-oss",
     "source": "OpenAI Blog",
     "date": "2025-08-05T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -2118,13 +2166,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Announcing OpenAI DevDay 2025",
+    "title": "Model ML is helping financial firms rebuild with AI from the ground up",
     "source": "OpenAI Blog",
     "date": "2025-07-23T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Model ML is helping financial firms rebuild with AI from the ground up",
+    "title": "Announcing OpenAI DevDay 2025",
     "source": "OpenAI Blog",
     "date": "2025-07-23T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -2442,6 +2490,12 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
+    "title": "Introducing OpenAI o3 and o4-mini",
+    "source": "OpenAI Blog",
+    "date": "2025-04-16T10:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
     "title": "Thinking with images",
     "source": "OpenAI Blog",
     "date": "2025-04-16T10:00:00.000Z",
@@ -2449,12 +2503,6 @@
   },
   {
     "title": "OpenAI o3 and o4-mini System Card",
-    "source": "OpenAI Blog",
-    "date": "2025-04-16T10:00:00.000Z",
-    "reason_dropped": "dropped_time_mode"
-  },
-  {
-    "title": "Introducing OpenAI o3 and o4-mini",
     "source": "OpenAI Blog",
     "date": "2025-04-16T10:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -2796,13 +2844,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Understanding complex trends with deep research",
+    "title": "Introducing deep research",
     "source": "OpenAI Blog",
     "date": "2025-02-02T16:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Introducing deep research",
+    "title": "Understanding complex trends with deep research",
     "source": "OpenAI Blog",
     "date": "2025-02-02T16:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -2832,7 +2880,7 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Computer-Using Agent",
+    "title": "Operator System Card",
     "source": "OpenAI Blog",
     "date": "2025-01-23T10:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -2844,7 +2892,7 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Operator System Card",
+    "title": "Computer-Using Agent",
     "source": "OpenAI Blog",
     "date": "2025-01-23T10:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -2910,6 +2958,18 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
+    "title": "Put AI to work for your product team",
+    "source": "OpenAI Blog",
+    "date": "2024-12-09T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Sora System Card",
+    "source": "OpenAI Blog",
+    "date": "2024-12-09T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
     "title": "Animator Lyndon Barrois creates new worlds with Sora",
     "source": "OpenAI Blog",
     "date": "2024-12-09T00:00:00.000Z",
@@ -2922,19 +2982,7 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Sora System Card",
-    "source": "OpenAI Blog",
-    "date": "2024-12-09T00:00:00.000Z",
-    "reason_dropped": "dropped_time_mode"
-  },
-  {
     "title": "Vallée Duhamel & Sora",
-    "source": "OpenAI Blog",
-    "date": "2024-12-09T00:00:00.000Z",
-    "reason_dropped": "dropped_time_mode"
-  },
-  {
-    "title": "Put AI to work for your product team",
     "source": "OpenAI Blog",
     "date": "2024-12-09T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -3204,13 +3252,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "OpenAI o1 Contributions",
+    "title": "OpenAI o1 System Card External Testers Acknowledgements",
     "source": "OpenAI Blog",
     "date": "2024-09-12T10:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "OpenAI o1 System Card External Testers Acknowledgements",
+    "title": "OpenAI o1 Contributions",
     "source": "OpenAI Blog",
     "date": "2024-09-12T10:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -3222,7 +3270,7 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Decoding genetics with OpenAI o1",
+    "title": "Answering quantum physics questions with OpenAI o1",
     "source": "OpenAI Blog",
     "date": "2024-09-12T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -3234,7 +3282,7 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Answering quantum physics questions with OpenAI o1",
+    "title": "Decoding genetics with OpenAI o1",
     "source": "OpenAI Blog",
     "date": "2024-09-12T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -3270,13 +3318,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Putting AI to work at Upwork",
+    "title": "Fine-tuning now available for GPT-4o",
     "source": "OpenAI Blog",
     "date": "2024-08-20T10:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Fine-tuning now available for GPT-4o",
+    "title": "Putting AI to work at Upwork",
     "source": "OpenAI Blog",
     "date": "2024-08-20T10:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -3396,13 +3444,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Consistency Models",
+    "title": "Improved Techniques for Training Consistency Models",
     "source": "OpenAI Blog",
     "date": "2024-06-20T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Improved Techniques for Training Consistency Models",
+    "title": "Consistency Models",
     "source": "OpenAI Blog",
     "date": "2024-06-20T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -3558,13 +3606,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Spring Update",
+    "title": "Introducing GPT-4o and more tools to ChatGPT free users",
     "source": "OpenAI Blog",
     "date": "2024-05-13T10:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Introducing GPT-4o and more tools to ChatGPT free users",
+    "title": "Spring Update",
     "source": "OpenAI Blog",
     "date": "2024-05-13T10:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -3642,13 +3690,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Reducing health insurance costs and improving care",
+    "title": "Start using ChatGPT instantly",
     "source": "OpenAI Blog",
     "date": "2024-04-01T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Start using ChatGPT instantly",
+    "title": "Reducing health insurance costs and improving care",
     "source": "OpenAI Blog",
     "date": "2024-04-01T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -3690,21 +3738,15 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Enterprise-ready trust and safety",
-    "source": "OpenAI Blog",
-    "date": "2024-03-18T07:00:00.000Z",
-    "reason_dropped": "dropped_time_mode"
-  },
-  {
     "title": "Reimagining the email experience with AI",
     "source": "OpenAI Blog",
     "date": "2024-03-18T07:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Global news partnerships: Le Monde and Prisa Media",
+    "title": "Enterprise-ready trust and safety",
     "source": "OpenAI Blog",
-    "date": "2024-03-13T07:00:00.000Z",
+    "date": "2024-03-18T07:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
@@ -3714,13 +3756,19 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "OpenAI announces new members to board of directors",
+    "title": "Global news partnerships: Le Monde and Prisa Media",
+    "source": "OpenAI Blog",
+    "date": "2024-03-13T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Review completed & Altman, Brockman to continue to lead OpenAI",
     "source": "OpenAI Blog",
     "date": "2024-03-08T08:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Review completed & Altman, Brockman to continue to lead OpenAI",
+    "title": "OpenAI announces new members to board of directors",
     "source": "OpenAI Blog",
     "date": "2024-03-08T08:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -3804,13 +3852,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Introducing the GPT Store",
+    "title": "Introducing ChatGPT Team",
     "source": "OpenAI Blog",
     "date": "2024-01-10T08:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Introducing ChatGPT Team",
+    "title": "Introducing the GPT Store",
     "source": "OpenAI Blog",
     "date": "2024-01-10T08:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -3834,13 +3882,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Practices for Governing Agentic AI Systems",
+    "title": "Superalignment Fast Grants",
     "source": "OpenAI Blog",
     "date": "2023-12-14T08:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Superalignment Fast Grants",
+    "title": "Practices for Governing Agentic AI Systems",
     "source": "OpenAI Blog",
     "date": "2023-12-14T08:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -4134,13 +4182,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Transforming visual accessibility",
+    "title": "Filling crucial language learning gaps",
     "source": "OpenAI Blog",
     "date": "2023-03-14T07:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Preserving languages for the future",
+    "title": "Transforming visual accessibility",
     "source": "OpenAI Blog",
     "date": "2023-03-14T07:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -4152,7 +4200,7 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Filling crucial language learning gaps",
+    "title": "Preserving languages for the future",
     "source": "OpenAI Blog",
     "date": "2023-03-14T07:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -4524,13 +4572,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "CLIP: Connecting text and images",
+    "title": "DALL·E: Creating images from text",
     "source": "OpenAI Blog",
     "date": "2021-01-05T08:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "DALL·E: Creating images from text",
+    "title": "CLIP: Connecting text and images",
     "source": "OpenAI Blog",
     "date": "2021-01-05T08:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -4638,13 +4686,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Benchmarking safe exploration in deep reinforcement learning",
+    "title": "Safety Gym",
     "source": "OpenAI Blog",
     "date": "2019-11-21T08:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Safety Gym",
+    "title": "Benchmarking safe exploration in deep reinforcement learning",
     "source": "OpenAI Blog",
     "date": "2019-11-21T08:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -5070,13 +5118,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Competitive self-play",
+    "title": "Meta-learning for wrestling",
     "source": "OpenAI Blog",
     "date": "2017-10-11T07:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Meta-learning for wrestling",
+    "title": "Competitive self-play",
     "source": "OpenAI Blog",
     "date": "2017-10-11T07:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -5316,13 +5364,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Team update",
+    "title": "Adversarial training methods for semi-supervised text classification",
     "source": "OpenAI Blog",
     "date": "2016-05-25T07:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Adversarial training methods for semi-supervised text classification",
+    "title": "Team update",
     "source": "OpenAI Blog",
     "date": "2016-05-25T07:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -5382,6 +5430,18 @@
     "reason_dropped": "low_relevance"
   },
   {
+    "title": "Introducing the Adoption news channel",
+    "source": "OpenAI Blog",
+    "date": "2026-03-05T00:00:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "The five AI value models driving business reinvention",
+    "source": "OpenAI Blog",
+    "date": "2026-03-05T00:00:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
     "title": "Extending single-minus amplitudes to gravitons",
     "source": "OpenAI Blog",
     "date": "2026-03-04T10:00:00.000Z",
@@ -5418,25 +5478,25 @@
     "reason_dropped": "over_source_limit"
   },
   {
-    "title": "Joint Statement from OpenAI and Microsoft",
-    "source": "OpenAI Blog",
-    "date": "2026-02-27T05:30:00.000Z",
-    "reason_dropped": "over_source_limit"
-  },
-  {
     "title": "Scaling AI for everyone",
     "source": "OpenAI Blog",
     "date": "2026-02-27T05:30:00.000Z",
     "reason_dropped": "over_source_limit"
   },
   {
-    "title": "OpenAI and Amazon announce strategic partnership",
+    "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
     "source": "OpenAI Blog",
     "date": "2026-02-27T05:30:00.000Z",
     "reason_dropped": "over_source_limit"
   },
   {
-    "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
+    "title": "Joint Statement from OpenAI and Microsoft",
+    "source": "OpenAI Blog",
+    "date": "2026-02-27T05:30:00.000Z",
+    "reason_dropped": "over_source_limit"
+  },
+  {
+    "title": "OpenAI and Amazon announce strategic partnership",
     "source": "OpenAI Blog",
     "date": "2026-02-27T05:30:00.000Z",
     "reason_dropped": "over_source_limit"
@@ -5541,18 +5601,6 @@
     "title": "Harness engineering: leveraging Codex in an agent-first world",
     "source": "OpenAI Blog",
     "date": "2026-02-11T09:00:00.000Z",
-    "reason_dropped": "over_source_limit"
-  },
-  {
-    "title": "Testing ads in ChatGPT",
-    "source": "OpenAI Blog",
-    "date": "2026-02-09T11:00:00.000Z",
-    "reason_dropped": "over_source_limit"
-  },
-  {
-    "title": "Bringing ChatGPT to GenAI.mil",
-    "source": "OpenAI Blog",
-    "date": "2026-02-09T11:00:00.000Z",
     "reason_dropped": "over_source_limit"
   }
 ]

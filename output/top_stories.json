@@ -22,25 +22,6 @@
       "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the ecosystem, such as enterprises, developers, platforms, users, or regulators. It has practical consequences beyond a narrow technical audience."
     },
     {
-      "title": "Developer of VeraCrypt encryption software says Windows users may face boot-up issues after Microsoft locked his account",
-      "source": "TechCrunch",
-      "date": "2026-04-08T15:21:13.000Z",
-      "summary": "The maker of the popular open source file encryption software VeraCrypt said Microsoft locked his online account, which may prevent device owners from booting up their computers.",
-      "tags": [
-        "ai_infrastructure",
-        "applied_ai"
-      ],
-      "priority_score": 14.3,
-      "priority_reasons": [
-        "model_or_platform_change",
-        "infrastructure_move",
-        "enterprise_scale_signal",
-        "broad_ecosystem_impact",
-        "editorial_source_confirmation"
-      ],
-      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the ecosystem, such as enterprises, developers, platforms, users, or regulators. It has practical consequences beyond a narrow technical audience."
-    },
-    {
       "title": "Advancing Open Source AI, NVIDIA Donates Dynamic Resource Allocation Driver for GPUs to Kubernetes Community",
       "source": "NVIDIA Blog",
       "date": "2026-03-24T08:00:12.000Z",
@@ -57,24 +38,6 @@
         "broad_ecosystem_impact"
       ],
       "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the ecosystem, such as enterprises, developers, platforms, users, or regulators. It has practical consequences beyond a narrow technical audience."
-    },
-    {
-      "title": "Conflicting Rulings Leave Anthropic in ‘Supply-Chain Risk’ Limbo",
-      "source": "Wired",
-      "date": "2026-04-08T22:27:26.000Z",
-      "summary": "A US appeals court ruling is at odds with a separate, lower court decision from March, leaving uncertainty about if and how the US military can use the AI company's Claude model.",
-      "tags": [
-        "ai_models"
-      ],
-      "priority_score": 13.3,
-      "priority_reasons": [
-        "model_or_platform_change",
-        "policy_shift",
-        "safety_or_governance",
-        "multi_group_impact",
-        "editorial_source_confirmation"
-      ],
-      "why_it_matters": "This matters because it changes how more than one important group can build, buy, deploy, or govern AI. The impact is broader than a single product or research update."
     },
     {
       "title": "OpenAI to acquire Promptfoo",
@@ -115,24 +78,6 @@
       "why_it_matters": "This matters because it changes how more than one important group can build, buy, deploy, or govern AI. The impact is broader than a single product or research update."
     },
     {
-      "title": "Microsoft’s executive shake-up continues as developer division chief resigns",
-      "source": "The Verge",
-      "date": "2026-04-08T16:56:43.000Z",
-      "summary": "Microsoft is losing another veteran executive. Julia Liuson, head of Microsoft's developer division (DevDiv), is resigning from the software giant after 34 years. Liuson spent the past 12 years leading Microsoft's developer business, during a period Microsoft focused more on open source projects and acquired GitHub...",
-      "tags": [
-        "applied_ai"
-      ],
-      "priority_score": 11.3,
-      "priority_reasons": [
-        "model_or_platform_change",
-        "enterprise_scale_signal",
-        "strategic_finance",
-        "multi_group_impact",
-        "editorial_source_confirmation"
-      ],
-      "why_it_matters": "This matters because it changes how more than one important group can build, buy, deploy, or govern AI. The impact is broader than a single product or research update."
-    },
-    {
       "title": "More Than Meets the Eye: NVIDIA RTX-Accelerated Computers Now Connect Directly to Apple Vision Pro",
       "source": "NVIDIA Blog",
       "date": "2026-03-17T17:00:58.000Z",
@@ -147,9 +92,7 @@
         "broad_ecosystem_impact"
       ],
       "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the ecosystem, such as enterprises, developers, platforms, users, or regulators. It has practical consequences beyond a narrow technical audience."
-    }
-  ],
-  "secondary_signals": [
+    },
     {
       "title": "NVIDIA, Telecom Leaders Build AI Grids to Optimize Inference on Distributed Networks",
       "source": "NVIDIA Blog",
@@ -166,7 +109,7 @@
         "enterprise_scale_signal",
         "practical_usability_impact"
       ],
-      "note": "Shows practical adoption or rollout worth tracking."
+      "why_it_matters": "This matters because infrastructure changes shape what the ecosystem can build next. It affects cost, capability, or speed at platform scale."
     },
     {
       "title": "Into the Omniverse: NVIDIA GTC Showcases Virtual Worlds Powering the Physical AI Era",
@@ -182,7 +125,7 @@
         "enterprise_scale_signal",
         "broad_ecosystem_impact"
       ],
-      "note": "Useful because it has broad practical impact across the AI ecosystem."
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the ecosystem, such as enterprises, developers, platforms, users, or regulators. It has practical consequences beyond a narrow technical audience."
     },
     {
       "title": "From model to agent: Equipping the Responses API with a computer environment",
@@ -199,8 +142,10 @@
         "infrastructure_move",
         "multi_group_impact"
       ],
-      "note": "Useful because it affects more than one important audience or buyer group."
-    },
+      "why_it_matters": "This matters because it changes how more than one important group can build, buy, deploy, or govern AI. The impact is broader than a single product or research update."
+    }
+  ],
+  "secondary_signals": [
     {
       "title": "Introducing GPT-5.4",
       "source": "OpenAI Blog",
@@ -235,24 +180,6 @@
         "broader_trend"
       ],
       "note": "Useful because it affects more than one important audience or buyer group."
-    },
-    {
-      "title": "AWS boss explains why investing billions in both Anthropic and OpenAI is an OK conflict",
-      "source": "TechCrunch",
-      "date": "2026-04-08T20:09:14.000Z",
-      "summary": "AWS has an ingrained culture of handling competition, he explained, because the cloud giant also competes with its partners.",
-      "tags": [
-        "general_ai_tech"
-      ],
-      "priority_score": 9.8,
-      "priority_reasons": [
-        "infrastructure_move",
-        "strategic_partnership",
-        "strategic_finance",
-        "practical_usability_impact",
-        "editorial_source_confirmation"
-      ],
-      "note": "Useful supporting editorial signal."
     },
     {
       "title": "Helping developers build safer AI experiences for teens",
@@ -290,41 +217,6 @@
       "note": "Useful because it has broad practical impact across the AI ecosystem."
     },
     {
-      "title": "WireGuard VPN developer can’t ship software updates after Microsoft locks account",
-      "source": "TechCrunch",
-      "date": "2026-04-08T21:50:41.000Z",
-      "summary": "The popular open source VPN maker is the second high-profile developer to say Microsoft locked his account without notifying him and is blocking their ability to send software updates to users.",
-      "tags": [
-        "applied_ai"
-      ],
-      "priority_score": 9.3,
-      "priority_reasons": [
-        "model_or_platform_change",
-        "enterprise_scale_signal",
-        "multi_group_impact",
-        "editorial_source_confirmation"
-      ],
-      "note": "Useful because it affects more than one important audience or buyer group."
-    },
-    {
-      "title": "Anthropic’s New Product Aims to Handle the Hard Part of Building AI Agents",
-      "source": "Wired",
-      "date": "2026-04-08T17:00:00.000Z",
-      "summary": "Amid rapid enterprise growth, Anthropic is trying to lower the barrier to entry for businesses to build AI agents with Claude.",
-      "tags": [
-        "ai_infrastructure",
-        "applied_ai"
-      ],
-      "priority_score": 9.3,
-      "priority_reasons": [
-        "model_or_platform_change",
-        "enterprise_scale_signal",
-        "multi_group_impact",
-        "editorial_source_confirmation"
-      ],
-      "note": "Useful because it affects more than one important audience or buyer group."
-    },
-    {
       "title": "OpenAI to acquire Astral",
       "source": "OpenAI Blog",
       "date": "2026-03-19T00:00:00.000Z",
@@ -360,6 +252,23 @@
         "minor_or_routine"
       ],
       "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "Florida launches investigation into OpenAI",
+      "source": "The Verge",
+      "date": "2026-04-09T22:17:06.000Z",
+      "summary": "Florida Attorney General James Uthmeier is launching an investigation into OpenAI over public safety and national security risks, as reported earlier by Reuters. In a statement on Thursday, Uthmeier says there are concerns that OpenAI's data and technology are \"falling into the hands of America's enemies, such as th...",
+      "tags": [
+        "ai_research"
+      ],
+      "priority_score": 8.8,
+      "priority_reasons": [
+        "policy_shift",
+        "safety_or_governance",
+        "strategic_finance",
+        "editorial_source_confirmation"
+      ],
+      "note": "Worth watching for downstream regulatory impact."
     },
     {
       "title": "From RTX to Spark: NVIDIA Accelerates Gemma 4 for Local Agentic AI",
@@ -409,6 +318,91 @@
         "practical_usability_impact"
       ],
       "note": "Relevant platform or product movement, but not top-tier today."
+    },
+    {
+      "title": "Meta’s New AI Asked for My Raw Health Data—and Gave Me Terrible Advice",
+      "source": "Wired",
+      "date": "2026-04-10T09:30:00.000Z",
+      "summary": "Meta’s Muse Spark model offers to analyze users’ health data, including lab results. Beyond the obvious privacy risks, it’s not a capable stand-in for a real doctor.",
+      "tags": [
+        "ai_models"
+      ],
+      "priority_score": 8.3,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "safety_or_governance",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Relevant platform or product movement, but not top-tier today."
+    },
+    {
+      "title": "Is Anthropic limiting the release of Mythos to protect the internet — or Anthropic?",
+      "source": "TechCrunch",
+      "date": "2026-04-09T18:50:05.000Z",
+      "summary": "Anthropic said this week that it limited the release of its newest model, dubbed Mythos, because it is too capable of finding security exploits in software relied upon by users around the world. Are real cybersecurity concerns a cover for a bigger problem at the frontier lab?",
+      "tags": [
+        "ai_models"
+      ],
+      "priority_score": 8.3,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "safety_or_governance",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Relevant platform or product movement, but not top-tier today."
+    },
+    {
+      "title": "Google and Intel deepen AI infrastructure partnership",
+      "source": "TechCrunch",
+      "date": "2026-04-09T18:27:47.000Z",
+      "summary": "The two tech giants are looking to co-develop custom chips, at a time when demand for CPUs is high due to a growing global shortage.",
+      "tags": [
+        "ai_infrastructure"
+      ],
+      "priority_score": 8.3,
+      "priority_reasons": [
+        "infrastructure_move",
+        "strategic_partnership",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Florida AG announces investigation into OpenAI over shooting that allegedly involved ChatGPT",
+      "source": "TechCrunch",
+      "date": "2026-04-09T20:11:55.000Z",
+      "summary": "ChatGPT had reportedly been used to plan the attack that killed two and injured five at Florida State University last April. The family of one victim has said that they plan to sue OpenAI over the incident.",
+      "tags": [
+        "ai_models"
+      ],
+      "priority_score": 7.8,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "strategic_finance",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Relevant platform or product movement, but not top-tier today."
+    },
+    {
+      "title": "The Future of AI Is Open and Proprietary",
+      "source": "NVIDIA Blog",
+      "date": "2026-03-25T19:00:04.000Z",
+      "summary": "AI is the defining technology of our time, quickly becoming core business infrastructure. It’s fueled by a diverse ecosystem of models: large and small, open and proprietary, generalist and specialist. This variety is essential for a future where every application will be powered by AI, every country will build it a...",
+      "tags": [
+        "ai_models",
+        "applied_ai"
+      ],
+      "priority_score": 7.5,
+      "priority_reasons": [
+        "enterprise_scale_signal",
+        "foundational_research",
+        "broad_ecosystem_impact"
+      ],
+      "note": "Useful because it has broad practical impact across the AI ecosystem."
     }
   ]
 }

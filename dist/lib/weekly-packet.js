@@ -589,10 +589,26 @@ function deriveEditorialLabel(fallbackLabel, reasonCodes, angles, stories) {
         text.includes("monthly roundup")) {
         return "platform update cadence";
     }
+    if (text.includes("wearable") ||
+        text.includes("ipod shuffle") ||
+        text.includes("consumer ai device")) {
+        return "consumer AI device experimentation";
+    }
+    if (text.includes("google vids") ||
+        text.includes("share videos at no cost") ||
+        text.includes("bundling")) {
+        return "platform bundling pressure";
+    }
     if (text.includes("economic proposals") ||
         text.includes("economic proposal") ||
         text.includes("dc thinks")) {
         return "AI policy signaling";
+    }
+    if (text.includes("media") ||
+        text.includes("journalism") ||
+        text.includes("politics") ||
+        text.includes("democracy now")) {
+        return "media and platform politics";
     }
     if (text.includes("child safety") ||
         text.includes("safety blueprint") ||
@@ -634,6 +650,25 @@ function deriveEditorialLabel(fallbackLabel, reasonCodes, angles, stories) {
         return "capital caution";
     }
     return sanitizeText(fallbackLabel);
+}
+function fallbackEditorialLabel(story) {
+    const text = normalizeText(`${story.title} ${story.summary ?? ""} ${story.tags.join(" ")} ${story.angle_signals?.join(" ") ?? ""}`);
+    if (text.includes("media") || text.includes("journalism") || text.includes("politics")) {
+        return "media and platform politics";
+    }
+    if (text.includes("device") || text.includes("wearable") || text.includes("consumer")) {
+        return "consumer AI device experimentation";
+    }
+    if (text.includes("video") || text.includes("workspace") || text.includes("bundling")) {
+        return "platform bundling pressure";
+    }
+    if (text.includes("safety")) {
+        return "AI safety governance";
+    }
+    if (text.includes("supply") || text.includes("shipping") || text.includes("infrastructure")) {
+        return "supply chain strain";
+    }
+    return "emerging AI signal";
 }
 function isWeakReason(reason) {
     if (!reason) {
@@ -695,36 +730,109 @@ function sectionUnique(items, limit) {
     }
     return unique;
 }
-function supportingReason(story) {
+function supportingReasonCandidates(story) {
     const primary = story.reason_kept[0] ?? "";
-    if (!isWeakReason(primary)) {
-        return primary;
+    const text = normalizeText(`${story.title} ${story.summary ?? ""} ${story.tags.join(" ")} ${story.angle_signals?.join(" ") ?? ""}`);
+    const normalizedPrimary = primary.toLowerCase();
+    const candidates = [];
+    const genericPrimary = normalizedPrimary.includes("high-impact policy move with likely downstream business effects") ||
+        normalizedPrimary.includes("marks a real change in direction with likely downstream effects") ||
+        normalizedPrimary.includes("reveals something concrete about demand, spending, or market confidence");
+    if (!isWeakReason(primary) && !genericPrimary) {
+        candidates.push(primary);
+    }
+    if (story.angle_signals?.some((angle) => angle.includes("cost pressure"))) {
+        candidates.push("Makes the cost of scaling visible.");
+        candidates.push("Shows where the economics start to tighten.");
+    }
+    if (story.angle_signals?.some((angle) => angle.includes("supply"))) {
+        candidates.push("Shows where supply strain is starting to hit the story.");
+        candidates.push("Makes the supply-side constraint harder to ignore.");
+    }
+    if (story.angle_signals?.some((angle) => angle.includes("competitive")) ||
+        text.includes("acquire") ||
+        text.includes("partnership")) {
+        candidates.push("Shows who is trying to lock up position before the market settles.");
+        candidates.push("Makes the strategic land grab more visible.");
+    }
+    if (story.angle_signals?.some((angle) => angle.includes("developer workflow")) ||
+        text.includes("developer") ||
+        text.includes("api")) {
+        candidates.push("Shows where platform control is shifting into developer workflow.");
+        candidates.push("Shows how the fight is moving into the tooling layer.");
+    }
+    if (story.angle_signals?.some((angle) => angle.includes("safety"))) {
+        candidates.push("Shows how safety posture is becoming part of product strategy.");
+        candidates.push("Makes the governance pitch part of the product story.");
     }
     if (story.reason_code === "execution_consequence") {
-        return "Makes the operating bottleneck concrete.";
+        candidates.push("Shows where strategy is running into real operating limits.");
+        candidates.push("Makes the execution constraint concrete.");
     }
     if (story.reason_code === "policy_regulatory_move") {
-        return "Adds a real policy or compliance consequence.";
+        candidates.push("Shows where policy pressure is starting to change operating choices.");
+        candidates.push("Shows how regulation is starting to shape the playbook.");
     }
     if (story.reason_code === "market_signal") {
-        return "Puts demand, pricing, or positioning pressure into plain view.";
+        candidates.push("Makes the demand and pricing question harder to ignore.");
+        candidates.push("Shows where the market signal is firmer than the narrative.");
     }
     if (story.reason_code === "industry_repositioning") {
-        return "Clarifies a concrete competitive move.";
+        candidates.push("Clarifies the competitive move behind the headline.");
+        candidates.push("Shows how the positioning play is taking shape.");
     }
     if (story.reason_code === "meaningful_shift") {
-        return "Marks a directional change instead of another incremental update.";
+        candidates.push("Marks a genuine change in direction, not another routine release.");
+        candidates.push("Shows that this is more than another incremental update.");
+    }
+    if (text.includes("pricing") || text.includes("teams") || text.includes("cost")) {
+        candidates.push("Shows how vendors are adjusting price and packaging to pull users deeper in.");
+        candidates.push("Makes the monetization push easier to see.");
+    }
+    if (text.includes("security") || text.includes("trust") || text.includes("safe")) {
+        candidates.push("Shows how trust and safety claims are being used to support adoption.");
+        candidates.push("Shows how vendors are turning safety into an adoption lever.");
+    }
+    if (text.includes("energy") || text.includes("grid")) {
+        candidates.push("Shows the energy burden that comes with scaling AI systems.");
+        candidates.push("Makes the power cost of expansion visible.");
     }
     if (story.angle_signals?.some((angle) => angle.includes("infrastructure"))) {
-        return "Makes the infrastructure strain visible.";
+        candidates.push("Makes the infrastructure strain visible.");
+        candidates.push("Shows where the build-out starts to drag on execution.");
     }
-    if (story.angle_signals?.some((angle) => angle.includes("adoption"))) {
-        return "Makes the enterprise push concrete.";
+    if (story.angle_signals?.some((angle) => angle.includes("adoption")) ||
+        text.includes("enterprise")) {
+        candidates.push("Shows how vendors are trying to lock in enterprise trust before demand settles.");
+        candidates.push("Shows how the enterprise pitch is arriving ahead of proof.");
     }
     if (story.angle_signals?.some((angle) => angle.includes("policy"))) {
-        return "Shows where policy pressure is starting to bite.";
+        candidates.push("Makes the compliance pressure more concrete.");
+        candidates.push("Shows the operating cost of policy pressure.");
     }
-    return "Adds a concrete supporting signal inside this theme.";
+    if (text.includes("model") || text.includes("launch") || text.includes("release")) {
+        candidates.push("Shows what the platform push looks like in practice.");
+        candidates.push("Makes the launch strategy more concrete.");
+    }
+    candidates.push("Gives the theme a concrete operating example.");
+    return [...new Set(candidates)];
+}
+function supportingReason(story, usedReasons) {
+    const candidates = supportingReasonCandidates(story);
+    if (!usedReasons) {
+        return candidates[0];
+    }
+    for (const candidate of candidates) {
+        const key = candidate.toLowerCase();
+        if (usedReasons.has(key)) {
+            continue;
+        }
+        usedReasons.add(key);
+        return candidate;
+    }
+    const fallback = candidates[0];
+    usedReasons.add(fallback.toLowerCase());
+    return fallback;
 }
 function looksLikeRawThemeLabel(label) {
     if (!label) {
@@ -737,7 +845,11 @@ function storyPresentationLabel(story) {
     if (!looksLikeRawThemeLabel(story.theme_label)) {
         return sanitizeText(story.theme_label ?? story.title);
     }
-    return deriveEditorialLabel(story.theme_label ?? story.title, story.reason_code ? [story.reason_code] : [], story.angle_signals ?? [], [story]);
+    const derived = deriveEditorialLabel(story.theme_label ?? story.title, story.reason_code ? [story.reason_code] : [], story.angle_signals ?? [], [story]);
+    if (looksLikeRawThemeLabel(derived)) {
+        return fallbackEditorialLabel(story);
+    }
+    return derived;
 }
 function buildThemeBriefItem(themeCluster, storyMap) {
     const stories = themeCluster.story_ids
@@ -833,20 +945,47 @@ function buildWatchlistItems(stories, usedStoryIds, blockedLabels) {
         };
     });
 }
-function renderSupportingStory(lines, story) {
-    lines.push(`- [${sanitizeText(story.title)}](${story.url}) | ${story.source} | ${supportingReason(story)}`);
+function renderSupportingStory(lines, story, usedReasons) {
+    lines.push(`- [${sanitizeText(story.title)}](${story.url}) | ${story.source} | ${supportingReason(story, usedReasons)}`);
 }
 function renderBriefSection(lines, title, items, introLabel) {
     lines.push(`## ${title}`);
     lines.push("");
     for (const item of items) {
+        const usedReasons = new Set();
         lines.push(`### ${item.label}`);
         lines.push(`- ${introLabel}: ${item.whyItMatters}`);
         lines.push(`- Pattern: ${item.pattern}`);
         lines.push(`- ${item.tension}`);
         lines.push(`- Supporting stories:`);
         for (const story of item.supportingStories) {
-            renderSupportingStory(lines, story);
+            renderSupportingStory(lines, story, usedReasons);
+        }
+        lines.push("");
+    }
+}
+function renderWatchlistSection(lines, items) {
+    lines.push("## Watchlist");
+    lines.push("");
+    for (const item of items) {
+        const singleStory = item.supportingStories.length === 1;
+        if (singleStory) {
+            const story = item.supportingStories[0];
+            lines.push(`### Signal: ${item.label}`);
+            lines.push(`- Why to watch: ${item.whyItMatters}`);
+            lines.push(`- ${sanitizeText(story.title)} — ${story.source}`);
+            lines.push(`- ${supportingReason(story)}`);
+            lines.push("");
+            continue;
+        }
+        const usedReasons = new Set();
+        lines.push(`### ${item.label}`);
+        lines.push(`- Why to watch: ${item.whyItMatters}`);
+        lines.push(`- Pattern: ${item.pattern}`);
+        lines.push(`- ${item.tension}`);
+        lines.push(`- Supporting stories:`);
+        for (const story of item.supportingStories) {
+            renderSupportingStory(lines, story, usedReasons);
         }
         lines.push("");
     }
@@ -917,7 +1056,7 @@ function renderWeeklyEditorialPacketMarkdown(packet, stories, eventClusters, the
     lines.push("");
     renderBriefSection(lines, "What matters most", whatMattersMost, "Why it matters");
     renderBriefSection(lines, "Structural shifts", structuralShifts, "Editorial note");
-    renderBriefSection(lines, "Watchlist", watchlist, "Why to watch");
+    renderWatchlistSection(lines, watchlist);
     lines.push("## What seems to be happening");
     lines.push("");
     for (const bullet of patternBullets) {
