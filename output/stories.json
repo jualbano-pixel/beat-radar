@@ -18,7 +18,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Google's Gemini is getting a feature called \"notebooks\" to help you organize things about certain topics in a single place while using the AI chatbot, the company announced on Wednesday. You can pull in things like files, past conversations, and custom instructions into notebooks that Gemini can then use as context...",
     "priority_score": 36,
     "priority_breakdown": {
@@ -32,7 +32,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "early sign worth tracking"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "f10b68ee9f82",
@@ -53,7 +54,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "A US appeals court ruling is at odds with a separate, lower court decision from March, leaving uncertainty about if and how the US military can use the AI company's Claude model.",
     "priority_score": 32,
     "priority_breakdown": {
@@ -69,7 +70,10 @@
       "safety pressure building",
       "supply risk rising",
       "narrative outrunning reality"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "policy_governance",
+    "theme_label": "policy and governance pressure"
   },
   {
     "id": "b32fc52b022a",
@@ -90,7 +94,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "The popular open source VPN maker is the second high-profile developer to say Microsoft locked his account without notifying him and is blocking their ability to send software updates to users.",
     "priority_score": 48,
     "priority_breakdown": {
@@ -104,7 +108,11 @@
     "reason_code": "policy_regulatory_move",
     "angle_signals": [
       "developer workflow changing"
-    ]
+    ],
+    "cluster_id": "event_001",
+    "cluster_kind": "same_event",
+    "theme_id": "infrastructure_execution_gap",
+    "theme_label": "infrastructure execution gap"
   },
   {
     "id": "cd8f69ff4898",
@@ -125,7 +133,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Poke brings AI agents to everyday users via text message by handling tasks and automations without complex setup, apps, or technical know-how.",
     "priority_score": 40,
     "priority_breakdown": {
@@ -139,7 +147,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "adoption pressure worth watching"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "6109aa076149",
@@ -160,7 +169,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Canva says the acquisitions add strengths in agentic AI, data infrastructure, marketing automation, and customer engagement.",
     "priority_score": 52,
     "priority_breakdown": {
@@ -175,7 +184,10 @@
     "angle_signals": [
       "regulation moving ahead of capacity",
       "competitive position shifting"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "enterprise_adoption",
+    "theme_label": "enterprise adoption"
   },
   {
     "id": "c530544570a5",
@@ -196,7 +208,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Happy ceasefire day and welcome to Regulator, a newsletter for Verge subscribers about Big Tech's rocky journey through the world of politics. If you're not a subscriber yet, you can do so here, but my only request is that you sign up before Donald Trump decides to revisit his previous threats toward Iran and kickst...",
     "priority_score": 36,
     "priority_breakdown": {
@@ -210,7 +222,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "early sign worth tracking"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "241a8f6de524",
@@ -231,7 +244,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "AWS has an ingrained culture of handling competition, he explained, because the cloud giant also competes with its partners.",
     "priority_score": 36,
     "priority_breakdown": {
@@ -245,7 +258,10 @@
     "reason_code": "policy_regulatory_move",
     "angle_signals": [
       "infrastructure lag visible"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "infrastructure_execution_gap",
+    "theme_label": "infrastructure execution gap"
   },
   {
     "id": "b12e0cd1f52c",
@@ -266,7 +282,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "After weeks of disruption, a ceasefire is easing pressure on the Strait of Hormuz. But backlogs, infrastructure damage, and delayed supply mean the system won’t return to normal overnight.",
     "priority_score": 36,
     "priority_breakdown": {
@@ -282,7 +298,10 @@
       "regulation moving ahead of capacity",
       "execution gap showing",
       "supply risk rising"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "supply_chain_strain",
+    "theme_label": "supply chain strain"
   },
   {
     "id": "2e88f2fe022b",
@@ -303,7 +322,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "I thought the WD Black SN850X 2TB SSD in my gaming PC was pricey when I bought it for $173 in 2024, but now that same SSD costs $649, more than what I paid for most of the parts in my PC combined. The price on my WD Black drive nearly quadrupled since November 2025, and consumer SSDs across the board are seeing simi...",
     "priority_score": 36,
     "priority_breakdown": {
@@ -319,7 +338,10 @@
       "cost pressure building",
       "execution gap showing",
       "supply risk rising"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "supply_chain_strain",
+    "theme_label": "supply chain strain"
   },
   {
     "id": "8de9244176e4",
@@ -340,7 +362,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "This is the first model Meta has released under its Superintelligence Labs, led by former Scale AI CEO Alexandr Wang.",
     "priority_score": 44,
     "priority_breakdown": {
@@ -354,7 +376,11 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "ongoing platform expansion"
-    ]
+    ],
+    "cluster_id": "event_002",
+    "cluster_kind": "same_event",
+    "theme_id": "models_platforms",
+    "theme_label": "models and platform releases"
   },
   {
     "id": "d9b2cf5fa926",
@@ -376,7 +402,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Muse Spark is Meta’s first model since its AI reboot, and the benchmarks suggest formidable performance.",
     "priority_score": 36,
     "priority_breakdown": {
@@ -390,7 +416,10 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "model competition tightening"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "models_platforms",
+    "theme_label": "models and platform releases"
   },
   {
     "id": "b86f03c8d981",
@@ -411,7 +440,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "In Lebanon, nearly 1 in 5 people has been displaced by Israeli attacks, leaving the government to manage a modern crisis without modern digital infrastructure.",
     "priority_score": 36,
     "priority_breakdown": {
@@ -425,7 +454,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "regulation moving ahead of capacity"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "711477931b31",
@@ -446,7 +476,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Tubi becomes the first streaming service to offer an app integration within ChatGPT, the AI chatbot that millions of users turn to for answers.",
     "priority_score": 48,
     "priority_breakdown": {
@@ -460,7 +490,10 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "model competition tightening"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "models_platforms",
+    "theme_label": "models and platform releases"
   },
   {
     "id": "01cc19db72ae",
@@ -481,7 +514,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "The AI system, trained on real military data, is meant to give soldiers mission-critical information.",
     "priority_score": 28,
     "priority_breakdown": {
@@ -495,7 +528,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "early sign worth tracking"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "3ccbf859704f",
@@ -516,7 +550,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Intel’s role in Elon Musk’s ambitious chip venture is still murky, raising questions about what the partnership actually entails—and whether it can work at all.",
     "priority_score": 40,
     "priority_breakdown": {
@@ -532,7 +566,10 @@
       "infrastructure lag visible",
       "competitive position shifting",
       "supply risk rising"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "supply_chain_strain",
+    "theme_label": "supply chain strain"
   },
   {
     "id": "f8d9e7e3aff6",
@@ -554,7 +591,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Amid rapid enterprise growth, Anthropic is trying to lower the barrier to entry for businesses to build AI agents with Claude.",
     "priority_score": 64,
     "priority_breakdown": {
@@ -570,7 +607,10 @@
       "infrastructure lag visible",
       "developer workflow changing",
       "enterprise adoption pressure rising"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "infrastructure_execution_gap",
+    "theme_label": "infrastructure execution gap"
   },
   {
     "id": "4fb7db30a2f5",
@@ -591,7 +631,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Microsoft is losing another veteran executive. Julia Liuson, head of Microsoft's developer division (DevDiv), is resigning from the software giant after 34 years. Liuson spent the past 12 years leading Microsoft's developer business, during a period Microsoft focused more on open source projects and acquired GitHub...",
     "priority_score": 52,
     "priority_breakdown": {
@@ -607,7 +647,10 @@
       "developer workflow changing",
       "enterprise adoption pressure rising",
       "competitive position shifting"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "enterprise_adoption",
+    "theme_label": "enterprise adoption"
   },
   {
     "id": "b10804f7fa70",
@@ -628,7 +671,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Meta Superintelligence Labs is launching its first model since Mark Zuckerberg spent billions overhauling the company's AI efforts. Called Muse Spark, the model now powers the Meta AI app and the Meta AI website in the US, per the company's announcement. In the coming weeks, Meta says, it will appear in WhatsApp, In...",
     "priority_score": 56,
     "priority_breakdown": {
@@ -642,7 +685,11 @@
     "reason_code": "policy_regulatory_move",
     "angle_signals": [
       "model competition tightening"
-    ]
+    ],
+    "cluster_id": "event_002",
+    "cluster_kind": "same_event",
+    "theme_id": "models_platforms",
+    "theme_label": "models and platform releases"
   },
   {
     "id": "051651614142",
@@ -663,7 +710,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Astropad’s Workbench lets users remotely monitor and control AI agents on Mac Minis from iPhone or iPad, with low-latency streaming and mobile access.",
     "priority_score": 28,
     "priority_breakdown": {
@@ -677,7 +724,8 @@
     "reason_code": "execution_consequence",
     "angle_signals": [
       "cost pressure building"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "68888d3ed659",
@@ -698,7 +746,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "OpenAI's new Child Safety Blueprint aims to tackle the alarming rise in child sexual exploitation linked to advancements in AI.",
     "priority_score": 40,
     "priority_breakdown": {
@@ -712,7 +760,9 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "safety pressure building"
-    ]
+    ],
+    "cluster_id": "event_003",
+    "cluster_kind": "same_event"
   },
   {
     "id": "0530702acda1",
@@ -734,7 +784,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "The maker of the popular open source file encryption software VeraCrypt said Microsoft locked his online account, which may prevent device owners from booting up their computers.",
     "priority_score": 48,
     "priority_breakdown": {
@@ -749,7 +799,11 @@
     "angle_signals": [
       "infrastructure lag visible",
       "developer workflow changing"
-    ]
+    ],
+    "cluster_id": "event_001",
+    "cluster_kind": "same_event",
+    "theme_id": "infrastructure_execution_gap",
+    "theme_label": "infrastructure execution gap"
   },
   {
     "id": "05c490176622",
@@ -770,7 +824,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Matei Zaharia has won the top honor from the Association for Computing Machinery. Now he's working on AI for research and says AGI is simply misunderstood.",
     "priority_score": 36,
     "priority_breakdown": {
@@ -784,7 +838,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "early sign worth tracking"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "9e0591f91efa",
@@ -805,7 +860,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Confluence users can now create visual assets within the software in addition to new third-party agents working with Lovable, Replit, and Gamma.",
     "priority_score": 44,
     "priority_breakdown": {
@@ -819,7 +874,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "developer workflow changing"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "e68d5419d98f",
@@ -840,7 +896,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "The Spot+Scrub Ai is Dyson's first robot mop, and it does the job. But the built-in AI didn’t blow me away, and its height works against it.",
     "priority_score": 36,
     "priority_breakdown": {
@@ -854,7 +910,10 @@
     "reason_code": "policy_regulatory_move",
     "angle_signals": [
       "policy pressure worth watching"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "policy_governance",
+    "theme_label": "policy and governance pressure"
   },
   {
     "id": "d5f665f9e585",
@@ -875,7 +934,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "As Trump threatens Iranian infrastructure, the US government warns that Iran has carried out its own digital attacks against US critical infrastructure.",
     "priority_score": 44,
     "priority_breakdown": {
@@ -889,7 +948,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "regulation moving ahead of capacity"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "3e8561129b9c",
@@ -910,7 +970,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "The AI lab's Project Glasswing will bring together Apple, Google, and more than 45 other organizations. They'll use the new Claude Mythos Preview model to test advancing AI cybersecurity capabilities.",
     "priority_score": 40,
     "priority_breakdown": {
@@ -924,7 +984,10 @@
     "reason_code": "policy_regulatory_move",
     "angle_signals": [
       "safety pressure building"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "models_platforms",
+    "theme_label": "models and platform releases"
   },
   {
     "id": "61f074cd5f06",
@@ -945,7 +1008,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Even before the headset’s release, the workforce at Apple Stores was under duress. Trying to get customers interested in the Vision Pro made it worse.",
     "priority_score": 48,
     "priority_breakdown": {
@@ -960,78 +1023,10 @@
     "angle_signals": [
       "transition friction emerging",
       "ongoing platform expansion"
-    ]
-  },
-  {
-    "id": "f59c04da8e41",
-    "source": "Wired",
-    "beat": "ai_tech",
-    "title": "Border Patrol Agents Sold Challenge Coins With ‘Charlotte’s Web’ Characters in Riot Gear",
-    "url": "https://www.wired.com/story/us-border-patrol-challenge-coins-nonprofits",
-    "date": "2026-04-06T18:16:27.000Z",
-    "publishedAt": "2026-04-06T18:16:27.000Z",
-    "tags": [
-      "general_ai_tech"
     ],
-    "reason_kept": [
-      "Confirms a pattern now appearing across multiple items.",
-      "passed_hard_exclusion_check",
-      "passed_editorial_relevance",
-      "passed_quality_review",
-      "passed_time_mode:current",
-      "within_source_cap"
-    ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
-    "summary": "Nonprofits run out of US Border Patrol stations are also selling other “operation”-themed coins that include a phrase popularized by the Proud Boys, potentially in violation of government rules.",
-    "priority_score": 28,
-    "priority_breakdown": {
-      "immediacy": 0,
-      "impact": 0,
-      "continuity": 1,
-      "relevance": 1,
-      "distinctiveness": 5
-    },
-    "editorial_bucket": "background",
-    "reason_code": "developing_pattern",
-    "angle_signals": [
-      "early sign worth tracking"
-    ]
-  },
-  {
-    "id": "2b2e3f382cff",
-    "source": "Wired",
-    "beat": "ai_tech",
-    "title": "The Ridiculously Nerdy Intel Bet That Could Rake in Billions",
-    "url": "https://www.wired.com/story/why-chip-packaging-could-decide-the-next-phase-of-the-ai-boom",
-    "date": "2026-04-06T09:00:00.000Z",
-    "publishedAt": "2026-04-06T09:00:00.000Z",
-    "tags": [
-      "ai_infrastructure"
-    ],
-    "reason_kept": [
-      "High-impact policy move with likely downstream business effects.",
-      "passed_hard_exclusion_check",
-      "passed_editorial_relevance",
-      "passed_quality_review",
-      "passed_time_mode:current",
-      "within_source_cap"
-    ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
-    "summary": "Advanced chip packaging is suddenly at the center of the AI boom. Intel is going all in.",
-    "priority_score": 40,
-    "priority_breakdown": {
-      "immediacy": 0,
-      "impact": 3,
-      "continuity": 1,
-      "relevance": 1,
-      "distinctiveness": 5
-    },
-    "editorial_bucket": "context_watch",
-    "reason_code": "policy_regulatory_move",
-    "angle_signals": [
-      "infrastructure lag visible",
-      "supply risk rising"
-    ]
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "models_platforms",
+    "theme_label": "models and platform releases"
   },
   {
     "id": "7bcd68b5d5cb",
@@ -1053,7 +1048,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "OpenAI outlines the next phase of enterprise AI, as adoption accelerates across industries with Frontier, ChatGPT Enterprise, Codex, and company-wide AI agents.",
     "priority_score": 60,
     "priority_breakdown": {
@@ -1069,7 +1064,10 @@
       "enterprise adoption pressure rising",
       "demand still unproven",
       "ongoing platform expansion"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "enterprise_adoption",
+    "theme_label": "enterprise adoption"
   },
   {
     "id": "96a133f4d4ea",
@@ -1090,7 +1088,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "This National Robotics Week, NVIDIA is highlighting the breakthroughs that are bringing AI into the physical world — as well as the growing wave of robots transforming industries, from agricultural and manufacturing to energy and beyond. Advancements in robot learning, simulation and foundation models are accelerati...",
     "priority_score": 32,
     "priority_breakdown": {
@@ -1104,7 +1102,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "model competition tightening"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "487938567ca0",
@@ -1125,7 +1124,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Discover OpenAI’s Child Safety Blueprint—a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people online.",
     "priority_score": 44,
     "priority_breakdown": {
@@ -1140,7 +1139,9 @@
     "angle_signals": [
       "safety pressure building",
       "ongoing platform expansion"
-    ]
+    ],
+    "cluster_id": "event_003",
+    "cluster_kind": "same_event"
   },
   {
     "id": "047e7bac94f5",
@@ -1161,7 +1162,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "A pilot program to support independent safety and alignment research and develop the next generation of talent",
     "priority_score": 28,
     "priority_breakdown": {
@@ -1175,7 +1176,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "safety pressure building"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "4dbb4daa381a",
@@ -1196,7 +1198,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
     "priority_score": 36,
     "priority_breakdown": {
@@ -1211,7 +1213,10 @@
     "angle_signals": [
       "policy pressure building",
       "regulation moving ahead of capacity"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "policy_governance",
+    "theme_label": "policy and governance pressure"
   },
   {
     "id": "a0f97af1ab63",
@@ -1232,7 +1237,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Open models are driving a new wave of on-device AI, extending innovation beyond the cloud to everyday devices. As these models advance, their value increasingly depends on access to local, real-time context that can turn meaningful insights into action. Designed for this shift, Google’s latest additions to the Gemma...",
     "priority_score": 40,
     "priority_breakdown": {
@@ -1247,7 +1252,10 @@
     "angle_signals": [
       "infrastructure lag visible",
       "transition friction emerging"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "infrastructure_execution_gap",
+    "theme_label": "infrastructure execution gap"
   },
   {
     "id": "85e9d1a6753c",
@@ -1268,7 +1276,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Google is introducing two new inference tiers to the Gemini API, Flex and Priority, to balance cost and latency.",
     "priority_score": 52,
     "priority_breakdown": {
@@ -1284,7 +1292,10 @@
       "infrastructure lag visible",
       "developer workflow changing",
       "cost pressure building"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "infrastructure_execution_gap",
+    "theme_label": "infrastructure execution gap"
   },
   {
     "id": "e5a53e0f2f88",
@@ -1305,7 +1316,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "New AI capabilities are coming to Google Vids, powered by Lyria 3 and Veo 3.1, like high-quality video generation at no cost and more.",
     "priority_score": 36,
     "priority_breakdown": {
@@ -1319,7 +1330,8 @@
     "reason_code": "execution_consequence",
     "angle_signals": [
       "cost pressure building"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "86685a018600",
@@ -1340,7 +1352,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "OpenAI acquires TBPN to accelerate global conversations around AI and support independent media, expanding dialogue with builders, businesses, and the broader tech community.",
     "priority_score": 48,
     "priority_breakdown": {
@@ -1355,7 +1367,8 @@
     "angle_signals": [
       "enterprise adoption pressure rising",
       "competitive position shifting"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "22c2ff8bad8c",
@@ -1377,7 +1390,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Codex now includes pay-as-you-go pricing for ChatGPT Business and Enterprise, providing teams a more flexible option to start and scale adoption.",
     "priority_score": 60,
     "priority_breakdown": {
@@ -1393,7 +1406,10 @@
       "enterprise adoption pressure rising",
       "cost pressure building",
       "demand still unproven"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "enterprise_adoption",
+    "theme_label": "enterprise adoption"
   },
   {
     "id": "1097cf2f5ea3",
@@ -1414,7 +1430,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Here are Google’s latest AI updates from March 2026",
     "priority_score": 48,
     "priority_breakdown": {
@@ -1428,7 +1444,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "early sign worth tracking"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "a0904673d8e8",
@@ -1450,7 +1467,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Gradient Labs uses GPT-4.1 and GPT-5.4 mini and nano to power AI agents that automate banking support workflows with low latency and high reliability.",
     "priority_score": 44,
     "priority_breakdown": {
@@ -1465,7 +1482,10 @@
     "angle_signals": [
       "enterprise adoption pressure rising",
       "cost pressure building"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "models_platforms",
+    "theme_label": "models and platform releases"
   },
   {
     "id": "096dac0b19bf",
@@ -1487,7 +1507,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Veo 3.1 Lite is now available in paid preview through the Gemini API and for testing in Google AI Studio.",
     "priority_score": 44,
     "priority_breakdown": {
@@ -1503,7 +1523,10 @@
       "infrastructure lag visible",
       "developer workflow changing",
       "cost pressure building"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "models_platforms",
+    "theme_label": "models and platform releases"
   },
   {
     "id": "968fbc071042",
@@ -1524,7 +1547,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "CERAWeek — dubbed the Davos of energy — is where policymakers, producers, technologists and financiers gather to discuss how the world powers itself next. NVIDIA and Emerald AI unveiled at the conference last week a new way forward — treating AI factories not as static power loads but as flexible, intelligent grid a...",
     "priority_score": 44,
     "priority_breakdown": {
@@ -1540,7 +1563,10 @@
       "policy pressure building",
       "regulation moving ahead of capacity",
       "ongoing platform expansion"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "policy_governance",
+    "theme_label": "policy and governance pressure"
   },
   {
     "id": "9f84e2e45d87",
@@ -1563,7 +1589,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "OpenAI raises $122 billion in new funding to expand frontier AI globally, invest in next-generation compute, and meet growing demand for ChatGPT, Codex, and enterprise AI.",
     "priority_score": 76,
     "priority_breakdown": {
@@ -1579,7 +1605,10 @@
       "infrastructure lag visible",
       "enterprise adoption pressure rising",
       "demand still unproven"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "infrastructure_execution_gap",
+    "theme_label": "infrastructure execution gap"
   },
   {
     "id": "c720bf728da9",
@@ -1600,7 +1629,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "AI for Disaster Response in Asia: OpenAI Workshop with Gates Foundation",
     "priority_score": 28,
     "priority_breakdown": {
@@ -1614,7 +1643,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "early sign worth tracking"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "16594c97bd60",
@@ -1636,7 +1666,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Learn how STADLER uses ChatGPT to transform knowledge work, saving time and accelerating productivity across 650 employees.",
     "priority_score": 48,
     "priority_breakdown": {
@@ -1650,7 +1680,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "adoption pressure worth watching"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "3f8d0eb2cfdf",
@@ -1671,7 +1702,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "In the latest episode of our Dialogues on Technology and Society series, LL COOL J sits down with James Manyika.",
     "priority_score": 28,
     "priority_breakdown": {
@@ -1685,7 +1716,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "early sign worth tracking"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "9ab840ff0c69",
@@ -1706,7 +1738,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Gemini 3.1 Flash Live is now available across Google products.",
     "priority_score": 36,
     "priority_breakdown": {
@@ -1720,7 +1752,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "early sign worth tracking"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "4ce6cc4f4eb6",
@@ -1741,7 +1774,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Editor’s note: This post is part of Into the Omniverse, a series focused on how developers, 3D practitioners, and enterprises can transform their workflows using the latest advances in OpenUSD and NVIDIA Omniverse. NVIDIA GTC last week showcased a turning point in physical AI: Robots, vehicles and factories are scal...",
     "priority_score": 52,
     "priority_breakdown": {
@@ -1756,7 +1789,8 @@
     "angle_signals": [
       "developer workflow changing",
       "enterprise adoption pressure rising"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "e4e2e0b5ba74",
@@ -1777,7 +1811,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "We’re expanding Search Live globally, to all languages and locations where AI Mode is available.",
     "priority_score": 28,
     "priority_breakdown": {
@@ -1791,7 +1825,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "early sign worth tracking"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "2815eb572abf",
@@ -1813,7 +1848,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "AI is the defining technology of our time, quickly becoming core business infrastructure. It’s fueled by a diverse ecosystem of models: large and small, open and proprietary, generalist and specialist. This variety is essential for a future where every application will be powered by AI, every country will build it a...",
     "priority_score": 48,
     "priority_breakdown": {
@@ -1828,7 +1863,10 @@
     "angle_signals": [
       "regulation moving ahead of capacity",
       "enterprise adoption pressure rising"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "enterprise_adoption",
+    "theme_label": "enterprise adoption"
   },
   {
     "id": "44069ef88222",
@@ -1850,7 +1888,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Lyria 3 is now available in paid preview through the Gemini API and for testing in Google AI Studio.",
     "priority_score": 48,
     "priority_breakdown": {
@@ -1865,7 +1903,10 @@
     "angle_signals": [
       "infrastructure lag visible",
       "developer workflow changing"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "models_platforms",
+    "theme_label": "models and platform releases"
   },
   {
     "id": "7a8af0096afd",
@@ -1886,7 +1927,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "At the half-time whistle of the UEFA EURO 2020 round of 16 football match between England and Germany, millions of viewers stepped away from their screens in the U.K. to do the same thing at the same time — turn on their kettles. National Grid, which provides electricity for England and Wales, saw a demand […]",
     "priority_score": 28,
     "priority_breakdown": {
@@ -1900,7 +1941,10 @@
     "reason_code": "market_signal",
     "angle_signals": [
       "demand still unproven"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "capital_caution",
+    "theme_label": "capital caution"
   },
   {
     "id": "263c2043f1c3",
@@ -1922,7 +1966,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Learn how OpenAI’s Model Spec serves as a public framework for model behavior, balancing safety, user freedom, and accountability as AI systems advance.",
     "priority_score": 28,
     "priority_breakdown": {
@@ -1936,7 +1980,10 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "safety pressure building"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "models_platforms",
+    "theme_label": "models and platform releases"
   },
   {
     "id": "fb38dfafd80a",
@@ -1957,7 +2004,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "OpenAI launches a Safety Bug Bounty program to identify AI abuse and safety risks, including agentic vulnerabilities, prompt injection, and data exfiltration.",
     "priority_score": 40,
     "priority_breakdown": {
@@ -1972,7 +2019,8 @@
     "angle_signals": [
       "safety pressure building",
       "narrative outrunning reality"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "d75d7d2ee748",
@@ -1995,7 +2043,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "OpenAI releases prompt-based teen safety policies for developers using gpt-oss-safeguard, helping moderate age-specific risks in AI systems.",
     "priority_score": 48,
     "priority_breakdown": {
@@ -2011,7 +2059,10 @@
       "developer workflow changing",
       "safety pressure building",
       "narrative outrunning reality"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "models_platforms",
+    "theme_label": "models and platform releases"
   },
   {
     "id": "f7bebe3fb535",
@@ -2032,7 +2083,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "The OpenAI Foundation announces plans to invest at least $1 billion in curing diseases, economic opportunity, AI resilience, and community programs.",
     "priority_score": 36,
     "priority_breakdown": {
@@ -2046,7 +2097,10 @@
     "reason_code": "policy_regulatory_move",
     "angle_signals": [
       "policy pressure worth watching"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "policy_governance",
+    "theme_label": "policy and governance pressure"
   },
   {
     "id": "d58daa6d846a",
@@ -2067,7 +2121,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "ChatGPT introduces richer, visually immersive shopping powered by the Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and merchant integration.",
     "priority_score": 40,
     "priority_breakdown": {
@@ -2081,7 +2135,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "model competition tightening"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "68dd4e8eb02a",
@@ -2103,7 +2158,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Artificial intelligence has rapidly emerged as one of the most critical workloads in modern computing. For the vast majority of enterprises, this workload runs on Kubernetes, an open source platform that automates the deployment, scaling and management of containerized applications. To help the global developer comm...",
     "priority_score": 60,
     "priority_breakdown": {
@@ -2119,7 +2174,10 @@
       "infrastructure lag visible",
       "developer workflow changing",
       "enterprise adoption pressure rising"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "infrastructure_execution_gap",
+    "theme_label": "infrastructure execution gap"
   },
   {
     "id": "bc30b236bf79",
@@ -2141,7 +2199,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Autonomous agents mark a new inflection point in AI. Systems are no longer limited to generating responses or reasoning through tasks. They can take action: Agents can read files, use tools, write and run code, and execute workflows across enterprise systems, all while expanding their own capabilities. Application-l...",
     "priority_score": 64,
     "priority_breakdown": {
@@ -2156,7 +2214,10 @@
     "angle_signals": [
       "developer workflow changing",
       "enterprise adoption pressure rising"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "enterprise_adoption",
+    "theme_label": "enterprise adoption"
   },
   {
     "id": "85771c0fe867",
@@ -2178,7 +2239,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "To address the novel safety challenges posed by a state-of-the-art video model as well as a new social creation platform, we’ve built Sora 2 and the Sora app with safety at the foundation. Our approach is anchored in concrete protections.",
     "priority_score": 44,
     "priority_breakdown": {
@@ -2193,7 +2254,10 @@
     "angle_signals": [
       "competitive position shifting",
       "safety pressure building"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "models_platforms",
+    "theme_label": "models and platform releases"
   },
   {
     "id": "4967d4ff446e",
@@ -2214,7 +2278,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Rolling coverage from San Jose, including NVIDIA CEO Jensen Huang’s keynote, news highlights, live demos and on‑the‑ground color through March 19.",
     "priority_score": 44,
     "priority_breakdown": {
@@ -2228,7 +2292,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "early sign worth tracking"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "b4b340379768",
@@ -2249,7 +2314,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "How OpenAI uses chain-of-thought monitoring to study misalignment in internal coding agents—analyzing real-world deployments to detect risks and strengthen AI safety safeguards.",
     "priority_score": 36,
     "priority_breakdown": {
@@ -2265,7 +2330,8 @@
       "enterprise adoption pressure rising",
       "safety pressure building",
       "narrative outrunning reality"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "387cb8d894c7",
@@ -2287,7 +2353,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Accelerates Codex growth to power the next generation of Python developer tools",
     "priority_score": 48,
     "priority_breakdown": {
@@ -2302,7 +2368,10 @@
     "angle_signals": [
       "developer workflow changing",
       "competitive position shifting"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "industry_repositioning",
+    "theme_label": "industry repositioning"
   },
   {
     "id": "41d5dfcfa248",
@@ -2325,7 +2394,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "The latest open models and frameworks from NVIDIA bring together simulation, robot learning and embedded compute to accelerate cloud-to-robot workflows.",
     "priority_score": 44,
     "priority_breakdown": {
@@ -2340,7 +2409,10 @@
     "angle_signals": [
       "infrastructure lag visible",
       "enterprise adoption pressure rising"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "infrastructure_execution_gap",
+    "theme_label": "infrastructure execution gap"
   },
   {
     "id": "f7ea287cd119",
@@ -2361,7 +2433,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "NVIDIA and Apple’s collaboration brings native integration of NVIDIA CloudXR 6.0 to visionOS, securely delivering NVIDIA RTX-powered simulators and professional 3D graphics applications — like Immersive for Autodesk VRED on Innoactive’s XR streaming solutions — to Apple Vision Pro.",
     "priority_score": 56,
     "priority_breakdown": {
@@ -2375,7 +2447,10 @@
     "reason_code": "policy_regulatory_move",
     "angle_signals": [
       "infrastructure lag visible"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "infrastructure_execution_gap",
+    "theme_label": "infrastructure execution gap"
   },
   {
     "id": "2e2e28858658",
@@ -2397,7 +2472,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "As AI‑native applications scale to more users, agents and devices, the telecommunications network is becoming the next frontier for distributing AI. At NVIDIA GTC 2026, leading operators in the U.S. and Asia showed that this shift is underway, announcing AI grids — geographically distributed and interconnected AI in...",
     "priority_score": 32,
     "priority_breakdown": {
@@ -2413,7 +2488,10 @@
       "infrastructure lag visible",
       "transition friction emerging",
       "ongoing platform expansion"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "infrastructure_execution_gap",
+    "theme_label": "infrastructure execution gap"
   },
   {
     "id": "5a0308d3b135",
@@ -2434,7 +2512,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "We're expanding Personal Intelligence across AI Mode in Search, the Gemini app and Gemini in Chrome.",
     "priority_score": 28,
     "priority_breakdown": {
@@ -2448,7 +2526,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "early sign worth tracking"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "6e5e3c59e178",
@@ -2469,7 +2548,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Google is making new investments, building new tools and developing code security to improve open source security.",
     "priority_score": 44,
     "priority_breakdown": {
@@ -2485,7 +2564,10 @@
       "developer workflow changing",
       "safety pressure building",
       "investment caution showing"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "capital_caution",
+    "theme_label": "capital caution"
   },
   {
     "id": "15e5a3e9517b",
@@ -2507,7 +2589,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "The paradigm of consumer computing has revolved around the concept of a personal device — from PCs to smartphones and tablets. Now, generative AI — particularly OpenClaw — has introduced a new category: agent computers. These devices, like the NVIDIA DGX Spark desktop AI supercomputer or dedicated NVIDIA RTX PCs, ar...",
     "priority_score": 48,
     "priority_breakdown": {
@@ -2521,7 +2603,10 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "infrastructure lag visible"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "infrastructure_execution_gap",
+    "theme_label": "infrastructure execution gap"
   },
   {
     "id": "281e6793fa0f",
@@ -2542,7 +2627,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "The features on social media apps like Snapchat evolve nearly as fast as what’s trending. To keep pace, its parent company Snap has adopted open data processing libraries from NVIDIA on Google Cloud services to boost development. Every new feature rolled out to Snapchat’s more than 940 million monthly active users g...",
     "priority_score": 36,
     "priority_breakdown": {
@@ -2556,7 +2641,10 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "infrastructure lag visible"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "infrastructure_execution_gap",
+    "theme_label": "infrastructure execution gap"
   },
   {
     "id": "4e32c322a737",
@@ -2577,7 +2665,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "OpenAI Japan announces the Japan Teen Safety Blueprint, introducing stronger age protections, parental controls, and well-being safeguards for teens using generative AI.",
     "priority_score": 36,
     "priority_breakdown": {
@@ -2591,7 +2679,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "safety pressure building"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "8afdb503cc56",
@@ -2613,7 +2702,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 optimized for coding, tool use, multimodal reasoning, and high-volume API and sub-agent workloads.",
     "priority_score": 44,
     "priority_breakdown": {
@@ -2628,7 +2717,10 @@
     "angle_signals": [
       "infrastructure lag visible",
       "developer workflow changing"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "models_platforms",
+    "theme_label": "models and platform releases"
   },
   {
     "id": "1ba2801c79e4",
@@ -2649,7 +2741,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "New research shows Americans send nearly 3 million daily messages to ChatGPT asking about compensation and earnings, helping close the wage information gap.",
     "priority_score": 40,
     "priority_breakdown": {
@@ -2663,7 +2755,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "narrative outrunning reality"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "d5daef56b239",
@@ -2685,7 +2778,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Roche's new deployment spans more than 3,500 NVIDIA Blackwell GPUs across its worldwide operations and embedded across the entire value chain, massively scaling R&D productivity, next-generation diagnostics and manufacturing efficiencies.",
     "priority_score": 60,
     "priority_breakdown": {
@@ -2701,7 +2794,10 @@
       "infrastructure lag visible",
       "enterprise adoption pressure rising",
       "ongoing platform expansion"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "infrastructure_execution_gap",
+    "theme_label": "infrastructure execution gap"
   },
   {
     "id": "8a8601b30dd9",
@@ -2722,7 +2818,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "A deep dive into why Codex Security doesn’t rely on traditional SAST, instead using AI-driven constraint reasoning and validation to find real vulnerabilities with fewer false positives.",
     "priority_score": 32,
     "priority_breakdown": {
@@ -2738,7 +2834,10 @@
       "regulation moving ahead of capacity",
       "safety pressure building",
       "execution gap showing"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "infrastructure_execution_gap",
+    "theme_label": "infrastructure execution gap"
   },
   {
     "id": "68b37726899a",
@@ -2759,7 +2858,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "A new Google AI initiative aims to improve heart health outcomes for people living in remote Australian communities.",
     "priority_score": 36,
     "priority_breakdown": {
@@ -2773,7 +2872,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "early sign worth tracking"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "3dec299964e6",
@@ -2796,7 +2896,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
     "priority_score": 44,
     "priority_breakdown": {
@@ -2812,7 +2912,10 @@
       "infrastructure lag visible",
       "enterprise adoption pressure rising",
       "safety pressure building"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "infrastructure_execution_gap",
+    "theme_label": "infrastructure execution gap"
   },
   {
     "id": "01572b4c34e9",
@@ -2834,7 +2937,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.",
     "priority_score": 44,
     "priority_breakdown": {
@@ -2849,7 +2952,10 @@
     "angle_signals": [
       "infrastructure lag visible",
       "developer workflow changing"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "models_platforms",
+    "theme_label": "models and platform releases"
   },
   {
     "id": "6c85667bb456",
@@ -2870,7 +2976,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
     "priority_score": 32,
     "priority_breakdown": {
@@ -2884,7 +2990,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "ongoing platform expansion"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "0ed7a8a167fe",
@@ -2905,7 +3012,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "priority_score": 32,
     "priority_breakdown": {
       "immediacy": 0,
@@ -2918,7 +3025,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "model competition tightening"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "0096402a637e",
@@ -2939,7 +3047,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Today we announced new beta features for Gemini in Sheets to help you create, organize and edit entire sheets, from basic tasks to complex data analysis — just describe …",
     "priority_score": 44,
     "priority_breakdown": {
@@ -2953,7 +3061,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "early sign worth tracking"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "18b7ee4fe5e4",
@@ -2975,7 +3084,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "IH-Challenge trains models to prioritize trusted instructions, improving instruction hierarchy, safety steerability, and resistance to prompt injection attacks.",
     "priority_score": 28,
     "priority_breakdown": {
@@ -2989,7 +3098,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "safety pressure building"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "101605e3044a",
@@ -3010,7 +3120,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "ChatGPT introduces interactive visual explanations for math and science, helping students explore formulas, variables, and concepts in real time.",
     "priority_score": 40,
     "priority_breakdown": {
@@ -3024,7 +3134,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "model competition tightening"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "f16a35767e05",
@@ -3045,7 +3156,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "OpenAI is acquiring Promptfoo, an AI security platform that helps enterprises identify and remediate vulnerabilities in AI systems during development.",
     "priority_score": 56,
     "priority_breakdown": {
@@ -3061,7 +3172,10 @@
       "enterprise adoption pressure rising",
       "competitive position shifting",
       "safety pressure building"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "industry_repositioning",
+    "theme_label": "industry repositioning"
   },
   {
     "id": "866a0103d93e",
@@ -3082,7 +3196,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "An overview of SpeciesNet, our open-source AI model that is helping people around the world protect and conserve wildlife.",
     "priority_score": 32,
     "priority_breakdown": {
@@ -3096,7 +3210,10 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "model competition tightening"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "models_platforms",
+    "theme_label": "models and platform releases"
   },
   {
     "id": "5becf449a527",
@@ -3117,7 +3234,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise.",
     "priority_score": 40,
     "priority_breakdown": {
@@ -3131,7 +3248,10 @@
     "reason_code": "policy_regulatory_move",
     "angle_signals": [
       "safety pressure building"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "policy_governance",
+    "theme_label": "policy and governance pressure"
   },
   {
     "id": "dc37dabb9801",
@@ -3154,7 +3274,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "By combining rigorous model evaluation, full-platform use of OpenAI, and agent workflows, Balyasny is reinventing investment research.",
     "priority_score": 48,
     "priority_breakdown": {
@@ -3170,7 +3290,10 @@
       "enterprise adoption pressure rising",
       "competitive position shifting",
       "investment caution showing"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "models_platforms",
+    "theme_label": "models and platform releases"
   },
   {
     "id": "878b3b60e9d0",
@@ -3191,7 +3314,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Using OpenAI reasoning models, Descript unlocked automatic localization of large content libraries without losing timing or meaning.",
     "priority_score": 32,
     "priority_breakdown": {
@@ -3205,7 +3328,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "ongoing platform expansion"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "9f3eb1cb1fa2",
@@ -3226,7 +3350,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Learn more about AI Mode in Search’s query fan-out method for visual search.",
     "priority_score": 28,
     "priority_breakdown": {
@@ -3240,7 +3364,10 @@
     "reason_code": "policy_regulatory_move",
     "angle_signals": [
       "policy pressure worth watching"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "policy_governance",
+    "theme_label": "policy and governance pressure"
   },
   {
     "id": "220756716b96",
@@ -3261,7 +3388,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Here are Google’s latest AI updates from February 2026",
     "priority_score": 48,
     "priority_breakdown": {
@@ -3275,7 +3402,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "early sign worth tracking"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "eea6230f612a",
@@ -3297,7 +3425,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context.",
     "priority_score": 44,
     "priority_breakdown": {
@@ -3312,7 +3440,10 @@
     "angle_signals": [
       "infrastructure lag visible",
       "developer workflow changing"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "models_platforms",
+    "theme_label": "models and platform releases"
   },
   {
     "id": "287a6bf67154",
@@ -3334,7 +3465,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.",
     "priority_score": 28,
     "priority_breakdown": {
@@ -3348,7 +3479,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "safety pressure building"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "f59abf9daf09",
@@ -3370,7 +3502,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "priority_score": 28,
     "priority_breakdown": {
       "immediacy": 0,
@@ -3383,7 +3515,10 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "model competition tightening"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "models_platforms",
+    "theme_label": "models and platform releases"
   },
   {
     "id": "565dea8b571b",
@@ -3404,7 +3539,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "OpenAI shares new tools, certifications, and measurement resources to help schools and universities close AI capability gaps and expand opportunity.",
     "priority_score": 36,
     "priority_breakdown": {
@@ -3419,7 +3554,8 @@
     "angle_signals": [
       "developer workflow changing",
       "narrative outrunning reality"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "ba0e40128dd7",
@@ -3441,7 +3577,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Five AI value models show how leaders can sequence AI from workforce fluency to process reinvention and build durable business advantage.",
     "priority_score": 40,
     "priority_breakdown": {
@@ -3455,7 +3591,10 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "enterprise adoption pressure rising"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "enterprise_adoption",
+    "theme_label": "enterprise adoption"
   },
   {
     "id": "39ce611a50f8",
@@ -3476,7 +3615,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Practical insights and frameworks to turn AI progress into business advantage",
     "priority_score": 52,
     "priority_breakdown": {
@@ -3491,7 +3630,10 @@
     "angle_signals": [
       "enterprise adoption pressure rising",
       "demand still unproven"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "enterprise_adoption",
+    "theme_label": "enterprise adoption"
   },
   {
     "id": "2b1ea71bf0b9",
@@ -3512,7 +3654,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "By focusing on people, not pilots, the Bundesliga club is scaling efficiency, creativity, and knowledge—without losing its football identity.",
     "priority_score": 40,
     "priority_breakdown": {
@@ -3526,7 +3668,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "model competition tightening"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "61b0991879bc",
@@ -3547,7 +3690,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "OpenAI introduces ChatGPT for Excel and new financial app integrations, powered by GPT-5.4 to accelerate modeling, research, and analysis in regulated environments.",
     "priority_score": 52,
     "priority_breakdown": {
@@ -3561,7 +3704,10 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "model competition tightening"
-    ]
+    ],
+    "cluster_kind": "same_topic_different_angle",
+    "theme_id": "models_platforms",
+    "theme_label": "models and platform releases"
   },
   {
     "id": "3ca822eb09c8",
@@ -3582,7 +3728,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Canvas in AI Mode is now available for everyone in the U.S. Plus, it can now help you draft documents or build interactive tools.",
     "priority_score": 36,
     "priority_breakdown": {
@@ -3596,7 +3742,8 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "developer workflow changing"
-    ]
+    ],
+    "cluster_kind": "standalone"
   },
   {
     "id": "704090707738",
@@ -3617,7 +3764,7 @@
       "passed_time_mode:current",
       "within_source_cap"
     ],
-    "fetchedAt": "2026-04-09T02:54:01.555Z",
+    "fetchedAt": "2026-04-09T06:51:03.475Z",
     "summary": "Learn more about Google DeepMind’s Project Genie and how to write prompts to create your own worlds.",
     "priority_score": 36,
     "priority_breakdown": {
@@ -3631,6 +3778,7 @@
     "reason_code": "developing_pattern",
     "angle_signals": [
       "early sign worth tracking"
-    ]
+    ],
+    "cluster_kind": "standalone"
   }
 ]

@@ -4,6 +4,7 @@ import path from "node:path";
 import type { AiTechTimeMode } from "../config/time-modes.js";
 import { sources } from "../config/sources.js";
 import { annotateStories } from "../lib/annotate.js";
+import { clusterStories } from "../lib/clustering.js";
 import { dedupeStories } from "../lib/dedupe.js";
 import { applySourceCap, applyTimeModeFilter } from "../lib/editorial.js";
 import { applyHardExclusions } from "../lib/exclusions.js";
@@ -154,10 +155,13 @@ async function run(): Promise<void> {
   });
   const rankingResult = rankStories(annotatedStories);
   const editorialStories = editorialLayer(rankingResult.rankedStories);
+  const clusteringResult = clusterStories(editorialStories);
   const outputDir = path.resolve(process.cwd(), "output");
   const outputFile = path.join(outputDir, "stories.json");
   const droppedOutputFile = path.join(outputDir, "dropped_stories.json");
   const topStoriesOutputFile = path.join(outputDir, "top_stories.json");
+  const eventClustersOutputFile = path.join(outputDir, "event_clusters.json");
+  const themeClustersOutputFile = path.join(outputDir, "theme_clusters.json");
   const weeklyPacketOutputFile = path.join(
     outputDir,
     "weekly_editorial_packet.json"
@@ -166,9 +170,9 @@ async function run(): Promise<void> {
     outputDir,
     "weekly_editorial_packet.md"
   );
-  const topStoriesSelection = selectTopStories(editorialStories);
+  const topStoriesSelection = selectTopStories(clusteringResult.stories);
   const weeklyEditorialPacket = buildWeeklyEditorialPacket(
-    editorialStories,
+    clusteringResult.stories,
     allDroppedStories,
     topStoriesSelection,
     timeMode,
@@ -176,7 +180,7 @@ async function run(): Promise<void> {
   );
 
   await mkdir(outputDir, { recursive: true });
-  await writeFile(outputFile, JSON.stringify(editorialStories, null, 2));
+  await writeFile(outputFile, JSON.stringify(clusteringResult.stories, null, 2));
   await writeFile(
     droppedOutputFile,
     JSON.stringify(
@@ -195,12 +199,25 @@ async function run(): Promise<void> {
     JSON.stringify(topStoriesSelection, null, 2)
   );
   await writeFile(
+    eventClustersOutputFile,
+    JSON.stringify(clusteringResult.eventClusters, null, 2)
+  );
+  await writeFile(
+    themeClustersOutputFile,
+    JSON.stringify(clusteringResult.themeClusters, null, 2)
+  );
+  await writeFile(
     weeklyPacketOutputFile,
     JSON.stringify(weeklyEditorialPacket, null, 2)
   );
   await writeFile(
     weeklyPacketMarkdownOutputFile,
-    renderWeeklyEditorialPacketMarkdown(weeklyEditorialPacket)
+    renderWeeklyEditorialPacketMarkdown(
+      weeklyEditorialPacket,
+      clusteringResult.stories,
+      clusteringResult.eventClusters,
+      clusteringResult.themeClusters
+    )
   );
 
   for (const result of results) {
@@ -225,7 +242,7 @@ async function run(): Promise<void> {
   }
 
   console.log(
-    `Total deduped output count: ${editorialStories.length} (time mode: ${timeMode})`
+    `Total deduped output count: ${clusteringResult.stories.length} (time mode: ${timeMode})`
   );
   if (rankingResult.convergenceTopics.length > 0) {
     console.log("Coverage convergence:");
@@ -238,6 +255,8 @@ async function run(): Promise<void> {
   console.log(`Saved output to ${outputFile}`);
   console.log(`Saved dropped stories to ${droppedOutputFile}`);
   console.log(`Saved top stories to ${topStoriesOutputFile}`);
+  console.log(`Saved event clusters to ${eventClustersOutputFile}`);
+  console.log(`Saved theme clusters to ${themeClustersOutputFile}`);
   console.log(`Saved weekly editorial packet to ${weeklyPacketOutputFile}`);
   console.log(
     `Saved weekly editorial markdown to ${weeklyPacketMarkdownOutputFile}`

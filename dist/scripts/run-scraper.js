@@ -7,6 +7,7 @@ const promises_1 = require("node:fs/promises");
 const node_path_1 = __importDefault(require("node:path"));
 const sources_js_1 = require("../config/sources.js");
 const annotate_js_1 = require("../lib/annotate.js");
+const clustering_js_1 = require("../lib/clustering.js");
 const dedupe_js_1 = require("../lib/dedupe.js");
 const editorial_js_1 = require("../lib/editorial.js");
 const exclusions_js_1 = require("../lib/exclusions.js");
@@ -111,16 +112,19 @@ async function run() {
     });
     const rankingResult = (0, ranking_js_1.rankStories)(annotatedStories);
     const editorialStories = (0, editorial_layer_js_1.editorialLayer)(rankingResult.rankedStories);
+    const clusteringResult = (0, clustering_js_1.clusterStories)(editorialStories);
     const outputDir = node_path_1.default.resolve(process.cwd(), "output");
     const outputFile = node_path_1.default.join(outputDir, "stories.json");
     const droppedOutputFile = node_path_1.default.join(outputDir, "dropped_stories.json");
     const topStoriesOutputFile = node_path_1.default.join(outputDir, "top_stories.json");
+    const eventClustersOutputFile = node_path_1.default.join(outputDir, "event_clusters.json");
+    const themeClustersOutputFile = node_path_1.default.join(outputDir, "theme_clusters.json");
     const weeklyPacketOutputFile = node_path_1.default.join(outputDir, "weekly_editorial_packet.json");
     const weeklyPacketMarkdownOutputFile = node_path_1.default.join(outputDir, "weekly_editorial_packet.md");
-    const topStoriesSelection = (0, prioritize_js_1.selectTopStories)(editorialStories);
-    const weeklyEditorialPacket = (0, weekly_packet_js_1.buildWeeklyEditorialPacket)(editorialStories, allDroppedStories, topStoriesSelection, timeMode, fetchedAt);
+    const topStoriesSelection = (0, prioritize_js_1.selectTopStories)(clusteringResult.stories);
+    const weeklyEditorialPacket = (0, weekly_packet_js_1.buildWeeklyEditorialPacket)(clusteringResult.stories, allDroppedStories, topStoriesSelection, timeMode, fetchedAt);
     await (0, promises_1.mkdir)(outputDir, { recursive: true });
-    await (0, promises_1.writeFile)(outputFile, JSON.stringify(editorialStories, null, 2));
+    await (0, promises_1.writeFile)(outputFile, JSON.stringify(clusteringResult.stories, null, 2));
     await (0, promises_1.writeFile)(droppedOutputFile, JSON.stringify(allDroppedStories.map((story) => ({
         title: story.title ?? "",
         source: story.source,
@@ -128,8 +132,10 @@ async function run() {
         reason_dropped: story.reason
     })), null, 2));
     await (0, promises_1.writeFile)(topStoriesOutputFile, JSON.stringify(topStoriesSelection, null, 2));
+    await (0, promises_1.writeFile)(eventClustersOutputFile, JSON.stringify(clusteringResult.eventClusters, null, 2));
+    await (0, promises_1.writeFile)(themeClustersOutputFile, JSON.stringify(clusteringResult.themeClusters, null, 2));
     await (0, promises_1.writeFile)(weeklyPacketOutputFile, JSON.stringify(weeklyEditorialPacket, null, 2));
-    await (0, promises_1.writeFile)(weeklyPacketMarkdownOutputFile, (0, weekly_packet_js_1.renderWeeklyEditorialPacketMarkdown)(weeklyEditorialPacket));
+    await (0, promises_1.writeFile)(weeklyPacketMarkdownOutputFile, (0, weekly_packet_js_1.renderWeeklyEditorialPacketMarkdown)(weeklyEditorialPacket, clusteringResult.stories, clusteringResult.eventClusters, clusteringResult.themeClusters));
     for (const result of results) {
         if (result.success) {
             console.log(`[${result.source}] fetched=${result.fetchedCount} normalized=${result.normalizedCount} dropped=${result.droppedCount} kept=${result.keptCount}`);
@@ -144,7 +150,7 @@ async function run() {
             console.log(`- [${drop.source}] ${drop.reason}: ${drop.title ?? drop.url ?? "Untitled"}${drop.details ? ` (${drop.details})` : ""}`);
         }
     }
-    console.log(`Total deduped output count: ${editorialStories.length} (time mode: ${timeMode})`);
+    console.log(`Total deduped output count: ${clusteringResult.stories.length} (time mode: ${timeMode})`);
     if (rankingResult.convergenceTopics.length > 0) {
         console.log("Coverage convergence:");
         for (const topic of rankingResult.convergenceTopics.slice(0, 10)) {
@@ -154,6 +160,8 @@ async function run() {
     console.log(`Saved output to ${outputFile}`);
     console.log(`Saved dropped stories to ${droppedOutputFile}`);
     console.log(`Saved top stories to ${topStoriesOutputFile}`);
+    console.log(`Saved event clusters to ${eventClustersOutputFile}`);
+    console.log(`Saved theme clusters to ${themeClustersOutputFile}`);
     console.log(`Saved weekly editorial packet to ${weeklyPacketOutputFile}`);
     console.log(`Saved weekly editorial markdown to ${weeklyPacketMarkdownOutputFile}`);
 }

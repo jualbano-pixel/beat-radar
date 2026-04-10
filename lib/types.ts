@@ -30,6 +30,11 @@ export type PriorityBreakdown = {
   distinctiveness: number;
 };
 
+export type ClusterKind =
+  | "same_event"
+  | "same_topic_different_angle"
+  | "standalone";
+
 export type SourceDefinition = {
   name: string;
   beat: Beat;
@@ -70,7 +75,38 @@ export type NormalizedStory = {
   editorial_bucket?: EditorialBucket;
   reason_code?: ReasonCode;
   angle_signals?: string[];
+  cluster_id?: string;
+  cluster_kind?: ClusterKind;
+  theme_id?: string;
+  theme_label?: string;
   fetchedAt: string;
+};
+
+export type EventCluster = {
+  cluster_id: string;
+  cluster_kind: "same_event";
+  lead_story_id: string;
+  story_count: number;
+  story_ids: string[];
+  story_titles: string[];
+  entities: string[];
+  event_label: string;
+  priority_score: number;
+  editorial_bucket: EditorialBucket;
+  primary_theme_id?: string;
+  primary_theme_label?: string;
+  supporting_story_ids: string[];
+};
+
+export type ThemeCluster = {
+  theme_id: string;
+  theme_label: string;
+  story_count: number;
+  cluster_ids: string[];
+  story_ids: string[];
+  dominant_reason_codes: ReasonCode[];
+  dominant_angle_signals: string[];
+  top_story_refs: string[];
 };
 
 export type StoryDropReason =
