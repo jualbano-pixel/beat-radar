@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 import type { AiTechTimeMode } from "../config/time-modes.js";
@@ -21,12 +21,28 @@ import {
   renderWeeklyEditorialPacketMarkdown
 } from "../lib/weekly-packet.js";
 import type {
+  Beat,
   NormalizedStory,
   RawStoryResult,
   SourceDefinition,
   SourceRunSummary,
   StoryDrop
 } from "../lib/types.js";
+
+const CURRENT_BEAT: Beat = "ai_tech";
+const CURRENT_BEAT_DISPLAY_NAME = "AI / Tech";
+
+type LatestManifest = Partial<
+  Record<
+    Beat,
+    {
+      beat_name?: string;
+      latest_packet: string;
+      archived_packet: string;
+      updated_at?: string;
+    }
+  >
+>;
 
 async function fetchStoriesForSource(
   source: SourceDefinition
@@ -36,6 +52,18 @@ async function fetchStoriesForSource(
   }
 
   return fetchHtmlStories(source);
+}
+
+function relativePathForManifest(filePath: string): string {
+  return path.relative(process.cwd(), filePath).split(path.sep).join("/");
+}
+
+async function readLatestManifest(manifestFile: string): Promise<LatestManifest> {
+  try {
+    return JSON.parse(await readFile(manifestFile, "utf8")) as LatestManifest;
+  } catch {
+    return {};
+  }
 }
 
 async function run(): Promise<void> {
@@ -156,7 +184,7 @@ async function run(): Promise<void> {
   const rankingResult = rankStories(annotatedStories);
   const editorialStories = editorialLayer(rankingResult.rankedStories);
   const clusteringResult = clusterStories(editorialStories);
-  const outputDir = path.resolve(process.cwd(), "output");
+  const outputDir = path.resolve(process.cwd(), "output", CURRENT_BEAT);
   const outputFile = path.join(outputDir, "stories.json");
   const droppedOutputFile = path.join(outputDir, "dropped_stories.json");
   const topStoriesOutputFile = path.join(outputDir, "top_stories.json");
@@ -178,8 +206,22 @@ async function run(): Promise<void> {
     timeMode,
     fetchedAt
   );
+  const archiveOutputDir = path.join(outputDir, weeklyEditorialPacket.week_of);
+  const latestDir = path.resolve(process.cwd(), "latest");
+  const latestMarkdownOutputFile = path.join(latestDir, `${CURRENT_BEAT}.md`);
+  const latestManifestOutputFile = path.join(latestDir, "latest.json");
+  const archiveWeeklyPacketOutputFile = path.join(
+    archiveOutputDir,
+    "weekly_editorial_packet.json"
+  );
+  const archiveWeeklyPacketMarkdownOutputFile = path.join(
+    archiveOutputDir,
+    "weekly_editorial_packet.md"
+  );
 
   await mkdir(outputDir, { recursive: true });
+  await mkdir(archiveOutputDir, { recursive: true });
+  await mkdir(latestDir, { recursive: true });
   await writeFile(outputFile, JSON.stringify(clusteringResult.stories, null, 2));
   await writeFile(
     droppedOutputFile,
@@ -206,18 +248,30 @@ async function run(): Promise<void> {
     themeClustersOutputFile,
     JSON.stringify(clusteringResult.themeClusters, null, 2)
   );
-  await writeFile(
-    weeklyPacketOutputFile,
-    JSON.stringify(weeklyEditorialPacket, null, 2)
+  const weeklyPacketJson = JSON.stringify(weeklyEditorialPacket, null, 2);
+  const weeklyPacketMarkdown = renderWeeklyEditorialPacketMarkdown(
+    weeklyEditorialPacket,
+    clusteringResult.stories,
+    clusteringResult.eventClusters,
+    clusteringResult.themeClusters
   );
+
+  await writeFile(weeklyPacketOutputFile, weeklyPacketJson);
+  await writeFile(weeklyPacketMarkdownOutputFile, weeklyPacketMarkdown);
+  await writeFile(archiveWeeklyPacketOutputFile, weeklyPacketJson);
+  await writeFile(archiveWeeklyPacketMarkdownOutputFile, weeklyPacketMarkdown);
+  await writeFile(latestMarkdownOutputFile, weeklyPacketMarkdown);
+
+  const latestManifest = await readLatestManifest(latestManifestOutputFile);
+  latestManifest[CURRENT_BEAT] = {
+    beat_name: CURRENT_BEAT_DISPLAY_NAME,
+    latest_packet: relativePathForManifest(latestMarkdownOutputFile),
+    archived_packet: relativePathForManifest(archiveWeeklyPacketMarkdownOutputFile),
+    updated_at: fetchedAt
+  };
   await writeFile(
-    weeklyPacketMarkdownOutputFile,
-    renderWeeklyEditorialPacketMarkdown(
-      weeklyEditorialPacket,
-      clusteringResult.stories,
-      clusteringResult.eventClusters,
-      clusteringResult.themeClusters
-    )
+    latestManifestOutputFile,
+    JSON.stringify(latestManifest, null, 2)
   );
 
   for (const result of results) {
@@ -242,7 +296,7 @@ async function run(): Promise<void> {
   }
 
   console.log(
-    `Total deduped output count: ${clusteringResult.stories.length} (time mode: ${timeMode})`
+    `Total deduped output count: ${clusteringResult.stories.length} (beat: ${CURRENT_BEAT}, time mode: ${timeMode})`
   );
   if (rankingResult.convergenceTopics.length > 0) {
     console.log("Coverage convergence:");
@@ -261,6 +315,12 @@ async function run(): Promise<void> {
   console.log(
     `Saved weekly editorial markdown to ${weeklyPacketMarkdownOutputFile}`
   );
+  console.log(`Saved archived weekly packet to ${archiveWeeklyPacketOutputFile}`);
+  console.log(
+    `Saved archived weekly markdown to ${archiveWeeklyPacketMarkdownOutputFile}`
+  );
+  console.log(`Saved latest weekly markdown to ${latestMarkdownOutputFile}`);
+  console.log(`Saved latest manifest to ${latestManifestOutputFile}`);
 }
 
 run().catch((error) => {

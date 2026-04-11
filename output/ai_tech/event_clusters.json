@@ -1,0 +1,103 @@
+[
+  {
+    "cluster_id": "event_001",
+    "cluster_kind": "same_event",
+    "lead_story_id": "7f677a87884d",
+    "story_count": 2,
+    "story_ids": [
+      "b0c69e5f8ce5",
+      "7f677a87884d"
+    ],
+    "story_titles": [
+      "20-year-old man arrested for allegedly throwing a Molotov cocktail at Sam Altman’s house",
+      "Suspect Arrested for Allegedly Throwing Molotov Cocktail at Sam Altman’s Home"
+    ],
+    "entities": [
+      "openai"
+    ],
+    "event_label": "Suspect Arrested for Allegedly Throwing Molotov Cocktail at Sam Altman’s Home",
+    "priority_score": 28,
+    "editorial_bucket": "background",
+    "supporting_story_ids": [
+      "b0c69e5f8ce5"
+    ]
+  },
+  {
+    "cluster_id": "event_002",
+    "cluster_kind": "same_event",
+    "lead_story_id": "f6f80e4d7509",
+    "story_count": 5,
+    "story_ids": [
+      "f6f80e4d7509",
+      "6f26f347e1a5",
+      "0b3bb9ee029b",
+      "0f5953f545f0",
+      "f27e81386276"
+    ],
+    "story_titles": [
+      "ChatGPT for customer success teams",
+      "ChatGPT for finance teams",
+      "ChatGPT for sales teams",
+      "ChatGPT for marketing teams",
+      "ChatGPT for operations teams"
+    ],
+    "entities": [
+      "chatgpt"
+    ],
+    "event_label": "chatgpt cut",
+    "priority_score": 48,
+    "editorial_bucket": "context_watch",
+    "supporting_story_ids": [
+      "6f26f347e1a5",
+      "0b3bb9ee029b",
+      "0f5953f545f0",
+      "f27e81386276"
+    ]
+  },
+  {
+    "cluster_id": "event_003",
+    "cluster_kind": "same_event",
+    "lead_story_id": "884aaaa8e6ec",
+    "story_count": 2,
+    "story_ids": [
+      "884aaaa8e6ec",
+      "62379661ee74"
+    ],
+    "story_titles": [
+      "Research with ChatGPT",
+      "ChatGPT for research"
+    ],
+    "entities": [
+      "chatgpt"
+    ],
+    "event_label": "Research with ChatGPT",
+    "priority_score": 32,
+    "editorial_bucket": "background",
+    "supporting_story_ids": [
+      "62379661ee74"
+    ]
+  },
+  {
+    "cluster_id": "event_004",
+    "cluster_kind": "same_event",
+    "lead_story_id": "f01dd809dd4b",
+    "story_count": 2,
+    "story_ids": [
+      "f01dd809dd4b",
+      "fe5fe461dbdb"
+    ],
+    "story_titles": [
+      "Prompting fundamentals",
+      "AI fundamentals"
+    ],
+    "entities": [
+      "chatgpt"
+    ],
+    "event_label": "Prompting fundamentals",
+    "priority_score": 32,
+    "editorial_bucket": "background",
+    "supporting_story_ids": [
+      "fe5fe461dbdb"
+    ]
+  }
+]

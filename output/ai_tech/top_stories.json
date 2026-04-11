@@ -40,44 +40,6 @@
       "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the ecosystem, such as enterprises, developers, platforms, users, or regulators. It has practical consequences beyond a narrow technical audience."
     },
     {
-      "title": "OpenAI to acquire Promptfoo",
-      "source": "OpenAI Blog",
-      "date": "2026-03-09T10:00:00.000Z",
-      "summary": "OpenAI is acquiring Promptfoo, an AI security platform that helps enterprises identify and remediate vulnerabilities in AI systems during development.",
-      "tags": [
-        "applied_ai"
-      ],
-      "priority_score": 13,
-      "priority_reasons": [
-        "model_or_platform_change",
-        "safety_or_governance",
-        "enterprise_scale_signal",
-        "strategic_finance",
-        "multi_group_impact"
-      ],
-      "why_it_matters": "This matters because it changes how more than one important group can build, buy, deploy, or govern AI. The impact is broader than a single product or research update."
-    },
-    {
-      "title": "How Balyasny Asset Management built an AI research engine",
-      "source": "OpenAI Blog",
-      "date": "2026-03-06T00:00:00.000Z",
-      "summary": "By combining rigorous model evaluation, full-platform use of OpenAI, and agent workflows, Balyasny is reinventing investment research.",
-      "tags": [
-        "ai_models",
-        "ai_research",
-        "applied_ai"
-      ],
-      "priority_score": 12.5,
-      "priority_reasons": [
-        "model_or_platform_change",
-        "safety_or_governance",
-        "strategic_finance",
-        "foundational_research",
-        "multi_group_impact"
-      ],
-      "why_it_matters": "This matters because it changes how more than one important group can build, buy, deploy, or govern AI. The impact is broader than a single product or research update."
-    },
-    {
       "title": "More Than Meets the Eye: NVIDIA RTX-Accelerated Computers Now Connect Directly to Apple Vision Pro",
       "source": "NVIDIA Blog",
       "date": "2026-03-17T17:00:58.000Z",
@@ -112,6 +74,42 @@
       "why_it_matters": "This matters because infrastructure changes shape what the ecosystem can build next. It affects cost, capability, or speed at platform scale."
     },
     {
+      "title": "Anthropic’s Mythos Will Force a Cybersecurity Reckoning—Just Not the One You Think",
+      "source": "Wired",
+      "date": "2026-04-10T18:08:37.000Z",
+      "summary": "The new AI model is being heralded—and feared—as a hacker’s superweapon. Experts say its arrival is a wake-up call for developers who have long made security an afterthought.",
+      "tags": [
+        "ai_models",
+        "applied_ai"
+      ],
+      "priority_score": 10.3,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "safety_or_governance",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it changes what developers, businesses, or users can do with an important AI platform. It has clear downstream ecosystem impact."
+    },
+    {
+      "title": "Amazon Luna axes third-party game purchases",
+      "source": "The Verge",
+      "date": "2026-04-10T17:31:58.000Z",
+      "summary": "Amazon Luna announced a big change on Friday that will prevent players from purchasing third-party games and subscriptions. The cloud gaming service will remove previously purchased games on June 10th, 2026, though they'll still be available to play on other platforms through the EA, GOG, or Ubisoft accounts players...",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 10.3,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "infrastructure_move",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because it changes how more than one important group can build, buy, deploy, or govern AI. The impact is broader than a single product or research update."
+    },
+    {
       "title": "Into the Omniverse: NVIDIA GTC Showcases Virtual Worlds Powering the Physical AI Era",
       "source": "NVIDIA Blog",
       "date": "2026-03-26T15:00:56.000Z",
@@ -128,42 +126,6 @@
       "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the ecosystem, such as enterprises, developers, platforms, users, or regulators. It has practical consequences beyond a narrow technical audience."
     },
     {
-      "title": "From model to agent: Equipping the Responses API with a computer environment",
-      "source": "OpenAI Blog",
-      "date": "2026-03-11T11:00:00.000Z",
-      "summary": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.",
-      "tags": [
-        "ai_models",
-        "ai_infrastructure"
-      ],
-      "priority_score": 10,
-      "priority_reasons": [
-        "model_or_platform_change",
-        "infrastructure_move",
-        "multi_group_impact"
-      ],
-      "why_it_matters": "This matters because it changes how more than one important group can build, buy, deploy, or govern AI. The impact is broader than a single product or research update."
-    }
-  ],
-  "secondary_signals": [
-    {
-      "title": "Introducing GPT-5.4",
-      "source": "OpenAI Blog",
-      "date": "2026-03-05T10:00:00.000Z",
-      "summary": "Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context.",
-      "tags": [
-        "ai_models",
-        "ai_infrastructure"
-      ],
-      "priority_score": 10,
-      "priority_reasons": [
-        "model_or_platform_change",
-        "infrastructure_move",
-        "multi_group_impact"
-      ],
-      "note": "Useful because it affects more than one important audience or buyer group."
-    },
-    {
       "title": "The next phase of enterprise AI",
       "source": "OpenAI Blog",
       "date": "2026-04-08T14:00:00.000Z",
@@ -172,15 +134,17 @@
         "ai_models",
         "applied_ai"
       ],
-      "priority_score": 9.85,
+      "priority_score": 9.65,
       "priority_reasons": [
         "model_or_platform_change",
         "enterprise_scale_signal",
         "multi_group_impact",
         "broader_trend"
       ],
-      "note": "Useful because it affects more than one important audience or buyer group."
-    },
+      "why_it_matters": "This matters because it changes how more than one important group can build, buy, deploy, or govern AI. The impact is broader than a single product or research update."
+    }
+  ],
+  "secondary_signals": [
     {
       "title": "Helping developers build safer AI experiences for teens",
       "source": "OpenAI Blog",
@@ -201,38 +165,54 @@
       "note": "Shows practical adoption or rollout worth tracking."
     },
     {
-      "title": "Introducing ChatGPT for Excel and new financial data integrations",
-      "source": "OpenAI Blog",
-      "date": "2026-03-05T00:00:00.000Z",
-      "summary": "OpenAI introduces ChatGPT for Excel and new financial app integrations, powered by GPT-5.4 to accelerate modeling, research, and analysis in regulated environments.",
+      "title": "Stalking victim sues OpenAI, claims ChatGPT fueled her abuser’s delusions and ignored her warnings",
+      "source": "TechCrunch",
+      "date": "2026-04-10T16:41:34.000Z",
+      "summary": "OpenAI ignored three warnings that a ChatGPT user was dangerous — including its own mass-casualty flag — while he stalked and harassed his ex-girlfriend, a new lawsuit alleges.",
       "tags": [
         "ai_models"
       ],
-      "priority_score": 9.5,
+      "priority_score": 9.3,
       "priority_reasons": [
         "model_or_platform_change",
-        "foundational_research",
-        "broad_ecosystem_impact"
+        "policy_shift",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
       ],
-      "note": "Useful because it has broad practical impact across the AI ecosystem."
+      "note": "Relevant platform or product movement, but not top-tier today."
     },
     {
-      "title": "OpenAI to acquire Astral",
+      "title": "Applications of AI at OpenAI",
       "source": "OpenAI Blog",
-      "date": "2026-03-19T00:00:00.000Z",
-      "summary": "Accelerates Codex growth to power the next generation of Python developer tools",
+      "date": "2026-04-10T00:00:00.000Z",
+      "summary": "Explore how OpenAI products like ChatGPT, Codex, and APIs bring AI into real-world use for work, development, and everyday tasks.",
       "tags": [
         "ai_models",
-        "applied_ai"
+        "ai_infrastructure"
       ],
-      "priority_score": 9,
+      "priority_score": 9.1,
       "priority_reasons": [
         "model_or_platform_change",
         "enterprise_scale_signal",
-        "strategic_finance",
-        "practical_usability_impact"
+        "multi_group_impact"
       ],
-      "note": "Shows practical adoption or rollout worth tracking."
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "Our response to the Axios developer tool compromise",
+      "source": "OpenAI Blog",
+      "date": "2026-04-10T00:00:00.000Z",
+      "summary": "OpenAI responds to the Axios supply chain attack by rotating macOS code signing certificates, updating apps, and confirming no user data was compromised.",
+      "tags": [
+        "applied_ai"
+      ],
+      "priority_score": 9.1,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "enterprise_scale_signal",
+        "multi_group_impact"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
     },
     {
       "title": "From Simulation to Production: How to Build Robots With AI",
@@ -254,23 +234,6 @@
       "note": "Useful because it affects more than one important audience or buyer group."
     },
     {
-      "title": "Florida launches investigation into OpenAI",
-      "source": "The Verge",
-      "date": "2026-04-09T22:17:06.000Z",
-      "summary": "Florida Attorney General James Uthmeier is launching an investigation into OpenAI over public safety and national security risks, as reported earlier by Reuters. In a statement on Thursday, Uthmeier says there are concerns that OpenAI's data and technology are \"falling into the hands of America's enemies, such as th...",
-      "tags": [
-        "ai_research"
-      ],
-      "priority_score": 8.8,
-      "priority_reasons": [
-        "policy_shift",
-        "safety_or_governance",
-        "strategic_finance",
-        "editorial_source_confirmation"
-      ],
-      "note": "Worth watching for downstream regulatory impact."
-    },
-    {
       "title": "From RTX to Spark: NVIDIA Accelerates Gemma 4 for Local Agentic AI",
       "source": "NVIDIA Blog",
       "date": "2026-04-02T16:15:58.000Z",
@@ -278,7 +241,7 @@
       "tags": [
         "ai_models"
       ],
-      "priority_score": 8.7,
+      "priority_score": 8.5,
       "priority_reasons": [
         "model_or_platform_change",
         "infrastructure_move",
@@ -294,7 +257,7 @@
       "tags": [
         "ai_infrastructure"
       ],
-      "priority_score": 8.7,
+      "priority_score": 8.5,
       "priority_reasons": [
         "model_or_platform_change",
         "infrastructure_move",
@@ -337,40 +300,6 @@
       "note": "Relevant platform or product movement, but not top-tier today."
     },
     {
-      "title": "Is Anthropic limiting the release of Mythos to protect the internet — or Anthropic?",
-      "source": "TechCrunch",
-      "date": "2026-04-09T18:50:05.000Z",
-      "summary": "Anthropic said this week that it limited the release of its newest model, dubbed Mythos, because it is too capable of finding security exploits in software relied upon by users around the world. Are real cybersecurity concerns a cover for a bigger problem at the frontier lab?",
-      "tags": [
-        "ai_models"
-      ],
-      "priority_score": 8.3,
-      "priority_reasons": [
-        "model_or_platform_change",
-        "safety_or_governance",
-        "practical_usability_impact",
-        "editorial_source_confirmation"
-      ],
-      "note": "Relevant platform or product movement, but not top-tier today."
-    },
-    {
-      "title": "Google and Intel deepen AI infrastructure partnership",
-      "source": "TechCrunch",
-      "date": "2026-04-09T18:27:47.000Z",
-      "summary": "The two tech giants are looking to co-develop custom chips, at a time when demand for CPUs is high due to a growing global shortage.",
-      "tags": [
-        "ai_infrastructure"
-      ],
-      "priority_score": 8.3,
-      "priority_reasons": [
-        "infrastructure_move",
-        "strategic_partnership",
-        "practical_usability_impact",
-        "editorial_source_confirmation"
-      ],
-      "note": "Useful supporting editorial signal."
-    },
-    {
       "title": "Florida AG announces investigation into OpenAI over shooting that allegedly involved ChatGPT",
       "source": "TechCrunch",
       "date": "2026-04-09T20:11:55.000Z",
@@ -400,6 +329,72 @@
       "priority_reasons": [
         "enterprise_scale_signal",
         "foundational_research",
+        "broad_ecosystem_impact"
+      ],
+      "note": "Useful because it has broad practical impact across the AI ecosystem."
+    },
+    {
+      "title": "Inside our approach to the Model Spec",
+      "source": "OpenAI Blog",
+      "date": "2026-03-25T10:00:00.000Z",
+      "summary": "Learn how OpenAI’s Model Spec serves as a public framework for model behavior, balancing safety, user freedom, and accountability as AI systems advance.",
+      "tags": [
+        "ai_models",
+        "ai_research"
+      ],
+      "priority_score": 7.5,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "safety_or_governance",
+        "practical_usability_impact"
+      ],
+      "note": "Relevant platform or product movement, but not top-tier today."
+    },
+    {
+      "title": "How Autonomous AI Agents Become Secure by Design With NVIDIA OpenShell",
+      "source": "NVIDIA Blog",
+      "date": "2026-03-23T15:00:03.000Z",
+      "summary": "Autonomous agents mark a new inflection point in AI. Systems are no longer limited to generating responses or reasoning through tasks. They can take action: Agents can read files, use tools, write and run code, and execute workflows across enterprise systems, all while expanding their own capabilities. Application-l...",
+      "tags": [
+        "ai_models",
+        "applied_ai"
+      ],
+      "priority_score": 7.5,
+      "priority_reasons": [
+        "enterprise_scale_signal",
+        "foundational_research",
+        "broad_ecosystem_impact"
+      ],
+      "note": "Useful because it has broad practical impact across the AI ecosystem."
+    },
+    {
+      "title": "Introducing the Child Safety Blueprint",
+      "source": "OpenAI Blog",
+      "date": "2026-04-08T05:00:00.000Z",
+      "summary": "Discover OpenAI’s Child Safety Blueprint—a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people online.",
+      "tags": [
+        "ai_research"
+      ],
+      "priority_score": 6.9,
+      "priority_reasons": [
+        "strategic_partnership",
+        "safety_or_governance",
+        "practical_usability_impact"
+      ],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Codex now offers more flexible pricing for teams",
+      "source": "OpenAI Blog",
+      "date": "2026-04-02T10:00:00.000Z",
+      "summary": "Codex now includes pay-as-you-go pricing for ChatGPT Business and Enterprise, providing teams a more flexible option to start and scale adoption.",
+      "tags": [
+        "ai_models",
+        "applied_ai"
+      ],
+      "priority_score": 6,
+      "priority_reasons": [
+        "enterprise_scale_signal",
         "broad_ecosystem_impact"
       ],
       "note": "Useful because it has broad practical impact across the AI ecosystem."

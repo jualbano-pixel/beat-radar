@@ -1,51 +1,13 @@
 [
   {
-    "theme_id": "models_platforms",
-    "theme_label": "models and platform releases",
-    "story_count": 18,
-    "cluster_ids": [],
-    "story_ids": [
-      "2af9d701e9e8",
-      "2a5ea513bf26",
-      "ae43fceafe49",
-      "4bf06e965fe4",
-      "58afdf38fa95",
-      "a0904673d8e8",
-      "096dac0b19bf",
-      "44069ef88222",
-      "263c2043f1c3",
-      "d75d7d2ee748",
-      "85771c0fe867",
-      "8afdb503cc56",
-      "01572b4c34e9",
-      "866a0103d93e",
-      "dc37dabb9801",
-      "f59abf9daf09",
-      "eea6230f612a",
-      "61b0991879bc"
-    ],
-    "dominant_reason_codes": [
-      "developing_pattern",
-      "policy_regulatory_move",
-      "execution_consequence"
-    ],
-    "dominant_angle_signals": [
-      "infrastructure lag visible",
-      "developer workflow changing",
-      "safety pressure building"
-    ],
-    "top_story_refs": [
-      "61b0991879bc",
-      "4bf06e965fe4",
-      "44069ef88222"
-    ]
-  },
-  {
     "theme_id": "infrastructure_execution_gap",
     "theme_label": "infrastructure execution gap",
-    "story_count": 12,
+    "story_count": 13,
     "cluster_ids": [],
     "story_ids": [
+      "b5d753efb997",
+      "0f4a7c05c749",
+      "2ffc54a54257",
       "a8bdb2b44cdc",
       "a0f97af1ab63",
       "85e9d1a6753c",
@@ -55,24 +17,56 @@
       "f7ea287cd119",
       "2e2e28858658",
       "15e5a3e9517b",
-      "281e6793fa0f",
-      "8a8601b30dd9",
-      "3dec299964e6"
+      "281e6793fa0f"
     ],
     "dominant_reason_codes": [
       "developing_pattern",
-      "policy_regulatory_move",
-      "meaningful_shift"
+      "meaningful_shift",
+      "policy_regulatory_move"
     ],
     "dominant_angle_signals": [
       "infrastructure lag visible",
-      "enterprise adoption pressure rising",
+      "developer workflow changing",
       "transition friction emerging"
     ],
     "top_story_refs": [
       "9f84e2e45d87",
       "68dd4e8eb02a",
       "f7ea287cd119"
+    ]
+  },
+  {
+    "theme_id": "models_platforms",
+    "theme_label": "models and platform releases",
+    "story_count": 11,
+    "cluster_ids": [],
+    "story_ids": [
+      "3e49e5da6b1f",
+      "1b51b946e49d",
+      "5f7353e6e46f",
+      "2a5ea513bf26",
+      "ae43fceafe49",
+      "a0904673d8e8",
+      "096dac0b19bf",
+      "44069ef88222",
+      "263c2043f1c3",
+      "d75d7d2ee748",
+      "866a0103d93e"
+    ],
+    "dominant_reason_codes": [
+      "developing_pattern",
+      "execution_consequence",
+      "policy_regulatory_move"
+    ],
+    "dominant_angle_signals": [
+      "developer workflow changing",
+      "safety pressure building",
+      "model competition tightening"
+    ],
+    "top_story_refs": [
+      "3e49e5da6b1f",
+      "1b51b946e49d",
+      "d75d7d2ee748"
     ]
   },
   {
@@ -83,24 +77,24 @@
     "story_ids": [
       "b81e3be78dc0",
       "c506b4c62f93",
+      "4f322e0f2696",
+      "66439e0ac0ae",
       "4dbb4daa381a",
       "968fbc071042",
-      "f7bebe3fb535",
-      "5becf449a527",
       "9f3eb1cb1fa2"
     ],
     "dominant_reason_codes": [
       "policy_regulatory_move"
     ],
     "dominant_angle_signals": [
-      "safety pressure building",
-      "policy pressure building",
-      "regulation moving ahead of capacity"
+      "developer workflow changing",
+      "ongoing platform expansion",
+      "policy pressure building"
     ],
     "top_story_refs": [
       "968fbc071042",
-      "5becf449a527",
-      "4dbb4daa381a"
+      "4dbb4daa381a",
+      "b81e3be78dc0"
     ]
   },
   {
@@ -132,36 +126,12 @@
     ]
   },
   {
-    "theme_id": "industry_repositioning",
-    "theme_label": "industry repositioning",
+    "theme_id": "capital_caution",
+    "theme_label": "capital caution",
     "story_count": 3,
     "cluster_ids": [],
     "story_ids": [
-      "866d15f3a2ba",
-      "387cb8d894c7",
-      "f16a35767e05"
-    ],
-    "dominant_reason_codes": [
-      "developing_pattern",
-      "policy_regulatory_move"
-    ],
-    "dominant_angle_signals": [
-      "competitive position shifting",
-      "developer workflow changing",
-      "enterprise adoption pressure rising"
-    ],
-    "top_story_refs": [
-      "f16a35767e05",
-      "387cb8d894c7",
-      "866d15f3a2ba"
-    ]
-  },
-  {
-    "theme_id": "capital_caution",
-    "theme_label": "capital caution",
-    "story_count": 2,
-    "cluster_ids": [],
-    "story_ids": [
+      "8f447a72bbda",
       "7a8af0096afd",
       "6e5e3c59e178"
     ],
@@ -170,12 +140,13 @@
       "policy_regulatory_move"
     ],
     "dominant_angle_signals": [
-      "demand still unproven",
-      "developer workflow changing",
-      "safety pressure building"
+      "cost pressure building",
+      "transition friction emerging",
+      "demand still unproven"
     ],
     "top_story_refs": [
       "6e5e3c59e178",
+      "8f447a72bbda",
       "7a8af0096afd"
     ]
   }

@@ -1559,7 +1559,7 @@ export function renderWeeklyEditorialPacketMarkdown(
     watchlist
   );
 
-  lines.push("# Weekly Editorial Packet");
+  lines.push("# Weekly Editorial Packet — AI / Tech");
   lines.push("");
   lines.push(`Week of ${packet.week_of}`);
   lines.push("");

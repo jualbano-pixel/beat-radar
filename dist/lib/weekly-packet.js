@@ -1050,7 +1050,7 @@ function renderWeeklyEditorialPacketMarkdown(packet, stories, eventClusters, the
     }
     const watchlist = buildWatchlistItems(stories, usedStoryIds, blockedLabels).slice(0, 5);
     const patternBullets = buildPatternBullets(whatMattersMost, structuralShifts, watchlist);
-    lines.push("# Weekly Editorial Packet");
+    lines.push("# Weekly Editorial Packet — AI / Tech");
     lines.push("");
     lines.push(`Week of ${packet.week_of}`);
     lines.push("");

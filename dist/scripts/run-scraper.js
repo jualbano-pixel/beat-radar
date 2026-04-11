@@ -20,11 +20,24 @@ const quality_js_1 = require("../lib/quality.js");
 const ranking_js_1 = require("../lib/ranking.js");
 const relevance_js_1 = require("../lib/relevance.js");
 const weekly_packet_js_1 = require("../lib/weekly-packet.js");
+const CURRENT_BEAT = "ai_tech";
+const CURRENT_BEAT_DISPLAY_NAME = "AI / Tech";
 async function fetchStoriesForSource(source) {
     if (source.type === "rss") {
         return (0, rss_js_1.fetchRssStories)(source);
     }
     return (0, html_js_1.fetchHtmlStories)(source);
+}
+function relativePathForManifest(filePath) {
+    return node_path_1.default.relative(process.cwd(), filePath).split(node_path_1.default.sep).join("/");
+}
+async function readLatestManifest(manifestFile) {
+    try {
+        return JSON.parse(await (0, promises_1.readFile)(manifestFile, "utf8"));
+    }
+    catch {
+        return {};
+    }
 }
 async function run() {
     const fetchedAt = new Date().toISOString();
@@ -113,7 +126,7 @@ async function run() {
     const rankingResult = (0, ranking_js_1.rankStories)(annotatedStories);
     const editorialStories = (0, editorial_layer_js_1.editorialLayer)(rankingResult.rankedStories);
     const clusteringResult = (0, clustering_js_1.clusterStories)(editorialStories);
-    const outputDir = node_path_1.default.resolve(process.cwd(), "output");
+    const outputDir = node_path_1.default.resolve(process.cwd(), "output", CURRENT_BEAT);
     const outputFile = node_path_1.default.join(outputDir, "stories.json");
     const droppedOutputFile = node_path_1.default.join(outputDir, "dropped_stories.json");
     const topStoriesOutputFile = node_path_1.default.join(outputDir, "top_stories.json");
@@ -123,7 +136,15 @@ async function run() {
     const weeklyPacketMarkdownOutputFile = node_path_1.default.join(outputDir, "weekly_editorial_packet.md");
     const topStoriesSelection = (0, prioritize_js_1.selectTopStories)(clusteringResult.stories);
     const weeklyEditorialPacket = (0, weekly_packet_js_1.buildWeeklyEditorialPacket)(clusteringResult.stories, allDroppedStories, topStoriesSelection, timeMode, fetchedAt);
+    const archiveOutputDir = node_path_1.default.join(outputDir, weeklyEditorialPacket.week_of);
+    const latestDir = node_path_1.default.resolve(process.cwd(), "latest");
+    const latestMarkdownOutputFile = node_path_1.default.join(latestDir, `${CURRENT_BEAT}.md`);
+    const latestManifestOutputFile = node_path_1.default.join(latestDir, "latest.json");
+    const archiveWeeklyPacketOutputFile = node_path_1.default.join(archiveOutputDir, "weekly_editorial_packet.json");
+    const archiveWeeklyPacketMarkdownOutputFile = node_path_1.default.join(archiveOutputDir, "weekly_editorial_packet.md");
     await (0, promises_1.mkdir)(outputDir, { recursive: true });
+    await (0, promises_1.mkdir)(archiveOutputDir, { recursive: true });
+    await (0, promises_1.mkdir)(latestDir, { recursive: true });
     await (0, promises_1.writeFile)(outputFile, JSON.stringify(clusteringResult.stories, null, 2));
     await (0, promises_1.writeFile)(droppedOutputFile, JSON.stringify(allDroppedStories.map((story) => ({
         title: story.title ?? "",
@@ -134,8 +155,21 @@ async function run() {
     await (0, promises_1.writeFile)(topStoriesOutputFile, JSON.stringify(topStoriesSelection, null, 2));
     await (0, promises_1.writeFile)(eventClustersOutputFile, JSON.stringify(clusteringResult.eventClusters, null, 2));
     await (0, promises_1.writeFile)(themeClustersOutputFile, JSON.stringify(clusteringResult.themeClusters, null, 2));
-    await (0, promises_1.writeFile)(weeklyPacketOutputFile, JSON.stringify(weeklyEditorialPacket, null, 2));
-    await (0, promises_1.writeFile)(weeklyPacketMarkdownOutputFile, (0, weekly_packet_js_1.renderWeeklyEditorialPacketMarkdown)(weeklyEditorialPacket, clusteringResult.stories, clusteringResult.eventClusters, clusteringResult.themeClusters));
+    const weeklyPacketJson = JSON.stringify(weeklyEditorialPacket, null, 2);
+    const weeklyPacketMarkdown = (0, weekly_packet_js_1.renderWeeklyEditorialPacketMarkdown)(weeklyEditorialPacket, clusteringResult.stories, clusteringResult.eventClusters, clusteringResult.themeClusters);
+    await (0, promises_1.writeFile)(weeklyPacketOutputFile, weeklyPacketJson);
+    await (0, promises_1.writeFile)(weeklyPacketMarkdownOutputFile, weeklyPacketMarkdown);
+    await (0, promises_1.writeFile)(archiveWeeklyPacketOutputFile, weeklyPacketJson);
+    await (0, promises_1.writeFile)(archiveWeeklyPacketMarkdownOutputFile, weeklyPacketMarkdown);
+    await (0, promises_1.writeFile)(latestMarkdownOutputFile, weeklyPacketMarkdown);
+    const latestManifest = await readLatestManifest(latestManifestOutputFile);
+    latestManifest[CURRENT_BEAT] = {
+        beat_name: CURRENT_BEAT_DISPLAY_NAME,
+        latest_packet: relativePathForManifest(latestMarkdownOutputFile),
+        archived_packet: relativePathForManifest(archiveWeeklyPacketMarkdownOutputFile),
+        updated_at: fetchedAt
+    };
+    await (0, promises_1.writeFile)(latestManifestOutputFile, JSON.stringify(latestManifest, null, 2));
     for (const result of results) {
         if (result.success) {
             console.log(`[${result.source}] fetched=${result.fetchedCount} normalized=${result.normalizedCount} dropped=${result.droppedCount} kept=${result.keptCount}`);
@@ -150,7 +184,7 @@ async function run() {
             console.log(`- [${drop.source}] ${drop.reason}: ${drop.title ?? drop.url ?? "Untitled"}${drop.details ? ` (${drop.details})` : ""}`);
         }
     }
-    console.log(`Total deduped output count: ${clusteringResult.stories.length} (time mode: ${timeMode})`);
+    console.log(`Total deduped output count: ${clusteringResult.stories.length} (beat: ${CURRENT_BEAT}, time mode: ${timeMode})`);
     if (rankingResult.convergenceTopics.length > 0) {
         console.log("Coverage convergence:");
         for (const topic of rankingResult.convergenceTopics.slice(0, 10)) {
@@ -164,6 +198,10 @@ async function run() {
     console.log(`Saved theme clusters to ${themeClustersOutputFile}`);
     console.log(`Saved weekly editorial packet to ${weeklyPacketOutputFile}`);
     console.log(`Saved weekly editorial markdown to ${weeklyPacketMarkdownOutputFile}`);
+    console.log(`Saved archived weekly packet to ${archiveWeeklyPacketOutputFile}`);
+    console.log(`Saved archived weekly markdown to ${archiveWeeklyPacketMarkdownOutputFile}`);
+    console.log(`Saved latest weekly markdown to ${latestMarkdownOutputFile}`);
+    console.log(`Saved latest manifest to ${latestManifestOutputFile}`);
 }
 run().catch((error) => {
     console.error("Scraper run failed:", error);
