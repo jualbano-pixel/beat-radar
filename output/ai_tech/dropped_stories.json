@@ -186,25 +186,19 @@
     "reason_dropped": "hard_excluded_commerce"
   },
   {
-    "title": "Google Workspace Promo Code: Up to 14% Off in 2026",
+    "title": "Medicube Coupon Code: Top Promo Codes and Discounts for April 2026",
     "source": "Wired",
     "date": "2026-04-09T05:00:00.000Z",
     "reason_dropped": "hard_excluded_commerce"
   },
   {
-    "title": "20% Off LG Promo Code & Coupons | April 2026",
+    "title": "Top Paramount+ Coupon Codes and Deals for April 2026",
     "source": "Wired",
     "date": "2026-04-09T05:00:00.000Z",
     "reason_dropped": "hard_excluded_commerce"
   },
   {
-    "title": "NZXT Discount Codes: 50% Off in April 2026",
-    "source": "Wired",
-    "date": "2026-04-09T05:00:00.000Z",
-    "reason_dropped": "hard_excluded_commerce"
-  },
-  {
-    "title": "30% Off Canon Promo Codes | April 2026",
+    "title": "10% Dell Coupon Codes | April 2026",
     "source": "Wired",
     "date": "2026-04-09T05:00:00.000Z",
     "reason_dropped": "hard_excluded_commerce"
@@ -333,6 +327,12 @@
     "title": "Artemis II Astronauts Witnessed 6 Meteorites Colliding With the Moon",
     "source": "Wired",
     "date": "2026-04-09T09:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "TurboTax Service Codes: 30% Off TurboTax Full Service Expert | April 2026",
+    "source": "Wired",
+    "date": "2026-04-09T05:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
@@ -3246,18 +3246,6 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Decoding genetics with OpenAI o1",
-    "source": "OpenAI Blog",
-    "date": "2024-09-12T00:00:00.000Z",
-    "reason_dropped": "dropped_time_mode"
-  },
-  {
-    "title": "Answering quantum physics questions with OpenAI o1",
-    "source": "OpenAI Blog",
-    "date": "2024-09-12T00:00:00.000Z",
-    "reason_dropped": "dropped_time_mode"
-  },
-  {
     "title": "Economics and reasoning with OpenAI o1",
     "source": "OpenAI Blog",
     "date": "2024-09-12T00:00:00.000Z",
@@ -3265,6 +3253,18 @@
   },
   {
     "title": "Coding with OpenAI o1",
+    "source": "OpenAI Blog",
+    "date": "2024-09-12T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Decoding genetics with OpenAI o1",
+    "source": "OpenAI Blog",
+    "date": "2024-09-12T00:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Answering quantum physics questions with OpenAI o1",
     "source": "OpenAI Blog",
     "date": "2024-09-12T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -3300,13 +3300,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Putting AI to work at Upwork",
+    "title": "Fine-tuning now available for GPT-4o",
     "source": "OpenAI Blog",
     "date": "2024-08-20T10:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Fine-tuning now available for GPT-4o",
+    "title": "Putting AI to work at Upwork",
     "source": "OpenAI Blog",
     "date": "2024-08-20T10:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -3342,13 +3342,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "GPT-4o System Card",
+    "title": "Enabling a data-driven workforce",
     "source": "OpenAI Blog",
     "date": "2024-08-08T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Enabling a data-driven workforce",
+    "title": "GPT-4o System Card",
     "source": "OpenAI Blog",
     "date": "2024-08-08T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -3498,13 +3498,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "OpenAI for Education",
+    "title": "Introducing OpenAI for Nonprofits",
     "source": "OpenAI Blog",
     "date": "2024-05-30T07:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Introducing OpenAI for Nonprofits",
+    "title": "OpenAI for Education",
     "source": "OpenAI Blog",
     "date": "2024-05-30T07:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -3588,13 +3588,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Spring Update",
+    "title": "Introducing GPT-4o and more tools to ChatGPT free users",
     "source": "OpenAI Blog",
     "date": "2024-05-13T10:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Introducing GPT-4o and more tools to ChatGPT free users",
+    "title": "Spring Update",
     "source": "OpenAI Blog",
     "date": "2024-05-13T10:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -3714,12 +3714,6 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Enterprise-ready trust and safety",
-    "source": "OpenAI Blog",
-    "date": "2024-03-18T07:00:00.000Z",
-    "reason_dropped": "dropped_time_mode"
-  },
-  {
     "title": "Building a data-driven, efficient culture with AI",
     "source": "OpenAI Blog",
     "date": "2024-03-18T07:00:00.000Z",
@@ -3727,6 +3721,12 @@
   },
   {
     "title": "Reimagining the email experience with AI",
+    "source": "OpenAI Blog",
+    "date": "2024-03-18T07:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Enterprise-ready trust and safety",
     "source": "OpenAI Blog",
     "date": "2024-03-18T07:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -3744,15 +3744,21 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
+    "title": "OpenAI announces new members to board of directors",
+    "source": "OpenAI Blog",
+    "date": "2024-03-08T08:00:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
     "title": "Review completed & Altman, Brockman to continue to lead OpenAI",
     "source": "OpenAI Blog",
     "date": "2024-03-08T08:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "OpenAI announces new members to board of directors",
+    "title": "Using AI to improve patient access to clinical trials",
     "source": "OpenAI Blog",
-    "date": "2024-03-08T08:00:00.000Z",
+    "date": "2024-03-06T08:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
@@ -3763,12 +3769,6 @@
   },
   {
     "title": "Improving health literacy and patient well-being",
-    "source": "OpenAI Blog",
-    "date": "2024-03-06T08:00:00.000Z",
-    "reason_dropped": "dropped_time_mode"
-  },
-  {
-    "title": "Using AI to improve patient access to clinical trials",
     "source": "OpenAI Blog",
     "date": "2024-03-06T08:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
