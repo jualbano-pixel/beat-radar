@@ -21,8 +21,6 @@ const quality_js_1 = require("../lib/quality.js");
 const ranking_js_1 = require("../lib/ranking.js");
 const relevance_js_1 = require("../lib/relevance.js");
 const weekly_packet_js_1 = require("../lib/weekly-packet.js");
-const CURRENT_BEAT = (0, beats_js_1.resolveBeat)(process.env.BEAT);
-const CURRENT_BEAT_CONFIG = beats_js_1.beatConfigs[CURRENT_BEAT];
 async function fetchStoriesForSource(source) {
     if (source.type === "rss") {
         return (0, rss_js_1.fetchRssStories)(source);
@@ -40,19 +38,27 @@ async function readLatestManifest(manifestFile) {
         return {};
     }
 }
-async function run() {
-    const fetchedAt = new Date().toISOString();
-    const runDate = fetchedAt.slice(0, 10);
+function allRegisteredBeats() {
+    return Object.keys(beats_js_1.beatConfigs);
+}
+function beatsForRun() {
+    if (process.env.BEAT) {
+        return [(0, beats_js_1.resolveBeat)(process.env.BEAT)];
+    }
+    return allRegisteredBeats();
+}
+async function runBeat(beat, fetchedAt, runDate) {
+    const beatConfig = beats_js_1.beatConfigs[beat];
     const candidateStoriesBySource = new Map();
     const results = [];
     const allDroppedStories = [];
-    const requestedTimeMode = process.env[CURRENT_BEAT_CONFIG.timeModeEnvVar];
+    const requestedTimeMode = process.env[beatConfig.timeModeEnvVar];
     const timeMode = requestedTimeMode === "context" ||
         requestedTimeMode === "archive"
         ? "context"
         : "current";
     const keptCountBySource = new Map();
-    const beatSources = sources_js_1.sources.filter((source) => source.beat === CURRENT_BEAT);
+    const beatSources = sources_js_1.sources.filter((source) => source.beat === beat);
     for (const source of beatSources) {
         try {
             const rawStories = await fetchStoriesForSource(source);
@@ -130,7 +136,7 @@ async function run() {
     const rankingResult = (0, ranking_js_1.rankStories)(annotatedStories);
     const editorialStories = (0, editorial_layer_js_1.editorialLayer)(rankingResult.rankedStories);
     const clusteringResult = (0, clustering_js_1.clusterStories)(editorialStories);
-    const outputDir = node_path_1.default.resolve(process.cwd(), "output", CURRENT_BEAT);
+    const outputDir = node_path_1.default.resolve(process.cwd(), "output", beat);
     const outputFile = node_path_1.default.join(outputDir, "stories.json");
     const droppedOutputFile = node_path_1.default.join(outputDir, "dropped_stories.json");
     const topStoriesOutputFile = node_path_1.default.join(outputDir, "top_stories.json");
@@ -139,10 +145,10 @@ async function run() {
     const weeklyPacketOutputFile = node_path_1.default.join(outputDir, "weekly_editorial_packet.json");
     const weeklyPacketMarkdownOutputFile = node_path_1.default.join(outputDir, "weekly_editorial_packet.md");
     const topStoriesSelection = (0, prioritize_js_1.selectTopStories)(clusteringResult.stories);
-    const weeklyEditorialPacket = (0, weekly_packet_js_1.buildWeeklyEditorialPacket)(clusteringResult.stories, allDroppedStories, topStoriesSelection, timeMode, fetchedAt, CURRENT_BEAT_CONFIG.displayName);
+    const weeklyEditorialPacket = (0, weekly_packet_js_1.buildWeeklyEditorialPacket)(clusteringResult.stories, allDroppedStories, topStoriesSelection, timeMode, fetchedAt, beatConfig.displayName);
     const archiveOutputDir = node_path_1.default.join(outputDir, runDate);
     const latestDir = node_path_1.default.resolve(process.cwd(), "latest");
-    const latestMarkdownOutputFile = node_path_1.default.join(latestDir, `${CURRENT_BEAT}.md`);
+    const latestMarkdownOutputFile = node_path_1.default.join(latestDir, `${beat}.md`);
     const latestManifestOutputFile = node_path_1.default.join(latestDir, "latest.json");
     const archiveOutputFile = node_path_1.default.join(archiveOutputDir, "stories.json");
     const archiveDroppedOutputFile = node_path_1.default.join(archiveOutputDir, "dropped_stories.json");
@@ -182,8 +188,8 @@ async function run() {
     await (0, promises_1.writeFile)(archiveWeeklyPacketMarkdownOutputFile, weeklyPacketMarkdown);
     await (0, promises_1.writeFile)(latestMarkdownOutputFile, weeklyPacketMarkdown);
     const latestManifest = await readLatestManifest(latestManifestOutputFile);
-    latestManifest[CURRENT_BEAT] = {
-        beat_name: CURRENT_BEAT_CONFIG.displayName,
+    latestManifest[beat] = {
+        beat_name: beatConfig.displayName,
         latest_packet: relativePathForManifest(latestMarkdownOutputFile),
         archived_packet: relativePathForManifest(archiveWeeklyPacketMarkdownOutputFile),
         updated_at: fetchedAt
@@ -203,7 +209,7 @@ async function run() {
             console.log(`- [${drop.source}] ${drop.reason}: ${drop.title ?? drop.url ?? "Untitled"}${drop.details ? ` (${drop.details})` : ""}`);
         }
     }
-    console.log(`Total deduped output count: ${clusteringResult.stories.length} (beat: ${CURRENT_BEAT}, time mode: ${timeMode})`);
+    console.log(`Total deduped output count: ${clusteringResult.stories.length} (beat: ${beat}, time mode: ${timeMode})`);
     if (rankingResult.convergenceTopics.length > 0) {
         console.log("Coverage convergence:");
         for (const topic of rankingResult.convergenceTopics.slice(0, 10)) {
@@ -222,7 +228,20 @@ async function run() {
     console.log(`Saved latest weekly markdown to ${latestMarkdownOutputFile}`);
     console.log(`Saved latest manifest to ${latestManifestOutputFile}`);
 }
-run().catch((error) => {
+async function run() {
+    const fetchedAt = new Date().toISOString();
+    const runDate = fetchedAt.slice(0, 10);
+    const beats = beatsForRun();
+    for (const beat of beats) {
+        console.log(`\n=== Running beat: ${beat} ===`);
+        await runBeat(beat, fetchedAt, runDate);
+    }
+}
+run()
+    .then(() => {
+    process.exit(0);
+})
+    .catch((error) => {
     console.error("Scraper run failed:", error);
-    process.exitCode = 1;
+    process.exit(1);
 });

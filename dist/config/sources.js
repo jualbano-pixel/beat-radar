@@ -68,6 +68,14 @@ exports.sources = [
         daysBack: 45
     },
     {
+        name: "BusinessMirror Motoring",
+        beat: "philippine_motoring",
+        type: "rss",
+        url: "https://businessmirror.com.ph/life/motoring/feed/",
+        maxItems: 25,
+        daysBack: 60
+    },
+    {
         name: "Inquirer Business",
         beat: "philippine_motoring",
         type: "rss",
@@ -82,5 +90,29 @@ exports.sources = [
         url: "https://www.philstar.com/rss/business",
         maxItems: 25,
         daysBack: 30
+    },
+    {
+        name: "BusinessWorld Online",
+        beat: "philippine_motoring",
+        type: "rss",
+        url: "https://www.bworldonline.com/feed/",
+        maxItems: 30,
+        daysBack: 30
+    },
+    {
+        name: "Land Transportation Office",
+        beat: "philippine_motoring",
+        type: "rss",
+        url: "https://lto.gov.ph/news/feed/",
+        maxItems: 20,
+        daysBack: 60
+    },
+    {
+        name: "Land Transportation Franchising and Regulatory Board",
+        beat: "philippine_motoring",
+        type: "rss",
+        url: "https://ltfrb.gov.ph/feed/",
+        maxItems: 20,
+        daysBack: 60
     }
 ];

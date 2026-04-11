@@ -179,6 +179,18 @@
       "note": "Useful supporting editorial signal."
     },
     {
+      "title": "Lexus spin on charging stations",
+      "source": "BusinessMirror Motoring",
+      "date": "2026-04-09T16:00:00.000Z",
+      "summary": "CHARGING stations have always been a perennial issue for Filipino motorists wishing to own an electric vehicle (EV). Where to charge your EV with ease and comfort has been a nagging question that, on many occasions, has riled EV dreamers, forcing many to quit dreaming.",
+      "tags": [
+        "ev_transition_gap"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
       "title": "Government eyes P60 billion fiscal support for EVs",
       "source": "Philstar Business",
       "date": "2026-04-09T16:00:00.000Z",
@@ -281,34 +293,15 @@
       "note": "Useful supporting editorial signal."
     },
     {
-      "title": "MIAS 2026: GAC launches new GS8 HEV with a P2.338-M introductory price",
-      "source": "TopGear Philippines",
-      "date": "2026-04-09T08:18:00.000Z",
-      "summary": "The brand has also previewed the E8 HEV, an all-new hybrid MPV",
+      "title": "Airport improvement continues; electrified Toyota",
+      "source": "BusinessMirror Motoring",
+      "date": "2026-04-01T16:02:00.000Z",
+      "summary": "Motorists heading to Ninoy Aquino International Airport (Naia) Terminal 3 from the Skyway can now save about 15 to 25 minutes following the opening of a new off-ramp linking the NAIA Expressway directly to the terminal.",
       "tags": [
-        "pricing_pressure",
-        "ev_transition_gap",
-        "consumer_demand_shift"
+        "motoring_infrastructure"
       ],
-      "priority_score": -0.6,
-      "priority_reasons": [
-        "minor_or_routine"
-      ],
-      "note": "Useful supporting editorial signal."
-    },
-    {
-      "title": "MIAS 2026: The Sealion 7 is BYD’s next big EV, and it’s been previewed in PH",
-      "source": "TopGear Philippines",
-      "date": "2026-04-09T04:11:00.000Z",
-      "summary": "It’ll launch in May, and reservations are now open",
-      "tags": [
-        "ev_transition_gap",
-        "product_market_signal"
-      ],
-      "priority_score": -0.6,
-      "priority_reasons": [
-        "minor_or_routine"
-      ],
+      "priority_score": 0,
+      "priority_reasons": [],
       "note": "Useful supporting editorial signal."
     }
   ]

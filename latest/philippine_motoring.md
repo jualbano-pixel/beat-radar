@@ -22,6 +22,13 @@ Week of 2026-04-06
 - [MIAS 2026: The all-new Kia EV5 has been launched with a P2.298-M starting price](https://www.topgear.com.ph/news/car-news/kia-ev5-2026-mias-launch-a5361-20260409) | TopGear Philippines | Makes the affordability test visible, not just the launch claim.
 - [MIAS 2026: MG unveils G50 PHEV priced at P1.398-M](https://www.topgear.com.ph/news/car-news/mg-g50-phev-and-mg-5-prestige-unveiled-at-mias-2026-specs-prices-features-a6938-20260409) | TopGear Philippines | Shows how brands are using price to keep buyers in the market.
 
+### infrastructure constraint
+- Why it matters: Road, charging, and mobility capacity are shaping what the market can actually absorb.
+- Pattern: Mobility demand is running into road, charging, and transport capacity limits.
+- Tension: usage vs capacity
+- Supporting stories:
+- [Airport improvement continues; electrified Toyota](https://businessmirror.com.ph/2026/04/02/airport-improvement-continues-electrified-toyota) | BusinessMirror Motoring | Shows how electrified models are being pushed into a still-cost-sensitive market.
+
 ## Structural shifts
 
 ## Watchlist
@@ -45,6 +52,6 @@ Week of 2026-04-06
 
 - Vehicle and fuel costs are pressing harder against household purchasing power.
 - EV and hybrid launches are moving faster than the everyday infrastructure around them.
+- Mobility demand is running into road, charging, and transport capacity limits.
 - Rules are starting to bite where motoring culture and road discipline have been loose.
 - The market is starting to show what buyers can still afford, and what they will not.
-- Brands are testing what Filipino buyers will still stretch for under tighter cost pressure.

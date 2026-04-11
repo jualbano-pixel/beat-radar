@@ -30,9 +30,6 @@ import type {
   StoryDrop
 } from "../lib/types.js";
 
-const CURRENT_BEAT: Beat = resolveBeat(process.env.BEAT);
-const CURRENT_BEAT_CONFIG = beatConfigs[CURRENT_BEAT];
-
 type LatestManifest = Partial<
   Record<
     Beat,
@@ -67,20 +64,35 @@ async function readLatestManifest(manifestFile: string): Promise<LatestManifest>
   }
 }
 
-async function run(): Promise<void> {
-  const fetchedAt = new Date().toISOString();
-  const runDate = fetchedAt.slice(0, 10);
+function allRegisteredBeats(): Beat[] {
+  return Object.keys(beatConfigs) as Beat[];
+}
+
+function beatsForRun(): Beat[] {
+  if (process.env.BEAT) {
+    return [resolveBeat(process.env.BEAT)];
+  }
+
+  return allRegisteredBeats();
+}
+
+async function runBeat(
+  beat: Beat,
+  fetchedAt: string,
+  runDate: string
+): Promise<void> {
+  const beatConfig = beatConfigs[beat];
   const candidateStoriesBySource = new Map<string, NormalizedStory[]>();
   const results: SourceRunSummary[] = [];
   const allDroppedStories: StoryDrop[] = [];
-  const requestedTimeMode = process.env[CURRENT_BEAT_CONFIG.timeModeEnvVar];
+  const requestedTimeMode = process.env[beatConfig.timeModeEnvVar];
   const timeMode: AiTechTimeMode =
     requestedTimeMode === "context" ||
     requestedTimeMode === "archive"
       ? "context"
       : "current";
   const keptCountBySource = new Map<string, number>();
-  const beatSources = sources.filter((source) => source.beat === CURRENT_BEAT);
+  const beatSources = sources.filter((source) => source.beat === beat);
 
   for (const source of beatSources) {
     try {
@@ -188,7 +200,7 @@ async function run(): Promise<void> {
   const rankingResult = rankStories(annotatedStories);
   const editorialStories = editorialLayer(rankingResult.rankedStories);
   const clusteringResult = clusterStories(editorialStories);
-  const outputDir = path.resolve(process.cwd(), "output", CURRENT_BEAT);
+  const outputDir = path.resolve(process.cwd(), "output", beat);
   const outputFile = path.join(outputDir, "stories.json");
   const droppedOutputFile = path.join(outputDir, "dropped_stories.json");
   const topStoriesOutputFile = path.join(outputDir, "top_stories.json");
@@ -209,11 +221,11 @@ async function run(): Promise<void> {
     topStoriesSelection,
     timeMode,
     fetchedAt,
-    CURRENT_BEAT_CONFIG.displayName
+    beatConfig.displayName
   );
   const archiveOutputDir = path.join(outputDir, runDate);
   const latestDir = path.resolve(process.cwd(), "latest");
-  const latestMarkdownOutputFile = path.join(latestDir, `${CURRENT_BEAT}.md`);
+  const latestMarkdownOutputFile = path.join(latestDir, `${beat}.md`);
   const latestManifestOutputFile = path.join(latestDir, "latest.json");
   const archiveOutputFile = path.join(archiveOutputDir, "stories.json");
   const archiveDroppedOutputFile = path.join(
@@ -295,8 +307,8 @@ async function run(): Promise<void> {
   await writeFile(latestMarkdownOutputFile, weeklyPacketMarkdown);
 
   const latestManifest = await readLatestManifest(latestManifestOutputFile);
-  latestManifest[CURRENT_BEAT] = {
-    beat_name: CURRENT_BEAT_CONFIG.displayName,
+  latestManifest[beat] = {
+    beat_name: beatConfig.displayName,
     latest_packet: relativePathForManifest(latestMarkdownOutputFile),
     archived_packet: relativePathForManifest(archiveWeeklyPacketMarkdownOutputFile),
     updated_at: fetchedAt
@@ -328,7 +340,7 @@ async function run(): Promise<void> {
   }
 
   console.log(
-    `Total deduped output count: ${clusteringResult.stories.length} (beat: ${CURRENT_BEAT}, time mode: ${timeMode})`
+    `Total deduped output count: ${clusteringResult.stories.length} (beat: ${beat}, time mode: ${timeMode})`
   );
   if (rankingResult.convergenceTopics.length > 0) {
     console.log("Coverage convergence:");
@@ -355,7 +367,22 @@ async function run(): Promise<void> {
   console.log(`Saved latest manifest to ${latestManifestOutputFile}`);
 }
 
-run().catch((error) => {
-  console.error("Scraper run failed:", error);
-  process.exitCode = 1;
-});
+async function run(): Promise<void> {
+  const fetchedAt = new Date().toISOString();
+  const runDate = fetchedAt.slice(0, 10);
+  const beats = beatsForRun();
+
+  for (const beat of beats) {
+    console.log(`\n=== Running beat: ${beat} ===`);
+    await runBeat(beat, fetchedAt, runDate);
+  }
+}
+
+run()
+  .then(() => {
+    process.exit(0);
+  })
+  .catch((error) => {
+    console.error("Scraper run failed:", error);
+    process.exit(1);
+  });
