@@ -24,14 +24,6 @@ The useful signal is balance-sheet caution: bad loans, provisions, exposure, or 
 
 ## Cluster breakdown
 
-### Risk is starting to surface
-Bad-loan and borrower-capacity signals suggest risk is beginning to surface beneath still-active lending.
-
-- [Philippine banks’ bad loans climb to 6-month high in February](https://mb.com.ph/article/10913231/business/banking-finance/philippine-banks-bad-loans-climb-to-6-month-high-in-february) | Manila Bulletin Business
-- [Banks’ bad loan ratio hits 6-month high in Feb.](https://www.bworldonline.com/top-stories/2026/04/10/741953/banks-bad-loan-ratio-hits-6-month-high-in-feb) | BusinessWorld Banking
-- [Philippine banks’ bad loans swelled to 6-month high in February](https://business.inquirer.net/584429/ph-banks-bad-loans-swelled-to-6-mo-high-in-february) | Inquirer Business
-- [War’s impact on borrowers’ capacity to pay loans flagged](https://businessmirror.com.ph/2026/04/09/wars-impact-on-borrowers-capacity-to-pay-loans-flagged) | BusinessMirror Business
-
 ### Credit tightening is emerging
 Regulatory and lending signals are pointing in the same direction: tighter credit discipline across the system.
 
@@ -40,20 +32,18 @@ Regulatory and lending signals are pointing in the same direction: tighter credi
 - [BSP readies revisions to rules on salary loan terms](https://business.inquirer.net/584539/bsp-readies-revisions-to-rules-on-salary-loan-terms) | Inquirer Business
 - [BSP looks to remove salary loan tenor cap for flexible payments](https://www.bworldonline.com/banking-finance/2026/04/10/741890/bsp-looks-to-remove-salary-loan-tenor-cap-for-flexible-payments) | BusinessWorld Banking
 
-### System liquidity is easing
-The grouped stories point to banks preserving buffers rather than stretching balance sheets for growth.
+### Risk is starting to surface
+Bad-loan and borrower-capacity signals suggest risk is beginning to surface beneath still-active lending.
 
-- [BOP posts US$2.3 billion deficit in February 2026; End-February GIR rise to US$113.3 billion[1]](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7850) | Bangko Sentral ng Pilipinas
+- [Philippine banks’ bad loans climb to 6-month high in February](https://mb.com.ph/article/10913231/business/banking-finance/philippine-banks-bad-loans-climb-to-6-month-high-in-february) | Manila Bulletin Business
+- [Banks’ bad loan ratio hits 6-month high in Feb.](https://www.bworldonline.com/top-stories/2026/04/10/741953/banks-bad-loan-ratio-hits-6-month-high-in-feb) | BusinessWorld Banking
+- [Philippine banks’ bad loans swelled to 6-month high in February](https://business.inquirer.net/584429/ph-banks-bad-loans-swelled-to-6-mo-high-in-february) | Inquirer Business
+- [War’s impact on borrowers’ capacity to pay loans flagged](https://businessmirror.com.ph/2026/04/09/wars-impact-on-borrowers-capacity-to-pay-loans-flagged) | BusinessMirror Business
 
-### Credit rules are moving onto the watchlist
-Loan rules and regulatory signals are putting credit discipline back on the banking desk's watchlist.
+## Signals to watch
 
-- [Rules on salary-based loans to be liberalized](https://businessmirror.com.ph/2026/04/09/rules-on-salary-based-loans-to-be-liberalized) | BusinessMirror Business
-
-### Deposit movement is on watch
-The grouped stories point to deposit movement that could change funding cost, liquidity, or competitive behavior.
-
-- [FCDU loans increased by 2.9% to US$15.56 billion in Q4 2025](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7868) | Bangko Sentral ng Pilipinas
+- **System liquidity is easing:** One liquidity and reserve signal is worth monitoring, but it needs confirmation before becoming a system read. [BOP posts US$2.3 billion deficit in February 2026; End-February GIR rise to US$113.3 billion[1]](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7850) | Bangko Sentral ng Pilipinas
+- **Deposit signal:** One deposit-linked data point adds funding color, but it needs confirmation before carrying a theme. [FCDU loans increased by 2.9% to US$15.56 billion in Q4 2025](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7868) | Bangko Sentral ng Pilipinas
 
 ## Standalone signals
 

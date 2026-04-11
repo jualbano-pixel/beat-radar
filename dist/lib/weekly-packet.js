@@ -1235,6 +1235,9 @@ function bankingThemeRank(themeType) {
     }
     return 1;
 }
+function bankingClusterRank(cluster) {
+    return bankingThemeRank(cluster.cluster_classification);
+}
 function bankingThemeRead(theme, stories) {
     const label = normalizeText(theme.theme_label);
     if (label.includes("credit tightening")) {
@@ -1260,6 +1263,65 @@ function bankingThemeRead(theme, stories) {
     }
     return "The signal is worth watching, but it is not yet strong enough to carry a directional system read.";
 }
+function bankingWatchClusterHasSystemValue(cluster, clusterStories, visibleThemes) {
+    const label = normalizeText(cluster.event_label);
+    const promotedLabels = visibleThemes.map((theme) => normalizeText(theme.theme_label));
+    const hasCreditTighteningTheme = promotedLabels.some((theme) => theme.includes("credit tightening"));
+    if (hasCreditTighteningTheme &&
+        cluster.story_count === 1 &&
+        (label.includes("watchlist") || label.includes("credit rules"))) {
+        return false;
+    }
+    if (cluster.story_count > 1) {
+        return true;
+    }
+    return clusterStories.some((story) => {
+        const signals = story.banking_signals;
+        if (!signals) {
+            return false;
+        }
+        const hasBalanceSheetSignal = signals.function.some((fn) => ["deposits", "liquidity", "funding", "risk"].includes(fn));
+        return hasBalanceSheetSignal && (story.movement_score ?? 0) >= 5;
+    });
+}
+function bankingWatchClusterLabel(cluster, clusterStories) {
+    const label = normalizeText(cluster.event_label);
+    const functions = new Set(clusterStories.flatMap((story) => story.banking_signals?.function ?? []));
+    if (cluster.story_count === 1 &&
+        (label.includes("on watch") ||
+            label.includes("watchlist") ||
+            label.includes("needs confirmation"))) {
+        if (functions.has("liquidity")) {
+            return "Liquidity signal";
+        }
+        if (functions.has("deposits")) {
+            return "Deposit signal";
+        }
+        if (functions.has("funding")) {
+            return "Funding signal";
+        }
+        if (functions.has("risk")) {
+            return "Risk signal";
+        }
+        return "Banking signal";
+    }
+    return cluster.event_label;
+}
+function bankingWatchClusterRead(cluster, clusterStories) {
+    const functions = new Set(clusterStories.flatMap((story) => story.banking_signals?.function ?? []));
+    if (cluster.story_count === 1) {
+        if (functions.has("liquidity")) {
+            return "One liquidity and reserve signal is worth monitoring, but it needs confirmation before becoming a system read.";
+        }
+        if (functions.has("deposits")) {
+            return "One deposit-linked data point adds funding color, but it needs confirmation before carrying a theme.";
+        }
+        if (functions.has("funding")) {
+            return "One funding signal is useful color, but it is not broad enough yet to define bank behavior.";
+        }
+    }
+    return cluster.compression_line ?? bankingClusterCompression(cluster, clusterStories);
+}
 function renderBankingStoryLine(lines, story) {
     lines.push(`- [${sanitizeText(story.title)}](${story.url}) | ${story.source}`);
 }
@@ -1280,6 +1342,9 @@ function bankingClusterCompression(cluster, stories) {
         return "Bad-loan and borrower-capacity signals suggest risk is beginning to surface beneath still-active lending.";
     }
     if (label.includes("liquidity")) {
+        if (label.includes("easing")) {
+            return "The cluster points to easier liquidity conditions, but it still needs confirmation from more bank-behavior signals.";
+        }
         return "The grouped stories point to banks preserving buffers rather than stretching balance sheets for growth.";
     }
     if (label.includes("deposit")) {
@@ -1322,6 +1387,26 @@ function renderBankingMarkdown(packet, stories, eventClusters, themeClusters) {
     })
         .filter((theme) => theme.theme_type !== "watch" || theme.story_count >= 2)
         .slice(0, 4);
+    const clusterById = new Map(eventClusters.map((cluster) => [cluster.cluster_id, cluster]));
+    const coreClusters = visibleThemes.flatMap((theme) => theme.cluster_ids
+        .map((clusterId) => clusterById.get(clusterId))
+        .filter((cluster) => Boolean(cluster)));
+    const coreClusterIds = new Set(coreClusters.map((cluster) => cluster.cluster_id));
+    const watchClusters = eventClusters
+        .filter((cluster) => !coreClusterIds.has(cluster.cluster_id))
+        .filter((cluster) => {
+        const clusterStories = cluster.story_ids
+            .map((storyId) => storyMap.get(storyId))
+            .filter((story) => Boolean(story));
+        return bankingWatchClusterHasSystemValue(cluster, clusterStories, visibleThemes);
+    })
+        .sort((left, right) => {
+        const rankDelta = bankingClusterRank(right) - bankingClusterRank(left);
+        if (rankDelta !== 0) {
+            return rankDelta;
+        }
+        return right.priority_score - left.priority_score;
+    });
     lines.push(`# ${packet.beat_name}`);
     lines.push("");
     lines.push(`Week of ${packet.week_of}`);
@@ -1346,15 +1431,7 @@ function renderBankingMarkdown(packet, stories, eventClusters, themeClusters) {
     }
     lines.push("## Cluster breakdown");
     lines.push("");
-    for (const cluster of [...eventClusters].sort((left, right) => {
-        const rank = { primary: 3, secondary: 2, watch: 1 };
-        const rankDelta = (rank[right.cluster_classification ?? "watch"] ?? 1) -
-            (rank[left.cluster_classification ?? "watch"] ?? 1);
-        if (rankDelta !== 0) {
-            return rankDelta;
-        }
-        return right.priority_score - left.priority_score;
-    }).slice(0, 10)) {
+    for (const cluster of coreClusters) {
         const clusterStories = cluster.story_ids
             .map((storyId) => storyMap.get(storyId))
             .filter((story) => Boolean(story));
@@ -1366,6 +1443,24 @@ function renderBankingMarkdown(packet, stories, eventClusters, themeClusters) {
         }
         lines.push("");
     }
+    lines.push("## Signals to watch");
+    lines.push("");
+    if (watchClusters.length === 0) {
+        lines.push("- No weaker banking-system signal added enough value outside the main movements.");
+    }
+    else {
+        for (const cluster of watchClusters.slice(0, 6)) {
+            const clusterStories = cluster.story_ids
+                .map((storyId) => storyMap.get(storyId))
+                .filter((story) => Boolean(story));
+            const leadStory = clusterStories[0];
+            if (!leadStory) {
+                continue;
+            }
+            lines.push(`- **${sanitizeText(bankingWatchClusterLabel(cluster, clusterStories))}:** ${sanitizeText(bankingWatchClusterRead(cluster, clusterStories))} [${sanitizeText(leadStory.title)}](${leadStory.url}) | ${leadStory.source}`);
+        }
+    }
+    lines.push("");
     lines.push("## Standalone signals");
     lines.push("");
     if (standaloneStories.length === 0) {
