@@ -192,14 +192,16 @@ const GENERIC_OBJECT_TOKENS = new Set([
   "generative"
 ]);
 
-const THEME_RULES: Array<{
+type ThemeRule = {
   id: string;
   label: string;
   keywords: string[];
   tags?: string[];
   reasonCodes?: ReasonCode[];
   angleSignals?: string[];
-}> = [
+};
+
+const AI_TECH_THEME_RULES: ThemeRule[] = [
   {
     id: "models_platforms",
     label: "models and platform releases",
@@ -244,6 +246,64 @@ const THEME_RULES: Array<{
     reasonCodes: ["industry_repositioning", "meaningful_shift"]
   }
 ];
+
+const PHILIPPINE_MOTORING_THEME_RULES: ThemeRule[] = [
+  {
+    id: "pricing_pressure",
+    label: "pricing pressure",
+    keywords: ["srp", "price", "prices", "pricing", "financing", "affordability"],
+    tags: ["pricing_pressure"],
+    reasonCodes: ["market_signal"]
+  },
+  {
+    id: "ownership_cost_reality",
+    label: "ownership cost reality",
+    keywords: ["fuel", "maintenance", "insurance", "registration", "operating cost"],
+    tags: ["ownership_cost"],
+    angleSignals: ["ownership cost reality surfacing"]
+  },
+  {
+    id: "ev_transition_gap",
+    label: "EV transition gap",
+    keywords: ["ev", "electric vehicle", "hybrid", "charging", "battery", "range"],
+    tags: ["ev_transition_gap"],
+    angleSignals: ["EV transition gap visible"]
+  },
+  {
+    id: "infrastructure_constraint",
+    label: "infrastructure constraint",
+    keywords: ["road", "roads", "toll", "traffic", "congestion", "charging station", "infrastructure"],
+    tags: ["motoring_infrastructure"],
+    angleSignals: ["infrastructure constraint showing"]
+  },
+  {
+    id: "regulation_enforcement",
+    label: "regulation and enforcement",
+    keywords: ["lto", "dotr", "mmda", "ltfrb", "registration", "license", "enforcement", "policy", "regulation"],
+    tags: ["regulation_enforcement"],
+    reasonCodes: ["policy_regulatory_move"]
+  },
+  {
+    id: "supply_availability",
+    label: "supply and availability",
+    keywords: ["supply", "inventory", "availability", "backlog", "production", "deliveries"],
+    tags: ["supply_availability"],
+    angleSignals: ["supply constraint shaping choice"]
+  },
+  {
+    id: "consumer_demand_shift",
+    label: "consumer demand shift",
+    keywords: ["demand", "sales", "segment", "suv", "pickup", "mpv", "buyers", "market share"],
+    tags: ["consumer_demand_shift"],
+    reasonCodes: ["product_signal"]
+  }
+];
+
+function themeRulesForStory(story: NormalizedStory): ThemeRule[] {
+  return story.beat === "philippine_motoring"
+    ? PHILIPPINE_MOTORING_THEME_RULES
+    : AI_TECH_THEME_RULES;
+}
 
 function normalizeText(value: string): string {
   return value
@@ -575,7 +635,7 @@ function getThemeMatches(story: NormalizedStory): ThemeMatch[] {
   const text = `${story.title} ${story.summary ?? ""}`;
   const matches: ThemeMatch[] = [];
 
-  for (const rule of THEME_RULES) {
+  for (const rule of themeRulesForStory(story)) {
     const keywordHits = rule.keywords.filter((keyword) =>
       hasKeywordMatch(text, keyword)
     ).length;

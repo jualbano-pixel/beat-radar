@@ -56,6 +56,100 @@ const AI_ANCHOR_TERMS = [
     "inference",
     "training"
 ];
+const MOTORING_LAUNCH_TERMS = [
+    "launch",
+    "launched",
+    "launches",
+    "unveil",
+    "unveils",
+    "introduce",
+    "introduces",
+    "arrives",
+    "now available",
+    "debuts",
+    "new model"
+];
+const MOTORING_CONTEXT_TERMS = [
+    "philippines",
+    "philippine",
+    "manila",
+    "srp",
+    "price",
+    "prices",
+    "pricing",
+    "financing",
+    "loan",
+    "monthly",
+    "downpayment",
+    "affordability",
+    "affordable",
+    "demand",
+    "segment",
+    "market",
+    "buyers",
+    "sales",
+    "ownership cost",
+    "operating cost",
+    "fuel",
+    "maintenance",
+    "insurance",
+    "registration",
+    "lto",
+    "dotr",
+    "charging",
+    "infrastructure",
+    "hybrid",
+    "ev",
+    "evs",
+    "electrified",
+    "supply",
+    "inventory",
+    "backlog",
+    "availability",
+    "regulation",
+    "enforcement"
+];
+const MOTORING_DOMAIN_TERMS = [
+    "car",
+    "cars",
+    "vehicle",
+    "vehicles",
+    "automotive",
+    "auto",
+    "motor",
+    "motoring",
+    "suv",
+    "pickup",
+    "mpv",
+    "sedan",
+    "crossover",
+    "motorcycle",
+    "fuel",
+    "diesel",
+    "gasoline",
+    "pump price",
+    "oil price",
+    "toll",
+    "road",
+    "roads",
+    "traffic",
+    "congestion",
+    "transport",
+    "mobility",
+    "lto",
+    "dotr",
+    "mmda",
+    "ltfrb",
+    "ev",
+    "evs",
+    "electrified",
+    "hybrid",
+    "charging",
+    "carmaker",
+    "carmakers",
+    "dealer",
+    "dealership"
+];
 function normalizeText(value) {
     let normalized = value.normalize("NFKD").toLowerCase();
     normalized = normalized.replace(/[\u0300-\u036f]/g, "");
@@ -106,6 +200,49 @@ function hasResearchSignalInStory(story) {
 function hasAiAnchor(text) {
     return matchesAny(text, AI_ANCHOR_TERMS);
 }
+function isMotoringBeat(story) {
+    return story.beat === "philippine_motoring";
+}
+function hasMotoringLaunchSignal(text) {
+    return matchesAny(text, MOTORING_LAUNCH_TERMS);
+}
+function hasMotoringEditorialContext(text) {
+    const normalized = normalizeText(text);
+    return (matchesAny(text, MOTORING_CONTEXT_TERMS) ||
+        matchesAny(text, ["priced", "starts at", "starting price"]) ||
+        /\bp\s?\d/.test(normalized));
+}
+function hasMotoringDomainSignal(text) {
+    const normalized = normalizeText(text);
+    return (matchesAny(text, MOTORING_DOMAIN_TERMS) ||
+        matchesAny(text, ["srp", "priced", "starts at", "starting price"]) ||
+        /\bp\s?\d/.test(normalized));
+}
+function isMotoringSpecialistSource(source) {
+    return ["TopGear Philippines", "CarGuide PH"].includes(source);
+}
+function hasBroadSourceMotoringSignal(story) {
+    return (isMotoringSpecialistSource(story.source) ||
+        matchesAny(story.title, MOTORING_DOMAIN_TERMS));
+}
+function hasMotoringPhilippineRelevance(text, source) {
+    return (matchesAny(text, ["philippines", "philippine", "manila", "lto", "dotr", "mmda", "ltfrb", "peso", "php"]) ||
+        [
+            "TopGear Philippines",
+            "CarGuide PH",
+            "BusinessWorld",
+            "Inquirer Business",
+            "Philstar Business"
+        ].includes(source));
+}
+function passesMotoringLaunchGate(story) {
+    const combinedText = `${story.title} ${story.summary ?? ""}`;
+    if (!hasMotoringLaunchSignal(combinedText)) {
+        return true;
+    }
+    return (hasMotoringPhilippineRelevance(combinedText, story.source) &&
+        hasMotoringEditorialContext(combinedText));
+}
 function matchesKeepSignalCategory(text, keywords) {
     return countMatches(text, keywords) > 0;
 }
@@ -116,6 +253,37 @@ function getKeepSignalCategories(story) {
     const combinedText = `${title} ${summary}`.trim();
     const categories = [];
     const keepSignals = config.keep_signal_keywords;
+    if (isMotoringBeat(story)) {
+        if (!hasBroadSourceMotoringSignal(story)) {
+            return categories;
+        }
+        const isProductSignal = matchesKeepSignalCategory(combinedText, keepSignals.model_release) &&
+            hasMotoringDomainSignal(combinedText) &&
+            passesMotoringLaunchGate(story);
+        if (isProductSignal) {
+            categories.push("product_signal");
+        }
+        const isInfrastructureGap = matchesKeepSignalCategory(combinedText, keepSignals.ai_infrastructure) &&
+            hasMotoringDomainSignal(combinedText) &&
+            hasMotoringPhilippineRelevance(combinedText, story.source);
+        if (isInfrastructureGap) {
+            categories.push("infrastructure_gap");
+        }
+        const isPolicyRegulation = matchesKeepSignalCategory(combinedText, keepSignals.policy_regulation) &&
+            hasMotoringDomainSignal(combinedText) &&
+            hasMotoringPhilippineRelevance(combinedText, story.source);
+        if (isPolicyRegulation) {
+            categories.push("policy_regulation");
+        }
+        const isCostDemandSignal = (matchesAny(combinedText, config.core_ai_keywords) ||
+            matchesAny(combinedText, config.adjacent_tech_keywords)) &&
+            hasMotoringDomainSignal(combinedText) &&
+            hasMotoringPhilippineRelevance(combinedText, story.source);
+        if (isCostDemandSignal) {
+            categories.push("cost_or_demand_signal");
+        }
+        return categories;
+    }
     const isModelRelease = matchesKeepSignalCategory(combinedText, keepSignals.model_release) &&
         (matchesAny(combinedText, config.core_ai_keywords) ||
             matchesAny(combinedText, ["gpt", "model", "models", "system card", "codex"]));
@@ -176,6 +344,20 @@ function scoreStory(story) {
         countMatches(summary, config.ai_infra_keywords);
     const adjacentScore = countMatches(title, config.adjacent_tech_keywords) * 2 +
         countMatches(summary, config.adjacent_tech_keywords);
+    if (isMotoringBeat(story)) {
+        if (!hasMotoringDomainSignal(`${title} ${summary}`)) {
+            return 0;
+        }
+        if (!hasBroadSourceMotoringSignal(story)) {
+            return 0;
+        }
+        const localBoost = hasMotoringPhilippineRelevance(`${title} ${summary}`, story.source) ? 3 : 0;
+        const launchPenalty = hasMotoringLaunchSignal(`${title} ${summary}`) &&
+            !passesMotoringLaunchGate(story)
+            ? -8
+            : 0;
+        return coreScore + infraScore + adjacentScore + localBoost + launchPenalty;
+    }
     const aiAnchorScore = coreScore + infraScore;
     const appliedScore = aiAnchorScore > 0 || hasAppliedSignal(title) || hasAppliedSignal(summary)
         ? countMatches(title, config.applied_human_keywords) * 2 +
@@ -203,6 +385,20 @@ function hasDirectAiSignal(story) {
         countMatches(combinedText, config.ai_infra_keywords) > 0 ||
         hasResearchSignalInStory(story));
 }
+function hasDirectBeatSignal(story) {
+    if (!isMotoringBeat(story)) {
+        return hasDirectAiSignal(story);
+    }
+    const config = relevance_js_1.relevanceConfigByBeat[story.beat];
+    const combinedText = normalizeText(`${story.title} ${story.summary ?? ""}`);
+    return (hasMotoringPhilippineRelevance(combinedText, story.source) &&
+        hasMotoringDomainSignal(combinedText) &&
+        hasBroadSourceMotoringSignal(story) &&
+        (countMatches(combinedText, config.core_ai_keywords) > 0 ||
+            countMatches(combinedText, config.ai_infra_keywords) > 0 ||
+            countMatches(combinedText, config.adjacent_tech_keywords) > 0 ||
+            countMatches(combinedText, config.applied_human_keywords) > 0));
+}
 function isObviousJunk(story) {
     const config = relevance_js_1.relevanceConfigByBeat[story.beat];
     const title = story.title;
@@ -223,6 +419,16 @@ function isObviousJunk(story) {
         titleLower.includes("outdoor pizza ovens")) {
         return true;
     }
+    if (isMotoringBeat(story)) {
+        const combinedText = `${title} ${summary}`;
+        if (/(\bwallpaper\b)|(\brender\b)|(\bspy shots?\b)|(\bteaser\b)|(\bconcept only\b)|(\bdie[- ]cast\b)|(\bscale model\b)/i.test(combinedText)) {
+            return true;
+        }
+        if (hasMotoringLaunchSignal(combinedText) &&
+            !passesMotoringLaunchGate(story)) {
+            return true;
+        }
+    }
     return false;
 }
 function passesBaselineEditorialRelevance(story) {
@@ -233,7 +439,7 @@ function passesBaselineEditorialRelevance(story) {
     if (keepSignalCategories.length > 0) {
         return true;
     }
-    if (!hasDirectAiSignal(story)) {
+    if (!hasDirectBeatSignal(story)) {
         return false;
     }
     return scoreStory(story) >= 2;
@@ -256,7 +462,7 @@ function evaluateStoryRelevance(story) {
     const config = relevance_js_1.relevanceConfigByBeat[story.beat];
     const keepSignalCategories = getKeepSignalCategories(story);
     if (score >= config.min_score || keepSignalCategories.length > 0) {
-        if (keepSignalCategories.length > 0 || hasDirectAiSignal(story)) {
+        if (keepSignalCategories.length > 0 || hasDirectBeatSignal(story)) {
             return { kept: true };
         }
     }

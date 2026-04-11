@@ -1,6 +1,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
+import { beatConfigs, resolveBeat } from "../config/beats.js";
 import type { AiTechTimeMode } from "../config/time-modes.js";
 import { sources } from "../config/sources.js";
 import { annotateStories } from "../lib/annotate.js";
@@ -29,8 +30,8 @@ import type {
   StoryDrop
 } from "../lib/types.js";
 
-const CURRENT_BEAT: Beat = "ai_tech";
-const CURRENT_BEAT_DISPLAY_NAME = "AI / Tech";
+const CURRENT_BEAT: Beat = resolveBeat(process.env.BEAT);
+const CURRENT_BEAT_CONFIG = beatConfigs[CURRENT_BEAT];
 
 type LatestManifest = Partial<
   Record<
@@ -68,17 +69,20 @@ async function readLatestManifest(manifestFile: string): Promise<LatestManifest>
 
 async function run(): Promise<void> {
   const fetchedAt = new Date().toISOString();
+  const runDate = fetchedAt.slice(0, 10);
   const candidateStoriesBySource = new Map<string, NormalizedStory[]>();
   const results: SourceRunSummary[] = [];
   const allDroppedStories: StoryDrop[] = [];
+  const requestedTimeMode = process.env[CURRENT_BEAT_CONFIG.timeModeEnvVar];
   const timeMode: AiTechTimeMode =
-    process.env.AI_TECH_TIME_MODE === "context" ||
-    process.env.AI_TECH_TIME_MODE === "archive"
+    requestedTimeMode === "context" ||
+    requestedTimeMode === "archive"
       ? "context"
       : "current";
   const keptCountBySource = new Map<string, number>();
+  const beatSources = sources.filter((source) => source.beat === CURRENT_BEAT);
 
-  for (const source of sources) {
+  for (const source of beatSources) {
     try {
       const rawStories = await fetchStoriesForSource(source);
       const normalizationResult = normalizeStoriesForSource(
@@ -151,7 +155,7 @@ async function run(): Promise<void> {
 
   const cappedStories: NormalizedStory[] = [];
 
-  for (const source of sources) {
+  for (const source of beatSources) {
     const uniqueStories = dedupedStoriesBySource.get(source.name) ?? [];
     const capResult = applySourceCap(uniqueStories, source, timeMode);
 
@@ -204,12 +208,30 @@ async function run(): Promise<void> {
     allDroppedStories,
     topStoriesSelection,
     timeMode,
-    fetchedAt
+    fetchedAt,
+    CURRENT_BEAT_CONFIG.displayName
   );
-  const archiveOutputDir = path.join(outputDir, weeklyEditorialPacket.week_of);
+  const archiveOutputDir = path.join(outputDir, runDate);
   const latestDir = path.resolve(process.cwd(), "latest");
   const latestMarkdownOutputFile = path.join(latestDir, `${CURRENT_BEAT}.md`);
   const latestManifestOutputFile = path.join(latestDir, "latest.json");
+  const archiveOutputFile = path.join(archiveOutputDir, "stories.json");
+  const archiveDroppedOutputFile = path.join(
+    archiveOutputDir,
+    "dropped_stories.json"
+  );
+  const archiveTopStoriesOutputFile = path.join(
+    archiveOutputDir,
+    "top_stories.json"
+  );
+  const archiveEventClustersOutputFile = path.join(
+    archiveOutputDir,
+    "event_clusters.json"
+  );
+  const archiveThemeClustersOutputFile = path.join(
+    archiveOutputDir,
+    "theme_clusters.json"
+  );
   const archiveWeeklyPacketOutputFile = path.join(
     archiveOutputDir,
     "weekly_editorial_packet.json"
@@ -222,32 +244,37 @@ async function run(): Promise<void> {
   await mkdir(outputDir, { recursive: true });
   await mkdir(archiveOutputDir, { recursive: true });
   await mkdir(latestDir, { recursive: true });
-  await writeFile(outputFile, JSON.stringify(clusteringResult.stories, null, 2));
+  const storiesJson = JSON.stringify(clusteringResult.stories, null, 2);
+  const droppedStoriesJson = JSON.stringify(
+    allDroppedStories.map((story) => ({
+      title: story.title ?? "",
+      source: story.source,
+      date: story.date ?? "",
+      reason_dropped: story.reason
+    })),
+    null,
+    2
+  );
+  const topStoriesJson = JSON.stringify(topStoriesSelection, null, 2);
+  const eventClustersJson = JSON.stringify(
+    clusteringResult.eventClusters,
+    null,
+    2
+  );
+  const themeClustersJson = JSON.stringify(
+    clusteringResult.themeClusters,
+    null,
+    2
+  );
+
+  await writeFile(outputFile, storiesJson);
   await writeFile(
     droppedOutputFile,
-    JSON.stringify(
-      allDroppedStories.map((story) => ({
-        title: story.title ?? "",
-        source: story.source,
-        date: story.date ?? "",
-        reason_dropped: story.reason
-      })),
-      null,
-      2
-    )
+    droppedStoriesJson
   );
-  await writeFile(
-    topStoriesOutputFile,
-    JSON.stringify(topStoriesSelection, null, 2)
-  );
-  await writeFile(
-    eventClustersOutputFile,
-    JSON.stringify(clusteringResult.eventClusters, null, 2)
-  );
-  await writeFile(
-    themeClustersOutputFile,
-    JSON.stringify(clusteringResult.themeClusters, null, 2)
-  );
+  await writeFile(topStoriesOutputFile, topStoriesJson);
+  await writeFile(eventClustersOutputFile, eventClustersJson);
+  await writeFile(themeClustersOutputFile, themeClustersJson);
   const weeklyPacketJson = JSON.stringify(weeklyEditorialPacket, null, 2);
   const weeklyPacketMarkdown = renderWeeklyEditorialPacketMarkdown(
     weeklyEditorialPacket,
@@ -258,13 +285,18 @@ async function run(): Promise<void> {
 
   await writeFile(weeklyPacketOutputFile, weeklyPacketJson);
   await writeFile(weeklyPacketMarkdownOutputFile, weeklyPacketMarkdown);
+  await writeFile(archiveOutputFile, storiesJson);
+  await writeFile(archiveDroppedOutputFile, droppedStoriesJson);
+  await writeFile(archiveTopStoriesOutputFile, topStoriesJson);
+  await writeFile(archiveEventClustersOutputFile, eventClustersJson);
+  await writeFile(archiveThemeClustersOutputFile, themeClustersJson);
   await writeFile(archiveWeeklyPacketOutputFile, weeklyPacketJson);
   await writeFile(archiveWeeklyPacketMarkdownOutputFile, weeklyPacketMarkdown);
   await writeFile(latestMarkdownOutputFile, weeklyPacketMarkdown);
 
   const latestManifest = await readLatestManifest(latestManifestOutputFile);
   latestManifest[CURRENT_BEAT] = {
-    beat_name: CURRENT_BEAT_DISPLAY_NAME,
+    beat_name: CURRENT_BEAT_CONFIG.displayName,
     latest_packet: relativePathForManifest(latestMarkdownOutputFile),
     archived_packet: relativePathForManifest(archiveWeeklyPacketMarkdownOutputFile),
     updated_at: fetchedAt

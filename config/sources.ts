@@ -51,5 +51,37 @@ export const sources: SourceDefinition[] = [
     url: "https://feeds.feedburner.com/nvidiablog",
     maxItems: 20,
     daysBack: 45
+  },
+  {
+    name: "TopGear Philippines",
+    beat: "philippine_motoring",
+    type: "rss",
+    url: "https://www.topgear.com.ph/feed/rss1",
+    maxItems: 25,
+    daysBack: 45
+  },
+  {
+    name: "CarGuide PH",
+    beat: "philippine_motoring",
+    type: "rss",
+    url: "https://feeds.feedburner.com/Carguideph",
+    maxItems: 25,
+    daysBack: 45
+  },
+  {
+    name: "Inquirer Business",
+    beat: "philippine_motoring",
+    type: "rss",
+    url: "https://business.inquirer.net/feed",
+    maxItems: 30,
+    daysBack: 30
+  },
+  {
+    name: "Philstar Business",
+    beat: "philippine_motoring",
+    type: "rss",
+    url: "https://www.philstar.com/rss/business",
+    maxItems: 25,
+    daysBack: 30
   }
 ];

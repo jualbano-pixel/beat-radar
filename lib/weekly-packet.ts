@@ -46,6 +46,7 @@ type PacketThemeCluster = {
 type WeeklyEditorialPacket = {
   week_of: string;
   time_mode: AiTechTimeMode;
+  beat_name: string;
   top_stories: TopStory[];
   secondary_signals: SecondarySignal[];
   context_watch: ContextWatchItem[];
@@ -804,6 +805,60 @@ function deriveEditorialLabel(
     `${fallbackLabel} ${stories.map((story) => `${story.title} ${story.summary ?? ""}`).join(" ")}`
   );
 
+  if (stories.some((story) => story.beat === "philippine_motoring")) {
+    if (
+      text.includes("price") ||
+      text.includes("pricing") ||
+      text.includes("srp") ||
+      text.includes("fuel") ||
+      angles.some((angle) => angle.includes("pricing") || angle.includes("cost"))
+    ) {
+      return "pricing pressure";
+    }
+
+    if (
+      text.includes("ev") ||
+      text.includes("hybrid") ||
+      text.includes("charging") ||
+      text.includes("electrified") ||
+      angles.some((angle) => angle.includes("EV transition"))
+    ) {
+      return "EV transition gap";
+    }
+
+    if (
+      text.includes("lto") ||
+      text.includes("dotr") ||
+      text.includes("regulation") ||
+      text.includes("enforcement") ||
+      reasonCodes.includes("policy_regulatory_move")
+    ) {
+      return "regulation and enforcement";
+    }
+
+    if (
+      text.includes("road") ||
+      text.includes("toll") ||
+      text.includes("traffic") ||
+      text.includes("infrastructure")
+    ) {
+      return "infrastructure constraint";
+    }
+
+    if (text.includes("supply") || text.includes("inventory") || text.includes("availability")) {
+      return "supply and availability";
+    }
+
+    if (
+      text.includes("segment") ||
+      text.includes("demand") ||
+      text.includes("buyers") ||
+      text.includes("market")
+    ) {
+      return "consumer demand shift";
+    }
+  }
+
   if (
     text.includes("acquire") ||
     text.includes("acquisition") ||
@@ -951,6 +1006,34 @@ function fallbackEditorialLabel(story: NormalizedStory): string {
   const text = normalizeText(
     `${story.title} ${story.summary ?? ""} ${story.tags.join(" ")} ${story.angle_signals?.join(" ") ?? ""}`
   );
+
+  if (story.beat === "philippine_motoring") {
+    if (text.includes("price") || text.includes("pricing") || text.includes("srp") || text.includes("fuel")) {
+      return "pricing pressure";
+    }
+
+    if (text.includes("ev") || text.includes("hybrid") || text.includes("charging") || text.includes("battery")) {
+      return "EV transition gap";
+    }
+
+    if (text.includes("lto") || text.includes("dotr") || text.includes("regulation") || text.includes("enforcement")) {
+      return "regulation and enforcement";
+    }
+
+    if (text.includes("road") || text.includes("toll") || text.includes("traffic") || text.includes("infrastructure")) {
+      return "infrastructure constraint";
+    }
+
+    if (text.includes("supply") || text.includes("inventory") || text.includes("availability")) {
+      return "supply and availability";
+    }
+
+    if (text.includes("segment") || text.includes("demand") || text.includes("buyers") || text.includes("market")) {
+      return "consumer demand shift";
+    }
+
+    return "motoring market signal";
+  }
 
   if (text.includes("media") || text.includes("journalism") || text.includes("politics")) {
     return "media and platform politics";
@@ -1559,7 +1642,7 @@ export function renderWeeklyEditorialPacketMarkdown(
     watchlist
   );
 
-  lines.push("# Weekly Editorial Packet — AI / Tech");
+  lines.push(`# Weekly Editorial Packet — ${packet.beat_name}`);
   lines.push("");
   lines.push(`Week of ${packet.week_of}`);
   lines.push("");
@@ -1586,7 +1669,8 @@ export function buildWeeklyEditorialPacket(
     secondary_signals: Array<PrioritizedStory & { note: string }>;
   },
   timeMode: AiTechTimeMode,
-  fetchedAt: string
+  fetchedAt: string,
+  beatName = "AI / Tech"
 ): WeeklyEditorialPacket {
   const storyMap = buildStoryMap(stories);
   const enrichedTopStories = topStoriesSelection.top_stories.map((story) =>
@@ -1623,6 +1707,7 @@ export function buildWeeklyEditorialPacket(
   return {
     week_of: getWeekOf(stories, fetchedAt),
     time_mode: timeMode,
+    beat_name: beatName,
     top_stories: enrichedTopStories,
     secondary_signals: enrichedSecondarySignals,
     context_watch: contextWatch,

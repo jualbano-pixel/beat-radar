@@ -1,0 +1,315 @@
+{
+  "top_stories": [
+    {
+      "title": "MIAS 2026: GWM PH to diversify its lineup with three new electrified vehicles",
+      "source": "TopGear Philippines",
+      "date": "2026-04-10T05:07:00.000Z",
+      "summary": "The Haval H7, Tank 700, and Ora 5 are on the way",
+      "tags": [
+        "general_philippine_motoring"
+      ],
+      "priority_score": 4.1,
+      "priority_reasons": [
+        "policy_shift"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "MIAS 2026: Jetour PH introduces GAIA brand with the P4.488-M G700",
+      "source": "TopGear Philippines",
+      "date": "2026-04-09T09:36:00.000Z",
+      "summary": "The G700 also boosts Jetour’s plug-in hybrid lineup",
+      "tags": [
+        "ev_transition_gap"
+      ],
+      "priority_score": 3.9,
+      "priority_reasons": [
+        "policy_shift"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "MIAS 2026: The all-new Kia EV5 has been launched with a P2.298-M starting price",
+      "source": "TopGear Philippines",
+      "date": "2026-04-09T01:58:00.000Z",
+      "summary": "This is now Kia’s most affordable electric vehicle in its local lineup",
+      "tags": [
+        "pricing_pressure",
+        "ev_transition_gap",
+        "product_market_signal"
+      ],
+      "priority_score": 3.9,
+      "priority_reasons": [
+        "policy_shift"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "Makina 2026: The Italjet Dragster 459 Twin has been launched with a P797k SRP",
+      "source": "TopGear Philippines",
+      "date": "2026-04-10T12:50:00.000Z",
+      "summary": "It’s now the ‘most affordable’ expressway-legal bike from the Italian brand",
+      "tags": [
+        "pricing_pressure",
+        "motoring_infrastructure",
+        "product_market_signal"
+      ],
+      "priority_score": 1.6,
+      "priority_reasons": [
+        "practical_usability_impact"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Possible diesel rollback now estimated at P8.80-P10.80/liter",
+      "source": "Inquirer Business",
+      "date": "2026-04-11T09:54:42.000Z",
+      "summary": "MANILA, Philippines – The potential diesel price cut next week may go up to as much as P10.80 a liter as the global market looks forward to the peace talks between the United States and Iran. An industry source said Friday that the rollback in diesel may range from P8.80 to P10.80 per liter, a",
+      "tags": [
+        "pricing_pressure",
+        "ev_transition_gap",
+        "product_market_signal"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Bigger diesel price cut if Middle East truce holds",
+      "source": "Inquirer Business",
+      "date": "2026-04-11T05:30:00.000Z",
+      "summary": "MANILA, Philippines — A cut in local diesel prices — about double what was initially expected — will provide a little relief to consumers next week as a ceasefire in the Middle East war continues to hold. After weeks of double-digit increases in diesel prices, an industry source said on Friday that prices could be",
+      "tags": [
+        "pricing_pressure",
+        "product_market_signal"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "DTI in talks with 2 carmakers for Evis perks",
+      "source": "Inquirer Business",
+      "date": "2026-04-11T02:16:00.000Z",
+      "summary": "MANILA, Philippines – At least two car manufacturers are already lining up for the government’s planned incentives program for electric vehicle (EV) production, a top trade official said, as the Department of Trade and Industry (DTI) moves to finalize the scheme. Trade Undersecretary Ceferino Rodolfo said in a messa...",
+      "tags": [
+        "ev_transition_gap",
+        "supply_availability",
+        "product_market_signal"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Makina 2026: Honda PH unveils the NX500 E-Clutch, priced at P419k",
+      "source": "TopGear Philippines",
+      "date": "2026-04-10T10:19:00.000Z",
+      "summary": "New colors of the CB650R have also been revealed",
+      "tags": [
+        "general_philippine_motoring"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    }
+  ],
+  "secondary_signals": [
+    {
+      "title": "Diesel rollback may hit P6.50/liter next week",
+      "source": "Inquirer Business",
+      "date": "2026-04-10T09:49:00.000Z",
+      "summary": "MANILA, Philippines – A bigger diesel rollback of up to P6.50 a liter is seen next week, amid the two-week ceasefire between the United States and Iran. Based on the first four trading days this week, an industry source said that diesel prices could drop by P5.50 to P6.50 a liter. This is higher than",
+      "tags": [
+        "pricing_pressure",
+        "product_market_signal"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Makina 2026: Suzuki unveils all-new V-Strom 160, DR160",
+      "source": "TopGear Philippines",
+      "date": "2026-04-10T07:34:00.000Z",
+      "summary": "Both bikes cost well under P150k",
+      "tags": [
+        "general_philippine_motoring"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Travelers face higher costs as jet fuel prices swing",
+      "source": "Inquirer Business",
+      "date": "2026-04-10T06:59:57.000Z",
+      "summary": "UNITED STATES – A new reality is setting in for travelers worldwide: rising fares and fees, fewer flight options and difficult decisions about whether a trip is worth the cost. The culprit is volatile oil and jet fuel prices, which have spiked sharply since the war in the Middle East began and fighting near the Stra...",
+      "tags": [
+        "pricing_pressure",
+        "ownership_cost"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Next-generation power for every lifestyle: The electrified Radar RD6 is here",
+      "source": "TopGear Philippines",
+      "date": "2026-04-10T06:04:00.000Z",
+      "summary": "Power meets sustainability in the midsize-pickup segment",
+      "tags": [
+        "consumer_demand_shift"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Price Tracker: Oil, fuel monitor for Apr. 10",
+      "source": "Philstar Business",
+      "date": "2026-04-10T01:30:00.000Z",
+      "summary": "Pump prices remained near multiyear highs on Friday, even as the outlook for next week began to improve.",
+      "tags": [
+        "pricing_pressure",
+        "ownership_cost"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Government eyes P60 billion fiscal support for EVs",
+      "source": "Philstar Business",
+      "date": "2026-04-09T16:00:00.000Z",
+      "summary": "The government is looking to provide a more generous fiscal package worth P60 billion for a program aimed at encouraging electric vehicle (EV) production in the Philippines, according to the Department of Trade and Industry.",
+      "tags": [
+        "ev_transition_gap",
+        "supply_availability",
+        "product_market_signal"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "MIAS 2026: Deepal introduces S05, S07, and G318 electrified models",
+      "source": "TopGear Philippines",
+      "date": "2026-04-09T12:16:00.000Z",
+      "summary": "It's the brand's official debut in the Philippines",
+      "tags": [
+        "product_market_signal"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "MIAS 2026: Denza PH brings out B5 and B8 SUVs ahead of Q2 launch",
+      "source": "TopGear Philippines",
+      "date": "2026-04-09T11:33:00.000Z",
+      "summary": "We’ll be seeing these hybrid SUVs on the market soon",
+      "tags": [
+        "ev_transition_gap",
+        "product_market_signal"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "MIAS 2026: MG unveils G50 PHEV priced at P1.398-M",
+      "source": "TopGear Philippines",
+      "date": "2026-04-09T09:16:00.000Z",
+      "summary": "Also launched was the MG 5 Prestige, a feature-packed sedan priced at P888k",
+      "tags": [
+        "product_market_signal"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "MIAS 2026: The BYD Atto 2 finally arrives on PH soil; will be launched later this year",
+      "source": "TopGear Philippines",
+      "date": "2026-04-09T04:46:00.000Z",
+      "summary": "Another new BYD EV is on its way",
+      "tags": [
+        "ev_transition_gap",
+        "product_market_signal"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "BOSS Ironman Motorcycle Challenge gets Cease and Desist Order from LTO",
+      "source": "TopGear Philippines",
+      "date": "2026-04-09T01:33:00.000Z",
+      "summary": "The controversial riding event is no more",
+      "tags": [
+        "regulation_enforcement"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "2026 World Car Awards: EVs take the top honors",
+      "source": "TopGear Philippines",
+      "date": "2026-04-08T11:34:00.000Z",
+      "summary": "For the first time ever, the winners’ column does not have any ICE-equipped cars",
+      "tags": [
+        "general_philippine_motoring"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "EV taxis shine on GrabTaxi Electric amid skyrocketing fuel prices",
+      "source": "TopGear Philippines",
+      "date": "2026-04-08T07:33:00.000Z",
+      "summary": "These electrified fleets were already cheaper to operate before fuel prices spiked",
+      "tags": [
+        "pricing_pressure",
+        "ownership_cost",
+        "ev_transition_gap"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "MIAS 2026: GAC launches new GS8 HEV with a P2.338-M introductory price",
+      "source": "TopGear Philippines",
+      "date": "2026-04-09T08:18:00.000Z",
+      "summary": "The brand has also previewed the E8 HEV, an all-new hybrid MPV",
+      "tags": [
+        "pricing_pressure",
+        "ev_transition_gap",
+        "consumer_demand_shift"
+      ],
+      "priority_score": -0.6,
+      "priority_reasons": [
+        "minor_or_routine"
+      ],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "MIAS 2026: The Sealion 7 is BYD’s next big EV, and it’s been previewed in PH",
+      "source": "TopGear Philippines",
+      "date": "2026-04-09T04:11:00.000Z",
+      "summary": "It’ll launch in May, and reservations are now open",
+      "tags": [
+        "ev_transition_gap",
+        "product_market_signal"
+      ],
+      "priority_score": -0.6,
+      "priority_reasons": [
+        "minor_or_routine"
+      ],
+      "note": "Useful supporting editorial signal."
+    }
+  ]
+}

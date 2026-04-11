@@ -1,0 +1,554 @@
+[
+  {
+    "title": "We take a deep dive into the Ferrari Luce’s tech-loaded interior",
+    "source": "TopGear Philippines",
+    "date": "2026-04-11T01:04:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "620km of range, five-minute top-ups: What we know so far about the BMW iX5 Hydrogen",
+    "source": "TopGear Philippines",
+    "date": "2026-04-11T00:51:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "MIAS 2026: Toyota-endorsed aftermarket brand, T-OPT, officially launches in PH",
+    "source": "TopGear Philippines",
+    "date": "2026-04-10T11:21:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "MIAS 2026: China bestseller Geely EX2 previewed ahead of potential launch",
+    "source": "TopGear Philippines",
+    "date": "2026-04-10T11:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Here are the preliminary specs of the BYD Sealion 7 arriving next month",
+    "source": "TopGear Philippines",
+    "date": "2026-04-10T09:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Makina 2026: Honda previews the fully electric WN7 in PH",
+    "source": "TopGear Philippines",
+    "date": "2026-04-10T08:51:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "MIAS 2026: Rox PH launches new Adamas all-terrain luxury SUV",
+    "source": "TopGear Philippines",
+    "date": "2026-04-09T12:32:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "MIAS 2026: Changan CS55 Plus facelift previews futuristic new look",
+    "source": "TopGear Philippines",
+    "date": "2026-04-09T11:05:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Ford PH adds new RWD Mustang Mach-E variant that starts at P2.599-M",
+    "source": "TopGear Philippines",
+    "date": "2026-04-08T11:06:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Victory Liner is offering shuttle services to companies in need of transport for employees",
+    "source": "TopGear Philippines",
+    "date": "2026-04-08T06:28:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Lewis Hamilton pulling up to Daikoku PA in a Ferrari F40 goes so damn hard",
+    "source": "TopGear Philippines",
+    "date": "2026-04-08T05:50:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "The Denza B5 and B8 will be joining the D9 at MIAS 2026",
+    "source": "TopGear Philippines",
+    "date": "2026-04-08T04:37:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "The all-new Suzuki Burgman Street packs more tech and looks more stylish than ever",
+    "source": "TopGear Philippines",
+    "date": "2026-04-08T04:06:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "The SM Megamall EDSA Busway Station is now open for commuters",
+    "source": "TopGear Philippines",
+    "date": "2026-04-08T03:45:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Merrell Launches Limited-Edition Hiking Boot Inspired By Jeep 4x4s",
+    "source": "CarGuide PH",
+    "date": "2023-09-25T01:46:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "GWM Haval Jolion: Carving Out A New Space For Innovative Driving",
+    "source": "CarGuide PH",
+    "date": "2023-09-25T01:19:00.001Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "MINI BGC Celebrates Art With Cloud Grey Gallery Collab",
+    "source": "CarGuide PH",
+    "date": "2023-09-25T00:34:00.001Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Dual Clutch-Equipped Fuso FE71 Finds Its First Philippine Owner",
+    "source": "CarGuide PH",
+    "date": "2023-09-22T01:54:00.003Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Ford Island Conquest Goes Nationwide This September And October",
+    "source": "CarGuide PH",
+    "date": "2023-09-22T01:45:00.005Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Chery Tiggo 7 Pro, Tiggo 8 Pro Ranked As China's Most \"APEAL-ing\" SUVs",
+    "source": "CarGuide PH",
+    "date": "2023-09-22T01:34:00.001Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "First Drive: 2024 Nissan Z And Nissan GT-R",
+    "source": "CarGuide PH",
+    "date": "2023-09-22T01:17:00.015Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "2024 Volkswagen Tharu Priced Starting At P 1.8M",
+    "source": "CarGuide PH",
+    "date": "2023-09-20T07:40:00.001Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "The Yoke's No Joke For Lexus: Steer-By-Wire, Direct4 To Form Core Of Future Lexus Driving Signature",
+    "source": "CarGuide PH",
+    "date": "2023-09-20T03:24:00.004Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Honda's New Concept Car Is Recycled And Reused",
+    "source": "CarGuide PH",
+    "date": "2023-09-26T06:03:00.004Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Look: Chery EVs On The Way To The Philippines",
+    "source": "CarGuide PH",
+    "date": "2023-09-25T23:39:00.004Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Jetour Auto PH Is Official Mobility Partner Of MPT's Biyaheng South",
+    "source": "CarGuide PH",
+    "date": "2023-09-25T23:24:00.002Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Preston's Car-Specific Coolant Now Comes In 1-Liter Packaging",
+    "source": "CarGuide PH",
+    "date": "2023-09-25T00:54:00.006Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "All-New Honda Beat Rides In With P 71,400 Starting Price",
+    "source": "CarGuide PH",
+    "date": "2023-09-24T23:59:00.005Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Check Out The Limited-Edition 2024 Mazda BT-50 Edition X",
+    "source": "CarGuide PH",
+    "date": "2023-09-24T01:51:00.003Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Win A Set Of Black Rhino Wheels At 4x4 Expo",
+    "source": "CarGuide PH",
+    "date": "2023-09-23T00:29:00.004Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Yes, The Mazda CX-90 (And CX-60) Can Run On Electric Power Alone",
+    "source": "CarGuide PH",
+    "date": "2023-09-22T07:14:00.006Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "2024 Mazda CX-90 Arrives With P 3.680M Price Tag (w/ Specs)",
+    "source": "CarGuide PH",
+    "date": "2023-09-22T04:00:00.001Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Geely Albay Opens Dealership Service Area",
+    "source": "CarGuide PH",
+    "date": "2023-09-22T01:22:00.005Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Be One Of The First To Test Drive The 2024 Honda CR-V From September 21-24",
+    "source": "CarGuide PH",
+    "date": "2023-09-21T11:46:00.001Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "New Car Sales Jumped 21.6 Percent In August; Most Chinese Car Brands Slump",
+    "source": "CarGuide PH",
+    "date": "2023-09-21T08:42:00.004Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Isuzu Opens In Dasmarinas, Cavite",
+    "source": "CarGuide PH",
+    "date": "2023-09-21T07:34:00.004Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Exceed The Expectation: Explore Changan Auto At BGC",
+    "source": "CarGuide PH",
+    "date": "2023-09-20T23:28:00.003Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Mercedes-Benz PH Launches 2024 EQA, EQB, EQE (w/ Brochure)",
+    "source": "CarGuide PH",
+    "date": "2023-09-20T14:00:00.001Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Hyundai Group Shows 'Art Cars' In New York City For Busan 2030 World Expo Bid",
+    "source": "CarGuide PH",
+    "date": "2023-09-20T03:39:00.006Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Rising temperatures call for smarter building practices",
+    "source": "Inquirer Business",
+    "date": "2026-04-11T10:40:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Beat the heat: Simple ways to cool your home",
+    "source": "Inquirer Business",
+    "date": "2026-04-11T10:30:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Peza approvals fell 22% in Q1 on ‘calibrated’ investment pace",
+    "source": "Inquirer Business",
+    "date": "2026-04-11T10:26:15.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "When campuses shape cities",
+    "source": "Inquirer Business",
+    "date": "2026-04-11T10:02:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Riding on Cebu’s property boom",
+    "source": "Inquirer Business",
+    "date": "2026-04-11T09:44:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "The cycle that builds wealth",
+    "source": "Inquirer Business",
+    "date": "2026-04-11T09:26:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "PAL launches Palau flights, restores Saipan service",
+    "source": "Inquirer Business",
+    "date": "2026-04-11T08:10:41.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Six crises, six years: How resilient is Philippine real estate?",
+    "source": "Inquirer Business",
+    "date": "2026-04-11T08:02:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "US stocks up, oil down over week on guarded optimism for Iran",
+    "source": "Inquirer Business",
+    "date": "2026-04-11T07:49:33.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "US inflation surges to 3.3% as Iran war impact bites",
+    "source": "Inquirer Business",
+    "date": "2026-04-11T07:03:36.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "ADB cuts 2026 PH GDP growth forecast to 4.4%",
+    "source": "Inquirer Business",
+    "date": "2026-04-11T02:28:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "FDIs fell to 4-month low in Jan on geopolitical risks",
+    "source": "Inquirer Business",
+    "date": "2026-04-11T02:26:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Philippine manufacturers call for ‘ayuda’ amid war-linked crisis",
+    "source": "Inquirer Business",
+    "date": "2026-04-11T02:22:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "LRMC set to take over Common Station project",
+    "source": "Inquirer Business",
+    "date": "2026-04-11T02:20:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "S&P’s lower Philippine outlook not a surprise–Nomura",
+    "source": "Inquirer Business",
+    "date": "2026-04-11T02:18:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "SEC warns vs unregistered schemes, crypto platforms",
+    "source": "Inquirer Business",
+    "date": "2026-04-11T02:14:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "RFM keeps dividends flowing",
+    "source": "Inquirer Business",
+    "date": "2026-04-11T02:12:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Congress must address our water crisis",
+    "source": "Inquirer Business",
+    "date": "2026-04-11T02:10:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "BSP stays cautious, sees policy tightening only if inflation broadens",
+    "source": "Inquirer Business",
+    "date": "2026-04-10T15:55:43.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Meralco hikes April rates by 53 centavos/kWh",
+    "source": "Inquirer Business",
+    "date": "2026-04-10T10:50:41.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "ADB cuts 2026 Philippine growth forecast to 4.4% on war risks",
+    "source": "Inquirer Business",
+    "date": "2026-04-10T09:25:34.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "US stocks extend gains, shrugging off ceasefire worries",
+    "source": "Inquirer Business",
+    "date": "2026-04-10T06:47:02.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "BSP readies revisions to rules on salary loan terms",
+    "source": "Inquirer Business",
+    "date": "2026-04-10T05:52:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "S&P downgrades Philippine outlook to ‘stable’",
+    "source": "Inquirer Business",
+    "date": "2026-04-10T02:30:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "SEC pushes overhaul of online lending rules",
+    "source": "Inquirer Business",
+    "date": "2026-04-10T02:26:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Philippine banks’ bad loans swelled to 6-month high in February",
+    "source": "Inquirer Business",
+    "date": "2026-04-10T02:24:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Meralco Q1 energy sales soften on cooler weather, economic woes",
+    "source": "Inquirer Business",
+    "date": "2026-04-10T02:22:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "SEC allows creation of ‘umbrella funds’ to deepen local capital market",
+    "source": "Inquirer Business",
+    "date": "2026-04-10T02:20:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Metro Pacific’s mWell attracts strong investor interest",
+    "source": "Inquirer Business",
+    "date": "2026-04-10T02:18:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Philippine meat imports up nearly 50% in February",
+    "source": "Inquirer Business",
+    "date": "2026-04-10T02:16:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Sports economy: Women athletes lure smart money",
+    "source": "Inquirer Business",
+    "date": "2026-04-10T02:14:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Unlocking the Market Mentor Dividend",
+    "source": "Inquirer Business",
+    "date": "2026-04-10T02:12:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "‘Sari-sari’ stores growing faster in provincial areas — especially Bangsamoro, Negros Island",
+    "source": "Inquirer Business",
+    "date": "2026-04-10T02:10:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Oil prices jump back toward $100 per barrel on Middle East ceasefire doubts",
+    "source": "Inquirer Business",
+    "date": "2026-04-09T22:33:47.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "ACEN sees 2026 a better year despite Middle East war",
+    "source": "Inquirer Business",
+    "date": "2026-04-09T19:30:50.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Putting people’s money to good use",
+    "source": "Philstar Business",
+    "date": "2026-04-10T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "The script of life",
+    "source": "Philstar Business",
+    "date": "2026-04-10T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "RFM hopes to beat 2025 results despite uncertainty",
+    "source": "Philstar Business",
+    "date": "2026-04-10T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Alternergy gauges market readiness for P5 billion share sale",
+    "source": "Philstar Business",
+    "date": "2026-04-10T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "BSP to wait for clearer signals before acting",
+    "source": "Philstar Business",
+    "date": "2026-04-10T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "PSE chief confident of market recovery from Mideast woes",
+    "source": "Philstar Business",
+    "date": "2026-04-10T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "ADB trims 2026 Philippines growth outlook to 4.4 percent",
+    "source": "Philstar Business",
+    "date": "2026-04-10T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "PSEi extends gains on Wall Street cues",
+    "source": "Philstar Business",
+    "date": "2026-04-10T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "FDI inflows drop to four-month low",
+    "source": "Philstar Business",
+    "date": "2026-04-10T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Romero first recipient of Philippine Army aviation insignia",
+    "source": "Philstar Business",
+    "date": "2026-04-10T08:19:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "165 million liters of oil already secured, more coming — DOE",
+    "source": "Philstar Business",
+    "date": "2026-04-10T07:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Puregold allots P8.8 billion for 2026 expansion",
+    "source": "Philstar Business",
+    "date": "2026-04-09T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Meralco power sales ease in early 2026",
+    "source": "Philstar Business",
+    "date": "2026-04-09T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Electronics exports on track to hit $110 billion by 2030",
+    "source": "Philstar Business",
+    "date": "2026-04-09T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "International franchise conference puts spotlight on ASEAN",
+    "source": "Philstar Business",
+    "date": "2026-04-09T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Up to P25.6 billion seen to be saved from cut in non-essential expenses",
+    "source": "Philstar Business",
+    "date": "2026-04-09T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "DTI launches P4 billion MSME fund amid ME conflict",
+    "source": "Philstar Business",
+    "date": "2026-04-09T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Lasting economic costs of war",
+    "source": "Philstar Business",
+    "date": "2026-04-09T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  }
+]

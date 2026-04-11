@@ -1,4 +1,4 @@
-export type Beat = "ai_tech";
+export type Beat = "ai_tech" | "philippine_motoring";
 
 export type SourceType = "rss" | "html";
 
@@ -20,7 +20,8 @@ export type ReasonCode =
   | "market_signal"
   | "execution_consequence"
   | "industry_repositioning"
-  | "watchlist_signal";
+  | "watchlist_signal"
+  | "product_signal";
 
 export type PriorityBreakdown = {
   immediacy: number;

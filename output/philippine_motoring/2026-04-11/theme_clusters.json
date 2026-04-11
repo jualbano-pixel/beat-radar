@@ -1,0 +1,66 @@
+[
+  {
+    "theme_id": "ev_transition_gap",
+    "theme_label": "EV transition gap",
+    "story_count": 11,
+    "cluster_ids": [],
+    "story_ids": [
+      "217c1a8f93a1",
+      "9c03c5aab290",
+      "69cbc73ac690",
+      "fd01fcb3fef9",
+      "d0d8d36fc3d5",
+      "7430f960db7d",
+      "9cd67d34e8d0",
+      "cf8f44ad064d",
+      "d7b1f544dbda",
+      "37cecedcdad2",
+      "35128ae5c274"
+    ],
+    "dominant_reason_codes": [
+      "product_signal",
+      "local_business_relevance",
+      "developing_pattern"
+    ],
+    "dominant_angle_signals": [
+      "EV transition gap visible",
+      "product launch reveals market bet",
+      "pricing pressure building"
+    ],
+    "top_story_refs": [
+      "217c1a8f93a1",
+      "37cecedcdad2",
+      "7430f960db7d"
+    ]
+  },
+  {
+    "theme_id": "pricing_pressure",
+    "theme_label": "pricing pressure",
+    "story_count": 7,
+    "cluster_ids": [],
+    "story_ids": [
+      "19cef9ad000b",
+      "ff90c76d6b96",
+      "deebb383323d",
+      "6542be23466d",
+      "e6f231a6592a",
+      "981376120b85",
+      "ef143857f9a1"
+    ],
+    "dominant_reason_codes": [
+      "market_signal",
+      "local_business_relevance",
+      "product_signal"
+    ],
+    "dominant_angle_signals": [
+      "pricing pressure building",
+      "product launch reveals market bet",
+      "EV transition gap visible"
+    ],
+    "top_story_refs": [
+      "19cef9ad000b",
+      "6542be23466d",
+      "e6f231a6592a"
+    ]
+  }
+]

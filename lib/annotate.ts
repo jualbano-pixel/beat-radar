@@ -1,6 +1,7 @@
 import type { AiTechTimeMode, NormalizedStory } from "./types.js";
 
-const TAG_GROUPS: Array<{ tag: string; keywords: string[] }> = [
+const TAG_GROUPS_BY_BEAT: Record<string, Array<{ tag: string; keywords: string[] }>> = {
+  ai_tech: [
   {
     tag: "ai_models",
     keywords: [
@@ -57,7 +58,42 @@ const TAG_GROUPS: Array<{ tag: string; keywords: string[] }> = [
       "developers"
     ]
   }
-];
+  ],
+  philippine_motoring: [
+    {
+      tag: "pricing_pressure",
+      keywords: ["srp", "price", "prices", "pricing", "financing", "loan", "monthly", "affordable", "affordability"]
+    },
+    {
+      tag: "ownership_cost",
+      keywords: ["fuel", "maintenance", "insurance", "registration", "operating cost", "ownership cost", "total cost"]
+    },
+    {
+      tag: "ev_transition_gap",
+      keywords: ["ev", "electric vehicle", "hybrid", "charging", "charger", "battery", "range"]
+    },
+    {
+      tag: "motoring_infrastructure",
+      keywords: ["road", "roads", "toll", "expressway", "traffic", "congestion", "charging station", "infrastructure"]
+    },
+    {
+      tag: "regulation_enforcement",
+      keywords: ["lto", "dotr", "mmda", "ltfrb", "policy", "regulation", "enforcement", "registration", "license"]
+    },
+    {
+      tag: "supply_availability",
+      keywords: ["supply", "inventory", "availability", "backlog", "production", "import", "deliveries"]
+    },
+    {
+      tag: "consumer_demand_shift",
+      keywords: ["demand", "sales", "segment", "suv", "pickup", "mpv", "buyers", "market share"]
+    },
+    {
+      tag: "product_market_signal",
+      keywords: ["launch", "launched", "arrives", "now available", "philippines", "srp", "variant", "variants"]
+    }
+  ]
+};
 
 function normalizeText(value: string): string {
   return value
@@ -75,16 +111,23 @@ function hasKeyword(text: string, keyword: string): boolean {
   const haystack = normalizeText(text);
   const needle = normalizeText(keyword);
 
-  return haystack.includes(needle);
+  if (!haystack || !needle) {
+    return false;
+  }
+
+  return new RegExp(`(^|\\s)${needle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?=\\s|$)`).test(
+    haystack
+  );
 }
 
 function buildTags(story: NormalizedStory): string[] {
   const text = `${story.title} ${story.summary ?? ""}`;
-  const tags = TAG_GROUPS.filter((group) =>
+  const groups = TAG_GROUPS_BY_BEAT[story.beat] ?? TAG_GROUPS_BY_BEAT.ai_tech;
+  const tags = groups.filter((group) =>
     group.keywords.some((keyword) => hasKeyword(text, keyword))
   ).map((group) => group.tag);
 
-  return tags.length > 0 ? tags : ["general_ai_tech"];
+  return tags.length > 0 ? tags : [`general_${story.beat}`];
 }
 
 export function annotateStories(

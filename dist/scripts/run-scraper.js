@@ -5,6 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const promises_1 = require("node:fs/promises");
 const node_path_1 = __importDefault(require("node:path"));
+const beats_js_1 = require("../config/beats.js");
 const sources_js_1 = require("../config/sources.js");
 const annotate_js_1 = require("../lib/annotate.js");
 const clustering_js_1 = require("../lib/clustering.js");
@@ -20,8 +21,8 @@ const quality_js_1 = require("../lib/quality.js");
 const ranking_js_1 = require("../lib/ranking.js");
 const relevance_js_1 = require("../lib/relevance.js");
 const weekly_packet_js_1 = require("../lib/weekly-packet.js");
-const CURRENT_BEAT = "ai_tech";
-const CURRENT_BEAT_DISPLAY_NAME = "AI / Tech";
+const CURRENT_BEAT = (0, beats_js_1.resolveBeat)(process.env.BEAT);
+const CURRENT_BEAT_CONFIG = beats_js_1.beatConfigs[CURRENT_BEAT];
 async function fetchStoriesForSource(source) {
     if (source.type === "rss") {
         return (0, rss_js_1.fetchRssStories)(source);
@@ -41,15 +42,18 @@ async function readLatestManifest(manifestFile) {
 }
 async function run() {
     const fetchedAt = new Date().toISOString();
+    const runDate = fetchedAt.slice(0, 10);
     const candidateStoriesBySource = new Map();
     const results = [];
     const allDroppedStories = [];
-    const timeMode = process.env.AI_TECH_TIME_MODE === "context" ||
-        process.env.AI_TECH_TIME_MODE === "archive"
+    const requestedTimeMode = process.env[CURRENT_BEAT_CONFIG.timeModeEnvVar];
+    const timeMode = requestedTimeMode === "context" ||
+        requestedTimeMode === "archive"
         ? "context"
         : "current";
     const keptCountBySource = new Map();
-    for (const source of sources_js_1.sources) {
+    const beatSources = sources_js_1.sources.filter((source) => source.beat === CURRENT_BEAT);
+    for (const source of beatSources) {
         try {
             const rawStories = await fetchStoriesForSource(source);
             const normalizationResult = (0, normalize_js_1.normalizeStoriesForSource)(rawStories, source, fetchedAt);
@@ -101,7 +105,7 @@ async function run() {
         dedupedStoriesBySource.set(story.source, storiesForSource);
     }
     const cappedStories = [];
-    for (const source of sources_js_1.sources) {
+    for (const source of beatSources) {
         const uniqueStories = dedupedStoriesBySource.get(source.name) ?? [];
         const capResult = (0, editorial_js_1.applySourceCap)(uniqueStories, source, timeMode);
         cappedStories.push(...capResult.kept);
@@ -135,36 +139,51 @@ async function run() {
     const weeklyPacketOutputFile = node_path_1.default.join(outputDir, "weekly_editorial_packet.json");
     const weeklyPacketMarkdownOutputFile = node_path_1.default.join(outputDir, "weekly_editorial_packet.md");
     const topStoriesSelection = (0, prioritize_js_1.selectTopStories)(clusteringResult.stories);
-    const weeklyEditorialPacket = (0, weekly_packet_js_1.buildWeeklyEditorialPacket)(clusteringResult.stories, allDroppedStories, topStoriesSelection, timeMode, fetchedAt);
-    const archiveOutputDir = node_path_1.default.join(outputDir, weeklyEditorialPacket.week_of);
+    const weeklyEditorialPacket = (0, weekly_packet_js_1.buildWeeklyEditorialPacket)(clusteringResult.stories, allDroppedStories, topStoriesSelection, timeMode, fetchedAt, CURRENT_BEAT_CONFIG.displayName);
+    const archiveOutputDir = node_path_1.default.join(outputDir, runDate);
     const latestDir = node_path_1.default.resolve(process.cwd(), "latest");
     const latestMarkdownOutputFile = node_path_1.default.join(latestDir, `${CURRENT_BEAT}.md`);
     const latestManifestOutputFile = node_path_1.default.join(latestDir, "latest.json");
+    const archiveOutputFile = node_path_1.default.join(archiveOutputDir, "stories.json");
+    const archiveDroppedOutputFile = node_path_1.default.join(archiveOutputDir, "dropped_stories.json");
+    const archiveTopStoriesOutputFile = node_path_1.default.join(archiveOutputDir, "top_stories.json");
+    const archiveEventClustersOutputFile = node_path_1.default.join(archiveOutputDir, "event_clusters.json");
+    const archiveThemeClustersOutputFile = node_path_1.default.join(archiveOutputDir, "theme_clusters.json");
     const archiveWeeklyPacketOutputFile = node_path_1.default.join(archiveOutputDir, "weekly_editorial_packet.json");
     const archiveWeeklyPacketMarkdownOutputFile = node_path_1.default.join(archiveOutputDir, "weekly_editorial_packet.md");
     await (0, promises_1.mkdir)(outputDir, { recursive: true });
     await (0, promises_1.mkdir)(archiveOutputDir, { recursive: true });
     await (0, promises_1.mkdir)(latestDir, { recursive: true });
-    await (0, promises_1.writeFile)(outputFile, JSON.stringify(clusteringResult.stories, null, 2));
-    await (0, promises_1.writeFile)(droppedOutputFile, JSON.stringify(allDroppedStories.map((story) => ({
+    const storiesJson = JSON.stringify(clusteringResult.stories, null, 2);
+    const droppedStoriesJson = JSON.stringify(allDroppedStories.map((story) => ({
         title: story.title ?? "",
         source: story.source,
         date: story.date ?? "",
         reason_dropped: story.reason
-    })), null, 2));
-    await (0, promises_1.writeFile)(topStoriesOutputFile, JSON.stringify(topStoriesSelection, null, 2));
-    await (0, promises_1.writeFile)(eventClustersOutputFile, JSON.stringify(clusteringResult.eventClusters, null, 2));
-    await (0, promises_1.writeFile)(themeClustersOutputFile, JSON.stringify(clusteringResult.themeClusters, null, 2));
+    })), null, 2);
+    const topStoriesJson = JSON.stringify(topStoriesSelection, null, 2);
+    const eventClustersJson = JSON.stringify(clusteringResult.eventClusters, null, 2);
+    const themeClustersJson = JSON.stringify(clusteringResult.themeClusters, null, 2);
+    await (0, promises_1.writeFile)(outputFile, storiesJson);
+    await (0, promises_1.writeFile)(droppedOutputFile, droppedStoriesJson);
+    await (0, promises_1.writeFile)(topStoriesOutputFile, topStoriesJson);
+    await (0, promises_1.writeFile)(eventClustersOutputFile, eventClustersJson);
+    await (0, promises_1.writeFile)(themeClustersOutputFile, themeClustersJson);
     const weeklyPacketJson = JSON.stringify(weeklyEditorialPacket, null, 2);
     const weeklyPacketMarkdown = (0, weekly_packet_js_1.renderWeeklyEditorialPacketMarkdown)(weeklyEditorialPacket, clusteringResult.stories, clusteringResult.eventClusters, clusteringResult.themeClusters);
     await (0, promises_1.writeFile)(weeklyPacketOutputFile, weeklyPacketJson);
     await (0, promises_1.writeFile)(weeklyPacketMarkdownOutputFile, weeklyPacketMarkdown);
+    await (0, promises_1.writeFile)(archiveOutputFile, storiesJson);
+    await (0, promises_1.writeFile)(archiveDroppedOutputFile, droppedStoriesJson);
+    await (0, promises_1.writeFile)(archiveTopStoriesOutputFile, topStoriesJson);
+    await (0, promises_1.writeFile)(archiveEventClustersOutputFile, eventClustersJson);
+    await (0, promises_1.writeFile)(archiveThemeClustersOutputFile, themeClustersJson);
     await (0, promises_1.writeFile)(archiveWeeklyPacketOutputFile, weeklyPacketJson);
     await (0, promises_1.writeFile)(archiveWeeklyPacketMarkdownOutputFile, weeklyPacketMarkdown);
     await (0, promises_1.writeFile)(latestMarkdownOutputFile, weeklyPacketMarkdown);
     const latestManifest = await readLatestManifest(latestManifestOutputFile);
     latestManifest[CURRENT_BEAT] = {
-        beat_name: CURRENT_BEAT_DISPLAY_NAME,
+        beat_name: CURRENT_BEAT_CONFIG.displayName,
         latest_packet: relativePathForManifest(latestMarkdownOutputFile),
         archived_packet: relativePathForManifest(archiveWeeklyPacketMarkdownOutputFile),
         updated_at: fetchedAt
