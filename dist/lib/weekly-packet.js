@@ -424,7 +424,7 @@ function inferPatternAndTensionForLabel(label, reasonCodes, angles) {
     }
     if (normalizedLabel.includes("motoring market signal")) {
         return {
-            pattern: "The market is sending early signals about what buyers, operators, and regulators may tolerate next.",
+            pattern: "The market is starting to show what buyers can still afford, and what they will not.",
             tension: "Tension: cost vs demand"
         };
     }
@@ -576,7 +576,7 @@ function buildEditorialWhyLineForLabel(label, reasonCodes, angles, reasonKept) {
         return "These stories show where manufacturers think Filipino buyers will compromise, stretch, or walk away.";
     }
     if (normalizedLabel.includes("motoring market signal")) {
-        return "This is an early read on how cost, product strategy, and buyer behavior are moving in the Philippine market.";
+        return "Early signal of where buyer interest, product strategy, and affordability may be moving next.";
     }
     if (normalizedLabel.includes("enterprise adoption")) {
         return "Enterprise rollout is getting pushed into the market before demand, ROI, and operating confidence have fully settled.";
@@ -866,6 +866,84 @@ function supportingReasonCandidates(story) {
     const text = normalizeText(`${story.title} ${story.summary ?? ""} ${story.tags.join(" ")} ${story.angle_signals?.join(" ") ?? ""}`);
     const normalizedPrimary = primary.toLowerCase();
     const candidates = [];
+    if (story.beat === "philippine_motoring") {
+        if (text.includes("lto") ||
+            text.includes("dotr") ||
+            text.includes("enforcement") ||
+            text.includes("registration") ||
+            text.includes("regulation")) {
+            candidates.push("Shows where road rules are starting to meet actual driver behavior.");
+            candidates.push("Makes enforcement part of the motoring cost and discipline story.");
+        }
+        if (text.includes("diesel") ||
+            text.includes("gasoline") ||
+            text.includes("fuel") ||
+            text.includes("oil") ||
+            text.includes("rollback")) {
+            candidates.push("Makes fuel-price pressure part of the buyer and operator story.");
+            candidates.push("Shows how pump-price swings can quickly change household and fleet costs.");
+        }
+        if (text.includes("price") ||
+            text.includes("pricing") ||
+            text.includes("srp") ||
+            text.includes("priced") ||
+            text.includes("starting price")) {
+            candidates.push("Makes the affordability test visible, not just the launch claim.");
+            candidates.push("Shows how brands are using price to keep buyers in the market.");
+        }
+        if (/\bev\b/.test(text) ||
+            /\bevs\b/.test(text) ||
+            text.includes("hybrid") ||
+            text.includes("phev") ||
+            text.includes("electrified")) {
+            candidates.push("Shows how electrified models are being pushed into a still-cost-sensitive market.");
+            candidates.push("Keeps the EV transition tied to price, range, and everyday usability.");
+        }
+        if (text.includes("charging") || text.includes("charger") || text.includes("infrastructure")) {
+            candidates.push("Makes the charging and infrastructure gap harder to avoid.");
+            candidates.push("Shows where EV ambition still depends on practical access.");
+        }
+        if (text.includes("suv") ||
+            text.includes("pickup") ||
+            text.includes("mpv") ||
+            text.includes("motorcycle") ||
+            text.includes("segment")) {
+            candidates.push("Shows which vehicle segments brands think Filipino buyers will still stretch for.");
+            candidates.push("Turns a product story into a read on buyer appetite.");
+        }
+        if (text.includes("dti") ||
+            text.includes("fiscal") ||
+            text.includes("tax") ||
+            text.includes("incentive") ||
+            text.includes("carmaker")) {
+            candidates.push("Connects policy support to what carmakers may actually bring to market.");
+            candidates.push("Shows how government incentives could shape buyer choice and supply.");
+        }
+        if (text.includes("taxi") ||
+            text.includes("fleet") ||
+            text.includes("grab") ||
+            text.includes("operators")) {
+            candidates.push("Shows how operating costs are changing the fleet and mobility equation.");
+            candidates.push("Makes commercial usage a test case for broader adoption.");
+        }
+        if (text.includes("demand") || text.includes("buyers") || text.includes("market")) {
+            candidates.push("Makes buyer demand easier to read through pricing and product choices.");
+            candidates.push("Shows where market behavior is moving beyond launch-day noise.");
+        }
+        if (text.includes("launch") ||
+            text.includes("launched") ||
+            text.includes("unveils") ||
+            text.includes("introduces") ||
+            text.includes("makina")) {
+            candidates.push("Early signal of where product demand may be shifting.");
+            candidates.push("Shows what brands think cost-conscious buyers may still consider.");
+        }
+        if (candidates.length === 0) {
+            candidates.push("Adds a concrete read on buyer behavior in the Philippine motoring market.");
+            candidates.push("Useful signal on what cost-conscious buyers and operators may do next.");
+        }
+        return candidates;
+    }
     const genericPrimary = normalizedPrimary.includes("high-impact policy move with likely downstream business effects") ||
         normalizedPrimary.includes("marks a real change in direction with likely downstream effects") ||
         normalizedPrimary.includes("reveals something concrete about demand, spending, or market confidence");
