@@ -380,6 +380,54 @@ function inferPatternAndTension(reasonCodes, angles) {
 }
 function inferPatternAndTensionForLabel(label, reasonCodes, angles) {
     const normalizedLabel = normalizeText(label);
+    if (normalizedLabel.includes("pricing pressure")) {
+        return {
+            pattern: "Vehicle and fuel costs are pressing harder against household purchasing power.",
+            tension: "Tension: affordability vs aspiration"
+        };
+    }
+    if (normalizedLabel.includes("ownership cost")) {
+        return {
+            pattern: "The real cost of owning and using a vehicle is becoming harder to hide behind sticker prices.",
+            tension: "Tension: cost vs usage"
+        };
+    }
+    if (normalizedLabel.includes("ev transition")) {
+        return {
+            pattern: "EV and hybrid launches are moving faster than the everyday infrastructure around them.",
+            tension: "Tension: adoption vs infrastructure"
+        };
+    }
+    if (normalizedLabel.includes("infrastructure constraint")) {
+        return {
+            pattern: "Mobility demand is running into road, charging, and transport capacity limits.",
+            tension: "Tension: usage vs capacity"
+        };
+    }
+    if (normalizedLabel.includes("regulation and enforcement")) {
+        return {
+            pattern: "Rules are starting to bite where motoring culture and road discipline have been loose.",
+            tension: "Tension: policy vs enforcement"
+        };
+    }
+    if (normalizedLabel.includes("supply and availability")) {
+        return {
+            pattern: "Availability is becoming part of the market story, not just background logistics.",
+            tension: "Tension: supply vs demand"
+        };
+    }
+    if (normalizedLabel.includes("consumer demand shift")) {
+        return {
+            pattern: "Brands are testing what Filipino buyers will still stretch for under tighter cost pressure.",
+            tension: "Tension: aspiration vs affordability"
+        };
+    }
+    if (normalizedLabel.includes("motoring market signal")) {
+        return {
+            pattern: "The market is sending early signals about what buyers, operators, and regulators may tolerate next.",
+            tension: "Tension: cost vs demand"
+        };
+    }
     if (normalizedLabel.includes("enterprise adoption")) {
         return {
             pattern: "Enterprise positioning is getting pushed ahead of proven demand.",
@@ -506,6 +554,30 @@ function buildEditorialWhyLine(reasonCodes, angles, reasonKept) {
 }
 function buildEditorialWhyLineForLabel(label, reasonCodes, angles, reasonKept) {
     const normalizedLabel = normalizeText(label);
+    if (normalizedLabel.includes("pricing pressure")) {
+        return "Price cuts, fuel swings, and SRP signals are turning affordability into the central motoring story.";
+    }
+    if (normalizedLabel.includes("ownership cost")) {
+        return "The useful signal is not just what vehicles cost to buy, but what they cost to keep, fuel, register, and use.";
+    }
+    if (normalizedLabel.includes("ev transition")) {
+        return "EV and hybrid momentum matters only if charging access, pricing, and everyday use can catch up.";
+    }
+    if (normalizedLabel.includes("infrastructure constraint")) {
+        return "Road, charging, and mobility capacity are shaping what the market can actually absorb.";
+    }
+    if (normalizedLabel.includes("regulation and enforcement")) {
+        return "Policy only changes driver and operator behavior when enforcement becomes visible and consistent.";
+    }
+    if (normalizedLabel.includes("supply and availability")) {
+        return "Availability and inventory are becoming practical constraints on what buyers can choose and what dealers can push.";
+    }
+    if (normalizedLabel.includes("consumer demand shift")) {
+        return "These stories show where manufacturers think Filipino buyers will compromise, stretch, or walk away.";
+    }
+    if (normalizedLabel.includes("motoring market signal")) {
+        return "This is an early read on how cost, product strategy, and buyer behavior are moving in the Philippine market.";
+    }
     if (normalizedLabel.includes("enterprise adoption")) {
         return "Enterprise rollout is getting pushed into the market before demand, ROI, and operating confidence have fully settled.";
     }
