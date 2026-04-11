@@ -1,3 +1,4 @@
+import { bankingTagsForStory, buildBankingSignals } from "./banking.js";
 import type { AiTechTimeMode, NormalizedStory } from "./types.js";
 
 const TAG_GROUPS_BY_BEAT: Record<string, Array<{ tag: string; keywords: string[] }>> = {
@@ -92,6 +93,36 @@ const TAG_GROUPS_BY_BEAT: Record<string, Array<{ tag: string; keywords: string[]
       tag: "product_market_signal",
       keywords: ["launch", "launched", "arrives", "now available", "philippines", "srp", "variant", "variants"]
     }
+  ],
+  ph_sea_banking: [
+    {
+      tag: "banking_lending",
+      keywords: ["loan", "loans", "lending", "credit", "borrowers", "loan growth", "credit growth"]
+    },
+    {
+      tag: "banking_deposits",
+      keywords: ["deposit", "deposits", "casa", "time deposit", "deposit growth", "fund migration"]
+    },
+    {
+      tag: "banking_liquidity",
+      keywords: ["liquidity", "reserve requirement", "rrr", "liquid assets", "cash buffer"]
+    },
+    {
+      tag: "banking_funding",
+      keywords: ["funding", "funding cost", "cost of funds", "bond issue", "capital raise", "margin"]
+    },
+    {
+      tag: "banking_risk",
+      keywords: ["risk", "npl", "non-performing", "provision", "provisioning", "stress", "exposure"]
+    },
+    {
+      tag: "banking_regulation",
+      keywords: ["bsp", "bangko sentral", "central bank", "dof", "regulation", "regulatory"]
+    },
+    {
+      tag: "banking_digital_shift",
+      keywords: ["digital bank", "digital banking", "fintech", "e-wallet", "payments", "platform"]
+    }
   ]
 };
 
@@ -121,6 +152,10 @@ function hasKeyword(text: string, keyword: string): boolean {
 }
 
 function buildTags(story: NormalizedStory): string[] {
+  if (story.beat === "ph_sea_banking") {
+    return bankingTagsForStory(story);
+  }
+
   const text = `${story.title} ${story.summary ?? ""}`;
   const groups = TAG_GROUPS_BY_BEAT[story.beat] ?? TAG_GROUPS_BY_BEAT.ai_tech;
   const tags = groups.filter((group) =>
@@ -149,6 +184,12 @@ export function annotateStories(
       ...story,
       date: story.publishedAt,
       tags: buildTags(story),
+      banking_signals:
+        story.beat === "ph_sea_banking" ? buildBankingSignals(story) : story.banking_signals,
+      movement_score:
+        story.beat === "ph_sea_banking"
+          ? buildBankingSignals(story).movement_score
+          : story.movement_score,
       reason_kept: reasonKept
     };
   });

@@ -26,6 +26,9 @@ import type {
   NormalizedStory,
   RawStoryResult,
   SourceDefinition,
+  SourceFailureKind,
+  SourceHealthStatus,
+  SourceHealthSummary,
   SourceRunSummary,
   StoryDrop
 } from "../lib/types.js";
@@ -50,6 +53,101 @@ async function fetchStoriesForSource(
   }
 
   return fetchHtmlStories(source);
+}
+
+function classifySourceHealth(
+  success: boolean,
+  fetchedCount: number,
+  normalizedCount: number
+): SourceHealthStatus {
+  if (!success) {
+    return "failing";
+  }
+
+  return fetchedCount > 0 && normalizedCount > 0 ? "healthy" : "degraded";
+}
+
+function classifySourceFailure(error: unknown): SourceFailureKind {
+  const message = error instanceof Error ? error.message.toLowerCase() : "";
+  const code = typeof error === "object" && error !== null && "code" in error
+    ? String((error as { code?: unknown }).code).toLowerCase()
+    : "";
+
+  if (message.includes("timeout") || code.includes("timeout")) {
+    return "timeout";
+  }
+
+  if (
+    message.includes("404") ||
+    message.includes("403") ||
+    message.includes("status code") ||
+    message.includes("request failed")
+  ) {
+    return "http_error";
+  }
+
+  if (
+    message.includes("enotfound") ||
+    message.includes("eai_again") ||
+    message.includes("getaddrinfo") ||
+    code === "enotfound" ||
+    code === "eai_again"
+  ) {
+    return "dns_error";
+  }
+
+  if (
+    message.includes("non-whitespace before first tag") ||
+    message.includes("unexpected close tag") ||
+    message.includes("invalid character") ||
+    message.includes("not a feed") ||
+    message.includes("xml")
+  ) {
+    return "parse_error";
+  }
+
+  if (message.includes("network") || code.includes("conn")) {
+    return "network_error";
+  }
+
+  return "unknown_error";
+}
+
+function buildSourceHealthSummaries(
+  beat: Beat,
+  beatSources: SourceDefinition[],
+  results: SourceRunSummary[],
+  checkedAt: string
+): SourceHealthSummary[] {
+  return beatSources.map((source) => {
+    const result = results.find((entry) => entry.source === source.name);
+
+    if (result) {
+      return {
+        ...result,
+        beat,
+        url: source.url,
+        type: source.type,
+        checkedAt
+      };
+    }
+
+    return {
+      beat,
+      source: source.name,
+      url: source.url,
+      type: source.type,
+      checkedAt,
+      success: false,
+      health: "failing",
+      fetchedCount: 0,
+      normalizedCount: 0,
+      droppedCount: 0,
+      keptCount: 0,
+      error: "Source was configured but not checked",
+      errorKind: "unknown_error"
+    };
+  });
 }
 
 function relativePathForManifest(filePath: string): string {
@@ -126,6 +224,11 @@ async function runBeat(
       results.push({
         source: source.name,
         success: true,
+        health: classifySourceHealth(
+          true,
+          rawStories.length,
+          normalizationResult.kept.length
+        ),
         fetchedCount: rawStories.length,
         normalizedCount: normalizationResult.kept.length,
         droppedCount:
@@ -140,11 +243,13 @@ async function runBeat(
       results.push({
         source: source.name,
         success: false,
+        health: "failing",
         fetchedCount: 0,
         normalizedCount: 0,
         droppedCount: 0,
         keptCount: 0,
-        error: error instanceof Error ? error.message : "Unknown error"
+        error: error instanceof Error ? error.message : "Unknown error",
+        errorKind: classifySourceFailure(error)
       });
     }
   }
@@ -203,6 +308,7 @@ async function runBeat(
   const outputDir = path.resolve(process.cwd(), "output", beat);
   const outputFile = path.join(outputDir, "stories.json");
   const droppedOutputFile = path.join(outputDir, "dropped_stories.json");
+  const sourceHealthOutputFile = path.join(outputDir, "source_health.json");
   const topStoriesOutputFile = path.join(outputDir, "top_stories.json");
   const eventClustersOutputFile = path.join(outputDir, "event_clusters.json");
   const themeClustersOutputFile = path.join(outputDir, "theme_clusters.json");
@@ -231,6 +337,10 @@ async function runBeat(
   const archiveDroppedOutputFile = path.join(
     archiveOutputDir,
     "dropped_stories.json"
+  );
+  const archiveSourceHealthOutputFile = path.join(
+    archiveOutputDir,
+    "source_health.json"
   );
   const archiveTopStoriesOutputFile = path.join(
     archiveOutputDir,
@@ -267,6 +377,13 @@ async function runBeat(
     null,
     2
   );
+  const sourceHealthSummaries = buildSourceHealthSummaries(
+    beat,
+    beatSources,
+    results,
+    fetchedAt
+  );
+  const sourceHealthJson = JSON.stringify(sourceHealthSummaries, null, 2);
   const topStoriesJson = JSON.stringify(topStoriesSelection, null, 2);
   const eventClustersJson = JSON.stringify(
     clusteringResult.eventClusters,
@@ -284,6 +401,7 @@ async function runBeat(
     droppedOutputFile,
     droppedStoriesJson
   );
+  await writeFile(sourceHealthOutputFile, sourceHealthJson);
   await writeFile(topStoriesOutputFile, topStoriesJson);
   await writeFile(eventClustersOutputFile, eventClustersJson);
   await writeFile(themeClustersOutputFile, themeClustersJson);
@@ -299,6 +417,7 @@ async function runBeat(
   await writeFile(weeklyPacketMarkdownOutputFile, weeklyPacketMarkdown);
   await writeFile(archiveOutputFile, storiesJson);
   await writeFile(archiveDroppedOutputFile, droppedStoriesJson);
+  await writeFile(archiveSourceHealthOutputFile, sourceHealthJson);
   await writeFile(archiveTopStoriesOutputFile, topStoriesJson);
   await writeFile(archiveEventClustersOutputFile, eventClustersJson);
   await writeFile(archiveThemeClustersOutputFile, themeClustersJson);
@@ -321,11 +440,31 @@ async function runBeat(
   for (const result of results) {
     if (result.success) {
       console.log(
-        `[${result.source}] fetched=${result.fetchedCount} normalized=${result.normalizedCount} dropped=${result.droppedCount} kept=${result.keptCount}`
+        `[${result.source}] health=${result.health} fetched=${result.fetchedCount} normalized=${result.normalizedCount} dropped=${result.droppedCount} kept=${result.keptCount}`
       );
     } else {
       console.log(
-        `[${result.source}] failed - ${result.error ?? "Unknown error"}`
+        `[${result.source}] health=failing error_kind=${result.errorKind ?? "unknown_error"} - ${result.error ?? "Unknown error"}`
+      );
+    }
+  }
+
+  const degradedSources = sourceHealthSummaries.filter(
+    (source) => source.health === "degraded"
+  );
+  const failingSources = sourceHealthSummaries.filter(
+    (source) => source.health === "failing"
+  );
+  if (degradedSources.length > 0 || failingSources.length > 0) {
+    console.log("Source health warnings:");
+    for (const source of degradedSources) {
+      console.log(
+        `- [${source.source}] degraded: fetched=${source.fetchedCount} normalized=${source.normalizedCount}`
+      );
+    }
+    for (const source of failingSources) {
+      console.log(
+        `- [${source.source}] failing (${source.errorKind ?? "unknown_error"}): ${source.error ?? "Unknown error"}`
       );
     }
   }
@@ -352,6 +491,7 @@ async function runBeat(
   }
   console.log(`Saved output to ${outputFile}`);
   console.log(`Saved dropped stories to ${droppedOutputFile}`);
+  console.log(`Saved source health to ${sourceHealthOutputFile}`);
   console.log(`Saved top stories to ${topStoriesOutputFile}`);
   console.log(`Saved event clusters to ${eventClustersOutputFile}`);
   console.log(`Saved theme clusters to ${themeClustersOutputFile}`);

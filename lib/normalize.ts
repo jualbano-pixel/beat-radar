@@ -123,5 +123,12 @@ export function normalizeStoriesForSource(
   source: SourceDefinition,
   fetchedAt: string
 ): NormalizationResult {
-  return normalizeStories(rawStories, source.beat, fetchedAt);
+  const stories = source.useFetchedAtWhenMissingDate
+    ? rawStories.map((story) => ({
+        ...story,
+        publishedAt: story.publishedAt ?? fetchedAt
+      }))
+    : rawStories;
+
+  return normalizeStories(stories, source.beat, fetchedAt);
 }

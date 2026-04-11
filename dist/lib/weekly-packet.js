@@ -1199,10 +1199,204 @@ function renderWatchlistSection(lines, items) {
         lines.push("");
     }
 }
+function bankingSystemRead(stories, themeClusters) {
+    if (stories.length === 0) {
+        return "No qualifying banking-system signal cleared the editorial gates in this run.";
+    }
+    const labels = themeClusters.map((theme) => normalizeText(theme.theme_label));
+    const hasCreditTightening = labels.some((label) => label.includes("credit tightening"));
+    const hasRisk = labels.some((label) => label.includes("risk"));
+    const hasLiquidity = labels.some((label) => label.includes("liquidity"));
+    const hasDepositShift = labels.some((label) => label.includes("deposit"));
+    const hasGrowthStrain = labels.some((label) => label.includes("growth"));
+    if (hasCreditTightening && hasRisk) {
+        return "Credit conditions are starting to tighten, with regulators reinforcing lending discipline while early signs of borrower stress begin to surface.";
+    }
+    if (hasCreditTightening) {
+        return "Credit conditions are starting to tighten as policy and lending signals point toward stricter discipline across the banking system.";
+    }
+    if (hasRisk && hasGrowthStrain) {
+        return "Loan activity is still present, but borrower-capacity and bad-loan signals suggest growth is beginning to carry more visible risk.";
+    }
+    if (hasLiquidity) {
+        return "Banks appear to be preserving liquidity, with caution taking priority over balance-sheet expansion.";
+    }
+    if (hasDepositShift) {
+        return "Deposit behavior is starting to shift, raising the importance of funding cost and liquidity management.";
+    }
+    return "The run produced only watch-level banking signals, so the desk read should stay cautious until stronger system behavior appears.";
+}
+function bankingThemeRank(themeType) {
+    if (themeType === "primary") {
+        return 3;
+    }
+    if (themeType === "secondary") {
+        return 2;
+    }
+    return 1;
+}
+function bankingThemeRead(theme, stories) {
+    const label = normalizeText(theme.theme_label);
+    if (label.includes("credit tightening")) {
+        return "Banks and regulators are giving more attention to loan terms, borrower capacity, and credit discipline than to simple volume growth.";
+    }
+    if (label.includes("risk")) {
+        return "The useful signal is balance-sheet caution: bad loans, provisions, exposure, or stress are becoming harder to treat as background noise.";
+    }
+    if (label.includes("deposit")) {
+        return "Deposit behavior matters here because fund movement can change liquidity, funding costs, and competitive pressure across banks.";
+    }
+    if (label.includes("liquidity")) {
+        return "Liquidity is the core read: banks appear more focused on buffers and optionality than on stretching for growth.";
+    }
+    if (label.includes("funding")) {
+        return "Funding pressure matters because higher cost of funds can squeeze margins and force banks to reprice risk.";
+    }
+    if (label.includes("growth")) {
+        return "Credit is still moving, but the important question is whether borrowers can keep absorbing it under tighter conditions.";
+    }
+    if (label.includes("discipline")) {
+        return "The signal is not yet a full cycle turn, but loan rules and credit terms are moving onto the desk's watchlist.";
+    }
+    return "The signal is worth watching, but it is not yet strong enough to carry a directional system read.";
+}
+function renderBankingStoryLine(lines, story) {
+    lines.push(`- [${sanitizeText(story.title)}](${story.url}) | ${story.source}`);
+}
+function bankingClusterCompression(cluster, stories) {
+    const label = normalizeText(cluster.event_label);
+    const text = normalizeText(stories.map((story) => `${story.title} ${story.summary ?? ""}`).join(" "));
+    const hasPolicy = stories.some((story) => story.banking_signals?.driver.includes("policy"));
+    const hasLending = stories.some((story) => story.banking_signals?.function.includes("lending"));
+    const hasRisk = stories.some((story) => story.banking_signals?.function.includes("risk"));
+    const hasRegulation = stories.some((story) => story.banking_signals?.function.includes("regulation"));
+    if (label.includes("credit tightening")) {
+        if (hasPolicy && hasLending) {
+            return "Regulatory and lending signals are pointing in the same direction: tighter credit discipline across the system.";
+        }
+        return "The cluster points to stricter credit conditions, with banks or regulators becoming less willing to let lending run on autopilot.";
+    }
+    if (label.includes("risk") || hasRisk || text.includes("bad loans") || text.includes("capacity to pay")) {
+        return "Bad-loan and borrower-capacity signals suggest risk is beginning to surface beneath still-active lending.";
+    }
+    if (label.includes("liquidity")) {
+        return "The grouped stories point to banks preserving buffers rather than stretching balance sheets for growth.";
+    }
+    if (label.includes("deposit")) {
+        return "The grouped stories point to deposit movement that could change funding cost, liquidity, or competitive behavior.";
+    }
+    if (label.includes("growth")) {
+        return "The cluster keeps loan growth in view, but the useful read is whether that growth is becoming harder for borrowers to carry.";
+    }
+    if (label.includes("discipline") || hasRegulation) {
+        return "Loan rules and regulatory signals are putting credit discipline back on the banking desk's watchlist.";
+    }
+    return "The stories belong together as early banking-system signals, but the direction still needs confirmation.";
+}
+function renderBankingMarkdown(packet, stories, eventClusters, themeClusters) {
+    const lines = [];
+    const storyMap = buildStoryMapById(stories);
+    const clusteredStoryIds = new Set(eventClusters
+        .flatMap((cluster) => cluster.story_ids));
+    const standaloneStories = stories
+        .filter((story) => !clusteredStoryIds.has(story.id))
+        .filter((story) => story.editorial_bucket !== "context_watch")
+        .filter((story) => story.cluster_classification === "watch")
+        .sort((left, right) => (right.priority_score ?? 0) - (left.priority_score ?? 0))
+        .slice(0, 8);
+    const standaloneStoryIds = new Set(standaloneStories.map((story) => story.id));
+    const contextWatch = stories
+        .filter((story) => (story.movement_score ?? 0) >= 5)
+        .filter((story) => !clusteredStoryIds.has(story.id))
+        .filter((story) => !standaloneStoryIds.has(story.id))
+        .filter((story) => story.cluster_classification === "watch" || story.editorial_bucket === "context_watch")
+        .sort((left, right) => (right.movement_score ?? 0) - (left.movement_score ?? 0))
+        .slice(0, 8);
+    const visibleThemes = [...themeClusters]
+        .sort((left, right) => {
+        const rankDelta = bankingThemeRank(right.theme_type) - bankingThemeRank(left.theme_type);
+        if (rankDelta !== 0) {
+            return rankDelta;
+        }
+        return right.story_count - left.story_count;
+    })
+        .filter((theme) => theme.theme_type !== "watch" || theme.story_count >= 2)
+        .slice(0, 4);
+    lines.push(`# ${packet.beat_name}`);
+    lines.push("");
+    lines.push(`Week of ${packet.week_of}`);
+    lines.push("");
+    lines.push("## Editorial read");
+    lines.push("");
+    lines.push(bankingSystemRead(stories, themeClusters));
+    lines.push("");
+    lines.push("## Themes");
+    lines.push("");
+    for (const theme of visibleThemes) {
+        const themeStories = theme.top_story_refs
+            .map((storyId) => storyMap.get(storyId))
+            .filter((story) => Boolean(story));
+        lines.push(`### ${sanitizeText(theme.theme_label)}`);
+        lines.push(bankingThemeRead(theme, themeStories));
+        lines.push("");
+        for (const story of themeStories.slice(0, 3)) {
+            renderBankingStoryLine(lines, story);
+        }
+        lines.push("");
+    }
+    lines.push("## Cluster breakdown");
+    lines.push("");
+    for (const cluster of [...eventClusters].sort((left, right) => {
+        const rank = { primary: 3, secondary: 2, watch: 1 };
+        const rankDelta = (rank[right.cluster_classification ?? "watch"] ?? 1) -
+            (rank[left.cluster_classification ?? "watch"] ?? 1);
+        if (rankDelta !== 0) {
+            return rankDelta;
+        }
+        return right.priority_score - left.priority_score;
+    }).slice(0, 10)) {
+        const clusterStories = cluster.story_ids
+            .map((storyId) => storyMap.get(storyId))
+            .filter((story) => Boolean(story));
+        lines.push(`### ${sanitizeText(cluster.event_label)}`);
+        lines.push(bankingClusterCompression(cluster, clusterStories));
+        lines.push("");
+        for (const story of clusterStories.slice(0, 4)) {
+            renderBankingStoryLine(lines, story);
+        }
+        lines.push("");
+    }
+    lines.push("## Standalone signals");
+    lines.push("");
+    if (standaloneStories.length === 0) {
+        lines.push("- No standalone banking-system signal cleared the watch threshold outside the active clusters.");
+    }
+    else {
+        for (const story of standaloneStories) {
+            renderBankingStoryLine(lines, story);
+        }
+    }
+    lines.push("");
+    lines.push("## Context watch");
+    lines.push("");
+    if (contextWatch.length === 0) {
+        lines.push("- No additional weak banking-system signals cleared the watch threshold.");
+    }
+    else {
+        for (const story of contextWatch) {
+            renderBankingStoryLine(lines, story);
+        }
+    }
+    lines.push("");
+    return lines.join("\n");
+}
 function buildPatternBullets(primaryItems, structuralItems, watchlistItems) {
     return [...new Set([...primaryItems, ...structuralItems, ...watchlistItems].map((item) => item.pattern))].slice(0, 5);
 }
 function renderWeeklyEditorialPacketMarkdown(packet, stories, eventClusters, themeClusters) {
+    if (stories.every((story) => story.beat === "ph_sea_banking")) {
+        return renderBankingMarkdown(packet, stories, eventClusters, themeClusters);
+    }
     const lines = [];
     const storyMap = buildStoryMapById(stories);
     const themeItems = themeClusters

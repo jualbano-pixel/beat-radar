@@ -1,4 +1,4 @@
-export type Beat = "ai_tech" | "philippine_motoring";
+export type Beat = "ai_tech" | "philippine_motoring" | "ph_sea_banking";
 
 export type SourceType = "rss" | "html";
 
@@ -36,6 +36,51 @@ export type ClusterKind =
   | "same_topic_different_angle"
   | "standalone";
 
+export type BankingFunction =
+  | "lending"
+  | "deposits"
+  | "liquidity"
+  | "funding"
+  | "risk"
+  | "regulation"
+  | "digital_shift";
+
+export type BankingDirection =
+  | "rising"
+  | "falling"
+  | "tightening"
+  | "loosening"
+  | "shifting"
+  | "preserving"
+  | "repricing";
+
+export type BankingScope = "single_bank" | "multi_bank" | "system";
+
+export type BankingDriver = "policy" | "market" | "institution" | "regional";
+
+export type BankingEntityType =
+  | "private_bank"
+  | "state_bank"
+  | "regulator"
+  | "multilateral";
+
+export type BankingSignals = {
+  function: BankingFunction[];
+  direction: BankingDirection[];
+  scope: BankingScope;
+  driver: BankingDriver[];
+  entity_type: BankingEntityType[];
+  movement_score: number;
+  score_dimensions: {
+    system_impact: number;
+    behavior_signal: number;
+    signal_strength: number;
+    cross_confirmation: number;
+    editorial_value: number;
+    penalties: number;
+  };
+};
+
 export type SourceDefinition = {
   name: string;
   beat: Beat;
@@ -43,6 +88,8 @@ export type SourceDefinition = {
   url: string;
   maxItems?: number;
   daysBack?: number;
+  preferNativeRssFetch?: boolean;
+  useFetchedAtWhenMissingDate?: boolean;
   selectors?: {
     item?: string;
     title?: string;
@@ -76,8 +123,12 @@ export type NormalizedStory = {
   editorial_bucket?: EditorialBucket;
   reason_code?: ReasonCode;
   angle_signals?: string[];
+  banking_signals?: BankingSignals;
+  movement_score?: number;
   cluster_id?: string;
   cluster_kind?: ClusterKind;
+  cluster_type?: "event" | "pattern";
+  cluster_classification?: "primary" | "secondary" | "watch";
   theme_id?: string;
   theme_label?: string;
   fetchedAt: string;
@@ -90,10 +141,14 @@ export type EventCluster = {
   story_count: number;
   story_ids: string[];
   story_titles: string[];
+  associated_stories?: ClusterAssociatedStory[];
   entities: string[];
   event_label: string;
+  compression_line?: string;
   priority_score: number;
   editorial_bucket: EditorialBucket;
+  cluster_type?: "event" | "pattern";
+  cluster_classification?: "primary" | "secondary" | "watch";
   primary_theme_id?: string;
   primary_theme_label?: string;
   supporting_story_ids: string[];
@@ -102,12 +157,23 @@ export type EventCluster = {
 export type ThemeCluster = {
   theme_id: string;
   theme_label: string;
+  theme_summary?: string;
   story_count: number;
   cluster_ids: string[];
   story_ids: string[];
+  associated_stories?: ClusterAssociatedStory[];
   dominant_reason_codes: ReasonCode[];
   dominant_angle_signals: string[];
   top_story_refs: string[];
+  theme_type?: "primary" | "secondary" | "watch";
+};
+
+export type ClusterAssociatedStory = {
+  id: string;
+  title: string;
+  url: string;
+  source: string;
+  published_at: string;
 };
 
 export type StoryDropReason =
@@ -157,9 +223,28 @@ export type DedupeResult = {
 export type SourceRunSummary = {
   source: string;
   success: boolean;
+  health: SourceHealthStatus;
   fetchedCount: number;
   normalizedCount: number;
   droppedCount: number;
   keptCount: number;
   error?: string;
+  errorKind?: SourceFailureKind;
+};
+
+export type SourceHealthStatus = "healthy" | "degraded" | "failing";
+
+export type SourceFailureKind =
+  | "http_error"
+  | "dns_error"
+  | "parse_error"
+  | "timeout"
+  | "network_error"
+  | "unknown_error";
+
+export type SourceHealthSummary = SourceRunSummary & {
+  beat: Beat;
+  url: string;
+  type: SourceDefinition["type"];
+  checkedAt: string;
 };

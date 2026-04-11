@@ -228,10 +228,126 @@ const PHILIPPINE_MOTORING_KEYWORDS = {
 };
 
 function keywordsForStory(story: NormalizedStory): typeof AI_TECH_KEYWORDS {
+  if (story.beat === "ph_sea_banking") {
+    return PHILIPPINE_BANKING_KEYWORDS;
+  }
+
   return story.beat === "philippine_motoring"
     ? PHILIPPINE_MOTORING_KEYWORDS
     : AI_TECH_KEYWORDS;
 }
+
+const PHILIPPINE_BANKING_KEYWORDS = {
+  immediacy: [
+    "now",
+    "today",
+    "raises",
+    "cuts",
+    "tightens",
+    "eases",
+    "approved",
+    "reports",
+    "warns",
+    "growth",
+    "slowdown"
+  ],
+  impact: [
+    "loan",
+    "loans",
+    "lending",
+    "deposit",
+    "deposits",
+    "liquidity",
+    "funding",
+    "capital",
+    "risk",
+    "npl",
+    "provision",
+    "bsp",
+    "reserve requirement",
+    "banking system"
+  ],
+  continuity: [
+    "growth",
+    "slowdown",
+    "again",
+    "trend",
+    "continued",
+    "shift",
+    "migration",
+    "pressure",
+    "cycle",
+    "tightening",
+    "loosening"
+  ],
+  relevance: [
+    "philippines",
+    "philippine",
+    "bsp",
+    "bank",
+    "banks",
+    "lenders",
+    "borrowers",
+    "depositors",
+    "asean",
+    "southeast asia"
+  ],
+  policy: [
+    "bsp",
+    "bangko sentral",
+    "central bank",
+    "dof",
+    "regulation",
+    "regulatory",
+    "reserve requirement",
+    "capital requirement",
+    "monetary board"
+  ],
+  shift: [
+    "shift",
+    "shifting",
+    "tightening",
+    "loosening",
+    "repricing",
+    "rising",
+    "falling",
+    "migration",
+    "preserve",
+    "preserving"
+  ],
+  execution: [
+    "liquidity",
+    "funding cost",
+    "margin pressure",
+    "npl",
+    "provision",
+    "stress",
+    "risk",
+    "exposure",
+    "capital buffer"
+  ],
+  market: [
+    "rates",
+    "yield",
+    "funding",
+    "deposit competition",
+    "loan growth",
+    "credit growth",
+    "margin",
+    "risk appetite"
+  ],
+  localBusiness: [
+    "philippines",
+    "philippine",
+    "bsp",
+    "bangko sentral",
+    "manila",
+    "peso",
+    "php",
+    "landbank",
+    "dbp"
+  ]
+};
 
 const ANGLE_SIGNAL_RULES: Array<{ phrase: string; keywords: string[]; tags?: string[] }> = [
   {
@@ -348,6 +464,58 @@ const PHILIPPINE_MOTORING_ANGLE_SIGNAL_RULES: Array<{
   }
 ];
 
+const PHILIPPINE_BANKING_ANGLE_SIGNAL_RULES: Array<{
+  phrase: string;
+  keywords: string[];
+  tags?: string[];
+}> = [
+  {
+    phrase: "credit behavior tightening",
+    keywords: ["tighten", "tightening", "slow lending", "loan slowdown", "credit risk"],
+    tags: ["banking_lending", "banking_tightening"]
+  },
+  {
+    phrase: "credit appetite loosening",
+    keywords: ["loosen", "loosening", "credit growth", "loan growth", "expand lending"],
+    tags: ["banking_lending", "banking_loosening"]
+  },
+  {
+    phrase: "deposit migration visible",
+    keywords: ["deposit", "deposits", "time deposit", "higher yield", "migration"],
+    tags: ["banking_deposits", "banking_shifting"]
+  },
+  {
+    phrase: "liquidity preservation showing",
+    keywords: ["liquidity", "preserve", "buffer", "reserve requirement", "cash buffer"],
+    tags: ["banking_liquidity", "banking_preserving"]
+  },
+  {
+    phrase: "funding cost pressure building",
+    keywords: ["funding cost", "cost of funds", "margin pressure", "net interest margin"],
+    tags: ["banking_funding", "banking_repricing"]
+  },
+  {
+    phrase: "risk repricing visible",
+    keywords: ["risk", "npl", "provision", "provisioning", "stress", "exposure"],
+    tags: ["banking_risk", "banking_repricing"]
+  },
+  {
+    phrase: "regulatory pressure shaping bank behavior",
+    keywords: ["bsp", "central bank", "regulation", "reserve requirement", "capital requirement"],
+    tags: ["banking_regulation"]
+  },
+  {
+    phrase: "state-bank signal needs policy reading",
+    keywords: ["landbank", "dbp", "state bank", "directed credit"],
+    tags: ["banking_state_bank"]
+  },
+  {
+    phrase: "regional signal adds banking-system context",
+    keywords: ["asean", "southeast asia", "regional", "indonesia", "vietnam", "singapore"],
+    tags: ["banking_driver_regional"]
+  }
+];
+
 const SOURCE_RELEVANCE_BONUS: Record<string, number> = {
   "TechCrunch": 1,
   "The Verge": 1,
@@ -359,7 +527,14 @@ const SOURCE_RELEVANCE_BONUS: Record<string, number> = {
   "CarGuide PH": 1,
   "BusinessWorld": 1,
   "Inquirer Business": 1,
-  "Philstar Business": 1
+  "Philstar Business": 1,
+  "BusinessWorld Banking": 1,
+  "BusinessMirror Business": 1,
+  "Manila Bulletin Business": 1,
+  "Reuters Asia Banking": 1,
+  "Nikkei Asia Business": 1,
+  "Bangko Sentral ng Pilipinas": 1,
+  "Asian Development Bank": 1
 };
 
 function normalizeText(value: string): string {
@@ -414,6 +589,30 @@ function scoreStory(
   priority_score: number;
   priority_breakdown: PriorityBreakdown;
 } {
+  if (story.beat === "ph_sea_banking" && story.banking_signals) {
+    const dimensions = story.banking_signals.score_dimensions;
+    const priority_breakdown = {
+      immediacy: dimensions.behavior_signal,
+      impact: dimensions.system_impact,
+      continuity: dimensions.signal_strength,
+      relevance: Math.min(5, dimensions.cross_confirmation + dimensions.editorial_value),
+      distinctiveness: Math.max(0, Math.min(5, 5 + dimensions.penalties))
+    };
+    const priority_score =
+      (dimensions.system_impact +
+        dimensions.behavior_signal +
+        dimensions.signal_strength +
+        dimensions.cross_confirmation +
+        dimensions.editorial_value +
+        dimensions.penalties) *
+      4;
+
+    return {
+      priority_score: Math.max(0, priority_score),
+      priority_breakdown
+    };
+  }
+
   const text = `${story.title} ${story.summary ?? ""}`;
   const tags = new Set(story.tags);
   const keywords = keywordsForStory(story);
@@ -473,6 +672,24 @@ function assignEditorialBucket(
   breakdown: PriorityBreakdown,
   priorityScore: number
 ): EditorialBucket {
+  if (story.beat === "ph_sea_banking") {
+    const movementScore = story.movement_score ?? story.banking_signals?.movement_score ?? 0;
+
+    if (movementScore >= 10 || priorityScore >= 72) {
+      return "urgent_important";
+    }
+
+    if (movementScore >= 7 || priorityScore >= 48) {
+      return "structural_trend";
+    }
+
+    if (movementScore >= 5 || priorityScore >= 32) {
+      return "context_watch";
+    }
+
+    return "background";
+  }
+
   const text = `${story.title} ${story.summary ?? ""}`;
   const keywords = keywordsForStory(story);
 
@@ -498,6 +715,40 @@ function assignReasonCode(
   story: NormalizedStory,
   tagFrequency: Map<string, number>
 ): ReasonCode {
+  if (story.beat === "ph_sea_banking" && story.banking_signals) {
+    const signals = story.banking_signals;
+
+    if (signals.function.includes("regulation") || signals.driver.includes("policy")) {
+      return "policy_regulatory_move";
+    }
+
+    if (
+      signals.function.includes("risk") ||
+      signals.direction.includes("repricing") ||
+      signals.direction.includes("tightening")
+    ) {
+      return "execution_consequence";
+    }
+
+    if (
+      signals.function.includes("deposits") ||
+      signals.function.includes("funding") ||
+      signals.direction.includes("shifting")
+    ) {
+      return "market_signal";
+    }
+
+    if (signals.scope === "system" || signals.scope === "multi_bank") {
+      return "developing_pattern";
+    }
+
+    if (signals.function.includes("digital_shift")) {
+      return "industry_repositioning";
+    }
+
+    return "watchlist_signal";
+  }
+
   const text = `${story.title} ${story.summary ?? ""}`;
   const keywords = keywordsForStory(story);
 
@@ -554,12 +805,18 @@ function buildAngleSignals(story: NormalizedStory): string[] {
   const text = `${story.title} ${story.summary ?? ""}`;
   const tags = new Set(story.tags);
   const rules =
-    story.beat === "philippine_motoring"
+    story.beat === "ph_sea_banking"
+      ? PHILIPPINE_BANKING_ANGLE_SIGNAL_RULES
+      : story.beat === "philippine_motoring"
       ? PHILIPPINE_MOTORING_ANGLE_SIGNAL_RULES
       : ANGLE_SIGNAL_RULES;
   const phrases = rules.filter((rule) => {
     const keywordMatch = countHits(text, rule.keywords) > 0;
-    const tagMatch = rule.tags ? rule.tags.some((tag) => tags.has(tag)) : false;
+    const tagMatch = rule.tags
+      ? story.beat === "ph_sea_banking"
+        ? rule.tags.every((tag) => tags.has(tag))
+        : rule.tags.some((tag) => tags.has(tag))
+      : false;
 
     return keywordMatch || tagMatch;
   }).map((rule) => rule.phrase);
@@ -590,6 +847,22 @@ function buildFallbackAngleSignals(story: NormalizedStory): string[] {
 
   if (tags.has("supply_availability")) {
     return ["supply constraint shaping choice"];
+  }
+
+  if (tags.has("banking_lending") && tags.has("banking_tightening")) {
+    return ["credit behavior tightening"];
+  }
+
+  if (tags.has("banking_deposits") && tags.has("banking_shifting")) {
+    return ["deposit migration visible"];
+  }
+
+  if (tags.has("banking_liquidity")) {
+    return ["liquidity preservation showing"];
+  }
+
+  if (tags.has("banking_risk")) {
+    return ["risk repricing visible"];
   }
 
   if (tags.has("ai_infrastructure")) {
@@ -651,6 +924,30 @@ function improveReasonKept(
     product_signal:
       "Reveals what manufacturers think the market will buy or can afford."
   };
+  const bankingSpecificReasonByCode: Record<ReasonCode, string> = {
+    policy_regulatory_move:
+      "Policy or regulatory action is likely to change bank behavior.",
+    developing_pattern:
+      "Several signals point to the same banking-system behavior.",
+    execution_consequence:
+      "Shows risk, liquidity, or balance-sheet pressure changing bank behavior.",
+    meaningful_shift:
+      "Marks a directional change in banking-system behavior.",
+    local_business_relevance:
+      "Strong Philippine banking relevance with likely system implications.",
+    ongoing_story_advance:
+      "Advances an ongoing banking-system story.",
+    counterpoint:
+      "Useful counter-signal against the dominant banking-system read.",
+    market_signal:
+      "Reveals a concrete shift in deposits, funding, lending, or margins.",
+    industry_repositioning:
+      "Shows a structural competitive shift affecting bank behavior.",
+    watchlist_signal:
+      "Weak but relevant banking signal retained for clustering.",
+    product_signal:
+      "Reveals a product-market signal only where it affects bank behavior."
+  };
 
   const existingSpecificReasons = story.reason_kept.filter(
     (reason) =>
@@ -662,10 +959,14 @@ function improveReasonKept(
   );
 
   const systemReasons = story.reason_kept.filter((reason) => !existingSpecificReasons.includes(reason));
+  const reasonText =
+    story.beat === "ph_sea_banking"
+      ? bankingSpecificReasonByCode[reasonCode]
+      : specificReasonByCode[reasonCode];
   const enrichedPrimaryReason =
     existingSpecificReasons.length > 0
-      ? `${existingSpecificReasons[0]} ${specificReasonByCode[reasonCode]}`
-      : specificReasonByCode[reasonCode];
+      ? `${existingSpecificReasons[0]} ${reasonText}`
+      : reasonText;
 
   return [enrichedPrimaryReason, ...systemReasons];
 }

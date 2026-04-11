@@ -1,0 +1,235 @@
+[
+  {
+    "cluster_id": "banking_001",
+    "cluster_kind": "same_event",
+    "lead_story_id": "fc036f2f2a94",
+    "story_count": 5,
+    "story_ids": [
+      "fc036f2f2a94",
+      "e9effee27f4b",
+      "896f4f5dc277",
+      "df686224ae01",
+      "165d7a7bf542"
+    ],
+    "story_titles": [
+      "BSP stays cautious, sees policy tightening only if inflation broadens",
+      "SEC pushes overhaul of online lending rules",
+      "BSP readies revisions to rules on salary loan terms",
+      "BSP looks to remove salary loan tenor cap for flexible payments",
+      "BSP shifts from 5-year loan cap to risk-based lending framework"
+    ],
+    "associated_stories": [
+      {
+        "id": "fc036f2f2a94",
+        "title": "BSP stays cautious, sees policy tightening only if inflation broadens",
+        "url": "https://business.inquirer.net/584572/bsp-stays-cautious-sees-policy-tightening-only-if-inflation-broadens",
+        "source": "Inquirer Business",
+        "published_at": "2026-04-10T15:55:43.000Z"
+      },
+      {
+        "id": "e9effee27f4b",
+        "title": "SEC pushes overhaul of online lending rules",
+        "url": "https://business.inquirer.net/584430/sec-pushes-overhaul-of-online-lending-rules",
+        "source": "Inquirer Business",
+        "published_at": "2026-04-10T02:26:00.000Z"
+      },
+      {
+        "id": "896f4f5dc277",
+        "title": "BSP readies revisions to rules on salary loan terms",
+        "url": "https://business.inquirer.net/584539/bsp-readies-revisions-to-rules-on-salary-loan-terms",
+        "source": "Inquirer Business",
+        "published_at": "2026-04-10T05:52:00.000Z"
+      },
+      {
+        "id": "df686224ae01",
+        "title": "BSP looks to remove salary loan tenor cap for flexible payments",
+        "url": "https://www.bworldonline.com/banking-finance/2026/04/10/741890/bsp-looks-to-remove-salary-loan-tenor-cap-for-flexible-payments",
+        "source": "BusinessWorld Banking",
+        "published_at": "2026-04-09T16:04:33.000Z"
+      },
+      {
+        "id": "165d7a7bf542",
+        "title": "BSP shifts from 5-year loan cap to risk-based lending framework",
+        "url": "https://mb.com.ph/article/10913232/business/banking-finance/bsp-shifts-from-5-year-loan-cap-to-risk-based-lending-framework",
+        "source": "Manila Bulletin Business",
+        "published_at": "2026-04-09T16:00:00.000Z"
+      }
+    ],
+    "entities": [
+      "regulator",
+      "private_bank"
+    ],
+    "event_label": "Credit tightening is emerging",
+    "compression_line": "Regulatory and lending signals are pointing in the same direction: tighter credit discipline across the system.",
+    "priority_score": 68,
+    "editorial_bucket": "urgent_important",
+    "cluster_type": "pattern",
+    "cluster_classification": "primary",
+    "primary_theme_id": "credit_tightening",
+    "primary_theme_label": "Credit tightening is emerging",
+    "supporting_story_ids": [
+      "e9effee27f4b",
+      "896f4f5dc277",
+      "df686224ae01",
+      "165d7a7bf542"
+    ]
+  },
+  {
+    "cluster_id": "banking_002",
+    "cluster_kind": "same_event",
+    "lead_story_id": "c524a7df0a15",
+    "story_count": 4,
+    "story_ids": [
+      "c524a7df0a15",
+      "7958ecb9a87f",
+      "7213371a2cab",
+      "ea66131faef1"
+    ],
+    "story_titles": [
+      "Philippine banks’ bad loans climb to 6-month high in February",
+      "Banks’ bad loan ratio hits 6-month high in Feb.",
+      "Philippine banks’ bad loans swelled to 6-month high in February",
+      "War’s impact on borrowers’ capacity to pay loans flagged"
+    ],
+    "associated_stories": [
+      {
+        "id": "c524a7df0a15",
+        "title": "Philippine banks’ bad loans climb to 6-month high in February",
+        "url": "https://mb.com.ph/article/10913231/business/banking-finance/philippine-banks-bad-loans-climb-to-6-month-high-in-february",
+        "source": "Manila Bulletin Business",
+        "published_at": "2026-04-09T16:00:00.000Z"
+      },
+      {
+        "id": "7958ecb9a87f",
+        "title": "Banks’ bad loan ratio hits 6-month high in Feb.",
+        "url": "https://www.bworldonline.com/top-stories/2026/04/10/741953/banks-bad-loan-ratio-hits-6-month-high-in-feb",
+        "source": "BusinessWorld Banking",
+        "published_at": "2026-04-09T16:33:38.000Z"
+      },
+      {
+        "id": "7213371a2cab",
+        "title": "Philippine banks’ bad loans swelled to 6-month high in February",
+        "url": "https://business.inquirer.net/584429/ph-banks-bad-loans-swelled-to-6-mo-high-in-february",
+        "source": "Inquirer Business",
+        "published_at": "2026-04-10T02:24:00.000Z"
+      },
+      {
+        "id": "ea66131faef1",
+        "title": "War’s impact on borrowers’ capacity to pay loans flagged",
+        "url": "https://businessmirror.com.ph/2026/04/09/wars-impact-on-borrowers-capacity-to-pay-loans-flagged",
+        "source": "BusinessMirror Business",
+        "published_at": "2026-04-09T11:57:36.000Z"
+      }
+    ],
+    "entities": [
+      "regulator",
+      "private_bank"
+    ],
+    "event_label": "Risk is starting to surface",
+    "compression_line": "Bad-loan and borrower-capacity signals suggest risk is beginning to surface beneath still-active lending.",
+    "priority_score": 72,
+    "editorial_bucket": "urgent_important",
+    "cluster_type": "pattern",
+    "cluster_classification": "primary",
+    "primary_theme_id": "risk_surface",
+    "primary_theme_label": "Risk is starting to surface",
+    "supporting_story_ids": [
+      "7958ecb9a87f",
+      "7213371a2cab",
+      "ea66131faef1"
+    ]
+  },
+  {
+    "cluster_id": "banking_003",
+    "cluster_kind": "same_event",
+    "lead_story_id": "8db4dc6944fe",
+    "story_count": 1,
+    "story_ids": [
+      "8db4dc6944fe"
+    ],
+    "story_titles": [
+      "Rules on salary-based loans to be liberalized"
+    ],
+    "associated_stories": [
+      {
+        "id": "8db4dc6944fe",
+        "title": "Rules on salary-based loans to be liberalized",
+        "url": "https://businessmirror.com.ph/2026/04/09/rules-on-salary-based-loans-to-be-liberalized",
+        "source": "BusinessMirror Business",
+        "published_at": "2026-04-09T11:54:48.000Z"
+      }
+    ],
+    "entities": [
+      "regulator"
+    ],
+    "event_label": "Credit rules are moving onto the watchlist",
+    "compression_line": "Loan rules and regulatory signals are putting credit discipline back on the banking desk's watchlist.",
+    "priority_score": 48,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "event",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": []
+  },
+  {
+    "cluster_id": "banking_004",
+    "cluster_kind": "same_event",
+    "lead_story_id": "b135177b2409",
+    "story_count": 1,
+    "story_ids": [
+      "b135177b2409"
+    ],
+    "story_titles": [
+      "BOP posts US$2.3 billion deficit in February 2026; End-February GIR rise to US$113.3 billion[1]"
+    ],
+    "associated_stories": [
+      {
+        "id": "b135177b2409",
+        "title": "BOP posts US$2.3 billion deficit in February 2026; End-February GIR rise to US$113.3 billion[1]",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7850",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-03-19T10:24:49.000Z"
+      }
+    ],
+    "entities": [
+      "private_bank"
+    ],
+    "event_label": "System liquidity is easing",
+    "compression_line": "The grouped stories point to banks preserving buffers rather than stretching balance sheets for growth.",
+    "priority_score": 56,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "event",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": []
+  },
+  {
+    "cluster_id": "banking_005",
+    "cluster_kind": "same_event",
+    "lead_story_id": "06cb85ca0630",
+    "story_count": 1,
+    "story_ids": [
+      "06cb85ca0630"
+    ],
+    "story_titles": [
+      "FCDU loans increased by 2.9% to US$15.56 billion in Q4 2025"
+    ],
+    "associated_stories": [
+      {
+        "id": "06cb85ca0630",
+        "title": "FCDU loans increased by 2.9% to US$15.56 billion in Q4 2025",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7868",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-03-31T14:08:51.000Z"
+      }
+    ],
+    "entities": [
+      "private_bank"
+    ],
+    "event_label": "Deposit movement is on watch",
+    "compression_line": "The grouped stories point to deposit movement that could change funding cost, liquidity, or competitive behavior.",
+    "priority_score": 44,
+    "editorial_bucket": "context_watch",
+    "cluster_type": "event",
+    "cluster_classification": "watch",
+    "supporting_story_ids": []
+  }
+]

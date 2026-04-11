@@ -16,9 +16,18 @@ export const beatConfigs: Record<Beat, BeatConfig> = {
     beat: "philippine_motoring",
     displayName: "Philippine Motoring",
     timeModeEnvVar: "PHILIPPINE_MOTORING_TIME_MODE"
+  },
+  ph_sea_banking: {
+    beat: "ph_sea_banking",
+    displayName: "Philippine / SEA Banking",
+    timeModeEnvVar: "PH_SEA_BANKING_TIME_MODE"
   }
 };
 
 export function resolveBeat(value?: string): Beat {
-  return value === "philippine_motoring" ? "philippine_motoring" : "ai_tech";
+  if (value === "philippine_motoring" || value === "ph_sea_banking") {
+    return value;
+  }
+
+  return "ai_tech";
 }

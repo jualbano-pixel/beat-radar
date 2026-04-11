@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.annotateStories = annotateStories;
+const banking_js_1 = require("./banking.js");
 const TAG_GROUPS_BY_BEAT = {
     ai_tech: [
         {
@@ -93,6 +94,36 @@ const TAG_GROUPS_BY_BEAT = {
             tag: "product_market_signal",
             keywords: ["launch", "launched", "arrives", "now available", "philippines", "srp", "variant", "variants"]
         }
+    ],
+    ph_sea_banking: [
+        {
+            tag: "banking_lending",
+            keywords: ["loan", "loans", "lending", "credit", "borrowers", "loan growth", "credit growth"]
+        },
+        {
+            tag: "banking_deposits",
+            keywords: ["deposit", "deposits", "casa", "time deposit", "deposit growth", "fund migration"]
+        },
+        {
+            tag: "banking_liquidity",
+            keywords: ["liquidity", "reserve requirement", "rrr", "liquid assets", "cash buffer"]
+        },
+        {
+            tag: "banking_funding",
+            keywords: ["funding", "funding cost", "cost of funds", "bond issue", "capital raise", "margin"]
+        },
+        {
+            tag: "banking_risk",
+            keywords: ["risk", "npl", "non-performing", "provision", "provisioning", "stress", "exposure"]
+        },
+        {
+            tag: "banking_regulation",
+            keywords: ["bsp", "bangko sentral", "central bank", "dof", "regulation", "regulatory"]
+        },
+        {
+            tag: "banking_digital_shift",
+            keywords: ["digital bank", "digital banking", "fintech", "e-wallet", "payments", "platform"]
+        }
     ]
 };
 function normalizeText(value) {
@@ -115,6 +146,9 @@ function hasKeyword(text, keyword) {
     return new RegExp(`(^|\\s)${needle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?=\\s|$)`).test(haystack);
 }
 function buildTags(story) {
+    if (story.beat === "ph_sea_banking") {
+        return (0, banking_js_1.bankingTagsForStory)(story);
+    }
     const text = `${story.title} ${story.summary ?? ""}`;
     const groups = TAG_GROUPS_BY_BEAT[story.beat] ?? TAG_GROUPS_BY_BEAT.ai_tech;
     const tags = groups.filter((group) => group.keywords.some((keyword) => hasKeyword(text, keyword))).map((group) => group.tag);
@@ -133,6 +167,10 @@ function annotateStories(stories, options) {
             ...story,
             date: story.publishedAt,
             tags: buildTags(story),
+            banking_signals: story.beat === "ph_sea_banking" ? (0, banking_js_1.buildBankingSignals)(story) : story.banking_signals,
+            movement_score: story.beat === "ph_sea_banking"
+                ? (0, banking_js_1.buildBankingSignals)(story).movement_score
+                : story.movement_score,
             reason_kept: reasonKept
         };
     });

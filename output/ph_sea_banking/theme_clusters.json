@@ -1,0 +1,130 @@
+[
+  {
+    "theme_id": "credit_tightening",
+    "theme_label": "Credit tightening is emerging",
+    "theme_summary": "Banks and regulators are giving more attention to loan terms, borrower capacity, and credit discipline than to simple volume growth.",
+    "story_count": 5,
+    "cluster_ids": [
+      "banking_001"
+    ],
+    "story_ids": [
+      "fc036f2f2a94",
+      "e9effee27f4b",
+      "896f4f5dc277",
+      "df686224ae01",
+      "165d7a7bf542"
+    ],
+    "associated_stories": [
+      {
+        "id": "fc036f2f2a94",
+        "title": "BSP stays cautious, sees policy tightening only if inflation broadens",
+        "url": "https://business.inquirer.net/584572/bsp-stays-cautious-sees-policy-tightening-only-if-inflation-broadens",
+        "source": "Inquirer Business",
+        "published_at": "2026-04-10T15:55:43.000Z"
+      },
+      {
+        "id": "e9effee27f4b",
+        "title": "SEC pushes overhaul of online lending rules",
+        "url": "https://business.inquirer.net/584430/sec-pushes-overhaul-of-online-lending-rules",
+        "source": "Inquirer Business",
+        "published_at": "2026-04-10T02:26:00.000Z"
+      },
+      {
+        "id": "896f4f5dc277",
+        "title": "BSP readies revisions to rules on salary loan terms",
+        "url": "https://business.inquirer.net/584539/bsp-readies-revisions-to-rules-on-salary-loan-terms",
+        "source": "Inquirer Business",
+        "published_at": "2026-04-10T05:52:00.000Z"
+      },
+      {
+        "id": "df686224ae01",
+        "title": "BSP looks to remove salary loan tenor cap for flexible payments",
+        "url": "https://www.bworldonline.com/banking-finance/2026/04/10/741890/bsp-looks-to-remove-salary-loan-tenor-cap-for-flexible-payments",
+        "source": "BusinessWorld Banking",
+        "published_at": "2026-04-09T16:04:33.000Z"
+      },
+      {
+        "id": "165d7a7bf542",
+        "title": "BSP shifts from 5-year loan cap to risk-based lending framework",
+        "url": "https://mb.com.ph/article/10913232/business/banking-finance/bsp-shifts-from-5-year-loan-cap-to-risk-based-lending-framework",
+        "source": "Manila Bulletin Business",
+        "published_at": "2026-04-09T16:00:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "policy_regulatory_move"
+    ],
+    "dominant_angle_signals": [
+      "credit behavior tightening",
+      "regulatory pressure shaping bank behavior",
+      "risk repricing visible"
+    ],
+    "top_story_refs": [
+      "fc036f2f2a94",
+      "e9effee27f4b",
+      "896f4f5dc277"
+    ],
+    "theme_type": "primary"
+  },
+  {
+    "theme_id": "risk_surface",
+    "theme_label": "Risk is starting to surface",
+    "theme_summary": "The useful signal is balance-sheet caution: bad loans, provisions, exposure, or stress are becoming harder to treat as background noise.",
+    "story_count": 4,
+    "cluster_ids": [
+      "banking_002"
+    ],
+    "story_ids": [
+      "c524a7df0a15",
+      "7958ecb9a87f",
+      "7213371a2cab",
+      "ea66131faef1"
+    ],
+    "associated_stories": [
+      {
+        "id": "c524a7df0a15",
+        "title": "Philippine banks’ bad loans climb to 6-month high in February",
+        "url": "https://mb.com.ph/article/10913231/business/banking-finance/philippine-banks-bad-loans-climb-to-6-month-high-in-february",
+        "source": "Manila Bulletin Business",
+        "published_at": "2026-04-09T16:00:00.000Z"
+      },
+      {
+        "id": "7958ecb9a87f",
+        "title": "Banks’ bad loan ratio hits 6-month high in Feb.",
+        "url": "https://www.bworldonline.com/top-stories/2026/04/10/741953/banks-bad-loan-ratio-hits-6-month-high-in-feb",
+        "source": "BusinessWorld Banking",
+        "published_at": "2026-04-09T16:33:38.000Z"
+      },
+      {
+        "id": "7213371a2cab",
+        "title": "Philippine banks’ bad loans swelled to 6-month high in February",
+        "url": "https://business.inquirer.net/584429/ph-banks-bad-loans-swelled-to-6-mo-high-in-february",
+        "source": "Inquirer Business",
+        "published_at": "2026-04-10T02:24:00.000Z"
+      },
+      {
+        "id": "ea66131faef1",
+        "title": "War’s impact on borrowers’ capacity to pay loans flagged",
+        "url": "https://businessmirror.com.ph/2026/04/09/wars-impact-on-borrowers-capacity-to-pay-loans-flagged",
+        "source": "BusinessMirror Business",
+        "published_at": "2026-04-09T11:57:36.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "policy_regulatory_move",
+      "execution_consequence",
+      "developing_pattern"
+    ],
+    "dominant_angle_signals": [
+      "regulatory pressure shaping bank behavior",
+      "risk repricing visible",
+      "early sign worth tracking"
+    ],
+    "top_story_refs": [
+      "c524a7df0a15",
+      "7958ecb9a87f",
+      "7213371a2cab"
+    ],
+    "theme_type": "primary"
+  }
+]

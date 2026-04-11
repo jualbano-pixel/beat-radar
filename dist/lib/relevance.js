@@ -6,6 +6,7 @@ exports.passesBaselineEditorialRelevance = passesBaselineEditorialRelevance;
 exports.evaluateStoryRelevance = evaluateStoryRelevance;
 exports.filterStoriesByRelevance = filterStoriesByRelevance;
 const relevance_js_1 = require("../config/relevance.js");
+const banking_js_1 = require("./banking.js");
 const NORMALIZATION_REPLACEMENTS = [
     [/dall[\s\u00b7._-]*e/gi, "dalle"],
     [/text[\s-]*to[\s-]*image/gi, "text to image"],
@@ -203,6 +204,9 @@ function hasAiAnchor(text) {
 function isMotoringBeat(story) {
     return story.beat === "philippine_motoring";
 }
+function isBankingBeat(story) {
+    return story.beat === "ph_sea_banking";
+}
 function hasMotoringLaunchSignal(text) {
     return matchesAny(text, MOTORING_LAUNCH_TERMS);
 }
@@ -253,6 +257,20 @@ function getKeepSignalCategories(story) {
     const combinedText = `${title} ${summary}`.trim();
     const categories = [];
     const keepSignals = config.keep_signal_keywords;
+    if (isBankingBeat(story)) {
+        const classification = (0, banking_js_1.classifyBankingStory)(story);
+        if (!classification.passesGate || classification.movementScore < 5) {
+            return categories;
+        }
+        for (const fn of classification.functions) {
+            categories.push(`banking_${fn}`);
+        }
+        for (const direction of classification.directions) {
+            categories.push(`banking_${direction}`);
+        }
+        categories.push(`banking_${classification.scope}`);
+        return [...new Set(categories)];
+    }
     if (isMotoringBeat(story)) {
         if (!hasBroadSourceMotoringSignal(story)) {
             return categories;
@@ -338,6 +356,13 @@ function scoreStory(story) {
     const config = relevance_js_1.relevanceConfigByBeat[story.beat];
     const title = normalizeText(story.title);
     const summary = normalizeText(story.summary ?? "");
+    if (isBankingBeat(story)) {
+        const classification = (0, banking_js_1.classifyBankingStory)(story);
+        if (!classification.passesGate || classification.movementScore < 5) {
+            return classification.totalScore;
+        }
+        return classification.totalScore;
+    }
     const coreScore = countMatches(title, config.core_ai_keywords) * 3 +
         countMatches(summary, config.core_ai_keywords) * 2;
     const infraScore = countMatches(title, config.ai_infra_keywords) * 2 +
@@ -386,6 +411,10 @@ function hasDirectAiSignal(story) {
         hasResearchSignalInStory(story));
 }
 function hasDirectBeatSignal(story) {
+    if (isBankingBeat(story)) {
+        const classification = (0, banking_js_1.classifyBankingStory)(story);
+        return classification.passesGate && classification.movementScore >= 5;
+    }
     if (!isMotoringBeat(story)) {
         return hasDirectAiSignal(story);
     }
@@ -406,6 +435,9 @@ function isObviousJunk(story) {
     const titleLower = title.toLowerCase();
     if (matchesAny(title, config.junk_keywords)) {
         return true;
+    }
+    if (isBankingBeat(story)) {
+        return (0, banking_js_1.classifyBankingStory)(story).hardExcluded;
     }
     if (/(^best\s)|(\bbest .* of\b)|(\bour favorite\b)|(\btop \d+\b)|(\broundup\b)|(\bgift guide\b)/i.test(title)) {
         return true;
@@ -446,6 +478,9 @@ function passesBaselineEditorialRelevance(story) {
 }
 function evaluateStoryRelevance(story) {
     if (isObviousJunk(story)) {
+        const bankingClassification = isBankingBeat(story)
+            ? (0, banking_js_1.classifyBankingStory)(story)
+            : null;
         return {
             kept: false,
             drop: {
@@ -454,7 +489,8 @@ function evaluateStoryRelevance(story) {
                 url: story.url,
                 date: story.publishedAt,
                 reason: "low_relevance",
-                details: "Matched junk, shopping, or consumer-tech listicle filters"
+                details: bankingClassification?.exclusionReason ??
+                    "Matched junk, shopping, or consumer-tech listicle filters"
             }
         };
     }

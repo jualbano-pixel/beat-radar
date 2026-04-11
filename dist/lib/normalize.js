@@ -79,5 +79,11 @@ function normalizeStories(rawStories, beat, fetchedAt) {
     return { kept, dropped };
 }
 function normalizeStoriesForSource(rawStories, source, fetchedAt) {
-    return normalizeStories(rawStories, source.beat, fetchedAt);
+    const stories = source.useFetchedAtWhenMissingDate
+        ? rawStories.map((story) => ({
+            ...story,
+            publishedAt: story.publishedAt ?? fetchedAt
+        }))
+        : rawStories;
+    return normalizeStories(stories, source.beat, fetchedAt);
 }

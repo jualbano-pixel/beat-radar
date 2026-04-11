@@ -329,7 +329,41 @@ function buildWhyItMatters(reasons: string[]): string {
   return "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar.";
 }
 
+function buildBankingWhyItMatters(reasons: string[]): string {
+  const reasonSet = new Set(reasons);
+
+  if (reasonSet.has("banking_top_movement")) {
+    return "This belongs in the top group because it points to a live shift in banking-system behavior, not just a company headline.";
+  }
+
+  if (reasonSet.has("banking_policy_pressure")) {
+    return "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits.";
+  }
+
+  if (reasonSet.has("banking_risk_signal")) {
+    return "This matters because provisioning, NPLs, exposure, or stress signals reveal whether banks are protecting balance sheets or still leaning into growth.";
+  }
+
+  if (reasonSet.has("banking_deposit_funding_signal")) {
+    return "This matters because deposit and funding movement shows whether money is staying put, seeking yield, or becoming more expensive for banks.";
+  }
+
+  if (reasonSet.has("banking_behavior_shift")) {
+    return "This matters because it shows banks changing behavior through lending, liquidity, risk appetite, or pricing.";
+  }
+
+  return "This surfaced because it carries a concrete banking-system signal rather than generic finance noise.";
+}
+
 function buildSecondaryNote(reasons: string[]): string {
+  if (reasons.some((reason) => reason.startsWith("banking_"))) {
+    if (reasons.includes("banking_weak_cluster_signal")) {
+      return "Weak but relevant banking signal retained because it may cluster into a larger pattern.";
+    }
+
+    return "Useful supporting signal on banking-system behavior.";
+  }
+
   if (reasons.includes("broad_ecosystem_impact")) {
     return "Useful because it has broad practical impact across the AI ecosystem.";
   }
@@ -388,6 +422,67 @@ function scoreStory(
   topicCoverage: number,
   latestDate: number
 ): PriorityScoredStory {
+  if (story.beat === "ph_sea_banking") {
+    const reasons: string[] = [];
+    const signals = story.banking_signals;
+    const movementScore = story.movement_score ?? signals?.movement_score ?? 0;
+    let score = 0;
+
+    if (signals) {
+      const dimensions = signals.score_dimensions;
+      score += dimensions.system_impact;
+      score += dimensions.behavior_signal;
+      score += dimensions.signal_strength * 0.75;
+      score += dimensions.cross_confirmation * 0.75;
+      score += dimensions.editorial_value;
+      score += dimensions.penalties;
+
+      if (movementScore >= 10) {
+        reasons.push("banking_top_movement");
+      } else if (movementScore >= 7) {
+        reasons.push("banking_secondary_movement");
+      } else if (movementScore >= 5) {
+        reasons.push("banking_weak_cluster_signal");
+      }
+
+      if (signals.function.includes("regulation") || signals.driver.includes("policy")) {
+        reasons.push("banking_policy_pressure");
+      }
+
+      if (signals.function.includes("risk")) {
+        reasons.push("banking_risk_signal");
+      }
+
+      if (signals.function.includes("deposits") || signals.function.includes("funding")) {
+        reasons.push("banking_deposit_funding_signal");
+      }
+
+      if (signals.direction.length > 0) {
+        reasons.push("banking_behavior_shift");
+      }
+    }
+
+    if (topicCoverage > 1) {
+      score += Math.min(2, (topicCoverage - 1) * 0.75);
+      reasons.push("broader_trend");
+    }
+
+    score += getRecencyBoost(story.publishedAt, latestDate);
+
+    if ((sourceWeightByName[story.source] ?? 0) > 0) {
+      score += 0.2;
+      reasons.push("editorial_source_confirmation");
+    }
+
+    return {
+      story,
+      priorityScore: Number(Math.max(0, score).toFixed(2)),
+      priorityReasons: [...new Set(reasons)],
+      topicKey: buildTopicKey(story.title),
+      topicCoverage
+    };
+  }
+
   const text = `${story.title} ${story.summary ?? ""}`;
   const reasons: string[] = [];
   let score = 0;
@@ -572,7 +667,10 @@ export function selectTopStories(stories: NormalizedStory[]): {
   return {
     top_stories: topStories.map((scored) => ({
       ...toOutputStory(scored),
-      why_it_matters: buildWhyItMatters(scored.priorityReasons)
+      why_it_matters:
+        scored.story.beat === "ph_sea_banking"
+          ? buildBankingWhyItMatters(scored.priorityReasons)
+          : buildWhyItMatters(scored.priorityReasons)
     })),
     secondary_signals: secondarySignals
       .filter((scored) => !topStories.includes(scored))
