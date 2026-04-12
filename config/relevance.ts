@@ -734,5 +734,62 @@ export const relevanceConfigByBeat: Record<Beat, BeatRelevanceConfig> = {
       "share price"
     ],
     min_score: 5
+  },
+  ph_sea_energy: {
+    core_ai_keywords: [
+      "energy",
+      "power",
+      "electricity",
+      "generation",
+      "capacity",
+      "supply",
+      "fuel",
+      "oil",
+      "lng",
+      "coal",
+      "gas"
+    ],
+    ai_infra_keywords: [
+      "department of energy",
+      "doe",
+      "energy regulatory commission",
+      "erc",
+      "grid",
+      "transmission",
+      "ngcp",
+      "national grid",
+      "meralco",
+      "wesm"
+    ],
+    adjacent_tech_keywords: [
+      "pump price",
+      "fuel price",
+      "electricity rate",
+      "power rate",
+      "tariff",
+      "subsidy",
+      "asean",
+      "southeast asia"
+    ],
+    applied_human_keywords: [],
+    keep_signal_keywords: {
+      model_release: [],
+      developer_platform: [],
+      ai_infrastructure: [],
+      enterprise_rollout: [],
+      strategic_partnership: [],
+      policy_regulation: [],
+      licensing_copyright: [],
+      safety_governance: [],
+      strategic_finance: []
+    },
+    junk_keywords: [
+      "award",
+      "awards",
+      "csr",
+      "appoints",
+      "appointed"
+    ],
+    min_score: 5
   }
 };

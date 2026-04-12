@@ -1,4 +1,4 @@
-export type Beat = "ai_tech" | "philippine_motoring" | "ph_sea_banking";
+export type Beat = "ai_tech" | "philippine_motoring" | "ph_sea_banking" | "ph_sea_energy";
 
 export type SourceType = "rss" | "html";
 
@@ -79,6 +79,35 @@ export type BankingSignals = {
     editorial_value: number;
     penalties: number;
   };
+};
+
+export type EnergySystemAxis =
+  | "supply"
+  | "demand"
+  | "price"
+  | "policy"
+  | "infrastructure"
+  | "external_forces";
+
+export type EnergySystemStage =
+  | "generation"
+  | "transmission"
+  | "distribution"
+  | "consumption";
+
+export type EnergyMandatoryQuestion =
+  | "supply"
+  | "price"
+  | "policy"
+  | "system_pressure";
+
+export type EnergyBeatStructure = {
+  system_axes: EnergySystemAxis[];
+  system_flow: EnergySystemStage[];
+  system_operators: string[];
+  mandatory_questions: EnergyMandatoryQuestion[];
+  inclusion_requirement: string;
+  detects_system_pressure: boolean;
 };
 
 export type SourceDefinition = {
