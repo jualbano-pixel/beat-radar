@@ -182,5 +182,79 @@ export const energyFilterFixtures: EnergyFilterFixture[] = [
       reason: "kept with one primary category despite policy, price, infrastructure, supply, and system pressure matches",
       reasonRuleId: "signals_system_stress_or_easing"
     }
+  },
+  {
+    name: "local infrastructure bottleneck affecting fuel delivery",
+    story: story(
+      "port-congestion-fuel-delivery",
+      "Port logistics bottleneck delays fuel supply delivery to island power plants",
+      "The congestion affects import timing and local reliability for plants dependent on shipped fuel."
+    ),
+    expected: {
+      kept: true,
+      primaryCategory: "infrastructure",
+      systemPressure: true,
+      reason: "kept because local logistics bottleneck affects delivery capability and reliability",
+      reasonRuleId: "signals_system_stress_or_easing"
+    }
+  },
+  {
+    name: "global price move with weak local transmission",
+    story: story(
+      "weak-global-price-transmission",
+      "Global oil price rises as Brent market tightens",
+      "No Philippine pump price, tariff, pass-through, or local supply effect was cited."
+    ),
+    expected: {
+      kept: true,
+      primaryCategory: "price",
+      systemPressure: false,
+      reason: "kept as a weak price signal because oil price movement is present but local transmission is not confirmed",
+      reasonRuleId: "affects_pricing_or_cost_transmission"
+    }
+  },
+  {
+    name: "policy announcement with no clear execution impact",
+    story: story(
+      "policy-no-execution",
+      "Government energy office announces clean energy future awareness campaign",
+      "The statement focused on public messaging and gave no measurable implementation details."
+    ),
+    expected: {
+      kept: false,
+      systemPressure: false,
+      reason: "excluded because campaign-style policy language lacks execution or system impact",
+      reasonRuleId: "esg_or_sustainability_pr"
+    }
+  },
+  {
+    name: "mixed demand and supply heatwave outage story",
+    story: story(
+      "heatwave-outage-demand-supply",
+      "Heatwave pushes peak demand as forced outage cuts generation capacity",
+      "Available supply tightened as power consumption rose and reserve margin fell."
+    ),
+    expected: {
+      kept: true,
+      primaryCategory: "supply",
+      systemPressure: true,
+      reason: "kept as supply-led stress despite demand pressure also being present",
+      reasonRuleId: "affects_supply_availability"
+    }
+  },
+  {
+    name: "heavy keyword overlap across categories",
+    story: story(
+      "overlap-tariff-grid-fuel-policy",
+      "ERC tariff ruling follows DOE directive after grid congestion and LNG fuel supply disruption",
+      "The recovery mechanism affects electricity rate pass-through while transmission constraints and import disruption remain unresolved."
+    ),
+    expected: {
+      kept: true,
+      primaryCategory: "policy",
+      systemPressure: true,
+      reason: "kept with one primary category from heavier policy evidence despite broad overlap",
+      reasonRuleId: "reflects_policy_intervention"
+    }
   }
 ];
