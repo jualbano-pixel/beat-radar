@@ -5,7 +5,12 @@ import {
   type EnergyExclusionRule,
   type EnergyInclusionRule
 } from "../config/energy-rules.js";
-import type { EnergySystemAxis, NormalizedStory, StoryDrop } from "./types.js";
+import type {
+  EnergyFilterSummary,
+  EnergySystemAxis,
+  NormalizedStory,
+  StoryDrop
+} from "./types.js";
 
 export type EnergyImportanceTierName = "high" | "medium" | "low_auto_exclude";
 
@@ -43,6 +48,156 @@ const ENERGY_CATEGORY_PRIORITY: EnergySystemAxis[] = [
   "external_forces"
 ];
 
+const SUPPLY_AVAILABILITY_TERMS = [
+  "generation capacity",
+  "capacity addition",
+  "available supply",
+  "outage",
+  "forced outage",
+  "maintenance",
+  "fuel supply",
+  "coal supply",
+  "lng supply",
+  "oil supply",
+  "imports",
+  "import disruption",
+  "reserve margin",
+  "supply agreement",
+  "power supply agreement",
+  "contracted capacity"
+];
+
+const SUPPLY_SYSTEM_CONTEXT_TERMS = [
+  "generation",
+  "power",
+  "electricity",
+  "plant",
+  "grid",
+  "reserve margin",
+  "import",
+  "imports",
+  "doe",
+  "ngcp"
+];
+
+const DEMAND_PRESSURE_TERMS = [
+  "power demand",
+  "electricity demand",
+  "peak demand",
+  "peak load",
+  "seasonal demand",
+  "seasonal load",
+  "load",
+  "industrial load",
+  "commercial load",
+  "power consumption",
+  "electricity consumption",
+  "demand growth",
+  "available supply",
+  "reserve margin"
+];
+
+const PRICE_TRANSMISSION_TERMS = [
+  "fuel price",
+  "pump price",
+  "price cut",
+  "price hike",
+  "price increase",
+  "price rollback",
+  "rollback",
+  "rollbacks",
+  "diesel",
+  "diesel price",
+  "gasoline",
+  "gasoline price",
+  "electricity rate",
+  "rates",
+  "rate increase",
+  "rate hike",
+  "rate cut",
+  "wesm",
+  "spot market",
+  "generation charge",
+  "generation charges",
+  "generation cost",
+  "generation costs",
+  "tariff",
+  "pass-through",
+  "pass through",
+  "recovery mechanism",
+  "p/kwh",
+  "centavos/kwh"
+];
+
+const POLICY_OPERATIONAL_ENERGY_TERMS = [
+  "doe",
+  "erc",
+  "energy",
+  "fuel",
+  "oil",
+  "electricity",
+  "power",
+  "generation",
+  "meralco",
+  "wesm",
+  "tariff",
+  "rate",
+  "rates",
+  "recovery mechanism",
+  "price control"
+];
+
+const EXTERNAL_DRIVER_TERMS = [
+  "brent",
+  "global oil",
+  "lng market",
+  "coal market",
+  "geopolitical",
+  "middle east",
+  "iran",
+  "truce",
+  "shipping",
+  "logistics",
+  "asean",
+  "regional supply"
+];
+
+const LOCAL_ENERGY_TRANSMISSION_TERMS = [
+  "meralco",
+  "pump price",
+  "fuel price",
+  "diesel",
+  "gasoline",
+  "electricity rate",
+  "generation charge",
+  "generation cost",
+  "tariff",
+  "pass-through",
+  "pass through",
+  "import disruption",
+  "coal supply",
+  "lng supply",
+  "oil supply",
+  "power supply",
+  "power demand",
+  "power generation",
+  "grid",
+  "reserve margin",
+  "wesm"
+];
+
+const LOCAL_TRANSMISSION_NEGATION_TERMS = [
+  "no philippine",
+  "no local",
+  "without local",
+  "no pump price",
+  "no tariff",
+  "no pass through",
+  "no pass-through",
+  "no local supply",
+  "no local effect"
+];
+
 const SYSTEM_PRESSURE_CATEGORY_HINTS: Record<EnergySystemAxis, string[]> = {
   supply: [
     "major outage",
@@ -67,7 +222,7 @@ const MATERIALITY_KEYWORDS = [
   "gigawatts",
   "kwh",
   "mwh",
-  "capacity",
+  "generation capacity",
   "commissioning",
   "commissioned",
   "commercial operations",
@@ -81,13 +236,25 @@ const MATERIALITY_KEYWORDS = [
   "fuel supply",
   "tariff",
   "rate hike",
+  "rate increase",
+  "rates",
+  "pump price",
+  "diesel price",
+  "gasoline price",
   "generation charge",
+  "generation cost",
+  "generation costs",
   "outage",
   "reserve margin",
   "red alert",
   "yellow alert",
   "import disruption",
-  "brownout"
+  "brownout",
+  "rehabilitation",
+  "epc",
+  "power plant",
+  "solar power plant",
+  "commercial operations"
 ];
 
 function normalizeText(value: string): string {
@@ -122,6 +289,10 @@ function matchedKeywords(text: string, keywords: string[]): string[] {
   return keywords.filter((keyword) => containsKeyword(text, keyword));
 }
 
+function hasAnyKeyword(text: string, keywords: string[]): boolean {
+  return matchedKeywords(text, keywords).length > 0;
+}
+
 function storyText(story: NormalizedStory): string {
   return `${story.title} ${story.summary ?? ""}`;
 }
@@ -141,15 +312,70 @@ function matchInclusionRules(text: string): EnergyRuleMatch[] {
   return energyInclusionRules.flatMap((rule: EnergyInclusionRule) => {
     const keywordMatches = matchedKeywords(text, rule.signalKeywords);
 
-    return keywordMatches.length > 0
+    return keywordMatches.length > 0 && passesInclusionRuleGate(rule, text)
       ? [{ id: rule.id, category: rule.category, keywordMatches }]
       : [];
   });
 }
 
+function passesInclusionRuleGate(rule: EnergyInclusionRule, text: string): boolean {
+  switch (rule.id) {
+    case "affects_supply_availability":
+      return (
+        hasAnyKeyword(text, SUPPLY_AVAILABILITY_TERMS) &&
+        (
+          hasAnyKeyword(text, [
+            "generation capacity",
+            "capacity addition",
+            "outage",
+            "forced outage",
+            "maintenance",
+            "coal supply",
+            "lng supply",
+            "oil supply",
+            "imports",
+            "import disruption",
+            "reserve margin",
+            "supply agreement",
+            "power supply agreement",
+            "contracted capacity"
+          ]) ||
+          hasAnyKeyword(text, SUPPLY_SYSTEM_CONTEXT_TERMS)
+        )
+      );
+    case "affects_pricing_or_cost_transmission":
+      return hasAnyKeyword(text, PRICE_TRANSMISSION_TERMS);
+    case "affects_demand_pressure":
+      return hasAnyKeyword(text, DEMAND_PRESSURE_TERMS);
+    case "reflects_policy_intervention":
+      return hasAnyKeyword(text, POLICY_OPERATIONAL_ENERGY_TERMS);
+    case "external_pressure_impacts_local_system":
+      return (
+        hasAnyKeyword(text, EXTERNAL_DRIVER_TERMS) &&
+        hasAnyKeyword(text, LOCAL_ENERGY_TRANSMISSION_TERMS) &&
+        !hasAnyKeyword(text, LOCAL_TRANSMISSION_NEGATION_TERMS)
+      );
+    default:
+      return true;
+  }
+}
+
 function matchMaterialitySignals(text: string): string[] {
   const keywordSignals = matchedKeywords(text, MATERIALITY_KEYWORDS);
-  const numericSignals = /\b\d+(?:\.\d+)?\s?(mw|gw|kwh|mwh|%|percent|billion|million|php|p\/kwh|pesos?)\b/i.test(text)
+  const hasEnergyMaterialityContext = keywordSignals.length > 0 || hasAnyKeyword(text, [
+    "electricity rate",
+    "fuel price",
+    "pump price",
+    "generation charge",
+    "generation cost",
+    "tariff",
+    "power plant",
+    "supply agreement",
+    "transmission",
+    "grid",
+    "outage"
+  ]);
+  const numericSignals = hasEnergyMaterialityContext && /\b\d+(?:\.\d+)?\s?(mw|gw|kwh|mwh|%|percent|billion|million|php|p\/kwh|pesos?)\b/i.test(text)
     ? ["quantified_energy_impact"]
     : [];
 
@@ -333,6 +559,21 @@ export function matchesEnergyHardExclusion(story: NormalizedStory): {
     excluded: classification.hardExcluded,
     matches: classification.exclusionMatches,
     overriddenMatches: classification.overriddenExclusionMatches
+  };
+}
+
+export function summarizeEnergyClassification(
+  classification: EnergyClassification
+): EnergyFilterSummary {
+  return {
+    primary_category: classification.primaryCategory,
+    system_pressure: classification.systemPressure,
+    demand_pressure: classification.demandPressure,
+    importance_tier: classification.importanceTier,
+    inclusion_rule_ids: classification.inclusionMatches.map((match) => match.id),
+    exclusion_rule_ids: classification.exclusionMatches.map((match) => match.id),
+    overridden_exclusion_rule_ids: classification.overriddenExclusionMatches.map((match) => match.id),
+    materiality_signals: classification.materialitySignals
   };
 }
 

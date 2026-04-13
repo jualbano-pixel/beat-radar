@@ -256,5 +256,80 @@ export const energyFilterFixtures: EnergyFilterFixture[] = [
       reason: "kept with one primary category from heavier policy evidence despite broad overlap",
       reasonRuleId: "reflects_policy_intervention"
     }
+  },
+  {
+    name: "fuel VAT policy does not default to supply",
+    story: story(
+      "fuel-vat-policy",
+      "Senator proposes removing VAT on fuel products",
+      "The tax measure would change cost allocation for motorists but cites no physical availability change."
+    ),
+    expected: {
+      kept: true,
+      primaryCategory: "policy",
+      systemPressure: false,
+      reason: "kept as policy intervention rather than physical supply",
+      reasonRuleId: "reflects_policy_intervention"
+    }
+  },
+  {
+    name: "Meralco generation cost rate increase",
+    story: story(
+      "meralco-generation-cost-rate-increase",
+      "Meralco raises rates on higher generation costs",
+      "The electricity rate increase reflects generation cost pass-through to consumers."
+    ),
+    expected: {
+      kept: true,
+      primaryCategory: "price",
+      systemPressure: false,
+      reason: "kept by price movement and cost transmission language",
+      reasonRuleId: "affects_pricing_or_cost_transmission"
+    }
+  },
+  {
+    name: "diesel gasoline pump price movement",
+    story: story(
+      "diesel-gasoline-pump-price-cut",
+      "Diesel price cut seen as gasoline rollback takes effect",
+      "The pump price movement eases fuel costs for local consumers."
+    ),
+    expected: {
+      kept: true,
+      primaryCategory: "price",
+      systemPressure: true,
+      reason: "kept by pump-price movement and system_pressure easing language",
+      reasonRuleId: "affects_pricing_or_cost_transmission"
+    }
+  },
+  {
+    name: "Agus Pulangi rehabilitation project",
+    story: story(
+      "agus-pulangi-rehabilitation",
+      "PSALM enters talks for Agus-Pulangi rehabilitation",
+      "The rehabilitation aims to improve hydropower reliability and restore generation capacity."
+    ),
+    expected: {
+      kept: true,
+      primaryCategory: "infrastructure",
+      systemPressure: false,
+      reason: "kept because rehabilitation affects execution and reliability",
+      reasonRuleId: "affects_grid_or_infrastructure_reliability"
+    }
+  },
+  {
+    name: "EPC solar power plant execution",
+    story: story(
+      "epc-solar-power-plant",
+      "Renewables firm seals EPC deal for solar power plant",
+      "The contract covers commissioning and commercial operations for new capacity."
+    ),
+    expected: {
+      kept: true,
+      primaryCategory: "infrastructure",
+      systemPressure: false,
+      reason: "kept because EPC execution changes project delivery timing",
+      reasonRuleId: "affects_grid_or_infrastructure_reliability"
+    }
   }
 ];

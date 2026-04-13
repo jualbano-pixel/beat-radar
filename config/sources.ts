@@ -223,4 +223,45 @@ export const sources: SourceDefinition[] = [
     daysBack: 60,
     preferNativeRssFetch: true
   },
+  {
+    name: "BusinessWorld Energy",
+    beat: "ph_sea_energy",
+    type: "rss",
+    url: "https://www.bworldonline.com/feed/",
+    maxItems: 35,
+    daysBack: 45
+  },
+  {
+    name: "Inquirer Business Energy",
+    beat: "ph_sea_energy",
+    type: "rss",
+    url: "https://business.inquirer.net/feed",
+    maxItems: 35,
+    daysBack: 45
+  },
+  {
+    name: "BusinessMirror Energy",
+    beat: "ph_sea_energy",
+    type: "rss",
+    url: "https://businessmirror.com.ph/business/feed/",
+    maxItems: 35,
+    daysBack: 45,
+    preferNativeRssFetch: true
+  },
+  {
+    name: "Philippine Star Business Energy",
+    beat: "ph_sea_energy",
+    type: "rss",
+    url: "https://www.philstar.com/rss/business",
+    maxItems: 30,
+    daysBack: 45
+  },
+  {
+    name: "Malaya Business",
+    beat: "ph_sea_energy",
+    type: "rss",
+    url: "https://malaya.com.ph/feed/",
+    maxItems: 30,
+    daysBack: 45
+  },
 ];

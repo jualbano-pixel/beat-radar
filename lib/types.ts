@@ -110,6 +110,17 @@ export type EnergyBeatStructure = {
   detects_system_pressure: boolean;
 };
 
+export type EnergyFilterSummary = {
+  primary_category?: EnergySystemAxis;
+  system_pressure: boolean;
+  demand_pressure: boolean;
+  importance_tier: "high" | "medium" | "low_auto_exclude";
+  inclusion_rule_ids: string[];
+  exclusion_rule_ids: string[];
+  overridden_exclusion_rule_ids: string[];
+  materiality_signals: string[];
+};
+
 export type SourceDefinition = {
   name: string;
   beat: Beat;
@@ -153,6 +164,7 @@ export type NormalizedStory = {
   reason_code?: ReasonCode;
   angle_signals?: string[];
   banking_signals?: BankingSignals;
+  energy_filter?: EnergyFilterSummary;
   movement_score?: number;
   cluster_id?: string;
   cluster_kind?: ClusterKind;
@@ -227,6 +239,7 @@ export type StoryDrop = {
   date?: string;
   reason: StoryDropReason;
   details?: string;
+  energy_filter?: EnergyFilterSummary;
 };
 
 export type ReviewResult = {

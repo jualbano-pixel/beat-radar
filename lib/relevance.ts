@@ -1,5 +1,9 @@
 import { relevanceConfigByBeat } from "../config/relevance.js";
 import { classifyBankingStory } from "./banking.js";
+import {
+  evaluateEnergyRelevance,
+  summarizeEnergyClassification
+} from "./energy-filter.js";
 import type { NormalizedStory, RelevanceResult, StoryDrop } from "./types.js";
 
 type RelevanceOptions = {
@@ -233,6 +237,10 @@ function isMotoringBeat(story: NormalizedStory): boolean {
 
 function isBankingBeat(story: NormalizedStory): boolean {
   return story.beat === "ph_sea_banking";
+}
+
+function isEnergyBeat(story: NormalizedStory): boolean {
+  return story.beat === "ph_sea_energy";
 }
 
 function hasMotoringLaunchSignal(text: string): boolean {
@@ -642,8 +650,34 @@ export function passesBaselineEditorialRelevance(story: NormalizedStory): boolea
 
 export function evaluateStoryRelevance(story: NormalizedStory): {
   kept: boolean;
+  story?: NormalizedStory;
   drop?: StoryDrop;
 } {
+  if (isEnergyBeat(story)) {
+    const evaluation = evaluateEnergyRelevance(story);
+    const energyFilter = summarizeEnergyClassification(evaluation.classification);
+
+    if (evaluation.kept) {
+      return {
+        kept: true,
+        story: {
+          ...story,
+          energy_filter: energyFilter
+        }
+      };
+    }
+
+    return {
+      kept: false,
+      drop: evaluation.drop
+        ? {
+            ...evaluation.drop,
+            energy_filter: energyFilter
+          }
+        : undefined
+    };
+  }
+
   if (isObviousJunk(story)) {
     const bankingClassification = isBankingBeat(story)
       ? classifyBankingStory(story)
@@ -705,7 +739,7 @@ export function filterStoriesByRelevance(
     const evaluation = evaluateStoryRelevance(story);
 
     if (evaluation.kept) {
-      kept.push(story);
+      kept.push(evaluation.story ?? story);
       continue;
     }
 

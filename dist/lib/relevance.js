@@ -7,6 +7,7 @@ exports.evaluateStoryRelevance = evaluateStoryRelevance;
 exports.filterStoriesByRelevance = filterStoriesByRelevance;
 const relevance_js_1 = require("../config/relevance.js");
 const banking_js_1 = require("./banking.js");
+const energy_filter_js_1 = require("./energy-filter.js");
 const NORMALIZATION_REPLACEMENTS = [
     [/dall[\s\u00b7._-]*e/gi, "dalle"],
     [/text[\s-]*to[\s-]*image/gi, "text to image"],
@@ -206,6 +207,9 @@ function isMotoringBeat(story) {
 }
 function isBankingBeat(story) {
     return story.beat === "ph_sea_banking";
+}
+function isEnergyBeat(story) {
+    return story.beat === "ph_sea_energy";
 }
 function hasMotoringLaunchSignal(text) {
     return matchesAny(text, MOTORING_LAUNCH_TERMS);
@@ -477,6 +481,28 @@ function passesBaselineEditorialRelevance(story) {
     return scoreStory(story) >= 2;
 }
 function evaluateStoryRelevance(story) {
+    if (isEnergyBeat(story)) {
+        const evaluation = (0, energy_filter_js_1.evaluateEnergyRelevance)(story);
+        const energyFilter = (0, energy_filter_js_1.summarizeEnergyClassification)(evaluation.classification);
+        if (evaluation.kept) {
+            return {
+                kept: true,
+                story: {
+                    ...story,
+                    energy_filter: energyFilter
+                }
+            };
+        }
+        return {
+            kept: false,
+            drop: evaluation.drop
+                ? {
+                    ...evaluation.drop,
+                    energy_filter: energyFilter
+                }
+                : undefined
+        };
+    }
     if (isObviousJunk(story)) {
         const bankingClassification = isBankingBeat(story)
             ? (0, banking_js_1.classifyBankingStory)(story)
@@ -526,7 +552,7 @@ function filterStoriesByRelevance(stories, options = {}) {
     for (const story of stories) {
         const evaluation = evaluateStoryRelevance(story);
         if (evaluation.kept) {
-            kept.push(story);
+            kept.push(evaluation.story ?? story);
             continue;
         }
         if (evaluation.drop) {
