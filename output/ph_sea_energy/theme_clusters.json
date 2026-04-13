@@ -2,33 +2,15 @@
   {
     "theme_id": "policy_governance",
     "theme_label": "policy and governance pressure",
-    "theme_summary": "policy and governance pressure is the shared editorial thread across 7 related stories. The strongest signal is cost pressure building.",
-    "story_count": 7,
+    "theme_summary": "policy and governance pressure is the shared editorial thread across 3 related stories. The strongest signal is policy pressure worth watching.",
+    "story_count": 3,
     "cluster_ids": [],
     "story_ids": [
       "0c0f52b4750c",
-      "59b99c4d280b",
-      "99d37238736f",
-      "02ba231cec0a",
-      "fda4b83c910c",
-      "ba275fee624c",
+      "c75b4ff4b861",
       "b3fd43cb230e"
     ],
     "associated_stories": [
-      {
-        "id": "ba275fee624c",
-        "title": "Meralco raises April rates on higher generation costs",
-        "url": "https://www.bworldonline.com/top-stories/2026/04/10/742077/meralco-raises-april-rates-on-higher-generation-costs",
-        "source": "BusinessWorld Energy",
-        "published_at": "2026-04-10T06:00:50.000Z"
-      },
-      {
-        "id": "02ba231cec0a",
-        "title": "Meralco hikes April rates by 53 centavos/kWh",
-        "url": "https://business.inquirer.net/584560/meralco-hikes-april-rates-by-53-centavos-kwh",
-        "source": "Inquirer Business Energy",
-        "published_at": "2026-04-10T10:50:41.000Z"
-      },
       {
         "id": "0c0f52b4750c",
         "title": "Psalm enters talks for Agus-Pulangi rehabilitation",
@@ -37,25 +19,11 @@
         "published_at": "2026-04-13T02:05:00.000Z"
       },
       {
-        "id": "59b99c4d280b",
-        "title": "Senator: Remove VAT on fuel products",
-        "url": "https://www.bworldonline.com/the-nation/2026/04/12/742289/senator-remove-vat-on-fuel-products",
-        "source": "BusinessWorld Energy",
-        "published_at": "2026-04-12T12:23:40.000Z"
-      },
-      {
-        "id": "99d37238736f",
-        "title": "DoE rules out travel for ASEAN energy meetings",
-        "url": "https://www.bworldonline.com/economy/2026/04/12/742276/doe-rules-out-travel-for-asean-energy-meetings",
-        "source": "BusinessWorld Energy",
-        "published_at": "2026-04-12T11:26:24.000Z"
-      },
-      {
-        "id": "fda4b83c910c",
-        "title": "DoE eyes fuel price rollback next week",
-        "url": "https://www.bworldonline.com/the-nation/2026/04/10/742100/doe-eyes-fuel-price-rollback-next-week",
-        "source": "BusinessWorld Energy",
-        "published_at": "2026-04-10T08:13:05.000Z"
+        "id": "c75b4ff4b861",
+        "title": "FIRST FUEL PRICE ROLLBACK THIS YEAR | Gasoline down by P4.43/liter; diesel by P20.89",
+        "url": "https://malaya.com.ph/business/business-news/first-fuel-price-rollback-this-year",
+        "source": "Malaya Business",
+        "published_at": "2026-04-12T16:36:00.000Z"
       },
       {
         "id": "b3fd43cb230e",
@@ -69,14 +37,14 @@
       "policy_regulatory_move"
     ],
     "dominant_angle_signals": [
-      "cost pressure building",
-      "local operators exposed",
-      "policy pressure worth watching"
+      "policy pressure worth watching",
+      "policy pressure building",
+      "cost pressure building"
     ],
     "top_story_refs": [
-      "ba275fee624c",
-      "02ba231cec0a",
-      "0c0f52b4750c"
+      "0c0f52b4750c",
+      "c75b4ff4b861",
+      "b3fd43cb230e"
     ]
   }
 ]

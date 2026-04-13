@@ -1,20 +1,6 @@
 {
   "top_stories": [
     {
-      "title": "Meralco raises April rates on higher generation costs",
-      "source": "BusinessWorld Energy",
-      "date": "2026-04-10T06:00:50.000Z",
-      "summary": "By Sheldeen Joy Talavera, Reporter Residential customers of Manila Electric Co. (Meralco) will face higher electricity bills this month after the distribution utility raised charges, driven mainly by higher generation costs linked to the peso’s depreciation. Meralco announced on Friday an increase of P0.5335 per kil...",
-      "tags": [
-        "general_ph_sea_energy"
-      ],
-      "priority_score": 4.4,
-      "priority_reasons": [
-        "broad_ecosystem_impact"
-      ],
-      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the ecosystem, such as enterprises, developers, platforms, users, or regulators. It has practical consequences beyond a narrow technical audience."
-    },
-    {
       "title": "‘Removing VAT on fuel risks PHL credit rating’",
       "source": "BusinessMirror Energy",
       "date": "2026-04-12T16:03:00.000Z",
@@ -29,18 +15,18 @@
       "why_it_matters": "This matters because it affects how AI systems are governed, evaluated, or deployed responsibly. Those choices can shape the broader direction of the market."
     },
     {
-      "title": "‘Higher coal use raises risks, costs for Philippines, Asean peers’",
-      "source": "Philippine Star Business Energy",
-      "date": "2026-04-12T16:00:00.000Z",
-      "summary": "The global oil crisis has forced the Philippines to lose momentum in its energy transition push, as it leans more heavily on coal power generation to cushion the impact of price shocks.",
+      "title": "House pushes fuel tax credit for immediate price relief",
+      "source": "BusinessWorld Energy",
+      "date": "2026-04-13T05:46:25.000Z",
+      "summary": "Congressmen are pushing a tax credit scheme to allow immediate fuel price cuts, challenging the Department of Finance’s (DoF) position that suspending excise taxes may only apply to future imports. Marikina Rep. Romero Federico “Miro” S. Quimbo, who heads the ways and means committee, said the government should ensu...",
       "tags": [
         "general_ph_sea_energy"
       ],
-      "priority_score": 3.1,
+      "priority_score": 1.6,
       "priority_reasons": [
-        "safety_or_governance"
+        "practical_usability_impact"
       ],
-      "why_it_matters": "This matters because it affects how AI systems are governed, evaluated, or deployed responsibly. Those choices can shape the broader direction of the market."
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
     },
     {
       "title": "ERC clarifies orders on bid of SMC units to recover cost",
@@ -50,10 +36,46 @@
       "tags": [
         "general_ph_sea_energy"
       ],
-      "priority_score": 1.4,
+      "priority_score": 1.2,
       "priority_reasons": [
         "practical_usability_impact"
       ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Oil price watch: Fuel prices down by as much as P23/liter this week",
+      "source": "Inquirer Business Energy",
+      "date": "2026-04-13T12:30:43.000Z",
+      "summary": "(UPDATED AS OF 4:30 pm) MANILA, Philippines — After weeks of sharp price increases, local fuel retailers are set to implement downward adjustments in pump prices, with Shell Pilipinas making the biggest cut of as much as P23 per liter. In an advisory on Monday, Shell Pilipinas said the P23 per liter reduction in its...",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Marcos rolls out fuel, food measures as oil crisis deepens",
+      "source": "Malaya Business",
+      "date": "2026-04-13T08:48:07.000Z",
+      "summary": "President Ferdinand Marcos Jr. on Monday ordered a series of fuel, food, and trade interventions, including tax cuts and price controls, as the government moved to cushion households from the escalating global oil crisis. The interventions include a package of measures, including the removal of excise taxes on lique...",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Marcos suspends excise tax on kerosene, LPG; waives tariff on food imports",
+      "source": "Philippine Star Business Energy",
+      "date": "2026-04-13T08:39:00.000Z",
+      "summary": "President lifts excise taxes on LPG and kerosene to ease fuel costs.",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
       "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
     },
     {
@@ -69,34 +91,10 @@
       "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
     },
     {
-      "title": "Oil tax cut seen yielding economic and political dividends despite price dip",
-      "source": "BusinessWorld Energy",
-      "date": "2026-04-12T12:26:49.000Z",
-      "summary": "A TEMPORARY fuel tax cut under Republic Act No. 12316 could still provide economic relief even as global oil prices soften following a ceasefire in the Middle East, analysts said, arguing that the timing of the measure could cushion households and transport operators from lingering cost pressures.",
-      "tags": [
-        "general_ph_sea_energy"
-      ],
-      "priority_score": 0.6,
-      "priority_reasons": [],
-      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
-    },
-    {
-      "title": "Senator: Remove VAT on fuel products",
-      "source": "BusinessWorld Energy",
-      "date": "2026-04-12T12:23:40.000Z",
-      "summary": "A SENATOR on Sunday called on the government to abolish value-added tax (VAT) on oil products to address rising fuel costs and its impacts on the agricultural sector. “The [rising fuel costs] will not only affect the fisherfolk. If they stop fishing, the food prices will also increase,” Senator Maria Imelda Josefa R...",
-      "tags": [
-        "general_ph_sea_energy"
-      ],
-      "priority_score": 0.6,
-      "priority_reasons": [],
-      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
-    },
-    {
-      "title": "DoE rules out travel for ASEAN energy meetings",
-      "source": "BusinessWorld Energy",
-      "date": "2026-04-12T11:26:24.000Z",
-      "summary": "THE Department of Energy (DoE) will turn to virtual meetings for Association of Southeast Asian Nations (ASEAN) energy discussions, citing the need to save energy with fuel prices remaining volatile due to the fighting in the Middle East. In a statement on Sunday, the DoE said the shift to virtual covers the succeed...",
+      "title": "Fuel tax collections up 15% amid transport protests",
+      "source": "Philippine Star Business Energy",
+      "date": "2026-04-13T01:34:00.000Z",
+      "summary": "Fuel tax collections surged during the oil price spike as transport groups call for tax cuts.",
       "tags": [
         "general_ph_sea_energy"
       ],
@@ -107,6 +105,54 @@
   ],
   "secondary_signals": [
     {
+      "title": "Price Tracker: Oil, fuel monitor for Apr. 13",
+      "source": "Philippine Star Business Energy",
+      "date": "2026-04-12T23:00:00.000Z",
+      "summary": "After weeks of increases, the government now expects a sharp fuel rollback, though officials say the oil shock is not over.",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "FIRST FUEL PRICE ROLLBACK THIS YEAR | Gasoline down by P4.43/liter; diesel by P20.89",
+      "source": "Malaya Business",
+      "date": "2026-04-12T16:36:00.000Z",
+      "summary": "Fuel prices are set for sharp rollbacks this week, with reductions expected to reach at least P4.43 per liter for gasoline and as much as P20.89 per liter for diesel, the Department of Energy (DOE) said on Sunday. Energy Secretary Sharon Garin said that actual pump prices may vary across stations, but the minimum ro...",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Diesel price rollback seen at P20 per liter",
+      "source": "BusinessWorld Energy",
+      "date": "2026-04-12T16:34:59.000Z",
+      "summary": "MOTORISTS are finally getting a much-needed break after weeks of hefty increases, as the Department of Energy expects pump price rollbacks, with diesel prices seen dropping by at least P20 per liter (/l).",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Energy shocks drive higher coal use in region",
+      "source": "BusinessWorld Energy",
+      "date": "2026-04-12T16:02:46.000Z",
+      "summary": "SOUTHEAST ASIA is leaning more heavily on coal-fired power generation amid global oil shocks, with countries such as the Philippines seeing increased reliance, according to international research group Zero Carbon Analytics (ZCA). In its latest analysis, ZCA said the surge in oil and gas prices following the outbrea...",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
       "title": "Possible diesel rollback now estimated at P8.80-P10.80/liter",
       "source": "Inquirer Business Energy",
       "date": "2026-04-11T09:54:42.000Z",
@@ -114,7 +160,7 @@
       "tags": [
         "general_ph_sea_energy"
       ],
-      "priority_score": 0.6,
+      "priority_score": 0.4,
       "priority_reasons": [],
       "note": "Useful supporting editorial signal."
     },
@@ -123,42 +169,6 @@
       "source": "Inquirer Business Energy",
       "date": "2026-04-11T05:30:00.000Z",
       "summary": "MANILA, Philippines — A cut in local diesel prices — about double what was initially expected — will provide a little relief to consumers next week as a ceasefire in the Middle East war continues to hold. After weeks of double-digit increases in diesel prices, an industry source said on Friday that prices could be",
-      "tags": [
-        "general_ph_sea_energy"
-      ],
-      "priority_score": 0.6,
-      "priority_reasons": [],
-      "note": "Useful supporting editorial signal."
-    },
-    {
-      "title": "Meralco hikes April rates by 53 centavos/kWh",
-      "source": "Inquirer Business Energy",
-      "date": "2026-04-10T10:50:41.000Z",
-      "summary": "MANILA, Philippines – More than 8 million consumers of Manila Electric Co. (Meralco) will receive bigger power bills this month after the electricity distributor announced a rate hike of 53 centavos per kilowatt hour (kWh). READ: meralco-q1-energy-sales-soften This means that those consuming 200 kWh a month will pay...",
-      "tags": [
-        "general_ph_sea_energy"
-      ],
-      "priority_score": 0.4,
-      "priority_reasons": [],
-      "note": "Useful supporting editorial signal."
-    },
-    {
-      "title": "Diesel rollback may hit P6.50/liter next week",
-      "source": "Inquirer Business Energy",
-      "date": "2026-04-10T09:49:00.000Z",
-      "summary": "MANILA, Philippines – A bigger diesel rollback of up to P6.50 a liter is seen next week, amid the two-week ceasefire between the United States and Iran. Based on the first four trading days this week, an industry source said that diesel prices could drop by P5.50 to P6.50 a liter. This is higher than",
-      "tags": [
-        "general_ph_sea_energy"
-      ],
-      "priority_score": 0.4,
-      "priority_reasons": [],
-      "note": "Useful supporting editorial signal."
-    },
-    {
-      "title": "DoE eyes fuel price rollback next week",
-      "source": "BusinessWorld Energy",
-      "date": "2026-04-10T08:13:05.000Z",
-      "summary": "The Department of Energy (DoE) said on Friday that fuel prices may roll back next week after consecutive weeks of price hikes, as the United States and Iran enter a two-week ceasefire. “Based on the trend within the past four days, there is a rollback,” Energy Secretary Sharon S. Garin said in Filipino during a […]",
       "tags": [
         "general_ph_sea_energy"
       ],
@@ -174,22 +184,8 @@
       "tags": [
         "general_ph_sea_energy"
       ],
-      "priority_score": 0.4,
+      "priority_score": 0.2,
       "priority_reasons": [],
-      "note": "Useful supporting editorial signal."
-    },
-    {
-      "title": "Subsidies, tax incentives proposed",
-      "source": "BusinessMirror Energy",
-      "date": "2026-04-09T11:53:06.000Z",
-      "summary": "PRESIDENT Ferdinand R. Marcos Jr. is now studying the proposals of advisers on how to boost employment generation, which includes releasing targeted subsidies and extension of tax incentives to some firms, amid the growing economic impact of the Middle East conflict.",
-      "tags": [
-        "general_ph_sea_energy"
-      ],
-      "priority_score": -0.6,
-      "priority_reasons": [
-        "minor_or_routine"
-      ],
       "note": "Useful supporting editorial signal."
     }
   ]

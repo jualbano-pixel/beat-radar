@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "theme_id": "policy_governance",
+    "theme_label": "policy and governance pressure",
+    "theme_summary": "policy and governance pressure is the shared editorial thread across 3 related stories. The strongest signal is policy pressure worth watching.",
+    "story_count": 3,
+    "cluster_ids": [],
+    "story_ids": [
+      "0c0f52b4750c",
+      "c75b4ff4b861",
+      "b3fd43cb230e"
+    ],
+    "associated_stories": [
+      {
+        "id": "0c0f52b4750c",
+        "title": "Psalm enters talks for Agus-Pulangi rehabilitation",
+        "url": "https://business.inquirer.net/584885/psalm-enters-talks-for-agus-pulangi-rehabilitation",
+        "source": "Inquirer Business Energy",
+        "published_at": "2026-04-13T02:05:00.000Z"
+      },
+      {
+        "id": "c75b4ff4b861",
+        "title": "FIRST FUEL PRICE ROLLBACK THIS YEAR | Gasoline down by P4.43/liter; diesel by P20.89",
+        "url": "https://malaya.com.ph/business/business-news/first-fuel-price-rollback-this-year",
+        "source": "Malaya Business",
+        "published_at": "2026-04-12T16:36:00.000Z"
+      },
+      {
+        "id": "b3fd43cb230e",
+        "title": "ERC clarifies orders on bid of SMC units to recover cost",
+        "url": "https://businessmirror.com.ph/2026/04/09/erc-clarifies-orders-on-bid-of-smc-units-to-recover-cost",
+        "source": "BusinessMirror Energy",
+        "published_at": "2026-04-09T12:15:32.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "policy_regulatory_move"
+    ],
+    "dominant_angle_signals": [
+      "policy pressure worth watching",
+      "policy pressure building",
+      "cost pressure building"
+    ],
+    "top_story_refs": [
+      "0c0f52b4750c",
+      "c75b4ff4b861",
+      "b3fd43cb230e"
+    ]
+  }
+]

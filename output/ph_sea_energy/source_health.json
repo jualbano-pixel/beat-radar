@@ -5,12 +5,12 @@
     "health": "healthy",
     "fetchedCount": 30,
     "normalizedCount": 30,
-    "droppedCount": 25,
-    "keptCount": 5,
+    "droppedCount": 27,
+    "keptCount": 3,
     "beat": "ph_sea_energy",
     "url": "https://www.bworldonline.com/feed/",
     "type": "rss",
-    "checkedAt": "2026-04-12T18:29:19.434Z"
+    "checkedAt": "2026-04-13T15:03:43.441Z"
   },
   {
     "source": "Inquirer Business Energy",
@@ -18,12 +18,12 @@
     "health": "healthy",
     "fetchedCount": 40,
     "normalizedCount": 40,
-    "droppedCount": 35,
-    "keptCount": 5,
+    "droppedCount": 36,
+    "keptCount": 4,
     "beat": "ph_sea_energy",
     "url": "https://business.inquirer.net/feed",
     "type": "rss",
-    "checkedAt": "2026-04-12T18:29:19.434Z"
+    "checkedAt": "2026-04-13T15:03:43.441Z"
   },
   {
     "source": "BusinessMirror Energy",
@@ -31,12 +31,12 @@
     "health": "healthy",
     "fetchedCount": 30,
     "normalizedCount": 30,
-    "droppedCount": 26,
-    "keptCount": 4,
+    "droppedCount": 27,
+    "keptCount": 3,
     "beat": "ph_sea_energy",
     "url": "https://businessmirror.com.ph/business/feed/",
     "type": "rss",
-    "checkedAt": "2026-04-12T18:29:19.434Z"
+    "checkedAt": "2026-04-13T15:03:43.441Z"
   },
   {
     "source": "Philippine Star Business Energy",
@@ -44,12 +44,12 @@
     "health": "healthy",
     "fetchedCount": 20,
     "normalizedCount": 20,
-    "droppedCount": 19,
-    "keptCount": 1,
+    "droppedCount": 17,
+    "keptCount": 3,
     "beat": "ph_sea_energy",
     "url": "https://www.philstar.com/rss/business",
     "type": "rss",
-    "checkedAt": "2026-04-12T18:29:19.434Z"
+    "checkedAt": "2026-04-13T15:03:43.441Z"
   },
   {
     "source": "Malaya Business",
@@ -57,11 +57,11 @@
     "health": "healthy",
     "fetchedCount": 10,
     "normalizedCount": 10,
-    "droppedCount": 10,
-    "keptCount": 0,
+    "droppedCount": 8,
+    "keptCount": 2,
     "beat": "ph_sea_energy",
     "url": "https://malaya.com.ph/feed/",
     "type": "rss",
-    "checkedAt": "2026-04-12T18:29:19.434Z"
+    "checkedAt": "2026-04-13T15:03:43.441Z"
   }
 ]

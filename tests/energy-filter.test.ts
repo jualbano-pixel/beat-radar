@@ -28,7 +28,9 @@ for (const fixture of energyFilterFixtures) {
   const overriddenRuleIds = classification.overriddenExclusionMatches.map((match) => match.id);
   const actualReasonRuleIds = result.kept
     ? [...inclusionRuleIds, ...overriddenRuleIds]
-    : exclusionRuleIds;
+    : exclusionRuleIds.length > 0
+      ? exclusionRuleIds
+      : ["no_energy_inclusion_match"];
 
   assert.ok(
     actualReasonRuleIds.includes(fixture.expected.reasonRuleId),

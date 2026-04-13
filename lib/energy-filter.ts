@@ -68,14 +68,16 @@ const SUPPLY_AVAILABILITY_TERMS = [
 ];
 
 const SUPPLY_SYSTEM_CONTEXT_TERMS = [
+  "fuel",
+  "coal",
+  "lng",
+  "oil",
   "generation",
   "power",
   "electricity",
   "plant",
   "grid",
   "reserve margin",
-  "import",
-  "imports",
   "doe",
   "ngcp"
 ];
@@ -99,7 +101,9 @@ const DEMAND_PRESSURE_TERMS = [
 
 const PRICE_TRANSMISSION_TERMS = [
   "fuel price",
+  "fuel prices",
   "pump price",
+  "pump prices",
   "price cut",
   "price hike",
   "price increase",
@@ -129,22 +133,141 @@ const PRICE_TRANSMISSION_TERMS = [
   "centavos/kwh"
 ];
 
+const PRICE_ENERGY_CONTEXT_TERMS = [
+  "fuel",
+  "fuel price",
+  "fuel prices",
+  "pump price",
+  "pump prices",
+  "oil price",
+  "diesel",
+  "gasoline",
+  "kerosene",
+  "lpg",
+  "electricity",
+  "electricity rate",
+  "electricity rates",
+  "power rate",
+  "power rates",
+  "meralco",
+  "wesm",
+  "spot market",
+  "generation charge",
+  "generation charges",
+  "generation cost",
+  "generation costs",
+  "tariff",
+  "pass-through",
+  "pass through",
+  "recovery mechanism",
+  "p/kwh",
+  "centavos/kwh"
+];
+
+const PRICE_MOVEMENT_OR_TRANSMISSION_TERMS = [
+  "down",
+  "up",
+  "rise",
+  "rises",
+  "rising",
+  "raise",
+  "raises",
+  "raised",
+  "hike",
+  "hikes",
+  "cut",
+  "cuts",
+  "rollback",
+  "rollbacks",
+  "lower",
+  "lowered",
+  "higher",
+  "increase",
+  "increases",
+  "decrease",
+  "decreases",
+  "easing",
+  "eases",
+  "pass-through",
+  "pass through",
+  "tariff",
+  "recovery mechanism",
+  "generation cost",
+  "generation costs",
+  "p/kwh",
+  "centavos/kwh",
+  "per liter",
+  "liter"
+];
+
 const POLICY_OPERATIONAL_ENERGY_TERMS = [
-  "doe",
-  "erc",
-  "energy",
+  "fuel products",
+  "fuel price",
+  "pump price",
+  "diesel",
+  "gasoline",
+  "kerosene",
+  "lpg",
   "fuel",
   "oil",
-  "electricity",
-  "power",
-  "generation",
+  "electricity rate",
+  "electricity rates",
+  "power rate",
+  "power rates",
+  "power generation",
+  "generation charge",
+  "generation cost",
+  "grid",
+  "energy infrastructure",
   "meralco",
   "wesm",
   "tariff",
-  "rate",
   "rates",
+  "energy cost",
+  "energy costs",
+  "cost burden",
+  "burden shifting",
   "recovery mechanism",
+  "recover cost",
   "price control"
+];
+
+const POLICY_REGULATORY_ACTION_TERMS = [
+  "directive",
+  "ruling",
+  "order",
+  "orders",
+  "approves",
+  "approved",
+  "clarifies",
+  "recovery mechanism",
+  "tariff",
+  "price control",
+  "fuel price rollback"
+];
+
+const POLICY_FISCAL_TERMS = [
+  "subsidy",
+  "subsidies",
+  "tax",
+  "taxes",
+  "incentive",
+  "incentives",
+  "vat"
+];
+
+const ADMINISTRATIVE_LOGISTICS_TERMS = [
+  "travel",
+  "meeting",
+  "meetings",
+  "attendance",
+  "delegation",
+  "event participation",
+  "conference",
+  "forum",
+  "summit",
+  "virtual meeting",
+  "virtual meetings"
 ];
 
 const EXTERNAL_DRIVER_TERMS = [
@@ -333,7 +456,6 @@ function passesInclusionRuleGate(rule: EnergyInclusionRule, text: string): boole
             "coal supply",
             "lng supply",
             "oil supply",
-            "imports",
             "import disruption",
             "reserve margin",
             "supply agreement",
@@ -344,11 +466,15 @@ function passesInclusionRuleGate(rule: EnergyInclusionRule, text: string): boole
         )
       );
     case "affects_pricing_or_cost_transmission":
-      return hasAnyKeyword(text, PRICE_TRANSMISSION_TERMS);
+      return (
+        hasAnyKeyword(text, PRICE_TRANSMISSION_TERMS) &&
+        hasAnyKeyword(text, PRICE_ENERGY_CONTEXT_TERMS) &&
+        hasAnyKeyword(text, PRICE_MOVEMENT_OR_TRANSMISSION_TERMS)
+      );
     case "affects_demand_pressure":
       return hasAnyKeyword(text, DEMAND_PRESSURE_TERMS);
     case "reflects_policy_intervention":
-      return hasAnyKeyword(text, POLICY_OPERATIONAL_ENERGY_TERMS);
+      return passesPolicyInclusionGate(text);
     case "external_pressure_impacts_local_system":
       return (
         hasAnyKeyword(text, EXTERNAL_DRIVER_TERMS) &&
@@ -358,6 +484,28 @@ function passesInclusionRuleGate(rule: EnergyInclusionRule, text: string): boole
     default:
       return true;
   }
+}
+
+function passesPolicyInclusionGate(text: string): boolean {
+  if (
+    hasAnyKeyword(text, ADMINISTRATIVE_LOGISTICS_TERMS) &&
+    !hasAnyKeyword(text, POLICY_REGULATORY_ACTION_TERMS)
+  ) {
+    return false;
+  }
+
+  if (hasAnyKeyword(text, POLICY_FISCAL_TERMS)) {
+    return hasAnyKeyword(text, POLICY_OPERATIONAL_ENERGY_TERMS);
+  }
+
+  if (hasAnyKeyword(text, ["doe", "erc"])) {
+    return (
+      hasAnyKeyword(text, POLICY_REGULATORY_ACTION_TERMS) &&
+      hasAnyKeyword(text, POLICY_OPERATIONAL_ENERGY_TERMS)
+    );
+  }
+
+  return hasAnyKeyword(text, POLICY_OPERATIONAL_ENERGY_TERMS);
 }
 
 function matchMaterialitySignals(text: string): string[] {
@@ -455,6 +603,13 @@ function scoreCategories(inclusionMatches: EnergyRuleMatch[]): Record<EnergySyst
     }
 
     scores[match.category] += match.keywordMatches.length;
+
+    if (
+      match.id === "reflects_policy_intervention" &&
+      matchedKeywords(match.keywordMatches.join(" "), POLICY_FISCAL_TERMS).length > 0
+    ) {
+      scores.policy += 2;
+    }
   }
 
   return scores;

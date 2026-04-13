@@ -193,7 +193,9 @@ export const energyInclusionRules: EnergyInclusionRule[] = [
     signalKeywords: [
       "oil price",
       "fuel price",
+      "fuel prices",
       "pump price",
+      "pump prices",
       "pump-price",
       "price cut",
       "price hike",
@@ -342,6 +344,27 @@ export const energyExclusionRules: EnergyExclusionRule[] = [
     allowIfSystemImpact: true,
     materialityOverride:
       "Keep system-relevant partnerships, contracts, or projects when they materially affect supply, price, infrastructure, reliability, execution timing, or policy burden."
+  },
+  {
+    id: "administrative_government_logistics",
+    excludeIf: "The story is about government travel, meeting attendance, delegation logistics, or event participation without operational Energy system impact.",
+    hardFilter: true,
+    signalKeywords: [
+      "travel",
+      "meeting",
+      "meetings",
+      "attendance",
+      "delegation",
+      "event participation",
+      "conference",
+      "forum",
+      "summit",
+      "virtual meeting",
+      "virtual meetings"
+    ],
+    allowIfSystemImpact: true,
+    materialityOverride:
+      "Keep if the travel or meeting decision directly changes supply, price, grid reliability, regulation, tariffs, cost recovery, or execution timing."
   },
   {
     id: "non_system_announcement",

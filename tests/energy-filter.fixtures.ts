@@ -331,5 +331,135 @@ export const energyFilterFixtures: EnergyFilterFixture[] = [
       reason: "kept because EPC execution changes project delivery timing",
       reasonRuleId: "affects_grid_or_infrastructure_reliability"
     }
+  },
+  {
+    name: "administrative DOE meeting logistics",
+    story: story(
+      "doe-meeting-logistics",
+      "DOE rules out travel for ASEAN energy meetings",
+      "The agency shifted attendance to virtual meetings to reduce travel costs, with no operational market decision."
+    ),
+    expected: {
+      kept: false,
+      systemPressure: false,
+      reason: "excluded because meeting logistics do not change the Energy system",
+      reasonRuleId: "administrative_government_logistics"
+    }
+  },
+  {
+    name: "generic subsidies and tax incentives",
+    story: story(
+      "generic-subsidies-tax-incentives",
+      "Subsidies and tax incentives proposed to boost employment",
+      "The proposal covers broad employer support and does not identify a direct utility charge or household cost allocation."
+    ),
+    expected: {
+      kept: false,
+      systemPressure: false,
+      reason: "excluded because fiscal policy lacks direct Energy burden shifting",
+      reasonRuleId: "no_energy_inclusion_match"
+    }
+  },
+  {
+    name: "valid fuel subsidy burden shifting",
+    story: story(
+      "fuel-subsidy-burden-shifting",
+      "Fuel subsidy proposed as diesel prices rise",
+      "The subsidy would shift energy cost burden from transport consumers after pump price increases."
+    ),
+    expected: {
+      kept: true,
+      primaryCategory: "policy",
+      systemPressure: false,
+      reason: "kept because the subsidy directly affects fuel cost burden",
+      reasonRuleId: "reflects_policy_intervention"
+    }
+  },
+  {
+    name: "financial market rates excluded",
+    story: story(
+      "financial-market-rates",
+      "T-bill rates ease across all tenors",
+      "Treasury yields fell as investors monitored US-Iran talks."
+    ),
+    expected: {
+      kept: false,
+      systemPressure: false,
+      reason: "excluded because financial rates are not Energy price transmission",
+      reasonRuleId: "no_energy_inclusion_match"
+    }
+  },
+  {
+    name: "non energy commodity imports excluded",
+    story: story(
+      "abaca-imports",
+      "Abaca users forced to import as producers untangle supply chain",
+      "The fiber industry faces commodity supply chain issues and imports from Ecuador."
+    ),
+    expected: {
+      kept: false,
+      systemPressure: false,
+      reason: "excluded because imports do not affect Energy supply availability",
+      reasonRuleId: "no_energy_inclusion_match"
+    }
+  },
+  {
+    name: "valid fuel import availability",
+    story: story(
+      "fuel-import-availability",
+      "LNG supply imports delayed, tightening fuel availability for power plants",
+      "The import disruption affects generation fuel and reserve margin planning."
+    ),
+    expected: {
+      kept: true,
+      primaryCategory: "supply",
+      systemPressure: true,
+      reason: "kept because imports affect physical Energy availability",
+      reasonRuleId: "affects_supply_availability"
+    }
+  },
+  {
+    name: "valid electricity rates",
+    story: story(
+      "valid-electricity-rates",
+      "Electricity rates rise on higher generation costs",
+      "Generation cost pass-through lifted the retail power rate."
+    ),
+    expected: {
+      kept: true,
+      primaryCategory: "price",
+      systemPressure: false,
+      reason: "kept because electricity rates reflect Energy cost transmission",
+      reasonRuleId: "affects_pricing_or_cost_transmission"
+    }
+  },
+  {
+    name: "valid plural fuel prices",
+    story: story(
+      "plural-fuel-prices",
+      "Oil price watch: Fuel prices down by as much as P23 per liter",
+      "Local pump prices moved lower for gasoline and diesel."
+    ),
+    expected: {
+      kept: true,
+      primaryCategory: "price",
+      systemPressure: false,
+      reason: "kept because plural fuel prices are Energy price movement",
+      reasonRuleId: "affects_pricing_or_cost_transmission"
+    }
+  },
+  {
+    name: "fuel price monitoring without movement excluded",
+    story: story(
+      "fuel-price-monitoring",
+      "PCC expands monitoring of fuel prices",
+      "The agency said it will monitor industries dependent on fuel inputs."
+    ),
+    expected: {
+      kept: false,
+      systemPressure: false,
+      reason: "excluded because monitoring fuel prices does not state movement or cost transmission",
+      reasonRuleId: "no_energy_inclusion_match"
+    }
   }
 ];
