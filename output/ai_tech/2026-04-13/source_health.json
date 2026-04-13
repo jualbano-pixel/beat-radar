@@ -1,0 +1,80 @@
+[
+  {
+    "source": "TechCrunch",
+    "success": true,
+    "health": "healthy",
+    "fetchedCount": 20,
+    "normalizedCount": 20,
+    "droppedCount": 11,
+    "keptCount": 9,
+    "beat": "ai_tech",
+    "url": "https://techcrunch.com/feed/",
+    "type": "rss",
+    "checkedAt": "2026-04-13T02:44:47.443Z"
+  },
+  {
+    "source": "The Verge",
+    "success": true,
+    "health": "healthy",
+    "fetchedCount": 10,
+    "normalizedCount": 10,
+    "droppedCount": 7,
+    "keptCount": 3,
+    "beat": "ai_tech",
+    "url": "https://www.theverge.com/rss/index.xml",
+    "type": "rss",
+    "checkedAt": "2026-04-13T02:44:47.443Z"
+  },
+  {
+    "source": "Wired",
+    "success": true,
+    "health": "healthy",
+    "fetchedCount": 50,
+    "normalizedCount": 50,
+    "droppedCount": 38,
+    "keptCount": 12,
+    "beat": "ai_tech",
+    "url": "https://www.wired.com/feed/rss",
+    "type": "rss",
+    "checkedAt": "2026-04-13T02:44:47.443Z"
+  },
+  {
+    "source": "OpenAI Blog",
+    "success": true,
+    "health": "healthy",
+    "fetchedCount": 934,
+    "normalizedCount": 934,
+    "droppedCount": 894,
+    "keptCount": 40,
+    "beat": "ai_tech",
+    "url": "https://openai.com/news/rss.xml",
+    "type": "rss",
+    "checkedAt": "2026-04-13T02:44:47.443Z"
+  },
+  {
+    "source": "Google AI Blog",
+    "success": true,
+    "health": "healthy",
+    "fetchedCount": 20,
+    "normalizedCount": 20,
+    "droppedCount": 3,
+    "keptCount": 17,
+    "beat": "ai_tech",
+    "url": "https://blog.google/technology/ai/rss/",
+    "type": "rss",
+    "checkedAt": "2026-04-13T02:44:47.443Z"
+  },
+  {
+    "source": "NVIDIA Blog",
+    "success": true,
+    "health": "healthy",
+    "fetchedCount": 18,
+    "normalizedCount": 18,
+    "droppedCount": 3,
+    "keptCount": 15,
+    "beat": "ai_tech",
+    "url": "https://feeds.feedburner.com/nvidiablog",
+    "type": "rss",
+    "checkedAt": "2026-04-13T02:44:47.443Z"
+  }
+]

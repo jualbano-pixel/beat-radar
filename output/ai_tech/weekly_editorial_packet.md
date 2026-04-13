@@ -10,8 +10,8 @@ Week of 2026-04-06
 - Tension: ambition vs capacity
 - Supporting stories:
 - [Accelerating the next phase of AI](https://openai.com/index/accelerating-the-next-phase-ai) | OpenAI Blog | Shows where policy pressure is starting to change operating choices.
+- [Rockstar Games says hack will have ‘no impact’](https://www.theverge.com/games/910815/rockstar-games-says-hack-will-have-no-impact) | The Verge | Shows where strategy is running into execution reality.
 - [More Than Meets the Eye: NVIDIA RTX-Accelerated Computers Now Connect Directly to Apple Vision Pro](https://blogs.nvidia.com/blog/nvidia-cloudxr-apple-vision-pro) | NVIDIA Blog | Shows how regulation is starting to shape the playbook.
-- [New ways to balance cost and reliability in the Gemini API](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference) | Google AI Blog | Shows where strategy is running into execution reality.
 
 ### enterprise adoption
 - Why it matters: Enterprise rollout is getting pushed into the market before demand, ROI, and operating confidence have fully settled.
@@ -28,8 +28,8 @@ Week of 2026-04-06
 - Tension: momentum vs operating reality
 - Supporting stories:
 - [Anthropic’s Mythos Will Force a Cybersecurity Reckoning—Just Not the One You Think](https://www.wired.com/story/anthropics-mythos-will-force-a-cybersecurity-reckoning-just-not-the-one-you-think) | Wired | Shows where platform control is shifting into developer workflow.
-- [Little Snitch's software counter surveillance jumps from Mac to Linux](https://www.theverge.com/tech/909975/little-snitch-linux-launch) | The Verge | Shows how the fight is moving into the tooling layer.
-- [Build with Lyria 3, our newest music generation model](https://blog.google/innovation-and-ai/technology/developers-tools/lyria-3-developers) | Google AI Blog | Makes the infrastructure strain visible.
+- [Build with Lyria 3, our newest music generation model](https://blog.google/innovation-and-ai/technology/developers-tools/lyria-3-developers) | Google AI Blog | Shows how the fight is moving into the tooling layer.
+- [Helping developers build safer AI experiences for teens](https://openai.com/index/teen-safety-policies-gpt-oss-safeguard) | OpenAI Blog | Shows how safety posture is becoming part of product strategy.
 
 ### capital caution
 - Why it matters: Funding and pricing claims are worth tracking because they reveal where AI demand still looks less settled than the narrative suggests.
@@ -47,7 +47,7 @@ Week of 2026-04-06
 - Supporting stories:
 - [ChatGPT for customer success teams](https://openai.com/academy/customer-success) | OpenAI Blog | Shows how vendors are adjusting price and packaging to pull users deeper in.
 - [ChatGPT for operations teams](https://openai.com/academy/operations) | OpenAI Blog | Makes the monetization push easier to see.
-- [ChatGPT for finance teams](https://openai.com/academy/finance) | OpenAI Blog | Gives the theme a concrete operating example.
+- [ChatGPT for marketing teams](https://openai.com/academy/marketing) | OpenAI Blog | Makes the demand and pricing question harder to ignore.
 
 ## Structural shifts
 
@@ -59,21 +59,21 @@ Week of 2026-04-06
 - [Efficiency at Scale: NVIDIA, Energy Leaders Accelerating Power‑Flexible AI Factories to Fortify the Grid](https://blogs.nvidia.com/blog/energy-efficiency-ai-factories-grid) | NVIDIA Blog | Shows where policy pressure is starting to change operating choices.
 - [Industrial policy for the Intelligence Age](https://openai.com/index/industrial-policy-for-the-intelligence-age) | OpenAI Blog | Shows how regulation is starting to shape the playbook.
 
-### Suspect Arrested for Allegedly Throwing Molotov Cocktail at Sam Altman’s Home
-- Editorial note: More than one company is running into the same constraint, which makes this more than a one-off.
-- Pattern: Platform expansion is outrunning stable operating models.
-- Tension: momentum vs operating reality
+### supply chain strain
+- Editorial note: The growth story is now colliding with harder constraints in components, shipping, and delivery timelines.
+- Pattern: Supply constraints are starting to show through the growth narrative.
+- Tension: growth narrative vs operating strain
 - Supporting stories:
-- [20-year-old man arrested for allegedly throwing a Molotov cocktail at Sam Altman’s house](https://www.theverge.com/ai-artificial-intelligence/910393/openai-sam-altman-house-molotov-cocktail) | The Verge | Gives the theme a concrete operating example.
-- [Suspect Arrested for Allegedly Throwing Molotov Cocktail at Sam Altman’s Home](https://www.wired.com/story/sam-altman-home-attack-openai-san-franisco-office-threat) | Wired | Gives the theme a concrete operating example.
+- [Our response to the Axios developer tool compromise](https://openai.com/index/axios-developer-tool-compromise) | OpenAI Blog | Shows where supply strain is starting to hit the story.
+- [Trump officials may be encouraging banks to test Anthropic’s Mythos model](https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model) | TechCrunch | Makes the supply-side constraint harder to ignore.
 
-### Research with ChatGPT
+### ChatGPT for research
 - Editorial note: More than one company is running into the same constraint, which makes this more than a one-off.
 - Pattern: Platform expansion is outrunning stable operating models.
 - Tension: momentum vs operating reality
 - Supporting stories:
-- [Research with ChatGPT](https://openai.com/academy/search-and-deep-research) | OpenAI Blog | Gives the theme a concrete operating example.
 - [ChatGPT for research](https://openai.com/academy/research) | OpenAI Blog | Gives the theme a concrete operating example.
+- [Research with ChatGPT](https://openai.com/academy/search-and-deep-research) | OpenAI Blog | Gives the theme a concrete operating example.
 
 ## Watchlist
 
@@ -84,23 +84,23 @@ Week of 2026-04-06
 
 ### Signal: industry repositioning
 - Why to watch: These moves matter because they point to who is trying to lock up workflow, distribution, or strategic ground before the market settles.
-- Snap gets closer to releasing new AI glasses after years-long hiatus — TechCrunch
+- OpenAI acquires TBPN — OpenAI Blog
 - Shows who is trying to lock up position before the market settles.
-
-### Signal: consumer AI device experimentation
-- Why to watch: Product and platform moves are starting to matter less as launches and more as battles over who controls the workflow.
-- This AI Wearable From Ex-Apple Engineers Looks Like an iPod Shuffle — Wired
-- Shows where platform control is shifting into developer workflow.
 
 ### Signal: media and platform politics
 - Why to watch: More than one company is running into the same constraint, which makes this more than a one-off.
 - How 'Democracy Now!' Became the Blueprint for Indie Media — Wired
 - Gives the theme a concrete operating example.
 
-### Signal: supply chain strain
-- Why to watch: The growth story is now colliding with harder constraints in components, shipping, and delivery timelines.
-- Our response to the Axios developer tool compromise — OpenAI Blog
-- Shows where supply strain is starting to hit the story.
+### Signal: AI safety governance
+- Why to watch: Safety work is becoming part of product posture and governance discipline rather than a separate reputational add-on.
+- Introducing the Child Safety Blueprint — OpenAI Blog
+- Early sign worth tracking if repeated.
+
+### Signal: emerging AI signal
+- Why to watch: More than one company is running into the same constraint, which makes this more than a one-off.
+- TechCrunch Mobility: Who is poaching all the self-driving vehicle talent? — TechCrunch
+- Gives the theme a concrete operating example.
 
 ## What seems to be happening
 

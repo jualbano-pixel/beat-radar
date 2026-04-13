@@ -2,19 +2,25 @@
   "ai_tech": {
     "beat_name": "AI / Tech",
     "latest_packet": "latest/ai_tech.md",
-    "archived_packet": "output/ai_tech/2026-04-11/weekly_editorial_packet.md",
-    "updated_at": "2026-04-11T04:50:32.097Z"
+    "archived_packet": "output/ai_tech/2026-04-13/weekly_editorial_packet.md",
+    "updated_at": "2026-04-13T02:44:47.443Z"
   },
   "philippine_motoring": {
     "beat_name": "Philippine Motoring",
     "latest_packet": "latest/philippine_motoring.md",
-    "archived_packet": "output/philippine_motoring/2026-04-11/weekly_editorial_packet.md",
-    "updated_at": "2026-04-11T04:58:33.348Z"
+    "archived_packet": "output/philippine_motoring/2026-04-13/weekly_editorial_packet.md",
+    "updated_at": "2026-04-13T02:44:47.443Z"
   },
   "ph_sea_banking": {
     "beat_name": "Philippine / SEA Banking",
     "latest_packet": "latest/ph_sea_banking.md",
-    "archived_packet": "output/ph_sea_banking/2026-04-11/weekly_editorial_packet.md",
-    "updated_at": "2026-04-11T10:02:45.895Z"
+    "archived_packet": "output/ph_sea_banking/2026-04-13/weekly_editorial_packet.md",
+    "updated_at": "2026-04-13T02:44:47.443Z"
+  },
+  "ph_sea_energy": {
+    "beat_name": "Philippine / SEA Energy",
+    "latest_packet": "latest/ph_sea_energy.md",
+    "archived_packet": "output/ph_sea_energy/2026-04-13/weekly_editorial_packet.md",
+    "updated_at": "2026-04-13T02:44:47.443Z"
   }
 }
