@@ -217,7 +217,7 @@ async function runBeat(beat, fetchedAt, runDate) {
     const weeklyPacketOutputFile = node_path_1.default.join(outputDir, "weekly_editorial_packet.json");
     const weeklyPacketMarkdownOutputFile = node_path_1.default.join(outputDir, "weekly_editorial_packet.md");
     const topStoriesSelection = (0, prioritize_js_1.selectTopStories)(clusteringResult.stories);
-    const weeklyEditorialPacket = (0, weekly_packet_js_1.buildWeeklyEditorialPacket)(clusteringResult.stories, allDroppedStories, topStoriesSelection, timeMode, fetchedAt, beatConfig.displayName);
+    const weeklyEditorialPacket = (0, weekly_packet_js_1.buildWeeklyEditorialPacket)(clusteringResult.stories, allDroppedStories, topStoriesSelection, timeMode, fetchedAt, beatConfig.displayName, clusteringResult.eventClusters, clusteringResult.themeClusters);
     const archiveOutputDir = node_path_1.default.join(outputDir, runDate);
     const latestDir = node_path_1.default.resolve(process.cwd(), "latest");
     const latestMarkdownOutputFile = node_path_1.default.join(latestDir, `${beat}.md`);

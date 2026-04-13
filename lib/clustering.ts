@@ -44,6 +44,21 @@ type ThemeMatch = {
 
 type ThemeStrength = "primary" | "secondary" | "watch";
 
+type EnergyClusterMovement =
+  | "fuel_price_movement"
+  | "electricity_rate_tariff_recovery"
+  | "outage_alert_reliability_stress"
+  | "project_execution_infrastructure_progress"
+  | "policy_burden_shifting"
+  | "external_shock_transmitting_locally";
+
+type EnergyClusterAssignment = {
+  key: EnergyClusterMovement;
+  label: string;
+  compressionLine: string;
+  strongSingleStorySignal: boolean;
+};
+
 const EVENT_VERB_FAMILIES: Array<{
   family: EventVerbFamily;
   keywords: string[];
@@ -1305,6 +1320,475 @@ function buildBankingBehaviorClusters(stories: NormalizedStory[]): {
   };
 }
 
+const ENERGY_CLUSTER_DEFINITIONS: Record<
+  EnergyClusterMovement,
+  { label: string; compressionLine: string }
+> = {
+  fuel_price_movement: {
+    label: "Fuel price movement",
+    compressionLine:
+      "Fuel prices are moving through pump-price signals, changing the near-term cost read for consumers and fuel-sensitive sectors."
+  },
+  electricity_rate_tariff_recovery: {
+    label: "Electricity rate, tariff, or recovery movement",
+    compressionLine:
+      "Electricity cost recovery or tariff signals are moving through the regulated price chain rather than appearing as isolated company news."
+  },
+  outage_alert_reliability_stress: {
+    label: "Outage, alert, or reliability stress",
+    compressionLine:
+      "Reliability stress is visible in grid, outage, reserve, or alert signals that point to pressure on the physical power system."
+  },
+  project_execution_infrastructure_progress: {
+    label: "Project execution and infrastructure progress",
+    compressionLine:
+      "Infrastructure execution is moving through rehabilitation, EPC, commissioning, or delivery steps that affect system capability."
+  },
+  policy_burden_shifting: {
+    label: "Policy burden shifting",
+    compressionLine:
+      "Policy action is shifting who absorbs Energy costs through taxes, credits, tariff treatment, subsidies, or recovery decisions."
+  },
+  external_shock_transmitting_locally: {
+    label: "External shock transmitting locally",
+    compressionLine:
+      "External fuel, commodity, or geopolitical pressure is transmitting into local Energy cost, supply, or generation behavior."
+  }
+};
+
+const ENERGY_OUTAGE_ALERT_TERMS = [
+  "red alert",
+  "yellow alert",
+  "outage",
+  "forced outage",
+  "reserve margin",
+  "brownout",
+  "reliability stress",
+  "grid alert"
+];
+
+const ENERGY_PROJECT_EXECUTION_TERMS = [
+  "rehabilitation",
+  "epc",
+  "power plant",
+  "solar power plant",
+  "commissioning",
+  "commissioned",
+  "commercial operations",
+  "grid connection",
+  "interconnection",
+  "capacity"
+];
+
+const ENERGY_FUEL_PRICE_TERMS = [
+  "fuel price",
+  "fuel prices",
+  "pump price",
+  "pump prices",
+  "diesel",
+  "gasoline",
+  "kerosene",
+  "lpg",
+  "rollback",
+  "price cut",
+  "price hike",
+  "per liter",
+  "liter"
+];
+
+const ENERGY_ELECTRICITY_PRICE_TERMS = [
+  "electricity rate",
+  "electricity rates",
+  "meralco",
+  "generation charge",
+  "generation cost",
+  "generation costs",
+  "tariff",
+  "recovery mechanism",
+  "recover cost",
+  "wesm",
+  "p/kwh",
+  "kwh"
+];
+
+const ENERGY_POLICY_BURDEN_TERMS = [
+  "vat",
+  "tax",
+  "taxes",
+  "excise",
+  "tax credit",
+  "subsidy",
+  "subsidies",
+  "tariff",
+  "waives",
+  "suspends",
+  "relief",
+  "burden",
+  "recover cost",
+  "recovery mechanism"
+];
+
+const ENERGY_EXTERNAL_SHOCK_TERMS = [
+  "middle east",
+  "iran",
+  "truce",
+  "oil crisis",
+  "energy shocks",
+  "geopolitical",
+  "global oil",
+  "coal use",
+  "lng market"
+];
+
+function energyStoryText(story: NormalizedStory): string {
+  return `${story.title} ${story.summary ?? ""}`;
+}
+
+function textHasAny(text: string, terms: string[]): boolean {
+  const normalized = normalizeText(text);
+
+  return terms.some((term) => normalized.includes(normalizeText(term)));
+}
+
+function quantifiedEnergyPriceMove(text: string): boolean {
+  return /\bp?\d+(?:\.\d+)?\s?(?:\/?\s?kwh|\/?\s?liter|centavos|pesos?)\b/i.test(text);
+}
+
+function energyClusterAssignment(story: NormalizedStory): EnergyClusterAssignment | null {
+  const filter = story.energy_filter;
+
+  if (!filter?.primary_category) {
+    return null;
+  }
+
+  const text = energyStoryText(story);
+  const rules = new Set(filter.inclusion_rule_ids);
+  const materiality = filter.materiality_signals.join(" ");
+  const assignment = (key: EnergyClusterMovement, strongSingleStorySignal: boolean) => ({
+    key,
+    label: ENERGY_CLUSTER_DEFINITIONS[key].label,
+    compressionLine: ENERGY_CLUSTER_DEFINITIONS[key].compressionLine,
+    strongSingleStorySignal
+  });
+
+  if (
+    filter.system_pressure &&
+    (
+      textHasAny(text, ENERGY_OUTAGE_ALERT_TERMS) ||
+      rules.has("affects_grid_or_infrastructure_reliability")
+    )
+  ) {
+    return assignment("outage_alert_reliability_stress", true);
+  }
+
+  if (
+    filter.primary_category === "infrastructure" &&
+    textHasAny(`${text} ${materiality}`, ENERGY_PROJECT_EXECUTION_TERMS)
+  ) {
+    return assignment("project_execution_infrastructure_progress", true);
+  }
+
+  if (
+    filter.primary_category === "policy" &&
+    textHasAny(text, ENERGY_POLICY_BURDEN_TERMS)
+  ) {
+    return assignment("policy_burden_shifting", true);
+  }
+
+  if (
+    filter.primary_category === "price" &&
+    textHasAny(text, ENERGY_ELECTRICITY_PRICE_TERMS)
+  ) {
+    return assignment(
+      "electricity_rate_tariff_recovery",
+      filter.system_pressure || quantifiedEnergyPriceMove(text)
+    );
+  }
+
+  if (
+    filter.primary_category === "price" &&
+    textHasAny(text, ENERGY_FUEL_PRICE_TERMS)
+  ) {
+    return assignment(
+      "fuel_price_movement",
+      filter.system_pressure || quantifiedEnergyPriceMove(text) || textHasAny(text, ["rollback"])
+    );
+  }
+
+  if (
+    (
+      filter.primary_category === "external_forces" ||
+      rules.has("external_pressure_impacts_local_system")
+    ) &&
+    textHasAny(text, ENERGY_EXTERNAL_SHOCK_TERMS)
+  ) {
+    return assignment(
+      "external_shock_transmitting_locally",
+      filter.primary_category === "external_forces"
+    );
+  }
+
+  if (
+    filter.primary_category === "supply" &&
+    textHasAny(text, [
+      "fuel supply",
+      "lng supply",
+      "coal supply",
+      "oil supply",
+      "generation fuel",
+      "reserve margin",
+      "import disruption",
+      "supply agreement",
+      "capacity",
+      "outage"
+    ])
+  ) {
+    return assignment("outage_alert_reliability_stress", filter.system_pressure);
+  }
+
+  return null;
+}
+
+function buildEnergyMovementClusters(stories: NormalizedStory[]): {
+  stories: NormalizedStory[];
+  eventClusters: EventCluster[];
+  themeClusters: ThemeCluster[];
+} {
+  const grouped = new Map<EnergyClusterMovement, NormalizedStory[]>();
+  const assignments = new Map<string, EnergyClusterAssignment>();
+
+  for (const story of stories) {
+    const assignment = energyClusterAssignment(story);
+
+    if (!assignment) {
+      continue;
+    }
+
+    assignments.set(story.id, assignment);
+    const group = grouped.get(assignment.key) ?? [];
+    group.push(story);
+    grouped.set(assignment.key, group);
+  }
+
+  const storyUpdates = new Map<string, Partial<NormalizedStory>>();
+  const eventClusters: EventCluster[] = [];
+  let clusterCounter = 1;
+
+  for (const [movementKey, group] of [...grouped.entries()].sort((left, right) => {
+    const leftPriority = Math.max(...left[1].map((story) => story.priority_score ?? 0), 0);
+    const rightPriority = Math.max(...right[1].map((story) => story.priority_score ?? 0), 0);
+
+    if (rightPriority !== leftPriority) {
+      return rightPriority - leftPriority;
+    }
+
+    return ENERGY_CLUSTER_DEFINITIONS[left[0]].label.localeCompare(
+      ENERGY_CLUSTER_DEFINITIONS[right[0]].label
+    );
+  })) {
+    const sortedGroup = [...group].sort((left, right) => {
+      const priorityDelta = (right.priority_score ?? 0) - (left.priority_score ?? 0);
+
+      if (priorityDelta !== 0) {
+        return priorityDelta;
+      }
+
+      return right.publishedAt.localeCompare(left.publishedAt);
+    });
+    const shouldCreateCluster =
+      sortedGroup.length > 1 ||
+      Boolean(assignments.get(sortedGroup[0].id)?.strongSingleStorySignal);
+
+    if (!shouldCreateCluster) {
+      continue;
+    }
+
+    const leadStory = sortedGroup[0];
+    const assignment = assignments.get(leadStory.id);
+
+    if (!assignment) {
+      continue;
+    }
+
+    const clusterId = `energy_${String(clusterCounter).padStart(3, "0")}`;
+    clusterCounter += 1;
+    const classification =
+      sortedGroup.some((story) => story.energy_filter?.system_pressure)
+        ? "primary"
+        : sortedGroup.length > 1
+          ? "secondary"
+          : "watch";
+
+    eventClusters.push({
+      cluster_id: clusterId,
+      cluster_kind: "same_event",
+      lead_story_id: leadStory.id,
+      story_count: sortedGroup.length,
+      story_ids: sortedGroup.map((story) => story.id),
+      story_titles: sortedGroup.map((story) => story.title),
+      associated_stories: associatedStories(sortedGroup),
+      entities: [],
+      event_label: assignment.label,
+      compression_line: assignment.compressionLine,
+      priority_score: leadStory.priority_score ?? 0,
+      editorial_bucket: leadStory.editorial_bucket ?? "background",
+      cluster_type: sortedGroup.length > 1 ? "pattern" : "event",
+      cluster_classification: classification,
+      supporting_story_ids: sortedGroup.slice(1).map((story) => story.id)
+    });
+
+    for (const story of sortedGroup) {
+      storyUpdates.set(story.id, {
+        cluster_id: clusterId,
+        cluster_kind: sortedGroup.length > 1 ? "same_topic_different_angle" : "standalone",
+        cluster_type: sortedGroup.length > 1 ? "pattern" : "event",
+        cluster_classification: classification
+      });
+    }
+  }
+
+  const themeResult = buildEnergyThemesFromClusters(eventClusters);
+
+  for (const theme of themeResult.themeClusters) {
+    for (const clusterId of theme.cluster_ids) {
+      const cluster = eventClusters.find((entry) => entry.cluster_id === clusterId);
+
+      if (!cluster) {
+        continue;
+      }
+
+      cluster.primary_theme_id = theme.theme_id;
+      cluster.primary_theme_label = theme.theme_label;
+
+      for (const storyId of cluster.story_ids) {
+        storyUpdates.set(storyId, {
+          ...storyUpdates.get(storyId),
+          theme_id: theme.theme_id,
+          theme_label: theme.theme_label
+        });
+      }
+    }
+  }
+
+  return {
+    stories: stories.map((story) => ({
+      ...story,
+      ...storyUpdates.get(story.id),
+      cluster_kind: storyUpdates.has(story.id) ? storyUpdates.get(story.id)?.cluster_kind : "standalone"
+    })),
+    eventClusters,
+    themeClusters: themeResult.themeClusters
+  };
+}
+
+function energyThemeForCluster(cluster: EventCluster): {
+  theme_id: string;
+  theme_label: string;
+  theme_summary: string;
+  theme_type: "primary" | "secondary";
+} | null {
+  if (cluster.story_count < 2 || cluster.cluster_classification === "watch") {
+    return null;
+  }
+
+  switch (cluster.event_label) {
+    case "Fuel price movement":
+      return {
+        theme_id: "energy_fuel_prices_easing",
+        theme_label: "Fuel prices are easing through rollbacks",
+        theme_summary:
+          "Pump-price movement is pointing downward, with diesel, gasoline, and fuel-monitor stories reinforcing the same cost direction.",
+        theme_type: cluster.cluster_classification === "primary" ? "primary" : "secondary"
+      };
+    case "Electricity rate, tariff, or recovery movement":
+      return {
+        theme_id: "energy_power_costs_moving_through_recovery",
+        theme_label: "Electricity costs are moving through rates and recovery",
+        theme_summary:
+          "Regulated rate, tariff, and recovery signals are changing how generation and electricity costs pass through the system.",
+        theme_type: cluster.cluster_classification === "primary" ? "primary" : "secondary"
+      };
+    case "Outage, alert, or reliability stress":
+      return {
+        theme_id: "energy_reliability_pressure_building",
+        theme_label: "Reliability pressure is building in the power system",
+        theme_summary:
+          "Grid, outage, reserve, or alert signals point to tightening physical reliability rather than isolated operational noise.",
+        theme_type: cluster.cluster_classification === "primary" ? "primary" : "secondary"
+      };
+    case "Project execution and infrastructure progress":
+      return {
+        theme_id: "energy_infrastructure_execution_advancing",
+        theme_label: "Energy infrastructure execution is advancing",
+        theme_summary:
+          "Project execution signals show rehabilitation, EPC, commissioning, or delivery steps moving system capability forward.",
+        theme_type: cluster.cluster_classification === "primary" ? "primary" : "secondary"
+      };
+    case "Policy burden shifting":
+      return {
+        theme_id: "energy_policy_shifting_cost_burden",
+        theme_label: "Policy is shifting fuel-cost burdens",
+        theme_summary:
+          "Fiscal and regulatory actions are moving who absorbs Energy costs through subsidies, taxes, tariff treatment, credits, or recovery decisions.",
+        theme_type: cluster.cluster_classification === "primary" ? "primary" : "secondary"
+      };
+    case "External shock transmitting locally":
+      return {
+        theme_id: "energy_external_shocks_transmitting_locally",
+        theme_label: "External shocks are transmitting into local Energy costs",
+        theme_summary:
+          "External commodity or geopolitical pressure is showing up in local fuel, supply, or generation behavior.",
+        theme_type: cluster.cluster_classification === "primary" ? "primary" : "secondary"
+      };
+    default:
+      return null;
+  }
+}
+
+function buildEnergyThemesFromClusters(eventClusters: EventCluster[]): {
+  themeClusters: ThemeCluster[];
+} {
+  const themeClusters: ThemeCluster[] = [];
+  const assignedThemeIds = new Set<string>();
+
+  for (const cluster of eventClusters) {
+    const theme = energyThemeForCluster(cluster);
+
+    if (!theme || assignedThemeIds.has(theme.theme_id)) {
+      continue;
+    }
+
+    assignedThemeIds.add(theme.theme_id);
+    themeClusters.push({
+      theme_id: theme.theme_id,
+      theme_label: theme.theme_label,
+      theme_summary: theme.theme_summary,
+      story_count: cluster.story_count,
+      cluster_ids: [cluster.cluster_id],
+      story_ids: cluster.story_ids,
+      associated_stories: cluster.associated_stories,
+      dominant_reason_codes: [],
+      dominant_angle_signals: [],
+      top_story_refs: [cluster.lead_story_id],
+      theme_type: theme.theme_type
+    });
+  }
+
+  return {
+    themeClusters: themeClusters.sort((left, right) => {
+      const rankDelta =
+        (THEME_STRENGTH_RANK[(right.theme_type ?? "watch") as ThemeStrength] ?? 1) -
+        (THEME_STRENGTH_RANK[(left.theme_type ?? "watch") as ThemeStrength] ?? 1);
+
+      if (rankDelta !== 0) {
+        return rankDelta;
+      }
+
+      return right.story_count - left.story_count;
+    })
+  };
+}
+
 function getThemeMatches(story: NormalizedStory): ThemeMatch[] {
   const text = `${story.title} ${story.summary ?? ""}`;
   const matches: ThemeMatch[] = [];
@@ -1545,6 +2029,10 @@ export function clusterStories(stories: NormalizedStory[]): {
 } {
   if (stories.every((story) => story.beat === "ph_sea_banking")) {
     return buildBankingBehaviorClusters(stories);
+  }
+
+  if (stories.every((story) => story.beat === "ph_sea_energy")) {
+    return buildEnergyMovementClusters(stories);
   }
 
   const clusterStories = buildClusterStories(stories);

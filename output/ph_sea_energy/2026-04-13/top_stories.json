@@ -1,6 +1,20 @@
 {
   "top_stories": [
     {
+      "title": "Protracted Iran war narrows BOJ’s rate hike options",
+      "source": "Malaya Business",
+      "date": "2026-04-13T16:16:00.000Z",
+      "summary": "TOKYO, April 13 (Reuters) – Once seen as a strong possibility, a Bank of Japan rate hike in April is turning into a fainter prospect as fading hopes of an end to the Middle East conflict keep markets volatile and muddle the outlook for a fragile economy. The protracted conflict has also heightened communication chal...",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 4.1,
+      "priority_reasons": [
+        "policy_shift"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
       "title": "‘Removing VAT on fuel risks PHL credit rating’",
       "source": "BusinessMirror Energy",
       "date": "2026-04-12T16:03:00.000Z",
@@ -13,6 +27,48 @@
         "safety_or_governance"
       ],
       "why_it_matters": "This matters because it affects how AI systems are governed, evaluated, or deployed responsibly. Those choices can shape the broader direction of the market."
+    },
+    {
+      "title": "Local ride-hailing platforms reduce commission rates",
+      "source": "BusinessMirror Energy",
+      "date": "2026-04-13T16:02:00.000Z",
+      "summary": "Ride-hailing platforms have begun slashing their commission rates in response to the ongoing fuel price crisis, their representatives told a congressional hearing on Monday, as lawmakers pushed for mandatory cuts to protect the earnings of transport network vehicle service (TNVS) and motorcycle taxi drivers.",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 1.6,
+      "priority_reasons": [
+        "practical_usability_impact"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Marcos urges Filipinos not to hoard diesel",
+      "source": "BusinessWorld Energy",
+      "date": "2026-04-13T13:11:18.000Z",
+      "summary": "PRESIDENT Ferdinand R. Marcos, Jr. urged Filipinos not to hoard diesel as the government warned of prolonged pressure on fuel prices following the failure of the US and Iran to reach a peace agreement. In a video message on Sunday, Mr. Marcos appealed for restraint and cooperation, warning that panic buying could wo...",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 1.6,
+      "priority_reasons": [
+        "practical_usability_impact"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Agri dep’t considering P10 per kilo subsidy for users of gov’t fishports",
+      "source": "BusinessWorld Energy",
+      "date": "2026-04-13T12:41:37.000Z",
+      "summary": "THE Department of Agriculture (DA) said it is studying a proposal to grant P10 subsidy per kilo of catch landed at government fishports, citing the need to assist municipal fisherfolk and commercial operators deal with rising fuel costs. In a Senate hearing on Monday, Agriculture Secretary Francisco P. Tiu Laurel, J...",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 1.6,
+      "priority_reasons": [
+        "practical_usability_impact"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
     },
     {
       "title": "House pushes fuel tax credit for immediate price relief",
@@ -29,18 +85,42 @@
       "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
     },
     {
-      "title": "ERC clarifies orders on bid of SMC units to recover cost",
-      "source": "BusinessMirror Energy",
-      "date": "2026-04-09T12:15:32.000Z",
-      "summary": "The Energy Regulatory Commission (ERC) on Thursday clarified earlier rulings on how the units of San Miguel Global Power Holdings Corp. can recover approximately P29.21 billion in fuel costs and losses they incurred from 2022 to 2023 from the Manila Electric Co. (Meralco).",
+      "title": "NNIC warns of flight disruption amid Middle East airspace restriction",
+      "source": "BusinessWorld Energy",
+      "date": "2026-04-13T13:06:28.000Z",
+      "summary": "THE New NAIA Infra Corp. (NNIC), operator of the country’s main gateway, said select international flights will be affected by ongoing airspace restrictions linked to the Middle East conflict. “Flights on affected routes may be subject to delays, rerouting, rescheduling, or cancellation, with some congestion in part...",
+      "tags": [
+        "ai_models"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Ilocos farmers seek bigger subsidies as costs surge",
+      "source": "BusinessWorld Energy",
+      "date": "2026-04-13T13:04:46.000Z",
+      "summary": "BAGUIO CITY — Farmers in the Ilocos Region are urging local governments to tap tobacco excise tax funds to cushion the impact of rising fuel and fertilizer costs, which they say are making farming increasingly unsustainable. The group Solidarity of Peasants Against Exploitation (STOP Exploitation) said diesel prices...",
       "tags": [
         "general_ph_sea_energy"
       ],
-      "priority_score": 1.2,
-      "priority_reasons": [
-        "practical_usability_impact"
-      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
       "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    }
+  ],
+  "secondary_signals": [
+    {
+      "title": "Farmers say imports being readied for tariff reductions are already cheap",
+      "source": "BusinessWorld Energy",
+      "date": "2026-04-13T12:40:54.000Z",
+      "summary": "FARMERS said on Monday that key agricultural imports being considered for tariff cuts are already cheap and need no further price advantages. Rosendo O. So, chairperson of the Samahang Industriya ng Agrikultura, said pork, for instance, is already cheap due to lower production and fuel costs in the source countries....",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
     },
     {
       "title": "Oil price watch: Fuel prices down by as much as P23/liter this week",
@@ -52,19 +132,7 @@
       ],
       "priority_score": 0.6,
       "priority_reasons": [],
-      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
-    },
-    {
-      "title": "Marcos rolls out fuel, food measures as oil crisis deepens",
-      "source": "Malaya Business",
-      "date": "2026-04-13T08:48:07.000Z",
-      "summary": "President Ferdinand Marcos Jr. on Monday ordered a series of fuel, food, and trade interventions, including tax cuts and price controls, as the government moved to cushion households from the escalating global oil crisis. The interventions include a package of measures, including the removal of excise taxes on lique...",
-      "tags": [
-        "general_ph_sea_energy"
-      ],
-      "priority_score": 0.6,
-      "priority_reasons": [],
-      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+      "note": "Useful supporting editorial signal."
     },
     {
       "title": "Marcos suspends excise tax on kerosene, LPG; waives tariff on food imports",
@@ -76,7 +144,7 @@
       ],
       "priority_score": 0.6,
       "priority_reasons": [],
-      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+      "note": "Useful supporting editorial signal."
     },
     {
       "title": "Psalm enters talks for Agus-Pulangi rehabilitation",
@@ -88,7 +156,7 @@
       ],
       "priority_score": 0.6,
       "priority_reasons": [],
-      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+      "note": "Useful supporting editorial signal."
     },
     {
       "title": "Fuel tax collections up 15% amid transport protests",
@@ -100,51 +168,13 @@
       ],
       "priority_score": 0.6,
       "priority_reasons": [],
-      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
-    }
-  ],
-  "secondary_signals": [
+      "note": "Useful supporting editorial signal."
+    },
     {
       "title": "Price Tracker: Oil, fuel monitor for Apr. 13",
       "source": "Philippine Star Business Energy",
       "date": "2026-04-12T23:00:00.000Z",
       "summary": "After weeks of increases, the government now expects a sharp fuel rollback, though officials say the oil shock is not over.",
-      "tags": [
-        "general_ph_sea_energy"
-      ],
-      "priority_score": 0.6,
-      "priority_reasons": [],
-      "note": "Useful supporting editorial signal."
-    },
-    {
-      "title": "FIRST FUEL PRICE ROLLBACK THIS YEAR | Gasoline down by P4.43/liter; diesel by P20.89",
-      "source": "Malaya Business",
-      "date": "2026-04-12T16:36:00.000Z",
-      "summary": "Fuel prices are set for sharp rollbacks this week, with reductions expected to reach at least P4.43 per liter for gasoline and as much as P20.89 per liter for diesel, the Department of Energy (DOE) said on Sunday. Energy Secretary Sharon Garin said that actual pump prices may vary across stations, but the minimum ro...",
-      "tags": [
-        "general_ph_sea_energy"
-      ],
-      "priority_score": 0.6,
-      "priority_reasons": [],
-      "note": "Useful supporting editorial signal."
-    },
-    {
-      "title": "Diesel price rollback seen at P20 per liter",
-      "source": "BusinessWorld Energy",
-      "date": "2026-04-12T16:34:59.000Z",
-      "summary": "MOTORISTS are finally getting a much-needed break after weeks of hefty increases, as the Department of Energy expects pump price rollbacks, with diesel prices seen dropping by at least P20 per liter (/l).",
-      "tags": [
-        "general_ph_sea_energy"
-      ],
-      "priority_score": 0.6,
-      "priority_reasons": [],
-      "note": "Useful supporting editorial signal."
-    },
-    {
-      "title": "Energy shocks drive higher coal use in region",
-      "source": "BusinessWorld Energy",
-      "date": "2026-04-12T16:02:46.000Z",
-      "summary": "SOUTHEAST ASIA is leaning more heavily on coal-fired power generation amid global oil shocks, with countries such as the Philippines seeing increased reliance, according to international research group Zero Carbon Analytics (ZCA). In its latest analysis, ZCA said the surge in oil and gas prices following the outbrea...",
       "tags": [
         "general_ph_sea_energy"
       ],
@@ -173,18 +203,6 @@
         "general_ph_sea_energy"
       ],
       "priority_score": 0.4,
-      "priority_reasons": [],
-      "note": "Useful supporting editorial signal."
-    },
-    {
-      "title": "Levanta Renewables, CEEC seal EPC deal for solar power plant",
-      "source": "BusinessMirror Energy",
-      "date": "2026-04-09T12:14:30.000Z",
-      "summary": "Singapore-based Levanta Renewables has selected China Energy Engineering Group (CEEC) as the EPC (engineering, procurement and construction) contractor for the Barotac Solar Power and Battery Energy Storage System (BESS) project in the Visayas region.",
-      "tags": [
-        "general_ph_sea_energy"
-      ],
-      "priority_score": 0.2,
       "priority_reasons": [],
       "note": "Useful supporting editorial signal."
     }

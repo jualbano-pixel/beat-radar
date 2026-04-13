@@ -1,50 +1,128 @@
 [
   {
-    "theme_id": "policy_governance",
-    "theme_label": "policy and governance pressure",
-    "theme_summary": "policy and governance pressure is the shared editorial thread across 3 related stories. The strongest signal is policy pressure worth watching.",
-    "story_count": 3,
-    "cluster_ids": [],
+    "theme_id": "energy_fuel_prices_easing",
+    "theme_label": "Fuel prices are easing through rollbacks",
+    "theme_summary": "Pump-price movement is pointing downward, with diesel, gasoline, and fuel-monitor stories reinforcing the same cost direction.",
+    "story_count": 5,
+    "cluster_ids": [
+      "energy_001"
+    ],
     "story_ids": [
-      "0c0f52b4750c",
-      "c75b4ff4b861",
-      "b3fd43cb230e"
+      "771f9769855b",
+      "5d107840b16a",
+      "21200d364c67",
+      "217c1a8f93a1",
+      "19cef9ad000b"
     ],
     "associated_stories": [
       {
-        "id": "0c0f52b4750c",
-        "title": "Psalm enters talks for Agus-Pulangi rehabilitation",
-        "url": "https://business.inquirer.net/584885/psalm-enters-talks-for-agus-pulangi-rehabilitation",
-        "source": "Inquirer Business Energy",
-        "published_at": "2026-04-13T02:05:00.000Z"
-      },
-      {
-        "id": "c75b4ff4b861",
-        "title": "FIRST FUEL PRICE ROLLBACK THIS YEAR | Gasoline down by P4.43/liter; diesel by P20.89",
-        "url": "https://malaya.com.ph/business/business-news/first-fuel-price-rollback-this-year",
-        "source": "Malaya Business",
-        "published_at": "2026-04-12T16:36:00.000Z"
-      },
-      {
-        "id": "b3fd43cb230e",
-        "title": "ERC clarifies orders on bid of SMC units to recover cost",
-        "url": "https://businessmirror.com.ph/2026/04/09/erc-clarifies-orders-on-bid-of-smc-units-to-recover-cost",
+        "id": "771f9769855b",
+        "title": "Local ride-hailing platforms reduce commission rates",
+        "url": "https://businessmirror.com.ph/2026/04/14/local-ride-hailing-platforms-reduce-commission-rates",
         "source": "BusinessMirror Energy",
-        "published_at": "2026-04-09T12:15:32.000Z"
+        "published_at": "2026-04-13T16:02:00.000Z"
+      },
+      {
+        "id": "5d107840b16a",
+        "title": "Oil price watch: Fuel prices down by as much as P23/liter this week",
+        "url": "https://business.inquirer.net/584944/oil-price-watch-fuel-prices-down-by-as-much-as-p23-liter-this-week",
+        "source": "Inquirer Business Energy",
+        "published_at": "2026-04-13T12:30:43.000Z"
+      },
+      {
+        "id": "21200d364c67",
+        "title": "Price Tracker: Oil, fuel monitor for Apr. 13",
+        "url": "https://www.philstar.com/headlines/2026/04/13/2520606/price-tracker-oil-fuel-monitor-apr-13",
+        "source": "Philippine Star Business Energy",
+        "published_at": "2026-04-12T23:00:00.000Z"
+      },
+      {
+        "id": "217c1a8f93a1",
+        "title": "Possible diesel rollback now estimated at P8.80-P10.80/liter",
+        "url": "https://business.inquirer.net/584730/possible-diesel-rollback-now-estimated-at-p8-80-p10-80-liter",
+        "source": "Inquirer Business Energy",
+        "published_at": "2026-04-11T09:54:42.000Z"
+      },
+      {
+        "id": "19cef9ad000b",
+        "title": "Bigger diesel price cut if Middle East truce holds",
+        "url": "https://business.inquirer.net/584703/bigger-diesel-price-cut-if-middle-east-truce-holds",
+        "source": "Inquirer Business Energy",
+        "published_at": "2026-04-11T05:30:00.000Z"
       }
     ],
-    "dominant_reason_codes": [
-      "policy_regulatory_move"
-    ],
-    "dominant_angle_signals": [
-      "policy pressure worth watching",
-      "policy pressure building",
-      "cost pressure building"
-    ],
+    "dominant_reason_codes": [],
+    "dominant_angle_signals": [],
     "top_story_refs": [
-      "0c0f52b4750c",
-      "c75b4ff4b861",
-      "b3fd43cb230e"
-    ]
+      "771f9769855b"
+    ],
+    "theme_type": "primary"
+  },
+  {
+    "theme_id": "energy_policy_shifting_cost_burden",
+    "theme_label": "Policy is shifting fuel-cost burdens",
+    "theme_summary": "Fiscal and regulatory actions are moving who absorbs Energy costs through subsidies, taxes, tariff treatment, credits, or recovery decisions.",
+    "story_count": 6,
+    "cluster_ids": [
+      "energy_002"
+    ],
+    "story_ids": [
+      "eb4818a35dc8",
+      "07b7f5731ea9",
+      "2ec493e2eb4e",
+      "8b18abb63279",
+      "c954d4ca2550",
+      "01fc830fc725"
+    ],
+    "associated_stories": [
+      {
+        "id": "eb4818a35dc8",
+        "title": "Ilocos farmers seek bigger subsidies as costs surge",
+        "url": "https://www.bworldonline.com/the-nation/2026/04/13/742634/ilocos-farmers-seek-bigger-subsidies-as-costs-surge",
+        "source": "BusinessWorld Energy",
+        "published_at": "2026-04-13T13:04:46.000Z"
+      },
+      {
+        "id": "07b7f5731ea9",
+        "title": "Agri dep’t considering P10 per kilo subsidy for users of gov’t fishports",
+        "url": "https://www.bworldonline.com/economy/2026/04/13/742575/agri-dept-considering-p10-per-kilo-subsidy-for-users-of-govt-fishports",
+        "source": "BusinessWorld Energy",
+        "published_at": "2026-04-13T12:41:37.000Z"
+      },
+      {
+        "id": "2ec493e2eb4e",
+        "title": "Marcos suspends excise tax on kerosene, LPG; waives tariff on food imports",
+        "url": "https://www.philstar.com/headlines/2026/04/13/2520728/marcos-suspends-excise-tax-kerosene-lpg-waives-tariff-food-imports",
+        "source": "Philippine Star Business Energy",
+        "published_at": "2026-04-13T08:39:00.000Z"
+      },
+      {
+        "id": "8b18abb63279",
+        "title": "House pushes fuel tax credit for immediate price relief",
+        "url": "https://www.bworldonline.com/top-stories/2026/04/13/742386/house-pushes-fuel-tax-credit-for-immediate-price-relief",
+        "source": "BusinessWorld Energy",
+        "published_at": "2026-04-13T05:46:25.000Z"
+      },
+      {
+        "id": "c954d4ca2550",
+        "title": "Fuel tax collections up 15% amid transport protests",
+        "url": "https://www.philstar.com/headlines/2026/04/13/2520691/fuel-tax-collections-15-amid-transport-protests",
+        "source": "Philippine Star Business Energy",
+        "published_at": "2026-04-13T01:34:00.000Z"
+      },
+      {
+        "id": "01fc830fc725",
+        "title": "‘Removing VAT on fuel risks PHL credit rating’",
+        "url": "https://businessmirror.com.ph/2026/04/13/removing-vat-on-fuel-risks-phl-credit-rating",
+        "source": "BusinessMirror Energy",
+        "published_at": "2026-04-12T16:03:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [],
+    "dominant_angle_signals": [],
+    "top_story_refs": [
+      "eb4818a35dc8"
+    ],
+    "theme_type": "secondary"
   }
 ]

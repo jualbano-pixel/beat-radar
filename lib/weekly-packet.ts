@@ -43,6 +43,50 @@ type PacketThemeCluster = {
   stories: string[];
 };
 
+type EnergyStoryRef = {
+  id: string;
+  title: string;
+  source: string;
+  url: string;
+  primary_category?: string;
+  importance_tier?: string;
+  system_pressure?: boolean;
+};
+
+type EnergyClusterOutput = {
+  cluster_id: string;
+  label: string;
+  story_count: number;
+  classification?: string;
+  cluster_type?: string;
+  compression_line?: string;
+  theme_id?: string;
+  theme_label?: string;
+  stories: EnergyStoryRef[];
+};
+
+type EnergyThemeOutput = {
+  theme_id: string;
+  theme: string;
+  explanation: string;
+  story_count: number;
+  clusters: EnergyClusterOutput[];
+};
+
+type EnergySignalOutput = {
+  cluster_id?: string;
+  label: string;
+  explanation?: string;
+  stories: EnergyStoryRef[];
+};
+
+type EnergyEditorialOutput = {
+  editorial_read: string;
+  themes: EnergyThemeOutput[];
+  cluster_breakdown: EnergyClusterOutput[];
+  signals_to_watch: EnergySignalOutput[];
+};
+
 type WeeklyEditorialPacket = {
   week_of: string;
   time_mode: AiTechTimeMode;
@@ -51,6 +95,7 @@ type WeeklyEditorialPacket = {
   secondary_signals: SecondarySignal[];
   context_watch: ContextWatchItem[];
   theme_clusters: PacketThemeCluster[];
+  energy_output?: EnergyEditorialOutput;
   notes: {
     top_story_count: number;
     secondary_count: number;
@@ -1778,6 +1823,336 @@ function bankingSystemRead(
   return "The run produced only watch-level banking signals, so the desk read should stay cautious until stronger system behavior appears.";
 }
 
+function energyStoryRef(story: NormalizedStory): EnergyStoryRef {
+  return {
+    id: story.id,
+    title: sanitizeText(story.title),
+    source: story.source,
+    url: story.url,
+    primary_category: story.energy_filter?.primary_category,
+    importance_tier: story.energy_filter?.importance_tier,
+    system_pressure: story.energy_filter?.system_pressure
+  };
+}
+
+const ENERGY_WATCH_SYSTEM_TERMS = [
+  "electricity",
+  "power",
+  "grid",
+  "transmission",
+  "distribution",
+  "generation",
+  "generator",
+  "power plant",
+  "substation",
+  "interconnection",
+  "reserve",
+  "outage",
+  "brownout",
+  "red alert",
+  "yellow alert",
+  "wesm",
+  "meralco",
+  "erc",
+  "doe",
+  "ngcp",
+  "fuel",
+  "diesel",
+  "gasoline",
+  "kerosene",
+  "lpg",
+  "lng",
+  "coal",
+  "oil",
+  "pump price",
+  "generation charge",
+  "electricity rate",
+  "power rate",
+  "rollback",
+  "fuel tax",
+  "cost recovery",
+  "supply agreement",
+  "hydro",
+  "solar",
+  "renewable",
+  "commissioning",
+  "rehabilitation",
+  "epc"
+];
+
+const ENERGY_WATCH_MOVEMENT_TERMS = [
+  "increase",
+  "increases",
+  "increased",
+  "rise",
+  "rises",
+  "rising",
+  "raise",
+  "raises",
+  "raised",
+  "hike",
+  "hikes",
+  "cut",
+  "cuts",
+  "rollback",
+  "easing",
+  "suspend",
+  "suspends",
+  "waive",
+  "waives",
+  "recover",
+  "recovery",
+  "surge",
+  "surges",
+  "shortage",
+  "disruption",
+  "delay",
+  "delays",
+  "strained",
+  "strain",
+  "alert",
+  "outage",
+  "rehabilitation",
+  "commissioning",
+  "capacity",
+  "contract",
+  "agreement",
+  "delivery",
+  "imports",
+  "supply"
+];
+
+const ENERGY_WATCH_WEAK_CONTEXT_TERMS = [
+  "agricultural imports",
+  "food imports",
+  "farmers",
+  "pork",
+  "rice",
+  "fishports",
+  "flight",
+  "flights",
+  "airspace",
+  "airport",
+  "passenger",
+  "tourism"
+];
+
+const ENERGY_WATCH_STRONG_SYSTEM_TERMS = [
+  "electricity",
+  "power",
+  "grid",
+  "transmission",
+  "distribution",
+  "generation",
+  "power plant",
+  "substation",
+  "interconnection",
+  "reserve",
+  "outage",
+  "brownout",
+  "red alert",
+  "yellow alert",
+  "wesm",
+  "meralco",
+  "erc",
+  "doe",
+  "ngcp",
+  "diesel",
+  "gasoline",
+  "kerosene",
+  "lpg",
+  "lng",
+  "coal",
+  "oil supply",
+  "fuel supply",
+  "fuel delivery",
+  "pump price",
+  "generation charge",
+  "electricity rate",
+  "power rate",
+  "supply agreement",
+  "hydro",
+  "solar",
+  "commissioning",
+  "rehabilitation",
+  "epc"
+];
+
+function textIncludesAny(text: string, terms: string[]): boolean {
+  return terms.some((term) => text.includes(term));
+}
+
+function hasEnergyWatchSystemConsequence(story: NormalizedStory): boolean {
+  const filter = story.energy_filter;
+
+  if (!filter) {
+    return false;
+  }
+
+  const text = normalizeText([
+    story.title,
+    story.summary ?? "",
+    story.tags.join(" "),
+    filter.materiality_signals.join(" ")
+  ].join(" "));
+  const hasSystemTerm = textIncludesAny(text, ENERGY_WATCH_SYSTEM_TERMS);
+  const hasMovementTerm = textIncludesAny(text, ENERGY_WATCH_MOVEMENT_TERMS);
+  const hasWeakContext = textIncludesAny(text, ENERGY_WATCH_WEAK_CONTEXT_TERMS);
+  const hasStrongSystemTerm = textIncludesAny(text, ENERGY_WATCH_STRONG_SYSTEM_TERMS);
+
+  if (!hasSystemTerm) {
+    return false;
+  }
+
+  if (hasWeakContext && !hasStrongSystemTerm) {
+    return false;
+  }
+
+  if (
+    filter.system_pressure ||
+    filter.demand_pressure ||
+    filter.importance_tier === "high"
+  ) {
+    return true;
+  }
+
+  if (!hasMovementTerm) {
+    return false;
+  }
+
+  if (
+    filter.primary_category === "external_forces" &&
+    !filter.inclusion_rule_ids.includes("external_pressure_impacts_local_system")
+  ) {
+    return false;
+  }
+
+  return true;
+}
+
+function energyClusterOutput(
+  cluster: EventCluster,
+  storyMap: Map<string, NormalizedStory>
+): EnergyClusterOutput {
+  return {
+    cluster_id: cluster.cluster_id,
+    label: sanitizeText(cluster.event_label),
+    story_count: cluster.story_count,
+    classification: cluster.cluster_classification,
+    cluster_type: cluster.cluster_type,
+    compression_line: cluster.compression_line
+      ? sanitizeText(cluster.compression_line)
+      : undefined,
+    theme_id: cluster.primary_theme_id,
+    theme_label: cluster.primary_theme_label,
+    stories: cluster.story_ids
+      .map((storyId) => storyMap.get(storyId))
+      .filter((story): story is NormalizedStory => Boolean(story))
+      .map(energyStoryRef)
+  };
+}
+
+function energyEditorialRead(themes: EnergyThemeOutput[], signals: EnergySignalOutput[]): string {
+  if (themes.length === 0) {
+    return signals.length > 0
+      ? "No high-confidence Energy movement cleared the theme threshold, but watch signals point to areas that may matter if confirmed."
+      : "No qualifying Energy system movement cleared the editorial threshold in this run.";
+  }
+
+  const labels = themes.map((theme) => normalizeText(theme.theme));
+  const clauses: string[] = [];
+
+  if (labels.some((label) => label.includes("fuel prices") && label.includes("easing"))) {
+    clauses.push("fuel prices are easing through pump-price rollbacks");
+  }
+
+  if (labels.some((label) => label.includes("policy") && label.includes("burden"))) {
+    clauses.push("policy is shifting who absorbs fuel-cost pressure");
+  }
+
+  if (labels.some((label) => label.includes("infrastructure") && label.includes("advancing"))) {
+    clauses.push("project execution is moving forward");
+  }
+
+  if (labels.some((label) => label.includes("reliability") && label.includes("building"))) {
+    clauses.push("reliability pressure is building");
+  }
+
+  if (labels.some((label) => label.includes("electricity costs"))) {
+    clauses.push("electricity costs are moving through regulated recovery channels");
+  }
+
+  if (labels.some((label) => label.includes("external shocks"))) {
+    clauses.push("external shocks are transmitting into local Energy conditions");
+  }
+
+  const movementRead = clauses.length > 0
+    ? clauses.join("; ")
+    : themes.map((theme) => theme.theme).join("; ");
+
+  return `${movementRead.charAt(0).toUpperCase()}${movementRead.slice(1)}. The strongest read is system movement, not story volume: price, policy, and execution signals are carrying the beat this week.`;
+}
+
+function buildEnergyEditorialOutput(
+  stories: NormalizedStory[],
+  eventClusters: EventCluster[] = [],
+  themeClusters: StoryThemeCluster[] = []
+): EnergyEditorialOutput | undefined {
+  if (!stories.every((story) => story.beat === "ph_sea_energy")) {
+    return undefined;
+  }
+
+  const storyMap = buildStoryMapById(stories);
+  const clusterById = new Map(eventClusters.map((cluster) => [cluster.cluster_id, cluster]));
+  const clusterBreakdown = eventClusters.map((cluster) =>
+    energyClusterOutput(cluster, storyMap)
+  );
+  const themes = themeClusters
+    .map((theme) => {
+      const clusters = theme.cluster_ids
+        .map((clusterId) => clusterById.get(clusterId))
+        .filter((cluster): cluster is EventCluster => Boolean(cluster))
+        .map((cluster) => energyClusterOutput(cluster, storyMap));
+
+      return {
+        theme_id: theme.theme_id,
+        theme: sanitizeText(theme.theme_label),
+        explanation: sanitizeText(theme.theme_summary ?? ""),
+        story_count: theme.story_count,
+        clusters
+      };
+    })
+    .filter((theme) => theme.clusters.length > 0);
+  const themedClusterIds = new Set(themes.flatMap((theme) =>
+    theme.clusters.map((cluster) => cluster.cluster_id)
+  ));
+  const signalClusters = eventClusters
+    .filter((cluster) => !themedClusterIds.has(cluster.cluster_id))
+    .map((cluster) => ({
+      cluster_id: cluster.cluster_id,
+      label: sanitizeText(cluster.event_label),
+      explanation: cluster.compression_line ? sanitizeText(cluster.compression_line) : undefined,
+      stories: energyClusterOutput(cluster, storyMap).stories
+    }));
+  const clusteredStoryIds = new Set(eventClusters.flatMap((cluster) => cluster.story_ids));
+  const unclusteredSignals = stories
+    .filter((story) => !clusteredStoryIds.has(story.id))
+    .filter(hasEnergyWatchSystemConsequence)
+    .map((story) => ({
+      label: sanitizeText(story.energy_filter?.primary_category ?? "Unclustered Energy signal"),
+      explanation: "Kept by the Energy filter but not strong enough to join a system-movement cluster.",
+      stories: [energyStoryRef(story)]
+    }));
+  const signalsToWatch = [...signalClusters, ...unclusteredSignals];
+
+  return {
+    editorial_read: energyEditorialRead(themes, signalsToWatch),
+    themes,
+    cluster_breakdown: clusterBreakdown,
+    signals_to_watch: signalsToWatch
+  };
+}
+
 function bankingThemeRank(themeType?: string): number {
   if (themeType === "primary") {
     return 3;
@@ -2139,6 +2514,113 @@ function renderBankingMarkdown(
   return lines.join("\n");
 }
 
+function renderEnergyStoryRef(lines: string[], story: EnergyStoryRef): void {
+  const metadata = [
+    story.source,
+    story.primary_category ? `category: ${story.primary_category}` : "",
+    story.importance_tier ? `tier: ${story.importance_tier}` : "",
+    story.system_pressure ? "system_pressure" : ""
+  ].filter(Boolean).join(" | ");
+
+  lines.push(`- [${sanitizeText(story.title)}](${story.url}) | ${metadata}`);
+}
+
+function renderEnergyMarkdown(packet: WeeklyEditorialPacket): string {
+  const output = packet.energy_output;
+  const lines: string[] = [];
+
+  lines.push(`# ${packet.beat_name}`);
+  lines.push("");
+  lines.push(`Week of ${packet.week_of}`);
+  lines.push("");
+
+  if (!output) {
+    lines.push("## Editorial read");
+    lines.push("");
+    lines.push("No Energy editorial output was generated for this run.");
+    lines.push("");
+
+    return lines.join("\n");
+  }
+
+  lines.push("## Editorial read");
+  lines.push("");
+  lines.push(sanitizeText(output.editorial_read));
+  lines.push("");
+  lines.push("## Themes");
+  lines.push("");
+
+  if (output.themes.length === 0) {
+    lines.push("- No cluster cleared the Energy theme threshold.");
+    lines.push("");
+  } else {
+    for (const theme of output.themes) {
+      lines.push(`### ${sanitizeText(theme.theme)}`);
+      lines.push(sanitizeText(theme.explanation));
+      lines.push("");
+
+      for (const cluster of theme.clusters) {
+        lines.push(`- Supporting cluster: ${sanitizeText(cluster.label)} (${cluster.cluster_id})`);
+      }
+
+      lines.push("");
+    }
+  }
+
+  lines.push("## Cluster breakdown");
+  lines.push("");
+
+  if (output.cluster_breakdown.length === 0) {
+    lines.push("- No Energy movement clusters were formed.");
+    lines.push("");
+  } else {
+    for (const cluster of output.cluster_breakdown) {
+      lines.push(`### ${sanitizeText(cluster.label)} (${cluster.cluster_id})`);
+      if (cluster.theme_label) {
+        lines.push(`Theme: ${sanitizeText(cluster.theme_label)}`);
+      } else {
+        lines.push("Theme: none");
+      }
+      if (cluster.compression_line) {
+        lines.push(sanitizeText(cluster.compression_line));
+      }
+      lines.push("");
+
+      for (const story of cluster.stories) {
+        renderEnergyStoryRef(lines, story);
+      }
+
+      lines.push("");
+    }
+  }
+
+  lines.push("## Signals to watch");
+  lines.push("");
+
+  if (output.signals_to_watch.length === 0) {
+    lines.push("- No unthemed Energy clusters or unclustered signals remain.");
+  } else {
+    for (const signal of output.signals_to_watch) {
+      const label = signal.cluster_id
+        ? `${sanitizeText(signal.label)} (${signal.cluster_id})`
+        : sanitizeText(signal.label);
+      lines.push(`### ${label}`);
+      if (signal.explanation) {
+        lines.push(sanitizeText(signal.explanation));
+        lines.push("");
+      }
+
+      for (const story of signal.stories) {
+        renderEnergyStoryRef(lines, story);
+      }
+
+      lines.push("");
+    }
+  }
+
+  return lines.join("\n");
+}
+
 function buildPatternBullets(
   primaryItems: EditorialBriefItem[],
   structuralItems: EditorialBriefItem[],
@@ -2157,6 +2639,10 @@ export function renderWeeklyEditorialPacketMarkdown(
 ): string {
   if (stories.every((story) => story.beat === "ph_sea_banking")) {
     return renderBankingMarkdown(packet, stories, eventClusters, themeClusters);
+  }
+
+  if (stories.every((story) => story.beat === "ph_sea_energy")) {
+    return renderEnergyMarkdown(packet);
   }
 
   const lines: string[] = [];
@@ -2267,7 +2753,9 @@ export function buildWeeklyEditorialPacket(
   },
   timeMode: AiTechTimeMode,
   fetchedAt: string,
-  beatName = "AI / Tech"
+  beatName = "AI / Tech",
+  eventClusters: EventCluster[] = [],
+  storyThemeClusters: StoryThemeCluster[] = []
 ): WeeklyEditorialPacket {
   const storyMap = buildStoryMap(stories);
   const enrichedTopStories = topStoriesSelection.top_stories.map((story) =>
@@ -2300,19 +2788,25 @@ export function buildWeeklyEditorialPacket(
     enrichedTopStories,
     enrichedSecondarySignals
   );
+  const energyOutput = buildEnergyEditorialOutput(
+    stories,
+    eventClusters,
+    storyThemeClusters
+  );
 
   return {
     week_of: getWeekOf(stories, fetchedAt),
     time_mode: timeMode,
     beat_name: beatName,
-    top_stories: enrichedTopStories,
-    secondary_signals: enrichedSecondarySignals,
-    context_watch: contextWatch,
-    theme_clusters: themeClusters,
+    top_stories: energyOutput ? [] : enrichedTopStories,
+    secondary_signals: energyOutput ? [] : enrichedSecondarySignals,
+    context_watch: energyOutput ? [] : contextWatch,
+    theme_clusters: energyOutput ? [] : themeClusters,
+    energy_output: energyOutput,
     notes: {
-      top_story_count: enrichedTopStories.length,
-      secondary_count: enrichedSecondarySignals.length,
-      context_count: contextWatch.length
+      top_story_count: energyOutput ? 0 : enrichedTopStories.length,
+      secondary_count: energyOutput ? 0 : enrichedSecondarySignals.length,
+      context_count: energyOutput ? 0 : contextWatch.length
     }
   };
 }

@@ -1,1 +1,214 @@
-[]
+[
+  {
+    "cluster_id": "energy_001",
+    "cluster_kind": "same_event",
+    "lead_story_id": "771f9769855b",
+    "story_count": 5,
+    "story_ids": [
+      "771f9769855b",
+      "5d107840b16a",
+      "21200d364c67",
+      "217c1a8f93a1",
+      "19cef9ad000b"
+    ],
+    "story_titles": [
+      "Local ride-hailing platforms reduce commission rates",
+      "Oil price watch: Fuel prices down by as much as P23/liter this week",
+      "Price Tracker: Oil, fuel monitor for Apr. 13",
+      "Possible diesel rollback now estimated at P8.80-P10.80/liter",
+      "Bigger diesel price cut if Middle East truce holds"
+    ],
+    "associated_stories": [
+      {
+        "id": "771f9769855b",
+        "title": "Local ride-hailing platforms reduce commission rates",
+        "url": "https://businessmirror.com.ph/2026/04/14/local-ride-hailing-platforms-reduce-commission-rates",
+        "source": "BusinessMirror Energy",
+        "published_at": "2026-04-13T16:02:00.000Z"
+      },
+      {
+        "id": "5d107840b16a",
+        "title": "Oil price watch: Fuel prices down by as much as P23/liter this week",
+        "url": "https://business.inquirer.net/584944/oil-price-watch-fuel-prices-down-by-as-much-as-p23-liter-this-week",
+        "source": "Inquirer Business Energy",
+        "published_at": "2026-04-13T12:30:43.000Z"
+      },
+      {
+        "id": "21200d364c67",
+        "title": "Price Tracker: Oil, fuel monitor for Apr. 13",
+        "url": "https://www.philstar.com/headlines/2026/04/13/2520606/price-tracker-oil-fuel-monitor-apr-13",
+        "source": "Philippine Star Business Energy",
+        "published_at": "2026-04-12T23:00:00.000Z"
+      },
+      {
+        "id": "217c1a8f93a1",
+        "title": "Possible diesel rollback now estimated at P8.80-P10.80/liter",
+        "url": "https://business.inquirer.net/584730/possible-diesel-rollback-now-estimated-at-p8-80-p10-80-liter",
+        "source": "Inquirer Business Energy",
+        "published_at": "2026-04-11T09:54:42.000Z"
+      },
+      {
+        "id": "19cef9ad000b",
+        "title": "Bigger diesel price cut if Middle East truce holds",
+        "url": "https://business.inquirer.net/584703/bigger-diesel-price-cut-if-middle-east-truce-holds",
+        "source": "Inquirer Business Energy",
+        "published_at": "2026-04-11T05:30:00.000Z"
+      }
+    ],
+    "entities": [],
+    "event_label": "Fuel price movement",
+    "compression_line": "Fuel prices are moving through pump-price signals, changing the near-term cost read for consumers and fuel-sensitive sectors.",
+    "priority_score": 40,
+    "editorial_bucket": "context_watch",
+    "cluster_type": "pattern",
+    "cluster_classification": "primary",
+    "supporting_story_ids": [
+      "5d107840b16a",
+      "21200d364c67",
+      "217c1a8f93a1",
+      "19cef9ad000b"
+    ],
+    "primary_theme_id": "energy_fuel_prices_easing",
+    "primary_theme_label": "Fuel prices are easing through rollbacks"
+  },
+  {
+    "cluster_id": "energy_002",
+    "cluster_kind": "same_event",
+    "lead_story_id": "eb4818a35dc8",
+    "story_count": 6,
+    "story_ids": [
+      "eb4818a35dc8",
+      "07b7f5731ea9",
+      "2ec493e2eb4e",
+      "8b18abb63279",
+      "c954d4ca2550",
+      "01fc830fc725"
+    ],
+    "story_titles": [
+      "Ilocos farmers seek bigger subsidies as costs surge",
+      "Agri dep’t considering P10 per kilo subsidy for users of gov’t fishports",
+      "Marcos suspends excise tax on kerosene, LPG; waives tariff on food imports",
+      "House pushes fuel tax credit for immediate price relief",
+      "Fuel tax collections up 15% amid transport protests",
+      "‘Removing VAT on fuel risks PHL credit rating’"
+    ],
+    "associated_stories": [
+      {
+        "id": "eb4818a35dc8",
+        "title": "Ilocos farmers seek bigger subsidies as costs surge",
+        "url": "https://www.bworldonline.com/the-nation/2026/04/13/742634/ilocos-farmers-seek-bigger-subsidies-as-costs-surge",
+        "source": "BusinessWorld Energy",
+        "published_at": "2026-04-13T13:04:46.000Z"
+      },
+      {
+        "id": "07b7f5731ea9",
+        "title": "Agri dep’t considering P10 per kilo subsidy for users of gov’t fishports",
+        "url": "https://www.bworldonline.com/economy/2026/04/13/742575/agri-dept-considering-p10-per-kilo-subsidy-for-users-of-govt-fishports",
+        "source": "BusinessWorld Energy",
+        "published_at": "2026-04-13T12:41:37.000Z"
+      },
+      {
+        "id": "2ec493e2eb4e",
+        "title": "Marcos suspends excise tax on kerosene, LPG; waives tariff on food imports",
+        "url": "https://www.philstar.com/headlines/2026/04/13/2520728/marcos-suspends-excise-tax-kerosene-lpg-waives-tariff-food-imports",
+        "source": "Philippine Star Business Energy",
+        "published_at": "2026-04-13T08:39:00.000Z"
+      },
+      {
+        "id": "8b18abb63279",
+        "title": "House pushes fuel tax credit for immediate price relief",
+        "url": "https://www.bworldonline.com/top-stories/2026/04/13/742386/house-pushes-fuel-tax-credit-for-immediate-price-relief",
+        "source": "BusinessWorld Energy",
+        "published_at": "2026-04-13T05:46:25.000Z"
+      },
+      {
+        "id": "c954d4ca2550",
+        "title": "Fuel tax collections up 15% amid transport protests",
+        "url": "https://www.philstar.com/headlines/2026/04/13/2520691/fuel-tax-collections-15-amid-transport-protests",
+        "source": "Philippine Star Business Energy",
+        "published_at": "2026-04-13T01:34:00.000Z"
+      },
+      {
+        "id": "01fc830fc725",
+        "title": "‘Removing VAT on fuel risks PHL credit rating’",
+        "url": "https://businessmirror.com.ph/2026/04/13/removing-vat-on-fuel-risks-phl-credit-rating",
+        "source": "BusinessMirror Energy",
+        "published_at": "2026-04-12T16:03:00.000Z"
+      }
+    ],
+    "entities": [],
+    "event_label": "Policy burden shifting",
+    "compression_line": "Policy action is shifting who absorbs Energy costs through taxes, credits, tariff treatment, subsidies, or recovery decisions.",
+    "priority_score": 32,
+    "editorial_bucket": "context_watch",
+    "cluster_type": "pattern",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": [
+      "07b7f5731ea9",
+      "2ec493e2eb4e",
+      "8b18abb63279",
+      "c954d4ca2550",
+      "01fc830fc725"
+    ],
+    "primary_theme_id": "energy_policy_shifting_cost_burden",
+    "primary_theme_label": "Policy is shifting fuel-cost burdens"
+  },
+  {
+    "cluster_id": "energy_003",
+    "cluster_kind": "same_event",
+    "lead_story_id": "c3c1b99b536e",
+    "story_count": 1,
+    "story_ids": [
+      "c3c1b99b536e"
+    ],
+    "story_titles": [
+      "Marcos urges Filipinos not to hoard diesel"
+    ],
+    "associated_stories": [
+      {
+        "id": "c3c1b99b536e",
+        "title": "Marcos urges Filipinos not to hoard diesel",
+        "url": "https://www.bworldonline.com/the-nation/2026/04/13/742584/marcos-urges-filipinos-not-to-hoard-diesel",
+        "source": "BusinessWorld Energy",
+        "published_at": "2026-04-13T13:11:18.000Z"
+      }
+    ],
+    "entities": [],
+    "event_label": "External shock transmitting locally",
+    "compression_line": "External fuel, commodity, or geopolitical pressure is transmitting into local Energy cost, supply, or generation behavior.",
+    "priority_score": 24,
+    "editorial_bucket": "background",
+    "cluster_type": "event",
+    "cluster_classification": "watch",
+    "supporting_story_ids": []
+  },
+  {
+    "cluster_id": "energy_004",
+    "cluster_kind": "same_event",
+    "lead_story_id": "0c0f52b4750c",
+    "story_count": 1,
+    "story_ids": [
+      "0c0f52b4750c"
+    ],
+    "story_titles": [
+      "Psalm enters talks for Agus-Pulangi rehabilitation"
+    ],
+    "associated_stories": [
+      {
+        "id": "0c0f52b4750c",
+        "title": "Psalm enters talks for Agus-Pulangi rehabilitation",
+        "url": "https://business.inquirer.net/584885/psalm-enters-talks-for-agus-pulangi-rehabilitation",
+        "source": "Inquirer Business Energy",
+        "published_at": "2026-04-13T02:05:00.000Z"
+      }
+    ],
+    "entities": [],
+    "event_label": "Project execution and infrastructure progress",
+    "compression_line": "Infrastructure execution is moving through rehabilitation, EPC, commissioning, or delivery steps that affect system capability.",
+    "priority_score": 24,
+    "editorial_bucket": "background",
+    "cluster_type": "event",
+    "cluster_classification": "watch",
+    "supporting_story_ids": []
+  }
+]

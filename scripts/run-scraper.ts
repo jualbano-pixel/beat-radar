@@ -327,7 +327,9 @@ async function runBeat(
     topStoriesSelection,
     timeMode,
     fetchedAt,
-    beatConfig.displayName
+    beatConfig.displayName,
+    clusteringResult.eventClusters,
+    clusteringResult.themeClusters
   );
   const archiveOutputDir = path.join(outputDir, runDate);
   const latestDir = path.resolve(process.cwd(), "latest");

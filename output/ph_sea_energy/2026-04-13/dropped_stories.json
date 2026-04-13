@@ -1,7 +1,136 @@
-<<<<<<< HEAD
-[]
-=======
 [
+  {
+    "title": "Nearly 4M register for village and youth polls",
+    "source": "BusinessWorld Energy",
+    "date": "2026-04-13T13:05:19.000Z",
+    "reason_dropped": "hard_excluded_event_promo"
+  },
+  {
+    "title": "DEPDev wary of deficit impact if supplemental budget passes",
+    "source": "BusinessWorld Energy",
+    "date": "2026-04-13T12:41:41.000Z",
+    "reason_dropped": "hard_excluded_event_promo"
+  },
+  {
+    "title": "Manibela sets April 15-17 strike; Malacañang says move untimely",
+    "source": "BusinessWorld Energy",
+    "date": "2026-04-13T13:12:47.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "ASEAN ministers call for restraint in ME conflict",
+    "source": "BusinessWorld Energy",
+    "date": "2026-04-13T13:12:15.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Marcos debunks health rumors",
+    "source": "BusinessWorld Energy",
+    "date": "2026-04-13T13:10:54.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Admin support up in March — poll",
+    "source": "BusinessWorld Energy",
+    "date": "2026-04-13T13:10:10.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "5,400 Filipinos in ME repatriated",
+    "source": "BusinessWorld Energy",
+    "date": "2026-04-13T13:09:54.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "New Tourism chief takes oath",
+    "source": "BusinessWorld Energy",
+    "date": "2026-04-13T13:09:30.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Sinlaku won’t directly impact PHL",
+    "source": "BusinessWorld Energy",
+    "date": "2026-04-13T13:08:12.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Transfer of BSKE funds for oil crisis unconstitutional, senator says",
+    "source": "BusinessWorld Energy",
+    "date": "2026-04-13T13:05:27.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Dawn blast at old Baguio bus terminal injures 14",
+    "source": "BusinessWorld Energy",
+    "date": "2026-04-13T13:04:57.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "PSEi falls as US-Iran talks end without peace deal",
+    "source": "BusinessWorld Energy",
+    "date": "2026-04-13T13:00:47.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "AmCham says WFH scheme reassuring for ecozone locators",
+    "source": "BusinessWorld Energy",
+    "date": "2026-04-13T12:41:33.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "PEZA expects Batangas project to help chip industry climb value chain",
+    "source": "BusinessWorld Energy",
+    "date": "2026-04-13T12:41:29.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "PHL debt-to-GDP to continue declining — AMRO",
+    "source": "BusinessWorld Energy",
+    "date": "2026-04-13T12:41:24.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Beyond buildings: Inside the SEC’s REIT rule reforms",
+    "source": "BusinessWorld Energy",
+    "date": "2026-04-13T12:39:19.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Cignal collides with Creamline in PVL race to All-Filipino finals",
+    "source": "BusinessWorld Energy",
+    "date": "2026-04-13T11:28:43.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Defending champion TNT Tropang 5G brace for lowly Blackwater with new coach Pat Aquino",
+    "source": "BusinessWorld Energy",
+    "date": "2026-04-13T11:27:33.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Fernandez spearheads new inductees to the Philippine Sports Hall of Fame",
+    "source": "BusinessWorld Energy",
+    "date": "2026-04-13T11:24:24.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Yee, Trupa defend respective titles in the National Age Duathlon",
+    "source": "BusinessWorld Energy",
+    "date": "2026-04-13T11:23:28.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Metrobank premieres Moneygurado docuseries",
+    "source": "BusinessWorld Energy",
+    "date": "2026-04-13T11:06:43.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "ACT: About 75% of teachers have debt up to P200,000",
+    "source": "BusinessWorld Energy",
+    "date": "2026-04-13T10:09:41.000Z",
+    "reason_dropped": "low_relevance"
+  },
   {
     "title": "NCR building materials retail price growth accelerates in March",
     "source": "BusinessWorld Energy",
@@ -15,153 +144,9 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Understanding VUL: Protection first, investment second",
-    "source": "BusinessWorld Energy",
-    "date": "2026-04-13T03:20:05.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "IMF-World Bank meetings to kick off with the global economy under strain",
-    "source": "BusinessWorld Energy",
-    "date": "2026-04-12T16:33:55.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "NG gross borrowings jump over 40% in Feb.",
-    "source": "BusinessWorld Energy",
-    "date": "2026-04-12T16:32:54.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "PEZA says one-year WFH to help protect jobs, growth",
-    "source": "BusinessWorld Energy",
-    "date": "2026-04-12T16:31:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "BYD builds EV inventory in PHL as oil prices spur demand",
-    "source": "BusinessWorld Energy",
-    "date": "2026-04-12T16:06:49.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "A family affair",
-    "source": "BusinessWorld Energy",
-    "date": "2026-04-12T16:06:05.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "SEC warns against unregistered HTX investment platform",
-    "source": "BusinessWorld Energy",
-    "date": "2026-04-12T16:05:48.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "T-bill, bond rates may drop as markets monitor US-Iran talks",
-    "source": "BusinessWorld Energy",
-    "date": "2026-04-12T16:05:23.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Abaca users forced to import as producers untangle supply chain",
-    "source": "BusinessWorld Energy",
-    "date": "2026-04-12T16:04:55.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Not by chance",
-    "source": "BusinessWorld Energy",
-    "date": "2026-04-12T16:04:53.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Globe stock gains on cable consortium entry",
-    "source": "BusinessWorld Energy",
-    "date": "2026-04-12T16:04:47.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Peso to move sideways vs dollar with Middle East developments in focus",
-    "source": "BusinessWorld Energy",
-    "date": "2026-04-12T16:04:23.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "New girls, new games",
-    "source": "BusinessWorld Energy",
-    "date": "2026-04-12T16:04:03.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Galunggong landed at Navotas port nearly doubles as harvest peak starts",
-    "source": "BusinessWorld Energy",
-    "date": "2026-04-12T16:03:55.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Politicians who play God with our health",
-    "source": "BusinessWorld Energy",
-    "date": "2026-04-12T16:03:53.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Alpaca engages regulators to explore wider access to foreign securities",
-    "source": "BusinessWorld Energy",
-    "date": "2026-04-12T16:03:47.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Middle East conflict may erode Philippine banks’ asset quality — Fitch Ratings",
-    "source": "BusinessWorld Energy",
-    "date": "2026-04-12T16:03:22.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Style (04/13/26)",
-    "source": "BusinessWorld Energy",
-    "date": "2026-04-12T16:03:03.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Death, taxes, and resurrection",
-    "source": "BusinessWorld Energy",
-    "date": "2026-04-12T16:02:52.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "ESET launches AI-powered MDR service in APAC with industry-leading 6-minute response time",
-    "source": "BusinessWorld Energy",
-    "date": "2026-04-12T16:02:42.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "BSP bills fetch lower yields as demand surges",
-    "source": "BusinessWorld Energy",
-    "date": "2026-04-12T16:02:22.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "The coming of the e-cavalry",
-    "source": "BusinessWorld Energy",
-    "date": "2026-04-12T16:02:19.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Philippines inches up in global state and governance ranking",
-    "source": "BusinessWorld Energy",
-    "date": "2026-04-12T16:02:08.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Debt worth P13.2 million condoned for 200 ARBs",
-    "source": "BusinessWorld Energy",
-    "date": "2026-04-12T16:01:54.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Pooled procurement to secure the country’s medicine supply",
-    "source": "BusinessWorld Energy",
-    "date": "2026-04-12T16:01:51.000Z",
+    "title": "BIZ BUZZ: Lopez vs Lopez",
+    "source": "Inquirer Business Energy",
+    "date": "2026-04-13T23:59:07.000Z",
     "reason_dropped": "low_relevance"
   },
   {
@@ -375,9 +360,81 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "ADB cuts 2026 PH GDP growth forecast to 4.4%",
-    "source": "Inquirer Business Energy",
-    "date": "2026-04-11T02:28:00.000Z",
+    "title": "Digital Transformation in Finance",
+    "source": "BusinessMirror Energy",
+    "date": "2026-04-13T16:03:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "DigiPlus secures spot in Statista rankings",
+    "source": "BusinessMirror Energy",
+    "date": "2026-04-13T16:02:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "BEC: New program aims to hasten electric mobility shift",
+    "source": "BusinessMirror Energy",
+    "date": "2026-04-13T16:02:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Puregold Price Club marks major milestone",
+    "source": "BusinessMirror Energy",
+    "date": "2026-04-13T16:02:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "CREC energizes solar project in Pangasinan",
+    "source": "BusinessMirror Energy",
+    "date": "2026-04-13T16:02:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "China’s clean tech firms signal windfall from Gulf energy shock",
+    "source": "BusinessMirror Energy",
+    "date": "2026-04-13T16:02:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "First Gen hydropower deal, ‘poison pill’ provision draw scrutiny amid Lopez dispute",
+    "source": "BusinessMirror Energy",
+    "date": "2026-04-13T16:02:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Emerging cities to drive 2026 financial results—Italpinas",
+    "source": "BusinessMirror Energy",
+    "date": "2026-04-13T16:02:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Net Asset Value Per Share (NAVPS) Performance (as of April 13, 2026)",
+    "source": "BusinessMirror Energy",
+    "date": "2026-04-13T15:15:26.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "DepDev chief flags funding gap if war drags on",
+    "source": "BusinessMirror Energy",
+    "date": "2026-04-13T13:37:19.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Short-dated instruments beguile jittery investors",
+    "source": "BusinessMirror Energy",
+    "date": "2026-04-13T13:36:12.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Real GDP growth, inflation pulling down PHL’s high debt ratio—Amro",
+    "source": "BusinessMirror Energy",
+    "date": "2026-04-13T13:35:18.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Asia-Pacific insurers’ limited direct exposure to war seen fragile as uncertainties remain",
+    "source": "BusinessMirror Energy",
+    "date": "2026-04-13T13:33:20.000Z",
     "reason_dropped": "low_relevance"
   },
   {
@@ -441,12 +498,6 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Rating outlook for DBP lowered to ‘stable’",
-    "source": "BusinessMirror Energy",
-    "date": "2026-04-12T16:03:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
     "title": "ADB funding to help SEA capital markets deepen",
     "source": "BusinessMirror Energy",
     "date": "2026-04-12T16:03:00.000Z",
@@ -471,75 +522,9 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Australia acts to secure urea amid supply risk from Iran war",
+    "title": "Rating outlook for DBP lowered to ‘stable’",
     "source": "BusinessMirror Energy",
-    "date": "2026-04-12T12:57:03.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Honed by life, driven by passion: Cebu ‘entrep’ charts own path",
-    "source": "BusinessMirror Energy",
-    "date": "2026-04-10T14:34:50.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Fortune Life inks MOA with Air Cavaliers Credit Cooperative",
-    "source": "BusinessMirror Energy",
-    "date": "2026-04-09T12:16:50.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "SEC pushes umbrella mutual fund",
-    "source": "BusinessMirror Energy",
-    "date": "2026-04-09T12:13:53.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "‘Foreign investors keen on health app of Metro Pacific’",
-    "source": "BusinessMirror Energy",
-    "date": "2026-04-09T12:13:20.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Spike in plastic prices worries US toymaker",
-    "source": "BusinessMirror Energy",
-    "date": "2026-04-09T12:12:40.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Sustainability to Biz Value: What Associations Can Do",
-    "source": "BusinessMirror Energy",
-    "date": "2026-04-09T11:58:34.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "War’s impact on borrowers’ capacity to pay loans flagged",
-    "source": "BusinessMirror Energy",
-    "date": "2026-04-09T11:57:36.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Rules on salary-based loans to be liberalized",
-    "source": "BusinessMirror Energy",
-    "date": "2026-04-09T11:54:48.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "World Bank: Rising costs to swell ranks of poor Pinoys",
-    "source": "BusinessMirror Energy",
-    "date": "2026-04-09T11:53:54.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Subsidies, tax incentives proposed",
-    "source": "BusinessMirror Energy",
-    "date": "2026-04-09T11:53:06.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "GSIS says issued ₱6.2B in refunds",
-    "source": "BusinessMirror Energy",
-    "date": "2026-04-09T11:52:09.000Z",
+    "date": "2026-04-12T16:03:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
@@ -645,52 +630,57 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "DBP earns Pag-IBIG recognition for advancing checkless housing disbursements",
+    "title": "BREAKING VIEWS: War-fueled debt spiral will shape global power",
     "source": "Malaya Business",
-    "date": "2026-04-13T08:25:32.000Z",
+    "date": "2026-04-13T16:17:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Aboitiz InfraCapital airports pushes smarter, greener aviation agenda at Asia Summit",
+    "title": "Asia currencies falter as US moves to blockade Iran; Hungary’s forint surges",
     "source": "Malaya Business",
-    "date": "2026-04-13T08:17:05.000Z",
+    "date": "2026-04-13T16:16:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Lenovo taps David Beckham for global partnership ahead of FIFA World Cup 2026",
+    "title": "Japan’s benchmark bond yield jumps to 29-year high as US-Iran talks collapse",
     "source": "Malaya Business",
-    "date": "2026-04-13T08:13:14.000Z",
+    "date": "2026-04-13T16:15:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Cebu Pacific doubles Go Rewards points on April bookings in 30th anniversary treat",
+    "title": "MARCOS ASSURES PUBLIC OF AMPLE FOOD SUPPLY",
     "source": "Malaya Business",
-    "date": "2026-04-13T07:30:36.000Z",
+    "date": "2026-04-13T16:15:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Ombudsman trains guns on fraudulent billing by PhilHealth, private hospitals",
+    "title": "GLOBAL MARKETS: Oil tops $100, dollar gains, stocks fall as US moves to blockade Iran",
     "source": "Malaya Business",
-    "date": "2026-04-13T06:45:37.000Z",
+    "date": "2026-04-13T16:14:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Poison pill in P62B deal with Prime protects Piki from ouster",
+    "title": "‘Star witness’ Madriaga to testify on Sara’s confi funds ‘misuse’",
     "source": "Malaya Business",
-    "date": "2026-04-13T06:18:46.000Z",
+    "date": "2026-04-13T16:14:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Bridges to Success Career Fair empowers future-ready talent",
+    "title": "Iran threatens to retaliate vs Gulf ports for US blockade",
     "source": "Malaya Business",
-    "date": "2026-04-13T05:16:33.000Z",
+    "date": "2026-04-13T16:13:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "DLSU economic study forecasts, if MidEast conflict drags on: PH 2026 GROWTH MAY SLOW TO 3.79%",
+    "title": "Safe-haven dollar gains as US-Iran peace talks falter, US to blockade Iran ports",
     "source": "Malaya Business",
-    "date": "2026-04-12T16:35:00.000Z",
+    "date": "2026-04-13T16:12:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Trump calls Pope Leo ‘terrible’ in direct attack",
+    "source": "Malaya Business",
+    "date": "2026-04-13T16:12:00.000Z",
     "reason_dropped": "low_relevance"
   }
 ]
->>>>>>> da4049f (Tighten Energy filtering for policy and price signals)
