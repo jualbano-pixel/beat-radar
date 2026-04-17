@@ -1,0 +1,376 @@
+{
+  "top_stories": [
+    {
+      "title": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
+      "source": "OpenAI Blog",
+      "date": "2026-04-13T06:00:00.000Z",
+      "summary": "Cloudflare brings OpenAI’s GPT-5.4 and Codex to Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.",
+      "tags": [
+        "ai_models"
+      ],
+      "priority_score": 16.4,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "infrastructure_move",
+        "safety_or_governance",
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact"
+      ],
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the ecosystem, such as enterprises, developers, platforms, users, or regulators. It has practical consequences beyond a narrow technical audience."
+    },
+    {
+      "title": "Accelerating the next phase of AI",
+      "source": "OpenAI Blog",
+      "date": "2026-03-31T13:00:00.000Z",
+      "summary": "OpenAI raises $122 billion in new funding to expand frontier AI globally, invest in next-generation compute, and meet growing demand for ChatGPT, Codex, and enterprise AI.",
+      "tags": [
+        "ai_models",
+        "ai_infrastructure",
+        "applied_ai"
+      ],
+      "priority_score": 16.25,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "infrastructure_move",
+        "enterprise_scale_signal",
+        "strategic_finance",
+        "broad_ecosystem_impact",
+        "broader_trend"
+      ],
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the ecosystem, such as enterprises, developers, platforms, users, or regulators. It has practical consequences beyond a narrow technical audience."
+    },
+    {
+      "title": "Without governance, AI agents risk becoming enterprise chaos engines",
+      "source": "e27 SEA Tech",
+      "date": "2026-04-14T03:46:18.000Z",
+      "summary": "Enterprise AI has reached the point where hand-wringing is no longer enough. The urgent question is practical: what should organisations actually build if they want autonomous agents without autonomous chaos? The “AI Agent Governance Gap” report by US-based API management company Gravitee offers a clear answer. It a...",
+      "tags": [
+        "ai_infrastructure",
+        "applied_ai"
+      ],
+      "priority_score": 12.6,
+      "priority_reasons": [
+        "policy_shift",
+        "safety_or_governance",
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact"
+      ],
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the ecosystem, such as enterprises, developers, platforms, users, or regulators. It has practical consequences beyond a narrow technical audience."
+    },
+    {
+      "title": "Accelerating the cyber defense ecosystem that protects us all",
+      "source": "OpenAI Blog",
+      "date": "2026-04-16T00:00:00.000Z",
+      "summary": "Leading security firms and enterprises join OpenAI’s Trusted Access for Cyber, using GPT-5.4-Cyber and $10M in API grants to strengthen global cyber defense.",
+      "tags": [
+        "ai_models",
+        "ai_infrastructure"
+      ],
+      "priority_score": 11.6,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "safety_or_governance",
+        "enterprise_scale_signal",
+        "multi_group_impact"
+      ],
+      "why_it_matters": "This matters because it changes how more than one important group can build, buy, deploy, or govern AI. The impact is broader than a single product or research update."
+    },
+    {
+      "title": "The architecture of atrophy: Why MS Copilot’s reliance on the LLM wrapper model led to its 2026 stagnation",
+      "source": "e27 SEA Tech",
+      "date": "2026-04-16T01:00:16.000Z",
+      "summary": "In the rapidly evolving landscape of Enterprise Resource Planning (ERP) and digital transformation, the year 2026 has emerged as a watershed moment for artificial intelligence. While the initial surge of generative AI promised a paradigm shift in productivity, the reality for Microsoft’s flagship AI offering, MS Cop...",
+      "tags": [
+        "ai_models",
+        "applied_ai"
+      ],
+      "priority_score": 10.6,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact"
+      ],
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the ecosystem, such as enterprises, developers, platforms, users, or regulators. It has practical consequences beyond a narrow technical audience."
+    },
+    {
+      "title": "The next phase of enterprise AI",
+      "source": "OpenAI Blog",
+      "date": "2026-04-08T14:00:00.000Z",
+      "summary": "OpenAI outlines the next phase of enterprise AI, as adoption accelerates across industries with Frontier, ChatGPT Enterprise, Codex, and company-wide AI agents.",
+      "tags": [
+        "ai_models",
+        "applied_ai"
+      ],
+      "priority_score": 9.45,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "broader_trend"
+      ],
+      "why_it_matters": "This matters because it changes how more than one important group can build, buy, deploy, or govern AI. The impact is broader than a single product or research update."
+    },
+    {
+      "title": "OrtCloud bags US$1.7M pre-seed to make cloud performance predictable",
+      "source": "e27 SEA Tech",
+      "date": "2026-04-14T02:00:16.000Z",
+      "summary": "Golden Gate Ventures and Antler are betting that Singapore-based OrtCloud has cracked a problem most cloud providers prefer to ignore: inconsistent performance and unpredictable bills are making life hard for AI developers. The pre-seed round worth US$1.7 million, announced today, will fuel the startup’s push into w...",
+      "tags": [
+        "applied_ai"
+      ],
+      "priority_score": 8.6,
+      "priority_reasons": [
+        "infrastructure_move",
+        "enterprise_scale_signal",
+        "multi_group_impact"
+      ],
+      "why_it_matters": "This matters because it changes how more than one important group can build, buy, deploy, or govern AI. The impact is broader than a single product or research update."
+    },
+    {
+      "title": "New ways to balance cost and reliability in the Gemini API",
+      "source": "Google AI Blog",
+      "date": "2026-04-02T16:00:00.000Z",
+      "summary": "Google is introducing two new inference tiers to the Gemini API, Flex and Priority, to balance cost and latency.",
+      "tags": [
+        "ai_infrastructure"
+      ],
+      "priority_score": 8.5,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "infrastructure_move",
+        "practical_usability_impact"
+      ],
+      "why_it_matters": "This matters because infrastructure changes shape what the ecosystem can build next. It affects cost, capability, or speed at platform scale."
+    }
+  ],
+  "secondary_signals": [
+    {
+      "title": "Trusted access for the next era of cyber defense",
+      "source": "OpenAI Blog",
+      "date": "2026-04-14T00:00:00.000Z",
+      "summary": "OpenAI expands its Trusted Access for Cyber program, introducing GPT-5.4-Cyber to vetted defenders and strengthening safeguards as AI cybersecurity capabilities advance.",
+      "tags": [
+        "ai_models"
+      ],
+      "priority_score": 6.9,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "safety_or_governance"
+      ],
+      "note": "Relevant platform or product movement, but not top-tier today."
+    },
+    {
+      "title": "Why AI won’t replace developers — but CEOs must lead the transformation",
+      "source": "e27 SEA Tech",
+      "date": "2026-04-15T12:20:05.000Z",
+      "summary": "The widespread adoption of generative AI is dramatically changing the software development landscape. Tools like GitHub Copilot and ChatGPT now assist developers in generating code, automating documentation, and reducing the time needed to test and deploy. While this has sparked concern about the future of developer...",
+      "tags": [
+        "applied_ai"
+      ],
+      "priority_score": 6.6,
+      "priority_reasons": [
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact"
+      ],
+      "note": "Useful because it has broad practical impact across the AI ecosystem."
+    },
+    {
+      "title": "Adobe’s new Firefly AI assistant can use Creative Cloud apps to complete tasks",
+      "source": "TechCrunch AI",
+      "date": "2026-04-15T13:01:00.000Z",
+      "summary": "Adobe says the assistant can work across apps like Firefly, Photoshop, Premiere, Lightroom, Express, Illustrator and its other apps to do tasks for you.",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 6.1,
+      "priority_reasons": [
+        "infrastructure_move",
+        "multi_group_impact"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "Codex now offers more flexible pricing for teams",
+      "source": "OpenAI Blog",
+      "date": "2026-04-02T10:00:00.000Z",
+      "summary": "Codex now includes pay-as-you-go pricing for ChatGPT Business and Enterprise, providing teams a more flexible option to start and scale adoption.",
+      "tags": [
+        "ai_models",
+        "applied_ai"
+      ],
+      "priority_score": 6,
+      "priority_reasons": [
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact"
+      ],
+      "note": "Useful because it has broad practical impact across the AI ecosystem."
+    },
+    {
+      "title": "Most Singapore businesses use AI daily, but scaling it remains out of reach",
+      "source": "e27 SEA Tech",
+      "date": "2026-04-15T08:15:37.000Z",
+      "summary": "Singapore businesses have firmly moved past the experimental phase of AI, but a new study suggests that going further is proving harder than many anticipated. Research released Tuesday by customer platform company HubSpot found that nearly two-thirds of local businesses now apply AI consistently in their day-to-day...",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 5.1,
+      "priority_reasons": [
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact",
+        "minor_or_routine"
+      ],
+      "note": "Useful because it has broad practical impact across the AI ecosystem."
+    },
+    {
+      "title": "CyberAgent moves faster with ChatGPT Enterprise and Codex",
+      "source": "OpenAI Blog",
+      "date": "2026-04-09T00:00:00.000Z",
+      "summary": "CyberAgent uses ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming.",
+      "tags": [
+        "ai_models",
+        "applied_ai"
+      ],
+      "priority_score": 4.7,
+      "priority_reasons": [
+        "enterprise_scale_signal",
+        "multi_group_impact"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "Navigating the new era of brand mention tracking and AI visibility in Singapore",
+      "source": "e27 SEA Tech",
+      "date": "2026-04-14T01:00:51.000Z",
+      "summary": "In the rapidly evolving digital landscape, the traditional boundaries of search engine optimization are expanding. For years, businesses focused almost exclusively on keyword rankings and backlink profiles. However, as generative AI becomes a primary interface for information gathering, a new discipline has emerged:...",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 4.6,
+      "priority_reasons": [
+        "enterprise_scale_signal",
+        "multi_group_impact"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "Build with Veo 3.1 Lite, our most cost-effective video generation model",
+      "source": "Google AI Blog",
+      "date": "2026-03-31T16:00:00.000Z",
+      "summary": "Veo 3.1 Lite is now available in paid preview through the Gemini API and for testing in Google AI Studio.",
+      "tags": [
+        "ai_models",
+        "ai_infrastructure"
+      ],
+      "priority_score": 4,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "practical_usability_impact",
+        "minor_or_routine"
+      ],
+      "note": "Relevant platform or product movement, but not top-tier today."
+    },
+    {
+      "title": "SFFPC and the AI industry",
+      "source": "Inquirer Tech",
+      "date": "2026-03-26T09:36:55.000Z",
+      "summary": "The little PC that could? Here’s five reasons why we’ve been looking at the “small form factor PC” (SFFPC) because of the so-called “AI revolution.” The shift to remote work and AI-driven workflows has changed how businesses think about hardware. Laptops have been the default for mobility, but as more companies rely...",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 4,
+      "priority_reasons": [
+        "enterprise_scale_signal",
+        "multi_group_impact"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "Build with Lyria 3, our newest music generation model",
+      "source": "Google AI Blog",
+      "date": "2026-03-25T16:00:00.000Z",
+      "summary": "Lyria 3 is now available in paid preview through the Gemini API and for testing in Google AI Studio.",
+      "tags": [
+        "ai_models",
+        "ai_infrastructure"
+      ],
+      "priority_score": 4,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "practical_usability_impact",
+        "minor_or_routine"
+      ],
+      "note": "Relevant platform or product movement, but not top-tier today."
+    },
+    {
+      "title": "Globe’s AI switch hits 90% adoption",
+      "source": "Philippine Star Business AI/Tech",
+      "date": "2026-04-15T16:00:00.000Z",
+      "summary": "Globe Telecom Inc. is close to completely adopting artificial intelligence (AI) across its business units, signaling the telco’s readiness to an automated future.",
+      "tags": [
+        "applied_ai"
+      ],
+      "priority_score": 3.6,
+      "priority_reasons": [
+        "enterprise_scale_signal",
+        "practical_usability_impact"
+      ],
+      "note": "Shows practical adoption or rollout worth tracking."
+    },
+    {
+      "title": "Baskit raises US$4.4M to take Indonesia’s offline distribution playbook regional",
+      "source": "e27 SEA Tech",
+      "date": "2026-04-15T02:32:50.000Z",
+      "summary": "Indonesian supply chain start-up Baskit has closed a US$4.4 million Series A first round, backed by Cento Ventures alongside Kaya Founders, Analog Ventures and Orvel Ventures, as it prepares to export a distribution model refined over three years in one of Southeast Asia’s (SEA) most complex markets. The equity rais...",
+      "tags": [
+        "ai_models"
+      ],
+      "priority_score": 3.1,
+      "priority_reasons": [
+        "multi_group_impact"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "Gradient Labs gives every bank customer an AI account manager",
+      "source": "OpenAI Blog",
+      "date": "2026-04-01T02:00:00.000Z",
+      "summary": "Gradient Labs uses GPT-4.1 and GPT-5.4 mini and nano to power AI agents that automate banking support workflows with low latency and high reliability.",
+      "tags": [
+        "ai_models"
+      ],
+      "priority_score": 2.5,
+      "priority_reasons": [
+        "multi_group_impact"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "AI Pulse Exclusive: How Bonnie Factor is driving AI agent adoption in organisations",
+      "source": "e27 SEA Tech",
+      "date": "2026-04-15T10:28:01.000Z",
+      "summary": "In this interview, e27 speaks with Bonnie Factor, Founder of Leading With Success PH and CuriosityGenAI LLC, about how organisations are moving from AI experimentation to real-world deployment. Through her work installing AI agents for SMEs and building AI labs for enterprises, Bonnie focuses on helping teams operat...",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 2.1,
+      "priority_reasons": [
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "minor_or_routine"
+      ],
+      "note": "Shows practical adoption or rollout worth tracking."
+    },
+    {
+      "title": "The rise of logistics startups in Southeast Asia: How AI powers supply-chain revolution",
+      "source": "e27 SEA Tech",
+      "date": "2026-04-15T11:50:49.000Z",
+      "summary": "Southeast Asia is packed with numerous logistics landscape opportunities and operational hurdles. The growth opportunities are numerous for logistics startups in Southeast Asia. Meanwhile, they can face major difficulties too, such as inefficient routes, peak traffic, unpredictable weather, high last-mile delivery c...",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 0.1,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "top_stories": [
+    {
+      "title": "DBCC opposes suspension of excise tax on gas, diesel",
+      "source": "BusinessWorld Energy",
+      "date": "2026-04-14T16:33:34.000Z",
+      "summary": "SUSPENDING EXCISE TAXES on diesel and gasoline would only provide limited relief compared to lifting levies on liquefied petroleum gas (LPG) and kerosene as the resulting decline in pump prices would be small, the Department of Finance said.",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 4.1,
+      "priority_reasons": [
+        "policy_shift"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "₱510M losses a month seen on tax pause",
+      "source": "BusinessMirror Energy",
+      "date": "2026-04-14T12:55:13.000Z",
+      "summary": "THE suspension of excise taxes imposed on kerosene and liquefied petroleum gas (LPG) will result in a revenue loss of P510 million per month for the Bureau of Customs (BOC).",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 4.1,
+      "priority_reasons": [
+        "policy_shift"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "Philippines seeks US nod to extend Russian oil imports amid supply risks",
+      "source": "Philippine Star Business Energy",
+      "date": "2026-04-15T01:16:00.000Z",
+      "summary": "The Philippines is seeking an extension of a United States sanctions waiver to allow continued oil imports from Russia, as the government moves to secure fuel supply amid ongoing global disruptions, the Department of Energy said.",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 3.1,
+      "priority_reasons": [
+        "safety_or_governance"
+      ],
+      "why_it_matters": "This matters because it affects how AI systems are governed, evaluated, or deployed responsibly. Those choices can shape the broader direction of the market."
+    },
+    {
+      "title": "NGCP: Middle East war won’t affect electricity grid charges",
+      "source": "Inquirer Business Energy",
+      "date": "2026-04-15T14:20:41.000Z",
+      "summary": "MANILA, Philippines — The National Grid Corporation of the Philippines (NGCP) said Wednesday that the Middle East war would have no spillover effect on electricity transmission charges. In a media briefing, NGCP spokesperson Cynthia Alabanza reiterated that the group is “not rate-capped.” “NGCP is revenue-capped. So...",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 1.6,
+      "priority_reasons": [
+        "practical_usability_impact"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Local ride-hailing platforms reduce commission rates",
+      "source": "BusinessMirror Energy",
+      "date": "2026-04-13T16:02:00.000Z",
+      "summary": "Ride-hailing platforms have begun slashing their commission rates in response to the ongoing fuel price crisis, their representatives told a congressional hearing on Monday, as lawmakers pushed for mandatory cuts to protect the earnings of transport network vehicle service (TNVS) and motorcycle taxi drivers.",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 1.6,
+      "priority_reasons": [
+        "practical_usability_impact"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Marcos fed wrong info on oil crisis — Rep. Quimbo",
+      "source": "Malaya Business",
+      "date": "2026-04-15T07:41:18.000Z",
+      "summary": "THE lead chair of the Legislative Energy Action Development (LEAD) Council believes President Ferdinand Marcos Jr. has not suspended the excise tax on gasoline and diesel because he is being fed wrong information by his subordinates. Marikina City Rep. Miro Quimbo made the statement on Wednesday after Finance unders...",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "PH fuel supply cover drops to 50.31 days from 50.42",
+      "source": "Malaya Business",
+      "date": "2026-04-15T07:12:58.000Z",
+      "summary": "DOE cites inventories plus scheduled deliveries until May 1 The country’s total available fuel supply is projected to last 50.31 days as of the latest inventories and the expected deliveries until May 1, 2026, Energy Secretary Sharon Garin said on Wednesday. The supply level is down slightly from the 50.42-day cover...",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Philippines may allow more pork, corn imports at lower tariffs",
+      "source": "Inquirer Business Energy",
+      "date": "2026-04-15T02:05:00.000Z",
+      "summary": "MANILA, Philippines – The Department of Agriculture (DA) is considering to use the minimum access volume (MAV) Plus mechanism to allow increased importation of corn and pork at lower duties. Through the MAV Plus scheme, the government allows increased purchases of certain agricultural products at reduced tariff rate...",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    }
+  ],
+  "secondary_signals": [
+    {
+      "title": "SBMA to reduce tariff, cargo charges by 5% amid Middle East conflict",
+      "source": "Philippine Star Business Energy",
+      "date": "2026-04-15T01:29:00.000Z",
+      "summary": "The Subic Bay Metropolitan Authority will implement a 5% reduction in tariff, cargo charges and other fees in the Port of Subic as temporary cost-stabilizing measures amid geopolitical tensions in the Middle East.",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Price Tracker: Oil, fuel monitor for Apr. 15",
+      "source": "Philippine Star Business Energy",
+      "date": "2026-04-15T00:30:00.000Z",
+      "summary": "The rollback in oil and fuel prices that took effect Tuesday, April 15, only partly offsets the sustained run-up in recent weeks, officials said.",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Go justifies limited tax suspension, says move was ‘balanced’",
+      "source": "Inquirer Business Energy",
+      "date": "2026-04-14T09:29:26.000Z",
+      "summary": "MANILA, Philippines – Finance Secretary Frederick Go justified the Marcos administration’s decision to avoid a blanket suspension of fuel excise taxes, saying the move was “balanced and fiscally responsible.” In a statement on Tuesday, Go said the Development Budget Coordination Committee (DBCC) recommended limiting...",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "DBM: Nothing ‘irregular’ with fuel subsidy allocations",
+      "source": "Philippine Star Business Energy",
+      "date": "2026-04-14T03:41:00.000Z",
+      "summary": "The Department of Budget and Management dismissed speculations of irregularity in the budget for fuel subsidies.",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Fuel price rolled back by as much as P23/L",
+      "source": "Inquirer Business Energy",
+      "date": "2026-04-14T02:20:00.000Z",
+      "summary": "Fuel price rollbacks by as much as P23 per liter take effect on Tuesday—a rare break from five weeks of surging hikes. But also on Tuesday, global oil prices resumed their surge after the breakdown of peace talks between the United States and Iran over the weekend. (See related stories on this page and on",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Nomura sees 60% chance of BSP rate hikes",
+      "source": "Inquirer Business Energy",
+      "date": "2026-04-14T02:11:00.000Z",
+      "summary": "MANILA, Philippines – There is a 60-percent chance that the Bangko Sentral ng Pilipinas (BSP) will raise interest rates this year as surging oil prices tied to the conflict in the Middle East fuel inflation, Nomura said, warning that the Philippines could face one of the region’s sharpest stagflationary shocks. In a...",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    }
+  ]
+}

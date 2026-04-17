@@ -6,8 +6,10 @@ exports.passesBaselineEditorialRelevance = passesBaselineEditorialRelevance;
 exports.evaluateStoryRelevance = evaluateStoryRelevance;
 exports.filterStoriesByRelevance = filterStoriesByRelevance;
 const relevance_js_1 = require("../config/relevance.js");
+const ai_tech_filter_js_1 = require("./ai-tech-filter.js");
 const banking_js_1 = require("./banking.js");
 const energy_filter_js_1 = require("./energy-filter.js");
+const property_filter_js_1 = require("./property-filter.js");
 const NORMALIZATION_REPLACEMENTS = [
     [/dall[\s\u00b7._-]*e/gi, "dalle"],
     [/text[\s-]*to[\s-]*image/gi, "text to image"],
@@ -211,6 +213,12 @@ function isBankingBeat(story) {
 function isEnergyBeat(story) {
     return story.beat === "ph_sea_energy";
 }
+function isAiTechBeat(story) {
+    return story.beat === "ai_tech";
+}
+function isPropertyBeat(story) {
+    return story.beat === "property_real_estate";
+}
 function hasMotoringLaunchSignal(text) {
     return matchesAny(text, MOTORING_LAUNCH_TERMS);
 }
@@ -306,6 +314,13 @@ function getKeepSignalCategories(story) {
         }
         return categories;
     }
+    if (isPropertyBeat(story)) {
+        const classification = (0, property_filter_js_1.classifyPropertyStory)(story);
+        if (!classification.passesInclusion || classification.hardExcluded) {
+            return categories;
+        }
+        return classification.inclusionMatches.map((match) => `property_${match.id}`);
+    }
     const isModelRelease = matchesKeepSignalCategory(combinedText, keepSignals.model_release) &&
         (matchesAny(combinedText, config.core_ai_keywords) ||
             matchesAny(combinedText, ["gpt", "model", "models", "system card", "codex"]));
@@ -367,6 +382,12 @@ function scoreStory(story) {
         }
         return classification.totalScore;
     }
+    if (isPropertyBeat(story)) {
+        const classification = (0, property_filter_js_1.classifyPropertyStory)(story);
+        const axisScore = Object.values(classification.axisScores).reduce((total, score) => total + score, 0);
+        const tierBoost = classification.importanceTier === "high" ? 3 : 0;
+        return axisScore + classification.materialitySignals.length + tierBoost;
+    }
     const coreScore = countMatches(title, config.core_ai_keywords) * 3 +
         countMatches(summary, config.core_ai_keywords) * 2;
     const infraScore = countMatches(title, config.ai_infra_keywords) * 2 +
@@ -420,6 +441,10 @@ function hasDirectBeatSignal(story) {
         return classification.passesGate && classification.movementScore >= 5;
     }
     if (!isMotoringBeat(story)) {
+        if (isPropertyBeat(story)) {
+            const classification = (0, property_filter_js_1.classifyPropertyStory)(story);
+            return classification.passesInclusion && !classification.hardExcluded;
+        }
         return hasDirectAiSignal(story);
     }
     const config = relevance_js_1.relevanceConfigByBeat[story.beat];
@@ -442,6 +467,9 @@ function isObviousJunk(story) {
     }
     if (isBankingBeat(story)) {
         return (0, banking_js_1.classifyBankingStory)(story).hardExcluded;
+    }
+    if (isPropertyBeat(story)) {
+        return (0, property_filter_js_1.classifyPropertyStory)(story).hardExcluded;
     }
     if (/(^best\s)|(\bbest .* of\b)|(\bour favorite\b)|(\btop \d+\b)|(\broundup\b)|(\bgift guide\b)/i.test(title)) {
         return true;
@@ -481,6 +509,50 @@ function passesBaselineEditorialRelevance(story) {
     return scoreStory(story) >= 2;
 }
 function evaluateStoryRelevance(story) {
+    if (isPropertyBeat(story)) {
+        const evaluation = (0, property_filter_js_1.evaluatePropertyRelevance)(story);
+        const propertyFilter = (0, property_filter_js_1.summarizePropertyClassification)(evaluation.classification);
+        if (evaluation.kept) {
+            return {
+                kept: true,
+                story: {
+                    ...story,
+                    property_filter: propertyFilter
+                }
+            };
+        }
+        return {
+            kept: false,
+            drop: evaluation.drop
+                ? {
+                    ...evaluation.drop,
+                    property_filter: propertyFilter
+                }
+                : undefined
+        };
+    }
+    if (isAiTechBeat(story)) {
+        const evaluation = (0, ai_tech_filter_js_1.evaluateAiTechRelevance)(story);
+        const aiTechFilter = (0, ai_tech_filter_js_1.summarizeAiTechClassification)(evaluation.classification);
+        if (evaluation.kept) {
+            return {
+                kept: true,
+                story: {
+                    ...story,
+                    ai_tech_filter: aiTechFilter
+                }
+            };
+        }
+        return {
+            kept: false,
+            drop: evaluation.drop
+                ? {
+                    ...evaluation.drop,
+                    ai_tech_filter: aiTechFilter
+                }
+                : undefined
+        };
+    }
     if (isEnergyBeat(story)) {
         const evaluation = (0, energy_filter_js_1.evaluateEnergyRelevance)(story);
         const energyFilter = (0, energy_filter_js_1.summarizeEnergyClassification)(evaluation.classification);

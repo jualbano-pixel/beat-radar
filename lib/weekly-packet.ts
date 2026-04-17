@@ -87,15 +87,54 @@ type EnergyEditorialOutput = {
   signals_to_watch: EnergySignalOutput[];
 };
 
+type AiTechStoryRef = {
+  id: string;
+  title: string;
+  source: string;
+  url: string;
+  primary_axis?: string;
+  editorial_bucket?: string;
+  geography?: string;
+  importance_tier?: string;
+};
+
+type AiTechEditorialOutput = {
+  core_signals: AiTechStoryRef[];
+  interpretation_layer: AiTechStoryRef[];
+  capability_watch: AiTechStoryRef[];
+};
+
+type PropertyStoryRef = {
+  id: string;
+  title: string;
+  source: string;
+  url: string;
+  primary_axis?: string;
+  editorial_bucket?: string;
+  geography?: string;
+  importance_tier?: string;
+  stress_signal?: boolean;
+};
+
+type PropertyEditorialOutput = {
+  editorial_read: string[];
+  core_signals: PropertyStoryRef[];
+  interpretation_layer: PropertyStoryRef[];
+  capability_watch: PropertyStoryRef[];
+};
+
 type WeeklyEditorialPacket = {
   week_of: string;
   time_mode: AiTechTimeMode;
   beat_name: string;
+  editorial_read: string[];
   top_stories: TopStory[];
   secondary_signals: SecondarySignal[];
   context_watch: ContextWatchItem[];
   theme_clusters: PacketThemeCluster[];
   energy_output?: EnergyEditorialOutput;
+  ai_tech_output?: AiTechEditorialOutput;
+  property_output?: PropertyEditorialOutput;
   notes: {
     top_story_count: number;
     secondary_count: number;
@@ -648,6 +687,146 @@ function inferPatternAndTensionForLabel(
     };
   }
 
+  if (normalizedLabel.includes("price growth slowdown")) {
+    return {
+      pattern: "Home-price growth is losing speed rather than confirming a clean demand rebound.",
+      tension: "Tension: price resilience vs buyer capacity"
+    };
+  }
+
+  if (normalizedLabel.includes("office market stress")) {
+    return {
+      pattern: "Office demand is still being tested by vacancy, rent, and tenant-cost pressure.",
+      tension: "Tension: supply overhang vs usable demand"
+    };
+  }
+
+  if (normalizedLabel.includes("residential permit weakness")) {
+    return {
+      pattern: "Residential construction signals are softening where demand is not strong enough to support faster building.",
+      tension: "Tension: build pipeline vs real demand"
+    };
+  }
+
+  if (normalizedLabel.includes("housing finance support")) {
+    return {
+      pattern: "Policy support is moving through housing finance, but it has not erased affordability pressure.",
+      tension: "Tension: credit support vs household capacity"
+    };
+  }
+
+  if (normalizedLabel.includes("property stress")) {
+    return {
+      pattern: "Stress signals are showing up in vacancy, oversupply, or weaker absorption rather than in launch volume.",
+      tension: "Tension: inventory vs demand"
+    };
+  }
+
+  if (normalizedLabel.includes("affordability pressure")) {
+    return {
+      pattern: "The market is being shaped by who can still buy, rent, or absorb higher housing costs.",
+      tension: "Tension: prices vs purchasing power"
+    };
+  }
+
+  if (normalizedLabel.includes("supply pipeline shift")) {
+    return {
+      pattern: "Supply is becoming more uneven as construction, inventory, and geography matter more than headline expansion.",
+      tension: "Tension: development pipeline vs market balance"
+    };
+  }
+
+  if (normalizedLabel.includes("credit tightening")) {
+    return {
+      pattern: "Credit rules and lending behavior are moving toward stricter discipline.",
+      tension: "Tension: loan growth vs borrower quality"
+    };
+  }
+
+  if (normalizedLabel.includes("borrower risk")) {
+    return {
+      pattern: "Borrower stress is becoming more visible beneath still-active lending.",
+      tension: "Tension: growth vs asset quality"
+    };
+  }
+
+  if (normalizedLabel.includes("liquidity preservation")) {
+    return {
+      pattern: "Banks are prioritizing buffers and optionality over aggressive balance-sheet expansion.",
+      tension: "Tension: liquidity vs growth"
+    };
+  }
+
+  if (normalizedLabel.includes("deposit funding shift")) {
+    return {
+      pattern: "Deposit movement is making funding cost and liquidity management harder to ignore.",
+      tension: "Tension: funding stability vs margin pressure"
+    };
+  }
+
+  if (normalizedLabel.includes("fuel price easing")) {
+    return {
+      pattern: "Fuel prices are easing at the pump, but cost relief remains exposed to external swings.",
+      tension: "Tension: short-term relief vs oil exposure"
+    };
+  }
+
+  if (normalizedLabel.includes("energy price pressure")) {
+    return {
+      pattern: "Energy costs are still feeding into household and business pressure.",
+      tension: "Tension: cost recovery vs affordability"
+    };
+  }
+
+  if (normalizedLabel.includes("supply reliability risk")) {
+    return {
+      pattern: "Supply and reserve signals are keeping reliability risk close to the surface.",
+      tension: "Tension: demand needs vs available supply"
+    };
+  }
+
+  if (normalizedLabel.includes("grid capacity risk")) {
+    return {
+      pattern: "Grid and project execution are shaping how much capacity the system can actually use.",
+      tension: "Tension: infrastructure ambition vs delivery"
+    };
+  }
+
+  if (normalizedLabel.includes("policy cost shift")) {
+    return {
+      pattern: "Policy decisions are shifting how energy costs move through utilities, businesses, and households.",
+      tension: "Tension: cost recovery vs public burden"
+    };
+  }
+
+  if (normalizedLabel.includes("external energy shock")) {
+    return {
+      pattern: "External fuel shocks are passing through to local prices, supply planning, and operating costs.",
+      tension: "Tension: global exposure vs local resilience"
+    };
+  }
+
+  if (normalizedLabel.includes("demand pressure")) {
+    return {
+      pattern: "Demand is making supply, price, and reliability constraints harder to absorb.",
+      tension: "Tension: consumption needs vs system capacity"
+    };
+  }
+
+  if (normalizedLabel.includes("model capability race")) {
+    return {
+      pattern: "Model capability is advancing, but usefulness depends on access, reliability, and workflow fit.",
+      tension: "Tension: capability vs adoption"
+    };
+  }
+
+  if (normalizedLabel.includes("compute capacity strain")) {
+    return {
+      pattern: "Compute demand is turning infrastructure into a strategic constraint.",
+      tension: "Tension: scaling ambition vs capacity"
+    };
+  }
+
   if (normalizedLabel.includes("enterprise adoption")) {
     return {
       pattern: "Enterprise positioning is getting pushed ahead of proven demand.",
@@ -858,6 +1037,86 @@ function buildEditorialWhyLineForLabel(
 
   if (normalizedLabel.includes("enterprise adoption")) {
     return "Enterprise rollout is getting pushed into the market before demand, ROI, and operating confidence have fully settled.";
+  }
+
+  if (normalizedLabel.includes("price growth slowdown")) {
+    return "Slower property-price growth changes the read on demand, affordability, and pricing power.";
+  }
+
+  if (normalizedLabel.includes("office market stress")) {
+    return "Office stress matters because vacancy, rents, and leasing behavior reveal real utilization, not promotional demand.";
+  }
+
+  if (normalizedLabel.includes("residential permit weakness")) {
+    return "Permit weakness gives an early read on whether developers and buyers are pulling back from the residential pipeline.";
+  }
+
+  if (normalizedLabel.includes("housing finance support")) {
+    return "Housing finance support matters only if it improves access enough to offset affordability pressure.";
+  }
+
+  if (normalizedLabel.includes("property stress")) {
+    return "Vacancy, oversupply, and weak absorption are harder property signals than launch activity.";
+  }
+
+  if (normalizedLabel.includes("affordability pressure")) {
+    return "Affordability pressure determines who can still buy or rent, and where demand starts to break.";
+  }
+
+  if (normalizedLabel.includes("supply pipeline shift")) {
+    return "Pipeline shifts matter because new supply can worsen imbalance if demand is not keeping up.";
+  }
+
+  if (normalizedLabel.includes("credit tightening")) {
+    return "Credit discipline changes how much risk banks are willing to carry and which borrowers can still access loans.";
+  }
+
+  if (normalizedLabel.includes("borrower risk")) {
+    return "Borrower stress matters because loan growth is less useful if asset quality is weakening underneath it.";
+  }
+
+  if (normalizedLabel.includes("liquidity preservation")) {
+    return "Liquidity management shapes whether banks stretch for growth or protect balance-sheet buffers.";
+  }
+
+  if (normalizedLabel.includes("deposit funding shift")) {
+    return "Deposit movement can change funding costs, margins, and competitive pressure across banks.";
+  }
+
+  if (normalizedLabel.includes("fuel price easing")) {
+    return "Pump-price relief matters because it quickly changes household transport costs and business operating pressure.";
+  }
+
+  if (normalizedLabel.includes("energy price pressure")) {
+    return "Energy-price pressure feeds through to households, operators, and policy decisions.";
+  }
+
+  if (normalizedLabel.includes("supply reliability risk")) {
+    return "Reliability risk matters when supply tightness can turn into outages, reserves pressure, or higher prices.";
+  }
+
+  if (normalizedLabel.includes("grid capacity risk")) {
+    return "Grid and project execution determine whether new capacity can actually reach users.";
+  }
+
+  if (normalizedLabel.includes("policy cost shift")) {
+    return "Policy decisions matter because they decide whether energy pressure lands on utilities, businesses, or consumers.";
+  }
+
+  if (normalizedLabel.includes("external energy shock")) {
+    return "External shocks matter when they pass through to local prices, supply planning, or reliability risk.";
+  }
+
+  if (normalizedLabel.includes("demand pressure")) {
+    return "Demand pressure can turn ordinary supply tightness into a price or reliability problem.";
+  }
+
+  if (normalizedLabel.includes("model capability race")) {
+    return "Capability improvements matter when they change what users, developers, or enterprises can actually do.";
+  }
+
+  if (normalizedLabel.includes("compute capacity strain")) {
+    return "Compute capacity is becoming one of the practical limits on AI scaling.";
   }
 
   if (normalizedLabel.includes("industry repositioning")) {
@@ -1392,6 +1651,108 @@ function supportingReasonCandidates(story: NormalizedStory): string[] {
     return candidates;
   }
 
+  if (story.beat === "property_real_estate") {
+    if (
+      text.includes("housing credit") ||
+      text.includes("housing loan") ||
+      text.includes("home financing") ||
+      text.includes("mortgage") ||
+      text.includes("pag-ibig") ||
+      text.includes("rental housing")
+    ) {
+      candidates.push("Shows how policy or credit support is trying to reach housing demand.");
+      candidates.push("Adds financing context to the affordability story.");
+    }
+
+    if (
+      text.includes("property price index") ||
+      text.includes("residential real estate price index") ||
+      text.includes("slowest increase") ||
+      text.includes("price slowdown")
+    ) {
+      candidates.push("Shows how pricing power is changing against buyer capacity.");
+      candidates.push("Makes affordability and demand pressure visible through price movement.");
+    }
+
+    if (
+      text.includes("vacancy") ||
+      text.includes("office demand") ||
+      (text.includes("office") && (text.includes("leasing") || text.includes("rent"))) ||
+      text.includes("tenant demand")
+    ) {
+      candidates.push("Shows real property utilization through vacancy, rents, or leasing demand.");
+      candidates.push("Keeps the office read tied to occupancy and tenant behavior.");
+    }
+
+    if (
+      text.includes("construction permits") ||
+      text.includes("building permits") ||
+      text.includes("weak residential demand") ||
+      text.includes("construction")
+    ) {
+      candidates.push("Shows whether the residential build pipeline is losing momentum.");
+      candidates.push("Connects construction activity to actual demand rather than expansion claims.");
+    }
+
+    if (story.property_filter?.stress_signal) {
+      candidates.push("Keeps stress, vacancy, oversupply, or weak absorption at the center of the property read.");
+    }
+
+    if (candidates.length === 0) {
+      candidates.push("Adds a concrete read on Philippine property demand, supply, financing, or stress.");
+    }
+
+    return [...new Set(candidates)];
+  }
+
+  if (story.beat === "ph_sea_banking") {
+    if (text.includes("bad loans") || text.includes("npl") || text.includes("risk") || text.includes("defaults")) {
+      candidates.push("Shows where borrower stress is starting to matter for asset quality.");
+    }
+
+    if (text.includes("credit") || text.includes("lending") || text.includes("loan")) {
+      candidates.push("Connects bank behavior to actual credit conditions.");
+    }
+
+    if (text.includes("liquidity") || text.includes("deposit") || text.includes("funding")) {
+      candidates.push("Makes funding and liquidity pressure visible beyond headline earnings.");
+    }
+
+    if (text.includes("bsp") || text.includes("policy") || text.includes("regulation")) {
+      candidates.push("Shows how policy can change lending behavior or risk appetite.");
+    }
+
+    if (candidates.length === 0) {
+      candidates.push("Adds a concrete read on credit, liquidity, risk, or policy behavior.");
+    }
+
+    return [...new Set(candidates)];
+  }
+
+  if (story.beat === "ph_sea_energy") {
+    if (text.includes("pump price") || text.includes("rollback") || text.includes("diesel") || text.includes("gasoline")) {
+      candidates.push("Shows how fuel-price movement is feeding into household and operating costs.");
+    }
+
+    if (text.includes("grid") || text.includes("transmission") || text.includes("power plant") || text.includes("capacity")) {
+      candidates.push("Makes the capacity and delivery constraint concrete.");
+    }
+
+    if (text.includes("supply") || text.includes("reserve") || text.includes("outage")) {
+      candidates.push("Shows where supply conditions could become a reliability problem.");
+    }
+
+    if (text.includes("erc") || text.includes("doe") || text.includes("policy") || text.includes("tariff")) {
+      candidates.push("Shows how policy decisions can shift who absorbs energy costs.");
+    }
+
+    if (candidates.length === 0) {
+      candidates.push("Adds a concrete read on price, supply, reliability, or policy pressure.");
+    }
+
+    return [...new Set(candidates)];
+  }
+
   const genericPrimary =
     normalizedPrimary.includes("high-impact policy move with likely downstream business effects") ||
     normalizedPrimary.includes("marks a real change in direction with likely downstream effects") ||
@@ -1536,6 +1897,12 @@ function looksLikeRawThemeLabel(label?: string): boolean {
 }
 
 function storyPresentationLabel(story: NormalizedStory): string {
+  const beatSpecificLabel = beatSpecificStoryLabel(story);
+
+  if (beatSpecificLabel) {
+    return beatSpecificLabel;
+  }
+
   if (!looksLikeRawThemeLabel(story.theme_label)) {
     return sanitizeText(story.theme_label ?? story.title);
   }
@@ -1552,6 +1919,232 @@ function storyPresentationLabel(story: NormalizedStory): string {
   }
 
   return derived;
+}
+
+function beatSpecificStoryLabel(story: NormalizedStory): string | null {
+  const text = normalizeText(
+    [
+      story.title,
+      story.summary ?? "",
+      story.tags.join(" "),
+      story.angle_signals?.join(" ") ?? "",
+      story.property_filter?.materiality_signals.join(" ") ?? "",
+      story.ai_tech_filter?.materiality_signals.join(" ") ?? "",
+      story.energy_filter?.materiality_signals.join(" ") ?? ""
+    ].join(" ")
+  );
+
+  if (story.beat === "property_real_estate") {
+    if (
+      text.includes("property price index") ||
+      text.includes("residential real estate price index") ||
+      text.includes("slowest increase") ||
+      text.includes("price slowdown") ||
+      text.includes("prices soften")
+    ) {
+      return "price growth slowdown";
+    }
+
+    if (
+      text.includes("office") &&
+      (text.includes("vacancy") ||
+        text.includes("leasing") ||
+        text.includes("rent") ||
+        text.includes("tenant demand") ||
+        text.includes("office demand"))
+    ) {
+      return "office market stress";
+    }
+
+    if (
+      text.includes("construction permits") ||
+      text.includes("building permits") ||
+      text.includes("weak residential demand") ||
+      text.includes("permit decline")
+    ) {
+      return "residential permit weakness";
+    }
+
+    if (
+      text.includes("housing credit") ||
+      text.includes("housing loan") ||
+      text.includes("home financing") ||
+      text.includes("mortgage") ||
+      text.includes("pag-ibig") ||
+      text.includes("rental housing") ||
+      text.includes("capital requirement")
+    ) {
+      return "housing finance support";
+    }
+
+    switch (story.property_filter?.primary_axis) {
+      case "stress_signals":
+        return "property stress";
+      case "demand_affordability":
+        return "affordability pressure";
+      case "supply_development":
+        return "supply pipeline shift";
+      case "capital_flows":
+        return "property credit conditions";
+      case "policy_regulation":
+        return "housing policy pressure";
+      case "usage_patterns":
+        return "usage and occupancy shift";
+      default:
+        return "property market pressure";
+    }
+  }
+
+  if (story.beat === "ph_sea_banking") {
+    const signals = story.banking_signals;
+
+    if (signals?.function.includes("risk") || text.includes("bad loans") || text.includes("npl")) {
+      return "borrower risk";
+    }
+
+    if (signals?.direction.includes("tightening") || text.includes("credit tightening")) {
+      return "credit tightening";
+    }
+
+    if (signals?.function.includes("liquidity")) {
+      return "liquidity preservation";
+    }
+
+    if (signals?.function.includes("deposits") || signals?.function.includes("funding")) {
+      return "deposit funding shift";
+    }
+
+    if (signals?.function.includes("regulation") || signals?.driver.includes("policy")) {
+      return "banking policy pressure";
+    }
+
+    if (signals?.function.includes("lending")) {
+      return "lending conditions";
+    }
+  }
+
+  if (story.beat === "ph_sea_energy") {
+    switch (story.energy_filter?.primary_category) {
+      case "price":
+        return text.includes("rollback") ? "fuel price easing" : "energy price pressure";
+      case "supply":
+        return "supply reliability risk";
+      case "policy":
+        return "policy cost shift";
+      case "infrastructure":
+        return "grid capacity risk";
+      case "demand":
+        return "demand pressure";
+      case "external_forces":
+        return "external energy shock";
+      default:
+        break;
+    }
+  }
+
+  if (story.beat === "ai_tech") {
+    switch (story.ai_tech_filter?.primary_axis) {
+      case "models_platforms":
+        return "model capability race";
+      case "enterprise_adoption":
+        return "enterprise adoption";
+      case "policy_regulation":
+        return "AI governance pressure";
+      case "infrastructure_compute":
+        return "compute capacity strain";
+      case "distribution_integration":
+        return "platform distribution fight";
+      case "labor_workflow_impact":
+        return "workflow disruption";
+      default:
+        break;
+    }
+  }
+
+  return null;
+}
+
+function buildStoryBriefItem(
+  label: string,
+  stories: NormalizedStory[]
+): EditorialBriefItem {
+  const uniqueStories = uniqueStoriesForDisplay(stories);
+  const reasonCodes = topValues(
+    uniqueStories.map((story) => story.reason_code ?? ""),
+    3
+  );
+  const angles = topValues(
+    uniqueStories.flatMap((story) => story.angle_signals ?? []),
+    3
+  );
+  const reasonKept = uniqueStories.flatMap((story) => story.reason_kept ?? []);
+  const patternAndTension = inferPatternAndTensionForLabel(label, reasonCodes, angles);
+  const topPriority = Math.max(...uniqueStories.map((story) => story.priority_score ?? 0), 0);
+  const propertyScoreBoost =
+    uniqueStories.some((story) => story.property_filter?.stress_signal) ? 8 : 0;
+  const hardSignalBoost =
+    uniqueStories.some((story) =>
+      story.property_filter?.editorial_bucket === "core_signal" ||
+      story.ai_tech_filter?.editorial_bucket === "core_signal" ||
+      story.energy_filter?.importance_tier === "high" ||
+      story.editorial_bucket === "urgent_important"
+    )
+      ? 5
+      : 0;
+  const interpretationPenalty =
+    uniqueStories.length > 0 &&
+    uniqueStories.every((story) => story.property_filter?.editorial_bucket === "interpretation")
+      ? 3
+      : 0;
+
+  return {
+    label,
+    score:
+      topPriority +
+      averagePriority(uniqueStories) +
+      Math.min(uniqueStories.length, 4) +
+      propertyScoreBoost +
+      hardSignalBoost -
+      interpretationPenalty,
+    whyItMatters: buildEditorialWhyLineForLabel(label, reasonCodes, angles, reasonKept),
+    pattern: patternAndTension.pattern,
+    tension: patternAndTension.tension,
+    supportingStories: pickSupportingStories(uniqueStories, 4)
+  };
+}
+
+function uniqueStoriesForDisplay(stories: NormalizedStory[]): NormalizedStory[] {
+  const seen = new Set<string>();
+  const unique: NormalizedStory[] = [];
+
+  for (const story of stories) {
+    const key = story.url || story.id || normalizeText(story.title);
+
+    if (seen.has(key)) {
+      continue;
+    }
+
+    seen.add(key);
+    unique.push(story);
+  }
+
+  return unique;
+}
+
+function buildStoryBriefItems(stories: NormalizedStory[]): EditorialBriefItem[] {
+  const grouped = new Map<string, NormalizedStory[]>();
+
+  for (const story of stories) {
+    const label = storyPresentationLabel(story);
+    const current = grouped.get(label) ?? [];
+
+    current.push(story);
+    grouped.set(label, current);
+  }
+
+  return [...grouped.entries()]
+    .map(([label, group]) => buildStoryBriefItem(label, group))
+    .sort((left, right) => right.score - left.score);
 }
 
 function buildThemeBriefItem(
@@ -1733,6 +2326,10 @@ function renderBriefSection(
   items: EditorialBriefItem[],
   introLabel: "Why it matters" | "Editorial note" | "Why to watch"
 ): void {
+  if (items.length === 0) {
+    return;
+  }
+
   lines.push(`## ${title}`);
   lines.push("");
 
@@ -1753,6 +2350,10 @@ function renderBriefSection(
 }
 
 function renderWatchlistSection(lines: string[], items: EditorialBriefItem[]): void {
+  if (items.length === 0) {
+    return;
+  }
+
   lines.push("## Watchlist");
   lines.push("");
 
@@ -1785,42 +2386,597 @@ function renderWatchlistSection(lines: string[], items: EditorialBriefItem[]): v
   }
 }
 
-function bankingSystemRead(
+function aiTechStoryRef(story: NormalizedStory): AiTechStoryRef {
+  return {
+    id: story.id,
+    title: sanitizeText(story.title),
+    source: story.source,
+    url: story.url,
+    primary_axis: story.ai_tech_filter?.primary_axis,
+    editorial_bucket: story.ai_tech_filter?.editorial_bucket,
+    geography: story.ai_tech_filter?.geography,
+    importance_tier: story.ai_tech_filter?.importance_tier
+  };
+}
+
+function buildAiTechEditorialOutput(stories: NormalizedStory[]): AiTechEditorialOutput | undefined {
+  if (!stories.every((story) => story.beat === "ai_tech")) {
+    return undefined;
+  }
+
+  const sortedStories = [...stories].sort((left, right) => {
+    const tierRank = (tier?: string) => tier === "high" ? 2 : tier === "medium" ? 1 : 0;
+    const tierDelta = tierRank(right.ai_tech_filter?.importance_tier) - tierRank(left.ai_tech_filter?.importance_tier);
+
+    if (tierDelta !== 0) {
+      return tierDelta;
+    }
+
+    return right.publishedAt.localeCompare(left.publishedAt);
+  });
+
+  return {
+    core_signals: sortedStories
+      .filter((story) => story.ai_tech_filter?.editorial_bucket === "core_signal")
+      .map(aiTechStoryRef),
+    interpretation_layer: sortedStories
+      .filter((story) => story.ai_tech_filter?.editorial_bucket === "interpretation")
+      .map(aiTechStoryRef),
+    capability_watch: sortedStories
+      .filter((story) => story.ai_tech_filter?.editorial_bucket === "capability_watch")
+      .map(aiTechStoryRef)
+  };
+}
+
+function propertyStoryRef(story: NormalizedStory): PropertyStoryRef {
+  return {
+    id: story.id,
+    title: sanitizeText(story.title),
+    source: story.source,
+    url: story.url,
+    primary_axis: story.property_filter?.primary_axis,
+    editorial_bucket: story.property_filter?.editorial_bucket,
+    geography: story.property_filter?.geography,
+    importance_tier: story.property_filter?.importance_tier,
+    stress_signal: story.property_filter?.stress_signal
+  };
+}
+
+function hasStoryText(story: NormalizedStory, keywords: string[]): boolean {
+  const text = `${story.title} ${story.summary ?? ""}`;
+
+  return countKeywordHits(text, keywords) > 0;
+}
+
+function readHasAny(stories: NormalizedStory[], keywords: string[]): boolean {
+  return stories.some((story) => hasStoryText(story, keywords));
+}
+
+function readHasTheme(themeClusters: StoryThemeCluster[], keywords: string[]): boolean {
+  return themeClusters.some((theme) =>
+    countKeywordHits(`${theme.theme_label} ${theme.theme_summary ?? ""}`, keywords) > 0
+  );
+}
+
+function hasCoreBucket(stories: NormalizedStory[]): boolean {
+  return stories.some((story) =>
+    story.editorial_bucket === "urgent_important" ||
+    story.property_filter?.editorial_bucket === "core_signal" ||
+    story.ai_tech_filter?.editorial_bucket === "core_signal" ||
+    story.energy_filter?.importance_tier === "high" ||
+    story.cluster_classification === "primary"
+  );
+}
+
+function buildThinEditorialRead(beatName: string): string[] {
+  return [
+    `${beatName} is thin this week; the safer read is narrow rather than sector-wide.`,
+    "One or two signals can set the watchlist, but they are not enough to call a broader turn."
+  ];
+}
+
+function buildPropertyEditorialRead(stories: NormalizedStory[]): string[] {
+  if (stories.length === 0) {
+    return buildThinEditorialRead("Property");
+  }
+
+  const bullets: string[] = [];
+  const coreSignals = stories.filter(
+    (story) => story.property_filter?.editorial_bucket === "core_signal"
+  );
+  const interpretations = stories.filter(
+    (story) => story.property_filter?.editorial_bucket === "interpretation"
+  );
+
+  const hasPricePressure = readHasAny(stories, [
+    "property price index",
+    "residential real estate price index",
+    "price slowdown",
+    "prices slow",
+    "prices soften",
+    "price movement"
+  ]);
+  const hasOfficeStress = readHasAny(stories, [
+    "vacancy",
+    "office demand",
+    "leasing",
+    "rent",
+    "rents",
+    "stock",
+    "tenant demand",
+    "supply stress"
+  ]);
+  const hasConstructionSoftness = readHasAny(stories, [
+    "construction permits",
+    "building permits",
+    "permit decline",
+    "weak residential demand",
+    "residential demand",
+    "supply pullback"
+  ]);
+  const hasFinancingPolicy = readHasAny(stories, [
+    "housing credit",
+    "housing loan",
+    "home financing",
+    "mortgage",
+    "rental housing",
+    "capital charge",
+    "capital requirement",
+    "pag-ibig"
+  ]);
+
+  if (hasPricePressure && (hasOfficeStress || hasConstructionSoftness)) {
+    bullets.push(
+      "Price growth is slowing while usage and build signals still look uneven, keeping the week focused on pressure rather than expansion."
+    );
+  } else if (hasPricePressure) {
+    bullets.push(
+      "Price movement is the cleanest property signal this week, with softer growth doing more work than launch or expansion news."
+    );
+  }
+
+  if (hasOfficeStress) {
+    bullets.push(
+      "Office remains a visible stress channel, with vacancy, rents, and tenant demand carrying more weight than developer positioning."
+    );
+  }
+
+  if (hasConstructionSoftness) {
+    bullets.push(
+      "Residential construction looks softer where permit and demand signals point to a less aggressive build pipeline."
+    );
+  }
+
+  if (hasFinancingPolicy) {
+    bullets.push(
+      "Housing finance and rental-housing policy are present, but support signals have not yet outweighed the pressure signs."
+    );
+  }
+
+  if (interpretations.length > 0 && bullets.length < 3) {
+    bullets.push(
+      coreSignals.length > 0
+        ? "The softer market reads add direction around the hard signals, but they do not by themselves prove a turn."
+        : "Most of the week is interpretive, so the read should stay cautious until harder price, vacancy, inventory, lending, or policy evidence appears."
+    );
+  }
+
+  if (bullets.length === 0) {
+    bullets.push(
+      "Property is narrow this week; the useful read is selective pressure, not a complete sector call.",
+      "Harder signals should still outrank broad outlook pieces until more price, vacancy, inventory, lending, or policy evidence appears."
+    );
+  }
+
+  return bullets.slice(0, 4);
+}
+
+function buildAiTechEditorialRead(stories: NormalizedStory[], themeClusters: StoryThemeCluster[]): string[] {
+  if (stories.length === 0) {
+    return buildThinEditorialRead("AI / Tech");
+  }
+
+  const bullets: string[] = [];
+  const hasCapability = readHasAny(stories, [
+    "model",
+    "models",
+    "reasoning",
+    "benchmark",
+    "agent",
+    "agents",
+    "sora",
+    "gpt",
+    "compute"
+  ]) || readHasTheme(themeClusters, ["model", "capability", "compute"]);
+  const hasAccessPricing = readHasAny(stories, [
+    "pricing",
+    "price",
+    "subscription",
+    "free",
+    "api",
+    "access",
+    "availability",
+    "rollout"
+  ]);
+  const hasGovernance = readHasAny(stories, [
+    "regulation",
+    "governance",
+    "safety",
+    "copyright",
+    "privacy",
+    "policy",
+    "rules"
+  ]) || readHasTheme(themeClusters, ["policy", "safety", "governance"]);
+  const hasEnterprise = readHasAny(stories, [
+    "enterprise",
+    "workflow",
+    "adoption",
+    "deployment",
+    "partnership",
+    "customer",
+    "regional",
+    "philippines",
+    "southeast asia"
+  ]) || readHasTheme(themeClusters, ["enterprise", "adoption", "partnership"]);
+
+  if (hasCapability && hasAccessPricing) {
+    bullets.push(
+      "Capability gains matter this week because access and pricing are also moving; the question is who can actually use the new tools at scale."
+    );
+  } else if (hasCapability) {
+    bullets.push(
+      "Capability remains the center of gravity, but the stronger read is practical movement rather than novelty."
+    );
+  }
+
+  if (hasGovernance) {
+    bullets.push(
+      "Governance is still shaping the runway, with safety, copyright, privacy, or policy signals setting limits around adoption."
+    );
+  }
+
+  if (hasEnterprise) {
+    bullets.push(
+      "Enterprise and regional adoption signals are useful when they show workflow change, not just another product announcement."
+    );
+  }
+
+  if (bullets.length === 0) {
+    bullets.push(
+      stories.length <= 2
+        ? "AI / Tech is narrow this week; the desk should treat the available signals as watchlist movement, not a broad cycle read."
+        : "The week is fragmented, so the useful read is where capability, distribution, and governance start to overlap."
+    );
+  }
+
+  return bullets.slice(0, 4);
+}
+
+function buildMotoringEditorialRead(stories: NormalizedStory[], themeClusters: StoryThemeCluster[]): string[] {
+  if (stories.length === 0) {
+    return buildThinEditorialRead("Motoring");
+  }
+
+  const bullets: string[] = [];
+  const hasOwnershipCost = readHasAny(stories, [
+    "fuel",
+    "gasoline",
+    "diesel",
+    "pump price",
+    "fare",
+    "toll",
+    "registration",
+    "insurance",
+    "cost",
+    "price increase"
+  ]) || readHasTheme(themeClusters, ["fuel", "cost", "price"]);
+  const hasEvTransition = readHasAny(stories, [
+    "ev",
+    "electric vehicle",
+    "charging",
+    "battery",
+    "hybrid",
+    "e-mobility"
+  ]) || readHasTheme(themeClusters, ["ev", "electric", "charging"]);
+  const hasEnforcement = readHasAny(stories, [
+    "enforcement",
+    "lto",
+    "ltfrb",
+    "mmda",
+    "violation",
+    "coding",
+    "traffic",
+    "license",
+    "franchise"
+  ]) || readHasTheme(themeClusters, ["enforcement", "traffic", "regulation"]);
+  const hasCapacity = readHasAny(stories, [
+    "sales",
+    "production",
+    "supply",
+    "import",
+    "capacity",
+    "dealership",
+    "fleet",
+    "public transport"
+  ]) || readHasTheme(themeClusters, ["sales", "capacity", "supply"]);
+
+  if (hasOwnershipCost) {
+    bullets.push(
+      "Ownership cost remains the pressure point, especially where fuel, fares, tolls, or compliance costs move faster than household budgets."
+    );
+  }
+
+  if (hasEvTransition && hasCapacity) {
+    bullets.push(
+      "The EV transition is still tied to capacity questions: charging, supply, and fleet economics matter as much as model launches."
+    );
+  } else if (hasEvTransition) {
+    bullets.push(
+      "EV stories matter most when they move infrastructure or operating economics, not when they only add showroom noise."
+    );
+  }
+
+  if (hasEnforcement) {
+    bullets.push(
+      "Enforcement and road-capacity signals keep the beat grounded in daily mobility constraints, not just vehicle demand."
+    );
+  }
+
+  if (bullets.length === 0) {
+    bullets.push(
+      stories.length <= 2
+        ? "Motoring is thin this week; the useful read is limited to the few cost, policy, or capacity signals on the desk."
+        : "The week is mixed, so the clearest read is the tension between demand, operating costs, and transport capacity."
+    );
+  }
+
+  return bullets.slice(0, 4);
+}
+
+function buildBankingEditorialRead(
   stories: NormalizedStory[],
   themeClusters: StoryThemeCluster[]
-): string {
+): string[] {
   if (stories.length === 0) {
-    return "No qualifying banking-system signal cleared the editorial gates in this run.";
+    return buildThinEditorialRead("Banking");
   }
 
   const labels = themeClusters.map((theme) => normalizeText(theme.theme_label));
-  const hasCreditTightening = labels.some((label) => label.includes("credit tightening"));
-  const hasRisk = labels.some((label) => label.includes("risk"));
-  const hasLiquidity = labels.some((label) => label.includes("liquidity"));
-  const hasDepositShift = labels.some((label) => label.includes("deposit"));
-  const hasGrowthStrain = labels.some((label) => label.includes("growth"));
+  const hasCreditTightening =
+    labels.some((label) => label.includes("credit tightening")) ||
+    stories.some((story) => story.banking_signals?.direction.includes("tightening"));
+  const hasRisk =
+    labels.some((label) => label.includes("risk")) ||
+    stories.some((story) => story.banking_signals?.function.includes("risk")) ||
+    readHasAny(stories, ["bad loans", "non-performing", "npl", "borrower stress", "defaults"]);
+  const hasLiquidity =
+    labels.some((label) => label.includes("liquidity")) ||
+    stories.some((story) => story.banking_signals?.function.includes("liquidity"));
+  const hasDeposits =
+    labels.some((label) => label.includes("deposit")) ||
+    stories.some((story) => story.banking_signals?.function.includes("deposits"));
+  const hasPolicy =
+    stories.some((story) => story.banking_signals?.driver.includes("policy")) ||
+    readHasAny(stories, ["bsp", "capital requirement", "reserve requirement", "policy", "regulator"]);
+  const hasGrowth =
+    labels.some((label) => label.includes("growth")) ||
+    readHasAny(stories, ["loan growth", "credit growth", "lending growth"]);
+
+  const bullets: string[] = [];
 
   if (hasCreditTightening && hasRisk) {
-    return "Credit conditions are starting to tighten, with regulators reinforcing lending discipline while early signs of borrower stress begin to surface.";
+    bullets.push(
+      "Credit discipline and borrower risk are moving together, which makes loan quality more important than headline growth."
+    );
+  } else if (hasCreditTightening) {
+    bullets.push(
+      "Credit conditions are leaning tighter as banks or regulators put more weight on borrower capacity and lending discipline."
+    );
+  } else if (hasRisk) {
+    bullets.push(
+      "Risk is becoming harder to treat as background noise, especially where bad-loan or borrower-capacity signals surface."
+    );
   }
 
-  if (hasCreditTightening) {
-    return "Credit conditions are starting to tighten as policy and lending signals point toward stricter discipline across the banking system.";
+  if (hasLiquidity || hasDeposits) {
+    bullets.push(
+      hasDeposits
+        ? "Deposit movement keeps funding cost and liquidity management near the center of the banking read."
+        : "Liquidity signals point to banks preserving buffers rather than stretching balance sheets for growth."
+    );
   }
 
-  if (hasRisk && hasGrowthStrain) {
-    return "Loan activity is still present, but borrower-capacity and bad-loan signals suggest growth is beginning to carry more visible risk.";
+  if (hasPolicy && !hasCreditTightening) {
+    bullets.push(
+      "Policy remains a live driver, but its market impact depends on whether it changes credit behavior rather than just compliance posture."
+    );
   }
 
-  if (hasLiquidity) {
-    return "Banks appear to be preserving liquidity, with caution taking priority over balance-sheet expansion.";
+  if (hasGrowth && bullets.length < 3) {
+    bullets.push(
+      "Loan growth still matters, but the useful question is whether borrowers can keep carrying credit under tighter or riskier conditions."
+    );
   }
 
-  if (hasDepositShift) {
-    return "Deposit behavior is starting to shift, raising the importance of funding cost and liquidity management.";
+  if (bullets.length === 0) {
+    bullets.push(
+      "Banking is mostly watch-level this week; the desk should stay focused on credit behavior, funding pressure, and early risk."
+    );
   }
 
-  return "The run produced only watch-level banking signals, so the desk read should stay cautious until stronger system behavior appears.";
+  return bullets.slice(0, 4);
+}
+
+function buildEnergyEditorialReadFromStories(
+  stories: NormalizedStory[],
+  themeClusters: StoryThemeCluster[]
+): string[] {
+  if (stories.length === 0) {
+    return buildThinEditorialRead("Energy");
+  }
+
+  const bullets: string[] = [];
+  const hasFuelPrice =
+    stories.some((story) => story.energy_filter?.primary_category === "price") ||
+    readHasAny(stories, ["pump price", "rollback", "fuel price", "diesel", "gasoline", "lpg", "oil"]);
+  const hasSupply =
+    stories.some((story) => story.energy_filter?.primary_category === "supply") ||
+    readHasAny(stories, ["supply", "reserve", "generation", "shortage", "outage", "red alert", "yellow alert"]);
+  const hasPolicy =
+    stories.some((story) => story.energy_filter?.primary_category === "policy") ||
+    readHasAny(stories, ["erc", "doe", "policy", "tariff", "subsidy", "tax"]);
+  const hasInfrastructure =
+    stories.some((story) => story.energy_filter?.primary_category === "infrastructure") ||
+    readHasAny(stories, ["grid", "transmission", "substation", "power plant", "commissioning", "interconnection"]);
+  const hasDemandPressure =
+    stories.some((story) => story.energy_filter?.demand_pressure) ||
+    readHasAny(stories, ["demand", "consumption", "peak demand", "load"]);
+
+  if (hasFuelPrice && hasPolicy) {
+    bullets.push(
+      "Fuel and policy signals are moving together, so the pressure is not just price direction but who absorbs the cost."
+    );
+  } else if (hasFuelPrice) {
+    bullets.push(
+      "Fuel prices are the clearest near-term signal, with pump-price movement still shaping household and business costs."
+    );
+  }
+
+  if (hasSupply || hasInfrastructure) {
+    bullets.push(
+      hasInfrastructure
+        ? "Grid and project-execution signals keep capacity risk on the desk, even when price stories dominate the week."
+        : "Supply conditions remain the constraint to watch where reserves, outages, or generation availability move."
+    );
+  }
+
+  if (hasDemandPressure) {
+    bullets.push(
+      "Demand pressure matters because it can turn ordinary supply tightness into a reliability or price problem."
+    );
+  }
+
+  if (bullets.length === 0 && readHasTheme(themeClusters, ["external", "shock"])) {
+    bullets.push(
+      "External shocks are still relevant only where they pass through to local prices, supply, or reliability."
+    );
+  }
+
+  if (bullets.length === 0) {
+    bullets.push(
+      stories.length <= 2
+        ? "Energy is narrow this week; the desk should avoid a broad system call until price, supply, or reliability signals firm up."
+        : "The week is mixed, with the useful read sitting at the intersection of price, supply, policy, and execution risk."
+    );
+  }
+
+  return bullets.slice(0, 4);
+}
+
+function buildGenericEditorialRead(
+  stories: NormalizedStory[],
+  themeClusters: StoryThemeCluster[]
+): string[] {
+  if (stories.length === 0) {
+    return buildThinEditorialRead("The beat");
+  }
+
+  const bullets: string[] = [];
+  const primaryThemes = themeClusters
+    .filter((theme) => theme.theme_type !== "watch")
+    .sort((left, right) => right.story_count - left.story_count)
+    .slice(0, 2);
+
+  if (primaryThemes.length > 0) {
+    const labels = primaryThemes.map((theme) => sanitizeText(theme.theme_label));
+    bullets.push(
+      labels.length === 1
+        ? `${labels[0]} is carrying the week, but the read should stay tied to concrete movement rather than story count.`
+        : `${labels[0]} and ${labels[1]} are carrying the week, with the sharper read in how those pressures interact.`
+    );
+  }
+
+  if (hasCoreBucket(stories)) {
+    bullets.push(
+      "The strongest items point to actual movement, while softer stories should stay in a supporting role."
+    );
+  } else {
+    bullets.push(
+      "Most of the week is directional rather than decisive, so the desk should avoid calling a turn too early."
+    );
+  }
+
+  return bullets.slice(0, 4);
+}
+
+function buildSharedEditorialRead(
+  stories: NormalizedStory[],
+  beatName: string,
+  themeClusters: StoryThemeCluster[] = []
+): string[] {
+  const beat = stories[0]?.beat;
+
+  if (beat === "property_real_estate") {
+    return buildPropertyEditorialRead(stories);
+  }
+
+  if (beat === "ai_tech") {
+    return buildAiTechEditorialRead(stories, themeClusters);
+  }
+
+  if (beat === "philippine_motoring") {
+    return buildMotoringEditorialRead(stories, themeClusters);
+  }
+
+  if (beat === "ph_sea_banking") {
+    return buildBankingEditorialRead(stories, themeClusters);
+  }
+
+  if (beat === "ph_sea_energy") {
+    return buildEnergyEditorialReadFromStories(stories, themeClusters);
+  }
+
+  return buildGenericEditorialRead(stories, themeClusters.length > 0 ? themeClusters : [])
+    .map((line) => line.replace(/^The beat\b/, beatName));
+}
+
+function buildPropertyEditorialOutput(stories: NormalizedStory[]): PropertyEditorialOutput | undefined {
+  if (!stories.every((story) => story.beat === "property_real_estate")) {
+    return undefined;
+  }
+
+  const sortedStories = [...stories].sort((left, right) => {
+    const tierRank = (tier?: string) => tier === "high" ? 2 : tier === "medium" ? 1 : 0;
+    const stressDelta =
+      Number(right.property_filter?.stress_signal ?? false) -
+      Number(left.property_filter?.stress_signal ?? false);
+    const tierDelta =
+      tierRank(right.property_filter?.importance_tier) -
+      tierRank(left.property_filter?.importance_tier);
+
+    if (stressDelta !== 0) {
+      return stressDelta;
+    }
+
+    if (tierDelta !== 0) {
+      return tierDelta;
+    }
+
+    return right.publishedAt.localeCompare(left.publishedAt);
+  });
+
+  return {
+    editorial_read: buildPropertyEditorialRead(sortedStories),
+    core_signals: sortedStories
+      .filter((story) => story.property_filter?.editorial_bucket === "core_signal")
+      .map(propertyStoryRef),
+    interpretation_layer: sortedStories
+      .filter((story) => story.property_filter?.editorial_bucket === "interpretation")
+      .map(propertyStoryRef),
+    capability_watch: sortedStories
+      .filter((story) => story.property_filter?.editorial_bucket === "capability_watch")
+      .map(propertyStoryRef)
+  };
 }
 
 function energyStoryRef(story: NormalizedStory): EnergyStoryRef {
@@ -2055,8 +3211,8 @@ function energyClusterOutput(
 function energyEditorialRead(themes: EnergyThemeOutput[], signals: EnergySignalOutput[]): string {
   if (themes.length === 0) {
     return signals.length > 0
-      ? "No high-confidence Energy movement cleared the theme threshold, but watch signals point to areas that may matter if confirmed."
-      : "No qualifying Energy system movement cleared the editorial threshold in this run.";
+      ? "Energy has watch signals on the desk, but none is broad enough yet to carry a confident system read."
+      : "Energy is quiet this week; the desk should wait for firmer price, supply, reliability, or policy movement.";
   }
 
   const labels = themes.map((theme) => normalizeText(theme.theme));
@@ -2353,6 +3509,23 @@ function bankingClusterCompression(
   return "The stories belong together as early banking-system signals, but the direction still needs confirmation.";
 }
 
+function renderEditorialRead(lines: string[], packet: WeeklyEditorialPacket): void {
+  lines.push("## Editorial Read");
+  lines.push("");
+
+  if (packet.editorial_read.length === 0) {
+    lines.push("- There is not enough signal this week for a confident desk read.");
+    lines.push("");
+    return;
+  }
+
+  for (const bullet of packet.editorial_read.slice(0, 4)) {
+    lines.push(`- ${sanitizeText(bullet)}`);
+  }
+
+  lines.push("");
+}
+
 function renderBankingMarkdown(
   packet: WeeklyEditorialPacket,
   stories: NormalizedStory[],
@@ -2421,10 +3594,7 @@ function renderBankingMarkdown(
   lines.push("");
   lines.push(`Week of ${packet.week_of}`);
   lines.push("");
-  lines.push("## Editorial read");
-  lines.push("");
-  lines.push(bankingSystemRead(stories, themeClusters));
-  lines.push("");
+  renderEditorialRead(lines, packet);
   lines.push("## Themes");
   lines.push("");
 
@@ -2535,18 +3705,12 @@ function renderEnergyMarkdown(packet: WeeklyEditorialPacket): string {
   lines.push("");
 
   if (!output) {
-    lines.push("## Editorial read");
-    lines.push("");
-    lines.push("No Energy editorial output was generated for this run.");
-    lines.push("");
+    renderEditorialRead(lines, packet);
 
     return lines.join("\n");
   }
 
-  lines.push("## Editorial read");
-  lines.push("");
-  lines.push(sanitizeText(output.editorial_read));
-  lines.push("");
+  renderEditorialRead(lines, packet);
   lines.push("## Themes");
   lines.push("");
 
@@ -2621,6 +3785,155 @@ function renderEnergyMarkdown(packet: WeeklyEditorialPacket): string {
   return lines.join("\n");
 }
 
+function renderAiTechStoryRef(lines: string[], story: AiTechStoryRef): void {
+  const metadata = [
+    story.source,
+    story.primary_axis ? `axis: ${story.primary_axis}` : "",
+    story.geography ? `geo: ${story.geography}` : "",
+    story.importance_tier ? `tier: ${story.importance_tier}` : ""
+  ].filter(Boolean).join(" | ");
+
+  lines.push(`- [${sanitizeText(story.title)}](${story.url}) | ${metadata}`);
+}
+
+function renderAiTechBucket(
+  lines: string[],
+  title: string,
+  stories: AiTechStoryRef[],
+  emptyText: string
+): void {
+  lines.push(`## ${title}`);
+  lines.push("");
+
+  if (stories.length === 0) {
+    lines.push(`- ${emptyText}`);
+    lines.push("");
+    return;
+  }
+
+  for (const story of stories) {
+    renderAiTechStoryRef(lines, story);
+  }
+
+  lines.push("");
+}
+
+function renderAiTechMarkdown(packet: WeeklyEditorialPacket): string {
+  const output = packet.ai_tech_output;
+  const lines: string[] = [];
+
+  lines.push(`# ${packet.beat_name}`);
+  lines.push("");
+  lines.push(`Week of ${packet.week_of}`);
+  lines.push("");
+  renderEditorialRead(lines, packet);
+
+  if (!output) {
+    lines.push("## Core Signals");
+    lines.push("");
+    lines.push("- No AI/Tech editorial bucket output was generated for this run.");
+    lines.push("");
+
+    return lines.join("\n");
+  }
+
+  renderAiTechBucket(
+    lines,
+    "Core Signals",
+    output.core_signals,
+    "No hard AI-system movement is strong enough for Core Signals."
+  );
+  renderAiTechBucket(
+    lines,
+    "Interpretation Layer",
+    output.interpretation_layer,
+    "No grounded interpretation cleared the quality gate."
+  );
+  renderAiTechBucket(
+    lines,
+    "Platform / Capability Watch",
+    output.capability_watch,
+    "No downstream platform or capability enabler is material enough this week."
+  );
+
+  return lines.join("\n");
+}
+
+function renderPropertyStoryRef(lines: string[], story: PropertyStoryRef): void {
+  const details = [
+    story.primary_axis,
+    story.importance_tier,
+    story.geography,
+    story.stress_signal ? "stress signal" : undefined
+  ].filter(Boolean);
+
+  lines.push(`- [${story.title}](${story.url})`);
+  lines.push(`  - Source: ${story.source}${details.length > 0 ? ` | ${details.join(" | ")}` : ""}`);
+}
+
+function renderPropertyBucket(
+  lines: string[],
+  title: string,
+  stories: PropertyStoryRef[],
+  emptyText: string
+): void {
+  lines.push(`## ${title}`);
+  lines.push("");
+
+  if (stories.length === 0) {
+    lines.push(`- ${emptyText}`);
+    lines.push("");
+    return;
+  }
+
+  for (const story of stories) {
+    renderPropertyStoryRef(lines, story);
+  }
+
+  lines.push("");
+}
+
+function renderPropertyMarkdown(packet: WeeklyEditorialPacket): string {
+  const output = packet.property_output;
+  const lines: string[] = [];
+
+  lines.push(`# ${packet.beat_name}`);
+  lines.push("");
+  lines.push(`Week of ${packet.week_of}`);
+  lines.push("");
+  renderEditorialRead(lines, packet);
+
+  if (!output) {
+    lines.push("## Core Signals");
+    lines.push("");
+    lines.push("- No Property / Real Estate editorial bucket output was generated for this run.");
+    lines.push("");
+
+    return lines.join("\n");
+  }
+
+  renderPropertyBucket(
+    lines,
+    "Core Signals",
+    output.core_signals,
+    "No hard property-market movement is strong enough for Core Signals."
+  );
+  renderPropertyBucket(
+    lines,
+    "Interpretation Layer",
+    output.interpretation_layer,
+    "No grounded pressure reading is strong enough this week."
+  );
+  renderPropertyBucket(
+    lines,
+    "Capability Watch",
+    output.capability_watch,
+    "No material financing, REIT, tool, or developer-strategy context stands out this week."
+  );
+
+  return lines.join("\n");
+}
+
 function buildPatternBullets(
   primaryItems: EditorialBriefItem[],
   structuralItems: EditorialBriefItem[],
@@ -2637,14 +3950,6 @@ export function renderWeeklyEditorialPacketMarkdown(
   eventClusters: EventCluster[],
   themeClusters: StoryThemeCluster[]
 ): string {
-  if (stories.every((story) => story.beat === "ph_sea_banking")) {
-    return renderBankingMarkdown(packet, stories, eventClusters, themeClusters);
-  }
-
-  if (stories.every((story) => story.beat === "ph_sea_energy")) {
-    return renderEnergyMarkdown(packet);
-  }
-
   const lines: string[] = [];
   const storyMap = buildStoryMapById(stories);
   const themeItems = themeClusters
@@ -2655,12 +3960,39 @@ export function renderWeeklyEditorialPacketMarkdown(
     .filter((cluster) => !cluster.primary_theme_id || !coveredThemeIds.has(cluster.primary_theme_id))
     .map((cluster) => buildEventBriefItem(cluster, storyMap))
     .sort((left, right) => right.score - left.score);
-  const whatMattersMost = sectionUnique(themeItems, 4);
+  const storyItems = buildStoryBriefItems(stories);
+  const storyFirstBeats = new Set([
+    "ai_tech",
+    "ph_sea_banking",
+    "ph_sea_energy",
+    "property_real_estate"
+  ]);
+  const useStorySignalsFirst = stories.some((story) => storyFirstBeats.has(story.beat));
+  const primarySignalItems = useStorySignalsFirst ? storyItems : themeItems;
+  const secondarySignalItems = useStorySignalsFirst ? themeItems : storyItems;
+  const whatMattersMost = sectionUnique(primarySignalItems, 4);
 
-  if (whatMattersMost.length < 5) {
+  if (!useStorySignalsFirst && whatMattersMost.length < 5) {
     const seenLabels = new Set(whatMattersMost.map((item) => item.label));
 
     for (const item of eventItems) {
+      if (seenLabels.has(item.label)) {
+        continue;
+      }
+
+      whatMattersMost.push(item);
+      seenLabels.add(item.label);
+
+      if (whatMattersMost.length >= 5) {
+        break;
+      }
+    }
+  }
+
+  if (!useStorySignalsFirst && whatMattersMost.length < 5) {
+    const seenLabels = new Set(whatMattersMost.map((item) => item.label));
+
+    for (const item of secondarySignalItems) {
       if (seenLabels.has(item.label)) {
         continue;
       }
@@ -2679,7 +4011,7 @@ export function renderWeeklyEditorialPacketMarkdown(
   );
   const blockedLabels = new Set(whatMattersMost.map((item) => item.label));
   const structuralShifts = sectionUnique(
-    themeItems
+    primarySignalItems
     .slice(4, 10)
     .filter((item) => !blockedLabels.has(item.label))
     .filter((item) =>
@@ -2688,8 +4020,31 @@ export function renderWeeklyEditorialPacketMarkdown(
     4
   );
 
-  if (structuralShifts.length < 3) {
+  if (!useStorySignalsFirst && structuralShifts.length < 3) {
     for (const item of eventItems) {
+      if (blockedLabels.has(item.label)) {
+        continue;
+      }
+
+      if (!item.supportingStories.some((story) => !usedStoryIds.has(story.id))) {
+        continue;
+      }
+
+      structuralShifts.push(item);
+      blockedLabels.add(item.label);
+
+      for (const story of item.supportingStories) {
+        usedStoryIds.add(story.id);
+      }
+
+      if (structuralShifts.length >= 3) {
+        break;
+      }
+    }
+  }
+
+  if (!useStorySignalsFirst && structuralShifts.length < 3) {
+    for (const item of secondarySignalItems) {
       if (blockedLabels.has(item.label)) {
         continue;
       }
@@ -2729,6 +4084,7 @@ export function renderWeeklyEditorialPacketMarkdown(
   lines.push("");
   lines.push(`Week of ${packet.week_of}`);
   lines.push("");
+  renderEditorialRead(lines, packet);
   renderBriefSection(lines, "What matters most", whatMattersMost, "Why it matters");
   renderBriefSection(lines, "Structural shifts", structuralShifts, "Editorial note");
   renderWatchlistSection(lines, watchlist);
@@ -2793,20 +4149,27 @@ export function buildWeeklyEditorialPacket(
     eventClusters,
     storyThemeClusters
   );
+  const aiTechOutput = buildAiTechEditorialOutput(stories);
+  const propertyOutput = buildPropertyEditorialOutput(stories);
+  const editorialRead = buildSharedEditorialRead(stories, beatName, storyThemeClusters);
+  const bucketedOutput = energyOutput || propertyOutput;
 
   return {
     week_of: getWeekOf(stories, fetchedAt),
     time_mode: timeMode,
     beat_name: beatName,
-    top_stories: energyOutput ? [] : enrichedTopStories,
-    secondary_signals: energyOutput ? [] : enrichedSecondarySignals,
-    context_watch: energyOutput ? [] : contextWatch,
-    theme_clusters: energyOutput ? [] : themeClusters,
+    editorial_read: editorialRead,
+    top_stories: bucketedOutput ? [] : enrichedTopStories,
+    secondary_signals: bucketedOutput ? [] : enrichedSecondarySignals,
+    context_watch: bucketedOutput ? [] : contextWatch,
+    theme_clusters: bucketedOutput ? [] : themeClusters,
     energy_output: energyOutput,
+    ai_tech_output: aiTechOutput,
+    property_output: propertyOutput,
     notes: {
-      top_story_count: energyOutput ? 0 : enrichedTopStories.length,
-      secondary_count: energyOutput ? 0 : enrichedSecondarySignals.length,
-      context_count: energyOutput ? 0 : contextWatch.length
+      top_story_count: bucketedOutput ? 0 : enrichedTopStories.length,
+      secondary_count: bucketedOutput ? 0 : enrichedSecondarySignals.length,
+      context_count: bucketedOutput ? 0 : contextWatch.length
     }
   };
 }

@@ -10,7 +10,9 @@ import { dedupeStories } from "../lib/dedupe.js";
 import { applySourceCap, applyTimeModeFilter } from "../lib/editorial.js";
 import { applyHardExclusions } from "../lib/exclusions.js";
 import { fetchHtmlStories } from "../lib/fetchers/html.js";
+import { fetchJsonStories } from "../lib/fetchers/json.js";
 import { fetchRssStories } from "../lib/fetchers/rss.js";
+import { fetchSharePointStories } from "../lib/fetchers/sharepoint.js";
 import { normalizeStoriesForSource } from "../lib/normalize.js";
 import { editorialLayer } from "../lib/editorial-layer.js";
 import { selectTopStories } from "../lib/prioritize.js";
@@ -50,6 +52,14 @@ async function fetchStoriesForSource(
 ): Promise<RawStoryResult[]> {
   if (source.type === "rss") {
     return fetchRssStories(source);
+  }
+
+  if (source.type === "json") {
+    return fetchJsonStories(source);
+  }
+
+  if (source.type === "sharepoint") {
+    return fetchSharePointStories(source);
   }
 
   return fetchHtmlStories(source);
@@ -172,6 +182,21 @@ function beatsForRun(): Beat[] {
   }
 
   return allRegisteredBeats();
+}
+
+function syncBeatSpecificEditorialBuckets(
+  stories: NormalizedStory[]
+): NormalizedStory[] {
+  return stories.map((story) => {
+    if (story.beat === "property_real_estate" && story.property_filter) {
+      return {
+        ...story,
+        editorial_bucket: story.property_filter.editorial_bucket
+      };
+    }
+
+    return story;
+  });
 }
 
 async function runBeat(
@@ -303,7 +328,9 @@ async function runBeat(
     timeMode
   });
   const rankingResult = rankStories(annotatedStories);
-  const editorialStories = editorialLayer(rankingResult.rankedStories);
+  const editorialStories = syncBeatSpecificEditorialBuckets(
+    editorialLayer(rankingResult.rankedStories)
+  );
   const clusteringResult = clusterStories(editorialStories);
   const outputDir = path.resolve(process.cwd(), "output", beat);
   const outputFile = path.join(outputDir, "stories.json");

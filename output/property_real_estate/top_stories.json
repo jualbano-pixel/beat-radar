@@ -1,0 +1,91 @@
+{
+  "top_stories": [
+    {
+      "title": "Energy crisis threatens Philippine office demand—Colliers",
+      "source": "Manila Bulletin Business Property JSON Fallback",
+      "date": "2026-04-17T05:22:00.000Z",
+      "summary": "Rising global energy prices driven by Middle East tensions are posing growing risks to the Philippine office real estate sector, as higher power costs threaten tenant demand, rental growth, and asset values, according to property consultancy Colliers. In an April 16 report, Colliers Philippines...",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 3.1,
+      "priority_reasons": [
+        "safety_or_governance"
+      ],
+      "why_it_matters": "This matters because it affects how AI systems are governed, evaluated, or deployed responsibly. Those choices can shape the broader direction of the market."
+    },
+    {
+      "title": "Opportunities amid Volatility",
+      "source": "Santos Knight Frank Market Reports",
+      "date": "2025-08-21T01:49:24.000Z",
+      "summary": "Opportunities amid VolatilityThe Philippine property market in 2025 faced high office vacancy rates, an oversupply of mid-market condos, and various risks stemming from both global events and local politics.Despite ongoing volatility, the Philippine property sectors have displayed remarkable resilience. Industry pla...",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 2.7,
+      "priority_reasons": [
+        "safety_or_governance",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because it affects how AI systems are governed, evaluated, or deployed responsibly. Those choices can shape the broader direction of the market."
+    },
+    {
+      "title": "Approved construction permits fall 2.2% in February on weak residential demand",
+      "source": "BusinessWorld Property",
+      "date": "2026-04-17T06:54:51.000Z",
+      "summary": "By Heather Caitlin P. Mañago, Researcher APPROVED building permits inched down 2.2% year on year in February, as high material costs and weaker residential demand weighed on construction activity. Preliminary data from the Philippine Statistics Authority (PSA) showed building projects covered by the permits numbered...",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 1.8,
+      "priority_reasons": [
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Pag-IBIG allots P6.3 billion for SUC rental housing",
+      "source": "Philippine Star Property",
+      "date": "2026-04-17T16:00:00.000Z",
+      "summary": "Pag-IBIG Fund has earmarked P6.3 billion to support the development of dormitories and rental housing facilities for its partnership with the Commission on Higher Education (CHED) to expand access to affordable rental housing in state universities and colleges (SUCs) nationwide.",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 0.8,
+      "priority_reasons": [
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Property prices record slowest increase since Q1 2019",
+      "source": "Bangko Sentral ng Pilipinas Property",
+      "date": "2026-03-27T06:53:07.000Z",
+      "summary": "PDate: 3/27/2026 Content: ​ Residential property prices in the Philippines rose by 1.6 percent year-on-year (y-o-y) in Q4 2025, easing from 1.9 percent in Q3 2025. This marks the slowest pace of increase since Q1 2019, based on Bangko Sentral ng Pilipinas (BSP) data on the Residential Property Price Index (RPPI). By...",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 0.2,
+      "priority_reasons": [
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Metro Manila Office Report Q3 2025",
+      "source": "Santos Knight Frank Market Reports",
+      "date": "2025-11-11T06:30:43.000Z",
+      "summary": "Metro Manila Office Report Q3 2025The Metro Manila office market in the third quarter of 2025 reflected steady adjustments to evolving workplace strategies amid tempered demand. Total office stock reached 8.9 million sqm, with new supply from Quezon City adding 72,000 sqm. Overall vacancy stood at 21.2%, while avera...",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 0.2,
+      "priority_reasons": [
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    }
+  ],
+  "secondary_signals": []
+}

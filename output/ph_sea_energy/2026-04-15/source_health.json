@@ -1,0 +1,67 @@
+[
+  {
+    "source": "BusinessWorld Energy",
+    "success": true,
+    "health": "healthy",
+    "fetchedCount": 30,
+    "normalizedCount": 30,
+    "droppedCount": 29,
+    "keptCount": 1,
+    "beat": "ph_sea_energy",
+    "url": "https://www.bworldonline.com/feed/",
+    "type": "rss",
+    "checkedAt": "2026-04-15T10:33:45.791Z"
+  },
+  {
+    "source": "Inquirer Business Energy",
+    "success": true,
+    "health": "healthy",
+    "fetchedCount": 40,
+    "normalizedCount": 40,
+    "droppedCount": 35,
+    "keptCount": 5,
+    "beat": "ph_sea_energy",
+    "url": "https://business.inquirer.net/feed",
+    "type": "rss",
+    "checkedAt": "2026-04-15T10:33:45.791Z"
+  },
+  {
+    "source": "BusinessMirror Energy",
+    "success": true,
+    "health": "healthy",
+    "fetchedCount": 30,
+    "normalizedCount": 30,
+    "droppedCount": 28,
+    "keptCount": 2,
+    "beat": "ph_sea_energy",
+    "url": "https://businessmirror.com.ph/business/feed/",
+    "type": "rss",
+    "checkedAt": "2026-04-15T10:33:45.791Z"
+  },
+  {
+    "source": "Philippine Star Business Energy",
+    "success": true,
+    "health": "healthy",
+    "fetchedCount": 20,
+    "normalizedCount": 20,
+    "droppedCount": 16,
+    "keptCount": 4,
+    "beat": "ph_sea_energy",
+    "url": "https://www.philstar.com/rss/business",
+    "type": "rss",
+    "checkedAt": "2026-04-15T10:33:45.791Z"
+  },
+  {
+    "source": "Malaya Business",
+    "success": true,
+    "health": "healthy",
+    "fetchedCount": 10,
+    "normalizedCount": 10,
+    "droppedCount": 8,
+    "keptCount": 2,
+    "beat": "ph_sea_energy",
+    "url": "https://malaya.com.ph/feed/",
+    "type": "rss",
+    "checkedAt": "2026-04-15T10:33:45.791Z"
+  }
+]

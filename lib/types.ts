@@ -1,6 +1,11 @@
-export type Beat = "ai_tech" | "philippine_motoring" | "ph_sea_banking" | "ph_sea_energy";
+export type Beat =
+  | "ai_tech"
+  | "philippine_motoring"
+  | "ph_sea_banking"
+  | "ph_sea_energy"
+  | "property_real_estate";
 
-export type SourceType = "rss" | "html";
+export type SourceType = "rss" | "html" | "json" | "sharepoint";
 
 export type AiTechTimeMode = "current" | "context";
 
@@ -8,7 +13,8 @@ export type EditorialBucket =
   | "urgent_important"
   | "structural_trend"
   | "context_watch"
-  | "background";
+  | "background"
+  | PropertyEditorialBucket;
 
 export type ReasonCode =
   | "meaningful_shift"
@@ -121,6 +127,75 @@ export type EnergyFilterSummary = {
   materiality_signals: string[];
 };
 
+export type AiTechSystemAxis =
+  | "models_platforms"
+  | "enterprise_adoption"
+  | "policy_regulation"
+  | "infrastructure_compute"
+  | "distribution_integration"
+  | "labor_workflow_impact";
+
+export type AiTechGeography = "ph" | "sea" | "global";
+
+export type AiTechEditorialBucket =
+  | "core_signal"
+  | "interpretation"
+  | "capability_watch";
+
+export type AiTechBeatStructure = {
+  system_axes: AiTechSystemAxis[];
+  inclusion_requirement: string;
+  geographic_lens: string;
+  global_gate: string;
+};
+
+export type AiTechFilterSummary = {
+  primary_axis?: AiTechSystemAxis;
+  editorial_bucket: AiTechEditorialBucket;
+  geography: AiTechGeography;
+  downstream_relevance: boolean;
+  importance_tier: "high" | "medium" | "low_auto_exclude";
+  inclusion_rule_ids: string[];
+  exclusion_rule_ids: string[];
+  ph_sea_relevance_score: number;
+  materiality_signals: string[];
+};
+
+export type PropertySystemAxis =
+  | "capital_flows"
+  | "supply_development"
+  | "demand_affordability"
+  | "policy_regulation"
+  | "usage_patterns"
+  | "stress_signals";
+
+export type PropertyGeography = "ph" | "sea" | "global";
+
+export type PropertyEditorialBucket =
+  | "core_signal"
+  | "interpretation"
+  | "capability_watch";
+
+export type PropertyBeatStructure = {
+  system_axes: PropertySystemAxis[];
+  inclusion_requirement: string;
+  geographic_lens: string;
+  global_gate: string;
+};
+
+export type PropertyFilterSummary = {
+  primary_axis?: PropertySystemAxis;
+  editorial_bucket: PropertyEditorialBucket;
+  geography: PropertyGeography;
+  downstream_relevance: boolean;
+  importance_tier: "high" | "medium" | "low_auto_exclude";
+  inclusion_rule_ids: string[];
+  exclusion_rule_ids: string[];
+  ph_relevance_score: number;
+  materiality_signals: string[];
+  stress_signal: boolean;
+};
+
 export type SourceDefinition = {
   name: string;
   beat: Beat;
@@ -136,6 +211,27 @@ export type SourceDefinition = {
     link?: string;
     date?: string;
     summary?: string;
+    detail?: {
+      title?: string;
+      link?: string;
+      date?: string;
+      summary?: string;
+    };
+  };
+  json?: {
+    items: string;
+    title?: string;
+    link?: string;
+    date?: string;
+    summary?: string;
+  };
+  sharepoint?: {
+    titleField: string;
+    dateField: string;
+    linkTemplate: string;
+    summaryFields?: string[];
+    contentField?: string;
+    detailUrlTemplate?: string;
   };
 };
 
@@ -165,6 +261,8 @@ export type NormalizedStory = {
   angle_signals?: string[];
   banking_signals?: BankingSignals;
   energy_filter?: EnergyFilterSummary;
+  ai_tech_filter?: AiTechFilterSummary;
+  property_filter?: PropertyFilterSummary;
   movement_score?: number;
   cluster_id?: string;
   cluster_kind?: ClusterKind;
@@ -240,6 +338,8 @@ export type StoryDrop = {
   reason: StoryDropReason;
   details?: string;
   energy_filter?: EnergyFilterSummary;
+  ai_tech_filter?: AiTechFilterSummary;
+  property_filter?: PropertyFilterSummary;
 };
 
 export type ReviewResult = {

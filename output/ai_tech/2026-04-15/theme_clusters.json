@@ -1,0 +1,293 @@
+[
+  {
+    "theme_id": "enterprise_adoption",
+    "theme_label": "enterprise adoption",
+    "theme_summary": "enterprise adoption is the shared editorial thread across 6 related stories. The strongest signal is enterprise adoption pressure rising.",
+    "story_count": 6,
+    "cluster_ids": [],
+    "story_ids": [
+      "d7cc70416656",
+      "2981e9696aca",
+      "236ea0db0815",
+      "95384e9055c3",
+      "7bcd68b5d5cb",
+      "22c2ff8bad8c"
+    ],
+    "associated_stories": [
+      {
+        "id": "7bcd68b5d5cb",
+        "title": "The next phase of enterprise AI",
+        "url": "https://openai.com/index/next-phase-of-enterprise-ai",
+        "source": "OpenAI Blog",
+        "published_at": "2026-04-08T14:00:00.000Z"
+      },
+      {
+        "id": "22c2ff8bad8c",
+        "title": "Codex now offers more flexible pricing for teams",
+        "url": "https://openai.com/index/codex-flexible-pricing-for-teams",
+        "source": "OpenAI Blog",
+        "published_at": "2026-04-02T10:00:00.000Z"
+      },
+      {
+        "id": "2981e9696aca",
+        "title": "Microsoft is working on yet another OpenClaw-like agent",
+        "url": "https://techcrunch.com/2026/04/13/microsoft-is-working-on-yet-another-openclaw-like-agent",
+        "source": "TechCrunch AI",
+        "published_at": "2026-04-13T19:05:19.000Z"
+      },
+      {
+        "id": "95384e9055c3",
+        "title": "CyberAgent moves faster with ChatGPT Enterprise and Codex",
+        "url": "https://openai.com/index/cyberagent",
+        "source": "OpenAI Blog",
+        "published_at": "2026-04-09T00:00:00.000Z"
+      },
+      {
+        "id": "d7cc70416656",
+        "title": "AI Pulse Exclusive: How Bonnie Factor is driving AI agent adoption in organisations",
+        "url": "https://e27.co/ai-pulse-exclusive-how-bonnie-factor-is-driving-ai-agent-adoption-in-organisations-20260415",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-04-15T10:28:01.000Z"
+      },
+      {
+        "id": "236ea0db0815",
+        "title": "Why your team isn’t using the AI you already have",
+        "url": "https://e27.co/why-your-team-isnt-using-the-ai-you-already-have-20260413",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-04-13T03:53:37.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "policy_regulatory_move",
+      "local_business_relevance",
+      "developing_pattern"
+    ],
+    "dominant_angle_signals": [
+      "enterprise adoption pressure rising",
+      "demand still unproven",
+      "ongoing platform expansion"
+    ],
+    "top_story_refs": [
+      "7bcd68b5d5cb",
+      "22c2ff8bad8c",
+      "2981e9696aca"
+    ]
+  },
+  {
+    "theme_id": "models_platforms",
+    "theme_label": "models and platform releases",
+    "theme_summary": "models and platform releases is the shared editorial thread across 6 related stories. The strongest signal is infrastructure lag visible.",
+    "story_count": 6,
+    "cluster_ids": [],
+    "story_ids": [
+      "97e567476ed8",
+      "17bf9cbe1f8c",
+      "a0904673d8e8",
+      "096dac0b19bf",
+      "44069ef88222",
+      "8afdb503cc56"
+    ],
+    "associated_stories": [
+      {
+        "id": "97e567476ed8",
+        "title": "Most Singapore businesses use AI daily, but scaling it remains out of reach",
+        "url": "https://e27.co/ai-automation-gap-20260415",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-04-15T08:15:37.000Z"
+      },
+      {
+        "id": "44069ef88222",
+        "title": "Build with Lyria 3, our newest music generation model",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/lyria-3-developers",
+        "source": "Google AI Blog",
+        "published_at": "2026-03-25T16:00:00.000Z"
+      },
+      {
+        "id": "17bf9cbe1f8c",
+        "title": "Trusted access for the next era of cyber defense",
+        "url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
+        "source": "OpenAI Blog",
+        "published_at": "2026-04-14T00:00:00.000Z"
+      },
+      {
+        "id": "096dac0b19bf",
+        "title": "Build with Veo 3.1 Lite, our most cost-effective video generation model",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/veo-3-1-lite",
+        "source": "Google AI Blog",
+        "published_at": "2026-03-31T16:00:00.000Z"
+      },
+      {
+        "id": "8afdb503cc56",
+        "title": "Introducing GPT-5.4 mini and nano",
+        "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
+        "source": "OpenAI Blog",
+        "published_at": "2026-03-17T10:00:00.000Z"
+      },
+      {
+        "id": "a0904673d8e8",
+        "title": "Gradient Labs gives every bank customer an AI account manager",
+        "url": "https://openai.com/index/gradient-labs",
+        "source": "OpenAI Blog",
+        "published_at": "2026-04-01T02:00:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "developing_pattern",
+      "execution_consequence",
+      "policy_regulatory_move"
+    ],
+    "dominant_angle_signals": [
+      "infrastructure lag visible",
+      "developer workflow changing",
+      "enterprise adoption pressure rising"
+    ],
+    "top_story_refs": [
+      "97e567476ed8",
+      "44069ef88222",
+      "17bf9cbe1f8c"
+    ]
+  },
+  {
+    "theme_id": "infrastructure_execution_gap",
+    "theme_label": "infrastructure execution gap",
+    "theme_summary": "infrastructure execution gap is the shared editorial thread across 5 related stories. The strongest signal is infrastructure lag visible.",
+    "story_count": 5,
+    "cluster_ids": [],
+    "story_ids": [
+      "d52bce1f4b77",
+      "4586c5f3db35",
+      "85e9d1a6753c",
+      "9f84e2e45d87",
+      "b4cdbe4fa21e"
+    ],
+    "associated_stories": [
+      {
+        "id": "9f84e2e45d87",
+        "title": "Accelerating the next phase of AI",
+        "url": "https://openai.com/index/accelerating-the-next-phase-ai",
+        "source": "OpenAI Blog",
+        "published_at": "2026-03-31T13:00:00.000Z"
+      },
+      {
+        "id": "d52bce1f4b77",
+        "title": "OrtCloud bags US$1.7M pre-seed to make cloud performance predictable",
+        "url": "https://e27.co/ortcloud-bags-us1-7m-pre-seed-to-make-cloud-performance-predictable-20260414",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-04-14T02:00:16.000Z"
+      },
+      {
+        "id": "4586c5f3db35",
+        "title": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
+        "url": "https://openai.com/index/cloudflare-openai-agent-cloud",
+        "source": "OpenAI Blog",
+        "published_at": "2026-04-13T06:00:00.000Z"
+      },
+      {
+        "id": "b4cdbe4fa21e",
+        "title": "Microsoft at NVIDIA GTC: New solutions for Microsoft Foundry, Azure AI infrastructure and Physical AI",
+        "url": "https://blogs.microsoft.com/blog/2026/03/16/microsoft-at-nvidia-gtc-new-solutions-for-microsoft-foundry-azure-ai-infrastructure-and-physical-ai",
+        "source": "Microsoft Blog AI",
+        "published_at": "2026-03-16T20:29:56.000Z"
+      },
+      {
+        "id": "85e9d1a6753c",
+        "title": "New ways to balance cost and reliability in the Gemini API",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference",
+        "source": "Google AI Blog",
+        "published_at": "2026-04-02T16:00:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "policy_regulatory_move",
+      "execution_consequence",
+      "developing_pattern"
+    ],
+    "dominant_angle_signals": [
+      "infrastructure lag visible",
+      "developer workflow changing",
+      "enterprise adoption pressure rising"
+    ],
+    "top_story_refs": [
+      "9f84e2e45d87",
+      "d52bce1f4b77",
+      "4586c5f3db35"
+    ]
+  },
+  {
+    "theme_id": "policy_governance",
+    "theme_label": "policy and governance pressure",
+    "theme_summary": "policy and governance pressure is the shared editorial thread across 2 related stories. The strongest signal is infrastructure lag visible.",
+    "story_count": 2,
+    "cluster_ids": [],
+    "story_ids": [
+      "805ef305657b",
+      "56adae9a6d7d"
+    ],
+    "associated_stories": [
+      {
+        "id": "56adae9a6d7d",
+        "title": "Southeast Asia’s AI blind spot is getting bigger",
+        "url": "https://e27.co/southeast-asias-ai-blind-spot-is-getting-bigger-20260413",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-04-13T03:14:30.000Z"
+      },
+      {
+        "id": "805ef305657b",
+        "title": "Without governance, AI agents risk becoming enterprise chaos engines",
+        "url": "https://e27.co/without-governance-ai-agents-risk-becoming-enterprise-chaos-engines-20260414",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-04-14T03:46:18.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "policy_regulatory_move"
+    ],
+    "dominant_angle_signals": [
+      "infrastructure lag visible",
+      "developer workflow changing",
+      "enterprise adoption pressure rising"
+    ],
+    "top_story_refs": [
+      "56adae9a6d7d",
+      "805ef305657b"
+    ]
+  },
+  {
+    "theme_id": "supply_chain_strain",
+    "theme_label": "supply chain strain",
+    "theme_summary": "supply chain strain is the shared editorial thread across 2 related stories. The strongest signal is supply risk rising.",
+    "story_count": 2,
+    "cluster_ids": [],
+    "story_ids": [
+      "2372da07ee5d",
+      "ac65c62913e0"
+    ],
+    "associated_stories": [
+      {
+        "id": "ac65c62913e0",
+        "title": "Baskit raises US$4.4M to take Indonesia’s offline distribution playbook regional",
+        "url": "https://e27.co/baskit-funding-20260415",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-04-15T02:32:50.000Z"
+      },
+      {
+        "id": "2372da07ee5d",
+        "title": "The rise of logistics startups in Southeast Asia: How AI powers supply-chain revolution",
+        "url": "https://e27.co/the-rise-of-logistics-startups-in-southeast-asia-20251107",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-04-15T11:50:49.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "developing_pattern",
+      "market_signal"
+    ],
+    "dominant_angle_signals": [
+      "supply risk rising"
+    ],
+    "top_story_refs": [
+      "ac65c62913e0",
+      "2372da07ee5d"
+    ]
+  }
+]

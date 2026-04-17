@@ -13,7 +13,9 @@ const dedupe_js_1 = require("../lib/dedupe.js");
 const editorial_js_1 = require("../lib/editorial.js");
 const exclusions_js_1 = require("../lib/exclusions.js");
 const html_js_1 = require("../lib/fetchers/html.js");
+const json_js_1 = require("../lib/fetchers/json.js");
 const rss_js_1 = require("../lib/fetchers/rss.js");
+const sharepoint_js_1 = require("../lib/fetchers/sharepoint.js");
 const normalize_js_1 = require("../lib/normalize.js");
 const editorial_layer_js_1 = require("../lib/editorial-layer.js");
 const prioritize_js_1 = require("../lib/prioritize.js");
@@ -24,6 +26,12 @@ const weekly_packet_js_1 = require("../lib/weekly-packet.js");
 async function fetchStoriesForSource(source) {
     if (source.type === "rss") {
         return (0, rss_js_1.fetchRssStories)(source);
+    }
+    if (source.type === "json") {
+        return (0, json_js_1.fetchJsonStories)(source);
+    }
+    if (source.type === "sharepoint") {
+        return (0, sharepoint_js_1.fetchSharePointStories)(source);
     }
     return (0, html_js_1.fetchHtmlStories)(source);
 }
@@ -115,6 +123,17 @@ function beatsForRun() {
     }
     return allRegisteredBeats();
 }
+function syncBeatSpecificEditorialBuckets(stories) {
+    return stories.map((story) => {
+        if (story.beat === "property_real_estate" && story.property_filter) {
+            return {
+                ...story,
+                editorial_bucket: story.property_filter.editorial_bucket
+            };
+        }
+        return story;
+    });
+}
 async function runBeat(beat, fetchedAt, runDate) {
     const beatConfig = beats_js_1.beatConfigs[beat];
     const candidateStoriesBySource = new Map();
@@ -205,7 +224,7 @@ async function runBeat(beat, fetchedAt, runDate) {
         timeMode
     });
     const rankingResult = (0, ranking_js_1.rankStories)(annotatedStories);
-    const editorialStories = (0, editorial_layer_js_1.editorialLayer)(rankingResult.rankedStories);
+    const editorialStories = syncBeatSpecificEditorialBuckets((0, editorial_layer_js_1.editorialLayer)(rankingResult.rankedStories));
     const clusteringResult = (0, clustering_js_1.clusterStories)(editorialStories);
     const outputDir = node_path_1.default.resolve(process.cwd(), "output", beat);
     const outputFile = node_path_1.default.join(outputDir, "stories.json");

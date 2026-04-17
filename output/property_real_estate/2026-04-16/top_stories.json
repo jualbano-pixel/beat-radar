@@ -1,0 +1,33 @@
+{
+  "top_stories": [
+    {
+      "title": "Metro Manila Office Report Q3 2025",
+      "source": "Santos Knight Frank Market Reports",
+      "date": "2026-04-16T16:58:12.310Z",
+      "summary": "Metro Manila Office Report Q3 2025The Metro Manila office market in the third quarter of 2025 reflected steady adjustments to evolving workplace strategies amid tempered demand. Total office stock reached 8.9 million sqm, with new supply from Quezon City adding 72,000 sqm. Overall vacancy stood at 21.2%, while avera...",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 0.8,
+      "priority_reasons": [
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Property prices record slowest increase since Q1 2019",
+      "source": "Bangko Sentral ng Pilipinas Property",
+      "date": "2026-03-27T06:53:07.000Z",
+      "summary": "PDate: 3/27/2026 Content: ​ Residential property prices in the Philippines rose by 1.6 percent year-on-year (y-o-y) in Q4 2025, easing from 1.9 percent in Q3 2025. This marks the slowest pace of increase since Q1 2019, based on Bangko Sentral ng Pilipinas (BSP) data on the Residential Property Price Index (RPPI). By...",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 0.2,
+      "priority_reasons": [
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    }
+  ],
+  "secondary_signals": []
+}

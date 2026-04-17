@@ -39,6 +39,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.fetchHtmlStories = fetchHtmlStories;
 const axios_1 = __importDefault(require("axios"));
 const cheerio = __importStar(require("cheerio"));
+const USER_AGENT = "Mozilla/5.0 (compatible; BeatRadarScraper/1.0; +https://example.com/bot)";
 function resolveUrl(baseUrl, value) {
     if (!value) {
         return undefined;
@@ -50,11 +51,62 @@ function resolveUrl(baseUrl, value) {
         return undefined;
     }
 }
+function cleanText(value) {
+    const cleaned = value?.replace(/\s+/g, " ").trim();
+    return cleaned || undefined;
+}
+function selected(item, selector) {
+    if (!selector) {
+        return cheerio.load("")("");
+    }
+    return selector === ":self" ? item : item.find(selector).first();
+}
+function selectedText(item, selector) {
+    const selection = selected(item, selector);
+    return cleanText(selection.attr("content") ?? selection.text());
+}
+function selectedUrl(item, baseUrl, selector) {
+    return resolveUrl(baseUrl, selected(item, selector).attr("href")?.trim());
+}
+function selectedDate(item, selector) {
+    const selection = selected(item, selector);
+    return cleanText(selection.attr("datetime") ?? selection.attr("content") ?? selection.text());
+}
+async function fetchDetailStory(story, source) {
+    const detailSelectors = source.selectors?.detail;
+    if (!detailSelectors || !story.url) {
+        return story;
+    }
+    try {
+        const { data } = await axios_1.default.get(story.url, {
+            timeout: 15_000,
+            headers: {
+                "User-Agent": USER_AGENT
+            }
+        });
+        const $ = cheerio.load(data);
+        const document = $.root();
+        const title = selectedText(document, detailSelectors.title);
+        const link = selectedUrl(document, story.url, detailSelectors.link);
+        const date = selectedDate(document, detailSelectors.date);
+        const summary = selectedText(document, detailSelectors.summary);
+        return {
+            ...story,
+            title: title ?? story.title,
+            url: link ?? story.url,
+            publishedAt: date ? new Date(date).toISOString() : story.publishedAt,
+            summary: summary ?? story.summary
+        };
+    }
+    catch {
+        return story;
+    }
+}
 async function fetchHtmlStories(source) {
     const { data } = await axios_1.default.get(source.url, {
         timeout: 15_000,
         headers: {
-            "User-Agent": "BeatRadarScraper/1.0"
+            "User-Agent": USER_AGENT
         }
     });
     const $ = cheerio.load(data);
@@ -62,30 +114,25 @@ async function fetchHtmlStories(source) {
     if (!selectors?.item) {
         return [];
     }
-    return $(selectors.item)
+    const stories = $(selectors.item)
         .map((_, element) => {
         const item = $(element);
-        // TODO: Provide source-specific selectors when HTML sources are added.
-        const title = selectors.title
-            ? item.find(selectors.title).first().text().trim()
-            : undefined;
-        const link = selectors.link
-            ? resolveUrl(source.url, item.find(selectors.link).first().attr("href")?.trim())
-            : undefined;
-        const date = selectors.date
-            ? item.find(selectors.date).first().attr("datetime")?.trim() ??
-                item.find(selectors.date).first().text().trim()
-            : undefined;
-        const summary = selectors.summary
-            ? item.find(selectors.summary).first().text().trim()
-            : undefined;
+        const title = selectedText(item, selectors.title);
+        const link = selectedUrl(item, source.url, selectors.link);
+        const date = selectedDate(item, selectors.date);
+        const summary = selectedText(item, selectors.summary);
         return {
             source: source.name,
-            title: title || undefined,
+            title,
             url: link,
             publishedAt: date ? new Date(date).toISOString() : undefined,
-            summary: summary || undefined
+            summary
         };
     })
-        .get();
+        .get()
+        .slice(0, source.maxItems);
+    if (!selectors.detail) {
+        return stories;
+    }
+    return Promise.all(stories.map((story) => fetchDetailStory(story, source)));
 }

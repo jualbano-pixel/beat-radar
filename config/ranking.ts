@@ -18,5 +18,14 @@ export const sourceWeightByName: Record<string, number> = {
   "Asian Development Bank": 0.05,
   "Fitch Ratings Banks": 0.05,
   "Moody's Banking": 0.05,
-  "S&P Global Banking": 0.05
+  "S&P Global Banking": 0.05,
+  "Bangko Sentral ng Pilipinas Property": 0.1,
+  "Santos Knight Frank Market Reports": 0.09,
+  "Department of Finance Property": 0.06,
+  "BusinessWorld Property": 0.08,
+  "BusinessMirror Property": 0.07,
+  "Inquirer Business Property": 0.07,
+  "Philippine Star Property": 0.06,
+  "Malaya Business Property": 0.06,
+  "Manila Bulletin Business Property": 0.06
 };

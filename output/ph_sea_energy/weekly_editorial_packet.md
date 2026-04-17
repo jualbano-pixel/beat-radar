@@ -1,66 +1,60 @@
-# Philippine / SEA Energy
+# Weekly Editorial Packet — Philippine / SEA Energy
 
 Week of 2026-04-13
 
-## Editorial read
+## Editorial Read
 
-Fuel prices are easing through pump-price rollbacks; policy is shifting who absorbs fuel-cost pressure. The strongest read is system movement, not story volume: price, policy, and execution signals are carrying the beat this week.
+- Fuel and policy signals are moving together, so the pressure is not just price direction but who absorbs the cost.
+- Grid and project-execution signals keep capacity risk on the desk, even when price stories dominate the week.
 
-## Themes
+## What matters most
 
-### Fuel prices are easing through rollbacks
-Pump-price movement is pointing downward, with diesel, gasoline, and fuel-monitor stories reinforcing the same cost direction.
+### grid capacity risk
+- Why it matters: Grid and project execution determine whether new capacity can actually reach users.
+- Pattern: Grid and project execution are shaping how much capacity the system can actually use.
+- Tension: infrastructure ambition vs delivery
+- Supporting stories:
+- [Luzon, Visayas electricity grids placed under ‘yellow’ alert](https://business.inquirer.net/585649/luzon-electricity-grid-placed-under-yellow-alert) | Inquirer Business Energy | Makes the capacity and delivery constraint concrete.
 
-- Supporting cluster: Fuel price movement (energy_001)
+### supply reliability risk
+- Why it matters: Reliability risk matters when supply tightness can turn into outages, reserves pressure, or higher prices.
+- Pattern: Supply and reserve signals are keeping reliability risk close to the surface.
+- Tension: demand needs vs available supply
+- Supporting stories:
+- [eGovPH back online; no security breach, says DICT](https://business.inquirer.net/585920/egovph-back-online-no-security-breach-says-dict) | Inquirer Business Energy | Adds a concrete read on price, supply, reliability, or policy pressure.
+- [ICTSI braces for fuel supply uncertainty](https://business.inquirer.net/585660/ictsi-braces-for-fuel-supply-uncertainty) | Inquirer Business Energy | Shows where supply conditions could become a reliability problem.
+- [IMF says Philippines faces ‘difficult situation’ as Mideast energy shocks weigh on growth](https://www.bworldonline.com/top-stories/2026/04/17/743524/imf-says-philippines-faces-difficult-situation-as-mideast-energy-shocks-weigh-on-growth) | BusinessWorld Energy | Adds a concrete read on price, supply, reliability, or policy pressure.
+- [Nestlé Philippines says it may focus on basic goods if fuel supply tightens](https://www.bworldonline.com/corporate/2026/04/17/743531/nestle-philippines-says-it-may-focus-on-basic-goods-if-fuel-supply-tightens) | BusinessWorld Energy | Shows where supply conditions could become a reliability problem.
 
-### Policy is shifting fuel-cost burdens
-Fiscal and regulatory actions are moving who absorbs Energy costs through subsidies, taxes, tariff treatment, credits, or recovery decisions.
+### energy price pressure
+- Why it matters: Energy-price pressure feeds through to households, operators, and policy decisions.
+- Pattern: Energy costs are still feeding into household and business pressure.
+- Tension: cost recovery vs affordability
+- Supporting stories:
+- [ICTSI raises tariffs to offset fuel costs amid Middle East war](https://www.bworldonline.com/corporate/2026/04/17/743534/ictsi-raises-tariffs-to-offset-fuel-costs-amid-middle-east-war) | BusinessWorld Energy | Shows how policy decisions can shift who absorbs energy costs.
+- [Meralco’s P4-B cost recovery cleared by regulator](https://business.inquirer.net/585702/meralcos-p4-b-cost-recovery-cleared-by-regulator) | Inquirer Business Energy | Adds a concrete read on price, supply, reliability, or policy pressure.
+- [Energy regulator approves over P4-billion cost recovery for Meralco](https://www.bworldonline.com/top-stories/2026/04/17/743520/energy-regulator-approves-over-p4-billion-cost-recovery-for-meralco) | BusinessWorld Energy | Shows how policy decisions can shift who absorbs energy costs.
 
-- Supporting cluster: Policy burden shifting (energy_002)
+### fuel price easing
+- Why it matters: Pump-price relief matters because it quickly changes household transport costs and business operating pressure.
+- Pattern: Fuel prices are easing at the pump, but cost relief remains exposed to external swings.
+- Tension: short-term relief vs oil exposure
+- Supporting stories:
+- [Have you ever seen a rollback actually roll back?](https://malaya.com.ph/weekender/have-you-ever-seen-a-rollback-actually-roll-back) | Malaya Business | Shows how fuel-price movement is feeding into household and operating costs.
 
-## Cluster breakdown
+## Structural shifts
 
-### Fuel price movement (energy_001)
-Theme: Fuel prices are easing through rollbacks
-Fuel prices are moving through pump-price signals, changing the near-term cost read for consumers and fuel-sensitive sectors.
+### external energy shock
+- Editorial note: External shocks matter when they pass through to local prices, supply planning, or reliability risk.
+- Pattern: External fuel shocks are passing through to local prices, supply planning, and operating costs.
+- Tension: global exposure vs local resilience
+- Supporting stories:
+- [Diesel, gasoline prices seen sliding some more](https://business.inquirer.net/585847/diesel-gasoline-prices-seen-sliding-some-more) | Inquirer Business Energy | Shows how fuel-price movement is feeding into household and operating costs.
 
-- [Local ride-hailing platforms reduce commission rates](https://businessmirror.com.ph/2026/04/14/local-ride-hailing-platforms-reduce-commission-rates) | BusinessMirror Energy | category: price | tier: medium
-- [Oil price watch: Fuel prices down by as much as P23/liter this week](https://business.inquirer.net/584944/oil-price-watch-fuel-prices-down-by-as-much-as-p23-liter-this-week) | Inquirer Business Energy | category: price | tier: medium
-- [Price Tracker: Oil, fuel monitor for Apr. 13](https://www.philstar.com/headlines/2026/04/13/2520606/price-tracker-oil-fuel-monitor-apr-13) | Philippine Star Business Energy | category: price | tier: high | system_pressure
-- [Possible diesel rollback now estimated at P8.80-P10.80/liter](https://business.inquirer.net/584730/possible-diesel-rollback-now-estimated-at-p8-80-p10-80-liter) | Inquirer Business Energy | category: price | tier: high | system_pressure
-- [Bigger diesel price cut if Middle East truce holds](https://business.inquirer.net/584703/bigger-diesel-price-cut-if-middle-east-truce-holds) | Inquirer Business Energy | category: price | tier: medium
+## What seems to be happening
 
-### Policy burden shifting (energy_002)
-Theme: Policy is shifting fuel-cost burdens
-Policy action is shifting who absorbs Energy costs through taxes, credits, tariff treatment, subsidies, or recovery decisions.
-
-- [Ilocos farmers seek bigger subsidies as costs surge](https://www.bworldonline.com/the-nation/2026/04/13/742634/ilocos-farmers-seek-bigger-subsidies-as-costs-surge) | BusinessWorld Energy | category: policy | tier: medium
-- [Agri dep’t considering P10 per kilo subsidy for users of gov’t fishports](https://www.bworldonline.com/economy/2026/04/13/742575/agri-dept-considering-p10-per-kilo-subsidy-for-users-of-govt-fishports) | BusinessWorld Energy | category: policy | tier: medium
-- [Marcos suspends excise tax on kerosene, LPG; waives tariff on food imports](https://www.philstar.com/headlines/2026/04/13/2520728/marcos-suspends-excise-tax-kerosene-lpg-waives-tariff-food-imports) | Philippine Star Business Energy | category: policy | tier: medium
-- [House pushes fuel tax credit for immediate price relief](https://www.bworldonline.com/top-stories/2026/04/13/742386/house-pushes-fuel-tax-credit-for-immediate-price-relief) | BusinessWorld Energy | category: policy | tier: medium
-- [Fuel tax collections up 15% amid transport protests](https://www.philstar.com/headlines/2026/04/13/2520691/fuel-tax-collections-15-amid-transport-protests) | Philippine Star Business Energy | category: policy | tier: medium
-- [‘Removing VAT on fuel risks PHL credit rating’](https://businessmirror.com.ph/2026/04/13/removing-vat-on-fuel-risks-phl-credit-rating) | BusinessMirror Energy | category: policy | tier: medium
-
-### External shock transmitting locally (energy_003)
-Theme: none
-External fuel, commodity, or geopolitical pressure is transmitting into local Energy cost, supply, or generation behavior.
-
-- [Marcos urges Filipinos not to hoard diesel](https://www.bworldonline.com/the-nation/2026/04/13/742584/marcos-urges-filipinos-not-to-hoard-diesel) | BusinessWorld Energy | category: external_forces | tier: medium
-
-### Project execution and infrastructure progress (energy_004)
-Theme: none
-Infrastructure execution is moving through rehabilitation, EPC, commissioning, or delivery steps that affect system capability.
-
-- [Psalm enters talks for Agus-Pulangi rehabilitation](https://business.inquirer.net/584885/psalm-enters-talks-for-agus-pulangi-rehabilitation) | Inquirer Business Energy | category: infrastructure | tier: medium
-
-## Signals to watch
-
-### External shock transmitting locally (energy_003)
-External fuel, commodity, or geopolitical pressure is transmitting into local Energy cost, supply, or generation behavior.
-
-- [Marcos urges Filipinos not to hoard diesel](https://www.bworldonline.com/the-nation/2026/04/13/742584/marcos-urges-filipinos-not-to-hoard-diesel) | BusinessWorld Energy | category: external_forces | tier: medium
-
-### Project execution and infrastructure progress (energy_004)
-Infrastructure execution is moving through rehabilitation, EPC, commissioning, or delivery steps that affect system capability.
-
-- [Psalm enters talks for Agus-Pulangi rehabilitation](https://business.inquirer.net/584885/psalm-enters-talks-for-agus-pulangi-rehabilitation) | Inquirer Business Energy | category: infrastructure | tier: medium
+- Grid and project execution are shaping how much capacity the system can actually use.
+- Supply and reserve signals are keeping reliability risk close to the surface.
+- Energy costs are still feeding into household and business pressure.
+- Fuel prices are easing at the pump, but cost relief remains exposed to external swings.
+- External fuel shocks are passing through to local prices, supply planning, and operating costs.

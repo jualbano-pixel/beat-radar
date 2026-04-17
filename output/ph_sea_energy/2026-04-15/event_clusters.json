@@ -1,0 +1,210 @@
+[
+  {
+    "cluster_id": "energy_001",
+    "cluster_kind": "same_event",
+    "lead_story_id": "771f9769855b",
+    "story_count": 3,
+    "story_ids": [
+      "771f9769855b",
+      "a95a24b7d20e",
+      "0c29902e9cc9"
+    ],
+    "story_titles": [
+      "Local ride-hailing platforms reduce commission rates",
+      "Price Tracker: Oil, fuel monitor for Apr. 15",
+      "Fuel price rolled back by as much as P23/L"
+    ],
+    "associated_stories": [
+      {
+        "id": "771f9769855b",
+        "title": "Local ride-hailing platforms reduce commission rates",
+        "url": "https://businessmirror.com.ph/2026/04/14/local-ride-hailing-platforms-reduce-commission-rates",
+        "source": "BusinessMirror Energy",
+        "published_at": "2026-04-13T16:02:00.000Z"
+      },
+      {
+        "id": "a95a24b7d20e",
+        "title": "Price Tracker: Oil, fuel monitor for Apr. 15",
+        "url": "https://www.philstar.com/headlines/2026/04/15/2521131/price-tracker-oil-fuel-monitor-apr-15",
+        "source": "Philippine Star Business Energy",
+        "published_at": "2026-04-15T00:30:00.000Z"
+      },
+      {
+        "id": "0c29902e9cc9",
+        "title": "Fuel price rolled back by as much as P23/L",
+        "url": "https://business.inquirer.net/585139/fuel-price-rolled-back-by-as-much-as-p23-l",
+        "source": "Inquirer Business Energy",
+        "published_at": "2026-04-14T02:20:00.000Z"
+      }
+    ],
+    "entities": [],
+    "event_label": "Fuel price movement",
+    "compression_line": "Fuel prices are moving through pump-price signals, changing the near-term cost read for consumers and fuel-sensitive sectors.",
+    "priority_score": 40,
+    "editorial_bucket": "context_watch",
+    "cluster_type": "pattern",
+    "cluster_classification": "primary",
+    "supporting_story_ids": [
+      "a95a24b7d20e",
+      "0c29902e9cc9"
+    ],
+    "primary_theme_id": "energy_fuel_prices_easing",
+    "primary_theme_label": "Fuel prices are easing through rollbacks"
+  },
+  {
+    "cluster_id": "energy_002",
+    "cluster_kind": "same_event",
+    "lead_story_id": "e304efcb1b9f",
+    "story_count": 2,
+    "story_ids": [
+      "e304efcb1b9f",
+      "be4fc2366800"
+    ],
+    "story_titles": [
+      "Philippines seeks US nod to extend Russian oil imports amid supply risks",
+      "PH fuel supply cover drops to 50.31 days from 50.42"
+    ],
+    "associated_stories": [
+      {
+        "id": "e304efcb1b9f",
+        "title": "Philippines seeks US nod to extend Russian oil imports amid supply risks",
+        "url": "https://www.philstar.com/headlines/2026/04/15/2521133/philippines-seeks-us-nod-extend-russian-oil-imports-amid-supply-risks",
+        "source": "Philippine Star Business Energy",
+        "published_at": "2026-04-15T01:16:00.000Z"
+      },
+      {
+        "id": "be4fc2366800",
+        "title": "PH fuel supply cover drops to 50.31 days from 50.42",
+        "url": "https://malaya.com.ph/business/business-news/ph-fuel-supply-cover-drops-to-50-31-days-from-50-42",
+        "source": "Malaya Business",
+        "published_at": "2026-04-15T07:12:58.000Z"
+      }
+    ],
+    "entities": [],
+    "event_label": "Outage, alert, or reliability stress",
+    "compression_line": "Reliability stress is visible in grid, outage, reserve, or alert signals that point to pressure on the physical power system.",
+    "priority_score": 36,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "pattern",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": [
+      "be4fc2366800"
+    ],
+    "primary_theme_id": "energy_reliability_pressure_building",
+    "primary_theme_label": "Reliability pressure is building in the power system"
+  },
+  {
+    "cluster_id": "energy_003",
+    "cluster_kind": "same_event",
+    "lead_story_id": "60549e57fb02",
+    "story_count": 2,
+    "story_ids": [
+      "60549e57fb02",
+      "90788970db8d"
+    ],
+    "story_titles": [
+      "NGCP: Middle East war won’t affect electricity grid charges",
+      "SBMA to reduce tariff, cargo charges by 5% amid Middle East conflict"
+    ],
+    "associated_stories": [
+      {
+        "id": "60549e57fb02",
+        "title": "NGCP: Middle East war won’t affect electricity grid charges",
+        "url": "https://business.inquirer.net/585357/ngcp-middle-east-war-wont-affect-electricity-grid-charges",
+        "source": "Inquirer Business Energy",
+        "published_at": "2026-04-15T14:20:41.000Z"
+      },
+      {
+        "id": "90788970db8d",
+        "title": "SBMA to reduce tariff, cargo charges by 5% amid Middle East conflict",
+        "url": "https://www.philstar.com/business/2026/04/15/2521135/sbma-reduce-tariff-cargo-charges-5-amid-middle-east-conflict",
+        "source": "Philippine Star Business Energy",
+        "published_at": "2026-04-15T01:29:00.000Z"
+      }
+    ],
+    "entities": [],
+    "event_label": "External shock transmitting locally",
+    "compression_line": "External fuel, commodity, or geopolitical pressure is transmitting into local Energy cost, supply, or generation behavior.",
+    "priority_score": 24,
+    "editorial_bucket": "background",
+    "cluster_type": "pattern",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": [
+      "90788970db8d"
+    ],
+    "primary_theme_id": "energy_external_shocks_transmitting_locally",
+    "primary_theme_label": "External shocks are transmitting into local Energy costs"
+  },
+  {
+    "cluster_id": "energy_004",
+    "cluster_kind": "same_event",
+    "lead_story_id": "a15ced296271",
+    "story_count": 5,
+    "story_ids": [
+      "a15ced296271",
+      "2ffd6d113a77",
+      "2437da6b3cc9",
+      "4c52c84264b6",
+      "e6943d626e9a"
+    ],
+    "story_titles": [
+      "Marcos fed wrong info on oil crisis — Rep. Quimbo",
+      "DBCC opposes suspension of excise tax on gas, diesel",
+      "₱510M losses a month seen on tax pause",
+      "Go justifies limited tax suspension, says move was ‘balanced’",
+      "DBM: Nothing ‘irregular’ with fuel subsidy allocations"
+    ],
+    "associated_stories": [
+      {
+        "id": "a15ced296271",
+        "title": "Marcos fed wrong info on oil crisis — Rep. Quimbo",
+        "url": "https://malaya.com.ph/news/national-news/marcos-fed-wrong-info-on-oil-crisis-rep-quimbo",
+        "source": "Malaya Business",
+        "published_at": "2026-04-15T07:41:18.000Z"
+      },
+      {
+        "id": "2ffd6d113a77",
+        "title": "DBCC opposes suspension of excise tax on gas, diesel",
+        "url": "https://www.bworldonline.com/editors-picks/2026/04/15/742932/dbcc-opposes-suspension-of-excise-tax-on-gas-diesel",
+        "source": "BusinessWorld Energy",
+        "published_at": "2026-04-14T16:33:34.000Z"
+      },
+      {
+        "id": "2437da6b3cc9",
+        "title": "₱510M losses a month seen on tax pause",
+        "url": "https://businessmirror.com.ph/2026/04/14/%e2%82%b10-51b-losses-a-month-seen-on-tax-pause",
+        "source": "BusinessMirror Energy",
+        "published_at": "2026-04-14T12:55:13.000Z"
+      },
+      {
+        "id": "4c52c84264b6",
+        "title": "Go justifies limited tax suspension, says move was ‘balanced’",
+        "url": "https://business.inquirer.net/585158/go-justifies-limited-tax-suspension-says-move-was-balanced",
+        "source": "Inquirer Business Energy",
+        "published_at": "2026-04-14T09:29:26.000Z"
+      },
+      {
+        "id": "e6943d626e9a",
+        "title": "DBM: Nothing ‘irregular’ with fuel subsidy allocations",
+        "url": "https://www.philstar.com/business/2026/04/14/2520927/dbm-nothing-irregular-fuel-subsidy-allocations",
+        "source": "Philippine Star Business Energy",
+        "published_at": "2026-04-14T03:41:00.000Z"
+      }
+    ],
+    "entities": [],
+    "event_label": "Policy burden shifting",
+    "compression_line": "Policy action is shifting who absorbs Energy costs through taxes, credits, tariff treatment, subsidies, or recovery decisions.",
+    "priority_score": 24,
+    "editorial_bucket": "background",
+    "cluster_type": "pattern",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": [
+      "2ffd6d113a77",
+      "2437da6b3cc9",
+      "4c52c84264b6",
+      "e6943d626e9a"
+    ],
+    "primary_theme_id": "energy_policy_shifting_cost_burden",
+    "primary_theme_label": "Policy is shifting fuel-cost burdens"
+  }
+]

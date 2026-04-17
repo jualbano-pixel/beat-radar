@@ -4,43 +4,19 @@ Week of 2026-04-13
 
 ## Editorial read
 
-Credit conditions are starting to tighten, with regulators reinforcing lending discipline while early signs of borrower stress begin to surface.
+The run produced only watch-level banking signals, so the desk read should stay cautious until stronger system behavior appears.
 
 ## Themes
 
-### Risk is starting to surface
-The useful signal is balance-sheet caution: bad loans, provisions, exposure, or stress are becoming harder to treat as background noise.
-
-- [BSP eyes lower capital charge to boost green home financing](https://www.philstar.com/business/2026/04/13/2520507/bsp-eyes-lower-capital-charge-boost-green-home-financing) | Philstar Business
-- [BSP pushes green housing lending with lower capital requirement](https://mb.com.ph/article/10913580/business/banking-finance/bsp-pushes-green-housing-lending-with-lower-capital-requirement) | Manila Bulletin Business
-- [Philippine banks’ bad loans climb to 6-month high in February](https://mb.com.ph/article/10913231/business/banking-finance/philippine-banks-bad-loans-climb-to-6-month-high-in-february) | Manila Bulletin Business
-
-### Credit tightening is emerging
-Banks and regulators are giving more attention to loan terms, borrower capacity, and credit discipline than to simple volume growth.
-
-- [BSP stays cautious, sees policy tightening only if inflation broadens](https://business.inquirer.net/584572/bsp-stays-cautious-sees-policy-tightening-only-if-inflation-broadens) | Inquirer Business
-- [BSP shifts from 5-year loan cap to risk-based lending framework](https://mb.com.ph/article/10913232/business/banking-finance/bsp-shifts-from-5-year-loan-cap-to-risk-based-lending-framework) | Manila Bulletin Business
-
 ## Cluster breakdown
-
-### Risk is starting to surface
-Bad-loan and borrower-capacity signals suggest risk is beginning to surface beneath still-active lending.
-
-- [BSP eyes lower capital charge to boost green home financing](https://www.philstar.com/business/2026/04/13/2520507/bsp-eyes-lower-capital-charge-boost-green-home-financing) | Philstar Business
-- [BSP pushes green housing lending with lower capital requirement](https://mb.com.ph/article/10913580/business/banking-finance/bsp-pushes-green-housing-lending-with-lower-capital-requirement) | Manila Bulletin Business
-- [Philippine banks’ bad loans climb to 6-month high in February](https://mb.com.ph/article/10913231/business/banking-finance/philippine-banks-bad-loans-climb-to-6-month-high-in-february) | Manila Bulletin Business
-- [Middle East conflict may erode Philippine banks’ asset quality — Fitch Ratings](https://www.bworldonline.com/banking-finance/2026/04/13/742192/middle-east-conflict-may-erode-philippine-banks-asset-quality-fitch-ratings) | BusinessWorld Banking
-
-### Credit tightening is emerging
-Regulatory and lending signals are pointing in the same direction: tighter credit discipline across the system.
-
-- [BSP stays cautious, sees policy tightening only if inflation broadens](https://business.inquirer.net/584572/bsp-stays-cautious-sees-policy-tightening-only-if-inflation-broadens) | Inquirer Business
-- [BSP shifts from 5-year loan cap to risk-based lending framework](https://mb.com.ph/article/10913232/business/banking-finance/bsp-shifts-from-5-year-loan-cap-to-risk-based-lending-framework) | Manila Bulletin Business
 
 ## Signals to watch
 
-- **Credit rules are moving onto the watchlist:** Loan rules and regulatory signals are putting credit discipline back on the banking desk's watchlist. [BSP bills fetch lower yields as demand surges](https://www.bworldonline.com/banking-finance/2026/04/13/742191/bsp-bills-fetch-lower-yields-as-demand-surges) | BusinessWorld Banking
+- **Credit rules are moving onto the watchlist:** Loan rules and regulatory signals are putting credit discipline back on the banking desk's watchlist. [OCBC sees BSP rate hike as surging consumer prices persist](https://mb.com.ph/article/10913999/business/the-economy/ocbc-sees-bsp-rate-hike-as-surging-consumer-prices-persist) | Manila Bulletin Business
 - **System liquidity is easing:** One liquidity and reserve signal is worth monitoring, but it needs confirmation before becoming a system read. [BOP posts US$2.3 billion deficit in February 2026; End-February GIR rise to US$113.3 billion[1]](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7850) | Bangko Sentral ng Pilipinas
+- **Digital competition is pulling at deposits:** One deposit-linked data point adds funding color, but it needs confirmation before carrying a theme. [Digital banks top Forbes ranking, but giants still most trusted](https://mb.com.ph/article/10914205/business/banking-finance/digital-banks-top-forbes-ranking-but-giants-still-most-trusted) | Manila Bulletin Business
+- **Risk is starting to surface:** Bad-loan and borrower-capacity signals suggest risk is beginning to surface beneath still-active lending. [BlackRock’s Asia private credit fund sees China borrower default](https://www.businesstimes.com.sg/companies-markets/banking-finance/blackrocks-asia-private-credit-fund-sees-china-borrower-default) | The Business Times Banking
+- **Loan growth is still carrying the system:** The cluster keeps loan growth in view, but the useful read is whether that growth is becoming harder for borrowers to carry. [Vena group gets P2.7-B loan for Ilocos Norte solar park](https://business.inquirer.net/585837/vena-group-gets-p2-7-b-loan-for-ilocos-norte-solar-park) | Inquirer Business
 - **Deposit signal:** One deposit-linked data point adds funding color, but it needs confirmation before carrying a theme. [FCDU loans increased by 2.9% to US$15.56 billion in Q4 2025](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7868) | Bangko Sentral ng Pilipinas
 
 ## Standalone signals
@@ -49,5 +25,5 @@ Regulatory and lending signals are pointing in the same direction: tighter credi
 
 ## Context watch
 
-- [Barclays sees BSP pause first, then hike as war risks linger](https://mb.com.ph/article/10913202/business/banking-finance/barclays-sees-bsp-pause-first-then-hike-as-war-risks-linger) | Manila Bulletin Business
+- [BSP welcomes Moody's favorable assessment of PH banking system, external sector](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7880) | Bangko Sentral ng Pilipinas
 - [BSP, pinagunahan ang ikalawang Iftar para palakasin ang kooperasyon sa Islamic finance](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7848) | Bangko Sentral ng Pilipinas

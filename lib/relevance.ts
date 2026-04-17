@@ -1,9 +1,18 @@
 import { relevanceConfigByBeat } from "../config/relevance.js";
+import {
+  evaluateAiTechRelevance,
+  summarizeAiTechClassification
+} from "./ai-tech-filter.js";
 import { classifyBankingStory } from "./banking.js";
 import {
   evaluateEnergyRelevance,
   summarizeEnergyClassification
 } from "./energy-filter.js";
+import {
+  classifyPropertyStory,
+  evaluatePropertyRelevance,
+  summarizePropertyClassification
+} from "./property-filter.js";
 import type { NormalizedStory, RelevanceResult, StoryDrop } from "./types.js";
 
 type RelevanceOptions = {
@@ -243,6 +252,14 @@ function isEnergyBeat(story: NormalizedStory): boolean {
   return story.beat === "ph_sea_energy";
 }
 
+function isAiTechBeat(story: NormalizedStory): boolean {
+  return story.beat === "ai_tech";
+}
+
+function isPropertyBeat(story: NormalizedStory): boolean {
+  return story.beat === "property_real_estate";
+}
+
 function hasMotoringLaunchSignal(text: string): boolean {
   return matchesAny(text, MOTORING_LAUNCH_TERMS);
 }
@@ -384,6 +401,16 @@ function getKeepSignalCategories(story: NormalizedStory): string[] {
     return categories;
   }
 
+  if (isPropertyBeat(story)) {
+    const classification = classifyPropertyStory(story);
+
+    if (!classification.passesInclusion || classification.hardExcluded) {
+      return categories;
+    }
+
+    return classification.inclusionMatches.map((match) => `property_${match.id}`);
+  }
+
   const isModelRelease =
     matchesKeepSignalCategory(combinedText, keepSignals.model_release) &&
     (matchesAny(combinedText, config.core_ai_keywords) ||
@@ -477,6 +504,17 @@ export function scoreStory(story: NormalizedStory): number {
     return classification.totalScore;
   }
 
+  if (isPropertyBeat(story)) {
+    const classification = classifyPropertyStory(story);
+    const axisScore = Object.values(classification.axisScores).reduce(
+      (total, score) => total + score,
+      0
+    );
+    const tierBoost = classification.importanceTier === "high" ? 3 : 0;
+
+    return axisScore + classification.materialitySignals.length + tierBoost;
+  }
+
   const coreScore =
     countMatches(title, config.core_ai_keywords) * 3 +
     countMatches(summary, config.core_ai_keywords) * 2;
@@ -552,6 +590,12 @@ function hasDirectBeatSignal(story: NormalizedStory): boolean {
   }
 
   if (!isMotoringBeat(story)) {
+    if (isPropertyBeat(story)) {
+      const classification = classifyPropertyStory(story);
+
+      return classification.passesInclusion && !classification.hardExcluded;
+    }
+
     return hasDirectAiSignal(story);
   }
 
@@ -581,6 +625,10 @@ export function isObviousJunk(story: NormalizedStory): boolean {
 
   if (isBankingBeat(story)) {
     return classifyBankingStory(story).hardExcluded;
+  }
+
+  if (isPropertyBeat(story)) {
+    return classifyPropertyStory(story).hardExcluded;
   }
 
   if (
@@ -653,6 +701,56 @@ export function evaluateStoryRelevance(story: NormalizedStory): {
   story?: NormalizedStory;
   drop?: StoryDrop;
 } {
+  if (isPropertyBeat(story)) {
+    const evaluation = evaluatePropertyRelevance(story);
+    const propertyFilter = summarizePropertyClassification(evaluation.classification);
+
+    if (evaluation.kept) {
+      return {
+        kept: true,
+        story: {
+          ...story,
+          property_filter: propertyFilter
+        }
+      };
+    }
+
+    return {
+      kept: false,
+      drop: evaluation.drop
+        ? {
+            ...evaluation.drop,
+            property_filter: propertyFilter
+          }
+        : undefined
+    };
+  }
+
+  if (isAiTechBeat(story)) {
+    const evaluation = evaluateAiTechRelevance(story);
+    const aiTechFilter = summarizeAiTechClassification(evaluation.classification);
+
+    if (evaluation.kept) {
+      return {
+        kept: true,
+        story: {
+          ...story,
+          ai_tech_filter: aiTechFilter
+        }
+      };
+    }
+
+    return {
+      kept: false,
+      drop: evaluation.drop
+        ? {
+            ...evaluation.drop,
+            ai_tech_filter: aiTechFilter
+          }
+        : undefined
+    };
+  }
+
   if (isEnergyBeat(story)) {
     const evaluation = evaluateEnergyRelevance(story);
     const energyFilter = summarizeEnergyClassification(evaluation.classification);

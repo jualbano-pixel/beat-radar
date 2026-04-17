@@ -1,111 +1,33 @@
-# Weekly Editorial Packet — AI / Tech
+# AI / Tech
 
-Week of 2026-04-06
+Week of 2026-04-13
 
-## What matters most
+## Core Signals
 
-### infrastructure execution gap
-- Why it matters: Multiple players are adding capability faster than they can secure capacity, coordination, or deployment discipline.
-- Pattern: Infrastructure is scaling faster than coordination.
-- Tension: ambition vs capacity
-- Supporting stories:
-- [Accelerating the next phase of AI](https://openai.com/index/accelerating-the-next-phase-ai) | OpenAI Blog | Shows where policy pressure is starting to change operating choices.
-- [Rockstar Games says hack will have ‘no impact’](https://www.theverge.com/games/910815/rockstar-games-says-hack-will-have-no-impact) | The Verge | Shows where strategy is running into execution reality.
-- [More Than Meets the Eye: NVIDIA RTX-Accelerated Computers Now Connect Directly to Apple Vision Pro](https://blogs.nvidia.com/blog/nvidia-cloudxr-apple-vision-pro) | NVIDIA Blog | Shows how regulation is starting to shape the playbook.
+- [Canva AI 2.0 brings agentic, automation features to power end-to-end design process](https://www.bworldonline.com/technology/2026/04/17/743632/canva-ai-2-0-brings-agentic-automation-features-to-power-end-to-end-design-process) | BusinessWorld AI/Tech | axis: labor_workflow_impact | geo: ph | tier: high
+- [ASEAN’s AI race will be won by data flows, not data centers](https://www.bworldonline.com/banking-finance/2026/04/17/743496/aseans-ai-race-will-be-won-by-data-flows-not-data-centers) | BusinessWorld AI/Tech | axis: policy_regulation | geo: ph | tier: high
 
-### enterprise adoption
-- Why it matters: Enterprise rollout is getting pushed into the market before demand, ROI, and operating confidence have fully settled.
-- Pattern: Enterprise positioning is getting pushed ahead of proven demand.
-- Tension: adoption vs proof
-- Supporting stories:
-- [How Autonomous AI Agents Become Secure by Design With NVIDIA OpenShell](https://blogs.nvidia.com/blog/secure-autonomous-ai-agents-openshell) | NVIDIA Blog | Shows where platform control is shifting into developer workflow.
-- [The next phase of enterprise AI](https://openai.com/index/next-phase-of-enterprise-ai) | OpenAI Blog | Marks a genuine change in direction, not another routine release.
-- [Codex now offers more flexible pricing for teams](https://openai.com/index/codex-flexible-pricing-for-teams) | OpenAI Blog | Makes the cost of scaling visible.
+## Interpretation Layer
 
-### models and platform releases
-- Why it matters: Launches are increasingly carrying platform consequences, not just product novelty, because they shape where developers and users spend time.
-- Pattern: Platform expansion is outrunning stable operating models.
-- Tension: momentum vs operating reality
-- Supporting stories:
-- [Anthropic’s Mythos Will Force a Cybersecurity Reckoning—Just Not the One You Think](https://www.wired.com/story/anthropics-mythos-will-force-a-cybersecurity-reckoning-just-not-the-one-you-think) | Wired | Shows where platform control is shifting into developer workflow.
-- [Build with Lyria 3, our newest music generation model](https://blog.google/innovation-and-ai/technology/developers-tools/lyria-3-developers) | Google AI Blog | Shows how the fight is moving into the tooling layer.
-- [Helping developers build safer AI experiences for teens](https://openai.com/index/teen-safety-policies-gpt-oss-safeguard) | OpenAI Blog | Shows how safety posture is becoming part of product strategy.
+- [Regulating AI in Asia Pacific: Can companies keep up?](https://e27.co/regulating-ai-in-asia-pacific-can-companies-keep-up-20250304) | e27 SEA Tech | axis: policy_regulation | geo: global | tier: high
+- [Why AI won’t replace developers — but CEOs must lead the transformation](https://e27.co/why-ai-wont-replace-developers-but-ceos-must-lead-the-transformation-20250727) | e27 SEA Tech | axis: distribution_integration | geo: global | tier: high
+- [The rise of logistics startups in Southeast Asia: How AI powers supply-chain revolution](https://e27.co/the-rise-of-logistics-startups-in-southeast-asia-20251107) | e27 SEA Tech | axis: enterprise_adoption | geo: sea | tier: high
+- [AI Pulse Exclusive: How Bonnie Factor is driving AI agent adoption in organisations](https://e27.co/ai-pulse-exclusive-how-bonnie-factor-is-driving-ai-agent-adoption-in-organisations-20260415) | e27 SEA Tech | axis: enterprise_adoption | geo: global | tier: high
+- [SFFPC and the AI industry](https://technology.inquirer.net/145774/sffpc-and-the-ai-industry) | Inquirer Tech | axis: enterprise_adoption | geo: ph | tier: high
+- [Most Singapore businesses use AI daily, but scaling it remains out of reach](https://e27.co/ai-automation-gap-20260415) | e27 SEA Tech | axis: enterprise_adoption | geo: sea | tier: medium
 
-### capital caution
-- Why it matters: Funding and pricing claims are worth tracking because they reveal where AI demand still looks less settled than the narrative suggests.
-- Pattern: Pricing and investment claims are running ahead of stable proof of demand.
-- Tension: investment vs demand
-- Supporting stories:
-- [Our latest investment in open source security for the AI era](https://blog.google/innovation-and-ai/technology/safety-security/ai-powered-open-source-security) | Google AI Blog | Shows where platform control is shifting into developer workflow.
-- [Anthropic temporarily banned OpenClaw’s creator from accessing Claude](https://techcrunch.com/2026/04/10/anthropic-temporarily-banned-openclaws-creator-from-accessing-claude) | TechCrunch | Makes the cost of scaling visible.
-- [Blowing Off Steam: How Power-Flexible AI Factories Can Stabilize the Global Energy Grid](https://blogs.nvidia.com/blog/power-flexible-ai-factories-energy-grid) | NVIDIA Blog | Makes the demand and pricing question harder to ignore.
+## Platform / Capability Watch
 
-### chatgpt cut
-- Why it matters: Vendors are pushing enterprise positioning before usage patterns, ROI, and buyer confidence have fully stabilized.
-- Pattern: Enterprise positioning is getting pushed ahead of proven demand.
-- Tension: adoption vs proof
-- Supporting stories:
-- [ChatGPT for customer success teams](https://openai.com/academy/customer-success) | OpenAI Blog | Shows how vendors are adjusting price and packaging to pull users deeper in.
-- [ChatGPT for operations teams](https://openai.com/academy/operations) | OpenAI Blog | Makes the monetization push easier to see.
-- [ChatGPT for marketing teams](https://openai.com/academy/marketing) | OpenAI Blog | Makes the demand and pricing question harder to ignore.
-
-## Structural shifts
-
-### policy and governance pressure
-- Editorial note: Governance pressure is becoming operational, with real consequences for rollout, compliance, and product posture.
-- Pattern: Policy is moving faster than operating clarity.
-- Tension: policy vs execution
-- Supporting stories:
-- [Efficiency at Scale: NVIDIA, Energy Leaders Accelerating Power‑Flexible AI Factories to Fortify the Grid](https://blogs.nvidia.com/blog/energy-efficiency-ai-factories-grid) | NVIDIA Blog | Shows where policy pressure is starting to change operating choices.
-- [Industrial policy for the Intelligence Age](https://openai.com/index/industrial-policy-for-the-intelligence-age) | OpenAI Blog | Shows how regulation is starting to shape the playbook.
-
-### supply chain strain
-- Editorial note: The growth story is now colliding with harder constraints in components, shipping, and delivery timelines.
-- Pattern: Supply constraints are starting to show through the growth narrative.
-- Tension: growth narrative vs operating strain
-- Supporting stories:
-- [Our response to the Axios developer tool compromise](https://openai.com/index/axios-developer-tool-compromise) | OpenAI Blog | Shows where supply strain is starting to hit the story.
-- [Trump officials may be encouraging banks to test Anthropic’s Mythos model](https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model) | TechCrunch | Makes the supply-side constraint harder to ignore.
-
-### ChatGPT for research
-- Editorial note: More than one company is running into the same constraint, which makes this more than a one-off.
-- Pattern: Platform expansion is outrunning stable operating models.
-- Tension: momentum vs operating reality
-- Supporting stories:
-- [ChatGPT for research](https://openai.com/academy/research) | OpenAI Blog | Gives the theme a concrete operating example.
-- [Research with ChatGPT](https://openai.com/academy/search-and-deep-research) | OpenAI Blog | Gives the theme a concrete operating example.
-
-## Watchlist
-
-### Signal: platform update cadence
-- Why to watch: Launches are increasingly carrying platform consequences, not just product novelty, because they shape where developers and users spend time.
-- The latest AI news we announced in March 2026 — Google AI Blog
-- Gives the theme a concrete operating example.
-
-### Signal: industry repositioning
-- Why to watch: These moves matter because they point to who is trying to lock up workflow, distribution, or strategic ground before the market settles.
-- OpenAI acquires TBPN — OpenAI Blog
-- Shows who is trying to lock up position before the market settles.
-
-### Signal: media and platform politics
-- Why to watch: More than one company is running into the same constraint, which makes this more than a one-off.
-- How 'Democracy Now!' Became the Blueprint for Indie Media — Wired
-- Gives the theme a concrete operating example.
-
-### Signal: AI safety governance
-- Why to watch: Safety work is becoming part of product posture and governance discipline rather than a separate reputational add-on.
-- Introducing the Child Safety Blueprint — OpenAI Blog
-- Early sign worth tracking if repeated.
-
-### Signal: emerging AI signal
-- Why to watch: More than one company is running into the same constraint, which makes this more than a one-off.
-- TechCrunch Mobility: Who is poaching all the self-driving vehicle talent? — TechCrunch
-- Gives the theme a concrete operating example.
-
-## What seems to be happening
-
-- Infrastructure is scaling faster than coordination.
-- Enterprise positioning is getting pushed ahead of proven demand.
-- Platform expansion is outrunning stable operating models.
-- Pricing and investment claims are running ahead of stable proof of demand.
-- Policy is moving faster than operating clarity.
+- [The architecture of atrophy: Why MS Copilot’s reliance on the LLM wrapper model led to its 2026 stagnation](https://e27.co/ms-copilot-2026-failure-analysis-ai-wrappers-20260413) | e27 SEA Tech | axis: enterprise_adoption | geo: global | tier: high
+- [Accelerating the cyber defense ecosystem that protects us all](https://openai.com/index/accelerating-cyber-defense-ecosystem) | OpenAI Blog | axis: distribution_integration | geo: global | tier: high
+- [Baskit raises US$4.4M to take Indonesia’s offline distribution playbook regional](https://e27.co/baskit-funding-20260415) | e27 SEA Tech | axis: policy_regulation | geo: sea | tier: high
+- [Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI](https://openai.com/index/cloudflare-openai-agent-cloud) | OpenAI Blog | axis: enterprise_adoption | geo: global | tier: high
+- [CyberAgent moves faster with ChatGPT Enterprise and Codex](https://openai.com/index/cyberagent) | OpenAI Blog | axis: enterprise_adoption | geo: global | tier: high
+- [The next phase of enterprise AI](https://openai.com/index/next-phase-of-enterprise-ai) | OpenAI Blog | axis: enterprise_adoption | geo: global | tier: high
+- [New ways to balance cost and reliability in the Gemini API](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference) | Google AI Blog | axis: distribution_integration | geo: global | tier: high
+- [Codex now offers more flexible pricing for teams](https://openai.com/index/codex-flexible-pricing-for-teams) | OpenAI Blog | axis: distribution_integration | geo: global | tier: high
+- [Gradient Labs gives every bank customer an AI account manager](https://openai.com/index/gradient-labs) | OpenAI Blog | axis: labor_workflow_impact | geo: global | tier: high
+- [Build with Veo 3.1 Lite, our most cost-effective video generation model](https://blog.google/innovation-and-ai/technology/ai/veo-3-1-lite) | Google AI Blog | axis: distribution_integration | geo: global | tier: high
+- [Accelerating the next phase of AI](https://openai.com/index/accelerating-the-next-phase-ai) | OpenAI Blog | axis: enterprise_adoption | geo: global | tier: high
+- [Build with Lyria 3, our newest music generation model](https://blog.google/innovation-and-ai/technology/developers-tools/lyria-3-developers) | Google AI Blog | axis: distribution_integration | geo: global | tier: high
+- [Trusted access for the next era of cyber defense](https://openai.com/index/scaling-trusted-access-for-cyber-defense) | OpenAI Blog | axis: policy_regulation | geo: global | tier: medium
