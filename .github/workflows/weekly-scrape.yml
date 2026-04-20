@@ -2,8 +2,14 @@ name: Weekly Editorial Scrape
 
 on:
   schedule:
-    # Monday 8:00 AM Asia/Manila is Monday 00:00 UTC.
-    - cron: "0 0 * * 1"
+    # Saturday 6:00 PM Asia/Manila: Banking
+    - cron: "0 10 * * 6"
+    # Sunday 12:00 AM Asia/Manila: AI/Tech + Energy
+    - cron: "0 16 * * 6"
+    # Sunday 6:00 PM Asia/Manila: Motoring
+    - cron: "0 10 * * 0"
+    # Wednesday 6:00 PM Asia/Manila: Property
+    - cron: "0 10 * * 3"
   workflow_dispatch:
 
 permissions:
@@ -26,10 +32,46 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run scraper
+      - name: Run scraper for Banking
+        if: github.event.schedule == '0 10 * * 6'
         run: npm run scraper
         env:
-          AI_TECH_TIME_MODE: current
+          BEAT: ph_sea_banking
+
+      - name: Run scraper for AI/Tech
+        if: github.event.schedule == '0 16 * * 6'
+        run: npm run scraper
+        env:
+          BEAT: ai_tech
+
+      - name: Run scraper for Energy
+        if: github.event.schedule == '0 16 * * 6'
+        run: npm run scraper
+        env:
+          BEAT: ph_sea_energy
+
+      - name: Run scraper for Motoring
+        if: github.event.schedule == '0 10 * * 0'
+        run: npm run scraper
+        env:
+          BEAT: philippine_motoring
+
+      - name: Run scraper for Property
+        if: github.event.schedule == '0 10 * * 3'
+        run: npm run scraper
+        env:
+          BEAT: property_real_estate
+
+      - name: Run scraper for all beats
+        if: github.event_name == 'workflow_dispatch'
+        run: npm run scraper
+
+      - name: Write run metadata
+        run: |
+          mkdir -p latest
+          generated_at_utc="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+          generated_at_manila="$(TZ=Asia/Manila date +"%Y-%m-%dT%H:%M:%S%z")"
+          printf '{\n  "generated_at_utc": "%s",\n  "generated_at_manila": "%s",\n  "workflow": "Weekly Editorial Scrape"\n}\n' "$generated_at_utc" "$generated_at_manila" > latest/run-metadata.json
 
       - name: Commit updated editorial outputs
         run: |
