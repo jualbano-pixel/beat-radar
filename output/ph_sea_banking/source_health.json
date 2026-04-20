@@ -10,22 +10,20 @@
     "beat": "ph_sea_banking",
     "url": "https://www.bworldonline.com/feed/",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   },
   {
     "source": "BusinessMirror Business",
-    "success": false,
-    "health": "failing",
-    "fetchedCount": 0,
-    "normalizedCount": 0,
-    "droppedCount": 0,
-    "keptCount": 0,
-    "error": "Status code 403",
-    "errorKind": "http_error",
+    "success": true,
+    "health": "healthy",
+    "fetchedCount": 30,
+    "normalizedCount": 30,
+    "droppedCount": 29,
+    "keptCount": 1,
     "beat": "ph_sea_banking",
     "url": "https://businessmirror.com.ph/business/feed/",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   },
   {
     "source": "Inquirer Business",
@@ -38,7 +36,7 @@
     "beat": "ph_sea_banking",
     "url": "https://business.inquirer.net/feed",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   },
   {
     "source": "Philstar Business",
@@ -46,12 +44,12 @@
     "health": "healthy",
     "fetchedCount": 20,
     "normalizedCount": 20,
-    "droppedCount": 18,
-    "keptCount": 2,
+    "droppedCount": 20,
+    "keptCount": 0,
     "beat": "ph_sea_banking",
     "url": "https://www.philstar.com/rss/business",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   },
   {
     "source": "Manila Bulletin Business",
@@ -59,12 +57,12 @@
     "health": "healthy",
     "fetchedCount": 50,
     "normalizedCount": 50,
-    "droppedCount": 47,
-    "keptCount": 3,
+    "droppedCount": 49,
+    "keptCount": 1,
     "beat": "ph_sea_banking",
     "url": "https://mb.com.ph/rss/business",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   },
   {
     "source": "Nikkei Asia Business",
@@ -77,20 +75,20 @@
     "beat": "ph_sea_banking",
     "url": "https://asia.nikkei.com/rss/feed/nar",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   },
   {
     "source": "The Business Times Banking",
     "success": true,
     "health": "healthy",
-    "fetchedCount": 44,
-    "normalizedCount": 44,
-    "droppedCount": 43,
+    "fetchedCount": 42,
+    "normalizedCount": 42,
+    "droppedCount": 41,
     "keptCount": 1,
     "beat": "ph_sea_banking",
     "url": "https://www.businesstimes.com.sg/rss/banking-finance",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   },
   {
     "source": "Jakarta Post Business",
@@ -105,7 +103,7 @@
     "beat": "ph_sea_banking",
     "url": "https://www.thejakartapost.com/rss/business.xml",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   },
   {
     "source": "VNExpress Business",
@@ -118,7 +116,7 @@
     "beat": "ph_sea_banking",
     "url": "https://e.vnexpress.net/rss/business.rss",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   },
   {
     "source": "Bangko Sentral ng Pilipinas",
@@ -126,12 +124,12 @@
     "health": "healthy",
     "fetchedCount": 30,
     "normalizedCount": 30,
-    "droppedCount": 26,
-    "keptCount": 4,
+    "droppedCount": 25,
+    "keptCount": 5,
     "beat": "ph_sea_banking",
     "url": "https://www.bsp.gov.ph/_layouts/15/listfeed.aspx?List=9b0a2117-49d8-4e96-80ba-8651a0e3e17a&View=8c968884-887d-4d63-8c00-ba05ea3c2d93",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   },
   {
     "source": "Department of Finance",
@@ -144,7 +142,7 @@
     "beat": "ph_sea_banking",
     "url": "https://www.dof.gov.ph/feed/",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   },
   {
     "source": "Development Bank of the Philippines",
@@ -157,7 +155,7 @@
     "beat": "ph_sea_banking",
     "url": "https://www.dbp.ph/feed/",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   },
   {
     "source": "Asian Development Bank",
@@ -170,6 +168,6 @@
     "beat": "ph_sea_banking",
     "url": "https://www.adb.org/rss/news",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   }
 ]

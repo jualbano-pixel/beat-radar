@@ -24,13 +24,13 @@ Week of 2026-04-20
 - Supporting stories:
 - [Metro Manila Office Report Q3 2025](https://santosknightfrank.com/wp-content/uploads/2025/11/MMOR-Q325-v2.pdf) | Santos Knight Frank Market Reports | Shows real property utilization through vacancy, rents, or leasing demand.
 - [Opportunities amid Volatility](https://santosknightfrank.com/wp-content/uploads/2025/08/SKF-1H-2025_Opportunities-Amid-Volatility-Final-Compressed.pdf) | Santos Knight Frank Market Reports | Keeps the office read tied to occupancy and tenant behavior.
-- [Energy crisis threatens Philippine office demand—Colliers](https://mb.com.ph/article/10914248/business/trade-industry/energy-crisis-threatens-philippine-office-demandcolliers) | Manila Bulletin Business Property | Shows real property utilization through vacancy, rents, or leasing demand.
 
 ### supply pipeline shift
 - Why it matters: Pipeline shifts matter because new supply can worsen imbalance if demand is not keeping up.
 - Pattern: Supply is becoming more uneven as construction, inventory, and geography matter more than headline expansion.
 - Tension: development pipeline vs market balance
 - Supporting stories:
+- [Witness says bulk of flood control funds went to corrupt officials](https://malaya.com.ph/news/national-news/witness-says-bulk-of-flood-control-funds-went-to-corrupt-officials) | Malaya Business Property | Shows whether the residential build pipeline is losing momentum.
 - [Singaporean firm eyes 250-MW Bataan solar park](https://business.inquirer.net/586122/singaporean-firm-eyes-250-mw-bataan-solar-park) | Inquirer Business Property | Adds a concrete read on Philippine property demand, supply, financing, or stress.
 
 ### price growth slowdown

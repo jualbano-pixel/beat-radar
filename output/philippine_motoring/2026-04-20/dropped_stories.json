@@ -1,5 +1,17 @@
 [
   {
+    "title": "Toyota might be lining up a triple-header at PIMS 2026 with the LC300 HEV, FJ, Hilux BEV",
+    "source": "TopGear Philippines",
+    "date": "2026-04-20T07:11:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "The all-new, fully electric Honda Insight has been launched in Japan",
+    "source": "TopGear Philippines",
+    "date": "2026-04-20T03:13:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
     "title": "Surprise! The new Mercedes-Benz C-Class will have a massive center screen",
     "source": "TopGear Philippines",
     "date": "2026-04-20T01:02:00.000Z",
@@ -105,12 +117,6 @@
     "title": "The new Nissan Kicks could make its PH debut with three variants",
     "source": "TopGear Philippines",
     "date": "2026-04-16T05:44:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "These watches prove that even new timepieces can get better with age",
-    "source": "TopGear Philippines",
-    "date": "2026-04-16T01:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
@@ -262,6 +268,174 @@
     "source": "CarGuide PH",
     "date": "2023-09-20T03:39:00.006Z",
     "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "Continental Tires raises the bar with ‘Total Confidence Plan’",
+    "source": "BusinessMirror Motoring",
+    "date": "2026-04-16T16:04:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "7 churches with the Suzuki Access",
+    "source": "BusinessMirror Motoring",
+    "date": "2026-04-09T16:01:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Isuzu at BIMS 2026: ‘The One & Only’ experience",
+    "source": "BusinessMirror Motoring",
+    "date": "2026-04-01T16:02:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Two ways to electrify the drive",
+    "source": "BusinessMirror Motoring",
+    "date": "2026-03-26T16:02:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Stunningly, good sales results in February; SMC rebates",
+    "source": "BusinessMirror Motoring",
+    "date": "2026-03-26T16:02:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Campi milestone award; momentous TGR blast-off",
+    "source": "BusinessMirror Motoring",
+    "date": "2026-03-19T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Denza rolls out in the Philippines, all-new D9 DM‑i leads the charge",
+    "source": "BusinessMirror Motoring",
+    "date": "2026-03-19T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Toyota Gazoo Racing roars off in Riverbank, Cavite",
+    "source": "BusinessMirror Motoring",
+    "date": "2026-03-12T16:01:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Celebrating 50 strong: Isuzu Mandaluyong joins IPC’s growing network",
+    "source": "BusinessMirror Motoring",
+    "date": "2026-03-12T16:01:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Power Tractire Inc. brings global tire brand Giti to the Philippines",
+    "source": "BusinessMirror Motoring",
+    "date": "2026-03-05T16:01:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Dip in sales nothing to worry about; Xpander No. 1",
+    "source": "BusinessMirror Motoring",
+    "date": "2026-03-05T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Honda unveils new CR-V lineup and City 30th Anniversary Pearl Edition",
+    "source": "BusinessMirror Motoring",
+    "date": "2026-02-26T16:01:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Edsa rehab long overdue; Mitsubishi’s gratitude pitch",
+    "source": "BusinessMirror Motoring",
+    "date": "2026-02-26T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "P43 billion in taxes surely warms the heart",
+    "source": "BusinessMirror Motoring",
+    "date": "2026-02-19T16:01:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Deepal Philippines teases the upcoming REEV trio",
+    "source": "BusinessMirror Motoring",
+    "date": "2026-02-12T16:04:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "OUTLOOK | Holding steady: PHL auto industry’s electrification, new leadership shape sector",
+    "source": "BusinessMirror Motoring",
+    "date": "2026-02-08T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Campi, Mitsubishi & Toyota welcome gov’t reassurance",
+    "source": "BusinessMirror Motoring",
+    "date": "2026-02-05T16:03:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "‘Japan’s Mitsubishi commits to hike investments in PHL’",
+    "source": "BusinessMirror Motoring",
+    "date": "2026-02-02T13:50:03.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "GWM in Baoding: The Haval H9 supreme ride and drive experience",
+    "source": "BusinessMirror Motoring",
+    "date": "2026-01-29T16:02:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Target missed but positive growth still; correct Volvo discounts",
+    "source": "BusinessMirror Motoring",
+    "date": "2026-01-29T16:01:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "BYD sales surges in 2025, scales up local operations",
+    "source": "BusinessMirror Motoring",
+    "date": "2026-01-23T15:25:10.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "All-new Kia Seltos makes global debut",
+    "source": "BusinessMirror Motoring",
+    "date": "2026-01-15T16:04:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "CARS, RACE & EVIS growth instruments–Atienza",
+    "source": "BusinessMirror Motoring",
+    "date": "2026-02-12T16:03:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "The Continental UltraContact UX7 SUV-specific tires have arrived",
+    "source": "BusinessMirror Motoring",
+    "date": "2026-02-05T16:04:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "MOS is Geely Philippines’ new dealership partner; Autohub is looking to further expand network",
+    "source": "BusinessMirror Motoring",
+    "date": "2026-01-22T16:03:00.000Z",
+    "reason_dropped": "dropped_time_mode"
+  },
+  {
+    "title": "DOE ‘open’ to lifting ban on new coal plants",
+    "source": "Inquirer Business",
+    "date": "2026-04-20T14:56:29.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Ayala Land pauses Laurean Residences sales amid global risks",
+    "source": "Inquirer Business",
+    "date": "2026-04-20T13:07:25.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "BPI posts modest Q1 profit rise to P16.9B",
+    "source": "Inquirer Business",
+    "date": "2026-04-20T12:03:05.000Z",
+    "reason_dropped": "low_relevance"
   },
   {
     "title": "‘Poison pills’ deepen Lopez row",
@@ -432,33 +606,21 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "P25-B BDO backing hinges on ‘Piki’ staying in control, says First Gen",
-    "source": "Inquirer Business",
-    "date": "2026-04-17T12:28:41.000Z",
+    "title": "Government Service Express now serving you at SM City Caloocan",
+    "source": "Philstar Business",
+    "date": "2026-04-20T04:10:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Uniqlo opens largest Southeast Asia logistics hub in Cavite",
-    "source": "Inquirer Business",
-    "date": "2026-04-17T12:17:53.000Z",
+    "title": "'Unli Apps' highlights Smart's latest postpaid plans",
+    "source": "Philstar Business",
+    "date": "2026-04-20T03:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "No price hikes for basic goods until May 10 — DTI",
-    "source": "Inquirer Business",
-    "date": "2026-04-17T10:04:34.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Chinabank declares P7.5B cash dividends on strong 2025 earnings",
-    "source": "Inquirer Business",
-    "date": "2026-04-17T09:48:46.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Vena group gets P2.7-B loan for Ilocos Norte solar park",
-    "source": "Inquirer Business",
-    "date": "2026-04-17T08:51:16.000Z",
+    "title": "Globe Business empowers Philippine enterprises with context-rich, real-time AI through new managed data streaming platform",
+    "source": "Philstar Business",
+    "date": "2026-04-20T01:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
@@ -553,24 +715,6 @@
   },
   {
     "title": "A sensitive matter",
-    "source": "Philstar Business",
-    "date": "2026-04-18T16:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Home Credit joins LenderLink’s network to expand credit access",
-    "source": "Philstar Business",
-    "date": "2026-04-18T16:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Singapore firm gets P2.7 billion loan for solar expansion",
-    "source": "Philstar Business",
-    "date": "2026-04-18T16:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "The compounding cost of crisis: Rising subsidies and impending blackouts in off-grid Philippines",
     "source": "Philstar Business",
     "date": "2026-04-18T16:00:00.000Z",
     "reason_dropped": "low_relevance"

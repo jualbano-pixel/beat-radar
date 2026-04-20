@@ -1,42 +1,41 @@
 [
   {
-    "theme_id": "capital_caution",
-    "theme_label": "capital caution",
-    "theme_summary": "capital caution is the shared editorial thread across 2 related stories. The strongest signal is developer workflow changing.",
+    "theme_id": "policy_governance",
+    "theme_label": "policy and governance pressure",
+    "theme_summary": "policy and governance pressure is the shared editorial thread across 2 related stories. The strongest signal is safety pressure building.",
     "story_count": 2,
     "cluster_ids": [],
     "story_ids": [
-      "8cb3a93caba2",
-      "89eec0e51570"
+      "8bc925e00c50",
+      "f046c169f435"
     ],
     "associated_stories": [
       {
-        "id": "8cb3a93caba2",
-        "title": "PRA backs easing of foreign ownership limits",
-        "url": "https://business.inquirer.net/586121/pra-backs-easing-of-foreign-ownership-limits",
-        "source": "Inquirer Business Property",
-        "published_at": "2026-04-20T02:04:00.000Z"
+        "id": "8bc925e00c50",
+        "title": "Opportunities amid Volatility",
+        "url": "https://santosknightfrank.com/wp-content/uploads/2025/08/SKF-1H-2025_Opportunities-Amid-Volatility-Final-Compressed.pdf",
+        "source": "Santos Knight Frank Market Reports",
+        "published_at": "2025-08-21T01:49:24.000Z"
       },
       {
-        "id": "89eec0e51570",
-        "title": "Energy crisis threatens Philippine office demand—Colliers",
-        "url": "https://mb.com.ph/article/10914248/business/trade-industry/energy-crisis-threatens-philippine-office-demandcolliers",
-        "source": "Manila Bulletin Business Property",
-        "published_at": "2026-04-17T05:22:00.000Z"
+        "id": "f046c169f435",
+        "title": "Witness says bulk of flood control funds went to corrupt officials",
+        "url": "https://malaya.com.ph/news/national-news/witness-says-bulk-of-flood-control-funds-went-to-corrupt-officials",
+        "source": "Malaya Business Property",
+        "published_at": "2026-04-20T08:43:12.000Z"
       }
     ],
     "dominant_reason_codes": [
-      "local_business_relevance",
       "policy_regulatory_move"
     ],
     "dominant_angle_signals": [
-      "developer workflow changing",
-      "investment caution showing",
-      "transition friction emerging"
+      "safety pressure building",
+      "supply risk rising",
+      "local operators exposed"
     ],
     "top_story_refs": [
-      "8cb3a93caba2",
-      "89eec0e51570"
+      "8bc925e00c50",
+      "f046c169f435"
     ]
   }
 ]

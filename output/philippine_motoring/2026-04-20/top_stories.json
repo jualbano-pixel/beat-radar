@@ -1,6 +1,21 @@
 {
   "top_stories": [
     {
+      "title": "Euro Motor celebrates 20th anniversary at Makina Moto Expo 2026",
+      "source": "BusinessMirror Motoring",
+      "date": "2026-04-17T05:36:37.000Z",
+      "summary": "PASAY CITY, Philippines — Euro Motor, a pioneer in providing accessible and dependable mobility for Filipinos, marked a historic milestone at the Makina Moto Expo 2026. The event served as the brand’s official debut at the prestigious expo, coinciding with its 20th anniversary of operations in the Philippines.",
+      "tags": [
+        "product_market_signal"
+      ],
+      "priority_score": 4.9,
+      "priority_reasons": [
+        "policy_shift",
+        "practical_usability_impact"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
       "title": "Mitsubishi PH updates Triton with blacked-out styling for 2026",
       "source": "TopGear Philippines",
       "date": "2026-04-17T02:35:00.000Z",
@@ -84,11 +99,78 @@
         "ownership_cost",
         "ev_transition_gap"
       ],
-      "priority_score": 1.4,
+      "priority_score": 1.2,
       "priority_reasons": [
         "practical_usability_impact"
       ],
       "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Gov’t gains power to cap fuel hikes, enforce minimum price cuts",
+      "source": "Inquirer Business",
+      "date": "2026-04-20T14:16:00.000Z",
+      "summary": "MANILA, Philippines – The government can now limit fuel price hikes or set a minimum rollback on pump prices, as the global market continues to face uncertainties amid the war in the Middle East. In a media briefing Monday, Energy Secretary Sharon Garin said the state of national energy emergency declared by Preside...",
+      "tags": [
+        "pricing_pressure",
+        "ownership_cost",
+        "product_market_signal"
+      ],
+      "priority_score": 0.8,
+      "priority_reasons": [
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    }
+  ],
+  "secondary_signals": [
+    {
+      "title": "Philippines posted wider BOP deficit in March amid oil price surge",
+      "source": "Inquirer Business",
+      "date": "2026-04-20T13:53:50.000Z",
+      "summary": "MANILA, Philippines – The Philippines recorded a wider balance of payments deficit in March as tensions in the Middle East weakened the peso and drove up the energy import bill for oil-dependent economies. READ: /ph-bop-deficit-widened-to-10-month-high-in-february The Philippines registered a BOP deficit of $2.6 bil...",
+      "tags": [
+        "pricing_pressure",
+        "supply_availability",
+        "product_market_signal"
+      ],
+      "priority_score": 0.8,
+      "priority_reasons": [
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Philippine car sales fell 9.8% in Q1",
+      "source": "Inquirer Business",
+      "date": "2026-04-20T12:52:26.000Z",
+      "summary": "MANILA, Philippines – Surging electric vehicle (EV) sales failed to lift total automotive sales in the Philippines in the first quarter, as the industry felt the spillover effects of the global oil supply crunch that has sent pump prices soaring since the Middle East war broke out in February. A total of 105,642 car...",
+      "tags": [
+        "pricing_pressure",
+        "ev_transition_gap",
+        "supply_availability",
+        "consumer_demand_shift",
+        "product_market_signal"
+      ],
+      "priority_score": 0.8,
+      "priority_reasons": [
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Diesel prices to drop by nearly P25/liter on April 21",
+      "source": "Inquirer Business",
+      "date": "2026-04-20T11:59:44.000Z",
+      "summary": "MANILA, Philippines – Starting April 21, motorists will see another jumbo, double-digit rollback for diesel of nearly P25 a liter. In an advisory Monday, Shell Pilipinas said its diesel prices would decrease by P24.94 a liter. READ:marcos-big-price-rollback-for-diesel-at-p24-94-per-liter Once imposed on Tuesday, the...",
+      "tags": [
+        "pricing_pressure",
+        "product_market_signal"
+      ],
+      "priority_score": 0.8,
+      "priority_reasons": [
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful supporting editorial signal."
     },
     {
       "title": "Addressing the traffic crisis . . . decisively and sustainably",
@@ -102,7 +184,7 @@
       "priority_reasons": [
         "editorial_source_confirmation"
       ],
-      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+      "note": "Useful supporting editorial signal."
     },
     {
       "title": "Price Tracker: Oil, fuel monitor for Apr. 20",
@@ -117,54 +199,43 @@
       "priority_reasons": [
         "editorial_source_confirmation"
       ],
-      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
-    }
-  ],
-  "secondary_signals": [
-    {
-      "title": "Biggest diesel price cut of up to P26.50/liter possible on April 21",
-      "source": "Inquirer Business",
-      "date": "2026-04-18T11:30:37.000Z",
-      "summary": "MANILA, Philippines — Motorists may get further relief from high pump prices next week, with the latest estimates showing a rollback of up to P26.50 per liter for diesel. Based on the full average of trading in the Mean of Platts Singapore as well as foreign exchange rates, an industry source said on Saturday that",
-      "tags": [
-        "pricing_pressure",
-        "product_market_signal"
-      ],
-      "priority_score": 0.8,
-      "priority_reasons": [
-        "editorial_source_confirmation"
-      ],
       "note": "Useful supporting editorial signal."
     },
     {
-      "title": "Fossil fuel-based power output boosted amid Luzon supply alert",
-      "source": "Inquirer Business",
-      "date": "2026-04-18T10:59:20.000Z",
-      "summary": "MANILA, Philippines — The Philippines turned to power plants that run on natural gas, oil and coal to shore up electricity supply after three big producers suffered outages, triggering a yellow alert in the Luzon grid for the first time this year, according to government data. A yellow alert is declared when the ope...",
+      "title": "Can my EV overheat in summer?",
+      "source": "TopGear Philippines",
+      "date": "2026-04-20T05:34:00.000Z",
+      "summary": "Make sure you’re prepared for the summer heat",
       "tags": [
-        "ownership_cost",
-        "supply_availability",
-        "product_market_signal"
+        "ev_transition_gap"
       ],
-      "priority_score": 0.8,
-      "priority_reasons": [
-        "editorial_source_confirmation"
-      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
       "note": "Useful supporting editorial signal."
     },
     {
-      "title": "Another double-digit drop seen for diesel prices",
-      "source": "Inquirer Business",
-      "date": "2026-04-18T05:36:00.000Z",
-      "summary": "MANILA, Philippines — Another double-digit rollback for diesel, potentially dropping its prices to below P130 per liter, could greet motorists next week as the ceasefire in the Middle East continues to hold. If implemented, this would mark diesel’s second price cut for 2026. The global oil market shrugged off renewe...",
+      "title": "PH car sales report: 105,642 vehicles sold in 2026 so far; VinFast tops BEV sales",
+      "source": "TopGear Philippines",
+      "date": "2026-04-20T04:32:00.000Z",
+      "summary": "Jetour is the top PHEV brand while Toyota dominates HEV sales",
+      "tags": [
+        "consumer_demand_shift"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "PH fuel price update: Rollback of P24.94/L for diesel, P3.41/L for gas effective April 21",
+      "source": "TopGear Philippines",
+      "date": "2026-04-20T02:00:00.000Z",
+      "summary": "More major price rollbacks this week",
       "tags": [
         "pricing_pressure",
-        "product_market_signal"
+        "ownership_cost"
       ],
-      "priority_score": 0.8,
-      "priority_reasons": [
-        "editorial_source_confirmation"
-      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
       "note": "Useful supporting editorial signal."
     },
     {
@@ -237,42 +308,10 @@
       "note": "Useful supporting editorial signal."
     },
     {
-      "title": "DTI rolls out P2-B loan for for transport operators’ EV purchases",
+      "title": "Biggest diesel price cut of up to P26.50/liter possible on April 21",
       "source": "Inquirer Business",
-      "date": "2026-04-17T13:24:53.000Z",
-      "summary": "MANILA, Philippines — The Department of Trade and Industry (DTI) has set up a new P2-billion financing program to support licensed small transport operators and drivers looking to transition to electric vehicles from ones with internal combustion engines. READ: Philippine-made electric vehicles coming soon Through i...",
-      "tags": [
-        "pricing_pressure",
-        "ev_transition_gap",
-        "product_market_signal"
-      ],
-      "priority_score": 0.6,
-      "priority_reasons": [
-        "editorial_source_confirmation"
-      ],
-      "note": "Useful supporting editorial signal."
-    },
-    {
-      "title": "Toll fees waived for DA-listed trucks with agri cargo",
-      "source": "Inquirer Business",
-      "date": "2026-04-17T11:00:30.000Z",
-      "summary": "MANILA, Philippines — Tollway operators have waived toll fees for trucks carrying agricultural products for one month starting April 20, a move that could help temper food prices, the Department of Agriculture (DA) said. Based on the agency’s estimates, transport expenses can add between P2 and P5 per kilogram to re...",
-      "tags": [
-        "pricing_pressure",
-        "motoring_infrastructure",
-        "product_market_signal"
-      ],
-      "priority_score": 0.6,
-      "priority_reasons": [
-        "editorial_source_confirmation"
-      ],
-      "note": "Useful supporting editorial signal."
-    },
-    {
-      "title": "Diesel, gasoline prices seen sliding some more",
-      "source": "Inquirer Business",
-      "date": "2026-04-17T10:24:18.000Z",
-      "summary": "MANILA, Philippines — Another round of price rollbacks for diesel and gasoline is expected next week, by as much as P19 per liter, amid hopes that the war in the Middle East is easing. READ: US-Iran talks: What prevented a deal and what’s next? Based on the first four trading sessions and foreign exchange rate",
+      "date": "2026-04-18T11:30:37.000Z",
+      "summary": "MANILA, Philippines — Motorists may get further relief from high pump prices next week, with the latest estimates showing a rollback of up to P26.50 per liter for diesel. Based on the full average of trading in the Mean of Platts Singapore as well as foreign exchange rates, an industry source said on Saturday that",
       "tags": [
         "pricing_pressure",
         "product_market_signal"
@@ -284,53 +323,19 @@
       "note": "Useful supporting editorial signal."
     },
     {
-      "title": "The Suzuki e-Vitara may enter PH with less range than its Toyota twin",
-      "source": "TopGear Philippines",
-      "date": "2026-04-17T04:48:00.000Z",
-      "summary": "According to the LTO, at least",
+      "title": "Fossil fuel-based power output boosted amid Luzon supply alert",
+      "source": "Inquirer Business",
+      "date": "2026-04-18T10:59:20.000Z",
+      "summary": "MANILA, Philippines — The Philippines turned to power plants that run on natural gas, oil and coal to shore up electricity supply after three big producers suffered outages, triggering a yellow alert in the Luzon grid for the first time this year, according to government data. A yellow alert is declared when the ope...",
       "tags": [
-        "ev_transition_gap",
-        "regulation_enforcement"
+        "ownership_cost",
+        "supply_availability",
+        "product_market_signal"
       ],
-      "priority_score": 0.4,
-      "priority_reasons": [],
-      "note": "Useful supporting editorial signal."
-    },
-    {
-      "title": "Ford PH’s April promo slashes P500k off the Mustang Mach-E",
-      "source": "TopGear Philippines",
-      "date": "2026-04-16T06:01:00.000Z",
-      "summary": "It also has discounts on the Territory Hybrid, Everest, Explorer, and Ranger",
-      "tags": [
-        "ev_transition_gap"
+      "priority_score": 0.6,
+      "priority_reasons": [
+        "editorial_source_confirmation"
       ],
-      "priority_score": 0.4,
-      "priority_reasons": [],
-      "note": "Useful supporting editorial signal."
-    },
-    {
-      "title": "You can now buy a rebuilt AE86 Levin from Tom’s; prices start at P6.24-M",
-      "source": "TopGear Philippines",
-      "date": "2026-04-16T04:43:00.000Z",
-      "summary": "If you already have an AE86 unit, Tom’s will restore it for at least P4.98-M",
-      "tags": [
-        "pricing_pressure"
-      ],
-      "priority_score": 0.4,
-      "priority_reasons": [],
-      "note": "Useful supporting editorial signal."
-    },
-    {
-      "title": "Spec-sheet brawl: Geely EX5 EM-i Max vs. BYD Sealion 6 DM-i",
-      "source": "TopGear Philippines",
-      "date": "2026-04-16T03:40:00.000Z",
-      "summary": "We pit one of the latest plug-in hybrid crossovers against the segment leader",
-      "tags": [
-        "ev_transition_gap",
-        "consumer_demand_shift"
-      ],
-      "priority_score": 0.4,
-      "priority_reasons": [],
       "note": "Useful supporting editorial signal."
     }
   ]

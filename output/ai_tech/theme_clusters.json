@@ -2,14 +2,15 @@
   {
     "theme_id": "models_platforms",
     "theme_label": "models and platform releases",
-    "theme_summary": "models and platform releases is the shared editorial thread across 7 related stories. The strongest signal is developer workflow changing.",
-    "story_count": 7,
+    "theme_summary": "models and platform releases is the shared editorial thread across 8 related stories. The strongest signal is enterprise adoption pressure rising.",
+    "story_count": 8,
     "cluster_ids": [
       "event_001"
     ],
     "story_ids": [
       "23624d66f30a",
       "17bf9cbe1f8c",
+      "45c4d0ce4fa0",
       "315a97cc3470",
       "65ce2acf4ded",
       "a0904673d8e8",
@@ -17,6 +18,13 @@
       "44069ef88222"
     ],
     "associated_stories": [
+      {
+        "id": "45c4d0ce4fa0",
+        "title": "How to choose a mobile data bundle",
+        "url": "https://technology.inquirer.net/146178/how-to-choose-a-mobile-data-bundle",
+        "source": "Inquirer Tech",
+        "published_at": "2026-04-20T12:52:29.000Z"
+      },
       {
         "id": "65ce2acf4ded",
         "title": "The architecture of atrophy: Why MS Copilot’s reliance on the LLM wrapper model led to its 2026 stagnation",
@@ -69,47 +77,46 @@
     ],
     "dominant_reason_codes": [
       "policy_regulatory_move",
-      "execution_consequence",
-      "local_business_relevance"
+      "meaningful_shift",
+      "execution_consequence"
     ],
     "dominant_angle_signals": [
-      "developer workflow changing",
       "enterprise adoption pressure rising",
+      "developer workflow changing",
       "infrastructure lag visible"
     ],
     "top_story_refs": [
+      "45c4d0ce4fa0",
       "65ce2acf4ded",
-      "23624d66f30a",
-      "44069ef88222"
+      "23624d66f30a"
     ]
   },
   {
     "theme_id": "enterprise_adoption",
     "theme_label": "enterprise adoption",
-    "theme_summary": "enterprise adoption is the shared editorial thread across 5 related stories. The strongest signal is enterprise adoption pressure rising.",
-    "story_count": 5,
+    "theme_summary": "enterprise adoption is the shared editorial thread across 4 related stories. The strongest signal is enterprise adoption pressure rising.",
+    "story_count": 4,
     "cluster_ids": [],
     "story_ids": [
       "5ecfa690f328",
-      "d7cc70416656",
       "95384e9055c3",
       "7bcd68b5d5cb",
       "22c2ff8bad8c"
     ],
     "associated_stories": [
       {
-        "id": "22c2ff8bad8c",
-        "title": "Codex now offers more flexible pricing for teams",
-        "url": "https://openai.com/index/codex-flexible-pricing-for-teams",
-        "source": "OpenAI Blog",
-        "published_at": "2026-04-02T10:00:00.000Z"
-      },
-      {
         "id": "7bcd68b5d5cb",
         "title": "The next phase of enterprise AI",
         "url": "https://openai.com/index/next-phase-of-enterprise-ai",
         "source": "OpenAI Blog",
         "published_at": "2026-04-08T14:00:00.000Z"
+      },
+      {
+        "id": "22c2ff8bad8c",
+        "title": "Codex now offers more flexible pricing for teams",
+        "url": "https://openai.com/index/codex-flexible-pricing-for-teams",
+        "source": "OpenAI Blog",
+        "published_at": "2026-04-02T10:00:00.000Z"
       },
       {
         "id": "95384e9055c3",
@@ -124,19 +131,12 @@
         "url": "https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests",
         "source": "TechCrunch AI",
         "published_at": "2026-04-17T20:38:17.000Z"
-      },
-      {
-        "id": "d7cc70416656",
-        "title": "AI Pulse Exclusive: How Bonnie Factor is driving AI agent adoption in organisations",
-        "url": "https://e27.co/ai-pulse-exclusive-how-bonnie-factor-is-driving-ai-agent-adoption-in-organisations-20260415",
-        "source": "e27 SEA Tech",
-        "published_at": "2026-04-15T10:28:01.000Z"
       }
     ],
     "dominant_reason_codes": [
       "policy_regulatory_move",
-      "local_business_relevance",
-      "meaningful_shift"
+      "meaningful_shift",
+      "market_signal"
     ],
     "dominant_angle_signals": [
       "enterprise adoption pressure rising",
@@ -144,8 +144,8 @@
       "ongoing platform expansion"
     ],
     "top_story_refs": [
-      "22c2ff8bad8c",
       "7bcd68b5d5cb",
+      "22c2ff8bad8c",
       "95384e9055c3"
     ]
   },

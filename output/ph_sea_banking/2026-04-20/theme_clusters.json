@@ -1,43 +1,41 @@
 [
   {
-    "theme_id": "credit_tightening",
-    "theme_label": "Credit tightening is emerging",
-    "theme_summary": "Banks and regulators are giving more attention to loan terms, borrower capacity, and credit discipline than to simple volume growth.",
+    "theme_id": "funding_margin_pressure",
+    "theme_label": "Funding costs are pressing margins",
+    "theme_summary": "Funding pressure matters because higher cost of funds can squeeze margins and force banks to reprice risk.",
     "story_count": 2,
     "cluster_ids": [
       "banking_003"
     ],
     "story_ids": [
-      "7cdb689e20f1",
-      "bd51bb8f3fbe"
+      "898920fdf986",
+      "3da0884715fd"
     ],
     "associated_stories": [
       {
-        "id": "7cdb689e20f1",
-        "title": "Poll: BSP to kick off tightening cycle as high oil prices bite",
-        "url": "https://business.inquirer.net/586148/poll-bsp-to-kick-off-tightening-cycle-as-high-oil-prices-bite",
+        "id": "898920fdf986",
+        "title": "BPI posts modest Q1 profit rise to P16.9B",
+        "url": "https://business.inquirer.net/586173/bpi-posts-modest-q1-profit-rise-to-p16-9b",
         "source": "Inquirer Business",
-        "published_at": "2026-04-20T02:09:00.000Z"
+        "published_at": "2026-04-20T12:03:05.000Z"
       },
       {
-        "id": "bd51bb8f3fbe",
-        "title": "BSP plans stricter rules for banks in high-value payment system",
-        "url": "https://mb.com.ph/article/10914146/business/banking-finance/bsp-plans-stricter-rules-for-banks-in-high-value-payment-system",
-        "source": "Manila Bulletin Business",
-        "published_at": "2026-04-16T09:30:00.000Z"
+        "id": "3da0884715fd",
+        "title": "BDO conditions P25-B funding on Lopez leadership continuity",
+        "url": "https://business.inquirer.net/585949/bdo-conditions-p25-b-funding-on-lopez-leadership-continuity",
+        "source": "Inquirer Business",
+        "published_at": "2026-04-18T02:14:00.000Z"
       }
     ],
     "dominant_reason_codes": [
-      "policy_regulatory_move"
+      "market_signal"
     ],
     "dominant_angle_signals": [
-      "regulatory pressure shaping bank behavior",
-      "credit behavior tightening",
-      "risk repricing visible"
+      "market confidence still forming"
     ],
     "top_story_refs": [
-      "7cdb689e20f1",
-      "bd51bb8f3fbe"
+      "898920fdf986",
+      "3da0884715fd"
     ],
     "theme_type": "secondary"
   }

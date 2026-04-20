@@ -1,21 +1,6 @@
 {
   "top_stories": [
     {
-      "title": "Energy crisis threatens Philippine office demand—Colliers",
-      "source": "Manila Bulletin Business Property",
-      "date": "2026-04-17T05:22:00.000Z",
-      "summary": "Rising global energy prices driven by Middle East tensions are posing growing risks to the Philippine office real estate sector, as higher power costs threaten tenant demand, rental growth, and asset values, according to property consultancy Colliers. In an April 16 report, Colliers Philippines director Daniel Salap...",
-      "tags": [
-        "general_property_real_estate"
-      ],
-      "priority_score": 3.1,
-      "priority_reasons": [
-        "safety_or_governance",
-        "editorial_source_confirmation"
-      ],
-      "why_it_matters": "This matters because it affects how AI systems are governed, evaluated, or deployed responsibly. Those choices can shape the broader direction of the market."
-    },
-    {
       "title": "Opportunities amid Volatility",
       "source": "Santos Knight Frank Market Reports",
       "date": "2025-08-21T01:49:24.000Z",
@@ -41,6 +26,20 @@
       "priority_score": 1.8,
       "priority_reasons": [
         "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Witness says bulk of flood control funds went to corrupt officials",
+      "source": "Malaya Business Property",
+      "date": "2026-04-20T08:43:12.000Z",
+      "summary": "AN employee of a private construction firm presented by prosecutors on Monday in the malversation case against former senator Ramon “Bong” Revilla Jr. and former officials of the Department of Public Works and Highways (DPWH)-Bulacan First District Engineering Office (DEO) confirmed the bulk of public funds intended...",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 0.8,
+      "priority_reasons": [
         "editorial_source_confirmation"
       ],
       "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."

@@ -10,7 +10,7 @@
     "beat": "ph_sea_energy",
     "url": "https://www.bworldonline.com/feed/",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   },
   {
     "source": "Inquirer Business Energy",
@@ -18,27 +18,25 @@
     "health": "healthy",
     "fetchedCount": 40,
     "normalizedCount": 40,
-    "droppedCount": 33,
-    "keptCount": 7,
+    "droppedCount": 31,
+    "keptCount": 9,
     "beat": "ph_sea_energy",
     "url": "https://business.inquirer.net/feed",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   },
   {
     "source": "BusinessMirror Energy",
-    "success": false,
-    "health": "failing",
-    "fetchedCount": 0,
-    "normalizedCount": 0,
-    "droppedCount": 0,
-    "keptCount": 0,
-    "error": "Status code 403",
-    "errorKind": "http_error",
+    "success": true,
+    "health": "healthy",
+    "fetchedCount": 30,
+    "normalizedCount": 30,
+    "droppedCount": 27,
+    "keptCount": 3,
     "beat": "ph_sea_energy",
     "url": "https://businessmirror.com.ph/business/feed/",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   },
   {
     "source": "Philippine Star Business Energy",
@@ -46,12 +44,12 @@
     "health": "healthy",
     "fetchedCount": 20,
     "normalizedCount": 20,
-    "droppedCount": 16,
-    "keptCount": 4,
+    "droppedCount": 17,
+    "keptCount": 3,
     "beat": "ph_sea_energy",
     "url": "https://www.philstar.com/rss/business",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   },
   {
     "source": "Malaya Business",
@@ -59,12 +57,12 @@
     "health": "healthy",
     "fetchedCount": 10,
     "normalizedCount": 10,
-    "droppedCount": 7,
-    "keptCount": 3,
+    "droppedCount": 10,
+    "keptCount": 0,
     "beat": "ph_sea_energy",
     "url": "https://malaya.com.ph/feed/",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   },
   {
     "source": "BusinessWorld Energy",
@@ -77,6 +75,6 @@
     "beat": "ph_sea_energy",
     "url": "https://www.bworldonline.com/feed/",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   }
 ]

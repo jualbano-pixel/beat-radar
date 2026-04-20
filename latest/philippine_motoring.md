@@ -15,8 +15,9 @@ Week of 2026-04-20
 - Pattern: Vehicle and fuel costs are pressing harder against household purchasing power.
 - Tension: affordability vs aspiration
 - Supporting stories:
-- [Another double-digit drop seen for diesel prices](https://business.inquirer.net/586026/another-double-digit-drop-seen-for-diesel-prices) | Inquirer Business | Makes fuel-price pressure part of the buyer and operator story.
-- [Biggest diesel price cut of up to P26.50/liter possible on April 21](https://business.inquirer.net/586057/biggest-diesel-price-cut-of-up-to-p26-50-liter-possible-on-april-21) | Inquirer Business | Shows how pump-price swings can quickly change household and fleet costs.
+- [Gov’t gains power to cap fuel hikes, enforce minimum price cuts](https://business.inquirer.net/586199/govt-gains-power-to-cap-fuel-hikes-enforce-minimum-price-cuts) | Inquirer Business | Makes fuel-price pressure part of the buyer and operator story.
+- [Another double-digit drop seen for diesel prices](https://business.inquirer.net/586026/another-double-digit-drop-seen-for-diesel-prices) | Inquirer Business | Shows how pump-price swings can quickly change household and fleet costs.
+- [Biggest diesel price cut of up to P26.50/liter possible on April 21](https://business.inquirer.net/586057/biggest-diesel-price-cut-of-up-to-p26-50-liter-possible-on-april-21) | Inquirer Business | Makes the affordability test visible, not just the launch claim.
 
 ### EV transition gap
 - Why it matters: EV and hybrid momentum matters only if charging access, pricing, and everyday use can catch up.
@@ -24,8 +25,8 @@ Week of 2026-04-20
 - Tension: adoption vs infrastructure
 - Supporting stories:
 - [DTI rolls out P2-B loan for for transport operators’ EV purchases](https://business.inquirer.net/585891/dti-rolls-out-p2-b-loan-for-for-transport-operators-ev-purchases) | Inquirer Business | Shows where road rules are starting to meet actual driver behavior.
+- [Philippine car sales fell 9.8% in Q1](https://business.inquirer.net/586179/philippine-car-sales-fell-9-8-in-q1) | Inquirer Business | Makes fuel-price pressure part of the buyer and operator story.
 - [GAC GS8 hybrid introduced, P2.338M](https://www.bworldonline.com/velocity/2026/04/20/743813/gac-gs8-hybrid-introduced-p2-338m) | BusinessWorld Online | Makes the affordability test visible, not just the launch claim.
-- [Previewed: BYD Sealion 7 and BYD Atto 2 EV](https://www.bworldonline.com/velocity/2026/04/20/743819/previewed-byd-sealion-7-and-byd-atto-2-ev) | BusinessWorld Online | Shows how electrified models are being pushed into a still-cost-sensitive market.
 
 ### ownership cost reality
 - Why it matters: The useful signal is not just what vehicles cost to buy, but what they cost to keep, fuel, register, and use.
@@ -41,9 +42,8 @@ Week of 2026-04-20
 - Pattern: Mobility demand is running into road, charging, and transport capacity limits.
 - Tension: usage vs capacity
 - Supporting stories:
-- [Toll fees waived for DA-listed trucks with agri cargo](https://business.inquirer.net/585849/toll-fees-waived-for-da-listed-trucks-with-agri-cargo) | Inquirer Business | Makes the affordability test visible, not just the launch claim.
 - [Addressing the traffic crisis . . . decisively and sustainably](https://business.inquirer.net/586131/addressing-the-traffic-crisis-decisively-and-sustainably) | Inquirer Business | Shows how electrified models are being pushed into a still-cost-sensitive market.
-- [Premium off-road sub-marque to make inroads](https://www.bworldonline.com/velocity/2026/04/20/743820/premium-off-road-sub-marque-to-make-inroads) | BusinessWorld Online | Keeps the EV transition tied to price, range, and everyday usability.
+- [Airport improvement continues; electrified Toyota](https://businessmirror.com.ph/2026/04/02/airport-improvement-continues-electrified-toyota) | BusinessMirror Motoring | Keeps the EV transition tied to price, range, and everyday usability.
 
 ### consumer demand shift
 - Why it matters: These stories show where manufacturers think Filipino buyers will compromise, stretch, or walk away.
@@ -51,6 +51,7 @@ Week of 2026-04-20
 - Tension: aspiration vs affordability
 - Supporting stories:
 - [Family SUV, small sedan unveiled by Changan](https://www.bworldonline.com/velocity/2026/04/20/743815/family-suv-small-sedan-unveiled-by-changan) | BusinessWorld Online | Shows how electrified models are being pushed into a still-cost-sensitive market.
+- [PH car sales report: 105,642 vehicles sold in 2026 so far; VinFast tops BEV sales](https://www.topgear.com.ph/news/industry-news/ph-car-sales-q1-2026-a5361-20260420) | TopGear Philippines | Keeps the EV transition tied to price, range, and everyday usability.
 
 ## Structural shifts
 

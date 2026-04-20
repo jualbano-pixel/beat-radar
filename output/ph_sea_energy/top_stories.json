@@ -96,10 +96,10 @@
       "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the ecosystem, such as enterprises, developers, platforms, users, or regulators. It has practical consequences beyond a narrow technical audience."
     },
     {
-      "title": "CRACKDOWN ON STATIONS CHARGING UNJUSTIFIED FUEL PRICES URGED",
-      "source": "Malaya Business",
-      "date": "2026-04-19T16:38:00.000Z",
-      "summary": "HOUSE Minority Leader Libanan on Sunday urged the Departments of Energy and Justice to crack down on gasoline stations charging exorbitant fuel price increases in the face of the oil crisis caused by the Middle East conflict. Libanan said that while the country’s oil industry is deregulated, the DOE and the DOJ stil...",
+      "title": "Pausing tax on petrol products get lawmakers’ backing",
+      "source": "BusinessMirror Energy",
+      "date": "2026-04-19T16:05:00.000Z",
+      "summary": "A lawmaker is backing a proposal in the 13-committee House mega panel that would directly translate into immediate financial relief for millions of Filipinos by suspending the 12 percent value-added tax (VAT) on petroleum products for two months, a measure he said would quickly ease the impact of soaring fuel prices...",
       "tags": [
         "general_ph_sea_energy"
       ],
@@ -223,20 +223,6 @@
       "note": "Useful because it affects more than one important audience or buyer group."
     },
     {
-      "title": "Meralco customers to get P19.96B refund – ERC",
-      "source": "Malaya Business",
-      "date": "2026-04-19T16:51:00.000Z",
-      "summary": "Meralco customers are set to receive a P19.96-billion refund after the Energy Regulatory Commission provisionally approved a higher refund amount and said it may shorten the repayment period to give consumers faster relief. The ERC said the refund is equivalent to a rate reduction of P0.1189 per kilowatt-hour and is...",
-      "tags": [
-        "general_ph_sea_energy"
-      ],
-      "priority_score": 3.1,
-      "priority_reasons": [
-        "multi_group_impact"
-      ],
-      "note": "Useful because it affects more than one important audience or buyer group."
-    },
-    {
       "title": "DoTr reviews airline surcharges after Level 8 increase",
       "source": "BusinessWorld Energy",
       "date": "2026-04-19T16:06:56.000Z",
@@ -295,6 +281,42 @@
         "broader_trend"
       ],
       "note": "Useful supporting signal within a broader theme."
+    },
+    {
+      "title": "Gov’t gains power to cap fuel hikes, enforce minimum price cuts",
+      "source": "Inquirer Business Energy",
+      "date": "2026-04-20T14:16:00.000Z",
+      "summary": "MANILA, Philippines – The government can now limit fuel price hikes or set a minimum rollback on pump prices, as the global market continues to face uncertainties amid the war in the Middle East. In a media briefing Monday, Energy Secretary Sharon Garin said the state of national energy emergency declared by Preside...",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Philippine car sales fell 9.8% in Q1",
+      "source": "Inquirer Business Energy",
+      "date": "2026-04-20T12:52:26.000Z",
+      "summary": "MANILA, Philippines – Surging electric vehicle (EV) sales failed to lift total automotive sales in the Philippines in the first quarter, as the industry felt the spillover effects of the global oil supply crunch that has sent pump prices soaring since the Middle East war broke out in February. A total of 105,642 car...",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Diesel prices to drop by nearly P25/liter on April 21",
+      "source": "Inquirer Business Energy",
+      "date": "2026-04-20T11:59:44.000Z",
+      "summary": "MANILA, Philippines – Starting April 21, motorists will see another jumbo, double-digit rollback for diesel of nearly P25 a liter. In an advisory Monday, Shell Pilipinas said its diesel prices would decrease by P24.94 a liter. READ:marcos-big-price-rollback-for-diesel-at-p24-94-per-liter Once imposed on Tuesday, the...",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
     },
     {
       "title": "Addressing the traffic crisis . . . decisively and sustainably",
@@ -313,30 +335,6 @@
       "source": "Philippine Star Business Energy",
       "date": "2026-04-19T23:58:00.000Z",
       "summary": "Another round of sharp fuel price rollbacks is expected this week, extending the relief that began on April 14.",
-      "tags": [
-        "general_ph_sea_energy"
-      ],
-      "priority_score": 0.6,
-      "priority_reasons": [],
-      "note": "Useful supporting editorial signal."
-    },
-    {
-      "title": "Fuel prices set for 2nd big rollback",
-      "source": "Malaya Business",
-      "date": "2026-04-19T16:53:00.000Z",
-      "summary": "Diesel to drop P47.94/l in 2 wks Diesel prices are set to fall by at least P47.94 per liter over two weeks as the government pressed fuel retailers to fully implement another round of rollbacks on Tuesday amid easing Middle East tensions. Energy Secretary Sharon Garin reiterated that Tuesday’s rollback should be at...",
-      "tags": [
-        "general_ph_sea_energy"
-      ],
-      "priority_score": 0.6,
-      "priority_reasons": [],
-      "note": "Useful supporting editorial signal."
-    },
-    {
-      "title": "Analysts bet on BSP to hike rates",
-      "source": "Philippine Star Business Energy",
-      "date": "2026-04-19T16:00:00.000Z",
-      "summary": "Economists are leaning toward a rate hike by the Bangko Sentral ng Pilipinas at its Monetary",
       "tags": [
         "general_ph_sea_energy"
       ],

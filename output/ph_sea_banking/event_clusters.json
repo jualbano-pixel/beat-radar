@@ -3,15 +3,17 @@
     "cluster_id": "banking_001",
     "cluster_kind": "same_event",
     "lead_story_id": "f42b747bc8cd",
-    "story_count": 3,
+    "story_count": 4,
     "story_ids": [
       "f42b747bc8cd",
       "1a1a7409c05e",
+      "6d6a49bc63e2",
       "36d1981ae02d"
     ],
     "story_titles": [
       "Yields on government debt end lower",
       "Higher prices or slower growth? BSP faces policy tug-of-war",
+      "BSP’s rules on loan, fees must be followed—solon",
       "BSP survey shows gains in youth and women's financial access, formal lending, financial literacy"
     ],
     "associated_stories": [
@@ -28,6 +30,13 @@
         "url": "https://mb.com.ph/article/10914531/business/the-economy/higher-prices-or-slower-growth-bsp-faces-policy-tug-of-war",
         "source": "Manila Bulletin Business",
         "published_at": "2026-04-19T16:00:00.000Z"
+      },
+      {
+        "id": "6d6a49bc63e2",
+        "title": "BSP’s rules on loan, fees must be followed—solon",
+        "url": "https://businessmirror.com.ph/2026/04/16/bsps-rules-on-loan-fees-must-be-followed-solon",
+        "source": "BusinessMirror Business",
+        "published_at": "2026-04-16T12:31:37.000Z"
       },
       {
         "id": "36d1981ae02d",
@@ -48,52 +57,20 @@
     "cluster_classification": "primary",
     "supporting_story_ids": [
       "1a1a7409c05e",
+      "6d6a49bc63e2",
       "36d1981ae02d"
     ]
   },
   {
     "cluster_id": "banking_002",
     "cluster_kind": "same_event",
-    "lead_story_id": "8ef1007fcf13",
+    "lead_story_id": "7cdb689e20f1",
     "story_count": 1,
     "story_ids": [
-      "8ef1007fcf13"
+      "7cdb689e20f1"
     ],
     "story_titles": [
-      "Home Credit joins LenderLink’s network to expand credit access"
-    ],
-    "associated_stories": [
-      {
-        "id": "8ef1007fcf13",
-        "title": "Home Credit joins LenderLink’s network to expand credit access",
-        "url": "https://www.philstar.com/business/2026/04/19/2521901/home-credit-joins-lenderlinks-network-expand-credit-access",
-        "source": "Philstar Business",
-        "published_at": "2026-04-18T16:00:00.000Z"
-      }
-    ],
-    "entities": [
-      "private_bank"
-    ],
-    "event_label": "Credit appetite is loosening",
-    "compression_line": "Bad-loan and borrower-capacity signals suggest risk is beginning to surface beneath still-active lending.",
-    "priority_score": 68,
-    "editorial_bucket": "urgent_important",
-    "cluster_type": "event",
-    "cluster_classification": "primary",
-    "supporting_story_ids": []
-  },
-  {
-    "cluster_id": "banking_003",
-    "cluster_kind": "same_event",
-    "lead_story_id": "7cdb689e20f1",
-    "story_count": 2,
-    "story_ids": [
-      "7cdb689e20f1",
-      "bd51bb8f3fbe"
-    ],
-    "story_titles": [
-      "Poll: BSP to kick off tightening cycle as high oil prices bite",
-      "BSP plans stricter rules for banks in high-value payment system"
+      "Poll: BSP to kick off tightening cycle as high oil prices bite"
     ],
     "associated_stories": [
       {
@@ -102,13 +79,6 @@
         "url": "https://business.inquirer.net/586148/poll-bsp-to-kick-off-tightening-cycle-as-high-oil-prices-bite",
         "source": "Inquirer Business",
         "published_at": "2026-04-20T02:09:00.000Z"
-      },
-      {
-        "id": "bd51bb8f3fbe",
-        "title": "BSP plans stricter rules for banks in high-value payment system",
-        "url": "https://mb.com.ph/article/10914146/business/banking-finance/bsp-plans-stricter-rules-for-banks-in-high-value-payment-system",
-        "source": "Manila Bulletin Business",
-        "published_at": "2026-04-16T09:30:00.000Z"
       }
     ],
     "entities": [
@@ -118,89 +88,87 @@
     "compression_line": "The cluster points to stricter credit conditions, with banks or regulators becoming less willing to let lending run on autopilot.",
     "priority_score": 56,
     "editorial_bucket": "structural_trend",
-    "cluster_type": "pattern",
-    "cluster_classification": "secondary",
-    "primary_theme_id": "credit_tightening",
-    "primary_theme_label": "Credit tightening is emerging",
-    "supporting_story_ids": [
-      "bd51bb8f3fbe"
-    ]
-  },
-  {
-    "cluster_id": "banking_004",
-    "cluster_kind": "same_event",
-    "lead_story_id": "1c9490639b02",
-    "story_count": 1,
-    "story_ids": [
-      "1c9490639b02"
-    ],
-    "story_titles": [
-      "Digital banks top Forbes ranking, but giants still most trusted"
-    ],
-    "associated_stories": [
-      {
-        "id": "1c9490639b02",
-        "title": "Digital banks top Forbes ranking, but giants still most trusted",
-        "url": "https://mb.com.ph/article/10914205/business/banking-finance/digital-banks-top-forbes-ranking-but-giants-still-most-trusted",
-        "source": "Manila Bulletin Business",
-        "published_at": "2026-04-16T23:13:00.000Z"
-      }
-    ],
-    "entities": [
-      "private_bank"
-    ],
-    "event_label": "Digital competition is pulling at deposits",
-    "compression_line": "The grouped stories point to deposit movement that could change funding cost, liquidity, or competitive behavior.",
-    "priority_score": 48,
-    "editorial_bucket": "structural_trend",
     "cluster_type": "event",
     "cluster_classification": "secondary",
     "supporting_story_ids": []
   },
   {
-    "cluster_id": "banking_005",
+    "cluster_id": "banking_003",
     "cluster_kind": "same_event",
-    "lead_story_id": "2458834a6d7e",
+    "lead_story_id": "898920fdf986",
     "story_count": 2,
     "story_ids": [
-      "2458834a6d7e",
-      "7fde4b71e600"
+      "898920fdf986",
+      "3da0884715fd"
     ],
     "story_titles": [
-      "Singapore firm gets P2.7 billion loan for solar expansion",
-      "Vena group gets P2.7-B loan for Ilocos Norte solar park"
+      "BPI posts modest Q1 profit rise to P16.9B",
+      "BDO conditions P25-B funding on Lopez leadership continuity"
     ],
     "associated_stories": [
       {
-        "id": "2458834a6d7e",
-        "title": "Singapore firm gets P2.7 billion loan for solar expansion",
-        "url": "https://www.philstar.com/business/2026/04/19/2521902/singapore-firm-gets-p27-billion-loan-solar-expansion",
-        "source": "Philstar Business",
-        "published_at": "2026-04-18T16:00:00.000Z"
+        "id": "898920fdf986",
+        "title": "BPI posts modest Q1 profit rise to P16.9B",
+        "url": "https://business.inquirer.net/586173/bpi-posts-modest-q1-profit-rise-to-p16-9b",
+        "source": "Inquirer Business",
+        "published_at": "2026-04-20T12:03:05.000Z"
       },
       {
-        "id": "7fde4b71e600",
-        "title": "Vena group gets P2.7-B loan for Ilocos Norte solar park",
-        "url": "https://business.inquirer.net/585837/vena-group-gets-p2-7-b-loan-for-ilocos-norte-solar-park",
+        "id": "3da0884715fd",
+        "title": "BDO conditions P25-B funding on Lopez leadership continuity",
+        "url": "https://business.inquirer.net/585949/bdo-conditions-p25-b-funding-on-lopez-leadership-continuity",
         "source": "Inquirer Business",
-        "published_at": "2026-04-17T08:51:16.000Z"
+        "published_at": "2026-04-18T02:14:00.000Z"
       }
     ],
     "entities": [
       "private_bank"
     ],
-    "event_label": "Loan growth is still carrying the system",
-    "compression_line": "The cluster keeps loan growth in view, but the useful read is whether that growth is becoming harder for borrowers to carry.",
-    "priority_score": 48,
+    "event_label": "Funding costs are pressing margins",
+    "compression_line": "The stories belong together as early banking-system signals, but the direction still needs confirmation.",
+    "priority_score": 56,
     "editorial_bucket": "structural_trend",
     "cluster_type": "pattern",
     "cluster_classification": "secondary",
+    "primary_theme_id": "funding_margin_pressure",
+    "primary_theme_label": "Funding costs are pressing margins",
     "supporting_story_ids": [
-      "7fde4b71e600"
+      "3da0884715fd"
     ]
   },
   {
-    "cluster_id": "banking_006",
+    "cluster_id": "banking_004",
+    "cluster_kind": "same_event",
+    "lead_story_id": "bf8a7288c8a9",
+    "story_count": 1,
+    "story_ids": [
+      "bf8a7288c8a9"
+    ],
+    "story_titles": [
+      "BOP posts US$2.6 billion deficit in March 2026; end-March GIR settle at US$106.6 billion[1]"
+    ],
+    "associated_stories": [
+      {
+        "id": "bf8a7288c8a9",
+        "title": "BOP posts US$2.6 billion deficit in March 2026; end-March GIR settle at US$106.6 billion[1]",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7882",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-04-20T05:56:53.000Z"
+      }
+    ],
+    "entities": [
+      "private_bank"
+    ],
+    "event_label": "Liquidity conditions are on watch",
+    "compression_line": "The grouped stories point to banks preserving buffers rather than stretching balance sheets for growth.",
+    "priority_score": 40,
+    "editorial_bucket": "context_watch",
+    "cluster_type": "event",
+    "cluster_classification": "watch",
+    "supporting_story_ids": []
+  },
+  {
+    "cluster_id": "banking_005",
     "cluster_kind": "same_event",
     "lead_story_id": "06cb85ca0630",
     "story_count": 1,
@@ -231,38 +199,7 @@
     "supporting_story_ids": []
   },
   {
-    "cluster_id": "banking_007",
-    "cluster_kind": "same_event",
-    "lead_story_id": "3da0884715fd",
-    "story_count": 1,
-    "story_ids": [
-      "3da0884715fd"
-    ],
-    "story_titles": [
-      "BDO conditions P25-B funding on Lopez leadership continuity"
-    ],
-    "associated_stories": [
-      {
-        "id": "3da0884715fd",
-        "title": "BDO conditions P25-B funding on Lopez leadership continuity",
-        "url": "https://business.inquirer.net/585949/bdo-conditions-p25-b-funding-on-lopez-leadership-continuity",
-        "source": "Inquirer Business",
-        "published_at": "2026-04-18T02:14:00.000Z"
-      }
-    ],
-    "entities": [
-      "private_bank"
-    ],
-    "event_label": "Funding pressure is on watch",
-    "compression_line": "The stories belong together as early banking-system signals, but the direction still needs confirmation.",
-    "priority_score": 44,
-    "editorial_bucket": "context_watch",
-    "cluster_type": "event",
-    "cluster_classification": "watch",
-    "supporting_story_ids": []
-  },
-  {
-    "cluster_id": "banking_008",
+    "cluster_id": "banking_006",
     "cluster_kind": "same_event",
     "lead_story_id": "60a45329f69d",
     "story_count": 1,

@@ -1,30 +1,6 @@
 {
   "top_stories": [
     {
-      "title": "Home Credit joins LenderLink’s network to expand credit access",
-      "source": "Philstar Business",
-      "date": "2026-04-18T16:00:00.000Z",
-      "summary": "Home Credit Philippines, the country’s leading consumer finance company, has joined the real-time credit data exchange platform of LenderLink, a move expected to widen access to financing for millions of Filipinos while strengthening credit risk assessment across the lending sector.",
-      "tags": [
-        "banking_lending",
-        "banking_risk",
-        "banking_digital_shift",
-        "banking_rising",
-        "banking_loosening",
-        "banking_system",
-        "banking_driver_institution",
-        "banking_private_bank"
-      ],
-      "priority_score": 16.55,
-      "priority_reasons": [
-        "banking_top_movement",
-        "banking_risk_signal",
-        "banking_behavior_shift",
-        "editorial_source_confirmation"
-      ],
-      "why_it_matters": "This belongs in the top group because it points to a live shift in banking-system behavior, not just a company headline."
-    },
-    {
       "title": "Yields on government debt end lower",
       "source": "BusinessWorld Banking",
       "date": "2026-04-19T16:02:15.000Z",
@@ -91,67 +67,47 @@
       "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
     },
     {
-      "title": "BSP plans stricter rules for banks in high-value payment system",
-      "source": "Manila Bulletin Business",
-      "date": "2026-04-16T09:30:00.000Z",
-      "summary": "To manage risks tied to the growing Peso Real-Time Gross Settlement (RTGS) payment system, the Bangko Sentral ng Pilipinas (BSP) is drafting a policy to establish formal governance for stricter handling of member banks and nonbanks. According to the 2025 Peso RTGS Payment System Report published last Monday, April 1...",
+      "title": "BPI posts modest Q1 profit rise to P16.9B",
+      "source": "Inquirer Business",
+      "date": "2026-04-20T12:03:05.000Z",
+      "summary": "MANILA, Philippines – Bank of the Philippine Islands (BPI) reported a net income of P16.9 billion in the first quarter, up 1.7 percent, as loan expansion, wider margins and stronger fee income lifted earnings despite rising costs. In a disclosure on Monday, the Ayala-led bank said its earnings rose 4.9 percent from...",
       "tags": [
+        "banking_lending",
+        "banking_funding",
+        "banking_rising",
+        "banking_single_bank",
+        "banking_driver_institution",
+        "banking_private_bank"
+      ],
+      "priority_score": 13.55,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_deposit_funding_signal",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because deposit and funding movement shows whether money is staying put, seeking yield, or becoming more expensive for banks."
+    },
+    {
+      "title": "BSP’s rules on loan, fees must be followed—solon",
+      "source": "BusinessMirror Business",
+      "date": "2026-04-16T12:31:37.000Z",
+      "summary": "SENATOR Joel Villanueva called as timely the recent guidance by the Bangko Sentral ng Pilipinas (BSP) for banks to waive digital fund transfer fees and to provide loan relief measures for borrowers hit by the ongoing energy crisis.",
+      "tags": [
+        "banking_lending",
         "banking_regulation",
-        "banking_tightening",
         "banking_system",
         "banking_driver_policy",
         "banking_driver_institution",
         "banking_regulator"
       ],
-      "priority_score": 13.6,
-      "priority_reasons": [
-        "banking_secondary_movement",
-        "banking_policy_pressure",
-        "banking_behavior_shift",
-        "editorial_source_confirmation"
-      ],
-      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
-    },
-    {
-      "title": "Singapore firm gets P2.7 billion loan for solar expansion",
-      "source": "Philstar Business",
-      "date": "2026-04-18T16:00:00.000Z",
-      "summary": "Singapore-based Vena Group has secured a P2.7-billion loan from Security Bank Corp. to further expand its solar presence in Ilocos Norte.",
-      "tags": [
-        "banking_lending",
-        "banking_rising",
-        "banking_single_bank",
-        "banking_driver_institution",
-        "banking_driver_regional",
-        "banking_private_bank"
-      ],
-      "priority_score": 11.8,
-      "priority_reasons": [
-        "banking_weak_cluster_signal",
-        "banking_behavior_shift",
-        "editorial_source_confirmation"
-      ],
-      "why_it_matters": "This matters because it shows banks changing behavior through lending, liquidity, risk appetite, or pricing."
-    },
-    {
-      "title": "Digital banks top Forbes ranking, but giants still most trusted",
-      "source": "Manila Bulletin Business",
-      "date": "2026-04-16T23:13:00.000Z",
-      "summary": "Eight Philippine lenders have secured spots on the World’s Best Banks 2026 list compiled by Forbes and Statista, a ranking where agile digital-native banks claimed the top positions even as traditional giants maintained their edge in trustworthiness among Filipino depositors. MariBank Philippines Inc. took the top s...",
-      "tags": [
-        "banking_deposits",
-        "banking_digital_shift",
-        "banking_system",
-        "banking_driver_institution",
-        "banking_private_bank"
-      ],
       "priority_score": 11.6,
       "priority_reasons": [
         "banking_secondary_movement",
-        "banking_deposit_funding_signal",
+        "banking_policy_pressure",
         "editorial_source_confirmation"
       ],
-      "why_it_matters": "This matters because deposit and funding movement shows whether money is staying put, seeking yield, or becoming more expensive for banks."
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
     },
     {
       "title": "BSP survey shows gains in youth and women's financial access, formal lending, financial literacy",
@@ -173,9 +129,7 @@
         "editorial_source_confirmation"
       ],
       "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
-    }
-  ],
-  "secondary_signals": [
+    },
     {
       "title": "BSP welcomes Moody's favorable assessment of PH banking system, external sector",
       "source": "Bangko Sentral ng Pilipinas",
@@ -194,7 +148,7 @@
         "banking_policy_pressure",
         "editorial_source_confirmation"
       ],
-      "note": "Weak but relevant banking signal retained because it may cluster into a larger pattern."
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
     },
     {
       "title": "BlackRock’s Asia private credit fund sees China borrower default",
@@ -214,28 +168,10 @@
         "banking_risk_signal",
         "editorial_source_confirmation"
       ],
-      "note": "Weak but relevant banking signal retained because it may cluster into a larger pattern."
-    },
-    {
-      "title": "Vena group gets P2.7-B loan for Ilocos Norte solar park",
-      "source": "Inquirer Business",
-      "date": "2026-04-17T08:51:16.000Z",
-      "summary": "MANILA, Philippines — Vena Global Group Pte Ltd has obtained a P2.7-billion debt facility as it scales up its solar expansion in Northern Luzon. The Singapore-based company said the fresh funds would help construct the 80.6-megawatt peak (MWp) Astra Solar Power Project in Currimao, Ilocos Norte. This is targeted for...",
-      "tags": [
-        "banking_lending",
-        "banking_rising",
-        "banking_single_bank",
-        "banking_driver_regional",
-        "banking_private_bank"
-      ],
-      "priority_score": 10.85,
-      "priority_reasons": [
-        "banking_weak_cluster_signal",
-        "banking_behavior_shift",
-        "editorial_source_confirmation"
-      ],
-      "note": "Weak but relevant banking signal retained because it may cluster into a larger pattern."
-    },
+      "why_it_matters": "This matters because provisioning, NPLs, exposure, or stress signals reveal whether banks are protecting balance sheets or still leaning into growth."
+    }
+  ],
+  "secondary_signals": [
     {
       "title": "BDO conditions P25-B funding on Lopez leadership continuity",
       "source": "Inquirer Business",
@@ -248,7 +184,7 @@
         "banking_driver_institution",
         "banking_private_bank"
       ],
-      "priority_score": 10.55,
+      "priority_score": 10.35,
       "priority_reasons": [
         "banking_weak_cluster_signal",
         "banking_deposit_funding_signal",
@@ -291,6 +227,25 @@
       "priority_reasons": [
         "banking_weak_cluster_signal",
         "banking_deposit_funding_signal",
+        "editorial_source_confirmation"
+      ],
+      "note": "Weak but relevant banking signal retained because it may cluster into a larger pattern."
+    },
+    {
+      "title": "BOP posts US$2.6 billion deficit in March 2026; end-March GIR settle at US$106.6 billion[1]",
+      "source": "Bangko Sentral ng Pilipinas",
+      "date": "2026-04-20T05:56:53.000Z",
+      "summary": "PDate: 4/20/2026 Content: ​The Philippines’ balance of payments (BOP) registered a deficit of US$2.6 billion in March 2026. For January to March 2026, the BOP recorded an overall deficit of US$5.3 billion. The gross international reserves (GIR) decreased to US$106.6 billion as of end-March 2026. This level of reserv...",
+      "tags": [
+        "banking_liquidity",
+        "banking_digital_shift",
+        "banking_single_bank",
+        "banking_driver_institution",
+        "banking_private_bank"
+      ],
+      "priority_score": 9.8,
+      "priority_reasons": [
+        "banking_weak_cluster_signal",
         "editorial_source_confirmation"
       ],
       "note": "Weak but relevant banking signal retained because it may cluster into a larger pattern."

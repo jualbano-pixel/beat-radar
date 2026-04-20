@@ -16,8 +16,18 @@ Week of 2026-04-20
 - Supporting stories:
 - [Prime Infrastructure plants tapped to supply power after outages](https://www.philstar.com/business/2026/04/20/2522109/prime-infrastructure-plants-tapped-supply-power-after-outages) | Philippine Star Business Energy | Makes the capacity and delivery constraint concrete.
 - [Addressing the traffic crisis . . . decisively and sustainably](https://business.inquirer.net/586131/addressing-the-traffic-crisis-decisively-and-sustainably) | Inquirer Business Energy | Makes the capacity and delivery constraint concrete.
-- [The compounding cost of crisis: Rising subsidies and impending blackouts in off-grid Philippines](https://www.philstar.com/business/2026/04/19/2521903/compounding-cost-crisis-rising-subsidies-and-impending-blackouts-grid-philippines) | Philippine Star Business Energy | Shows how policy decisions can shift who absorbs energy costs.
+- [NGCP grid backs new projects](https://businessmirror.com.ph/2026/04/20/ngcp-grid-backs-new-projects) | BusinessMirror Energy | Makes the capacity and delivery constraint concrete.
 - [Fossil fuel-based power output boosted amid Luzon supply alert](https://business.inquirer.net/586052/fossil-fuel-based-power-output-boosted-amid-luzon-supply-alert) | Inquirer Business Energy | Shows where supply conditions could become a reliability problem.
+
+### supply reliability risk
+- Why it matters: Reliability risk matters when supply tightness can turn into outages, reserves pressure, or higher prices.
+- Pattern: Supply and reserve signals are keeping reliability risk close to the surface.
+- Tension: demand needs vs available supply
+- Supporting stories:
+- [Globe subsidiary inks RE deal with Meralco](https://businessmirror.com.ph/2026/04/19/globe-subsidiary-inks-re-deal-with-meralco) | BusinessMirror Energy | Shows where supply conditions could become a reliability problem.
+- [STT GDC signs 10-year RE deal with MPower](https://www.bworldonline.com/corporate/2026/04/20/744001/stt-gdc-signs-10-year-re-deal-with-mpower) | BusinessWorld Energy | Shows where supply conditions could become a reliability problem.
+- [900 more distribution sites planned for P20 rice program](https://www.bworldonline.com/agribusiness/2026/04/20/743969/900-more-distribution-sites-planned-for-p20-rice-program) | BusinessWorld Energy | Shows where supply conditions could become a reliability problem.
+- [eGovPH back online; no security breach, says DICT](https://business.inquirer.net/585920/egovph-back-online-no-security-breach-says-dict) | Inquirer Business Energy | Adds a concrete read on price, supply, reliability, or policy pressure.
 
 ### energy price pressure
 - Why it matters: Energy-price pressure feeds through to households, operators, and policy decisions.
@@ -34,19 +44,10 @@ Week of 2026-04-20
 - Pattern: Fuel prices are easing at the pump, but cost relief remains exposed to external swings.
 - Tension: short-term relief vs oil exposure
 - Supporting stories:
+- [Gov’t gains power to cap fuel hikes, enforce minimum price cuts](https://business.inquirer.net/586199/govt-gains-power-to-cap-fuel-hikes-enforce-minimum-price-cuts) | Inquirer Business Energy | Shows how fuel-price movement is feeding into household and operating costs.
 - [Another double-digit drop seen for diesel prices](https://business.inquirer.net/586026/another-double-digit-drop-seen-for-diesel-prices) | Inquirer Business Energy | Shows how fuel-price movement is feeding into household and operating costs.
+- [Diesel prices to drop by nearly P25/liter on April 21](https://business.inquirer.net/586171/diesel-prices-to-drop-by-nearly-p25-liter-on-april-21) | Inquirer Business Energy | Shows how fuel-price movement is feeding into household and operating costs.
 - [Price Tracker: Oil, fuel monitor for Apr. 20](https://www.philstar.com/headlines/2026/04/20/2522287/price-tracker-oil-fuel-monitor-apr-20) | Philippine Star Business Energy | Shows how fuel-price movement is feeding into household and operating costs.
-- [Fuel prices set for 2nd big rollback](https://malaya.com.ph/business/business-news/fuel-prices-set-for-2nd-big-rollback) | Malaya Business | Shows how policy decisions can shift who absorbs energy costs.
-- [Biggest diesel price cut of up to P26.50/liter possible on April 21](https://business.inquirer.net/586057/biggest-diesel-price-cut-of-up-to-p26-50-liter-possible-on-april-21) | Inquirer Business Energy | Shows how fuel-price movement is feeding into household and operating costs.
-
-### supply reliability risk
-- Why it matters: Reliability risk matters when supply tightness can turn into outages, reserves pressure, or higher prices.
-- Pattern: Supply and reserve signals are keeping reliability risk close to the surface.
-- Tension: demand needs vs available supply
-- Supporting stories:
-- [STT GDC signs 10-year RE deal with MPower](https://www.bworldonline.com/corporate/2026/04/20/744001/stt-gdc-signs-10-year-re-deal-with-mpower) | BusinessWorld Energy | Shows where supply conditions could become a reliability problem.
-- [900 more distribution sites planned for P20 rice program](https://www.bworldonline.com/agribusiness/2026/04/20/743969/900-more-distribution-sites-planned-for-p20-rice-program) | BusinessWorld Energy | Shows where supply conditions could become a reliability problem.
-- [eGovPH back online; no security breach, says DICT](https://business.inquirer.net/585920/egovph-back-online-no-security-breach-says-dict) | Inquirer Business Energy | Adds a concrete read on price, supply, reliability, or policy pressure.
 
 ## Structural shifts
 
@@ -55,20 +56,20 @@ Week of 2026-04-20
 - Pattern: Policy decisions are shifting how energy costs move through utilities, businesses, and households.
 - Tension: cost recovery vs public burden
 - Supporting stories:
-- [Meralco customers to get P19.96B refund – ERC](https://malaya.com.ph/business/business-news/meralco-customers-to-get-p19-96b-refund-erc) | Malaya Business | Shows how policy decisions can shift who absorbs energy costs.
 - [CTA orders BIR to refund Petron P389.5M in excise taxes](https://www.bworldonline.com/corporate/2026/04/20/744003/cta-orders-bir-to-refund-petron-p389-5m-in-excise-taxes) | BusinessWorld Energy | Adds a concrete read on price, supply, reliability, or policy pressure.
+- [Pausing tax on petrol products get lawmakers’ backing](https://businessmirror.com.ph/2026/04/20/pausing-tax-on-petrol-products-get-lawmakers-backing) | BusinessMirror Energy | Shows how policy decisions can shift who absorbs energy costs.
 
 ### external energy shock
 - Editorial note: External shocks matter when they pass through to local prices, supply planning, or reliability risk.
 - Pattern: External fuel shocks are passing through to local prices, supply planning, and operating costs.
 - Tension: global exposure vs local resilience
 - Supporting stories:
-- [Diesel, gasoline prices seen sliding some more](https://business.inquirer.net/585847/diesel-gasoline-prices-seen-sliding-some-more) | Inquirer Business Energy | Shows how fuel-price movement is feeding into household and operating costs.
+- [Philippine car sales fell 9.8% in Q1](https://business.inquirer.net/586179/philippine-car-sales-fell-9-8-in-q1) | Inquirer Business Energy | Shows how fuel-price movement is feeding into household and operating costs.
 
 ## What seems to be happening
 
 - Grid and project execution are shaping how much capacity the system can actually use.
+- Supply and reserve signals are keeping reliability risk close to the surface.
 - Energy costs are still feeding into household and business pressure.
 - Fuel prices are easing at the pump, but cost relief remains exposed to external swings.
-- Supply and reserve signals are keeping reliability risk close to the surface.
 - Policy decisions are shifting how energy costs move through utilities, businesses, and households.

@@ -3,9 +3,10 @@
     "cluster_id": "energy_001",
     "cluster_kind": "same_event",
     "lead_story_id": "946bef9f36e5",
-    "story_count": 6,
+    "story_count": 7,
     "story_ids": [
       "946bef9f36e5",
+      "41b02ff32579",
       "8d2b4d9ccf25",
       "8d2b4d9ccf25",
       "e90862d9ba5d",
@@ -14,6 +15,7 @@
     ],
     "story_titles": [
       "Prime Infrastructure plants tapped to supply power after outages",
+      "Globe subsidiary inks RE deal with Meralco",
       "STT GDC signs 10-year RE deal with MPower",
       "STT GDC signs 10-year RE deal with MPower",
       "900 more distribution sites planned for P20 rice program",
@@ -27,6 +29,13 @@
         "url": "https://www.philstar.com/business/2026/04/20/2522109/prime-infrastructure-plants-tapped-supply-power-after-outages",
         "source": "Philippine Star Business Energy",
         "published_at": "2026-04-19T16:00:00.000Z"
+      },
+      {
+        "id": "41b02ff32579",
+        "title": "Globe subsidiary inks RE deal with Meralco",
+        "url": "https://businessmirror.com.ph/2026/04/19/globe-subsidiary-inks-re-deal-with-meralco",
+        "source": "BusinessMirror Energy",
+        "published_at": "2026-04-19T12:05:36.000Z"
       },
       {
         "id": "8d2b4d9ccf25",
@@ -72,6 +81,7 @@
     "cluster_type": "pattern",
     "cluster_classification": "primary",
     "supporting_story_ids": [
+      "41b02ff32579",
       "8d2b4d9ccf25",
       "8d2b4d9ccf25",
       "e90862d9ba5d",
@@ -84,27 +94,34 @@
   {
     "cluster_id": "energy_002",
     "cluster_kind": "same_event",
-    "lead_story_id": "2502acdc958c",
+    "lead_story_id": "34daf6b31c48",
     "story_count": 7,
     "story_ids": [
+      "34daf6b31c48",
       "2502acdc958c",
+      "f779dfa31a8e",
       "e62694622f6a",
-      "7ac27eea3f1a",
-      "dbaefcaf031a",
       "8c5d2b936252",
       "8c5d2b936252",
       "4a1588d4196b"
     ],
     "story_titles": [
+      "Gov’t gains power to cap fuel hikes, enforce minimum price cuts",
       "Another double-digit drop seen for diesel prices",
+      "Diesel prices to drop by nearly P25/liter on April 21",
       "Price Tracker: Oil, fuel monitor for Apr. 20",
-      "Fuel prices set for 2nd big rollback",
-      "CRACKDOWN ON STATIONS CHARGING UNJUSTIFIED FUEL PRICES URGED",
       "DoTr reviews airline surcharges after Level 8 increase",
       "DoTr reviews airline surcharges after Level 8 increase",
       "Biggest diesel price cut of up to P26.50/liter possible on April 21"
     ],
     "associated_stories": [
+      {
+        "id": "34daf6b31c48",
+        "title": "Gov’t gains power to cap fuel hikes, enforce minimum price cuts",
+        "url": "https://business.inquirer.net/586199/govt-gains-power-to-cap-fuel-hikes-enforce-minimum-price-cuts",
+        "source": "Inquirer Business Energy",
+        "published_at": "2026-04-20T14:16:00.000Z"
+      },
       {
         "id": "2502acdc958c",
         "title": "Another double-digit drop seen for diesel prices",
@@ -113,25 +130,18 @@
         "published_at": "2026-04-18T05:36:00.000Z"
       },
       {
+        "id": "f779dfa31a8e",
+        "title": "Diesel prices to drop by nearly P25/liter on April 21",
+        "url": "https://business.inquirer.net/586171/diesel-prices-to-drop-by-nearly-p25-liter-on-april-21",
+        "source": "Inquirer Business Energy",
+        "published_at": "2026-04-20T11:59:44.000Z"
+      },
+      {
         "id": "e62694622f6a",
         "title": "Price Tracker: Oil, fuel monitor for Apr. 20",
         "url": "https://www.philstar.com/headlines/2026/04/20/2522287/price-tracker-oil-fuel-monitor-apr-20",
         "source": "Philippine Star Business Energy",
         "published_at": "2026-04-19T23:58:00.000Z"
-      },
-      {
-        "id": "7ac27eea3f1a",
-        "title": "Fuel prices set for 2nd big rollback",
-        "url": "https://malaya.com.ph/business/business-news/fuel-prices-set-for-2nd-big-rollback",
-        "source": "Malaya Business",
-        "published_at": "2026-04-19T16:53:00.000Z"
-      },
-      {
-        "id": "dbaefcaf031a",
-        "title": "CRACKDOWN ON STATIONS CHARGING UNJUSTIFIED FUEL PRICES URGED",
-        "url": "https://malaya.com.ph/news/national-news/crackdown-on-stations-charging-unjustified-fuel-prices-urged",
-        "source": "Malaya Business",
-        "published_at": "2026-04-19T16:38:00.000Z"
       },
       {
         "id": "8c5d2b936252",
@@ -163,9 +173,9 @@
     "cluster_type": "pattern",
     "cluster_classification": "primary",
     "supporting_story_ids": [
+      "2502acdc958c",
+      "f779dfa31a8e",
       "e62694622f6a",
-      "7ac27eea3f1a",
-      "dbaefcaf031a",
       "8c5d2b936252",
       "8c5d2b936252",
       "4a1588d4196b"
@@ -176,73 +186,21 @@
   {
     "cluster_id": "energy_003",
     "cluster_kind": "same_event",
-    "lead_story_id": "ad6d9793da47",
-    "story_count": 3,
-    "story_ids": [
-      "ad6d9793da47",
-      "edd1bf95f062",
-      "edd1bf95f062"
-    ],
-    "story_titles": [
-      "Meralco customers to get P19.96B refund – ERC",
-      "CTA orders BIR to refund Petron P389.5M in excise taxes",
-      "CTA orders BIR to refund Petron P389.5M in excise taxes"
-    ],
-    "associated_stories": [
-      {
-        "id": "ad6d9793da47",
-        "title": "Meralco customers to get P19.96B refund – ERC",
-        "url": "https://malaya.com.ph/business/business-news/meralco-customers-to-get-p19-96b-refund-erc",
-        "source": "Malaya Business",
-        "published_at": "2026-04-19T16:51:00.000Z"
-      },
-      {
-        "id": "edd1bf95f062",
-        "title": "CTA orders BIR to refund Petron P389.5M in excise taxes",
-        "url": "https://www.bworldonline.com/corporate/2026/04/20/744003/cta-orders-bir-to-refund-petron-p389-5m-in-excise-taxes",
-        "source": "BusinessWorld Energy",
-        "published_at": "2026-04-19T16:07:57.000Z"
-      },
-      {
-        "id": "edd1bf95f062",
-        "title": "CTA orders BIR to refund Petron P389.5M in excise taxes",
-        "url": "https://www.bworldonline.com/corporate/2026/04/20/744003/cta-orders-bir-to-refund-petron-p389-5m-in-excise-taxes",
-        "source": "BusinessWorld Energy",
-        "published_at": "2026-04-19T16:07:57.000Z"
-      }
-    ],
-    "entities": [],
-    "event_label": "Policy burden shifting",
-    "compression_line": "Policy action is shifting who absorbs Energy costs through taxes, credits, tariff treatment, subsidies, or recovery decisions.",
-    "priority_score": 32,
-    "editorial_bucket": "background",
-    "cluster_type": "pattern",
-    "cluster_classification": "secondary",
-    "supporting_story_ids": [
-      "edd1bf95f062",
-      "edd1bf95f062"
-    ],
-    "primary_theme_id": "energy_policy_shifting_cost_burden",
-    "primary_theme_label": "Policy is shifting fuel-cost burdens"
-  },
-  {
-    "cluster_id": "energy_004",
-    "cluster_kind": "same_event",
-    "lead_story_id": "b70c877a4133",
+    "lead_story_id": "240a7103bfc7",
     "story_count": 1,
     "story_ids": [
-      "b70c877a4133"
+      "240a7103bfc7"
     ],
     "story_titles": [
-      "Diesel, gasoline prices seen sliding some more"
+      "Philippine car sales fell 9.8% in Q1"
     ],
     "associated_stories": [
       {
-        "id": "b70c877a4133",
-        "title": "Diesel, gasoline prices seen sliding some more",
-        "url": "https://business.inquirer.net/585847/diesel-gasoline-prices-seen-sliding-some-more",
+        "id": "240a7103bfc7",
+        "title": "Philippine car sales fell 9.8% in Q1",
+        "url": "https://business.inquirer.net/586179/philippine-car-sales-fell-9-8-in-q1",
         "source": "Inquirer Business Energy",
-        "published_at": "2026-04-17T10:24:18.000Z"
+        "published_at": "2026-04-20T12:52:26.000Z"
       }
     ],
     "entities": [],
@@ -253,5 +211,57 @@
     "cluster_type": "event",
     "cluster_classification": "watch",
     "supporting_story_ids": []
+  },
+  {
+    "cluster_id": "energy_004",
+    "cluster_kind": "same_event",
+    "lead_story_id": "edd1bf95f062",
+    "story_count": 3,
+    "story_ids": [
+      "edd1bf95f062",
+      "edd1bf95f062",
+      "012184f03ea1"
+    ],
+    "story_titles": [
+      "CTA orders BIR to refund Petron P389.5M in excise taxes",
+      "CTA orders BIR to refund Petron P389.5M in excise taxes",
+      "Pausing tax on petrol products get lawmakers’ backing"
+    ],
+    "associated_stories": [
+      {
+        "id": "edd1bf95f062",
+        "title": "CTA orders BIR to refund Petron P389.5M in excise taxes",
+        "url": "https://www.bworldonline.com/corporate/2026/04/20/744003/cta-orders-bir-to-refund-petron-p389-5m-in-excise-taxes",
+        "source": "BusinessWorld Energy",
+        "published_at": "2026-04-19T16:07:57.000Z"
+      },
+      {
+        "id": "edd1bf95f062",
+        "title": "CTA orders BIR to refund Petron P389.5M in excise taxes",
+        "url": "https://www.bworldonline.com/corporate/2026/04/20/744003/cta-orders-bir-to-refund-petron-p389-5m-in-excise-taxes",
+        "source": "BusinessWorld Energy",
+        "published_at": "2026-04-19T16:07:57.000Z"
+      },
+      {
+        "id": "012184f03ea1",
+        "title": "Pausing tax on petrol products get lawmakers’ backing",
+        "url": "https://businessmirror.com.ph/2026/04/20/pausing-tax-on-petrol-products-get-lawmakers-backing",
+        "source": "BusinessMirror Energy",
+        "published_at": "2026-04-19T16:05:00.000Z"
+      }
+    ],
+    "entities": [],
+    "event_label": "Policy burden shifting",
+    "compression_line": "Policy action is shifting who absorbs Energy costs through taxes, credits, tariff treatment, subsidies, or recovery decisions.",
+    "priority_score": 24,
+    "editorial_bucket": "background",
+    "cluster_type": "pattern",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": [
+      "edd1bf95f062",
+      "012184f03ea1"
+    ],
+    "primary_theme_id": "energy_policy_shifting_cost_burden",
+    "primary_theme_label": "Policy is shifting fuel-cost burdens"
   }
 ]

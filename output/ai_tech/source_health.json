@@ -10,7 +10,7 @@
     "beat": "ai_tech",
     "url": "https://www.bsp.gov.ph/_layouts/15/listfeed.aspx?List=9b0a2117-49d8-4e96-80ba-8651a0e3e17a&View=8c968884-887d-4d63-8c00-ba05ea3c2d93",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   },
   {
     "source": "BusinessWorld AI/Tech",
@@ -23,7 +23,7 @@
     "beat": "ai_tech",
     "url": "https://www.bworldonline.com/feed/",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   },
   {
     "source": "Inquirer Tech",
@@ -31,12 +31,12 @@
     "health": "healthy",
     "fetchedCount": 40,
     "normalizedCount": 40,
-    "droppedCount": 40,
-    "keptCount": 0,
+    "droppedCount": 39,
+    "keptCount": 1,
     "beat": "ai_tech",
     "url": "https://technology.inquirer.net/feed",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   },
   {
     "source": "Inquirer Business AI/Tech",
@@ -49,7 +49,7 @@
     "beat": "ai_tech",
     "url": "https://business.inquirer.net/feed",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   },
   {
     "source": "Philippine Star Business AI/Tech",
@@ -62,7 +62,7 @@
     "beat": "ai_tech",
     "url": "https://www.philstar.com/rss/business",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   },
   {
     "source": "Malaya Business AI/Tech",
@@ -75,7 +75,7 @@
     "beat": "ai_tech",
     "url": "https://malaya.com.ph/feed/",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   },
   {
     "source": "e27 SEA Tech",
@@ -83,12 +83,12 @@
     "health": "healthy",
     "fetchedCount": 50,
     "normalizedCount": 50,
-    "droppedCount": 44,
-    "keptCount": 6,
+    "droppedCount": 46,
+    "keptCount": 4,
     "beat": "ai_tech",
     "url": "https://e27.co/feed/",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   },
   {
     "source": "OpenAI Blog",
@@ -101,7 +101,7 @@
     "beat": "ai_tech",
     "url": "https://openai.com/news/rss.xml",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   },
   {
     "source": "Google AI Blog",
@@ -114,7 +114,7 @@
     "beat": "ai_tech",
     "url": "https://blog.google/technology/ai/rss/",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   },
   {
     "source": "Microsoft Blog AI",
@@ -127,7 +127,7 @@
     "beat": "ai_tech",
     "url": "https://blogs.microsoft.com/feed/",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   },
   {
     "source": "TechCrunch AI",
@@ -140,6 +140,6 @@
     "beat": "ai_tech",
     "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
     "type": "rss",
-    "checkedAt": "2026-04-20T02:45:44.763Z"
+    "checkedAt": "2026-04-20T09:27:39.695Z"
   }
 ]

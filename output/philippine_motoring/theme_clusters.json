@@ -2,19 +2,22 @@
   {
     "theme_id": "ev_transition_gap",
     "theme_label": "EV transition gap",
-    "theme_summary": "EV transition gap is the shared editorial thread across 9 related stories. The strongest signal is EV transition gap visible.",
-    "story_count": 9,
+    "theme_summary": "EV transition gap is the shared editorial thread across 12 related stories. The strongest signal is EV transition gap visible.",
+    "story_count": 12,
     "cluster_ids": [],
     "story_ids": [
+      "240a7103bfc7",
       "1eba63882372",
+      "aab484bcc321",
       "ff372c8bf8a5",
       "49a6d0edd162",
       "f016aa2f305d",
+      "6754441f8e37",
       "3706cb0079bb",
       "b1ea27d884c8",
+      "010b86cbf5fe",
       "7531b5ca7a0e",
-      "0cb430a8e0ce",
-      "fe249e53b994"
+      "e7f38407c0f5"
     ],
     "associated_stories": [
       {
@@ -25,11 +28,25 @@
         "published_at": "2026-04-17T13:24:53.000Z"
       },
       {
+        "id": "240a7103bfc7",
+        "title": "Philippine car sales fell 9.8% in Q1",
+        "url": "https://business.inquirer.net/586179/philippine-car-sales-fell-9-8-in-q1",
+        "source": "Inquirer Business",
+        "published_at": "2026-04-20T12:52:26.000Z"
+      },
+      {
         "id": "f016aa2f305d",
         "title": "GAC GS8 hybrid introduced, P2.338M",
         "url": "https://www.bworldonline.com/velocity/2026/04/20/743813/gac-gs8-hybrid-introduced-p2-338m",
         "source": "BusinessWorld Online",
         "published_at": "2026-04-19T16:03:06.000Z"
+      },
+      {
+        "id": "010b86cbf5fe",
+        "title": "Electric vehicle buying frenzy; 6 Changans",
+        "url": "https://businessmirror.com.ph/2026/04/17/electric-vehicle-buying-frenzy-6-changans",
+        "source": "BusinessMirror Motoring",
+        "published_at": "2026-04-16T16:03:00.000Z"
       },
       {
         "id": "ff372c8bf8a5",
@@ -53,18 +70,25 @@
         "published_at": "2026-04-17T04:48:00.000Z"
       },
       {
-        "id": "0cb430a8e0ce",
-        "title": "Spec-sheet brawl: Geely EX5 EM-i Max vs. BYD Sealion 6 DM-i",
-        "url": "https://www.topgear.com.ph/features/feature-articles/geely-ex5-em-i-byd-sealion-6-dm-i-specs-comparo-a2588-20260416",
-        "source": "TopGear Philippines",
-        "published_at": "2026-04-16T03:40:00.000Z"
+        "id": "6754441f8e37",
+        "title": "Euro Motor celebrates 20th anniversary at Makina Moto Expo 2026",
+        "url": "https://businessmirror.com.ph/2026/04/17/euro-motor-celebrates-20th-anniversary-at-makina-moto-expo-2026",
+        "source": "BusinessMirror Motoring",
+        "published_at": "2026-04-17T05:36:37.000Z"
       },
       {
-        "id": "fe249e53b994",
-        "title": "Nissan confirms next-generation Xterra will return with all-new V6, hybrid options",
-        "url": "https://www.topgear.com.ph/news/car-news/nissan-xterra-next-generation-confirmed-a5361-20260416",
+        "id": "e7f38407c0f5",
+        "title": "Lexus spin on charging stations",
+        "url": "https://businessmirror.com.ph/2026/04/10/lexus-spin-on-charging-stations",
+        "source": "BusinessMirror Motoring",
+        "published_at": "2026-04-09T16:00:00.000Z"
+      },
+      {
+        "id": "aab484bcc321",
+        "title": "Can my EV overheat in summer?",
+        "url": "https://www.topgear.com.ph/features/tip-sheet/can-my-ev-overheat-2026-a6938-20260420",
         "source": "TopGear Philippines",
-        "published_at": "2026-04-16T01:54:00.000Z"
+        "published_at": "2026-04-20T05:34:00.000Z"
       },
       {
         "id": "3706cb0079bb",
@@ -82,36 +106,45 @@
       }
     ],
     "dominant_reason_codes": [
+      "local_business_relevance",
       "developing_pattern",
-      "policy_regulatory_move",
-      "local_business_relevance"
+      "policy_regulatory_move"
     ],
     "dominant_angle_signals": [
       "EV transition gap visible",
-      "product launch reveals market bet",
-      "pricing pressure building"
+      "pricing pressure building",
+      "product launch reveals market bet"
     ],
     "top_story_refs": [
       "1eba63882372",
-      "f016aa2f305d",
-      "ff372c8bf8a5"
+      "240a7103bfc7",
+      "f016aa2f305d"
     ]
   },
   {
     "theme_id": "pricing_pressure",
     "theme_label": "pricing pressure",
-    "theme_summary": "pricing pressure is the shared editorial thread across 6 related stories. The strongest signal is pricing pressure building.",
-    "story_count": 6,
+    "theme_summary": "pricing pressure is the shared editorial thread across 8 related stories. The strongest signal is pricing pressure building.",
+    "story_count": 8,
     "cluster_ids": [],
     "story_ids": [
+      "34daf6b31c48",
+      "e338f1ce16c7",
+      "f779dfa31a8e",
       "4a1588d4196b",
       "2502acdc958c",
-      "b70c877a4133",
       "e62694622f6a",
-      "dde3857af5b6",
-      "6d22af21e85d"
+      "3f74ba2f2255",
+      "dde3857af5b6"
     ],
     "associated_stories": [
+      {
+        "id": "34daf6b31c48",
+        "title": "Gov’t gains power to cap fuel hikes, enforce minimum price cuts",
+        "url": "https://business.inquirer.net/586199/govt-gains-power-to-cap-fuel-hikes-enforce-minimum-price-cuts",
+        "source": "Inquirer Business",
+        "published_at": "2026-04-20T14:16:00.000Z"
+      },
       {
         "id": "2502acdc958c",
         "title": "Another double-digit drop seen for diesel prices",
@@ -127,11 +160,11 @@
         "published_at": "2026-04-18T11:30:37.000Z"
       },
       {
-        "id": "b70c877a4133",
-        "title": "Diesel, gasoline prices seen sliding some more",
-        "url": "https://business.inquirer.net/585847/diesel-gasoline-prices-seen-sliding-some-more",
+        "id": "f779dfa31a8e",
+        "title": "Diesel prices to drop by nearly P25/liter on April 21",
+        "url": "https://business.inquirer.net/586171/diesel-prices-to-drop-by-nearly-p25-liter-on-april-21",
         "source": "Inquirer Business",
-        "published_at": "2026-04-17T10:24:18.000Z"
+        "published_at": "2026-04-20T11:59:44.000Z"
       },
       {
         "id": "e62694622f6a",
@@ -141,11 +174,18 @@
         "published_at": "2026-04-19T23:58:00.000Z"
       },
       {
-        "id": "6d22af21e85d",
-        "title": "You can now buy a rebuilt AE86 Levin from Tom’s; prices start at P6.24-M",
-        "url": "https://www.topgear.com.ph/news/car-news/toyota-ae86-levin-toms-heritage-a6888-20260416",
+        "id": "3f74ba2f2255",
+        "title": "PH fuel price update: Rollback of P24.94/L for diesel, P3.41/L for gas effective April 21",
+        "url": "https://www.topgear.com.ph/news/motoring-news/ph-fuel-prices-april-20-26-2026-a2619-20260420",
         "source": "TopGear Philippines",
-        "published_at": "2026-04-16T04:43:00.000Z"
+        "published_at": "2026-04-20T02:00:00.000Z"
+      },
+      {
+        "id": "e338f1ce16c7",
+        "title": "Philippines posted wider BOP deficit in March amid oil price surge",
+        "url": "https://business.inquirer.net/586189/philippines-posted-wider-bop-deficit-in-march-amid-oil-price-surge",
+        "source": "Inquirer Business",
+        "published_at": "2026-04-20T13:53:50.000Z"
       },
       {
         "id": "dde3857af5b6",
@@ -162,12 +202,12 @@
     "dominant_angle_signals": [
       "pricing pressure building",
       "product launch reveals market bet",
-      "EV transition gap visible"
+      "ownership cost reality surfacing"
     ],
     "top_story_refs": [
+      "34daf6b31c48",
       "2502acdc958c",
-      "4a1588d4196b",
-      "b70c877a4133"
+      "4a1588d4196b"
     ]
   },
   {
@@ -178,18 +218,11 @@
     "cluster_ids": [],
     "story_ids": [
       "096dc8314d00",
-      "e46cd781caaf",
       "1466928490fd",
-      "53d6f8c8fa4b"
+      "5f37b4fb53c5",
+      "f0efecb6274e"
     ],
     "associated_stories": [
-      {
-        "id": "e46cd781caaf",
-        "title": "Toll fees waived for DA-listed trucks with agri cargo",
-        "url": "https://business.inquirer.net/585849/toll-fees-waived-for-da-listed-trucks-with-agri-cargo",
-        "source": "Inquirer Business",
-        "published_at": "2026-04-17T11:00:30.000Z"
-      },
       {
         "id": "096dc8314d00",
         "title": "Addressing the traffic crisis . . . decisively and sustainably",
@@ -198,22 +231,30 @@
         "published_at": "2026-04-20T02:01:00.000Z"
       },
       {
+        "id": "f0efecb6274e",
+        "title": "Geely Philippines inaugurates Alabang dealership, teases the upcoming EX5 EM-i",
+        "url": "https://businessmirror.com.ph/2026/02/20/geely-philippines-inaugurates-alabang-dealership-teases-the-upcoming-ex5-em-i",
+        "source": "BusinessMirror Motoring",
+        "published_at": "2026-02-19T16:01:00.000Z"
+      },
+      {
+        "id": "5f37b4fb53c5",
+        "title": "Airport improvement continues; electrified Toyota",
+        "url": "https://businessmirror.com.ph/2026/04/02/airport-improvement-continues-electrified-toyota",
+        "source": "BusinessMirror Motoring",
+        "published_at": "2026-04-01T16:02:00.000Z"
+      },
+      {
         "id": "1466928490fd",
         "title": "Premium off-road sub-marque to make inroads",
         "url": "https://www.bworldonline.com/velocity/2026/04/20/743820/premium-off-road-sub-marque-to-make-inroads",
         "source": "BusinessWorld Online",
         "published_at": "2026-04-19T16:08:19.000Z"
-      },
-      {
-        "id": "53d6f8c8fa4b",
-        "title": "From China to the world: Nissan exports its first Frontier Pro units",
-        "url": "https://www.topgear.com.ph/news/industry-news/nissan-china-exports-frontier-pro-a6888-20260416",
-        "source": "TopGear Philippines",
-        "published_at": "2026-04-16T01:20:00.000Z"
       }
     ],
     "dominant_reason_codes": [
-      "local_business_relevance"
+      "local_business_relevance",
+      "watchlist_signal"
     ],
     "dominant_angle_signals": [
       "infrastructure constraint showing",
@@ -221,9 +262,9 @@
       "EV transition gap visible"
     ],
     "top_story_refs": [
-      "e46cd781caaf",
       "096dc8314d00",
-      "1466928490fd"
+      "f0efecb6274e",
+      "5f37b4fb53c5"
     ]
   },
   {
@@ -274,6 +315,46 @@
       "8c5d2b936252",
       "ac81a5be6b97",
       "918d83b376b9"
+    ]
+  },
+  {
+    "theme_id": "consumer_demand_shift",
+    "theme_label": "consumer demand shift",
+    "theme_summary": "consumer demand shift is the shared editorial thread across 2 related stories. The strongest signal is EV transition gap visible.",
+    "story_count": 2,
+    "cluster_ids": [],
+    "story_ids": [
+      "317f9beff512",
+      "2cbfd05da99d"
+    ],
+    "associated_stories": [
+      {
+        "id": "2cbfd05da99d",
+        "title": "Family SUV, small sedan unveiled by Changan",
+        "url": "https://www.bworldonline.com/velocity/2026/04/20/743815/family-suv-small-sedan-unveiled-by-changan",
+        "source": "BusinessWorld Online",
+        "published_at": "2026-04-19T16:05:18.000Z"
+      },
+      {
+        "id": "317f9beff512",
+        "title": "PH car sales report: 105,642 vehicles sold in 2026 so far; VinFast tops BEV sales",
+        "url": "https://www.topgear.com.ph/news/industry-news/ph-car-sales-q1-2026-a5361-20260420",
+        "source": "TopGear Philippines",
+        "published_at": "2026-04-20T04:32:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "market_signal",
+      "product_signal"
+    ],
+    "dominant_angle_signals": [
+      "EV transition gap visible",
+      "consumer demand shifting by segment",
+      "product launch reveals market bet"
+    ],
+    "top_story_refs": [
+      "2cbfd05da99d",
+      "317f9beff512"
     ]
   }
 ]

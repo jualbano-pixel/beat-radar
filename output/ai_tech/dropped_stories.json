@@ -12,6 +12,12 @@
     "reason_dropped": "low_relevance"
   },
   {
+    "title": "BOP posts US$2.6 billion deficit in March 2026; end-March GIR settle at US$106.6 billion[1]",
+    "source": "Bangko Sentral ng Pilipinas AI/Tech",
+    "date": "2026-04-20T05:56:53.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
     "title": "BSP welcomes Moody's favorable assessment of PH banking system, external sector",
     "source": "Bangko Sentral ng Pilipinas AI/Tech",
     "date": "2026-04-17T03:57:19.000Z",
@@ -171,12 +177,6 @@
     "title": "BSP, pinagunahan ang ikalawang Iftar para palakasin ang kooperasyon sa Islamic finance",
     "source": "Bangko Sentral ng Pilipinas AI/Tech",
     "date": "2026-03-19T10:01:56.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "FSCC affirms PH financial system strength, monitors concentration risk, and strengthens data sharing for risk monitoring",
-    "source": "Bangko Sentral ng Pilipinas AI/Tech",
-    "date": "2026-03-19T10:07:40.000Z",
     "reason_dropped": "low_relevance"
   },
   {
@@ -357,6 +357,18 @@
     "title": "Yields on government debt end lower",
     "source": "BusinessWorld AI/Tech",
     "date": "2026-04-19T16:02:15.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Cebu-based university opens first-of-its-kind esports hub",
+    "source": "Inquirer Tech",
+    "date": "2026-04-20T16:33:30.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "What we know about the iPhone Fold: Apple’s entry into foldable phones",
+    "source": "Inquirer Tech",
+    "date": "2026-04-20T11:44:30.000Z",
     "reason_dropped": "low_relevance"
   },
   {
@@ -582,21 +594,45 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Metroidvania game Fallen Tear: The Ascension made by Filipino devs released to positive acclaim on Steam Early Access",
-    "source": "Inquirer Tech",
-    "date": "2026-04-02T13:10:12.000Z",
+    "title": "DOE ‘open’ to lifting ban on new coal plants",
+    "source": "Inquirer Business AI/Tech",
+    "date": "2026-04-20T14:56:29.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Lost & Found by Pinoy Dev explores unique stories in lost objects",
-    "source": "Inquirer Tech",
-    "date": "2026-04-01T22:16:50.000Z",
+    "title": "Gov’t gains power to cap fuel hikes, enforce minimum price cuts",
+    "source": "Inquirer Business AI/Tech",
+    "date": "2026-04-20T14:16:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Singapore’s Motiv Esports wins VCL 2026 SEA Split 1",
-    "source": "Inquirer Tech",
-    "date": "2026-03-30T00:48:10.000Z",
+    "title": "Philippines posted wider BOP deficit in March amid oil price surge",
+    "source": "Inquirer Business AI/Tech",
+    "date": "2026-04-20T13:53:50.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Ayala Land pauses Laurean Residences sales amid global risks",
+    "source": "Inquirer Business AI/Tech",
+    "date": "2026-04-20T13:07:25.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Philippine car sales fell 9.8% in Q1",
+    "source": "Inquirer Business AI/Tech",
+    "date": "2026-04-20T12:52:26.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "BPI posts modest Q1 profit rise to P16.9B",
+    "source": "Inquirer Business AI/Tech",
+    "date": "2026-04-20T12:03:05.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Diesel prices to drop by nearly P25/liter on April 21",
+    "source": "Inquirer Business AI/Tech",
+    "date": "2026-04-20T11:59:44.000Z",
     "reason_dropped": "low_relevance"
   },
   {
@@ -792,45 +828,21 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "P25-B BDO backing hinges on ‘Piki’ staying in control, says First Gen",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-04-17T12:28:41.000Z",
+    "title": "Government Service Express now serving you at SM City Caloocan",
+    "source": "Philippine Star Business AI/Tech",
+    "date": "2026-04-20T04:10:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Uniqlo opens largest Southeast Asia logistics hub in Cavite",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-04-17T12:17:53.000Z",
+    "title": "'Unli Apps' highlights Smart's latest postpaid plans",
+    "source": "Philippine Star Business AI/Tech",
+    "date": "2026-04-20T03:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Toll fees waived for DA-listed trucks with agri cargo",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-04-17T11:00:30.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Diesel, gasoline prices seen sliding some more",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-04-17T10:24:18.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "No price hikes for basic goods until May 10 — DTI",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-04-17T10:04:34.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Chinabank declares P7.5B cash dividends on strong 2025 earnings",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-04-17T09:48:46.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Vena group gets P2.7-B loan for Ilocos Norte solar park",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-04-17T08:51:16.000Z",
+    "title": "Globe Business empowers Philippine enterprises with context-rich, real-time AI through new managed data streaming platform",
+    "source": "Philippine Star Business AI/Tech",
+    "date": "2026-04-20T01:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
@@ -930,81 +942,63 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Home Credit joins LenderLink’s network to expand credit access",
-    "source": "Philippine Star Business AI/Tech",
-    "date": "2026-04-18T16:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Singapore firm gets P2.7 billion loan for solar expansion",
-    "source": "Philippine Star Business AI/Tech",
-    "date": "2026-04-18T16:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "The compounding cost of crisis: Rising subsidies and impending blackouts in off-grid Philippines",
-    "source": "Philippine Star Business AI/Tech",
-    "date": "2026-04-18T16:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "OCTA: Majority still trust, satisfied with VP Sara",
+    "title": "₱271 million, one quiet morning: A mother’s story of luck, discipline, and grace",
     "source": "Malaya Business AI/Tech",
-    "date": "2026-04-20T02:26:34.000Z",
+    "date": "2026-04-20T08:59:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "OCTA: Marcos regains majority trust, performance ratings",
+    "title": "BingoPlus players cash in on massive rebates promo",
     "source": "Malaya Business AI/Tech",
-    "date": "2026-04-20T02:20:24.000Z",
+    "date": "2026-04-20T08:48:33.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "BSP seen raising yield rates as oil shock feeds inflation",
+    "title": "Mang Inasal unveils Strawberry Cheesecake Halo-Halo with a Biscoff Crunch",
     "source": "Malaya Business AI/Tech",
-    "date": "2026-04-19T16:55:00.000Z",
+    "date": "2026-04-20T08:43:57.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Foreign investors press PH for transparency in infra spending",
+    "title": "Witness says bulk of flood control funds went to corrupt officials",
     "source": "Malaya Business AI/Tech",
-    "date": "2026-04-19T16:54:00.000Z",
+    "date": "2026-04-20T08:43:12.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Middle East Crisis May Push 1.34M Filipinos Into Poverty",
+    "title": "DepEd announces June 8 opening for SY 2026-2027",
     "source": "Malaya Business AI/Tech",
-    "date": "2026-04-19T16:53:00.000Z",
+    "date": "2026-04-20T07:54:16.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Fuel prices set for 2nd big rollback",
+    "title": "Federal Land property firm’s prospects stay positive despite Middle East war",
     "source": "Malaya Business AI/Tech",
-    "date": "2026-04-19T16:53:00.000Z",
+    "date": "2026-04-20T07:24:21.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "DTI extends price freeze as retailers absorb oil shock",
+    "title": "Mark Villar says SEC complaint vs Villar Land Holdings lack merit",
     "source": "Malaya Business AI/Tech",
-    "date": "2026-04-19T16:52:00.000Z",
+    "date": "2026-04-20T07:16:29.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Meralco customers to get P19.96B refund – ERC",
+    "title": "Even Mindanao wants a Sara impeachment trial, solon says of latest OCTA survey",
     "source": "Malaya Business AI/Tech",
-    "date": "2026-04-19T16:51:00.000Z",
+    "date": "2026-04-20T06:13:06.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "SHARES WEEKLY OUTLOOK: PSEi face volatile wk as Hormuz risk returns",
+    "title": "PCSO delivers food packs and mobility aids to Talavera’s most vulnerable",
     "source": "Malaya Business AI/Tech",
-    "date": "2026-04-19T16:50:00.000Z",
+    "date": "2026-04-20T05:59:04.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "CRACKDOWN ON STATIONS CHARGING UNJUSTIFIED FUEL PRICES URGED",
+    "title": "Rising external gap tests resilience: $5.3-B BOP deficit signals currency pressures",
     "source": "Malaya Business AI/Tech",
-    "date": "2026-04-19T16:38:00.000Z",
+    "date": "2026-04-20T05:51:13.000Z",
     "reason_dropped": "low_relevance"
   },
   {
@@ -1012,6 +1006,54 @@
     "source": "e27 SEA Tech",
     "date": "2026-04-17T09:21:39.000Z",
     "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "Salmon raises US$100M in dual-tranche round to accelerate Philippine banking expansion",
+    "source": "e27 SEA Tech",
+    "date": "2026-04-20T08:19:50.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Igloo appoints Ramjit Lahiri to lead high-stakes Philippines expansion",
+    "source": "e27 SEA Tech",
+    "date": "2026-04-20T06:19:08.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "e27 and MREIT, Inc. partner for Digital Park launch in McKinley Hill",
+    "source": "e27 SEA Tech",
+    "date": "2026-04-20T05:26:11.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "While you were sleeping: Iran closed a critical oil route and crypto exploits",
+    "source": "e27 SEA Tech",
+    "date": "2026-04-20T04:30:46.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "More parcels, less profit: Logistics’ big squeeze",
+    "source": "e27 SEA Tech",
+    "date": "2026-04-20T04:25:23.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "The hidden architecture of inequality and how to code it out",
+    "source": "e27 SEA Tech",
+    "date": "2026-04-20T03:00:06.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "The real reason MSMEs are not getting value from AI and how to fix it",
+    "source": "e27 SEA Tech",
+    "date": "2026-04-20T03:00:05.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Greenwashing by malware: The new cyber threat to sustainability data",
+    "source": "e27 SEA Tech",
+    "date": "2026-04-20T02:50:52.000Z",
+    "reason_dropped": "low_relevance"
   },
   {
     "title": "The hidden cost of scaling in Asia: Why operational complexity decides who wins",
@@ -1233,42 +1275,6 @@
     "title": "Why the illusion of AI perfection is quietly killing team innovation",
     "source": "e27 SEA Tech",
     "date": "2026-04-15T11:40:25.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Reinvention vs improvement: Are we changing the process or the product?",
-    "source": "e27 SEA Tech",
-    "date": "2026-04-15T11:30:33.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "In the age of AI, people matter more than ever",
-    "source": "e27 SEA Tech",
-    "date": "2026-04-15T11:10:41.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Why founders should stop hustling and start automating",
-    "source": "e27 SEA Tech",
-    "date": "2026-04-15T11:00:55.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Animoca Brands’s quiet pivot: From Web3 hype to regulated money",
-    "source": "e27 SEA Tech",
-    "date": "2026-04-15T08:56:20.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Share2Inspire thinks your CV isn’t failing; it’s being misread",
-    "source": "e27 SEA Tech",
-    "date": "2026-04-15T06:44:46.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Is Bitcoin’s geopolitical rally sustainable? The data says maybe, but there’s a catch",
-    "source": "e27 SEA Tech",
-    "date": "2026-04-15T04:19:48.000Z",
     "reason_dropped": "low_relevance"
   },
   {
