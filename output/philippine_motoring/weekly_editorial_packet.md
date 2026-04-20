@@ -1,6 +1,6 @@
 # Weekly Editorial Packet — Philippine Motoring
 
-Week of 2026-04-13
+Week of 2026-04-20
 
 ## Editorial Read
 
@@ -10,21 +10,13 @@ Week of 2026-04-13
 
 ## What matters most
 
-### ownership cost reality
-- Why it matters: The useful signal is not just what vehicles cost to buy, but what they cost to keep, fuel, register, and use.
-- Pattern: The real cost of owning and using a vehicle is becoming harder to hide behind sticker prices.
-- Tension: cost vs usage
-- Supporting stories:
-- [ICTSI braces for fuel supply uncertainty](https://business.inquirer.net/585660/ictsi-braces-for-fuel-supply-uncertainty) | Inquirer Business | Makes fuel-price pressure part of the buyer and operator story.
-- [Grab now gives its driver-partners easier access to EV adoption](https://www.topgear.com.ph/news/motoring-news/grab-eco-drive-initiative-2026-a6938-20260416-lfrm) | TopGear Philippines | Shows how pump-price swings can quickly change household and fleet costs.
-
 ### pricing pressure
 - Why it matters: Price cuts, fuel swings, and SRP signals are turning affordability into the central motoring story.
 - Pattern: Vehicle and fuel costs are pressing harder against household purchasing power.
 - Tension: affordability vs aspiration
 - Supporting stories:
-- [Converge fast-tracks shift to electric vehicle fleet](https://www.philstar.com/business/2026/04/18/2521668/converge-fast-tracks-shift-electric-vehicle-fleet) | Philstar Business | Makes fuel-price pressure part of the buyer and operator story.
-- [You can now buy a rebuilt AE86 Levin from Tom’s; prices start at P6.24-M](https://www.topgear.com.ph/news/car-news/toyota-ae86-levin-toms-heritage-a6888-20260416) | TopGear Philippines | Makes the affordability test visible, not just the launch claim.
+- [Another double-digit drop seen for diesel prices](https://business.inquirer.net/586026/another-double-digit-drop-seen-for-diesel-prices) | Inquirer Business | Makes fuel-price pressure part of the buyer and operator story.
+- [Biggest diesel price cut of up to P26.50/liter possible on April 21](https://business.inquirer.net/586057/biggest-diesel-price-cut-of-up-to-p26-50-liter-possible-on-april-21) | Inquirer Business | Shows how pump-price swings can quickly change household and fleet costs.
 
 ### EV transition gap
 - Why it matters: EV and hybrid momentum matters only if charging access, pricing, and everyday use can catch up.
@@ -32,8 +24,17 @@ Week of 2026-04-13
 - Tension: adoption vs infrastructure
 - Supporting stories:
 - [DTI rolls out P2-B loan for for transport operators’ EV purchases](https://business.inquirer.net/585891/dti-rolls-out-p2-b-loan-for-for-transport-operators-ev-purchases) | Inquirer Business | Shows where road rules are starting to meet actual driver behavior.
-- [Electric vehicle buying frenzy; 6 Changans](https://businessmirror.com.ph/2026/04/17/electric-vehicle-buying-frenzy-6-changans) | BusinessMirror Motoring | Makes fuel-price pressure part of the buyer and operator story.
-- [The Suzuki e-Vitara may enter PH with less range than its Toyota twin](https://www.topgear.com.ph/news/car-news/suzuki-evitara-2026-lto-approval-a6888-20260417) | TopGear Philippines | Makes enforcement part of the motoring cost and discipline story.
+- [GAC GS8 hybrid introduced, P2.338M](https://www.bworldonline.com/velocity/2026/04/20/743813/gac-gs8-hybrid-introduced-p2-338m) | BusinessWorld Online | Makes the affordability test visible, not just the launch claim.
+- [Previewed: BYD Sealion 7 and BYD Atto 2 EV](https://www.bworldonline.com/velocity/2026/04/20/743819/previewed-byd-sealion-7-and-byd-atto-2-ev) | BusinessWorld Online | Shows how electrified models are being pushed into a still-cost-sensitive market.
+
+### ownership cost reality
+- Why it matters: The useful signal is not just what vehicles cost to buy, but what they cost to keep, fuel, register, and use.
+- Pattern: The real cost of owning and using a vehicle is becoming harder to hide behind sticker prices.
+- Tension: cost vs usage
+- Supporting stories:
+- [DoTr reviews airline surcharges after Level 8 increase](https://www.bworldonline.com/corporate/2026/04/20/744002/dotr-reviews-airline-surcharges-after-level-8-increase) | BusinessWorld Online | Shows where road rules are starting to meet actual driver behavior.
+- [Fossil fuel-based power output boosted amid Luzon supply alert](https://business.inquirer.net/586052/fossil-fuel-based-power-output-boosted-amid-luzon-supply-alert) | Inquirer Business | Makes fuel-price pressure part of the buyer and operator story.
+- [Grab now gives its driver-partners easier access to EV adoption](https://www.topgear.com.ph/news/motoring-news/grab-eco-drive-initiative-2026-a6938-20260416-lfrm) | TopGear Philippines | Shows how pump-price swings can quickly change household and fleet costs.
 
 ### infrastructure constraint
 - Why it matters: Road, charging, and mobility capacity are shaping what the market can actually absorb.
@@ -41,23 +42,17 @@ Week of 2026-04-13
 - Tension: usage vs capacity
 - Supporting stories:
 - [Toll fees waived for DA-listed trucks with agri cargo](https://business.inquirer.net/585849/toll-fees-waived-for-da-listed-trucks-with-agri-cargo) | Inquirer Business | Makes the affordability test visible, not just the launch claim.
-- [Airport improvement continues; electrified Toyota](https://businessmirror.com.ph/2026/04/02/airport-improvement-continues-electrified-toyota) | BusinessMirror Motoring | Shows how electrified models are being pushed into a still-cost-sensitive market.
+- [Addressing the traffic crisis . . . decisively and sustainably](https://business.inquirer.net/586131/addressing-the-traffic-crisis-decisively-and-sustainably) | Inquirer Business | Shows how electrified models are being pushed into a still-cost-sensitive market.
+- [Premium off-road sub-marque to make inroads](https://www.bworldonline.com/velocity/2026/04/20/743820/premium-off-road-sub-marque-to-make-inroads) | BusinessWorld Online | Keeps the EV transition tied to price, range, and everyday usability.
 
-### supply and availability
-- Why it matters: Availability and inventory are becoming practical constraints on what buyers can choose and what dealers can push.
-- Pattern: Availability is becoming part of the market story, not just background logistics.
-- Tension: supply vs demand
+### consumer demand shift
+- Why it matters: These stories show where manufacturers think Filipino buyers will compromise, stretch, or walk away.
+- Pattern: Brands are testing what Filipino buyers will still stretch for under tighter cost pressure.
+- Tension: aspiration vs affordability
 - Supporting stories:
-- [Nestlé Philippines says it may focus on basic goods if fuel supply tightens](https://www.bworldonline.com/corporate/2026/04/17/743531/nestle-philippines-says-it-may-focus-on-basic-goods-if-fuel-supply-tightens) | BusinessWorld Online | Makes fuel-price pressure part of the buyer and operator story.
+- [Family SUV, small sedan unveiled by Changan](https://www.bworldonline.com/velocity/2026/04/20/743815/family-suv-small-sedan-unveiled-by-changan) | BusinessWorld Online | Shows how electrified models are being pushed into a still-cost-sensitive market.
 
 ## Structural shifts
-
-### motoring market signal
-- Editorial note: Early signal of where buyer interest, product strategy, and affordability may be moving next.
-- Pattern: The market is starting to show what buyers can still afford, and what they will not.
-- Tension: cost vs demand
-- Supporting stories:
-- [Ayala Land opens Arca South transport hub](https://www.philstar.com/business/2026/04/18/2521670/ayala-land-opens-arca-south-transport-hub) | Philstar Business | Adds a concrete read on buyer behavior in the Philippine motoring market.
 
 ### regulation and enforcement
 - Editorial note: Policy only changes driver and operator behavior when enforcement becomes visible and consistent.
@@ -66,10 +61,17 @@ Week of 2026-04-13
 - Supporting stories:
 - [Smoke Machine PH’s viral Toyota Innova has been impounded by the LTO](https://www.topgear.com.ph/news/motoring-news/smoke-machine-ph-impound-lto-a5361-20260417) | TopGear Philippines | Shows where road rules are starting to meet actual driver behavior.
 
+### motoring market signal
+- Editorial note: Early signal of where buyer interest, product strategy, and affordability may be moving next.
+- Pattern: The market is starting to show what buyers can still afford, and what they will not.
+- Tension: cost vs demand
+- Supporting stories:
+- [Get that big family car upgrade with a partner you can trust](https://www.topgear.com.ph/sponsored-content/metrobank-goals-made-real-2026-advcon-a6940-a6940-20260420) | TopGear Philippines | Adds a concrete read on buyer behavior in the Philippine motoring market.
+
 ## What seems to be happening
 
-- The real cost of owning and using a vehicle is becoming harder to hide behind sticker prices.
 - Vehicle and fuel costs are pressing harder against household purchasing power.
 - EV and hybrid launches are moving faster than the everyday infrastructure around them.
+- The real cost of owning and using a vehicle is becoming harder to hide behind sticker prices.
 - Mobility demand is running into road, charging, and transport capacity limits.
-- Availability is becoming part of the market story, not just background logistics.
+- Brands are testing what Filipino buyers will still stretch for under tighter cost pressure.

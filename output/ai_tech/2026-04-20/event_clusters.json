@@ -1,0 +1,44 @@
+[
+  {
+    "cluster_id": "event_001",
+    "cluster_kind": "same_event",
+    "lead_story_id": "23624d66f30a",
+    "story_count": 2,
+    "story_ids": [
+      "23624d66f30a",
+      "17bf9cbe1f8c"
+    ],
+    "story_titles": [
+      "Accelerating the cyber defense ecosystem that protects us all",
+      "Trusted access for the next era of cyber defense"
+    ],
+    "associated_stories": [
+      {
+        "id": "23624d66f30a",
+        "title": "Accelerating the cyber defense ecosystem that protects us all",
+        "url": "https://openai.com/index/accelerating-cyber-defense-ecosystem",
+        "source": "OpenAI Blog",
+        "published_at": "2026-04-16T00:00:00.000Z"
+      },
+      {
+        "id": "17bf9cbe1f8c",
+        "title": "Trusted access for the next era of cyber defense",
+        "url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
+        "source": "OpenAI Blog",
+        "published_at": "2026-04-14T00:00:00.000Z"
+      }
+    ],
+    "entities": [
+      "openai"
+    ],
+    "event_label": "Accelerating the cyber defense ecosystem that protects us all",
+    "compression_line": "Multiple reports point to the same development around Accelerating the cyber defense ecosystem that protects us all, giving the cluster enough support for downstream treatment.",
+    "priority_score": 52,
+    "editorial_bucket": "context_watch",
+    "primary_theme_id": "models_platforms",
+    "primary_theme_label": "models and platform releases",
+    "supporting_story_ids": [
+      "17bf9cbe1f8c"
+    ]
+  }
+]
