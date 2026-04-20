@@ -11,3 +11,4 @@ coverage/
 stories.json
 weekly_editorial_packet.json
 *.tmp
+.DS_Store
