@@ -10,12 +10,12 @@ Week of 2026-04-20
 
 ## What matters most
 
-### property credit conditions
-- Why it matters: Product and platform moves are starting to matter less as launches and more as battles over who controls the workflow.
-- Pattern: Platform change is showing up first in developer workflow and tooling.
-- Tension: platform expansion vs developer readiness
+### property stress
+- Why it matters: Vacancy, oversupply, and weak absorption are harder property signals than launch activity.
+- Pattern: Stress signals are showing up in vacancy, oversupply, or weaker absorption rather than in launch volume.
+- Tension: inventory vs demand
 - Supporting stories:
-- [PRA backs easing of foreign ownership limits](https://business.inquirer.net/586121/pra-backs-easing-of-foreign-ownership-limits) | Inquirer Business Property | Adds a concrete read on Philippine property demand, supply, financing, or stress.
+- [When credit keeps growing but investment slows](https://business.inquirer.net/586357/when-credit-keeps-growing-but-investment-slows) | Inquirer Business Property | Shows whether the residential build pipeline is losing momentum.
 
 ### office market stress
 - Why it matters: Office stress matters because vacancy, rents, and leasing behavior reveal real utilization, not promotional demand.
@@ -25,13 +25,12 @@ Week of 2026-04-20
 - [Metro Manila Office Report Q3 2025](https://santosknightfrank.com/wp-content/uploads/2025/11/MMOR-Q325-v2.pdf) | Santos Knight Frank Market Reports | Shows real property utilization through vacancy, rents, or leasing demand.
 - [Opportunities amid Volatility](https://santosknightfrank.com/wp-content/uploads/2025/08/SKF-1H-2025_Opportunities-Amid-Volatility-Final-Compressed.pdf) | Santos Knight Frank Market Reports | Keeps the office read tied to occupancy and tenant behavior.
 
-### supply pipeline shift
-- Why it matters: Pipeline shifts matter because new supply can worsen imbalance if demand is not keeping up.
-- Pattern: Supply is becoming more uneven as construction, inventory, and geography matter more than headline expansion.
-- Tension: development pipeline vs market balance
+### affordability pressure
+- Why it matters: Affordability pressure determines who can still buy or rent, and where demand starts to break.
+- Pattern: The market is being shaped by who can still buy, rent, or absorb higher housing costs.
+- Tension: prices vs purchasing power
 - Supporting stories:
-- [Witness says bulk of flood control funds went to corrupt officials](https://malaya.com.ph/news/national-news/witness-says-bulk-of-flood-control-funds-went-to-corrupt-officials) | Malaya Business Property | Shows whether the residential build pipeline is losing momentum.
-- [Singaporean firm eyes 250-MW Bataan solar park](https://business.inquirer.net/586122/singaporean-firm-eyes-250-mw-bataan-solar-park) | Inquirer Business Property | Adds a concrete read on Philippine property demand, supply, financing, or stress.
+- [Urban boom deepens Metro Manila housing inequality—PIDS](https://mb.com.ph/article/10914716/business/the-economy/urban-boom-deepens-metro-manila-housing-inequalitypids) | Manila Bulletin Business Property | Adds a concrete read on Philippine property demand, supply, financing, or stress.
 
 ### price growth slowdown
 - Why it matters: Slower property-price growth changes the read on demand, affordability, and pricing power.
@@ -42,7 +41,7 @@ Week of 2026-04-20
 
 ## What seems to be happening
 
-- Platform change is showing up first in developer workflow and tooling.
+- Stress signals are showing up in vacancy, oversupply, or weaker absorption rather than in launch volume.
 - Office demand is still being tested by vacancy, rent, and tenant-cost pressure.
-- Supply is becoming more uneven as construction, inventory, and geography matter more than headline expansion.
+- The market is being shaped by who can still buy, rent, or absorb higher housing costs.
 - Home-price growth is losing speed rather than confirming a clean demand rebound.
