@@ -16,9 +16,9 @@ Week of 2026-04-20
 - Tension: adoption vs proof
 - Supporting stories:
 - [Accelerating the next phase of AI](https://openai.com/index/accelerating-the-next-phase-ai) | OpenAI Blog | Shows where policy pressure is starting to change operating choices.
+- [Opinion: AI adoption is the easy part. Scaling it safely is the real challenge](https://e27.co/ai-adoption-hitachi-vantara-20260129) | e27 SEA Tech | Shows where platform control is shifting into developer workflow.
 - [The next phase of enterprise AI](https://openai.com/index/next-phase-of-enterprise-ai) | OpenAI Blog | Marks a genuine change in direction, not another routine release.
-- [The architecture of atrophy: Why MS Copilot’s reliance on the LLM wrapper model led to its 2026 stagnation](https://e27.co/ms-copilot-2026-failure-analysis-ai-wrappers-20260413) | e27 SEA Tech | Shows where platform control is shifting into developer workflow.
-- [Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI](https://openai.com/index/cloudflare-openai-agent-cloud) | OpenAI Blog | Shows how safety posture is becoming part of product strategy.
+- [OpenAI helps Hyatt advance AI among colleagues](https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise) | OpenAI Blog | Shows how vendors are trying to lock in enterprise trust before demand settles.
 
 ### platform distribution fight
 - Why it matters: Multiple players are adding capability faster than they can secure capacity, coordination, or deployment discipline.
@@ -27,8 +27,8 @@ Week of 2026-04-20
 - Supporting stories:
 - [Codex now offers more flexible pricing for teams](https://openai.com/index/codex-flexible-pricing-for-teams) | OpenAI Blog | Makes the cost of scaling visible.
 - [Accelerating the cyber defense ecosystem that protects us all](https://openai.com/index/accelerating-cyber-defense-ecosystem) | OpenAI Blog | Shows where platform control is shifting into developer workflow.
-- [Build with Lyria 3, our newest music generation model](https://blog.google/innovation-and-ai/technology/developers-tools/lyria-3-developers) | Google AI Blog | Shows how the fight is moving into the tooling layer.
-- [Why AI won’t replace developers — but CEOs must lead the transformation](https://e27.co/why-ai-wont-replace-developers-but-ceos-must-lead-the-transformation-20250727) | e27 SEA Tech | Shows how vendors are trying to lock in enterprise trust before demand settles.
+- [New ways to balance cost and reliability in the Gemini API](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference) | Google AI Blog | Shows where strategy is running into execution reality.
+- [Build with Veo 3.1 Lite, our most cost-effective video generation model](https://blog.google/innovation-and-ai/technology/ai/veo-3-1-lite) | Google AI Blog | Shows where the economics start to tighten.
 
 ### workflow disruption
 - Why it matters: Multiple players are adding capability faster than they can secure capacity, coordination, or deployment discipline.
@@ -36,6 +36,7 @@ Week of 2026-04-20
 - Tension: ambition vs capacity
 - Supporting stories:
 - [How to choose a mobile data bundle](https://technology.inquirer.net/146178/how-to-choose-a-mobile-data-bundle) | Inquirer Tech | Marks a genuine change in direction, not another routine release.
+- [Introducing workspace agents in ChatGPT](https://openai.com/index/introducing-workspace-agents-in-chatgpt) | OpenAI Blog | Shows where platform control is shifting into developer workflow.
 - [Gradient Labs gives every bank customer an AI account manager](https://openai.com/index/gradient-labs) | OpenAI Blog | Shows where strategy is running into execution reality.
 
 ### AI governance pressure
@@ -44,8 +45,7 @@ Week of 2026-04-20
 - Tension: policy vs execution
 - Supporting stories:
 - [Trusted access for the next era of cyber defense](https://openai.com/index/scaling-trusted-access-for-cyber-defense) | OpenAI Blog | Shows how safety posture is becoming part of product strategy.
-- [Regulating AI in Asia Pacific: Can companies keep up?](https://e27.co/regulating-ai-in-asia-pacific-can-companies-keep-up-20250304) | e27 SEA Tech | Shows where policy pressure is starting to change operating choices.
-- [A sensitive matter](https://www.philstar.com/business/2026/04/19/2521900/sensitive-matter) | Philippine Star Business AI/Tech | Shows where platform control is shifting into developer workflow.
+- [Beyond Silicon Valley dreams: Why Southeast Asia is rewriting the rules of tech for good](https://e27.co/beyond-silicon-valley-dreams-why-southeast-asia-is-rewriting-the-rules-of-tech-for-good-20250824) | e27 SEA Tech | Strong local business relevance with likely downstream effects.
 
 ## What seems to be happening
 
