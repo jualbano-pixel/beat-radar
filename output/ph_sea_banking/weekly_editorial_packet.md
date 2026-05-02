@@ -4,27 +4,29 @@ Week of 2026-04-27
 
 ## Editorial Read
 
-- Credit conditions are leaning tighter as banks or regulators put more weight on borrower capacity and lending discipline.
+- Risk is becoming harder to treat as background noise, especially where bad-loan or borrower-capacity signals surface.
 - Deposit movement keeps funding cost and liquidity management near the center of the banking read.
+- Policy remains a live driver, but its market impact depends on whether it changes credit behavior rather than just compliance posture.
 
 ## What matters most
 
-### credit tightening
-- Why it matters: Credit discipline changes how much risk banks are willing to carry and which borrowers can still access loans.
-- Pattern: Credit rules and lending behavior are moving toward stricter discipline.
-- Tension: loan growth vs borrower quality
+### lending conditions
+- Why it matters: Regulatory and governance pressure is starting to shape rollout decisions before operating rules are fully settled.
+- Pattern: Policy is moving faster than operating clarity.
+- Tension: policy vs execution
 - Supporting stories:
-- [Term deposit yield climbs as BSP tightens stance](https://www.bworldonline.com/banking-finance/2026/04/30/746385/term-deposit-yield-climbs-as-bsp-tightens-stance) | BusinessWorld Banking | Connects bank behavior to actual credit conditions.
+- [Philippine banks keep lending rules unchanged despite war impact](https://business.inquirer.net/588170/ph-banks-keep-lending-rules-unchanged-despite-war-impact) | Inquirer Business | Connects bank behavior to actual credit conditions.
+- [Most PH banks expect to maintain lending standards in Q2](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7892) | Bangko Sentral ng Pilipinas | Shows how policy can change lending behavior or risk appetite.
 
 ### banking policy pressure
 - Why it matters: Regulatory and governance pressure is starting to shape rollout decisions before operating rules are fully settled.
 - Pattern: Policy is moving faster than operating clarity.
 - Tension: policy vs execution
 - Supporting stories:
-- [BSP seen to hike policy rate to 6%](https://business.inquirer.net/587698/bsp-seen-to-hike-policy-rate-to-6) | Inquirer Business | Shows how policy can change lending behavior or risk appetite.
-- [OCBC: Peso weakness to persist despite BSP rate hike](https://mb.com.ph/article/10915821/business/the-economy/ocbc-peso-weakness-to-persist-despite-bsp-rate-hike) | Manila Bulletin Business | Shows how policy can change lending behavior or risk appetite.
+- [BSP directs financial firms to do cyber self-checks](https://business.inquirer.net/588169/bsp-directs-financial-firms-to-do-cyber-self-checks) | Inquirer Business | Shows how policy can change lending behavior or risk appetite.
+- [Banks expect steady loan demand through Q2](https://mb.com.ph/article/10916206/business/banking-finance/banks-expect-steady-loan-demand-through-q2) | Manila Bulletin Business | Connects bank behavior to actual credit conditions.
+- [New BSP rules force banks to check cyber risks more often](https://mb.com.ph/article/10916195/business/banking-finance/new-bsp-rules-force-banks-to-check-cyber-risks-more-often) | Manila Bulletin Business | Shows where borrower stress is starting to matter for asset quality.
 - [BSP welcomes Moody's favorable assessment of PH banking system, external sector](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7880) | Bangko Sentral ng Pilipinas | Shows how policy can change lending behavior or risk appetite.
-- [BSP survey shows gains in youth and women's financial access, formal lending, financial literacy](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7878) | Bangko Sentral ng Pilipinas | Connects bank behavior to actual credit conditions.
 
 ### deposit funding shift
 - Why it matters: Deposit movement can change funding costs, margins, and competitive pressure across banks.
@@ -34,26 +36,25 @@ Week of 2026-04-27
 - [Monetary Board raises Target RRP Rate by 25 basis points](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7884) | Bangko Sentral ng Pilipinas | Connects bank behavior to actual credit conditions.
 - [FCDU loans increased by 2.9% to US$15.56 billion in Q4 2025](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7868) | Bangko Sentral ng Pilipinas | Makes funding and liquidity pressure visible beyond headline earnings.
 
+### borrower risk
+- Why it matters: Borrower stress matters because loan growth is less useful if asset quality is weakening underneath it.
+- Pattern: Borrower stress is becoming more visible beneath still-active lending.
+- Tension: growth vs asset quality
+- Supporting stories:
+- [Banks ordered to boost defense vs cyberattacks attacks](https://www.philstar.com/business/2026/05/02/2524987/banks-ordered-boost-defense-vs-cyberattacks-attacks) | Philstar Business | Shows where borrower stress is starting to matter for asset quality.
+
+## Structural shifts
+
 ### liquidity preservation
-- Why it matters: Liquidity management shapes whether banks stretch for growth or protect balance-sheet buffers.
+- Editorial note: Liquidity management shapes whether banks stretch for growth or protect balance-sheet buffers.
 - Pattern: Banks are prioritizing buffers and optionality over aggressive balance-sheet expansion.
 - Tension: liquidity vs growth
 - Supporting stories:
 - [BOP posts US$2.6 billion deficit in March 2026; end-March GIR settle at US$106.6 billion[1]](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7882) | Bangko Sentral ng Pilipinas | Makes funding and liquidity pressure visible beyond headline earnings.
 
-## Structural shifts
-
-### lending conditions
-- Editorial note: This is still early, but it is the kind of signal that matters if it repeats.
-- Pattern: Platform expansion is outrunning stable operating models.
-- Tension: momentum vs operating reality
-- Supporting stories:
-- [ADB to pair ASEAN disaster insurance with infrastructure loans](https://asia.nikkei.com/business/finance/adb-to-pair-asean-disaster-insurance-with-infrastructure-loans) | Nikkei Asia Business | Connects bank behavior to actual credit conditions.
-
 ## What seems to be happening
 
-- Credit rules and lending behavior are moving toward stricter discipline.
 - Policy is moving faster than operating clarity.
 - Deposit movement is making funding cost and liquidity management harder to ignore.
+- Borrower stress is becoming more visible beneath still-active lending.
 - Banks are prioritizing buffers and optionality over aggressive balance-sheet expansion.
-- Platform expansion is outrunning stable operating models.
