@@ -1,6 +1,6 @@
 # Weekly Editorial Packet — AI / Tech
 
-Week of 2026-04-27
+Week of 2026-05-04
 
 ## Editorial Read
 
@@ -15,10 +15,10 @@ Week of 2026-04-27
 - Pattern: Enterprise positioning is getting pushed ahead of proven demand.
 - Tension: adoption vs proof
 - Supporting stories:
-- [The next phase of enterprise AI](https://openai.com/index/next-phase-of-enterprise-ai) | OpenAI Blog | Marks a genuine change in direction, not another routine release.
-- [OpenAI helps Hyatt advance AI among colleagues](https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise) | OpenAI Blog | Shows how vendors are trying to lock in enterprise trust before demand settles.
-- [OpenAI available at FedRAMP Moderate](https://openai.com/index/openai-available-at-fedramp-moderate) | OpenAI Blog | Shows where platform control is shifting into developer workflow.
-- [Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI](https://openai.com/index/cloudflare-openai-agent-cloud) | OpenAI Blog | Shows how safety posture is becoming part of product strategy.
+- [OpenAI launches new voice intelligence features in its API](https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api) | TechCrunch AI | Shows who is trying to lock up position before the market settles.
+- [The “people’s airline” and the enterprise AI gold rush](https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush) | TechCrunch AI | Shows how vendors are trying to lock in enterprise trust before demand settles.
+- [Simplex rethinks software development with Codex](https://openai.com/index/simplex) | OpenAI Blog | Shows how the enterprise pitch is arriving ahead of proof.
+- [How SMEs can vet and choose AI partners that truly deliver](https://e27.co/tricentis-sme-ai-20250609) | e27 SEA Tech | Strong local business relevance with likely downstream effects.
 
 ### compute capacity strain
 - Why it matters: Compute capacity is becoming one of the practical limits on AI scaling.
@@ -33,16 +33,19 @@ Week of 2026-04-27
 - Tension: ambition vs capacity
 - Supporting stories:
 - [Accelerating the cyber defense ecosystem that protects us all](https://openai.com/index/accelerating-cyber-defense-ecosystem) | OpenAI Blog | Shows where platform control is shifting into developer workflow.
+- [Advancing voice intelligence with new models in the API](https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api) | OpenAI Blog | Early sign worth tracking if repeated.
+- [Omni HR publishes first independent AI readiness research report across APAC HR](https://e27.co/omni-hr-publishes-first-independent-ai-readiness-research-report-across-apac-hr-20260505) | e27 SEA Tech | Strong local business relevance with likely downstream effects.
+- [The hidden cost of AI coding: Why proof will matter more than prompts](https://e27.co/the-hidden-cost-of-ai-coding-why-proof-will-matter-more-than-prompts-20260429) | e27 SEA Tech | Makes the cost of scaling visible.
 
 ### workflow disruption
 - Why it matters: Multiple players are adding capability faster than they can secure capacity, coordination, or deployment discipline.
 - Pattern: Infrastructure is scaling faster than coordination.
 - Tension: ambition vs capacity
 - Supporting stories:
-- [How to choose a mobile data bundle](https://technology.inquirer.net/146178/how-to-choose-a-mobile-data-bundle) | Inquirer Tech | Marks a genuine change in direction, not another routine release.
+- [Startups driving AI automation, fintech, and accessibility gather at Echelon Singapore 2026](https://e27.co/startups-driving-ai-automation-fintech-and-accessibility-gather-at-echelon-singapore-2026-20260506) | e27 SEA Tech | Shows how vendors are trying to lock in enterprise trust before demand settles.
 - [Introducing workspace agents in ChatGPT](https://openai.com/index/introducing-workspace-agents-in-chatgpt) | OpenAI Blog | Shows where platform control is shifting into developer workflow.
-- [Southeast Asia’s AI agent opening is in messy workflows](https://e27.co/southeast-asias-ai-agent-opening-is-in-messy-workflows-20260428) | e27 SEA Tech | Early sign worth tracking if repeated.
-- [Filipino jobs among most exposed to GenAI risks in ASEAN](https://www.philstar.com/business/2026/05/02/2525174/filipino-jobs-among-most-exposed-genai-risks-asean) | Philippine Star Business AI/Tech | Strong local business relevance with likely downstream effects.
+- [The AI pipeline problem: How automation is breaking the career ladder in Southeast Asia](https://e27.co/the-ai-pipeline-problem-how-automation-is-breaking-the-career-ladder-in-southeast-asia-20260504) | e27 SEA Tech | Shows where policy pressure is starting to change operating choices.
+- [Reduce friction and latency for long-running jobs with Webhooks in Gemini API](https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks) | Google AI Blog | Shows where strategy is running into execution reality.
 
 ## Structural shifts
 
@@ -51,10 +54,10 @@ Week of 2026-04-27
 - Pattern: Policy is moving faster than operating clarity.
 - Tension: policy vs execution
 - Supporting stories:
-- [Salesforce is crowdsourcing its AI roadmap — with customers](https://techcrunch.com/2026/04/30/salesforce-is-crowdsourcing-its-ai-roadmap-with-customers) | TechCrunch AI | Early sign worth tracking if repeated.
-- [AI vs AI: Inside Southeast Asia’s new cybersecurity war](https://e27.co/ai-vs-ai-inside-southeast-asias-new-cybersecurity-war-20260119) | e27 SEA Tech | Shows where platform control is shifting into developer workflow.
+- [Breaking barriers: Reimagining SME growth with practical AI strategies](https://e27.co/zoom-sme-advice-20250609) | e27 SEA Tech | Strong local business relevance with likely downstream effects.
 - [Trusted access for the next era of cyber defense](https://openai.com/index/scaling-trusted-access-for-cyber-defense) | OpenAI Blog | Shows how safety posture is becoming part of product strategy.
-- [Philippines’s talent deficit is becoming an economic risk](https://e27.co/philippiness-talent-deficit-is-becoming-an-economic-risk-20260429) | e27 SEA Tech | Shows where supply strain is starting to hit the story.
+- [How ChatGPT learns about the world while protecting privacy](https://openai.com/index/how-chatgpt-protects-privacy) | OpenAI Blog | Early sign worth tracking if repeated.
+- [Testing ads in ChatGPT](https://openai.com/index/testing-ads-in-chatgpt) | OpenAI Blog | Gives the theme a concrete operating example.
 
 ## What seems to be happening
 
