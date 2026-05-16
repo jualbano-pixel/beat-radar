@@ -1,6 +1,6 @@
 # Weekly Editorial Packet — Philippine / SEA Banking
 
-Week of 2026-05-04
+Week of 2026-05-11
 
 ## Editorial Read
 
@@ -10,64 +10,62 @@ Week of 2026-05-04
 
 ## What matters most
 
-### liquidity preservation
-- Why it matters: Liquidity management shapes whether banks stretch for growth or protect balance-sheet buffers.
-- Pattern: Banks are prioritizing buffers and optionality over aggressive balance-sheet expansion.
-- Tension: liquidity vs growth
-- Supporting stories:
-- [Dollar reserves dip to $104 billion in April](https://www.philstar.com/business/2026/05/09/2526561/dollar-reserves-dip-104-billion-april) | Philstar Business | Makes funding and liquidity pressure visible beyond headline earnings.
-- [Philippines’ dollar reserves slide to 15-month low at end-April](https://www.bworldonline.com/top-stories/2026/05/08/748434/philippines-dollar-reserves-slide-to-15-month-low-at-end-april) | BusinessWorld Banking | Shows how policy can change lending behavior or risk appetite.
-- [GIR weighed down by MidEast war-induced volatility](https://business.inquirer.net/589381/gir-weighed-down-by-mideast-war-induced-volatility) | Inquirer Business | Makes funding and liquidity pressure visible beyond headline earnings.
-- [Philippine foreign reserves sink to 15-month low in April as forex, investments decline](https://mb.com.ph/article/10917138/business/the-economy/philippine-foreign-reserves-sink-to-15-month-low-in-april-as-forex-investments-decline) | Manila Bulletin Business | Makes funding and liquidity pressure visible beyond headline earnings.
-
 ### banking policy pressure
 - Why it matters: Regulatory and governance pressure is starting to shape rollout decisions before operating rules are fully settled.
 - Pattern: Policy is moving faster than operating clarity.
 - Tension: policy vs execution
 - Supporting stories:
-- [Philippine banks shielded from Mideast risks as assets hit ₱30 trillion](https://mb.com.ph/article/10917102/business/banking-finance/philippine-banks-shielded-from-mideast-risks-as-assets-hit-30-trillion) | Manila Bulletin Business | Shows where borrower stress is starting to matter for asset quality.
-- [Jumbo rate hikes seen despite anemic growth](https://business.inquirer.net/589377/jumbo-rate-hikes-seen-despite-anemic-growth) | Inquirer Business | Shows how policy can change lending behavior or risk appetite.
-- [Philippine banking sector to see limited direct impact from war](https://www.bworldonline.com/banking-finance/2026/05/08/748253/philippine-banking-sector-to-see-limited-direct-impact-from-war) | BusinessWorld Banking | Makes funding and liquidity pressure visible beyond headline earnings.
+- [March remittance growth slowest in nearly three years](https://www.bworldonline.com/top-stories/2026/05/15/750023/march-remittance-growth-slowest-in-nearly-three-years) | BusinessWorld Banking | Shows how policy can change lending behavior or risk appetite.
+- [BSP joins other central banks, finance ministries in affirming ASEAN+3 cooperation](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7902) | Bangko Sentral ng Pilipinas | Shows how policy can change lending behavior or risk appetite.
 - [BSP welcomes Moody's favorable assessment of PH banking system, external sector](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7880) | Bangko Sentral ng Pilipinas | Shows how policy can change lending behavior or risk appetite.
+- [PH financial system remains resilient in H2 2025](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7896) | Bangko Sentral ng Pilipinas | Shows how policy can change lending behavior or risk appetite.
 
-### credit tightening
-- Why it matters: Credit discipline changes how much risk banks are willing to carry and which borrowers can still access loans.
-- Pattern: Credit rules and lending behavior are moving toward stricter discipline.
-- Tension: loan growth vs borrower quality
+### deposit funding shift
+- Why it matters: Deposit movement can change funding costs, margins, and competitive pressure across banks.
+- Pattern: Deposit movement is making funding cost and liquidity management harder to ignore.
+- Tension: funding stability vs margin pressure
 - Supporting stories:
-- [Pantheon breaks with consensus, calling BSP rate hike ‘misguided’](https://mb.com.ph/article/10917231/business/banking-finance/pantheon-breaks-with-consensus-calling-bsp-rate-hike-misguided) | Manila Bulletin Business | Connects bank behavior to actual credit conditions.
+- [Monetary Board raises Target RRP Rate by 25 basis points](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7884) | Bangko Sentral ng Pilipinas | Connects bank behavior to actual credit conditions.
+- [ADB offers Philippines up to $1.75B in funding support as Iran war hits economy](https://www.bworldonline.com/top-stories/2026/05/15/750019/adb-offers-philippines-up-to-1-75b-in-funding-support-as-iran-war-hits-economy) | BusinessWorld Banking | Makes funding and liquidity pressure visible beyond headline earnings.
+
+### lending conditions
+- Why it matters: Regulatory and governance pressure is starting to shape rollout decisions before operating rules are fully settled.
+- Pattern: Policy is moving faster than operating clarity.
+- Tension: policy vs execution
+- Supporting stories:
+- [Philippines eyes $300-million initial draw from World Bank loan](https://mb.com.ph/article/10918287/business/trade-industry/philippines-eyes-300-million-initial-draw-from-world-bank-loan) | Manila Bulletin Business | Connects bank behavior to actual credit conditions.
+- [Most PH banks expect to maintain lending standards in Q2](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7892) | Bangko Sentral ng Pilipinas | Shows how policy can change lending behavior or risk appetite.
+- [BDO sees strong loan growth despite higher rates](https://www.philstar.com/business/2026/05/16/2528188/bdo-sees-strong-loan-growth-despite-higher-rates) | Philstar Business | Connects bank behavior to actual credit conditions.
+- [Philippines to repay its biggest-ever World Bank loan for agriculture until 2044](https://mb.com.ph/article/10918246/business/banking-finance/philippines-to-repay-its-biggest-ever-world-bank-loan-for-agriculture-until-2044) | Manila Bulletin Business | Connects bank behavior to actual credit conditions.
 
 ### borrower risk
 - Why it matters: Borrower stress matters because loan growth is less useful if asset quality is weakening underneath it.
 - Pattern: Borrower stress is becoming more visible beneath still-active lending.
 - Tension: growth vs asset quality
 - Supporting stories:
-- [Banks to weather Iran shocks – BSP](https://business.inquirer.net/589205/banks-to-weather-iran-shocks-bsp) | Inquirer Business | Shows where borrower stress is starting to matter for asset quality.
-- [Higher provisions drag down PSBank earnings](https://business.inquirer.net/589383/higher-provisions-drag-down-psbank-earnings) | Inquirer Business | Makes funding and liquidity pressure visible beyond headline earnings.
-- [EastWest Bank nets P1.9B in first quarter](https://business.inquirer.net/589071/eastwest-bank-nets-p1-9b-in-first-quarter) | Inquirer Business | Connects bank behavior to actual credit conditions.
-- [World Bank Group's MIGA, ADB deepen Asia investment push](https://mb.com.ph/article/10917143/business/banking-finance/world-bank-groups-miga-adb-deepen-asia-investment-push) | Manila Bulletin Business | Shows where borrower stress is starting to matter for asset quality.
+- [Asia-Pacific banks face growing credit risks, raise provisions as Iran war drags on](https://www.businesstimes.com.sg/companies-markets/banking-finance/asia-pacific-banks-face-growing-credit-risks-raise-provisions-iran-war-drags) | The Business Times Banking | Shows where borrower stress is starting to matter for asset quality.
+- [BDO expects loan growth, asset quality hit from war-driven inflation spike](https://www.bworldonline.com/banking-finance/2026/05/15/749855/bdo-expects-loan-growth-asset-quality-hit-from-war-driven-inflation-spike) | BusinessWorld Banking | Connects bank behavior to actual credit conditions.
 
 ## Structural shifts
 
-### lending conditions
-- Editorial note: Regulatory and governance pressure is starting to shape rollout decisions before operating rules are fully settled.
-- Pattern: Policy is moving faster than operating clarity.
-- Tension: policy vs execution
+### credit tightening
+- Editorial note: Credit discipline changes how much risk banks are willing to carry and which borrowers can still access loans.
+- Pattern: Credit rules and lending behavior are moving toward stricter discipline.
+- Tension: loan growth vs borrower quality
 - Supporting stories:
-- [Most PH banks expect to maintain lending standards in Q2](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7892) | Bangko Sentral ng Pilipinas | Connects bank behavior to actual credit conditions.
+- [Jollibee downgrades to MSCI small cap index](https://business.inquirer.net/590703/jollibee-downgrades-to-msci-small-cap-index) | Inquirer Business | Makes funding and liquidity pressure visible beyond headline earnings.
 
-### deposit funding shift
-- Editorial note: Deposit movement can change funding costs, margins, and competitive pressure across banks.
-- Pattern: Deposit movement is making funding cost and liquidity management harder to ignore.
-- Tension: funding stability vs margin pressure
+### liquidity preservation
+- Editorial note: Liquidity management shapes whether banks stretch for growth or protect balance-sheet buffers.
+- Pattern: Banks are prioritizing buffers and optionality over aggressive balance-sheet expansion.
+- Tension: liquidity vs growth
 - Supporting stories:
-- [Monetary Board raises Target RRP Rate by 25 basis points](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7884) | Bangko Sentral ng Pilipinas | Connects bank behavior to actual credit conditions.
-- [RCBC’s Hexagon Club expands perks for Filipino mothers](https://mb.com.ph/article/10917329/business/banking-finance/rcbcs-hexagon-club-expands-perks-for-filipino-mothers) | Manila Bulletin Business | Makes funding and liquidity pressure visible beyond headline earnings.
+- [BOP posts US$2.6 billion deficit in March 2026; end-March GIR settle at US$106.6 billion[1]](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7882) | Bangko Sentral ng Pilipinas | Makes funding and liquidity pressure visible beyond headline earnings.
 
 ## What seems to be happening
 
-- Banks are prioritizing buffers and optionality over aggressive balance-sheet expansion.
 - Policy is moving faster than operating clarity.
-- Credit rules and lending behavior are moving toward stricter discipline.
-- Borrower stress is becoming more visible beneath still-active lending.
 - Deposit movement is making funding cost and liquidity management harder to ignore.
+- Borrower stress is becoming more visible beneath still-active lending.
+- Credit rules and lending behavior are moving toward stricter discipline.
+- Banks are prioritizing buffers and optionality over aggressive balance-sheet expansion.
