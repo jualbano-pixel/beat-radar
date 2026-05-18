@@ -2079,6 +2079,12 @@ function buildStoryBriefItem(
   );
   const reasonKept = uniqueStories.flatMap((story) => story.reason_kept ?? []);
   const patternAndTension = inferPatternAndTensionForLabel(label, reasonCodes, angles);
+  const bankingFreshPattern = uniqueStories.some((story) => story.beat === "ph_sea_banking")
+    ? bankingFreshPatternAndTension(label, uniqueStories)
+    : null;
+  const bankingFreshWhy = uniqueStories.some((story) => story.beat === "ph_sea_banking")
+    ? bankingFreshWhyLine(label, uniqueStories)
+    : null;
   const topPriority = Math.max(...uniqueStories.map((story) => story.priority_score ?? 0), 0);
   const propertyScoreBoost =
     uniqueStories.some((story) => story.property_filter?.stress_signal) ? 8 : 0;
@@ -2106,9 +2112,9 @@ function buildStoryBriefItem(
       propertyScoreBoost +
       hardSignalBoost -
       interpretationPenalty,
-    whyItMatters: buildEditorialWhyLineForLabel(label, reasonCodes, angles, reasonKept),
-    pattern: patternAndTension.pattern,
-    tension: patternAndTension.tension,
+    whyItMatters: bankingFreshWhy ?? buildEditorialWhyLineForLabel(label, reasonCodes, angles, reasonKept),
+    pattern: bankingFreshPattern?.pattern ?? patternAndTension.pattern,
+    tension: bankingFreshPattern?.tension ?? patternAndTension.tension,
     supportingStories: pickSupportingStories(uniqueStories, 4)
   };
 }
@@ -2198,18 +2204,24 @@ function buildThemeBriefItem(
     dominantReasonCodes,
     dominantAngles
   );
+  const bankingFreshPattern = stories.some((story) => story.beat === "ph_sea_banking")
+    ? bankingFreshPatternAndTension(label, stories)
+    : null;
+  const bankingFreshWhy = stories.some((story) => story.beat === "ph_sea_banking")
+    ? bankingFreshWhyLine(label, stories)
+    : null;
 
   return {
     label,
     score,
-    whyItMatters: buildEditorialWhyLineForLabel(
+    whyItMatters: bankingFreshWhy ?? buildEditorialWhyLineForLabel(
       label,
       dominantReasonCodes,
       dominantAngles,
       reasonKept
     ),
-    pattern: patternAndTension.pattern,
-    tension: patternAndTension.tension,
+    pattern: bankingFreshPattern?.pattern ?? patternAndTension.pattern,
+    tension: bankingFreshPattern?.tension ?? patternAndTension.tension,
     supportingStories: finalSupportingStories
   };
 }
@@ -2238,6 +2250,12 @@ function buildEventBriefItem(
     averagePriority(stories) +
     Math.min(eventCluster.story_count, 4);
   const patternAndTension = inferPatternAndTensionForLabel(label, reasonCodes, angles);
+  const bankingFreshPattern = stories.some((story) => story.beat === "ph_sea_banking")
+    ? bankingFreshPatternAndTension(label, stories)
+    : null;
+  const bankingFreshWhy = stories.some((story) => story.beat === "ph_sea_banking")
+    ? bankingFreshWhyLine(label, stories)
+    : null;
   const supportingStories = pickSupportingStories(stories, 3).filter(
     (story) => themeSanityScore(story, label, reasonCodes, angles) >= 1
   );
@@ -2245,9 +2263,9 @@ function buildEventBriefItem(
   return {
     label,
     score,
-    whyItMatters: buildEditorialWhyLineForLabel(label, reasonCodes, angles, reasonKept),
-    pattern: patternAndTension.pattern,
-    tension: patternAndTension.tension,
+    whyItMatters: bankingFreshWhy ?? buildEditorialWhyLineForLabel(label, reasonCodes, angles, reasonKept),
+    pattern: bankingFreshPattern?.pattern ?? patternAndTension.pattern,
+    tension: bankingFreshPattern?.tension ?? patternAndTension.tension,
     supportingStories: supportingStories.length > 0 ? supportingStories : stories.slice(0, 1)
   };
 }
@@ -2291,18 +2309,24 @@ function buildWatchlistItems(
       const reasonCodes = story.reason_code ? [story.reason_code] : [];
       const label = storyPresentationLabel(story);
       const patternAndTension = inferPatternAndTensionForLabel(label, reasonCodes, angles);
+      const bankingFreshPattern = story.beat === "ph_sea_banking"
+        ? bankingFreshPatternAndTension(label, [story])
+        : null;
+      const bankingFreshWhy = story.beat === "ph_sea_banking"
+        ? bankingFreshWhyLine(label, [story])
+        : null;
 
       return {
         label,
         score: story.priority_score ?? 0,
-        whyItMatters: buildEditorialWhyLineForLabel(
+        whyItMatters: bankingFreshWhy ?? buildEditorialWhyLineForLabel(
           label,
           reasonCodes,
           angles,
           story.reason_kept
         ),
-        pattern: patternAndTension.pattern,
-        tension: patternAndTension.tension,
+        pattern: bankingFreshPattern?.pattern ?? patternAndTension.pattern,
+        tension: bankingFreshPattern?.tension ?? patternAndTension.tension,
         supportingStories: [story]
       };
     });
@@ -2456,6 +2480,558 @@ function readHasTheme(themeClusters: StoryThemeCluster[], keywords: string[]): b
   return themeClusters.some((theme) =>
     countKeywordHits(`${theme.theme_label} ${theme.theme_summary ?? ""}`, keywords) > 0
   );
+}
+
+type BankingFreshnessContext = {
+  text: string;
+  functions: Set<string>;
+  directions: Set<string>;
+  drivers: Set<string>;
+  latestStory?: NormalizedStory;
+  latestTitle?: string;
+  latestDate?: string;
+  hasRateMove: boolean;
+  hasExternalShock: boolean;
+  hasPrivateBankStress: boolean;
+  hasRegionalRisk: boolean;
+  hasDepositOrFunding: boolean;
+  hasRisk: boolean;
+  hasGrowth: boolean;
+  hasPolicy: boolean;
+  hasTightening: boolean;
+  hasPreserving: boolean;
+  hasRepricing: boolean;
+};
+
+const BANKING_EVERGREEN_PHRASES = [
+  "banks are prioritizing buffers and optionality",
+  "deposit movement keeps funding cost",
+  "borrower stress matters",
+  "credit discipline changes",
+  "liquidity management shapes",
+  "risk is becoming harder to treat as background noise",
+  "loan growth still matters"
+];
+
+function bankingFreshnessContext(stories: NormalizedStory[]): BankingFreshnessContext {
+  const uniqueStories = uniqueStoriesForDisplay(stories);
+  const sorted = [...uniqueStories].sort((left, right) =>
+    right.publishedAt.localeCompare(left.publishedAt)
+  );
+  const text = normalizeText(
+    uniqueStories.map((story) => `${story.title} ${story.summary ?? ""}`).join(" ")
+  );
+  const functions = new Set(
+    uniqueStories.flatMap((story) => story.banking_signals?.function ?? [])
+  );
+  const directions = new Set(
+    uniqueStories.flatMap((story) => story.banking_signals?.direction ?? [])
+  );
+  const drivers = new Set(
+    uniqueStories.flatMap((story) => story.banking_signals?.driver ?? [])
+  );
+  const latestStory = sorted[0];
+
+  return {
+    text,
+    functions,
+    directions,
+    drivers,
+    latestStory,
+    latestTitle: latestStory ? sanitizeText(latestStory.title) : undefined,
+    latestDate: latestStory ? formatDate(latestStory.publishedAt || latestStory.date) : undefined,
+    hasRateMove:
+      textIncludesAny(text, [
+        "rate hike",
+        "raises target rrp",
+        "raises policy rate",
+        "higher rates",
+        "interest rate",
+        "monetary board raises"
+      ]) || directions.has("repricing"),
+    hasExternalShock: textIncludesAny(text, [
+      "war",
+      "inflation spike",
+      "external shock",
+      "iran",
+      "peso",
+      "bop deficit",
+      "remittance growth slowest"
+    ]),
+    hasPrivateBankStress: textIncludesAny(text, [
+      "bdo",
+      "bpi",
+      "metrobank",
+      "security bank",
+      "expects loan growth",
+      "asset quality hit"
+    ]),
+    hasRegionalRisk: textIncludesAny(text, [
+      "asia pacific banks",
+      "regional",
+      "raise provisions",
+      "credit risks"
+    ]),
+    hasDepositOrFunding:
+      functions.has("deposits") ||
+      functions.has("funding") ||
+      textIncludesAny(text, ["deposit", "funding", "cost of funds", "funding support"]),
+    hasRisk:
+      functions.has("risk") ||
+      textIncludesAny(text, ["bad loans", "npl", "credit risks", "provisions", "asset quality"]),
+    hasGrowth: textIncludesAny(text, ["loan growth", "credit growth", "lending growth"]),
+    hasPolicy:
+      drivers.has("policy") ||
+      functions.has("regulation") ||
+      textIncludesAny(text, ["bsp", "monetary board", "policy", "regulator"]),
+    hasTightening: directions.has("tightening") || textIncludesAny(text, ["higher rates", "tighter"]),
+    hasPreserving: directions.has("preserving") || textIncludesAny(text, ["buffer", "buffers", "resilient"]),
+    hasRepricing:
+      directions.has("repricing") ||
+      textIncludesAny(text, ["margin", "funding cost", "cost of funds", "deposit rate"])
+  };
+}
+
+function bankingPressureDomain(context: BankingFreshnessContext): string {
+  if (context.hasRisk && context.hasPrivateBankStress) {
+    return "domestic credit stress";
+  }
+
+  if (context.hasRisk && context.hasRegionalRisk) {
+    return "regional credit risk";
+  }
+
+  if (context.hasRisk) {
+    return "domestic credit stress";
+  }
+
+  if (context.hasDepositOrFunding || context.hasRepricing) {
+    return "funding cost";
+  }
+
+  if (context.hasPolicy || context.hasRateMove) {
+    return "policy transmission";
+  }
+
+  return "bank behavior";
+}
+
+function bankingPressureDestination(context: BankingFreshnessContext): string {
+  if (context.hasRisk && context.hasPrivateBankStress) {
+    return "domestic credit quality";
+  }
+
+  if (context.hasRisk && context.hasRegionalRisk) {
+    return "regional bank credit quality";
+  }
+
+  if (context.hasRisk) {
+    return "domestic credit conditions";
+  }
+
+  if (context.hasDepositOrFunding || context.hasRepricing) {
+    return "funding costs";
+  }
+
+  if (context.hasPolicy || context.hasRateMove) {
+    return "bank operating choices";
+  }
+
+  return "bank behavior";
+}
+
+function freshenBankingLine(line: string, context: BankingFreshnessContext): string {
+  const normalized = normalizeText(line);
+  const isEvergreen = BANKING_EVERGREEN_PHRASES.some((phrase) =>
+    normalized.includes(normalizeText(phrase))
+  );
+
+  if (!isEvergreen) {
+    return line;
+  }
+
+  if (context.hasRateMove && (context.hasDepositOrFunding || context.hasRisk)) {
+    return `This week, the rate move changes the math on ${context.hasDepositOrFunding ? "funding costs" : "credit risk"}; the question now is where banks pass that pressure next.`;
+  }
+
+  if (context.hasExternalShock && context.hasRisk) {
+    return "The external shock is no longer just macro background; it is moving into loan growth, provisions, and asset-quality expectations.";
+  }
+
+  if (context.hasDepositOrFunding) {
+    return "What matters now is not deposit movement in the abstract, but whether it forces banks to pay up for funds or defend liquidity.";
+  }
+
+  if (context.hasRisk) {
+    return "The risk signal matters now because it is showing up beside active lending, not after credit growth has already stopped.";
+  }
+
+  return line;
+}
+
+function bankingFreshWhyLine(label: string, stories: NormalizedStory[]): string | null {
+  const normalizedLabel = normalizeText(label);
+  const context = bankingFreshnessContext(stories);
+
+  if (context.hasRateMove && (context.hasDepositOrFunding || context.hasRisk || context.hasGrowth)) {
+    return `This week, the rate move is the operating trigger; the question now is what it does to ${context.hasDepositOrFunding ? "funding costs" : context.hasRisk ? "asset quality" : "borrower appetite"}.`;
+  }
+
+  if (context.hasExternalShock && context.hasRisk) {
+    return context.hasPrivateBankStress
+      ? "When a major bank starts pricing war-driven inflation into loan growth and asset quality, the read moves from external shock to balance-sheet consequence."
+      : "External pressure is migrating into credit risk, so the banking read is less about the shock itself than where provisions and borrower stress surface.";
+  }
+
+  if (normalizedLabel.includes("borrower risk")) {
+    return "The useful shift is from lending momentum to repayment capacity: growth only holds its value if asset quality does not start absorbing the shock.";
+  }
+
+  if (normalizedLabel.includes("deposit funding shift")) {
+    return "The funding question is moving from available liquidity to price: banks may still have funds, but the next read is what those funds cost.";
+  }
+
+  if (normalizedLabel.includes("liquidity preservation")) {
+    return "Liquidity matters now because buffer language is starting to look like a response to pressure, not just routine prudence.";
+  }
+
+  if (normalizedLabel.includes("credit tightening") || normalizedLabel.includes("lending conditions")) {
+    return "The read is shifting from whether banks can keep lending to which borrowers still clear the tighter math.";
+  }
+
+  if (normalizedLabel.includes("banking policy pressure")) {
+    return "Policy is no longer just a signal from the center; the sharper question is how quickly it reaches credit appetite, deposit pricing, and risk controls.";
+  }
+
+  return null;
+}
+
+function bankingFreshPatternAndTension(
+  label: string,
+  stories: NormalizedStory[]
+): { pattern: string; tension: string } | null {
+  const context = bankingFreshnessContext(stories);
+  const normalizedLabel = normalizeText(label);
+  const destination = bankingPressureDestination(context);
+
+  if (context.hasExternalShock && context.hasRisk) {
+    return {
+      pattern: `Pressure is shifting from external shock to ${destination}.`,
+      tension: "Tension: macro shock vs balance-sheet quality"
+    };
+  }
+
+  if (context.hasRateMove && context.hasDepositOrFunding) {
+    return {
+      pattern: "The rate move is turning funding from a background condition into an operating cost question.",
+      tension: "Tension: deposit defense vs margin protection"
+    };
+  }
+
+  if (context.hasRateMove && context.hasGrowth) {
+    return {
+      pattern: "Loan growth is being tested against higher-rate borrower capacity.",
+      tension: "Tension: growth target vs repayment capacity"
+    };
+  }
+
+  if (normalizedLabel.includes("liquidity preservation")) {
+    return {
+      pattern: "Buffer-building is starting to read as pressure management rather than generic caution.",
+      tension: "Tension: liquidity defense vs credit expansion"
+    };
+  }
+
+  return null;
+}
+
+type BankingPhraseUse = {
+  exact: Set<string>;
+  families: Set<string>;
+  openings: Set<string>;
+};
+
+function bankingPhraseUse(): BankingPhraseUse {
+  return {
+    exact: new Set<string>(),
+    families: new Set<string>(),
+    openings: new Set<string>()
+  };
+}
+
+function bankingPhraseFamily(line: string): string {
+  const normalized = normalizeText(line);
+
+  if (
+    normalized.includes("policy is moving faster than operating clarity") ||
+    normalized.includes("policy signal is clear") ||
+    normalized.includes("policy is setting the direction") ||
+    normalized.includes("policy signal now has to prove") ||
+    normalized.includes("sharper question is how policy reaches") ||
+    normalized.includes("rules and guidance matter")
+  ) {
+    return "policy_operating_clarity";
+  }
+
+  if (
+    normalized.includes("pressure is shifting") ||
+    normalized.includes("pressure is migrating") ||
+    normalized.includes("external pressure is starting") ||
+    normalized.includes("external pressure is reaching") ||
+    normalized.includes("stress is starting to show up") ||
+    normalized.includes("what began as") ||
+    normalized.includes("operating pressure is moving") ||
+    normalized.includes("no longer only")
+  ) {
+    return "pressure_migration";
+  }
+
+  if (
+    normalized.includes("this week the rate move") ||
+    normalized.includes("rate move landed") ||
+    normalized.includes("rate move changes") ||
+    normalized.includes("rate move is turning") ||
+    normalized.includes("immediate issue is not the rate move") ||
+    normalized.includes("after the rate move") ||
+    normalized.includes("rate move s next test")
+  ) {
+    return "rate_move_consequence";
+  }
+
+  if (
+    normalized.includes("the read is shifting") ||
+    normalized.includes("sharper read") ||
+    normalized.includes("more useful signal") ||
+    normalized.includes("useful signal is") ||
+    normalized.includes("credit discipline is moving") ||
+    normalized.includes("loan terms matter more") ||
+    normalized.includes("question is no longer whether lending continues")
+  ) {
+    return "credit_read_shift";
+  }
+
+  if (
+    normalized.includes("buffer building") ||
+    normalized.includes("buffer language") ||
+    normalized.includes("pressure management")
+  ) {
+    return "buffer_pressure";
+  }
+
+  return normalized.split(" ").slice(0, 7).join(" ");
+}
+
+function rememberBankingPhrase(line: string, used: BankingPhraseUse): void {
+  const clean = sanitizeText(line);
+  const normalized = normalizeText(clean);
+  const opening = normalized.split(" ").slice(0, 4).join(" ");
+
+  if (!normalized) {
+    return;
+  }
+
+  used.exact.add(normalized);
+  used.families.add(bankingPhraseFamily(clean));
+  if (opening) {
+    used.openings.add(opening);
+  }
+}
+
+function chooseBankingVariant(
+  candidates: string[],
+  used: BankingPhraseUse
+): string {
+  const cleanCandidates = candidates.map(sanitizeText).filter(Boolean);
+
+  for (const candidate of cleanCandidates) {
+    const normalized = normalizeText(candidate);
+    const family = bankingPhraseFamily(candidate);
+    const opening = normalized.split(" ").slice(0, 4).join(" ");
+
+    if (
+      used.exact.has(normalized) ||
+      used.families.has(family) ||
+      (opening && used.openings.has(opening))
+    ) {
+      continue;
+    }
+
+    rememberBankingPhrase(candidate, used);
+    return candidate;
+  }
+
+  const fallback = cleanCandidates.find((candidate) => !used.exact.has(normalizeText(candidate)))
+    ?? cleanCandidates[0]
+    ?? "";
+
+  rememberBankingPhrase(fallback, used);
+  return fallback;
+}
+
+function bankingAlternateCandidates(
+  line: string,
+  label: string,
+  stories: NormalizedStory[],
+  section: "theme" | "structural" | "summary"
+): string[] {
+  const normalized = normalizeText(line);
+  const normalizedLabel = normalizeText(label);
+  const context = bankingFreshnessContext(stories);
+  const destination = bankingPressureDestination(context);
+  const source = context.hasExternalShock ? "the external shock" : "policy pressure";
+  const sourceWithoutArticle = context.hasExternalShock ? "external shock" : "policy pressure";
+  const costObject = context.hasDepositOrFunding
+    ? "funding costs"
+    : context.hasRisk
+      ? "asset quality"
+      : "borrower appetite";
+  const costVerb = costObject.endsWith("s") ? "are" : "is";
+  const costMatterLine =
+    costObject === "funding costs"
+      ? "Funding costs now matter because they affect bank appetite for risk and growth."
+      : costObject === "asset quality"
+        ? "Asset quality now matters because it affects bank appetite for risk and growth."
+        : "Borrower appetite now matters because it affects how much credit demand survives higher rates.";
+
+  if (bankingPhraseFamily(line) === "pressure_migration") {
+    return section === "summary"
+      ? [
+          `The external shock is reaching ${destination}.`,
+          `${destination.charAt(0).toUpperCase()}${destination.slice(1)} is now the transmission point.`,
+          `This is showing up through ${destination}.`
+        ]
+      : [
+          `External pressure is starting to show up in ${destination}.`,
+          `What began as ${source} is now reaching ${destination}.`,
+          `The operating pressure is moving toward ${destination}.`,
+          `The risk is no longer only ${sourceWithoutArticle}; it is starting to reach ${destination}.`
+        ];
+  }
+
+  if (bankingPhraseFamily(line) === "rate_move_consequence") {
+    return section === "summary"
+      ? [
+          `${costObject.charAt(0).toUpperCase()}${costObject.slice(1)} ${costVerb} the rate move's next test.`,
+          `The rate decision now has to be read through ${costObject}.`,
+          `The week turns on where higher rates hit bank behavior.`
+        ]
+      : [
+          `The immediate issue is not the rate move itself, but what it does to ${costObject}.`,
+          `The rate move changes the math on ${costObject}.`,
+          costMatterLine,
+          `${costObject.charAt(0).toUpperCase()}${costObject.slice(1)} ${costVerb} becoming the operating question after the rate move.`
+        ];
+  }
+
+  if (bankingPhraseFamily(line) === "credit_read_shift") {
+    return section === "summary"
+      ? [
+          "Borrower quality is carrying more of the credit story.",
+          "Loan terms are doing more work than volume.",
+          "Repayment capacity is the live credit test."
+        ]
+      : [
+          "The sharper read is which borrowers still pass the higher-rate test.",
+          "The more useful signal is repayment capacity, not lending momentum alone.",
+          "The risk is showing up less in headline growth than in who can still absorb tighter credit.",
+          "The question is no longer whether lending continues, but which borrowers still clear the tighter math."
+        ];
+  }
+
+  if (bankingPhraseFamily(line) === "policy_operating_clarity") {
+    return section === "summary"
+      ? [
+          "Policy is clear enough to matter, but transmission is still unsettled.",
+          "The policy signal now has to prove its path into bank behavior.",
+          "Operating consequences matter more than the policy posture."
+        ]
+      : [
+          "The policy signal is clear; the operating environment it lands in is not.",
+          "Policy is setting the direction, but bank behavior will decide the consequence.",
+          "The sharper question is how policy reaches credit appetite, deposit pricing, and risk controls.",
+          "Rules and guidance matter here only if they change operating choices."
+        ];
+  }
+
+  if (bankingPhraseFamily(line) === "buffer_pressure") {
+    return section === "summary"
+      ? [
+          "Buffers now read as a pressure response.",
+          "Liquidity defense is part of the operating story.",
+          "Balance-sheet room is being protected before growth is stretched."
+        ]
+      : [
+          "Buffer language is starting to look like a response to pressure, not just routine prudence.",
+          "The liquidity signal is defensive: banks are protecting room to move before stretching again.",
+          "Liquidity matters because balance-sheet room is becoming part of the risk response.",
+          "The useful read is not caution itself, but what banks are trying to preserve."
+        ];
+  }
+
+  if (normalized.includes("credit rules and lending behavior")) {
+    return section === "summary"
+      ? [
+          "Credit discipline is moving closer to the operating center.",
+          "Borrower quality is carrying more of the credit story.",
+          "Loan terms are doing more work than volume."
+        ]
+      : [
+          "Credit discipline is moving from background control to operating constraint.",
+          "Loan terms matter more as borrower quality becomes harder to treat as stable.",
+          "The useful signal is how much risk banks are still willing to carry."
+        ];
+  }
+
+  if (normalizedLabel.includes("borrower risk")) {
+    return [
+      "Repayment capacity is doing more work than headline lending momentum.",
+      "Asset quality is the live test underneath still-active lending.",
+      "The risk sits in whether loan growth can keep outrunning stress."
+    ];
+  }
+
+  return [line];
+}
+
+function diversifyBankingLine(
+  line: string,
+  label: string,
+  stories: NormalizedStory[],
+  section: "theme" | "structural" | "summary",
+  used: BankingPhraseUse
+): string {
+  return chooseBankingVariant(
+    bankingAlternateCandidates(line, label, stories, section),
+    used
+  );
+}
+
+function diversifyBankingItem(
+  item: EditorialBriefItem,
+  section: "theme" | "structural",
+  used: BankingPhraseUse
+): EditorialBriefItem {
+  if (!item.supportingStories.some((story) => story.beat === "ph_sea_banking")) {
+    return item;
+  }
+
+  return {
+    ...item,
+    whyItMatters: diversifyBankingLine(
+      item.whyItMatters,
+      item.label,
+      item.supportingStories,
+      section,
+      used
+    ),
+    pattern: diversifyBankingLine(
+      item.pattern,
+      item.label,
+      item.supportingStories,
+      section,
+      used
+    )
+  };
 }
 
 function hasCoreBucket(stories: NormalizedStory[]): boolean {
@@ -2761,10 +3337,25 @@ function buildBankingEditorialRead(
   const hasGrowth =
     labels.some((label) => label.includes("growth")) ||
     readHasAny(stories, ["loan growth", "credit growth", "lending growth"]);
+  const freshness = bankingFreshnessContext(stories);
 
   const bullets: string[] = [];
 
-  if (hasCreditTightening && hasRisk) {
+  if (freshness.hasRateMove && (hasRisk || hasGrowth || hasDeposits)) {
+    bullets.push(
+      `This week, the rate move landed; the more useful question now is what it costs through ${hasDeposits ? "funding and deposit pricing" : hasRisk ? "asset quality" : "borrower appetite"}.`
+    );
+  }
+
+  if (freshness.hasExternalShock && hasRisk) {
+    bullets.push(
+      freshness.hasPrivateBankStress
+        ? "Pressure is migrating from external shock to domestic credit stress as banks start tying inflation risk to loan growth and asset quality."
+        : "External pressure is moving into the banking read through provisions, borrower stress, and regional credit-risk language."
+    );
+  }
+
+  if (hasCreditTightening && hasRisk && bullets.length < 3) {
     bullets.push(
       "Credit discipline and borrower risk are moving together, which makes loan quality more important than headline growth."
     );
@@ -2781,8 +3372,8 @@ function buildBankingEditorialRead(
   if (hasLiquidity || hasDeposits) {
     bullets.push(
       hasDeposits
-        ? "Deposit movement keeps funding cost and liquidity management near the center of the banking read."
-        : "Liquidity signals point to banks preserving buffers rather than stretching balance sheets for growth."
+        ? "Deposit movement matters less as a static liquidity fact than as a test of whether banks have to pay up to defend funding."
+        : "Liquidity signals now read as pressure management: banks are protecting room to move before stretching balance sheets again."
     );
   }
 
@@ -2794,7 +3385,7 @@ function buildBankingEditorialRead(
 
   if (hasGrowth && bullets.length < 3) {
     bullets.push(
-      "Loan growth still matters, but the useful question is whether borrowers can keep carrying credit under tighter or riskier conditions."
+      "What matters is no longer loan growth by itself, but whether borrowers can still carry it under higher rates or riskier conditions."
     );
   }
 
@@ -2804,7 +3395,10 @@ function buildBankingEditorialRead(
     );
   }
 
-  return bullets.slice(0, 4);
+  return bullets
+    .map((bullet) => freshenBankingLine(bullet, freshness))
+    .filter((bullet, index, all) => all.indexOf(bullet) === index)
+    .slice(0, 4);
 }
 
 function buildEnergyEditorialReadFromStories(
@@ -4074,10 +4668,32 @@ export function renderWeeklyEditorialPacketMarkdown(
   }
 
   const watchlist = buildWatchlistItems(stories, usedStoryIds, blockedLabels).slice(0, 5);
+  const isBankingPacket = stories.some((story) => story.beat === "ph_sea_banking");
+  const bankingUsedPhrases = bankingPhraseUse();
+
+  if (isBankingPacket) {
+    for (const bullet of packet.editorial_read) {
+      rememberBankingPhrase(bullet, bankingUsedPhrases);
+    }
+  }
+
+  const finalWhatMattersMost = isBankingPacket
+    ? whatMattersMost.map((item) => diversifyBankingItem(item, "theme", bankingUsedPhrases))
+    : whatMattersMost;
+  const finalStructuralShifts = isBankingPacket
+    ? structuralShifts.map((item) => diversifyBankingItem(item, "structural", bankingUsedPhrases))
+    : structuralShifts;
+  const finalWatchlist = isBankingPacket
+    ? watchlist.map((item) => diversifyBankingItem(item, "structural", bankingUsedPhrases))
+    : watchlist;
   const patternBullets = buildPatternBullets(
-    whatMattersMost,
-    structuralShifts,
-    watchlist
+    finalWhatMattersMost,
+    finalStructuralShifts,
+    finalWatchlist
+  ).map((bullet) =>
+    isBankingPacket
+      ? diversifyBankingLine(bullet, "banking summary", stories, "summary", bankingUsedPhrases)
+      : bullet
   );
 
   lines.push(`# Weekly Editorial Packet — ${packet.beat_name}`);
@@ -4085,9 +4701,9 @@ export function renderWeeklyEditorialPacketMarkdown(
   lines.push(`Week of ${packet.week_of}`);
   lines.push("");
   renderEditorialRead(lines, packet);
-  renderBriefSection(lines, "What matters most", whatMattersMost, "Why it matters");
-  renderBriefSection(lines, "Structural shifts", structuralShifts, "Editorial note");
-  renderWatchlistSection(lines, watchlist);
+  renderBriefSection(lines, "What matters most", finalWhatMattersMost, "Why it matters");
+  renderBriefSection(lines, "Structural shifts", finalStructuralShifts, "Editorial note");
+  renderWatchlistSection(lines, finalWatchlist);
   lines.push("## What seems to be happening");
   lines.push("");
 

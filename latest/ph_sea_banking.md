@@ -1,71 +1,73 @@
 # Weekly Editorial Packet — Philippine / SEA Banking
 
-Week of 2026-05-11
+Week of 2026-05-18
 
 ## Editorial Read
 
+- This week, the rate move landed; the more useful question now is what it costs through funding and deposit pricing.
+- Pressure is migrating from external shock to domestic credit stress as banks start tying inflation risk to loan growth and asset quality.
 - Credit discipline and borrower risk are moving together, which makes loan quality more important than headline growth.
-- Deposit movement keeps funding cost and liquidity management near the center of the banking read.
-- Loan growth still matters, but the useful question is whether borrowers can keep carrying credit under tighter or riskier conditions.
+- Deposit movement matters less as a static liquidity fact than as a test of whether banks have to pay up to defend funding.
 
 ## What matters most
 
+### borrower risk
+- Why it matters: Asset quality now matters because it affects bank appetite for risk and growth.
+- Pattern: External pressure is starting to show up in domestic credit conditions.
+- Tension: macro shock vs balance-sheet quality
+- Supporting stories:
+- [Banks’ bad loan ratio drops to 3-month low](https://www.philstar.com/business/2026/05/18/2528636/banks-bad-loan-ratio-drops-3-month-low) | Philstar Business | Shows where borrower stress is starting to matter for asset quality.
+- [Banks’ bad loan ratio eases to 3-month low in March as lending accelerates](https://mb.com.ph/article/10918490/business/banking-finance/banks-bad-loan-ratio-eases-to-3-month-low-in-march-as-lending-accelerates) | Manila Bulletin Business | Connects bank behavior to actual credit conditions.
+- [Loan growth outpaces record climb of NPLs to ₱568.553B](https://businessmirror.com.ph/2026/05/18/loan-growth-outpaces-record-climb-of-npls-to-%e2%82%b1568-553b) | BusinessMirror Business | Shows where borrower stress is starting to matter for asset quality.
+- [Bad-loan ratio fell to 3-month low in March despite war risks](https://business.inquirer.net/590961/bad-loan-ratio-fell-to-3-mo-low-in-march-despite-war-risks) | Inquirer Business | Shows where borrower stress is starting to matter for asset quality.
+
+### deposit funding shift
+- Why it matters: Funding costs now matter because they affect bank appetite for risk and growth.
+- Pattern: The immediate issue is not the rate move itself, but what it does to funding costs.
+- Tension: deposit defense vs margin protection
+- Supporting stories:
+- [Monetary Board raises Target RRP Rate by 25 basis points](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7884) | Bangko Sentral ng Pilipinas | Connects bank behavior to actual credit conditions.
+
 ### banking policy pressure
-- Why it matters: Regulatory and governance pressure is starting to shape rollout decisions before operating rules are fully settled.
-- Pattern: Policy is moving faster than operating clarity.
+- Why it matters: Policy is no longer just a signal from the center; the sharper question is how quickly it reaches credit appetite, deposit pricing, and risk controls.
+- Pattern: The policy signal is clear; the operating environment it lands in is not.
 - Tension: policy vs execution
 - Supporting stories:
-- [March remittance growth slowest in nearly three years](https://www.bworldonline.com/top-stories/2026/05/15/750023/march-remittance-growth-slowest-in-nearly-three-years) | BusinessWorld Banking | Shows how policy can change lending behavior or risk appetite.
+- [Asean 2026: Europe’s 4 oil shock lessons](https://business.inquirer.net/590956/asean-2026-europes-4-oil-shock-lessons-2) | Inquirer Business | Shows how policy can change lending behavior or risk appetite.
 - [BSP joins other central banks, finance ministries in affirming ASEAN+3 cooperation](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7902) | Bangko Sentral ng Pilipinas | Shows how policy can change lending behavior or risk appetite.
 - [BSP welcomes Moody's favorable assessment of PH banking system, external sector](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7880) | Bangko Sentral ng Pilipinas | Shows how policy can change lending behavior or risk appetite.
 - [PH financial system remains resilient in H2 2025](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7896) | Bangko Sentral ng Pilipinas | Shows how policy can change lending behavior or risk appetite.
 
-### deposit funding shift
-- Why it matters: Deposit movement can change funding costs, margins, and competitive pressure across banks.
-- Pattern: Deposit movement is making funding cost and liquidity management harder to ignore.
-- Tension: funding stability vs margin pressure
-- Supporting stories:
-- [Monetary Board raises Target RRP Rate by 25 basis points](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7884) | Bangko Sentral ng Pilipinas | Connects bank behavior to actual credit conditions.
-- [ADB offers Philippines up to $1.75B in funding support as Iran war hits economy](https://www.bworldonline.com/top-stories/2026/05/15/750019/adb-offers-philippines-up-to-1-75b-in-funding-support-as-iran-war-hits-economy) | BusinessWorld Banking | Makes funding and liquidity pressure visible beyond headline earnings.
-
 ### lending conditions
-- Why it matters: Regulatory and governance pressure is starting to shape rollout decisions before operating rules are fully settled.
-- Pattern: Policy is moving faster than operating clarity.
+- Why it matters: The sharper read is which borrowers still pass the higher-rate test.
+- Pattern: Policy is setting the direction, but bank behavior will decide the consequence.
 - Tension: policy vs execution
 - Supporting stories:
 - [Philippines eyes $300-million initial draw from World Bank loan](https://mb.com.ph/article/10918287/business/trade-industry/philippines-eyes-300-million-initial-draw-from-world-bank-loan) | Manila Bulletin Business | Connects bank behavior to actual credit conditions.
 - [Most PH banks expect to maintain lending standards in Q2](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7892) | Bangko Sentral ng Pilipinas | Shows how policy can change lending behavior or risk appetite.
-- [BDO sees strong loan growth despite higher rates](https://www.philstar.com/business/2026/05/16/2528188/bdo-sees-strong-loan-growth-despite-higher-rates) | Philstar Business | Connects bank behavior to actual credit conditions.
+- [Filipinos 3rd fastest-growing finance app market](https://business.inquirer.net/590938/filipinos-3rd-fastest-growing-finance-app-market) | Inquirer Business | Connects bank behavior to actual credit conditions.
 - [Philippines to repay its biggest-ever World Bank loan for agriculture until 2044](https://mb.com.ph/article/10918246/business/banking-finance/philippines-to-repay-its-biggest-ever-world-bank-loan-for-agriculture-until-2044) | Manila Bulletin Business | Connects bank behavior to actual credit conditions.
-
-### borrower risk
-- Why it matters: Borrower stress matters because loan growth is less useful if asset quality is weakening underneath it.
-- Pattern: Borrower stress is becoming more visible beneath still-active lending.
-- Tension: growth vs asset quality
-- Supporting stories:
-- [Asia-Pacific banks face growing credit risks, raise provisions as Iran war drags on](https://www.businesstimes.com.sg/companies-markets/banking-finance/asia-pacific-banks-face-growing-credit-risks-raise-provisions-iran-war-drags) | The Business Times Banking | Shows where borrower stress is starting to matter for asset quality.
-- [BDO expects loan growth, asset quality hit from war-driven inflation spike](https://www.bworldonline.com/banking-finance/2026/05/15/749855/bdo-expects-loan-growth-asset-quality-hit-from-war-driven-inflation-spike) | BusinessWorld Banking | Connects bank behavior to actual credit conditions.
 
 ## Structural shifts
 
 ### credit tightening
-- Editorial note: Credit discipline changes how much risk banks are willing to carry and which borrowers can still access loans.
-- Pattern: Credit rules and lending behavior are moving toward stricter discipline.
+- Editorial note: The risk is showing up less in headline growth than in who can still absorb tighter credit.
+- Pattern: Credit discipline is moving from background control to operating constraint.
 - Tension: loan growth vs borrower quality
 - Supporting stories:
 - [Jollibee downgrades to MSCI small cap index](https://business.inquirer.net/590703/jollibee-downgrades-to-msci-small-cap-index) | Inquirer Business | Makes funding and liquidity pressure visible beyond headline earnings.
 
 ### liquidity preservation
-- Editorial note: Liquidity management shapes whether banks stretch for growth or protect balance-sheet buffers.
-- Pattern: Banks are prioritizing buffers and optionality over aggressive balance-sheet expansion.
-- Tension: liquidity vs growth
+- Editorial note: Buffer language is starting to look like a response to pressure, not just routine prudence.
+- Pattern: The liquidity signal is defensive: banks are protecting room to move before stretching again.
+- Tension: liquidity defense vs credit expansion
 - Supporting stories:
 - [BOP posts US$2.6 billion deficit in March 2026; end-March GIR settle at US$106.6 billion[1]](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7882) | Bangko Sentral ng Pilipinas | Makes funding and liquidity pressure visible beyond headline earnings.
 
 ## What seems to be happening
 
-- Policy is moving faster than operating clarity.
-- Deposit movement is making funding cost and liquidity management harder to ignore.
-- Borrower stress is becoming more visible beneath still-active lending.
-- Credit rules and lending behavior are moving toward stricter discipline.
-- Banks are prioritizing buffers and optionality over aggressive balance-sheet expansion.
+- The external shock is reaching domestic credit quality.
+- The rate decision now has to be read through funding costs.
+- Policy is clear enough to matter, but transmission is still unsettled.
+- Operating consequences matter more than the policy posture.
+- Borrower quality is carrying more of the credit story.
