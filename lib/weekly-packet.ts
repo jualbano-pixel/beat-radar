@@ -736,6 +736,20 @@ function inferPatternAndTensionForLabel(
     };
   }
 
+  if (normalizedLabel.includes("office supply positioning")) {
+    return {
+      pattern: "Developers are still adding office space, but new supply only matters if leasing and utilization can absorb it.",
+      tension: "Tension: expansion pipeline vs tenant demand"
+    };
+  }
+
+  if (normalizedLabel.includes("property credit conditions")) {
+    return {
+      pattern: "REIT scale and index ambitions are being used to support capital-market positioning more than to prove end-user demand.",
+      tension: "Tension: capital-market ambition vs operating demand"
+    };
+  }
+
   if (normalizedLabel.includes("credit tightening")) {
     return {
       pattern: "Credit rules and lending behavior are moving toward stricter discipline.",
@@ -1065,6 +1079,14 @@ function buildEditorialWhyLineForLabel(
 
   if (normalizedLabel.includes("supply pipeline shift")) {
     return "Pipeline shifts matter because new supply can worsen imbalance if demand is not keeping up.";
+  }
+
+  if (normalizedLabel.includes("office supply positioning")) {
+    return "New office supply is a market signal only if leasing, occupancy, and tenant demand can validate the developer expansion story.";
+  }
+
+  if (normalizedLabel.includes("property credit conditions")) {
+    return "REIT and index-positioning stories matter as capital-market signals, but they do not by themselves confirm healthier property utilization.";
   }
 
   if (normalizedLabel.includes("credit tightening")) {
@@ -1911,10 +1933,23 @@ function supportingReasonCandidates(story: NormalizedStory): string[] {
     }
 
     if (
+      text.includes("regional office expansion") ||
+      text.includes("office expansion") ||
+      text.includes("gross leasable space") ||
+      text.includes("new buildings") ||
+      text.includes("office portfolio")
+    ) {
+      candidates.push(
+        `Shows developer-side office supply positioning that still needs ${propertyUtilizationProof(story.id)}.`
+      );
+      candidates.push("Adds supply pipeline context without proving a demand recovery.");
+    }
+
+    if (
       text.includes("construction permits") ||
       text.includes("building permits") ||
       text.includes("weak residential demand") ||
-      text.includes("construction")
+      text.includes("residential construction")
     ) {
       candidates.push("Shows whether the residential build pipeline is losing momentum.");
       candidates.push("Connects construction activity to actual demand rather than expansion claims.");
@@ -2172,6 +2207,16 @@ function beatSpecificStoryLabel(story: NormalizedStory): string | null {
     }
 
     if (
+      text.includes("regional office expansion") ||
+      text.includes("office expansion") ||
+      text.includes("gross leasable space") ||
+      text.includes("new buildings") ||
+      text.includes("office portfolio")
+    ) {
+      return "office supply positioning";
+    }
+
+    if (
       text.includes("office") &&
       (text.includes("vacancy") ||
         text.includes("leasing") ||
@@ -2317,6 +2362,12 @@ function buildStoryBriefItem(
   const motoringFreshWhy = uniqueStories.some((story) => story.beat === "philippine_motoring")
     ? motoringFreshWhyLine(label, uniqueStories)
     : null;
+  const propertyFreshPattern = uniqueStories.some((story) => story.beat === "property_real_estate")
+    ? propertyFreshPatternAndTension(label, uniqueStories)
+    : null;
+  const propertyFreshWhy = uniqueStories.some((story) => story.beat === "property_real_estate")
+    ? propertyFreshWhyLine(label, uniqueStories)
+    : null;
   const topPriority = Math.max(...uniqueStories.map((story) => story.priority_score ?? 0), 0);
   const propertyScoreBoost =
     uniqueStories.some((story) => story.property_filter?.stress_signal) ? 8 : 0;
@@ -2347,9 +2398,9 @@ function buildStoryBriefItem(
       propertyScoreBoost +
       hardSignalBoost -
       interpretationPenalty,
-    whyItMatters: bankingFreshWhy ?? motoringFreshWhy ?? buildEditorialWhyLineForLabel(label, reasonCodes, angles, reasonKept),
-    pattern: bankingFreshPattern?.pattern ?? motoringFreshPattern?.pattern ?? patternAndTension.pattern,
-    tension: bankingFreshPattern?.tension ?? motoringFreshPattern?.tension ?? patternAndTension.tension,
+    whyItMatters: bankingFreshWhy ?? motoringFreshWhy ?? propertyFreshWhy ?? buildEditorialWhyLineForLabel(label, reasonCodes, angles, reasonKept),
+    pattern: bankingFreshPattern?.pattern ?? motoringFreshPattern?.pattern ?? propertyFreshPattern?.pattern ?? patternAndTension.pattern,
+    tension: bankingFreshPattern?.tension ?? motoringFreshPattern?.tension ?? propertyFreshPattern?.tension ?? patternAndTension.tension,
     supportingStories
   };
 }
@@ -2454,18 +2505,24 @@ function buildThemeBriefItem(
   const motoringFreshWhy = stories.some((story) => story.beat === "philippine_motoring")
     ? motoringFreshWhyLine(label, stories)
     : null;
+  const propertyFreshPattern = stories.some((story) => story.beat === "property_real_estate")
+    ? propertyFreshPatternAndTension(label, stories)
+    : null;
+  const propertyFreshWhy = stories.some((story) => story.beat === "property_real_estate")
+    ? propertyFreshWhyLine(label, stories)
+    : null;
 
   return {
     label,
     score,
-    whyItMatters: bankingFreshWhy ?? motoringFreshWhy ?? buildEditorialWhyLineForLabel(
+    whyItMatters: bankingFreshWhy ?? motoringFreshWhy ?? propertyFreshWhy ?? buildEditorialWhyLineForLabel(
       label,
       dominantReasonCodes,
       dominantAngles,
       reasonKept
     ),
-    pattern: bankingFreshPattern?.pattern ?? motoringFreshPattern?.pattern ?? patternAndTension.pattern,
-    tension: bankingFreshPattern?.tension ?? motoringFreshPattern?.tension ?? patternAndTension.tension,
+    pattern: bankingFreshPattern?.pattern ?? motoringFreshPattern?.pattern ?? propertyFreshPattern?.pattern ?? patternAndTension.pattern,
+    tension: bankingFreshPattern?.tension ?? motoringFreshPattern?.tension ?? propertyFreshPattern?.tension ?? patternAndTension.tension,
     supportingStories: finalSupportingStories
   };
 }
@@ -2506,6 +2563,12 @@ function buildEventBriefItem(
   const motoringFreshWhy = stories.some((story) => story.beat === "philippine_motoring")
     ? motoringFreshWhyLine(label, stories)
     : null;
+  const propertyFreshPattern = stories.some((story) => story.beat === "property_real_estate")
+    ? propertyFreshPatternAndTension(label, stories)
+    : null;
+  const propertyFreshWhy = stories.some((story) => story.beat === "property_real_estate")
+    ? propertyFreshWhyLine(label, stories)
+    : null;
   const supportingStories = pickSupportingStories(stories, 3).filter(
     (story) => themeSanityScore(story, label, reasonCodes, angles) >= 1
   );
@@ -2513,9 +2576,9 @@ function buildEventBriefItem(
   return {
     label,
     score,
-    whyItMatters: bankingFreshWhy ?? motoringFreshWhy ?? buildEditorialWhyLineForLabel(label, reasonCodes, angles, reasonKept),
-    pattern: bankingFreshPattern?.pattern ?? motoringFreshPattern?.pattern ?? patternAndTension.pattern,
-    tension: bankingFreshPattern?.tension ?? motoringFreshPattern?.tension ?? patternAndTension.tension,
+    whyItMatters: bankingFreshWhy ?? motoringFreshWhy ?? propertyFreshWhy ?? buildEditorialWhyLineForLabel(label, reasonCodes, angles, reasonKept),
+    pattern: bankingFreshPattern?.pattern ?? motoringFreshPattern?.pattern ?? propertyFreshPattern?.pattern ?? patternAndTension.pattern,
+    tension: bankingFreshPattern?.tension ?? motoringFreshPattern?.tension ?? propertyFreshPattern?.tension ?? patternAndTension.tension,
     supportingStories: supportingStories.length > 0 ? supportingStories : stories.slice(0, 1)
   };
 }
@@ -2571,18 +2634,24 @@ function buildWatchlistItems(
       const motoringFreshWhy = story.beat === "philippine_motoring"
         ? motoringFreshWhyLine(label, [story])
         : null;
+      const propertyFreshPattern = story.beat === "property_real_estate"
+        ? propertyFreshPatternAndTension(label, [story])
+        : null;
+      const propertyFreshWhy = story.beat === "property_real_estate"
+        ? propertyFreshWhyLine(label, [story])
+        : null;
 
       return {
         label,
         score: story.priority_score ?? 0,
-        whyItMatters: bankingFreshWhy ?? motoringFreshWhy ?? buildEditorialWhyLineForLabel(
+        whyItMatters: bankingFreshWhy ?? motoringFreshWhy ?? propertyFreshWhy ?? buildEditorialWhyLineForLabel(
           label,
           reasonCodes,
           angles,
           story.reason_kept
         ),
-        pattern: bankingFreshPattern?.pattern ?? motoringFreshPattern?.pattern ?? patternAndTension.pattern,
-        tension: bankingFreshPattern?.tension ?? motoringFreshPattern?.tension ?? patternAndTension.tension,
+        pattern: bankingFreshPattern?.pattern ?? motoringFreshPattern?.pattern ?? propertyFreshPattern?.pattern ?? patternAndTension.pattern,
+        tension: bankingFreshPattern?.tension ?? motoringFreshPattern?.tension ?? propertyFreshPattern?.tension ?? patternAndTension.tension,
         supportingStories: [story]
       };
     });
@@ -2720,6 +2789,386 @@ function propertyStoryRef(story: NormalizedStory): PropertyStoryRef {
     importance_tier: story.property_filter?.importance_tier,
     stress_signal: story.property_filter?.stress_signal
   };
+}
+
+type PropertyInterpretationContext = {
+  text: string;
+  latestStory?: NormalizedStory;
+  hasOffice: boolean;
+  hasPromotionalFraming: boolean;
+  hasOperatingTerms: boolean;
+  hasStressTerms: boolean;
+  hasConsultancyFraming: boolean;
+  hasExternalPressure: boolean;
+  hasRecoveryLanguage: boolean;
+  hasVolatilityLanguage: boolean;
+  hasFreshHardSignal: boolean;
+  hasFreshRecoveryConfirmation: boolean;
+  hasMostlyInterpretation: boolean;
+  hasFramingCollision: boolean;
+  hardRecoveryConfirmations: number;
+};
+
+const PROPERTY_PROMOTIONAL_TERMS = [
+  "resilient",
+  "resilience",
+  "opportunity",
+  "opportunities",
+  "premium",
+  "confidence",
+  "growth corridor",
+  "luxury",
+  "world class",
+  "world-class",
+  "optimistic",
+  "upbeat"
+];
+
+const PROPERTY_OPERATING_TERMS = [
+  "vacancy",
+  "occupancy",
+  "rent",
+  "rents",
+  "rental",
+  "leasing",
+  "lease",
+  "absorption",
+  "inventory",
+  "tenant demand",
+  "tenant behavior",
+  "take up",
+  "take-up",
+  "office stock",
+  "new supply",
+  "financing",
+  "mortgage",
+  "property price index",
+  "residential real estate price index"
+];
+
+const PROPERTY_STRESS_TERMS = [
+  "vacancy",
+  "overhang",
+  "oversupply",
+  "weak absorption",
+  "tempered demand",
+  "tenant caution",
+  "cost pressure",
+  "affordability pressure",
+  "soften",
+  "slower",
+  "decline"
+];
+
+const PROPERTY_EXTERNAL_PRESSURE_TERMS = [
+  "middle east",
+  "geopolitical",
+  "rates",
+  "interest rate",
+  "inflation",
+  "financing cost",
+  "construction cost",
+  "tenant caution",
+  "economic headwinds",
+  "volatility"
+];
+
+const PROPERTY_UTILIZATION_PROOF_VARIANTS = [
+  "leasing follow-through",
+  "occupancy validation",
+  "tenant uptake",
+  "absorption evidence",
+  "actual space take-up",
+  "leasing conversion",
+  "tenant commitment signals"
+];
+
+const PROPERTY_OPERATING_DEMAND_VARIANTS = [
+  "tenant-side demand picture",
+  "real occupancy read",
+  "underlying leasing demand",
+  "practical utilization picture",
+  "space absorption reality"
+];
+
+const PROPERTY_RECOVERY_CONFIRMATION_VARIANTS = [
+  "demand-side validation",
+  "hard leasing evidence",
+  "occupancy improvement",
+  "absorption improvement",
+  "pricing stabilization",
+  "sustained tenant return"
+];
+
+const PROPERTY_HOLDING_PATTERN_VARIANTS = [
+  "stabilizing without proving a turn",
+  "pausing rather than recovering",
+  "showing resilience without a clean rebound",
+  "avoiding further deterioration without confirming recovery",
+  "remaining in a holding pattern"
+];
+
+function propertyPhraseVariant(variants: string[], seed: string): string {
+  const normalized = normalizeText(seed);
+  let hash = 0;
+
+  for (let index = 0; index < normalized.length; index += 1) {
+    hash = (hash * 31 + normalized.charCodeAt(index)) >>> 0;
+  }
+
+  return variants[hash % variants.length];
+}
+
+function propertyUtilizationProof(seed: string): string {
+  return propertyPhraseVariant(PROPERTY_UTILIZATION_PROOF_VARIANTS, seed);
+}
+
+function propertyOperatingDemand(seed: string): string {
+  return propertyPhraseVariant(PROPERTY_OPERATING_DEMAND_VARIANTS, seed);
+}
+
+function propertyRecoveryConfirmation(seed: string): string {
+  return propertyPhraseVariant(PROPERTY_RECOVERY_CONFIRMATION_VARIANTS, seed);
+}
+
+function propertyHoldingPattern(seed: string): string {
+  return propertyPhraseVariant(PROPERTY_HOLDING_PATTERN_VARIANTS, seed);
+}
+
+function propertyInterpretationContext(stories: NormalizedStory[]): PropertyInterpretationContext {
+  const uniqueStories = uniqueStoriesForDisplay(stories);
+  const sorted = [...uniqueStories].sort((left, right) =>
+    right.publishedAt.localeCompare(left.publishedAt)
+  );
+  const latestStory = sorted[0];
+  const latestTime = latestStory
+    ? new Date(latestStory.publishedAt || latestStory.date).getTime()
+    : 0;
+  const text = normalizeText(
+    uniqueStories.map((story) =>
+      `${story.title} ${story.summary ?? ""} ${story.source} ${story.tags.join(" ")} ${story.reason_kept.join(" ")} ${story.angle_signals?.join(" ") ?? ""}`
+    ).join(" ")
+  );
+  const hasFreshHardSignal = uniqueStories.some((story) => {
+    const storyTime = new Date(story.publishedAt || story.date).getTime();
+    const daysOld = latestTime > 0 && !Number.isNaN(storyTime)
+      ? Math.floor((latestTime - storyTime) / 86_400_000)
+      : 999;
+    const storyText = normalizeText(`${story.title} ${story.summary ?? ""}`);
+
+    return daysOld <= 14 && textIncludesAny(storyText, PROPERTY_OPERATING_TERMS);
+  });
+  const hardRecoveryPatterns = [
+    "vacancy rates easing",
+    "vacancy rate easing",
+    "vacancy declined",
+    "vacancy fell",
+    "occupancy improved",
+    "occupancy rose",
+    "leasing activity increased",
+    "leasing activity rose",
+    "take up increased",
+    "take-up increased",
+    "absorption improved",
+    "rents stabilized",
+    "rent stabilization",
+    "inventory reduction",
+    "absence of new office supply"
+  ];
+  const hardRecoveryConfirmations = hardRecoveryPatterns.filter((pattern) =>
+    text.includes(normalizeText(pattern))
+  ).length;
+  const hasFreshRecoveryConfirmation = uniqueStories.some((story) => {
+    const storyTime = new Date(story.publishedAt || story.date).getTime();
+    const daysOld = latestTime > 0 && !Number.isNaN(storyTime)
+      ? Math.floor((latestTime - storyTime) / 86_400_000)
+      : 999;
+    const storyText = normalizeText(`${story.title} ${story.summary ?? ""}`);
+
+    return daysOld <= 14 && hardRecoveryPatterns.some((pattern) => storyText.includes(normalizeText(pattern)));
+  });
+  const hasPromotionalFraming = textIncludesAny(text, PROPERTY_PROMOTIONAL_TERMS);
+  const hasVolatilityLanguage = textIncludesAny(text, ["volatility", "volatile", "headwinds", "crisis"]);
+  const hasStressTerms = textIncludesAny(text, PROPERTY_STRESS_TERMS);
+  const hasRecoveryLanguage = textIncludesAny(text, [
+    "recovery",
+    "recovering",
+    "rebound",
+    "turnaround",
+    "resilient",
+    "resilience",
+    "improved",
+    "easing"
+  ]);
+
+  return {
+    text,
+    latestStory,
+    hasOffice: text.includes("office"),
+    hasPromotionalFraming,
+    hasOperatingTerms: textIncludesAny(text, PROPERTY_OPERATING_TERMS),
+    hasStressTerms,
+    hasConsultancyFraming: textIncludesAny(text, [
+      "colliers",
+      "santos knight frank",
+      "cbre",
+      "consultancy",
+      "market report",
+      "office report",
+      "analyst"
+    ]),
+    hasExternalPressure: textIncludesAny(text, PROPERTY_EXTERNAL_PRESSURE_TERMS),
+    hasRecoveryLanguage,
+    hasVolatilityLanguage,
+    hasFreshHardSignal,
+    hasFreshRecoveryConfirmation,
+    hasMostlyInterpretation:
+      uniqueStories.length > 0 &&
+      uniqueStories.filter((story) => story.property_filter?.editorial_bucket === "interpretation").length >=
+        Math.ceil(uniqueStories.length / 2),
+    hasFramingCollision:
+      (hasPromotionalFraming && (hasVolatilityLanguage || hasStressTerms)) ||
+      (text.includes("recovery") && (text.includes("weak absorption") || text.includes("tenant caution"))) ||
+      (text.includes("confidence") && text.includes("tenant caution")) ||
+      (text.includes("premium") && text.includes("affordability")),
+    hardRecoveryConfirmations
+  };
+}
+
+function propertyFreshWhyLine(label: string, stories: NormalizedStory[]): string | null {
+  const normalizedLabel = normalizeText(label);
+  const context = propertyInterpretationContext(stories);
+  const seed = `${label}:${stories.map((story) => story.id).join(":")}`;
+
+  if (normalizedLabel.includes("office supply positioning")) {
+    return `Developer expansion is the visible move, but the sharper property read is whether new gross leasable space can produce ${propertyUtilizationProof(`${seed}:why`)}.`;
+  }
+
+  if (normalizedLabel.includes("property credit conditions")) {
+    return `REIT scale and possible index inclusion are capital-market positioning signals; they still need to be read separately from the ${propertyOperatingDemand(`${seed}:why`)}.`;
+  }
+
+  if (!context.hasOffice && !normalizedLabel.includes("property")) {
+    return null;
+  }
+
+  if (normalizedLabel.includes("office market stress")) {
+    if (context.hasPromotionalFraming && context.hasExternalPressure) {
+      return `The resilience call matters because it arrives with external pressure still in the frame; that makes optimism something to test against ${propertyUtilizationProof(`${seed}:why`)}.`;
+    }
+
+    if (context.hasPromotionalFraming) {
+      return `Office optimism is useful only where it is matched by ${propertyUtilizationProof(`${seed}:why`)}; vacancy, rents, and leasing behavior still carry the harder read.`;
+    }
+  }
+
+  if (normalizedLabel.includes("supply pipeline shift")) {
+    return `Supply additions matter because they can either validate demand or add to the overhang; the difference depends on ${propertyRecoveryConfirmation(seed)}.`;
+  }
+
+  if (context.hasFramingCollision) {
+    return "The useful read is the gap between market framing and operating evidence: resilience and volatility are being used to describe the same property market.";
+  }
+
+  if (context.hasMostlyInterpretation && !context.hasFreshRecoveryConfirmation) {
+    return `Standing reports and analyst calls can frame the market, but they do not move it without ${propertyRecoveryConfirmation(seed)}.`;
+  }
+
+  if (normalizedLabel.includes("property stress")) {
+    return "Property stress matters here because promotional language can stay upbeat while vacancy, oversupply, and weak absorption keep doing the real diagnostic work.";
+  }
+
+  return null;
+}
+
+function propertyFreshPatternAndTension(
+  label: string,
+  stories: NormalizedStory[]
+): { pattern: string; tension: string } | null {
+  const normalizedLabel = normalizeText(label);
+  const context = propertyInterpretationContext(stories);
+  const seed = `${label}:${stories.map((story) => story.id).join(":")}`;
+
+  if (normalizedLabel.includes("office supply positioning")) {
+    return {
+      pattern: `The new office pipeline is being framed as expansion, but its demand read still has to come through ${propertyUtilizationProof(`${seed}:pattern`)}.`,
+      tension: "Tension: developer expansion vs tenant absorption"
+    };
+  }
+
+  if (normalizedLabel.includes("property credit conditions")) {
+    return {
+      pattern: `REIT growth is strengthening the capital-market story without settling the ${propertyOperatingDemand(`${seed}:pattern`)}.`,
+      tension: "Tension: market-cap growth vs property utilization"
+    };
+  }
+
+  if (normalizedLabel.includes("office market stress")) {
+    if (context.hasPromotionalFraming && !context.hasFreshRecoveryConfirmation) {
+      return {
+        pattern: `The office market is ${propertyHoldingPattern(seed)}, which keeps the read closer to stabilization than recovery.`,
+        tension: `Tension: resilience framing vs ${propertyUtilizationProof(`${seed}:tension`)}`
+      };
+    }
+
+    if (context.hardRecoveryConfirmations < 2 && context.hasRecoveryLanguage) {
+      return {
+        pattern: `Recovery language is ahead of the ${propertyRecoveryConfirmation(seed)} visible in the cluster.`,
+        tension: "Tension: recovery claim vs operating evidence"
+      };
+    }
+  }
+
+  if (context.hasFramingCollision) {
+    return {
+      pattern: "Consultancy framing is split between resilience and volatility while the operating read remains unresolved.",
+      tension: "Tension: optimistic framing vs unresolved stress"
+    };
+  }
+
+  if (context.hasMostlyInterpretation && !context.hasFreshHardSignal) {
+    return {
+      pattern: "The week is mostly framing and persistence, not a new market turn.",
+      tension: "Tension: standing research vs fresh demand signal"
+    };
+  }
+
+  return null;
+}
+
+function propertySummaryBullets(items: EditorialBriefItem[], stories: NormalizedStory[]): string[] {
+  const context = propertyInterpretationContext(stories);
+  const labels = items.map((item) => normalizeText(item.label));
+  const seed = items.map((item) => item.label).join(":");
+  const bullets: string[] = [];
+
+  if (labels.some((label) => label.includes("office market stress"))) {
+    if (context.hasPromotionalFraming && !context.hasFreshRecoveryConfirmation) {
+      bullets.push(
+        `The office market generated optimistic framing without enough ${propertyRecoveryConfirmation(seed)} to make it a recovery story.`
+      );
+    } else {
+      bullets.push("The office read still turns on vacancy, rents, leasing, and tenant behavior.");
+    }
+  }
+
+  if (context.hasFramingCollision) {
+    bullets.push(
+      "Resilience and volatility are appearing in the same market frame, so the actual read sits between the two claims."
+    );
+  }
+
+  if (context.hasConsultancyFraming && !context.hasFreshRecoveryConfirmation) {
+    bullets.push(
+      `No clear ${propertyRecoveryConfirmation(`${seed}:summary`)} broke through strongly enough to validate a turn.`
+    );
+  }
+
+  if (bullets.length === 0 && context.hasMostlyInterpretation) {
+    bullets.push("The story this week is persistence, not resolution.");
+  }
+
+  return [...new Set(bullets)];
 }
 
 function hasStoryText(story: NormalizedStory, keywords: string[]): boolean {
@@ -4050,6 +4499,7 @@ function buildPropertyEditorialRead(stories: NormalizedStory[]): string[] {
   }
 
   const bullets: string[] = [];
+  const context = propertyInterpretationContext(stories);
   const coreSignals = stories.filter(
     (story) => story.property_filter?.editorial_bucket === "core_signal"
   );
@@ -4105,8 +4555,30 @@ function buildPropertyEditorialRead(stories: NormalizedStory[]): string[] {
   }
 
   if (hasOfficeStress) {
+    if (context.hasPromotionalFraming && context.hasOperatingTerms) {
+      bullets.push(
+        `Resilience is the visible office-market framing; the useful read is whether vacancy, rents, and ${propertyUtilizationProof("editorial-read-office")} support it underneath.`
+      );
+    } else {
+      bullets.push(
+        "Office remains a visible stress channel, with vacancy, rents, and tenant demand carrying more weight than developer positioning."
+      );
+    }
+  }
+
+  if (context.hasFramingCollision && bullets.length < 4) {
     bullets.push(
-      "Office remains a visible stress channel, with vacancy, rents, and tenant demand carrying more weight than developer positioning."
+      "Resilience and volatility are sitting inside the same property narrative, which makes the tension more useful than either headline by itself."
+    );
+  }
+
+  if (
+    context.hasRecoveryLanguage &&
+    context.hardRecoveryConfirmations < 2 &&
+    bullets.length < 4
+  ) {
+    bullets.push(
+      `The lack of clear ${propertyRecoveryConfirmation("editorial-read-recovery")} keeps this in stabilization territory, not a clean recovery call.`
     );
   }
 
@@ -4126,7 +4598,9 @@ function buildPropertyEditorialRead(stories: NormalizedStory[]): string[] {
     bullets.push(
       coreSignals.length > 0
         ? "The softer market reads add direction around the hard signals, but they do not by themselves prove a turn."
-        : "Most of the week is interpretive, so the read should stay cautious until harder price, vacancy, inventory, lending, or policy evidence appears."
+        : context.hasConsultancyFraming
+          ? "The week is being carried by consultancy and research framing, so the read should stay cautious until harder demand, pricing, or occupancy evidence appears."
+          : "Most of the week is interpretive, so the read should stay cautious until harder price, vacancy, inventory, lending, or policy evidence appears."
     );
   }
 
@@ -5701,6 +6175,7 @@ export function renderWeeklyEditorialPacketMarkdown(
   const watchlist = buildWatchlistItems(stories, usedStoryIds, blockedLabels).slice(0, 5);
   const isBankingPacket = stories.some((story) => story.beat === "ph_sea_banking");
   const isMotoringPacket = stories.some((story) => story.beat === "philippine_motoring");
+  const isPropertyPacket = stories.some((story) => story.beat === "property_real_estate");
   const bankingUsedPhrases = bankingPhraseUse();
   const motoringUsedPhrases = motoringPhraseUse();
 
@@ -5735,13 +6210,19 @@ export function renderWeeklyEditorialPacketMarkdown(
     finalWhatMattersMost,
     finalStructuralShifts,
     finalWatchlist
-  ).map((bullet) =>
-    isBankingPacket
-      ? diversifyBankingLine(bullet, "banking summary", stories, "summary", bankingUsedPhrases)
-      : isMotoringPacket
-        ? diversifyMotoringLine(bullet, "motoring summary", stories, "summary", motoringUsedPhrases)
-      : bullet
   );
+  const finalPatternBullets = isPropertyPacket
+    ? propertySummaryBullets(
+        [...finalWhatMattersMost, ...finalStructuralShifts, ...finalWatchlist],
+        stories
+      )
+    : patternBullets.map((bullet) =>
+        isBankingPacket
+          ? diversifyBankingLine(bullet, "banking summary", stories, "summary", bankingUsedPhrases)
+          : isMotoringPacket
+            ? diversifyMotoringLine(bullet, "motoring summary", stories, "summary", motoringUsedPhrases)
+        : bullet
+      );
 
   lines.push(`# Weekly Editorial Packet — ${packet.beat_name}`);
   lines.push("");
@@ -5754,7 +6235,7 @@ export function renderWeeklyEditorialPacketMarkdown(
   lines.push("## What seems to be happening");
   lines.push("");
 
-  for (const bullet of patternBullets) {
+  for (const bullet of finalPatternBullets) {
     lines.push(`- ${bullet}`);
   }
 

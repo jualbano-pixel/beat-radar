@@ -470,6 +470,18 @@ function inferPatternAndTensionForLabel(label, reasonCodes, angles) {
             tension: "Tension: development pipeline vs market balance"
         };
     }
+    if (normalizedLabel.includes("office supply positioning")) {
+        return {
+            pattern: "Developers are still adding office space, but new supply only matters if leasing and utilization can absorb it.",
+            tension: "Tension: expansion pipeline vs tenant demand"
+        };
+    }
+    if (normalizedLabel.includes("property credit conditions")) {
+        return {
+            pattern: "REIT scale and index ambitions are being used to support capital-market positioning more than to prove end-user demand.",
+            tension: "Tension: capital-market ambition vs operating demand"
+        };
+    }
     if (normalizedLabel.includes("credit tightening")) {
         return {
             pattern: "Credit rules and lending behavior are moving toward stricter discipline.",
@@ -721,6 +733,12 @@ function buildEditorialWhyLineForLabel(label, reasonCodes, angles, reasonKept) {
     }
     if (normalizedLabel.includes("supply pipeline shift")) {
         return "Pipeline shifts matter because new supply can worsen imbalance if demand is not keeping up.";
+    }
+    if (normalizedLabel.includes("office supply positioning")) {
+        return "New office supply is a market signal only if leasing, occupancy, and tenant demand can validate the developer expansion story.";
+    }
+    if (normalizedLabel.includes("property credit conditions")) {
+        return "REIT and index-positioning stories matter as capital-market signals, but they do not by themselves confirm healthier property utilization.";
     }
     if (normalizedLabel.includes("credit tightening")) {
         return "Credit discipline changes how much risk banks are willing to carry and which borrowers can still access loans.";
@@ -1010,6 +1028,9 @@ function themeSanityScore(story, label, reasonCodes, angles) {
     if (consumerMismatch) {
         return -10;
     }
+    if (story.beat === "philippine_motoring" && !hasDirectMotoringHook(story)) {
+        return -10;
+    }
     let score = 0;
     if (story.theme_label && normalizeText(story.theme_label) === labelText) {
         score += 5;
@@ -1025,6 +1046,144 @@ function themeSanityScore(story, label, reasonCodes, angles) {
         score += 1;
     }
     return score;
+}
+function hasDirectMotoringHook(story) {
+    const factualText = normalizeText(`${story.title} ${story.summary ?? ""} ${story.tags.join(" ")}`);
+    const nonMotoringBusinessTerms = [
+        "gaming",
+        "casino",
+        "pagcor",
+        "real estate",
+        "bank",
+        "banks",
+        "insurance",
+        "food price",
+        "rice price",
+        "stock",
+        "psei"
+    ];
+    const directTerms = [
+        "motor",
+        "motoring",
+        "vehicle",
+        "vehicles",
+        "car",
+        "cars",
+        "auto",
+        "automotive",
+        "motorcycle",
+        "motorcycles",
+        "rider",
+        "driver",
+        "drivers",
+        "road",
+        "traffic",
+        "toll",
+        "lto",
+        "ltfrb",
+        "dotr",
+        "mmda",
+        "license",
+        "registration",
+        "franchise",
+        "puv",
+        "puvs",
+        "jeepney",
+        "bus",
+        "taxi",
+        "grab",
+        "move it",
+        "fleet",
+        "fleets",
+        "operator",
+        "operators",
+        "transport",
+        "mobility",
+        "commuter",
+        "commuters",
+        "fare",
+        "fares",
+        "airport",
+        "airline",
+        "airlines",
+        "dealership",
+        "dealer",
+        "after sales",
+        "service center",
+        "warranty",
+        "charging",
+        "charger",
+        "electric vehicle",
+        "hybrid",
+        "phev",
+        "suv",
+        "pickup",
+        "mpv"
+    ];
+    const fuelRetailTerms = ["gasoline", "diesel", "pump price", "fuel discount", "fuel savings"];
+    const fuelRetailBrands = ["shell", "seaoil", "caltex", "petron"];
+    if (directTerms.some((term) => factualText.includes(term))) {
+        return true;
+    }
+    if (fuelRetailTerms.some((term) => factualText.includes(term)) &&
+        !nonMotoringBusinessTerms.some((term) => factualText.includes(term))) {
+        return true;
+    }
+    return fuelRetailBrands.some((term) => factualText.includes(term));
+}
+function motoringFactualText(story) {
+    return normalizeText(`${story.title} ${story.summary ?? ""} ${story.tags.join(" ")}`);
+}
+function hasMotoringEvInfrastructureHook(story) {
+    const text = motoringFactualText(story);
+    const hasEvContext = text.includes("electric vehicle") ||
+        text.includes("ev owner") ||
+        text.includes("ev owners") ||
+        text.includes("hybrid") ||
+        text.includes("phev") ||
+        text.includes("electrified") ||
+        /\bev\b/.test(text) ||
+        /\bevs\b/.test(text);
+    const hasEvInfrastructure = text.includes("charging") ||
+        text.includes("charger") ||
+        text.includes("charge station") ||
+        text.includes("owner support") ||
+        text.includes("tech talk") ||
+        text.includes("service center");
+    return hasEvContext && hasEvInfrastructure;
+}
+function hasMotoringRoadInfrastructureHook(story) {
+    const text = motoringFactualText(story);
+    return textIncludesAny(text, [
+        "traffic",
+        "congestion",
+        "jam",
+        "jams",
+        "road",
+        "roads",
+        "street",
+        "streets",
+        "toll",
+        "road hazard",
+        "public health",
+        "travel time",
+        "vehicle wear",
+        "airport",
+        "busway",
+        "edsa",
+        "c5"
+    ]);
+}
+function motoringInfrastructureProfile(stories) {
+    const uniqueStories = uniqueStoriesForDisplay(stories).filter(hasDirectMotoringHook);
+    const roadCount = uniqueStories.filter(hasMotoringRoadInfrastructureHook).length;
+    const evInfrastructureCount = uniqueStories.filter(hasMotoringEvInfrastructureHook).length;
+    return {
+        roadCount,
+        evInfrastructureCount,
+        roadDominant: roadCount > 0 && roadCount >= evInfrastructureCount,
+        evInfrastructureDominant: evInfrastructureCount > 0 && evInfrastructureCount > roadCount
+    };
 }
 function sectionUnique(items, limit) {
     const seen = new Set();
@@ -1047,6 +1206,35 @@ function supportingReasonCandidates(story) {
     const normalizedPrimary = primary.toLowerCase();
     const candidates = [];
     if (story.beat === "philippine_motoring") {
+        const factualText = motoringFactualText(story);
+        const hasElectrifiedText = /\bev\b/.test(factualText) ||
+            /\bevs\b/.test(factualText) ||
+            factualText.includes("hybrid") ||
+            factualText.includes("phev") ||
+            factualText.includes("electrified") ||
+            factualText.includes("electric vehicle");
+        if (factualText.includes("honda ph reaches 12 million motorcycle") ||
+            factualText.includes("12 million motorcycle") ||
+            factualText.includes("12 million motorcycles")) {
+            candidates.push("Anchors the demand read in basic motorcycle mobility at national scale.");
+            candidates.push("Shows that practical two-wheel mobility is still carrying real market volume.");
+        }
+        if (factualText.includes("audi") ||
+            factualText.includes("q9") ||
+            factualText.includes("bmw") ||
+            factualText.includes("7 series") ||
+            factualText.includes("premium") ||
+            factualText.includes("luxury")) {
+            candidates.push("Shows the premium-aspiration side of the market split.");
+            candidates.push("Tests how far high-end demand sits from the basic-mobility story.");
+        }
+        if (factualText.includes("viral crash") ||
+            factualText.includes("arrested") ||
+            factualText.includes("issued sco") ||
+            factualText.includes("show cause order")) {
+            candidates.push("Turns a road incident into a visible enforcement consequence.");
+            candidates.push("Shows enforcement moving from complaint to actual sanction.");
+        }
         if (text.includes("lto") ||
             text.includes("dotr") ||
             text.includes("enforcement") ||
@@ -1055,13 +1243,22 @@ function supportingReasonCandidates(story) {
             candidates.push("Shows where road rules are starting to meet actual driver behavior.");
             candidates.push("Makes enforcement part of the motoring cost and discipline story.");
         }
-        if (text.includes("diesel") ||
-            text.includes("gasoline") ||
-            text.includes("fuel") ||
-            text.includes("oil") ||
-            text.includes("rollback")) {
-            candidates.push("Makes fuel-price pressure part of the buyer and operator story.");
-            candidates.push("Shows how pump-price swings can quickly change household and fleet costs.");
+        if (hasMotoringRoadInfrastructureHook(story)) {
+            candidates.push("Keeps the read tied to daily travel time, road conditions, and vehicle use.");
+            candidates.push("Shows how congestion or road hazards affect motorists beyond the purchase decision.");
+        }
+        if (factualText.includes("diesel") ||
+            factualText.includes("gasoline") ||
+            factualText.includes("fuel") ||
+            factualText.includes("rollback") ||
+            factualText.includes("shell") ||
+            factualText.includes("seaoil") ||
+            factualText.includes("caltex") ||
+            factualText.includes("petron")) {
+            if (!hasElectrifiedText) {
+                candidates.push("Makes fuel-price pressure part of the buyer and operator story.");
+                candidates.push("Shows how pump-price swings can quickly change household and fleet costs.");
+            }
         }
         if (text.includes("price") ||
             text.includes("pricing") ||
@@ -1071,17 +1268,17 @@ function supportingReasonCandidates(story) {
             candidates.push("Makes the affordability test visible, not just the launch claim.");
             candidates.push("Shows how brands are using price to keep buyers in the market.");
         }
-        if (/\bev\b/.test(text) ||
-            /\bevs\b/.test(text) ||
-            text.includes("hybrid") ||
-            text.includes("phev") ||
-            text.includes("electrified")) {
+        if (hasElectrifiedText) {
             candidates.push("Shows how electrified models are being pushed into a still-cost-sensitive market.");
             candidates.push("Keeps the EV transition tied to price, range, and everyday usability.");
         }
-        if (text.includes("charging") || text.includes("charger") || text.includes("infrastructure")) {
+        if (hasMotoringEvInfrastructureHook(story)) {
             candidates.push("Makes the charging and infrastructure gap harder to avoid.");
             candidates.push("Shows where EV ambition still depends on practical access.");
+        }
+        if (factualText.includes("owner support") || factualText.includes("tech talk")) {
+            candidates.push("Moves the EV read from model arrival to owner support and practical use.");
+            candidates.push("Shows brands having to support EV owners after the purchase decision.");
         }
         if (text.includes("suv") ||
             text.includes("pickup") ||
@@ -1102,9 +1299,19 @@ function supportingReasonCandidates(story) {
         if (text.includes("taxi") ||
             text.includes("fleet") ||
             text.includes("grab") ||
-            text.includes("operators")) {
+            text.includes("operators") ||
+            factualText.includes("terminal fees") ||
+            factualText.includes("puv")) {
             candidates.push("Shows how operating costs are changing the fleet and mobility equation.");
             candidates.push("Makes commercial usage a test case for broader adoption.");
+        }
+        if (factualText.includes("dealership") ||
+            factualText.includes("dealer") ||
+            factualText.includes("warranty") ||
+            factualText.includes("service center") ||
+            factualText.includes("after sales")) {
+            candidates.push("Makes after-sales support part of the ownership-cost story.");
+            candidates.push("Shows brands competing on the service layer after the vehicle is sold.");
         }
         if (text.includes("demand") || text.includes("buyers") || text.includes("market")) {
             candidates.push("Makes buyer demand easier to read through pricing and product choices.");
@@ -1148,10 +1355,18 @@ function supportingReasonCandidates(story) {
             candidates.push("Shows real property utilization through vacancy, rents, or leasing demand.");
             candidates.push("Keeps the office read tied to occupancy and tenant behavior.");
         }
+        if (text.includes("regional office expansion") ||
+            text.includes("office expansion") ||
+            text.includes("gross leasable space") ||
+            text.includes("new buildings") ||
+            text.includes("office portfolio")) {
+            candidates.push(`Shows developer-side office supply positioning that still needs ${propertyUtilizationProof(story.id)}.`);
+            candidates.push("Adds supply pipeline context without proving a demand recovery.");
+        }
         if (text.includes("construction permits") ||
             text.includes("building permits") ||
             text.includes("weak residential demand") ||
-            text.includes("construction")) {
+            text.includes("residential construction")) {
             candidates.push("Shows whether the residential build pipeline is losing momentum.");
             candidates.push("Connects construction activity to actual demand rather than expansion claims.");
         }
@@ -1337,6 +1552,13 @@ function beatSpecificStoryLabel(story) {
             text.includes("prices soften")) {
             return "price growth slowdown";
         }
+        if (text.includes("regional office expansion") ||
+            text.includes("office expansion") ||
+            text.includes("gross leasable space") ||
+            text.includes("new buildings") ||
+            text.includes("office portfolio")) {
+            return "office supply positioning";
+        }
         if (text.includes("office") &&
             (text.includes("vacancy") ||
                 text.includes("leasing") ||
@@ -1442,6 +1664,24 @@ function buildStoryBriefItem(label, stories) {
     const angles = topValues(uniqueStories.flatMap((story) => story.angle_signals ?? []), 3);
     const reasonKept = uniqueStories.flatMap((story) => story.reason_kept ?? []);
     const patternAndTension = inferPatternAndTensionForLabel(label, reasonCodes, angles);
+    const bankingFreshPattern = uniqueStories.some((story) => story.beat === "ph_sea_banking")
+        ? bankingFreshPatternAndTension(label, uniqueStories)
+        : null;
+    const bankingFreshWhy = uniqueStories.some((story) => story.beat === "ph_sea_banking")
+        ? bankingFreshWhyLine(label, uniqueStories)
+        : null;
+    const motoringFreshPattern = uniqueStories.some((story) => story.beat === "philippine_motoring")
+        ? motoringFreshPatternAndTension(label, uniqueStories)
+        : null;
+    const motoringFreshWhy = uniqueStories.some((story) => story.beat === "philippine_motoring")
+        ? motoringFreshWhyLine(label, uniqueStories)
+        : null;
+    const propertyFreshPattern = uniqueStories.some((story) => story.beat === "property_real_estate")
+        ? propertyFreshPatternAndTension(label, uniqueStories)
+        : null;
+    const propertyFreshWhy = uniqueStories.some((story) => story.beat === "property_real_estate")
+        ? propertyFreshWhyLine(label, uniqueStories)
+        : null;
     const topPriority = Math.max(...uniqueStories.map((story) => story.priority_score ?? 0), 0);
     const propertyScoreBoost = uniqueStories.some((story) => story.property_filter?.stress_signal) ? 8 : 0;
     const hardSignalBoost = uniqueStories.some((story) => story.property_filter?.editorial_bucket === "core_signal" ||
@@ -1454,6 +1694,9 @@ function buildStoryBriefItem(label, stories) {
         uniqueStories.every((story) => story.property_filter?.editorial_bucket === "interpretation")
         ? 3
         : 0;
+    const supportingStories = uniqueStories.some((story) => story.beat === "philippine_motoring")
+        ? pickSupportingStories(uniqueStories.filter(hasDirectMotoringHook), 4)
+        : pickSupportingStories(uniqueStories, 4);
     return {
         label,
         score: topPriority +
@@ -1462,10 +1705,10 @@ function buildStoryBriefItem(label, stories) {
             propertyScoreBoost +
             hardSignalBoost -
             interpretationPenalty,
-        whyItMatters: buildEditorialWhyLineForLabel(label, reasonCodes, angles, reasonKept),
-        pattern: patternAndTension.pattern,
-        tension: patternAndTension.tension,
-        supportingStories: pickSupportingStories(uniqueStories, 4)
+        whyItMatters: bankingFreshWhy ?? motoringFreshWhy ?? propertyFreshWhy ?? buildEditorialWhyLineForLabel(label, reasonCodes, angles, reasonKept),
+        pattern: bankingFreshPattern?.pattern ?? motoringFreshPattern?.pattern ?? propertyFreshPattern?.pattern ?? patternAndTension.pattern,
+        tension: bankingFreshPattern?.tension ?? motoringFreshPattern?.tension ?? propertyFreshPattern?.tension ?? patternAndTension.tension,
+        supportingStories
     };
 }
 function uniqueStoriesForDisplay(stories) {
@@ -1516,16 +1759,37 @@ function buildThemeBriefItem(themeCluster, storyMap) {
     const topPriority = Math.max(...stories.map((story) => story.priority_score ?? 0), 0);
     const score = topPriority + averagePriority(stories) + Math.min(themeCluster.story_count, 6);
     const filteredSupportingStories = supportingStories.filter((story) => themeSanityScore(story, label, dominantReasonCodes, dominantAngles) >= 1);
+    const hasMotoringStories = stories.some((story) => story.beat === "philippine_motoring");
     const finalSupportingStories = filteredSupportingStories.length > 0
         ? filteredSupportingStories
-        : supportingStories.slice(0, 2);
+        : hasMotoringStories
+            ? pickSupportingStories(stories.filter(hasDirectMotoringHook), 2)
+            : supportingStories.slice(0, 2);
     const patternAndTension = inferPatternAndTensionForLabel(label, dominantReasonCodes, dominantAngles);
+    const bankingFreshPattern = stories.some((story) => story.beat === "ph_sea_banking")
+        ? bankingFreshPatternAndTension(label, stories)
+        : null;
+    const bankingFreshWhy = stories.some((story) => story.beat === "ph_sea_banking")
+        ? bankingFreshWhyLine(label, stories)
+        : null;
+    const motoringFreshPattern = stories.some((story) => story.beat === "philippine_motoring")
+        ? motoringFreshPatternAndTension(label, stories)
+        : null;
+    const motoringFreshWhy = stories.some((story) => story.beat === "philippine_motoring")
+        ? motoringFreshWhyLine(label, stories)
+        : null;
+    const propertyFreshPattern = stories.some((story) => story.beat === "property_real_estate")
+        ? propertyFreshPatternAndTension(label, stories)
+        : null;
+    const propertyFreshWhy = stories.some((story) => story.beat === "property_real_estate")
+        ? propertyFreshWhyLine(label, stories)
+        : null;
     return {
         label,
         score,
-        whyItMatters: buildEditorialWhyLineForLabel(label, dominantReasonCodes, dominantAngles, reasonKept),
-        pattern: patternAndTension.pattern,
-        tension: patternAndTension.tension,
+        whyItMatters: bankingFreshWhy ?? motoringFreshWhy ?? propertyFreshWhy ?? buildEditorialWhyLineForLabel(label, dominantReasonCodes, dominantAngles, reasonKept),
+        pattern: bankingFreshPattern?.pattern ?? motoringFreshPattern?.pattern ?? propertyFreshPattern?.pattern ?? patternAndTension.pattern,
+        tension: bankingFreshPattern?.tension ?? motoringFreshPattern?.tension ?? propertyFreshPattern?.tension ?? patternAndTension.tension,
         supportingStories: finalSupportingStories
     };
 }
@@ -1543,13 +1807,31 @@ function buildEventBriefItem(eventCluster, storyMap) {
         averagePriority(stories) +
         Math.min(eventCluster.story_count, 4);
     const patternAndTension = inferPatternAndTensionForLabel(label, reasonCodes, angles);
+    const bankingFreshPattern = stories.some((story) => story.beat === "ph_sea_banking")
+        ? bankingFreshPatternAndTension(label, stories)
+        : null;
+    const bankingFreshWhy = stories.some((story) => story.beat === "ph_sea_banking")
+        ? bankingFreshWhyLine(label, stories)
+        : null;
+    const motoringFreshPattern = stories.some((story) => story.beat === "philippine_motoring")
+        ? motoringFreshPatternAndTension(label, stories)
+        : null;
+    const motoringFreshWhy = stories.some((story) => story.beat === "philippine_motoring")
+        ? motoringFreshWhyLine(label, stories)
+        : null;
+    const propertyFreshPattern = stories.some((story) => story.beat === "property_real_estate")
+        ? propertyFreshPatternAndTension(label, stories)
+        : null;
+    const propertyFreshWhy = stories.some((story) => story.beat === "property_real_estate")
+        ? propertyFreshWhyLine(label, stories)
+        : null;
     const supportingStories = pickSupportingStories(stories, 3).filter((story) => themeSanityScore(story, label, reasonCodes, angles) >= 1);
     return {
         label,
         score,
-        whyItMatters: buildEditorialWhyLineForLabel(label, reasonCodes, angles, reasonKept),
-        pattern: patternAndTension.pattern,
-        tension: patternAndTension.tension,
+        whyItMatters: bankingFreshWhy ?? motoringFreshWhy ?? propertyFreshWhy ?? buildEditorialWhyLineForLabel(label, reasonCodes, angles, reasonKept),
+        pattern: bankingFreshPattern?.pattern ?? motoringFreshPattern?.pattern ?? propertyFreshPattern?.pattern ?? patternAndTension.pattern,
+        tension: bankingFreshPattern?.tension ?? motoringFreshPattern?.tension ?? propertyFreshPattern?.tension ?? patternAndTension.tension,
         supportingStories: supportingStories.length > 0 ? supportingStories : stories.slice(0, 1)
     };
 }
@@ -1577,12 +1859,30 @@ function buildWatchlistItems(stories, usedStoryIds, blockedLabels) {
         const reasonCodes = story.reason_code ? [story.reason_code] : [];
         const label = storyPresentationLabel(story);
         const patternAndTension = inferPatternAndTensionForLabel(label, reasonCodes, angles);
+        const bankingFreshPattern = story.beat === "ph_sea_banking"
+            ? bankingFreshPatternAndTension(label, [story])
+            : null;
+        const bankingFreshWhy = story.beat === "ph_sea_banking"
+            ? bankingFreshWhyLine(label, [story])
+            : null;
+        const motoringFreshPattern = story.beat === "philippine_motoring"
+            ? motoringFreshPatternAndTension(label, [story])
+            : null;
+        const motoringFreshWhy = story.beat === "philippine_motoring"
+            ? motoringFreshWhyLine(label, [story])
+            : null;
+        const propertyFreshPattern = story.beat === "property_real_estate"
+            ? propertyFreshPatternAndTension(label, [story])
+            : null;
+        const propertyFreshWhy = story.beat === "property_real_estate"
+            ? propertyFreshWhyLine(label, [story])
+            : null;
         return {
             label,
             score: story.priority_score ?? 0,
-            whyItMatters: buildEditorialWhyLineForLabel(label, reasonCodes, angles, story.reason_kept),
-            pattern: patternAndTension.pattern,
-            tension: patternAndTension.tension,
+            whyItMatters: bankingFreshWhy ?? motoringFreshWhy ?? propertyFreshWhy ?? buildEditorialWhyLineForLabel(label, reasonCodes, angles, story.reason_kept),
+            pattern: bankingFreshPattern?.pattern ?? motoringFreshPattern?.pattern ?? propertyFreshPattern?.pattern ?? patternAndTension.pattern,
+            tension: bankingFreshPattern?.tension ?? motoringFreshPattern?.tension ?? propertyFreshPattern?.tension ?? patternAndTension.tension,
             supportingStories: [story]
         };
     });
@@ -1687,6 +1987,306 @@ function propertyStoryRef(story) {
         stress_signal: story.property_filter?.stress_signal
     };
 }
+const PROPERTY_PROMOTIONAL_TERMS = [
+    "resilient",
+    "resilience",
+    "opportunity",
+    "opportunities",
+    "premium",
+    "confidence",
+    "growth corridor",
+    "luxury",
+    "world class",
+    "world-class",
+    "optimistic",
+    "upbeat"
+];
+const PROPERTY_OPERATING_TERMS = [
+    "vacancy",
+    "occupancy",
+    "rent",
+    "rents",
+    "rental",
+    "leasing",
+    "lease",
+    "absorption",
+    "inventory",
+    "tenant demand",
+    "tenant behavior",
+    "take up",
+    "take-up",
+    "office stock",
+    "new supply",
+    "financing",
+    "mortgage",
+    "property price index",
+    "residential real estate price index"
+];
+const PROPERTY_STRESS_TERMS = [
+    "vacancy",
+    "overhang",
+    "oversupply",
+    "weak absorption",
+    "tempered demand",
+    "tenant caution",
+    "cost pressure",
+    "affordability pressure",
+    "soften",
+    "slower",
+    "decline"
+];
+const PROPERTY_EXTERNAL_PRESSURE_TERMS = [
+    "middle east",
+    "geopolitical",
+    "rates",
+    "interest rate",
+    "inflation",
+    "financing cost",
+    "construction cost",
+    "tenant caution",
+    "economic headwinds",
+    "volatility"
+];
+const PROPERTY_UTILIZATION_PROOF_VARIANTS = [
+    "leasing follow-through",
+    "occupancy validation",
+    "tenant uptake",
+    "absorption evidence",
+    "actual space take-up",
+    "leasing conversion",
+    "tenant commitment signals"
+];
+const PROPERTY_OPERATING_DEMAND_VARIANTS = [
+    "tenant-side demand picture",
+    "real occupancy read",
+    "underlying leasing demand",
+    "practical utilization picture",
+    "space absorption reality"
+];
+const PROPERTY_RECOVERY_CONFIRMATION_VARIANTS = [
+    "demand-side validation",
+    "hard leasing evidence",
+    "occupancy improvement",
+    "absorption improvement",
+    "pricing stabilization",
+    "sustained tenant return"
+];
+const PROPERTY_HOLDING_PATTERN_VARIANTS = [
+    "stabilizing without proving a turn",
+    "pausing rather than recovering",
+    "showing resilience without a clean rebound",
+    "avoiding further deterioration without confirming recovery",
+    "remaining in a holding pattern"
+];
+function propertyPhraseVariant(variants, seed) {
+    const normalized = normalizeText(seed);
+    let hash = 0;
+    for (let index = 0; index < normalized.length; index += 1) {
+        hash = (hash * 31 + normalized.charCodeAt(index)) >>> 0;
+    }
+    return variants[hash % variants.length];
+}
+function propertyUtilizationProof(seed) {
+    return propertyPhraseVariant(PROPERTY_UTILIZATION_PROOF_VARIANTS, seed);
+}
+function propertyOperatingDemand(seed) {
+    return propertyPhraseVariant(PROPERTY_OPERATING_DEMAND_VARIANTS, seed);
+}
+function propertyRecoveryConfirmation(seed) {
+    return propertyPhraseVariant(PROPERTY_RECOVERY_CONFIRMATION_VARIANTS, seed);
+}
+function propertyHoldingPattern(seed) {
+    return propertyPhraseVariant(PROPERTY_HOLDING_PATTERN_VARIANTS, seed);
+}
+function propertyInterpretationContext(stories) {
+    const uniqueStories = uniqueStoriesForDisplay(stories);
+    const sorted = [...uniqueStories].sort((left, right) => right.publishedAt.localeCompare(left.publishedAt));
+    const latestStory = sorted[0];
+    const latestTime = latestStory
+        ? new Date(latestStory.publishedAt || latestStory.date).getTime()
+        : 0;
+    const text = normalizeText(uniqueStories.map((story) => `${story.title} ${story.summary ?? ""} ${story.source} ${story.tags.join(" ")} ${story.reason_kept.join(" ")} ${story.angle_signals?.join(" ") ?? ""}`).join(" "));
+    const hasFreshHardSignal = uniqueStories.some((story) => {
+        const storyTime = new Date(story.publishedAt || story.date).getTime();
+        const daysOld = latestTime > 0 && !Number.isNaN(storyTime)
+            ? Math.floor((latestTime - storyTime) / 86_400_000)
+            : 999;
+        const storyText = normalizeText(`${story.title} ${story.summary ?? ""}`);
+        return daysOld <= 14 && textIncludesAny(storyText, PROPERTY_OPERATING_TERMS);
+    });
+    const hardRecoveryPatterns = [
+        "vacancy rates easing",
+        "vacancy rate easing",
+        "vacancy declined",
+        "vacancy fell",
+        "occupancy improved",
+        "occupancy rose",
+        "leasing activity increased",
+        "leasing activity rose",
+        "take up increased",
+        "take-up increased",
+        "absorption improved",
+        "rents stabilized",
+        "rent stabilization",
+        "inventory reduction",
+        "absence of new office supply"
+    ];
+    const hardRecoveryConfirmations = hardRecoveryPatterns.filter((pattern) => text.includes(normalizeText(pattern))).length;
+    const hasFreshRecoveryConfirmation = uniqueStories.some((story) => {
+        const storyTime = new Date(story.publishedAt || story.date).getTime();
+        const daysOld = latestTime > 0 && !Number.isNaN(storyTime)
+            ? Math.floor((latestTime - storyTime) / 86_400_000)
+            : 999;
+        const storyText = normalizeText(`${story.title} ${story.summary ?? ""}`);
+        return daysOld <= 14 && hardRecoveryPatterns.some((pattern) => storyText.includes(normalizeText(pattern)));
+    });
+    const hasPromotionalFraming = textIncludesAny(text, PROPERTY_PROMOTIONAL_TERMS);
+    const hasVolatilityLanguage = textIncludesAny(text, ["volatility", "volatile", "headwinds", "crisis"]);
+    const hasStressTerms = textIncludesAny(text, PROPERTY_STRESS_TERMS);
+    const hasRecoveryLanguage = textIncludesAny(text, [
+        "recovery",
+        "recovering",
+        "rebound",
+        "turnaround",
+        "resilient",
+        "resilience",
+        "improved",
+        "easing"
+    ]);
+    return {
+        text,
+        latestStory,
+        hasOffice: text.includes("office"),
+        hasPromotionalFraming,
+        hasOperatingTerms: textIncludesAny(text, PROPERTY_OPERATING_TERMS),
+        hasStressTerms,
+        hasConsultancyFraming: textIncludesAny(text, [
+            "colliers",
+            "santos knight frank",
+            "cbre",
+            "consultancy",
+            "market report",
+            "office report",
+            "analyst"
+        ]),
+        hasExternalPressure: textIncludesAny(text, PROPERTY_EXTERNAL_PRESSURE_TERMS),
+        hasRecoveryLanguage,
+        hasVolatilityLanguage,
+        hasFreshHardSignal,
+        hasFreshRecoveryConfirmation,
+        hasMostlyInterpretation: uniqueStories.length > 0 &&
+            uniqueStories.filter((story) => story.property_filter?.editorial_bucket === "interpretation").length >=
+                Math.ceil(uniqueStories.length / 2),
+        hasFramingCollision: (hasPromotionalFraming && (hasVolatilityLanguage || hasStressTerms)) ||
+            (text.includes("recovery") && (text.includes("weak absorption") || text.includes("tenant caution"))) ||
+            (text.includes("confidence") && text.includes("tenant caution")) ||
+            (text.includes("premium") && text.includes("affordability")),
+        hardRecoveryConfirmations
+    };
+}
+function propertyFreshWhyLine(label, stories) {
+    const normalizedLabel = normalizeText(label);
+    const context = propertyInterpretationContext(stories);
+    const seed = `${label}:${stories.map((story) => story.id).join(":")}`;
+    if (normalizedLabel.includes("office supply positioning")) {
+        return `Developer expansion is the visible move, but the sharper property read is whether new gross leasable space can produce ${propertyUtilizationProof(`${seed}:why`)}.`;
+    }
+    if (normalizedLabel.includes("property credit conditions")) {
+        return `REIT scale and possible index inclusion are capital-market positioning signals; they still need to be read separately from the ${propertyOperatingDemand(`${seed}:why`)}.`;
+    }
+    if (!context.hasOffice && !normalizedLabel.includes("property")) {
+        return null;
+    }
+    if (normalizedLabel.includes("office market stress")) {
+        if (context.hasPromotionalFraming && context.hasExternalPressure) {
+            return `The resilience call matters because it arrives with external pressure still in the frame; that makes optimism something to test against ${propertyUtilizationProof(`${seed}:why`)}.`;
+        }
+        if (context.hasPromotionalFraming) {
+            return `Office optimism is useful only where it is matched by ${propertyUtilizationProof(`${seed}:why`)}; vacancy, rents, and leasing behavior still carry the harder read.`;
+        }
+    }
+    if (normalizedLabel.includes("supply pipeline shift")) {
+        return `Supply additions matter because they can either validate demand or add to the overhang; the difference depends on ${propertyRecoveryConfirmation(seed)}.`;
+    }
+    if (context.hasFramingCollision) {
+        return "The useful read is the gap between market framing and operating evidence: resilience and volatility are being used to describe the same property market.";
+    }
+    if (context.hasMostlyInterpretation && !context.hasFreshRecoveryConfirmation) {
+        return `Standing reports and analyst calls can frame the market, but they do not move it without ${propertyRecoveryConfirmation(seed)}.`;
+    }
+    if (normalizedLabel.includes("property stress")) {
+        return "Property stress matters here because promotional language can stay upbeat while vacancy, oversupply, and weak absorption keep doing the real diagnostic work.";
+    }
+    return null;
+}
+function propertyFreshPatternAndTension(label, stories) {
+    const normalizedLabel = normalizeText(label);
+    const context = propertyInterpretationContext(stories);
+    const seed = `${label}:${stories.map((story) => story.id).join(":")}`;
+    if (normalizedLabel.includes("office supply positioning")) {
+        return {
+            pattern: `The new office pipeline is being framed as expansion, but its demand read still has to come through ${propertyUtilizationProof(`${seed}:pattern`)}.`,
+            tension: "Tension: developer expansion vs tenant absorption"
+        };
+    }
+    if (normalizedLabel.includes("property credit conditions")) {
+        return {
+            pattern: `REIT growth is strengthening the capital-market story without settling the ${propertyOperatingDemand(`${seed}:pattern`)}.`,
+            tension: "Tension: market-cap growth vs property utilization"
+        };
+    }
+    if (normalizedLabel.includes("office market stress")) {
+        if (context.hasPromotionalFraming && !context.hasFreshRecoveryConfirmation) {
+            return {
+                pattern: `The office market is ${propertyHoldingPattern(seed)}, which keeps the read closer to stabilization than recovery.`,
+                tension: `Tension: resilience framing vs ${propertyUtilizationProof(`${seed}:tension`)}`
+            };
+        }
+        if (context.hardRecoveryConfirmations < 2 && context.hasRecoveryLanguage) {
+            return {
+                pattern: `Recovery language is ahead of the ${propertyRecoveryConfirmation(seed)} visible in the cluster.`,
+                tension: "Tension: recovery claim vs operating evidence"
+            };
+        }
+    }
+    if (context.hasFramingCollision) {
+        return {
+            pattern: "Consultancy framing is split between resilience and volatility while the operating read remains unresolved.",
+            tension: "Tension: optimistic framing vs unresolved stress"
+        };
+    }
+    if (context.hasMostlyInterpretation && !context.hasFreshHardSignal) {
+        return {
+            pattern: "The week is mostly framing and persistence, not a new market turn.",
+            tension: "Tension: standing research vs fresh demand signal"
+        };
+    }
+    return null;
+}
+function propertySummaryBullets(items, stories) {
+    const context = propertyInterpretationContext(stories);
+    const labels = items.map((item) => normalizeText(item.label));
+    const seed = items.map((item) => item.label).join(":");
+    const bullets = [];
+    if (labels.some((label) => label.includes("office market stress"))) {
+        if (context.hasPromotionalFraming && !context.hasFreshRecoveryConfirmation) {
+            bullets.push(`The office market generated optimistic framing without enough ${propertyRecoveryConfirmation(seed)} to make it a recovery story.`);
+        }
+        else {
+            bullets.push("The office read still turns on vacancy, rents, leasing, and tenant behavior.");
+        }
+    }
+    if (context.hasFramingCollision) {
+        bullets.push("Resilience and volatility are appearing in the same market frame, so the actual read sits between the two claims.");
+    }
+    if (context.hasConsultancyFraming && !context.hasFreshRecoveryConfirmation) {
+        bullets.push(`No clear ${propertyRecoveryConfirmation(`${seed}:summary`)} broke through strongly enough to validate a turn.`);
+    }
+    if (bullets.length === 0 && context.hasMostlyInterpretation) {
+        bullets.push("The story this week is persistence, not resolution.");
+    }
+    return [...new Set(bullets)];
+}
 function hasStoryText(story, keywords) {
     const text = `${story.title} ${story.summary ?? ""}`;
     return countKeywordHits(text, keywords) > 0;
@@ -1696,6 +2296,972 @@ function readHasAny(stories, keywords) {
 }
 function readHasTheme(themeClusters, keywords) {
     return themeClusters.some((theme) => countKeywordHits(`${theme.theme_label} ${theme.theme_summary ?? ""}`, keywords) > 0);
+}
+const BANKING_EVERGREEN_PHRASES = [
+    "banks are prioritizing buffers and optionality",
+    "deposit movement keeps funding cost",
+    "borrower stress matters",
+    "credit discipline changes",
+    "liquidity management shapes",
+    "risk is becoming harder to treat as background noise",
+    "loan growth still matters"
+];
+function bankingFreshnessContext(stories) {
+    const uniqueStories = uniqueStoriesForDisplay(stories);
+    const sorted = [...uniqueStories].sort((left, right) => right.publishedAt.localeCompare(left.publishedAt));
+    const text = normalizeText(uniqueStories.map((story) => `${story.title} ${story.summary ?? ""}`).join(" "));
+    const functions = new Set(uniqueStories.flatMap((story) => story.banking_signals?.function ?? []));
+    const directions = new Set(uniqueStories.flatMap((story) => story.banking_signals?.direction ?? []));
+    const drivers = new Set(uniqueStories.flatMap((story) => story.banking_signals?.driver ?? []));
+    const latestStory = sorted[0];
+    return {
+        text,
+        functions,
+        directions,
+        drivers,
+        latestStory,
+        latestTitle: latestStory ? sanitizeText(latestStory.title) : undefined,
+        latestDate: latestStory ? formatDate(latestStory.publishedAt || latestStory.date) : undefined,
+        hasRateMove: textIncludesAny(text, [
+            "rate hike",
+            "raises target rrp",
+            "raises policy rate",
+            "higher rates",
+            "interest rate",
+            "monetary board raises"
+        ]) || directions.has("repricing"),
+        hasExternalShock: textIncludesAny(text, [
+            "war",
+            "inflation spike",
+            "external shock",
+            "iran",
+            "peso",
+            "bop deficit",
+            "remittance growth slowest"
+        ]),
+        hasPrivateBankStress: textIncludesAny(text, [
+            "bdo",
+            "bpi",
+            "metrobank",
+            "security bank",
+            "expects loan growth",
+            "asset quality hit"
+        ]),
+        hasRegionalRisk: textIncludesAny(text, [
+            "asia pacific banks",
+            "regional",
+            "raise provisions",
+            "credit risks"
+        ]),
+        hasDepositOrFunding: functions.has("deposits") ||
+            functions.has("funding") ||
+            textIncludesAny(text, ["deposit", "funding", "cost of funds", "funding support"]),
+        hasRisk: functions.has("risk") ||
+            textIncludesAny(text, ["bad loans", "npl", "credit risks", "provisions", "asset quality"]),
+        hasGrowth: textIncludesAny(text, ["loan growth", "credit growth", "lending growth"]),
+        hasPolicy: drivers.has("policy") ||
+            functions.has("regulation") ||
+            textIncludesAny(text, ["bsp", "monetary board", "policy", "regulator"]),
+        hasTightening: directions.has("tightening") || textIncludesAny(text, ["higher rates", "tighter"]),
+        hasPreserving: directions.has("preserving") || textIncludesAny(text, ["buffer", "buffers", "resilient"]),
+        hasRepricing: directions.has("repricing") ||
+            textIncludesAny(text, ["margin", "funding cost", "cost of funds", "deposit rate"])
+    };
+}
+function bankingPressureDomain(context) {
+    if (context.hasRisk && context.hasPrivateBankStress) {
+        return "domestic credit stress";
+    }
+    if (context.hasRisk && context.hasRegionalRisk) {
+        return "regional credit risk";
+    }
+    if (context.hasRisk) {
+        return "domestic credit stress";
+    }
+    if (context.hasDepositOrFunding || context.hasRepricing) {
+        return "funding cost";
+    }
+    if (context.hasPolicy || context.hasRateMove) {
+        return "policy transmission";
+    }
+    return "bank behavior";
+}
+function bankingPressureDestination(context) {
+    if (context.hasRisk && context.hasPrivateBankStress) {
+        return "domestic credit quality";
+    }
+    if (context.hasRisk && context.hasRegionalRisk) {
+        return "regional bank credit quality";
+    }
+    if (context.hasRisk) {
+        return "domestic credit conditions";
+    }
+    if (context.hasDepositOrFunding || context.hasRepricing) {
+        return "funding costs";
+    }
+    if (context.hasPolicy || context.hasRateMove) {
+        return "bank operating choices";
+    }
+    return "bank behavior";
+}
+function freshenBankingLine(line, context) {
+    const normalized = normalizeText(line);
+    const isEvergreen = BANKING_EVERGREEN_PHRASES.some((phrase) => normalized.includes(normalizeText(phrase)));
+    if (!isEvergreen) {
+        return line;
+    }
+    if (context.hasRateMove && (context.hasDepositOrFunding || context.hasRisk)) {
+        return `This week, the rate move changes the math on ${context.hasDepositOrFunding ? "funding costs" : "credit risk"}; the question now is where banks pass that pressure next.`;
+    }
+    if (context.hasExternalShock && context.hasRisk) {
+        return "The external shock is no longer just macro background; it is moving into loan growth, provisions, and asset-quality expectations.";
+    }
+    if (context.hasDepositOrFunding) {
+        return "What matters now is not deposit movement in the abstract, but whether it forces banks to pay up for funds or defend liquidity.";
+    }
+    if (context.hasRisk) {
+        return "The risk signal matters now because it is showing up beside active lending, not after credit growth has already stopped.";
+    }
+    return line;
+}
+function bankingFreshWhyLine(label, stories) {
+    const normalizedLabel = normalizeText(label);
+    const context = bankingFreshnessContext(stories);
+    if (context.hasRateMove && (context.hasDepositOrFunding || context.hasRisk || context.hasGrowth)) {
+        return `This week, the rate move is the operating trigger; the question now is what it does to ${context.hasDepositOrFunding ? "funding costs" : context.hasRisk ? "asset quality" : "borrower appetite"}.`;
+    }
+    if (context.hasExternalShock && context.hasRisk) {
+        return context.hasPrivateBankStress
+            ? "When a major bank starts pricing war-driven inflation into loan growth and asset quality, the read moves from external shock to balance-sheet consequence."
+            : "External pressure is migrating into credit risk, so the banking read is less about the shock itself than where provisions and borrower stress surface.";
+    }
+    if (normalizedLabel.includes("borrower risk")) {
+        return "The useful shift is from lending momentum to repayment capacity: growth only holds its value if asset quality does not start absorbing the shock.";
+    }
+    if (normalizedLabel.includes("deposit funding shift")) {
+        return "The funding question is moving from available liquidity to price: banks may still have funds, but the next read is what those funds cost.";
+    }
+    if (normalizedLabel.includes("liquidity preservation")) {
+        return "Liquidity matters now because buffer language is starting to look like a response to pressure, not just routine prudence.";
+    }
+    if (normalizedLabel.includes("credit tightening") || normalizedLabel.includes("lending conditions")) {
+        return "The read is shifting from whether banks can keep lending to which borrowers still clear the tighter math.";
+    }
+    if (normalizedLabel.includes("banking policy pressure")) {
+        return "Policy is no longer just a signal from the center; the sharper question is how quickly it reaches credit appetite, deposit pricing, and risk controls.";
+    }
+    return null;
+}
+function bankingFreshPatternAndTension(label, stories) {
+    const context = bankingFreshnessContext(stories);
+    const normalizedLabel = normalizeText(label);
+    const destination = bankingPressureDestination(context);
+    if (context.hasExternalShock && context.hasRisk) {
+        return {
+            pattern: `Pressure is shifting from external shock to ${destination}.`,
+            tension: "Tension: macro shock vs balance-sheet quality"
+        };
+    }
+    if (context.hasRateMove && context.hasDepositOrFunding) {
+        return {
+            pattern: "The rate move is turning funding from a background condition into an operating cost question.",
+            tension: "Tension: deposit defense vs margin protection"
+        };
+    }
+    if (context.hasRateMove && context.hasGrowth) {
+        return {
+            pattern: "Loan growth is being tested against higher-rate borrower capacity.",
+            tension: "Tension: growth target vs repayment capacity"
+        };
+    }
+    if (normalizedLabel.includes("liquidity preservation")) {
+        return {
+            pattern: "Buffer-building is starting to read as pressure management rather than generic caution.",
+            tension: "Tension: liquidity defense vs credit expansion"
+        };
+    }
+    return null;
+}
+function bankingPhraseUse() {
+    return {
+        exact: new Set(),
+        families: new Set(),
+        openings: new Set()
+    };
+}
+function bankingPhraseFamily(line) {
+    const normalized = normalizeText(line);
+    if (normalized.includes("policy is moving faster than operating clarity") ||
+        normalized.includes("policy signal is clear") ||
+        normalized.includes("policy is setting the direction") ||
+        normalized.includes("policy signal now has to prove") ||
+        normalized.includes("sharper question is how policy reaches") ||
+        normalized.includes("rules and guidance matter")) {
+        return "policy_operating_clarity";
+    }
+    if (normalized.includes("pressure is shifting") ||
+        normalized.includes("pressure is migrating") ||
+        normalized.includes("external pressure is starting") ||
+        normalized.includes("external pressure is reaching") ||
+        normalized.includes("stress is starting to show up") ||
+        normalized.includes("what began as") ||
+        normalized.includes("operating pressure is moving") ||
+        normalized.includes("no longer only")) {
+        return "pressure_migration";
+    }
+    if (normalized.includes("this week the rate move") ||
+        normalized.includes("rate move landed") ||
+        normalized.includes("rate move changes") ||
+        normalized.includes("rate move is turning") ||
+        normalized.includes("immediate issue is not the rate move") ||
+        normalized.includes("after the rate move") ||
+        normalized.includes("rate move s next test")) {
+        return "rate_move_consequence";
+    }
+    if (normalized.includes("the read is shifting") ||
+        normalized.includes("sharper read") ||
+        normalized.includes("more useful signal") ||
+        normalized.includes("useful signal is") ||
+        normalized.includes("credit discipline is moving") ||
+        normalized.includes("loan terms matter more") ||
+        normalized.includes("question is no longer whether lending continues")) {
+        return "credit_read_shift";
+    }
+    if (normalized.includes("buffer building") ||
+        normalized.includes("buffer language") ||
+        normalized.includes("pressure management")) {
+        return "buffer_pressure";
+    }
+    return normalized.split(" ").slice(0, 7).join(" ");
+}
+function rememberBankingPhrase(line, used) {
+    const clean = sanitizeText(line);
+    const normalized = normalizeText(clean);
+    const opening = normalized.split(" ").slice(0, 4).join(" ");
+    if (!normalized) {
+        return;
+    }
+    used.exact.add(normalized);
+    used.families.add(bankingPhraseFamily(clean));
+    if (opening) {
+        used.openings.add(opening);
+    }
+}
+function chooseBankingVariant(candidates, used) {
+    const cleanCandidates = candidates.map(sanitizeText).filter(Boolean);
+    for (const candidate of cleanCandidates) {
+        const normalized = normalizeText(candidate);
+        const family = bankingPhraseFamily(candidate);
+        const opening = normalized.split(" ").slice(0, 4).join(" ");
+        if (used.exact.has(normalized) ||
+            used.families.has(family) ||
+            (opening && used.openings.has(opening))) {
+            continue;
+        }
+        rememberBankingPhrase(candidate, used);
+        return candidate;
+    }
+    const fallback = cleanCandidates.find((candidate) => !used.exact.has(normalizeText(candidate)))
+        ?? cleanCandidates[0]
+        ?? "";
+    rememberBankingPhrase(fallback, used);
+    return fallback;
+}
+function bankingAlternateCandidates(line, label, stories, section) {
+    const normalized = normalizeText(line);
+    const normalizedLabel = normalizeText(label);
+    const context = bankingFreshnessContext(stories);
+    const destination = bankingPressureDestination(context);
+    const source = context.hasExternalShock ? "the external shock" : "policy pressure";
+    const sourceWithoutArticle = context.hasExternalShock ? "external shock" : "policy pressure";
+    const costObject = context.hasDepositOrFunding
+        ? "funding costs"
+        : context.hasRisk
+            ? "asset quality"
+            : "borrower appetite";
+    const costVerb = costObject.endsWith("s") ? "are" : "is";
+    const costMatterLine = costObject === "funding costs"
+        ? "Funding costs now matter because they affect bank appetite for risk and growth."
+        : costObject === "asset quality"
+            ? "Asset quality now matters because it affects bank appetite for risk and growth."
+            : "Borrower appetite now matters because it affects how much credit demand survives higher rates.";
+    if (bankingPhraseFamily(line) === "pressure_migration") {
+        return section === "summary"
+            ? [
+                `The external shock is reaching ${destination}.`,
+                `${destination.charAt(0).toUpperCase()}${destination.slice(1)} is now the transmission point.`,
+                `This is showing up through ${destination}.`
+            ]
+            : [
+                `External pressure is starting to show up in ${destination}.`,
+                `What began as ${source} is now reaching ${destination}.`,
+                `The operating pressure is moving toward ${destination}.`,
+                `The risk is no longer only ${sourceWithoutArticle}; it is starting to reach ${destination}.`
+            ];
+    }
+    if (bankingPhraseFamily(line) === "rate_move_consequence") {
+        return section === "summary"
+            ? [
+                `${costObject.charAt(0).toUpperCase()}${costObject.slice(1)} ${costVerb} the rate move's next test.`,
+                `The rate decision now has to be read through ${costObject}.`,
+                `The week turns on where higher rates hit bank behavior.`
+            ]
+            : [
+                `The immediate issue is not the rate move itself, but what it does to ${costObject}.`,
+                `The rate move changes the math on ${costObject}.`,
+                costMatterLine,
+                `${costObject.charAt(0).toUpperCase()}${costObject.slice(1)} ${costVerb} becoming the operating question after the rate move.`
+            ];
+    }
+    if (bankingPhraseFamily(line) === "credit_read_shift") {
+        return section === "summary"
+            ? [
+                "Borrower quality is carrying more of the credit story.",
+                "Loan terms are doing more work than volume.",
+                "Repayment capacity is the live credit test."
+            ]
+            : [
+                "The sharper read is which borrowers still pass the higher-rate test.",
+                "The more useful signal is repayment capacity, not lending momentum alone.",
+                "The risk is showing up less in headline growth than in who can still absorb tighter credit.",
+                "The question is no longer whether lending continues, but which borrowers still clear the tighter math."
+            ];
+    }
+    if (bankingPhraseFamily(line) === "policy_operating_clarity") {
+        return section === "summary"
+            ? [
+                "Policy is clear enough to matter, but transmission is still unsettled.",
+                "The policy signal now has to prove its path into bank behavior.",
+                "Operating consequences matter more than the policy posture."
+            ]
+            : [
+                "The policy signal is clear; the operating environment it lands in is not.",
+                "Policy is setting the direction, but bank behavior will decide the consequence.",
+                "The sharper question is how policy reaches credit appetite, deposit pricing, and risk controls.",
+                "Rules and guidance matter here only if they change operating choices."
+            ];
+    }
+    if (bankingPhraseFamily(line) === "buffer_pressure") {
+        return section === "summary"
+            ? [
+                "Buffers now read as a pressure response.",
+                "Liquidity defense is part of the operating story.",
+                "Balance-sheet room is being protected before growth is stretched."
+            ]
+            : [
+                "Buffer language is starting to look like a response to pressure, not just routine prudence.",
+                "The liquidity signal is defensive: banks are protecting room to move before stretching again.",
+                "Liquidity matters because balance-sheet room is becoming part of the risk response.",
+                "The useful read is not caution itself, but what banks are trying to preserve."
+            ];
+    }
+    if (normalized.includes("credit rules and lending behavior")) {
+        return section === "summary"
+            ? [
+                "Credit discipline is moving closer to the operating center.",
+                "Borrower quality is carrying more of the credit story.",
+                "Loan terms are doing more work than volume."
+            ]
+            : [
+                "Credit discipline is moving from background control to operating constraint.",
+                "Loan terms matter more as borrower quality becomes harder to treat as stable.",
+                "The useful signal is how much risk banks are still willing to carry."
+            ];
+    }
+    if (normalizedLabel.includes("borrower risk")) {
+        return [
+            "Repayment capacity is doing more work than headline lending momentum.",
+            "Asset quality is the live test underneath still-active lending.",
+            "The risk sits in whether loan growth can keep outrunning stress."
+        ];
+    }
+    return [line];
+}
+function diversifyBankingLine(line, label, stories, section, used) {
+    return chooseBankingVariant(bankingAlternateCandidates(line, label, stories, section), used);
+}
+function diversifyBankingItem(item, section, used) {
+    if (!item.supportingStories.some((story) => story.beat === "ph_sea_banking")) {
+        return item;
+    }
+    return {
+        ...item,
+        whyItMatters: diversifyBankingLine(item.whyItMatters, item.label, item.supportingStories, section, used),
+        pattern: diversifyBankingLine(item.pattern, item.label, item.supportingStories, section, used)
+    };
+}
+const MOTORING_EVERGREEN_PHRASES = [
+    "ownership cost remains the pressure point",
+    "ev transition is still tied",
+    "ev stories matter most",
+    "enforcement and road-capacity signals keep",
+    "price cuts, fuel swings, and srp signals",
+    "ev and hybrid momentum matters only",
+    "policy only changes driver and operator behavior",
+    "early signal of where buyer interest",
+    "the market is starting to show what buyers can still afford",
+    "vehicle and fuel costs are pressing harder",
+    "brands are testing what filipino buyers will still stretch for",
+    "rules are starting to bite",
+    "operating friction",
+    "operating layer",
+    "availability is becoming part of the market story",
+    "which vehicle choices still make sense",
+    "product push vs operating support"
+];
+function motoringFreshnessContext(stories) {
+    const uniqueStories = uniqueStoriesForDisplay(stories);
+    const sorted = [...uniqueStories].sort((left, right) => right.publishedAt.localeCompare(left.publishedAt));
+    const text = normalizeText(uniqueStories.map((story) => `${story.title} ${story.summary ?? ""} ${story.tags.join(" ")} ${story.reason_kept.join(" ")} ${story.angle_signals?.join(" ") ?? ""}`).join(" "));
+    const latestStory = sorted[0];
+    const hasFuelIncrease = textIncludesAny(text, [
+        "fuel price hike",
+        "fuel prices seen rising",
+        "diesel gasoline prices seen rising",
+        "pump prices rise",
+        "price increase",
+        "rising next week",
+        "oil price hike"
+    ]);
+    const hasFuelRelief = textIncludesAny(text, [
+        "rollback",
+        "discounting gasoline",
+        "discount",
+        "pump price relief",
+        "lower fuel",
+        "price cut"
+    ]);
+    const hasCharging = textIncludesAny(text, ["charging", "charger", "charge point"]);
+    const hasHondaMotorcycleMilestone = textIncludesAny(text, [
+        "honda ph reaches 12 million motorcycle",
+        "12 million motorcycle sales",
+        "12 million motorcycles sold",
+        "honda ph milestone"
+    ]);
+    const hasEv = textIncludesAny(text, [
+        "electric vehicle",
+        "electric vehicles",
+        "hybrid",
+        "phev",
+        "battery",
+        "e mobility"
+    ]) || /\bev\b/.test(text) || /\bevs\b/.test(text);
+    return {
+        text,
+        latestStory,
+        latestTitle: latestStory ? sanitizeText(latestStory.title) : undefined,
+        latestDate: latestStory ? formatDate(latestStory.publishedAt || latestStory.date) : undefined,
+        hasFuelEconomics: hasFuelIncrease ||
+            hasFuelRelief ||
+            textIncludesAny(text, ["fuel", "gasoline", "diesel", "oil", "pump price", "fare", "toll"]),
+        hasFuelIncrease,
+        hasFuelRelief,
+        hasOwnershipCost: textIncludesAny(text, [
+            "ownership cost",
+            "cost",
+            "registration",
+            "insurance",
+            "maintenance",
+            "repair",
+            "fare",
+            "toll",
+            "fuel",
+            "price"
+        ]),
+        hasFinancing: textIncludesAny(text, [
+            "financing",
+            "loan",
+            "monthly",
+            "installment",
+            "downpayment",
+            "affordability",
+            "srp",
+            "starting price"
+        ]),
+        hasRegulation: textIncludesAny(text, [
+            "regulation",
+            "policy",
+            "lto",
+            "ltfrb",
+            "dotr",
+            "dti",
+            "tax",
+            "incentive",
+            "franchise"
+        ]),
+        hasEnforcement: textIncludesAny(text, [
+            "enforcement",
+            "violation",
+            "license",
+            "arrested",
+            "show cause order",
+            "sco",
+            "coding",
+            "discipline"
+        ]),
+        hasInfrastructure: textIncludesAny(text, [
+            "infrastructure",
+            "road",
+            "toll",
+            "traffic",
+            "dealership",
+            "capacity",
+            "charging"
+        ]),
+        hasCharging,
+        hasEv,
+        hasFleetOrCommercial: textIncludesAny(text, [
+            "fleet",
+            "taxi",
+            "operator",
+            "operators",
+            "public transport",
+            "commercial",
+            "fare",
+            "delivery",
+            "logistics"
+        ]),
+        hasAfterSalesOrDealer: textIncludesAny(text, [
+            "dealership",
+            "dealer",
+            "after sales",
+            "service center",
+            "warranty",
+            "road hazard",
+            "owner support",
+            "tech talk"
+        ]),
+        hasTrafficOrRoadCapacity: textIncludesAny(text, [
+            "traffic",
+            "road",
+            "toll",
+            "c5",
+            "edsa",
+            "coding",
+            "mobility",
+            "capacity"
+        ]),
+        hasDemand: textIncludesAny(text, [
+            "sales",
+            "demand",
+            "buyers",
+            "customer",
+            "market",
+            "sold",
+            "milestone"
+        ]),
+        hasSupply: textIncludesAny(text, [
+            "supply",
+            "availability",
+            "inventory",
+            "import",
+            "dealership",
+            "released",
+            "begun sales"
+        ]),
+        hasMotorcycle: textIncludesAny(text, ["motorcycle", "motorcycles", "rider", "two wheel"]),
+        hasHondaMotorcycleMilestone,
+        hasPremiumAspiration: textIncludesAny(text, [
+            "audi",
+            "q9",
+            "bmw",
+            "7 series",
+            "armored",
+            "luxury",
+            "premium",
+            "p50 m",
+            "p50m"
+        ]),
+        hasVisibleEnforcementConsequence: textIncludesAny(text, [
+            "viral crash",
+            "arrested",
+            "show cause order",
+            "issued sco",
+            "license",
+            "pnp",
+            "lto"
+        ])
+    };
+}
+function motoringPressureDestination(context) {
+    if (context.hasFuelIncrease && context.hasFuelRelief) {
+        return "the gap between pump promos and the next fuel increase";
+    }
+    if (context.hasHondaMotorcycleMilestone) {
+        return "basic motorcycle mobility";
+    }
+    if (context.hasFuelEconomics && context.hasFinancing) {
+        return "monthly affordability and operating cost";
+    }
+    if (context.hasFuelEconomics) {
+        return "weekly fuel exposure";
+    }
+    if (context.hasEv && (context.hasCharging || context.hasInfrastructure)) {
+        return "EV owner support and charging access";
+    }
+    if (context.hasRegulation || context.hasEnforcement) {
+        return "driver and operator behavior";
+    }
+    if (context.hasTrafficOrRoadCapacity) {
+        return "daily mobility friction";
+    }
+    if (context.hasFleetOrCommercial) {
+        return "fleet fuel bills and terminal costs";
+    }
+    if (context.hasPremiumAspiration) {
+        return "the split between basic mobility and premium aspiration";
+    }
+    return "concrete buyer behavior";
+}
+function freshenMotoringLine(line, context) {
+    const normalized = normalizeText(line);
+    const isEvergreen = MOTORING_EVERGREEN_PHRASES.some((phrase) => normalized.includes(normalizeText(phrase)));
+    if (!isEvergreen) {
+        return line;
+    }
+    if (context.hasFuelIncrease && context.hasFuelRelief) {
+        return "The pricing signal is the fuel split: Shell discounts soften this week's bill while the next diesel and gasoline hike keeps motorists exposed.";
+    }
+    if (context.hasFuelEconomics) {
+        return "What matters now is not just vehicle price, but the cost of continuing to use it as fuel and fare signals move.";
+    }
+    if (context.hasEv && (context.hasCharging || context.hasInfrastructure)) {
+        return "The EV read is less about another electrified model arriving and more about owner support, charging access, and practical use.";
+    }
+    if (context.hasRegulation || context.hasEnforcement) {
+        return context.hasVisibleEnforcementConsequence
+            ? "The viral crash arrest makes enforcement visible: road behavior now has consequences beyond the incident itself."
+            : "Rules matter this week because enforcement is turning policy into time, paperwork, and behavior costs for drivers and operators.";
+    }
+    return line;
+}
+function motoringFreshWhyLine(label, stories) {
+    const normalizedLabel = normalizeText(label);
+    const context = motoringFreshnessContext(stories);
+    const destination = motoringPressureDestination(context);
+    const infrastructureProfile = motoringInfrastructureProfile(stories);
+    if (normalizedLabel.includes("pricing pressure")) {
+        if (context.hasFuelIncrease && context.hasFuelRelief) {
+            return "This week's pricing signal is the contrast: a Shell fuel discount gives temporary relief while the next diesel and gasoline hike keeps household and fleet budgets exposed.";
+        }
+        return `The affordability read is moving from sticker price to ${destination}, where buyers and operators feel changes fastest.`;
+    }
+    if (normalizedLabel.includes("ownership cost")) {
+        return "The pressure is shifting from vehicle acquisition to long-term operating cost: fuel, fares, registration, maintenance, and compliance are harder to separate.";
+    }
+    if (normalizedLabel.includes("ev transition")) {
+        return context.hasCharging
+            ? "The EV question is becoming more concrete: owner education, charging access, and practical use now matter as much as the models arriving."
+            : "The EV read is shifting from availability to whether cost-sensitive buyers can make the operating math work.";
+    }
+    if (normalizedLabel.includes("regulation and enforcement")) {
+        return context.hasVisibleEnforcementConsequence
+            ? "The viral crash arrest turns enforcement into a visible consequence, making road discipline part of the week's motoring read."
+            : "Enforcement is where motoring policy becomes real: it changes the cost of bad behavior, delay, and compliance for drivers and operators.";
+    }
+    if (normalizedLabel.includes("infrastructure constraint")) {
+        if (infrastructureProfile.evInfrastructureDominant) {
+            return "Charging, warranty, and owner-support stories show that motoring infrastructure now includes what happens after the vehicle is sold.";
+        }
+        if (infrastructureProfile.roadDominant || context.hasTrafficOrRoadCapacity) {
+            return "Traffic and road-condition stories keep the infrastructure read tied to daily travel time, health, and vehicle wear.";
+        }
+        return "Road, charging, and service access decide whether demand can translate into actual use.";
+    }
+    if (normalizedLabel.includes("consumer demand shift")) {
+        if (context.hasHondaMotorcycleMilestone) {
+            return "Honda's 12-million motorcycle milestone anchors the demand read in basic mobility, not just showroom activity.";
+        }
+        if (context.hasPremiumAspiration) {
+            return "The demand read is split: basic mobility carries volume while premium SUV signals test aspiration at the top end.";
+        }
+        return context.hasMotorcycle
+            ? "Motorcycle demand is doing more than marking volume; it shows how mobility choices adjust when affordability and daily use matter most."
+            : "The demand signal is moving from launch interest to what buyers will still stretch for under tighter ownership math.";
+    }
+    if (normalizedLabel.includes("motoring market signal")) {
+        if (context.hasFleetOrCommercial) {
+            return "PITX terminal-fee relief and fuel promos make the market signal concrete: operators are getting help at the cost line, not just new products.";
+        }
+        if (context.hasAfterSalesOrDealer) {
+            return "Dealer, warranty, and owner-support signals matter because they show where brands are trying to make ownership easier after purchase.";
+        }
+        return "The live read is what changed for motorists and operators, not just which product or promo appeared on the market.";
+    }
+    if (normalizedLabel.includes("supply and availability")) {
+        if (context.hasEv) {
+            return "Electrified supply matters here because new nameplates only count if they come with credible price, support, and charging conditions.";
+        }
+        if (context.hasAfterSalesOrDealer) {
+            return "Dealer and service signals matter because availability is only useful if owners can maintain the vehicle after purchase.";
+        }
+    }
+    return null;
+}
+function motoringFreshPatternAndTension(label, stories) {
+    const context = motoringFreshnessContext(stories);
+    const normalizedLabel = normalizeText(label);
+    const destination = motoringPressureDestination(context);
+    const infrastructureProfile = motoringInfrastructureProfile(stories);
+    if (context.hasFuelIncrease && context.hasFuelRelief) {
+        return {
+            pattern: "Shell's fuel discount and the next pump-price hike are pulling the same cost story in opposite directions.",
+            tension: "Tension: promo relief vs pump exposure"
+        };
+    }
+    if (normalizedLabel.includes("ownership cost") || normalizedLabel.includes("pricing pressure")) {
+        return {
+            pattern: `Pressure is moving from vehicle acquisition to ${destination}.`,
+            tension: "Tension: purchase intent vs cost of use"
+        };
+    }
+    if (normalizedLabel.includes("ev transition")) {
+        return {
+            pattern: context.hasCharging
+                ? "EV adoption is being tested through owner support, charging access, and daily usability."
+                : "EV availability is ahead of the everyday cost math needed for broader adoption.",
+            tension: "Tension: model arrival vs practical ownership"
+        };
+    }
+    if (normalizedLabel.includes("regulation and enforcement")) {
+        return {
+            pattern: context.hasVisibleEnforcementConsequence
+                ? "The viral crash arrest turns a road incident into a visible enforcement signal."
+                : "Rules are moving from policy language into visible driver consequences.",
+            tension: "Tension: road behavior vs enforcement consequence"
+        };
+    }
+    if (normalizedLabel.includes("infrastructure constraint")) {
+        return {
+            pattern: infrastructureProfile.evInfrastructureDominant
+                ? "Charging and owner-support gaps are becoming part of the adoption test."
+                : "Traffic, road hazards, and transport infrastructure are defining the daily-use limits around the vehicle market.",
+            tension: infrastructureProfile.evInfrastructureDominant
+                ? "Tension: EV adoption vs owner support"
+                : "Tension: vehicle use vs road conditions"
+        };
+    }
+    if (normalizedLabel.includes("supply and availability")) {
+        return {
+            pattern: context.hasEv
+                ? "Electrified nameplates are filling the pipeline, but practical ownership still has to catch up."
+                : "Dealer and service availability are becoming part of the ownership-cost story.",
+            tension: "Tension: model supply vs owner readiness"
+        };
+    }
+    if (normalizedLabel.includes("consumer demand shift")) {
+        return {
+            pattern: context.hasHondaMotorcycleMilestone
+                ? "Honda's 12-million motorcycle milestone keeps the demand story anchored in basic mobility."
+                : context.hasPremiumAspiration
+                    ? "The market is splitting between basic mobility scale and premium SUV aspiration."
+                    : context.hasMotorcycle
+                        ? "Two-wheel demand is carrying the clearest signal on practical mobility choices."
+                        : "Buyer behavior is being tested against the cost of keeping vehicles in use.",
+            tension: "Tension: mobility need vs affordability"
+        };
+    }
+    if (normalizedLabel.includes("motoring market signal") && (context.hasInfrastructure || context.hasFleetOrCommercial || context.hasAfterSalesOrDealer)) {
+        return {
+            pattern: context.hasFleetOrCommercial
+                ? "Terminal-fee relief, fuel promos, and fleet tools are putting operator costs at the center of the market read."
+                : "Dealer, warranty, and owner-support moves are making after-purchase costs part of the market read.",
+            tension: "Tension: purchase activity vs ownership burden"
+        };
+    }
+    return null;
+}
+function motoringPhraseUse() {
+    return {
+        exact: new Set(),
+        families: new Set(),
+        openings: new Set()
+    };
+}
+function motoringPhraseFamily(line) {
+    const normalized = normalizeText(line);
+    if (normalized.includes("fuel economics") ||
+        normalized.includes("pump exposure") ||
+        normalized.includes("fuel and fare") ||
+        normalized.includes("weekly fuel") ||
+        normalized.includes("shell s fuel discount") ||
+        normalized.includes("fuel split") ||
+        normalized.includes("pump price hike")) {
+        return "fuel_operating_cost";
+    }
+    if (normalized.includes("pressure is moving from vehicle acquisition") ||
+        normalized.includes("pressure is shifting from vehicle acquisition") ||
+        normalized.includes("cost of continuing to use") ||
+        normalized.includes("cost of keeping")) {
+        return "acquisition_to_operating_cost";
+    }
+    if (normalized.includes("ev read is shifting") ||
+        normalized.includes("ev adoption is moving") ||
+        normalized.includes("ev adoption is being tested") ||
+        normalized.includes("ev question is becoming") ||
+        normalized.includes("charging access")) {
+        return "ev_operating_reality";
+    }
+    if (normalized.includes("rules are moving") ||
+        normalized.includes("rules matter this week") ||
+        normalized.includes("enforcement is where") ||
+        normalized.includes("driver consequences") ||
+        normalized.includes("viral crash arrest")) {
+        return "rule_rollout_consequence";
+    }
+    if (normalized.includes("buyer behavior") ||
+        normalized.includes("demand signal") ||
+        normalized.includes("mobility choices") ||
+        normalized.includes("honda s 12 million motorcycle") ||
+        normalized.includes("basic mobility")) {
+        return "buyer_behavior_shift";
+    }
+    return normalized.split(" ").slice(0, 7).join(" ");
+}
+function rememberMotoringPhrase(line, used) {
+    const clean = sanitizeText(line);
+    const normalized = normalizeText(clean);
+    const opening = normalized.split(" ").slice(0, 4).join(" ");
+    if (!normalized) {
+        return;
+    }
+    used.exact.add(normalized);
+    used.families.add(motoringPhraseFamily(clean));
+    if (opening) {
+        used.openings.add(opening);
+    }
+}
+function chooseMotoringVariant(candidates, used) {
+    const cleanCandidates = candidates.map(sanitizeText).filter(Boolean);
+    for (const candidate of cleanCandidates) {
+        const normalized = normalizeText(candidate);
+        const family = motoringPhraseFamily(candidate);
+        const opening = normalized.split(" ").slice(0, 4).join(" ");
+        if (used.exact.has(normalized) ||
+            used.families.has(family) ||
+            (opening && used.openings.has(opening))) {
+            continue;
+        }
+        rememberMotoringPhrase(candidate, used);
+        return candidate;
+    }
+    const fallback = cleanCandidates.find((candidate) => !used.exact.has(normalizeText(candidate)))
+        ?? cleanCandidates[0]
+        ?? "";
+    rememberMotoringPhrase(fallback, used);
+    return fallback;
+}
+function motoringAlternateCandidates(line, label, stories, section) {
+    const normalized = normalizeText(line);
+    const normalizedLabel = normalizeText(label);
+    const context = motoringFreshnessContext(stories);
+    const destination = motoringPressureDestination(context);
+    if (motoringPhraseFamily(line) === "fuel_operating_cost") {
+        if (!context.hasFuelRelief) {
+            return section === "summary"
+                ? [
+                    "Fare and fuel exposure are carrying more of the weekly cost read.",
+                    "The cost signal is showing up in travel and fleet budgets.",
+                    "Transport costs are the week's concrete affordability test."
+                ]
+                : [
+                    "Fare movement matters because it shows transport costs reaching actual users.",
+                    "The useful signal is how transport costs change household and operator budgets.",
+                    "Fuel and fare pressure matter when they change what daily mobility costs now."
+                ];
+        }
+        return section === "summary"
+            ? [
+                "Shell's discount and the expected fuel hike define the cost signal.",
+                "The pump-price read is split between temporary relief and renewed exposure.",
+                "Fuel is the week's concrete affordability test for motorists and fleets."
+            ]
+            : [
+                "Shell's P5/L gasoline and P3/L diesel discount matters because the next pump-price hike is already in view.",
+                "The useful signal is the fuel contrast: temporary promo relief against a still-rising cost base.",
+                "Fuel pressure matters because motorists and fleets feel it immediately in weekly use."
+            ];
+    }
+    if (motoringPhraseFamily(line) === "acquisition_to_operating_cost") {
+        return section === "summary"
+            ? [
+                "Fuel, fares, and compliance are now doing more work than sticker price.",
+                "The sharper read is what motorists pay after purchase.",
+                "The cost story is now about keeping vehicles usable."
+            ]
+            : [
+                `The pressure is shifting from the purchase decision to ${destination}.`,
+                "The cost of keeping a vehicle on the road is becoming harder to separate from fuel, financing, and regulation.",
+                "What matters now is not just vehicle price, but the cost of continuing to use it."
+            ];
+    }
+    if (motoringPhraseFamily(line) === "ev_operating_reality") {
+        return section === "summary"
+            ? [
+                "EV stories are now being tested through owner support and charging access.",
+                "Charging and owner education are carrying more of the EV story.",
+                "The EV push now has to prove practical daily use."
+            ]
+            : [
+                "The EV signal is shifting from model arrival to whether ownership is practical.",
+                "Charging access and owner support are becoming the adoption test.",
+                "Electrified models matter more when buyers can see charging, service, and owner support."
+            ];
+    }
+    if (motoringPhraseFamily(line) === "rule_rollout_consequence") {
+        return section === "summary"
+            ? [
+                "The viral crash arrest makes enforcement visible.",
+                "Road discipline is showing up through actual consequences.",
+                "LTO action turns the incident into a wider enforcement signal."
+            ]
+            : [
+                "The policy read is moving from rule announcement to visible driver consequence.",
+                "Enforcement matters because it changes the cost of delay, violations, and loose road behavior.",
+                "The sharper signal is whether rules change daily driving and operator choices."
+            ];
+    }
+    if (motoringPhraseFamily(line) === "buyer_behavior_shift") {
+        return section === "summary"
+            ? [
+                "Honda's motorcycle milestone anchors the demand story in basic mobility.",
+                "The market is split between motorcycle scale and premium aspiration.",
+                "Basic mobility is carrying more of the demand read."
+            ]
+            : [
+                "Honda's 12-million motorcycle milestone shows the practical end of the market still has scale.",
+                "The demand signal is split between basic mobility and higher-end aspiration.",
+                "Buyer behavior matters most where it shows what people rely on for daily mobility."
+            ];
+    }
+    if (normalizedLabel.includes("pricing pressure") || normalized.includes("affordability")) {
+        if (context.hasFuelRelief) {
+            return [
+                "Shell's fuel discount makes the affordability signal visible at the pump.",
+                "Fuel promos matter because they reach motorists and operators immediately.",
+                "The price read is concrete this week: pump discounts are doing some of the relief work."
+            ];
+        }
+        return [
+            `Affordability is being tested through ${destination}, not sticker price alone.`,
+            "The cost signal now sits in continued usage as much as acquisition.",
+            "Price matters because it is starting to connect with fuel, financing, and operating exposure."
+        ];
+    }
+    return [line];
+}
+function diversifyMotoringLine(line, label, stories, section, used) {
+    return chooseMotoringVariant(motoringAlternateCandidates(line, label, stories, section), used);
+}
+function diversifyMotoringItem(item, section, used) {
+    if (!item.supportingStories.some((story) => story.beat === "philippine_motoring")) {
+        return item;
+    }
+    return {
+        ...item,
+        whyItMatters: diversifyMotoringLine(item.whyItMatters, item.label, item.supportingStories, section, used),
+        pattern: diversifyMotoringLine(item.pattern, item.label, item.supportingStories, section, used)
+    };
 }
 function hasCoreBucket(stories) {
     return stories.some((story) => story.editorial_bucket === "urgent_important" ||
@@ -1715,6 +3281,7 @@ function buildPropertyEditorialRead(stories) {
         return buildThinEditorialRead("Property");
     }
     const bullets = [];
+    const context = propertyInterpretationContext(stories);
     const coreSignals = stories.filter((story) => story.property_filter?.editorial_bucket === "core_signal");
     const interpretations = stories.filter((story) => story.property_filter?.editorial_bucket === "interpretation");
     const hasPricePressure = readHasAny(stories, [
@@ -1760,7 +3327,20 @@ function buildPropertyEditorialRead(stories) {
         bullets.push("Price movement is the cleanest property signal this week, with softer growth doing more work than launch or expansion news.");
     }
     if (hasOfficeStress) {
-        bullets.push("Office remains a visible stress channel, with vacancy, rents, and tenant demand carrying more weight than developer positioning.");
+        if (context.hasPromotionalFraming && context.hasOperatingTerms) {
+            bullets.push(`Resilience is the visible office-market framing; the useful read is whether vacancy, rents, and ${propertyUtilizationProof("editorial-read-office")} support it underneath.`);
+        }
+        else {
+            bullets.push("Office remains a visible stress channel, with vacancy, rents, and tenant demand carrying more weight than developer positioning.");
+        }
+    }
+    if (context.hasFramingCollision && bullets.length < 4) {
+        bullets.push("Resilience and volatility are sitting inside the same property narrative, which makes the tension more useful than either headline by itself.");
+    }
+    if (context.hasRecoveryLanguage &&
+        context.hardRecoveryConfirmations < 2 &&
+        bullets.length < 4) {
+        bullets.push(`The lack of clear ${propertyRecoveryConfirmation("editorial-read-recovery")} keeps this in stabilization territory, not a clean recovery call.`);
     }
     if (hasConstructionSoftness) {
         bullets.push("Residential construction looks softer where permit and demand signals point to a less aggressive build pipeline.");
@@ -1771,7 +3351,9 @@ function buildPropertyEditorialRead(stories) {
     if (interpretations.length > 0 && bullets.length < 3) {
         bullets.push(coreSignals.length > 0
             ? "The softer market reads add direction around the hard signals, but they do not by themselves prove a turn."
-            : "Most of the week is interpretive, so the read should stay cautious until harder price, vacancy, inventory, lending, or policy evidence appears.");
+            : context.hasConsultancyFraming
+                ? "The week is being carried by consultancy and research framing, so the read should stay cautious until harder demand, pricing, or occupancy evidence appears."
+                : "Most of the week is interpretive, so the read should stay cautious until harder price, vacancy, inventory, lending, or policy evidence appears.");
     }
     if (bullets.length === 0) {
         bullets.push("Property is narrow this week; the useful read is selective pressure, not a complete sector call.", "Harder signals should still outrank broad outlook pieces until more price, vacancy, inventory, lending, or policy evidence appears.");
@@ -1848,6 +3430,7 @@ function buildMotoringEditorialRead(stories, themeClusters) {
         return buildThinEditorialRead("Motoring");
     }
     const bullets = [];
+    const freshness = motoringFreshnessContext(stories);
     const hasOwnershipCost = readHasAny(stories, [
         "fuel",
         "gasoline",
@@ -1890,23 +3473,51 @@ function buildMotoringEditorialRead(stories, themeClusters) {
         "public transport"
     ]) || readHasTheme(themeClusters, ["sales", "capacity", "supply"]);
     if (hasOwnershipCost) {
-        bullets.push("Ownership cost remains the pressure point, especially where fuel, fares, tolls, or compliance costs move faster than household budgets.");
+        bullets.push(freshness.hasFuelIncrease && freshness.hasFuelRelief
+            ? "The pricing signal is the fuel split: Shell discounts soften this week's bill while the next diesel and gasoline hike keeps motorists exposed."
+            : freshness.hasFuelRelief
+                ? "Shell's P5/L gasoline and P3/L diesel discount makes affordability concrete this week, especially for motorists and operators who feel fuel costs immediately."
+                : "The cost of keeping a vehicle on the road is becoming harder to separate from fuel, financing, and regulation.");
     }
     if (hasEvTransition && hasCapacity) {
-        bullets.push("The EV transition is still tied to capacity questions: charging, supply, and fleet economics matter as much as model launches.");
+        bullets.push(freshness.hasCharging
+            ? "Changan owner support, charging stories, and new PHEV arrivals make the EV read about practical ownership, not just model launches."
+            : "EV adoption is being tested at the ownership layer, where supply and cost have to translate into practical use.");
     }
     else if (hasEvTransition) {
-        bullets.push("EV stories matter most when they move infrastructure or operating economics, not when they only add showroom noise.");
+        bullets.push("The EV signal is shifting from model arrival to whether the operating math works for cost-sensitive owners.");
     }
     if (hasEnforcement) {
-        bullets.push("Enforcement and road-capacity signals keep the beat grounded in daily mobility constraints, not just vehicle demand.");
+        bullets.push(freshness.hasVisibleEnforcementConsequence
+            ? "The viral crash arrest gives enforcement a visible consequence, turning road discipline from background complaint into this week's concrete signal."
+            : "Rules matter this week because enforcement is turning policy into time, paperwork, and behavior costs for drivers and operators.");
+    }
+    if ((freshness.hasHondaMotorcycleMilestone || freshness.hasPremiumAspiration) && bullets.length < 4) {
+        bullets.push(freshness.hasHondaMotorcycleMilestone && freshness.hasPremiumAspiration
+            ? "Honda's 12-million motorcycle milestone and Audi's Q9 signal opposite ends of the market: basic mobility has scale while premium aspiration still gets tested."
+            : freshness.hasHondaMotorcycleMilestone
+                ? "Honda's 12-million motorcycle milestone anchors the week in basic mobility, where affordability and daily use matter more than launch noise."
+                : "Premium SUV attention is testing aspiration at the top end while the rest of the beat is still ruled by cost and daily use.");
+    }
+    if ((freshness.hasFleetOrCommercial || freshness.hasTrafficOrRoadCapacity || freshness.hasAfterSalesOrDealer) && bullets.length < 4) {
+        bullets.push(freshness.hasFleetOrCommercial
+            ? "PITX fee relief and fleet fuel-savings stories put operator costs on the desk alongside consumer ownership costs."
+            : "Dealer, warranty, and owner-support stories matter because they affect what ownership costs after the sale.");
+    }
+    if (freshness.hasDemand && bullets.length < 4) {
+        bullets.push(freshness.hasMotorcycle
+            ? "Two-wheel demand is carrying a practical mobility signal as buyers keep prioritizing usable, lower-cost transport."
+            : "Demand now has to clear the operating-cost test, not just the launch or showroom test.");
     }
     if (bullets.length === 0) {
         bullets.push(stories.length <= 2
             ? "Motoring is thin this week; the useful read is limited to the few cost, policy, or capacity signals on the desk."
             : "The week is mixed, so the clearest read is the tension between demand, operating costs, and transport capacity.");
     }
-    return bullets.slice(0, 4);
+    return bullets
+        .map((bullet) => freshenMotoringLine(bullet, freshness))
+        .filter((bullet, index, all) => all.indexOf(bullet) === index)
+        .slice(0, 4);
 }
 function buildBankingEditorialRead(stories, themeClusters) {
     if (stories.length === 0) {
@@ -1926,8 +3537,17 @@ function buildBankingEditorialRead(stories, themeClusters) {
         readHasAny(stories, ["bsp", "capital requirement", "reserve requirement", "policy", "regulator"]);
     const hasGrowth = labels.some((label) => label.includes("growth")) ||
         readHasAny(stories, ["loan growth", "credit growth", "lending growth"]);
+    const freshness = bankingFreshnessContext(stories);
     const bullets = [];
-    if (hasCreditTightening && hasRisk) {
+    if (freshness.hasRateMove && (hasRisk || hasGrowth || hasDeposits)) {
+        bullets.push(`This week, the rate move landed; the more useful question now is what it costs through ${hasDeposits ? "funding and deposit pricing" : hasRisk ? "asset quality" : "borrower appetite"}.`);
+    }
+    if (freshness.hasExternalShock && hasRisk) {
+        bullets.push(freshness.hasPrivateBankStress
+            ? "Pressure is migrating from external shock to domestic credit stress as banks start tying inflation risk to loan growth and asset quality."
+            : "External pressure is moving into the banking read through provisions, borrower stress, and regional credit-risk language.");
+    }
+    if (hasCreditTightening && hasRisk && bullets.length < 3) {
         bullets.push("Credit discipline and borrower risk are moving together, which makes loan quality more important than headline growth.");
     }
     else if (hasCreditTightening) {
@@ -1938,19 +3558,22 @@ function buildBankingEditorialRead(stories, themeClusters) {
     }
     if (hasLiquidity || hasDeposits) {
         bullets.push(hasDeposits
-            ? "Deposit movement keeps funding cost and liquidity management near the center of the banking read."
-            : "Liquidity signals point to banks preserving buffers rather than stretching balance sheets for growth.");
+            ? "Deposit movement matters less as a static liquidity fact than as a test of whether banks have to pay up to defend funding."
+            : "Liquidity signals now read as pressure management: banks are protecting room to move before stretching balance sheets again.");
     }
     if (hasPolicy && !hasCreditTightening) {
         bullets.push("Policy remains a live driver, but its market impact depends on whether it changes credit behavior rather than just compliance posture.");
     }
     if (hasGrowth && bullets.length < 3) {
-        bullets.push("Loan growth still matters, but the useful question is whether borrowers can keep carrying credit under tighter or riskier conditions.");
+        bullets.push("What matters is no longer loan growth by itself, but whether borrowers can still carry it under higher rates or riskier conditions.");
     }
     if (bullets.length === 0) {
         bullets.push("Banking is mostly watch-level this week; the desk should stay focused on credit behavior, funding pressure, and early risk.");
     }
-    return bullets.slice(0, 4);
+    return bullets
+        .map((bullet) => freshenBankingLine(bullet, freshness))
+        .filter((bullet, index, all) => all.indexOf(bullet) === index)
+        .slice(0, 4);
 }
 function buildEnergyEditorialReadFromStories(stories, themeClusters) {
     if (stories.length === 0) {
@@ -2890,18 +4513,55 @@ function renderWeeklyEditorialPacketMarkdown(packet, stories, eventClusters, the
         }
     }
     const watchlist = buildWatchlistItems(stories, usedStoryIds, blockedLabels).slice(0, 5);
-    const patternBullets = buildPatternBullets(whatMattersMost, structuralShifts, watchlist);
+    const isBankingPacket = stories.some((story) => story.beat === "ph_sea_banking");
+    const isMotoringPacket = stories.some((story) => story.beat === "philippine_motoring");
+    const isPropertyPacket = stories.some((story) => story.beat === "property_real_estate");
+    const bankingUsedPhrases = bankingPhraseUse();
+    const motoringUsedPhrases = motoringPhraseUse();
+    if (isBankingPacket) {
+        for (const bullet of packet.editorial_read) {
+            rememberBankingPhrase(bullet, bankingUsedPhrases);
+        }
+    }
+    if (isMotoringPacket) {
+        for (const bullet of packet.editorial_read) {
+            rememberMotoringPhrase(bullet, motoringUsedPhrases);
+        }
+    }
+    const finalWhatMattersMost = isBankingPacket
+        ? whatMattersMost.map((item) => diversifyBankingItem(item, "theme", bankingUsedPhrases))
+        : isMotoringPacket
+            ? whatMattersMost.map((item) => diversifyMotoringItem(item, "theme", motoringUsedPhrases))
+            : whatMattersMost;
+    const finalStructuralShifts = isBankingPacket
+        ? structuralShifts.map((item) => diversifyBankingItem(item, "structural", bankingUsedPhrases))
+        : isMotoringPacket
+            ? structuralShifts.map((item) => diversifyMotoringItem(item, "structural", motoringUsedPhrases))
+            : structuralShifts;
+    const finalWatchlist = isBankingPacket
+        ? watchlist.map((item) => diversifyBankingItem(item, "structural", bankingUsedPhrases))
+        : isMotoringPacket
+            ? watchlist.map((item) => diversifyMotoringItem(item, "structural", motoringUsedPhrases))
+            : watchlist;
+    const patternBullets = buildPatternBullets(finalWhatMattersMost, finalStructuralShifts, finalWatchlist);
+    const finalPatternBullets = isPropertyPacket
+        ? propertySummaryBullets([...finalWhatMattersMost, ...finalStructuralShifts, ...finalWatchlist], stories)
+        : patternBullets.map((bullet) => isBankingPacket
+            ? diversifyBankingLine(bullet, "banking summary", stories, "summary", bankingUsedPhrases)
+            : isMotoringPacket
+                ? diversifyMotoringLine(bullet, "motoring summary", stories, "summary", motoringUsedPhrases)
+                : bullet);
     lines.push(`# Weekly Editorial Packet — ${packet.beat_name}`);
     lines.push("");
     lines.push(`Week of ${packet.week_of}`);
     lines.push("");
     renderEditorialRead(lines, packet);
-    renderBriefSection(lines, "What matters most", whatMattersMost, "Why it matters");
-    renderBriefSection(lines, "Structural shifts", structuralShifts, "Editorial note");
-    renderWatchlistSection(lines, watchlist);
+    renderBriefSection(lines, "What matters most", finalWhatMattersMost, "Why it matters");
+    renderBriefSection(lines, "Structural shifts", finalStructuralShifts, "Editorial note");
+    renderWatchlistSection(lines, finalWatchlist);
     lines.push("## What seems to be happening");
     lines.push("");
-    for (const bullet of patternBullets) {
+    for (const bullet of finalPatternBullets) {
         lines.push(`- ${bullet}`);
     }
     lines.push("");
