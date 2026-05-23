@@ -1,50 +1,42 @@
 # Weekly Editorial Packet — Philippine / SEA Energy
 
-Week of 2026-05-11
+Week of 2026-05-18
 
 ## Editorial Read
 
 - Fuel and policy signals are moving together, so the pressure is not just price direction but who absorbs the cost.
 - Grid and project-execution signals keep capacity risk on the desk, even when price stories dominate the week.
+- Demand pressure matters because it can turn ordinary supply tightness into a reliability or price problem.
 
 ## What matters most
+
+### demand pressure
+- Why it matters: Demand pressure can turn ordinary supply tightness into a price or reliability problem.
+- Pattern: Demand is making supply, price, and reliability constraints harder to absorb.
+- Tension: consumption needs vs system capacity
+- Supporting stories:
+- [SMIC clean energy sourcing rose to 31%](https://business.inquirer.net/591841/smic-clean-energy-sourcing-rose-to-31) | Inquirer Business Energy | Shows how policy decisions can shift who absorbs energy costs.
 
 ### energy price pressure
 - Why it matters: Energy-price pressure feeds through to households, operators, and policy decisions.
 - Pattern: Energy costs are still feeding into household and business pressure.
 - Tension: cost recovery vs affordability
 - Supporting stories:
-- [Political noise drags peso to new all-time low](https://www.bworldonline.com/banking-finance/2026/05/15/749748/political-noise-drags-peso-to-new-all-time-low) | BusinessWorld Energy | Shows where supply conditions could become a reliability problem.
-- [HSBC: Jumbo June rate hike possible](https://business.inquirer.net/590475/hsbc-jumbo-june-rate-hike-possible) | Inquirer Business Energy | Adds a concrete read on price, supply, reliability, or policy pressure.
-
-### supply reliability risk
-- Why it matters: Reliability risk matters when supply tightness can turn into outages, reserves pressure, or higher prices.
-- Pattern: Supply and reserve signals are keeping reliability risk close to the surface.
-- Tension: demand needs vs available supply
-- Supporting stories:
-- [Maharlika extends P15B credit line to Petron to boost crude oil supply](https://business.inquirer.net/590467/maharlika-extends-p15b-credit-line-to-petron-to-boost-crude-oil-supply) | Inquirer Business Energy | Shows where supply conditions could become a reliability problem.
-- [Philippine HMOs post 41% net income jump in Q1](https://business.inquirer.net/590709/philippine-hmos-post-41-net-income-jump-in-q1) | Inquirer Business Energy | Adds a concrete read on price, supply, reliability, or policy pressure.
-- [PAL Express cues takeover of own fleet’s maintenance](https://business.inquirer.net/590468/pal-express-cues-takeover-of-own-fleets-maintenance) | Inquirer Business Energy | Adds a concrete read on price, supply, reliability, or policy pressure.
-- [Meralco seeks swift regulator approval for San Miguel deal](https://business.inquirer.net/590470/meralco-seeks-swift-regulator-approval-for-san-miguel-deal) | Inquirer Business Energy | Shows how policy decisions can shift who absorbs energy costs.
-
-### policy cost shift
-- Why it matters: Policy decisions matter because they decide whether energy pressure lands on utilities, businesses, or consumers.
-- Pattern: Policy decisions are shifting how energy costs move through utilities, businesses, and households.
-- Tension: cost recovery vs public burden
-- Supporting stories:
-- [LBC income sunk 63% in Q1 on forex losses, soaring costs](https://business.inquirer.net/590656/lbc-income-sunk-63-in-q1-on-forex-losses-soaring-costs) | Inquirer Business Energy | Shows how policy decisions can shift who absorbs energy costs.
+- [BSP ‘considering’ off-cycle rate hike as inflation risks worsen](https://www.bworldonline.com/top-stories/2026/05/22/751349/bsp-considering-off-cycle-rate-hike-as-inflation-risks-worsen) | BusinessWorld Energy | Makes the capacity and delivery constraint concrete.
+- [BSP mulls over off-cycle rate hike](https://business.inquirer.net/591842/bsp-mulls-over-off-cycle-rate-hike) | Inquirer Business Energy | Shows how policy decisions can shift who absorbs energy costs.
+- [Sparse charging stations slowing Filipinos’ shift to EV](https://business.inquirer.net/591663/sparse-charging-stations-slowing-filipinos-shift-to-ev) | Inquirer Business Energy | Makes the capacity and delivery constraint concrete.
+- [DA council warns vs more tariff reductions on pork, poultry imports](https://business.inquirer.net/591817/da-council-warns-vs-more-tariff-reductions-on-pork-poultry-imports) | Inquirer Business Energy | Shows how policy decisions can shift who absorbs energy costs.
 
 ### grid capacity risk
 - Why it matters: Grid and project execution determine whether new capacity can actually reach users.
 - Pattern: Grid and project execution are shaping how much capacity the system can actually use.
 - Tension: infrastructure ambition vs delivery
 - Supporting stories:
-- [Red alerts raised over Luzon, Visayas power grids](https://business.inquirer.net/590560/red-alerts-raised-over-luzon-visayas-power-grids) | Inquirer Business Energy | Makes the capacity and delivery constraint concrete.
-- [Luzon grid returns to normal after days of power alerts](https://www.philstar.com/headlines/2026/05/16/2528389/luzon-grid-returns-normal-after-days-power-alerts) | Philippine Star Business Energy | Makes the capacity and delivery constraint concrete.
+- [E-wallet boom boosts financial inclusion in first quarter](https://www.philstar.com/business/2026/05/24/2530020/e-wallet-boom-boosts-financial-inclusion-first-quarter) | Philippine Star Business Energy | Shows how policy decisions can shift who absorbs energy costs.
+- [Visayas grid under yellow alert for 5th time this week](https://business.inquirer.net/591749/visayas-grid-under-yellow-alert-for-5th-time-this-week) | Inquirer Business Energy | Makes the capacity and delivery constraint concrete.
 
 ## What seems to be happening
 
+- Demand is making supply, price, and reliability constraints harder to absorb.
 - Energy costs are still feeding into household and business pressure.
-- Supply and reserve signals are keeping reliability risk close to the surface.
-- Policy decisions are shifting how energy costs move through utilities, businesses, and households.
 - Grid and project execution are shaping how much capacity the system can actually use.
