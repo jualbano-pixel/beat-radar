@@ -16,26 +16,19 @@ Week of 2026-05-18
 - Pattern: External pressure is starting to show up in domestic credit conditions.
 - Tension: macro shock vs balance-sheet quality
 - Supporting stories:
-- [Banks’ bad loan ratio drops to 3-month low](https://www.philstar.com/business/2026/05/18/2528636/banks-bad-loan-ratio-drops-3-month-low) | Philstar Business | Shows where borrower stress is starting to matter for asset quality.
-- [Banks’ bad loan ratio eases to 3-month low in March as lending accelerates](https://mb.com.ph/article/10918490/business/banking-finance/banks-bad-loan-ratio-eases-to-3-month-low-in-march-as-lending-accelerates) | Manila Bulletin Business | Connects bank behavior to actual credit conditions.
-- [Loan growth outpaces record climb of NPLs to ₱568.553B](https://businessmirror.com.ph/2026/05/18/loan-growth-outpaces-record-climb-of-npls-to-%e2%82%b1568-553b) | BusinessMirror Business | Shows where borrower stress is starting to matter for asset quality.
-- [Bad-loan ratio fell to 3-month low in March despite war risks](https://business.inquirer.net/590961/bad-loan-ratio-fell-to-3-mo-low-in-march-despite-war-risks) | Inquirer Business | Shows where borrower stress is starting to matter for asset quality.
-
-### deposit funding shift
-- Why it matters: Funding costs now matter because they affect bank appetite for risk and growth.
-- Pattern: The immediate issue is not the rate move itself, but what it does to funding costs.
-- Tension: deposit defense vs margin protection
-- Supporting stories:
-- [Monetary Board raises Target RRP Rate by 25 basis points](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7884) | Bangko Sentral ng Pilipinas | Connects bank behavior to actual credit conditions.
+- [Possible surprise rate move to cool inflation – BSP chief](https://business.inquirer.net/591830/possible-surprise-rate-move-to-cool-inflation-bsp-chief) | Inquirer Business | Shows where borrower stress is starting to matter for asset quality.
+- [Banks to set aside capital to support lending during stress](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7913) | Bangko Sentral ng Pilipinas | Connects bank behavior to actual credit conditions.
+- [BSP mulls over off-cycle rate hike](https://business.inquirer.net/591842/bsp-mulls-over-off-cycle-rate-hike) | Inquirer Business | Shows how policy can change lending behavior or risk appetite.
+- [Banks told to beef up funds for lending](https://www.philstar.com/business/2026/05/23/2529824/banks-told-beef-funds-lending) | Philstar Business | Shows where borrower stress is starting to matter for asset quality.
 
 ### banking policy pressure
 - Why it matters: Policy is no longer just a signal from the center; the sharper question is how quickly it reaches credit appetite, deposit pricing, and risk controls.
 - Pattern: The policy signal is clear; the operating environment it lands in is not.
 - Tension: policy vs execution
 - Supporting stories:
-- [Asean 2026: Europe’s 4 oil shock lessons](https://business.inquirer.net/590956/asean-2026-europes-4-oil-shock-lessons-2) | Inquirer Business | Shows how policy can change lending behavior or risk appetite.
+- [BSP to finally enforce tighter capital buffer rules on banks](https://business.inquirer.net/591828/bsp-to-finally-enforce-tighter-capital-buffer-rules-on-banks) | Inquirer Business | Connects bank behavior to actual credit conditions.
+- [Global energy shock tests Philippine lenders’ resilience](https://www.businesstimes.com.sg/international/asean/global-energy-shock-tests-philippine-lenders-resilience) | The Business Times Banking | Shows how policy can change lending behavior or risk appetite.
 - [BSP joins other central banks, finance ministries in affirming ASEAN+3 cooperation](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7902) | Bangko Sentral ng Pilipinas | Shows how policy can change lending behavior or risk appetite.
-- [BSP welcomes Moody's favorable assessment of PH banking system, external sector](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7880) | Bangko Sentral ng Pilipinas | Shows how policy can change lending behavior or risk appetite.
 - [PH financial system remains resilient in H2 2025](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7896) | Bangko Sentral ng Pilipinas | Shows how policy can change lending behavior or risk appetite.
 
 ### lending conditions
@@ -43,10 +36,20 @@ Week of 2026-05-18
 - Pattern: Policy is setting the direction, but bank behavior will decide the consequence.
 - Tension: policy vs execution
 - Supporting stories:
-- [Philippines eyes $300-million initial draw from World Bank loan](https://mb.com.ph/article/10918287/business/trade-industry/philippines-eyes-300-million-initial-draw-from-world-bank-loan) | Manila Bulletin Business | Connects bank behavior to actual credit conditions.
+- [Moody’s affirms BPI, BDO investment-grade ratings](https://business.inquirer.net/591654/moodys-affirms-bpi-bdo-investment-grade-ratings) | Inquirer Business | Connects bank behavior to actual credit conditions.
 - [Most PH banks expect to maintain lending standards in Q2](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7892) | Bangko Sentral ng Pilipinas | Shows how policy can change lending behavior or risk appetite.
-- [Filipinos 3rd fastest-growing finance app market](https://business.inquirer.net/590938/filipinos-3rd-fastest-growing-finance-app-market) | Inquirer Business | Connects bank behavior to actual credit conditions.
-- [Philippines to repay its biggest-ever World Bank loan for agriculture until 2044](https://mb.com.ph/article/10918246/business/banking-finance/philippines-to-repay-its-biggest-ever-world-bank-loan-for-agriculture-until-2044) | Manila Bulletin Business | Connects bank behavior to actual credit conditions.
+- [Philippines seeks partial cancellation of nearly $2.35-million World Bank 4Ps loan amid lower poverty rate](https://mb.com.ph/article/10919003/business/banking-finance/philippines-seeks-partial-cancellation-of-nearly-235-million-world-bank-4ps-loan-amid-lower-poverty-rate) | Manila Bulletin Business | Connects bank behavior to actual credit conditions.
+- [Philippines, China-led AIIB explore digitalization, energy project loans to boost economy](https://mb.com.ph/article/10919106/business/banking-finance/philippines-china-led-aiib-explore-digitalization-energy-project-loans-to-boost-economy) | Manila Bulletin Business | Connects bank behavior to actual credit conditions.
+
+### deposit funding shift
+- Why it matters: Funding costs now matter because they affect bank appetite for risk and growth.
+- Pattern: The immediate issue is not the rate move itself, but what it does to funding costs.
+- Tension: deposit defense vs margin protection
+- Supporting stories:
+- [PH financial system resources as of March topped P37T](https://business.inquirer.net/591661/ph-financial-system-resources-as-of-march-topped-p37t) | Inquirer Business | Connects bank behavior to actual credit conditions.
+- [Monetary Board raises Target RRP Rate by 25 basis points](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7884) | Bangko Sentral ng Pilipinas | Makes funding and liquidity pressure visible beyond headline earnings.
+- [OCBC outbids banks on HSBC Indonesia deal by wide margin: sources](https://www.businesstimes.com.sg/international/asean/ocbc-outbids-banks-hsbc-indonesia-deal-wide-margin-sources) | The Business Times Banking | Makes funding and liquidity pressure visible beyond headline earnings.
+- [Moody’s affirms BDO and BPI’s ratings, outlooks](https://www.bworldonline.com/banking-finance/2026/05/22/751326/moodys-affirms-bdo-and-bpis-ratings-outlooks) | BusinessWorld Banking | Makes funding and liquidity pressure visible beyond headline earnings.
 
 ## Structural shifts
 
@@ -55,19 +58,21 @@ Week of 2026-05-18
 - Pattern: Credit discipline is moving from background control to operating constraint.
 - Tension: loan growth vs borrower quality
 - Supporting stories:
-- [Jollibee downgrades to MSCI small cap index](https://business.inquirer.net/590703/jollibee-downgrades-to-msci-small-cap-index) | Inquirer Business | Makes funding and liquidity pressure visible beyond headline earnings.
+- [BSP ‘considering’ off-cycle rate hike as inflation risks worsen](https://www.bworldonline.com/top-stories/2026/05/22/751349/bsp-considering-off-cycle-rate-hike-as-inflation-risks-worsen) | BusinessWorld Banking | Shows where borrower stress is starting to matter for asset quality.
 
 ### liquidity preservation
 - Editorial note: Buffer language is starting to look like a response to pressure, not just routine prudence.
 - Pattern: The liquidity signal is defensive: banks are protecting room to move before stretching again.
 - Tension: liquidity defense vs credit expansion
 - Supporting stories:
+- [Moody’s affirms BDO, BPI deposit ratings on strong profitability, asset quality](https://mb.com.ph/article/10918992/business/banking-finance/moodys-affirms-bdo-bpi-deposit-ratings-on-strong-profitability-asset-quality) | Manila Bulletin Business | Makes funding and liquidity pressure visible beyond headline earnings.
+- [Moody’s keeps Metrobank ratings stable amid asset quality, funding risks](https://mb.com.ph/article/10919101/business/banking-finance/moodys-keeps-metrobank-ratings-stable-amid-asset-quality-funding-risks) | Manila Bulletin Business | Shows where borrower stress is starting to matter for asset quality.
 - [BOP posts US$2.6 billion deficit in March 2026; end-March GIR settle at US$106.6 billion[1]](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7882) | Bangko Sentral ng Pilipinas | Makes funding and liquidity pressure visible beyond headline earnings.
 
 ## What seems to be happening
 
 - The external shock is reaching domestic credit quality.
-- The rate decision now has to be read through funding costs.
 - Policy is clear enough to matter, but transmission is still unsettled.
 - Operating consequences matter more than the policy posture.
+- The rate decision now has to be read through funding costs.
 - Borrower quality is carrying more of the credit story.
