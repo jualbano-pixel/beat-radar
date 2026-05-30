@@ -1,6 +1,6 @@
 # Weekly Editorial Packet — AI / Tech
 
-Week of 2026-05-18
+Week of 2026-05-25
 
 ## Editorial Read
 
@@ -17,34 +17,36 @@ Week of 2026-05-18
 - Supporting stories:
 - [Databricks brings GPT-5.5 to enterprise agent workflows](https://openai.com/index/databricks) | OpenAI Blog | Shows how vendors are trying to lock in enterprise trust before demand settles.
 - [OpenAI launches DeployCo to help businesses build around intelligence](https://openai.com/index/openai-launches-the-deployment-company) | OpenAI Blog | Shows how the enterprise pitch is arriving ahead of proof.
-- [AI’s tipping point: Why 2026 will separate the leaders from the laggards in financial services](https://e27.co/ais-tipping-point-why-2026-will-separate-the-leaders-from-the-laggards-in-financial-services-20260115) | e27 SEA Tech | Gives the theme a concrete operating example.
-- [OpenAI named a Leader in enterprise coding agents by Gartner](https://openai.com/index/gartner-2026-agentic-coding-leader) | OpenAI Blog | Shows what the platform push looks like in practice.
-
-### compute capacity strain
-- Why it matters: Compute capacity is becoming one of the practical limits on AI scaling.
-- Pattern: Compute demand is turning infrastructure into a strategic constraint.
-- Tension: scaling ambition vs capacity
-- Supporting stories:
-- [Building the compute infrastructure for the Intelligence Age](https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age) | OpenAI Blog | Shows where strategy is running into execution reality.
-- [The rise of homelabs: Running your own AI server at home](https://e27.co/the-rise-of-homelabs-running-your-own-ai-server-at-home-20241125) | e27 SEA Tech | Early sign worth tracking if repeated.
-
-### AI governance pressure
-- Why it matters: Regulatory and governance pressure is starting to shape rollout decisions before operating rules are fully settled.
-- Pattern: Policy is moving faster than operating clarity.
-- Tension: policy vs execution
-- Supporting stories:
-- [The new cybersecurity threat: Why AI agents are the wild card in enterprise security](https://e27.co/the-new-cybersecurity-threat-why-ai-agents-are-the-wild-card-in-enterprise-security-20260519) | e27 SEA Tech | Shows how safety posture is becoming part of product strategy.
-- [The founders who scale in SEA are rebuilding customer experience from the operating layer up](https://e27.co/the-founders-who-scale-in-sea-are-rebuilding-customer-experience-from-the-operating-layer-up-20260520) | e27 SEA Tech | Makes the demand and pricing question harder to ignore.
-- [Trump delays AI security executive order, saying language ‘could have been a blocker’](https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading) | TechCrunch AI | Makes the governance pitch part of the product story.
-- [How ChatGPT learns about the world while protecting privacy](https://openai.com/index/how-chatgpt-protects-privacy) | OpenAI Blog | Early sign worth tracking if repeated.
+- [MUFG aims to become AI-native with OpenAI](https://openai.com/index/mufg) | OpenAI Blog | Gives the theme a concrete operating example.
+- [The biggest barrier to AI in Southeast Asia is not the technology, it is the operating model](https://e27.co/the-biggest-barrier-to-ai-in-southeast-asia-is-not-the-technology-it-is-the-operating-model-20260524) | e27 SEA Tech | Shows where platform control is shifting into developer workflow.
 
 ### platform distribution fight
 - Why it matters: Multiple players are adding capability faster than they can secure capacity, coordination, or deployment discipline.
 - Pattern: Infrastructure is scaling faster than coordination.
 - Tension: ambition vs capacity
 - Supporting stories:
+- [Singapore’s AI infrastructure gap is trapping businesses in pilot purgatory](https://e27.co/singapores-ai-infrastructure-gap-is-trapping-businesses-in-pilot-purgatory-20260528) | e27 SEA Tech | Shows where platform control is shifting into developer workflow.
+- [The translation gap: Why deep tech needs scale-up teams, not just scientists](https://e27.co/the-translation-gap-why-deep-tech-needs-scale-up-teams-not-just-scientists-20260523) | e27 SEA Tech | Shows where strategy is running into execution reality.
 - [Advancing voice intelligence with new models in the API](https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api) | OpenAI Blog | Early sign worth tracking if repeated.
-- [The US$1M per person revolution: How AI is reshaping Southeast Asia’s startup landscape](https://e27.co/the-us1m-per-person-revolution-how-ai-is-reshaping-southeast-asias-startup-landscape-20250629) | e27 SEA Tech | Shows where platform control is shifting into developer workflow.
+- [AI startups are hiring around answers they haven’t earned yet](https://e27.co/ai-startups-are-hiring-around-answers-they-havent-earned-yet-20260527) | e27 SEA Tech | Shows where supply strain is starting to hit the story.
+
+### AI governance pressure
+- Why it matters: Multiple players are adding capability faster than they can secure capacity, coordination, or deployment discipline.
+- Pattern: Infrastructure is scaling faster than coordination.
+- Tension: ambition vs capacity
+- Supporting stories:
+- [AI is detecting cancer earlier in Southeast Asia but our policies and capital have not caught up](https://e27.co/ai-is-detecting-cancer-earlier-in-southeast-asia-but-our-policies-and-capital-have-not-caught-up-20260523) | e27 SEA Tech | Shows where strategy is running into execution reality.
+- [If an AI agent cannot find you in Southeast Asia, you do not exist in the market](https://e27.co/if-an-ai-agent-cannot-find-you-in-southeast-asia-you-do-not-exist-in-the-market-20260523) | e27 SEA Tech | Makes the demand and pricing question harder to ignore.
+- [OpenAI’s Frontier Governance Framework](https://openai.com/index/openai-frontier-governance-framework) | OpenAI Blog | Shows how safety posture is becoming part of product strategy.
+- [Testing ads in ChatGPT](https://openai.com/index/testing-ads-in-chatgpt) | OpenAI Blog | Gives the theme a concrete operating example.
+
+### compute capacity strain
+- Why it matters: Compute capacity is becoming one of the practical limits on AI scaling.
+- Pattern: Compute demand is turning infrastructure into a strategic constraint.
+- Tension: scaling ambition vs capacity
+- Supporting stories:
+- [Warp’s big bet on building open source with GPT-5.5](https://openai.com/index/warp) | OpenAI Blog | Early sign worth tracking if repeated.
+- [The internet is being rebuilt for machines](https://techcrunch.com/2026/05/28/the-internet-is-being-rebuilt-for-machines) | TechCrunch AI | Makes the infrastructure strain visible.
 
 ## Structural shifts
 
@@ -53,12 +55,11 @@ Week of 2026-05-18
 - Pattern: Infrastructure is scaling faster than coordination.
 - Tension: ambition vs capacity
 - Supporting stories:
-- [Reduce friction and latency for long-running jobs with Webhooks in Gemini API](https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks) | Google AI Blog | Shows where strategy is running into execution reality.
+- [The Philippines never lacked talent, it lacked leverage and AI is changing that](https://e27.co/the-philippines-never-lacked-talent-it-lacked-leverage-and-ai-is-changing-that-20260523) | e27 SEA Tech | Strong local business relevance with likely downstream effects.
 - [OpenAI and Malta partner to bring ChatGPT Plus to all citizens](https://openai.com/index/malta-chatgpt-plus-partnership) | OpenAI Blog | Early sign worth tracking if repeated.
 
 ## What seems to be happening
 
 - Enterprise positioning is getting pushed ahead of proven demand.
-- Compute demand is turning infrastructure into a strategic constraint.
-- Policy is moving faster than operating clarity.
 - Infrastructure is scaling faster than coordination.
+- Compute demand is turning infrastructure into a strategic constraint.
