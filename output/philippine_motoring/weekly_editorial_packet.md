@@ -1,59 +1,55 @@
 # Weekly Editorial Packet — Philippine Motoring
 
-Week of 2026-05-18
+Week of 2026-05-25
 
 ## Editorial Read
 
-- The cost of keeping a vehicle on the road is becoming harder to separate from fuel, financing, and regulation.
-- Changan owner support, charging stories, and new PHEV arrivals make the EV read about practical ownership, not just model launches.
-- Premium SUV attention is testing aspiration at the top end while the rest of the beat is still ruled by cost and daily use.
-- Dealer, warranty, and owner-support stories matter because they affect what ownership costs after the sale.
+- Shell's P5/L gasoline and P3/L diesel discount makes affordability concrete this week, especially for motorists and operators who feel fuel costs immediately.
+- EV adoption is being tested at the ownership layer, where supply and cost have to translate into practical use.
+- PITX fee relief and fleet fuel-savings stories put operator costs on the desk alongside consumer ownership costs.
+- Demand now has to clear the operating-cost test, not just the launch or showroom test.
 
 ## What matters most
 
-### EV transition gap
-- Why it matters: The EV signal is shifting from model arrival to whether ownership is practical.
-- Pattern: Charging access and owner support are becoming the adoption test.
-- Tension: model arrival vs practical ownership
-- Supporting stories:
-- [Sparse charging stations slowing Filipinos’ shift to EV](https://business.inquirer.net/591663/sparse-charging-stations-slowing-filipinos-shift-to-ev) | Inquirer Business | Makes the affordability test visible, not just the launch claim.
-- [Pinoys show growing interest in hybrids, EVs – study](https://www.philstar.com/business/2026/05/24/2530019/pinoys-show-growing-interest-hybrids-evs-study) | Philstar Business | Shows how electrified models are being pushed into a still-cost-sensitive market.
-- [PH car sales drop 19% in April as Mideast crisis tempers demand](https://business.inquirer.net/592076/ph-car-sales-drop-19-in-april-as-mideast-crisis-tempers-demand) | Inquirer Business | Keeps the EV transition tied to price, range, and everyday usability.
-
-### consumer demand shift
-- Why it matters: Honda's 12-million motorcycle milestone shows the practical end of the market still has scale.
-- Pattern: The pressure is shifting from the purchase decision to driver and operator behavior.
-- Tension: mobility need vs affordability
-- Supporting stories:
-- [Is the V8-powered Ram Rumble Bee SRT the fastest pickup in the world?](https://www.topgear.com.ph/news/car-news/ram-rumble-bee-srt-2026-tguk-a2607-20260523-lfrm) | TopGear Philippines | Shows which vehicle segments brands think Filipino buyers will still stretch for.
-- [Missing: Did Ford PH discontinue the Everest Wildtrak?](https://www.topgear.com.ph/news/car-news/ford-everest-wildtrak-ph-discontinued-a6888-20260522) | TopGear Philippines | Turns a product story into a read on buyer appetite.
-
 ### pricing pressure
-- Why it matters: Fare movement matters because it shows transport costs reaching actual users.
-- Pattern: The useful signal is how transport costs change household and operator budgets.
+- Why it matters: The affordability read is moving from sticker price to weekly fuel exposure, where buyers and operators feel changes fastest.
+- Pattern: Pressure is moving from vehicle acquisition to weekly fuel exposure.
 - Tension: purchase intent vs cost of use
 - Supporting stories:
-- [Diesel, gas poised for new price jumps on May 26](https://business.inquirer.net/591769/diesel-gas-poised-for-new-price-jumps-on-may-26) | Inquirer Business | Makes fuel-price pressure part of the buyer and operator story.
+
+### ownership cost reality
+- Why it matters: The pressure is shifting from the purchase decision to weekly fuel exposure.
+- Pattern: The useful signal is the fuel contrast: temporary promo relief against a still-rising cost base.
+- Tension: purchase intent vs cost of use
+- Supporting stories:
+- [New diesel, gas price cuts poised on June 2](https://business.inquirer.net/592681/new-diesel-gas-price-cuts-poised-on-june-2) | Inquirer Business | Makes fuel-price pressure part of the buyer and operator story.
+
+### EV transition gap
+- Why it matters: The EV signal is shifting from model arrival to whether ownership is practical.
+- Pattern: EV availability is ahead of the everyday cost math needed for broader adoption.
+- Tension: model arrival vs practical ownership
+- Supporting stories:
+- [Chinese auto firm explores partnerships for local EV brand](https://www.philstar.com/business/2026/05/31/2531660/chinese-auto-firm-explores-partnerships-local-ev-brand) | Philstar Business | Shows how electrified models are being pushed into a still-cost-sensitive market.
+- [The plug-in hybrid BYD Dolphin exists, and it’s headed for Europe](https://www.topgear.com.ph/news/car-news/byd-dolphin-phev-2026-eu-release-a6888-20260528) | TopGear Philippines | Keeps the EV transition tied to price, range, and everyday usability.
 
 ### infrastructure constraint
 - Why it matters: Traffic and road-condition stories keep the infrastructure read tied to daily travel time, health, and vehicle wear.
 - Pattern: Traffic, road hazards, and transport infrastructure are defining the daily-use limits around the vehicle market.
 - Tension: vehicle use vs road conditions
 - Supporting stories:
-- [An agriculture road map like no other](https://business.inquirer.net/591847/an-agriculture-road-map-like-no-other) | Inquirer Business | Keeps the read tied to daily travel time, road conditions, and vehicle use.
+- [DoTr seeking higher bike lane budget for 2027](https://www.bworldonline.com/economy/2026/05/31/753355/dotr-seeking-higher-bike-lane-budget-for-2027) | BusinessWorld Online | Shows where road rules are starting to meet actual driver behavior.
 
-### motoring market signal
-- Why it matters: The live read is what changed for motorists and operators, not just which product or promo appeared on the market.
-- Pattern: The market is starting to show what buyers can still afford, and what they will not.
-- Tension: cost vs demand
+### consumer demand shift
+- Why it matters: Honda's 12-million motorcycle milestone shows the practical end of the market still has scale.
+- Pattern: The cost of keeping a vehicle on the road is becoming harder to separate from fuel, financing, and regulation.
+- Tension: mobility need vs affordability
 - Supporting stories:
-- [The 2027 Honda City has been unveiled](https://www.topgear.com.ph/news/car-news/honda-city-2027-launched-india-a5361-20260522) | TopGear Philippines | Adds a concrete read on buyer behavior in the Philippine motoring market.
-- [Diesel runaway: Two things you should do, and one thing you absolutely shouldn’t](https://www.topgear.com.ph/features/tip-sheet/what-to-do-with-a-runaway-diesel-a6938-20260521) | TopGear Philippines | Makes fuel-price pressure part of the buyer and operator story.
+- [First impressions: The VinFast VF MPV7 is a promising entry in the MPV segment](https://www.topgear.com.ph/drives/car-reviews/2026-vinfast-vf-mpv7-drive-vietnam-a960-20260529) | TopGear Philippines | Shows how electrified models are being pushed into a still-cost-sensitive market.
 
 ## What seems to be happening
 
-- Charging and owner education are carrying more of the EV story.
-- The pressure is shifting from the purchase decision to driver and operator behavior.
-- The useful signal is how transport costs change household and operator budgets.
+- Shell's discount and the expected fuel hike define the cost signal.
+- The useful signal is the fuel contrast: temporary promo relief against a still-rising cost base.
+- EV availability is ahead of the everyday cost math needed for broader adoption.
 - Traffic, road hazards, and transport infrastructure are defining the daily-use limits around the vehicle market.
-- The market is starting to show what buyers can still afford, and what they will not.
+- Fuel, fares, and compliance are now doing more work than sticker price.
