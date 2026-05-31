@@ -10,6 +10,129 @@ export const sources: SourceDefinition[] = [
     daysBack: 60
   },
   {
+    name: "Department of Information and Communications Technology AI Policy",
+    beat: "ai_tech",
+    type: "rss",
+    url: "https://dict.gov.ph/feed/",
+    maxItems: 20,
+    daysBack: 60
+  },
+  {
+    name: "Department of Trade and Industry AI Economy",
+    beat: "ai_tech",
+    type: "html",
+    url: "https://www.dti.gov.ph/category/dti-news/",
+    maxItems: 20,
+    daysBack: 60,
+    selectors: {
+      item: "article, .post, .elementor-post, .jeg_post",
+      title: "h2 a, h3 a, .entry-title a, .jeg_post_title a",
+      link: "h2 a, h3 a, .entry-title a, .jeg_post_title a",
+      date: "time, .date, .post-date, .jeg_meta_date",
+      summary: ".entry-summary, .excerpt, .jeg_post_excerpt"
+    }
+  },
+  {
+    name: "NEDA Digital Economy",
+    beat: "ai_tech",
+    type: "rss",
+    url: "https://neda.gov.ph/feed/",
+    maxItems: 20,
+    daysBack: 60
+  },
+  {
+    name: "IBPAP IT-BPM AI Transition",
+    beat: "ai_tech",
+    type: "html",
+    url: "https://www.ibpap.org/knowledge-hub/",
+    maxItems: 20,
+    daysBack: 90,
+    selectors: {
+      item: "article, .post, .elementor-post, .card, .news-card",
+      title: "h2 a, h3 a, .entry-title a, a",
+      link: "h2 a, h3 a, .entry-title a, a",
+      date: "time, .date, .post-date",
+      summary: ".entry-summary, .excerpt, p"
+    }
+  },
+  {
+    name: "Philippine Economic Zone Authority Digital Infrastructure",
+    beat: "ai_tech",
+    type: "html",
+    url: "https://www.peza.gov.ph/press-releases?page=1",
+    maxItems: 20,
+    daysBack: 90,
+    selectors: {
+      item: "article, .views-row, .card, .node, .press-release",
+      title: "h2 a, h3 a, h4 a, .field-content a, a",
+      link: "h2 a, h3 a, h4 a, .field-content a, a",
+      date: "time, .date, .field--name-created, .submitted",
+      summary: ".summary, .field--name-body, p"
+    }
+  },
+  {
+    name: "Board of Investments Digital Economy",
+    beat: "ai_tech",
+    type: "rss",
+    url: "https://boi.gov.ph/feed/",
+    maxItems: 20,
+    daysBack: 90
+  },
+  {
+    name: "Department of Labor and Employment Workforce Transition",
+    beat: "ai_tech",
+    type: "rss",
+    url: "https://www.dole.gov.ph/feed/",
+    maxItems: 20,
+    daysBack: 60
+  },
+  {
+    name: "TESDA Skills and Workforce Transition",
+    beat: "ai_tech",
+    type: "html",
+    url: "https://www.tesda.gov.ph/News",
+    maxItems: 20,
+    daysBack: 90,
+    selectors: {
+      item: "article, .news-item, .post, .media, .list-group-item",
+      title: "h2 a, h3 a, h4 a, a",
+      link: "h2 a, h3 a, h4 a, a",
+      date: "time, .date, .news-date",
+      summary: "p, .summary, .excerpt"
+    }
+  },
+  {
+    name: "ASEAN Digital Economy and AI Governance",
+    beat: "ai_tech",
+    type: "rss",
+    url: "https://asean.org/feed/",
+    maxItems: 25,
+    daysBack: 90
+  },
+  {
+    name: "ERIA Digital Economy",
+    beat: "ai_tech",
+    type: "html",
+    url: "https://www.eria.org/news-and-views/category/all/digital-economy/",
+    maxItems: 20,
+    daysBack: 90,
+    selectors: {
+      item: "article, .card, .post, .news-item",
+      title: "h2 a, h3 a, .title a, a",
+      link: "h2 a, h3 a, .title a, a",
+      date: "time, .date",
+      summary: ".summary, .excerpt, p"
+    }
+  },
+  {
+    name: "Asian Development Bank Digital Economy",
+    beat: "ai_tech",
+    type: "rss",
+    url: "https://www.adb.org/rss/news",
+    maxItems: 25,
+    daysBack: 90
+  },
+  {
     name: "BusinessWorld AI/Tech",
     beat: "ai_tech",
     type: "rss",

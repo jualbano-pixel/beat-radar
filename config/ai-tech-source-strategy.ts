@@ -19,17 +19,19 @@ export const aiTechSourceStrategy: AiTechSourceStrategyEntry[] = [
     tier: "tier_1_ph_policy_ground_truth",
     function: "PH / policy / ground truth",
     sources: [
-      "DICT",
-      "Philippine AI Roadmap / government sources",
-      "NEDA",
-      "DTI",
-      "BSP"
+      "Department of Information and Communications Technology AI Policy",
+      "Department of Trade and Industry AI Economy",
+      "NEDA Digital Economy",
+      "Department of Labor and Employment Workforce Transition",
+      "TESDA Skills and Workforce Transition",
+      "Bangko Sentral ng Pilipinas AI/Tech"
     ],
     useFor: [
       "AI policy",
       "digital economy direction",
       "government deployment",
-      "finance-sector AI regulation"
+      "finance-sector AI regulation",
+      "workforce transition"
     ],
     reliability: "stable",
     ingestionScope: "conservative",
@@ -43,14 +45,19 @@ export const aiTechSourceStrategy: AiTechSourceStrategyEntry[] = [
       "BusinessWorld",
       "Inquirer Tech / Business",
       "PhilStar Tech / Business",
-      "Malaya Business"
+      "Malaya Business",
+      "IBPAP IT-BPM AI Transition",
+      "Philippine Economic Zone Authority Digital Infrastructure",
+      "Board of Investments Digital Economy"
     ],
     useFor: [
       "enterprise adoption",
       "local deployment",
       "workflow impact",
       "business model changes",
-      "local platform distribution"
+      "local platform distribution",
+      "IT-BPM and BPO operating-model shifts",
+      "digital infrastructure investment"
     ],
     reliability: "stable",
     ingestionScope: "core",
@@ -61,7 +68,9 @@ export const aiTechSourceStrategy: AiTechSourceStrategyEntry[] = [
     tier: "tier_3_regional_asean",
     function: "Regional / ASEAN",
     sources: [
-      "ASEAN technology policy sources",
+      "ASEAN Digital Economy and AI Governance",
+      "ERIA Digital Economy",
+      "Asian Development Bank Digital Economy",
       "SEA startup and tech coverage",
       "regional infrastructure, cloud, and telco coverage"
     ],
@@ -72,9 +81,9 @@ export const aiTechSourceStrategy: AiTechSourceStrategyEntry[] = [
       "competition for AI investment and talent"
     ],
     reliability: "architectural_only",
-    ingestionScope: "architectural_only",
+    ingestionScope: "conservative",
     notes:
-      "Keep architectural until stable, consistently scrapeable endpoints are selected."
+      "Ingest conservatively with hard materiality gates for DEFA, ADGMIN, AMMSTI, AI governance, workforce readiness, and digital infrastructure movement."
   },
   {
     tier: "tier_4_global_filtered",

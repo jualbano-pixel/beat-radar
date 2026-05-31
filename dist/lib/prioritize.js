@@ -39,13 +39,19 @@ const IMPACT_KEYWORDS = {
     ],
     policy: [
         "policy",
+        "law",
+        "legislation",
+        "bill",
         "regulation",
         "court",
         "antitrust",
         "lawsuit",
         "doj",
         "eu",
-        "governance"
+        "governance",
+        "deepfake",
+        "deepfakes",
+        "disinformation"
     ],
     partnership: [
         "partnership",
@@ -76,7 +82,47 @@ const STRATEGIC_KEYWORDS = {
         "developers",
         "developer",
         "for work",
-        "business"
+        "business",
+        "workflow",
+        "operations",
+        "productivity"
+    ],
+    ph_economic_transformation: [
+        "bpo",
+        "it-bpm",
+        "it bpm",
+        "contact center",
+        "call center",
+        "shared services",
+        "global capability center",
+        "global capability centres",
+        "workforce transition",
+        "role migration",
+        "reskilling",
+        "upskilling",
+        "job displacement",
+        "job creation",
+        "workflow redesign",
+        "operational shift",
+        "operations",
+        "customer service"
+    ],
+    ai_transition_enablers: [
+        "ai",
+        "artificial intelligence",
+        "generative ai",
+        "genai",
+        "automation",
+        "automate",
+        "agentic",
+        "agent",
+        "agents",
+        "workflow",
+        "workflow tools",
+        "productivity",
+        "productivity systems",
+        "customer-service transformation",
+        "customer service transformation"
     ],
     finance_strategy: [
         "fund",
@@ -103,6 +149,12 @@ const BREADTH_KEYWORDS = {
         "enterprise",
         "business",
         "workforce",
+        "bpo",
+        "it-bpm",
+        "it bpm",
+        "contact center",
+        "call center",
+        "shared services",
         "customer",
         "deployment",
         "rollout",
@@ -153,6 +205,19 @@ const BREADTH_KEYWORDS = {
         "legal"
     ]
 };
+const PH_ECONOMIC_TRANSFORMATION_SOURCES = [
+    "BusinessWorld AI/Tech",
+    "Inquirer Business AI/Tech",
+    "Philippine Star Business AI/Tech",
+    "Malaya Business AI/Tech",
+    "IBPAP IT-BPM AI Transition",
+    "Philippine Economic Zone Authority Digital Infrastructure",
+    "Board of Investments Digital Economy",
+    "Department of Labor and Employment Workforce Transition",
+    "TESDA Skills and Workforce Transition",
+    "Department of Trade and Industry AI Economy",
+    "NEDA Digital Economy"
+];
 const MINOR_ITEM_KEYWORDS = [
     "beta",
     "preview",
@@ -242,9 +307,6 @@ function buildWhyItMatters(reasons) {
     if (reasonSet.has("multi_group_impact")) {
         return "This matters because it changes how more than one important group can build, buy, deploy, or govern AI. The impact is broader than a single product or research update.";
     }
-    if (reasonSet.has("policy_shift")) {
-        return "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle.";
-    }
     if (reasonSet.has("infrastructure_move")) {
         return "This matters because infrastructure changes shape what the ecosystem can build next. It affects cost, capability, or speed at platform scale.";
     }
@@ -256,6 +318,12 @@ function buildWhyItMatters(reasons) {
     }
     if (reasonSet.has("safety_or_governance")) {
         return "This matters because it affects how AI systems are governed, evaluated, or deployed responsibly. Those choices can shape the broader direction of the market.";
+    }
+    if (reasonSet.has("ph_ai_economic_transformation")) {
+        return "This matters because it shows AI changing Philippine industry structure, workforce demand, or operating models rather than only adding another product feature.";
+    }
+    if (reasonSet.has("policy_shift")) {
+        return "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle.";
     }
     if (reasonSet.has("enterprise_scale_signal")) {
         return "This is a strong editorial signal because it shows how AI is moving into real-world deployment at scale. It points to traction beyond experimentation.";
@@ -300,6 +368,9 @@ function buildSecondaryNote(reasons) {
     if (reasons.includes("broader_trend")) {
         return "Useful supporting signal within a broader theme.";
     }
+    if (reasons.includes("ph_ai_economic_transformation")) {
+        return "Shows AI-driven Philippine industry or workforce transition worth tracking.";
+    }
     if (reasons.includes("enterprise_scale_signal")) {
         return "Shows practical adoption or rollout worth tracking.";
     }
@@ -329,6 +400,13 @@ function getBreadthSignals(text) {
         signals.push("regulators");
     }
     return signals;
+}
+function hasPhilippineEconomicTransformationSignal(story, text) {
+    const sourceIsPhilippineEconomic = PH_ECONOMIC_TRANSFORMATION_SOURCES.includes(story.source) ||
+        countKeywordHits(text, ["philippines", "philippine", "filipino", "filipinos", "manila"]) > 0;
+    return (sourceIsPhilippineEconomic &&
+        countKeywordHits(text, STRATEGIC_KEYWORDS.ph_economic_transformation) > 0 &&
+        countKeywordHits(text, STRATEGIC_KEYWORDS.ai_transition_enablers) > 0);
 }
 function scoreStory(story, topicCoverage, latestDate) {
     if (story.beat === "ph_sea_banking") {
@@ -411,6 +489,10 @@ function scoreStory(story, topicCoverage, latestDate) {
     if (countKeywordHits(text, STRATEGIC_KEYWORDS.enterprise_rollout) > 0) {
         score += 2;
         reasons.push("enterprise_scale_signal");
+    }
+    if (hasPhilippineEconomicTransformationSignal(story, text)) {
+        score += 4;
+        reasons.push("ph_ai_economic_transformation");
     }
     if (countKeywordHits(text, STRATEGIC_KEYWORDS.finance_strategy) > 0 &&
         countKeywordHits(text, IMPACT_KEYWORDS.major_ai_company) > 0) {

@@ -51,7 +51,7 @@ async function fetchRssStories(source) {
             headers: {
                 "Accept": "application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8",
                 "Accept-Encoding": "gzip, deflate, br",
-                "User-Agent": "Mozilla/5.0 (compatible; BeatRadarScraper/1.0; +https://example.com/bot)"
+                "User-Agent": "curl/8.7.1"
             }
         });
         const feed = await parser.parseString(decodeFeed(data, headers["content-encoding"]));

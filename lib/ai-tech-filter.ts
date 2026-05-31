@@ -47,17 +47,34 @@ const PH_SOURCES = [
   "Philippine Star Tech",
   "Philippine Star Business AI/Tech",
   "Malaya Business AI/Tech",
-  "Department of Information and Communications Technology",
-  "National Economic and Development Authority",
-  "Department of Trade and Industry",
+  "Department of Information and Communications Technology AI Policy",
+  "Department of Trade and Industry AI Economy",
+  "NEDA Digital Economy",
+  "IBPAP IT-BPM AI Transition",
+  "Philippine Economic Zone Authority Digital Infrastructure",
+  "Board of Investments Digital Economy",
+  "Department of Labor and Employment Workforce Transition",
+  "TESDA Skills and Workforce Transition",
   "Bangko Sentral ng Pilipinas AI/Tech"
 ];
 
 const PH_OFFICIAL_SOURCES = [
-  "Department of Information and Communications Technology",
-  "National Economic and Development Authority",
-  "Department of Trade and Industry",
+  "Department of Information and Communications Technology AI Policy",
+  "Department of Trade and Industry AI Economy",
+  "NEDA Digital Economy",
+  "Philippine Economic Zone Authority Digital Infrastructure",
+  "Board of Investments Digital Economy",
+  "Department of Labor and Employment Workforce Transition",
+  "TESDA Skills and Workforce Transition",
   "Bangko Sentral ng Pilipinas AI/Tech"
+];
+
+const TRUSTED_SOFT_AI_SOURCES = [
+  ...PH_OFFICIAL_SOURCES,
+  "IBPAP IT-BPM AI Transition",
+  "ASEAN Digital Economy and AI Governance",
+  "ERIA Digital Economy",
+  "Asian Development Bank Digital Economy"
 ];
 
 const GLOBAL_PLATFORM_TERMS = [
@@ -94,6 +111,8 @@ const PH_TERMS = [
   "bangko sentral",
   "peza",
   "bpo",
+  "it-bpm",
+  "it bpm",
   "call center",
   "contact center",
   "peso",
@@ -186,6 +205,10 @@ const AXIS_TERMS: Record<AiTechSystemAxis, string[]> = {
     "back office"
   ],
   policy_regulation: [
+    "law",
+    "laws",
+    "legislation",
+    "bill",
     "policy",
     "regulation",
     "regulatory",
@@ -197,6 +220,12 @@ const AXIS_TERMS: Record<AiTechSystemAxis, string[]> = {
     "privacy",
     "data protection",
     "cybersecurity",
+    "cyber resilience",
+    "deepfake",
+    "deepfakes",
+    "disinformation",
+    "troll farm",
+    "troll farms",
     "compliance",
     "dict",
     "bsp",
@@ -257,6 +286,15 @@ const AXIS_TERMS: Record<AiTechSystemAxis, string[]> = {
     "reskilling",
     "upskilling",
     "training",
+    "skills",
+    "role migration",
+    "job displacement",
+    "job creation",
+    "shared services",
+    "global capability center",
+    "global capability centres",
+    "it-bpm",
+    "it bpm",
     "teachers",
     "students",
     "bpo",
@@ -313,6 +351,79 @@ const INCLUSION_RULES: Array<{
   }
 ];
 
+const SOFT_AI_POLICY_ECONOMY_TERMS = [
+  "digital economy",
+  "digital transformation",
+  "ai readiness",
+  "trusted technology",
+  "trusted technologies",
+  "responsible technology",
+  "responsible technologies",
+  "workforce transition",
+  "sovereign cloud",
+  "cyber resilience",
+  "digital resilience",
+  "digital infrastructure",
+  "interoperability",
+  "data governance",
+  "digital public infrastructure",
+  "digital government",
+  "egov",
+  "egovph",
+  "defa",
+  "digital economy framework agreement",
+  "adgmin",
+  "ammsti",
+  "it-bpm",
+  "it bpm",
+  "global capability center",
+  "global capability centres"
+];
+
+const SOFT_AI_MATERIALITY_TERMS = [
+  "roadmap",
+  "framework",
+  "implementation",
+  "implemented",
+  "implementing",
+  "investment",
+  "funding",
+  "budget",
+  "procurement",
+  "deployment",
+  "rollout",
+  "workforce",
+  "workers",
+  "jobs",
+  "msme",
+  "msmes",
+  "bpo",
+  "it-bpm",
+  "it bpm",
+  "contact center",
+  "call center",
+  "data center",
+  "datacenter",
+  "subsea cable",
+  "cloud region",
+  "sovereign cloud",
+  "skills",
+  "reskilling",
+  "upskilling",
+  "regulation",
+  "regulatory",
+  "rules",
+  "guidelines",
+  "adoption",
+  "targets",
+  "timeline",
+  "deadline",
+  "standards",
+  "compliance",
+  "operational",
+  "operations"
+];
+
 const MATERIALITY_TERMS = [
   "deploy",
   "deployed",
@@ -334,15 +445,36 @@ const MATERIALITY_TERMS = [
   "data center",
   "gpu",
   "compute",
-  "policy",
-  "regulation",
+      "policy",
+      "law",
+      "legislation",
+      "regulation",
   "guidelines",
   "roadmap",
+  "framework",
+  "implementation",
+  "investment",
+  "funding",
+  "budget",
+  "procurement",
   "compliance",
   "bsp",
   "dict",
   "bpo",
-  "call center"
+  "it-bpm",
+  "it bpm",
+  "call center",
+  "contact center",
+  "msme",
+  "msmes",
+  "skills",
+  "reskilling",
+  "upskilling",
+  "data governance",
+  "digital infrastructure",
+  "subsea cable",
+  "sovereign cloud",
+  "cyber resilience"
 ];
 
 const GLOBAL_DOWNSTREAM_TERMS = [
@@ -454,20 +586,98 @@ const EXCLUSION_RULES: Array<{
 
 const HIGH_VALUE_TERMS = [
   "dict",
+  "dti",
+  "neda",
+  "defa",
+  "adgmin",
+  "ammsti",
   "bsp",
   "regulation",
   "rules",
   "guidelines",
+  "framework",
+  "roadmap",
   "deployment",
   "rollout",
+  "implementation",
   "data center",
+  "subsea cable",
   "cloud region",
   "sovereign cloud",
   "gpu",
   "bpo",
+  "it-bpm",
+  "it bpm",
   "call center",
+  "contact center",
+  "workforce transition",
+  "reskilling",
+  "upskilling",
   "pricing",
   "api"
+];
+
+const LOW_SIGNAL_GOVERNMENT_TERMS = [
+  "ceremonial",
+  "ceremony",
+  "courtesy call",
+  "keynote",
+  "speech",
+  "message of support",
+  "awareness campaign",
+  "webinar",
+  "workshop",
+  "forum",
+  "roundtable",
+  "celebrates",
+  "celebrated",
+  "commends",
+  "vows",
+  "urges",
+  "calls for",
+  "highlights",
+  "underscores",
+  "promotes",
+  "lauds",
+  "joins"
+];
+
+const HARD_PUBLIC_SECTOR_MATERIALITY_TERMS = [
+  "funding",
+  "budget",
+  "procurement",
+  "deployment",
+  "deployed",
+  "rollout",
+  "implemented",
+  "implementation",
+  "investment",
+  "regulation",
+  "regulatory",
+  "law",
+  "legislation",
+  "rules",
+  "guidelines",
+  "framework",
+  "roadmap",
+  "standards",
+  "data center",
+  "datacenter",
+  "subsea cable",
+  "cloud region",
+  "sovereign cloud",
+  "skills",
+  "reskilling",
+  "upskilling",
+  "adoption",
+  "target",
+  "targets",
+  "deadline",
+  "timeline",
+  "pilot",
+  "pilots",
+  "launched",
+  "launches"
 ];
 
 const PLATFORM_VENDOR_TERMS = [
@@ -666,6 +876,52 @@ function storyText(story: NormalizedStory): string {
   return `${story.title} ${story.summary ?? ""}`;
 }
 
+function isTrustedSoftAiSource(source: string): boolean {
+  return TRUSTED_SOFT_AI_SOURCES.includes(source);
+}
+
+function trustedSoftAiTransitionMatch(story: NormalizedStory): AiTechRuleMatch | undefined {
+  if (!isTrustedSoftAiSource(story.source)) {
+    return undefined;
+  }
+
+  const text = storyText(story);
+  const softMatches = matchingTerms(text, SOFT_AI_POLICY_ECONOMY_TERMS);
+  const materialityMatches = matchingTerms(text, SOFT_AI_MATERIALITY_TERMS);
+
+  if (softMatches.length === 0 || materialityMatches.length === 0) {
+    return undefined;
+  }
+
+  return {
+    id: "trusted_source_policy_economic_transition",
+    axis: hasAny(text, ["workforce", "jobs", "skills", "reskilling", "upskilling", "bpo", "it-bpm", "it bpm", "contact center", "call center"])
+      ? "labor_workflow_impact"
+      : hasAny(text, ["data center", "datacenter", "subsea cable", "cloud region", "sovereign cloud", "digital infrastructure"])
+        ? "infrastructure_compute"
+        : "policy_regulation",
+    keywordMatches: [...new Set([...softMatches, ...materialityMatches])]
+  };
+}
+
+function hasTrustedSoftAiTransitionSignal(story: NormalizedStory): boolean {
+  return trustedSoftAiTransitionMatch(story) !== undefined;
+}
+
+function isLowMaterialityPublicSectorNoise(story: NormalizedStory): boolean {
+  if (!isTrustedSoftAiSource(story.source)) {
+    return false;
+  }
+
+  const text = storyText(story);
+
+  return (
+    hasAny(text, LOW_SIGNAL_GOVERNMENT_TERMS) &&
+    !hasAny(text, HARD_PUBLIC_SECTOR_MATERIALITY_TERMS) &&
+    !/\b\d+(?:\.\d+)?\s?(?:%|percent|m|b|million|billion|php|p|us\$|\$)\b/i.test(text)
+  );
+}
+
 function detectGeography(story: NormalizedStory): AiTechGeography {
   const text = storyText(story);
 
@@ -714,14 +970,21 @@ function hasGlobalMaterialDownstream(story: NormalizedStory): boolean {
 
 function ruleMatches(story: NormalizedStory): AiTechRuleMatch[] {
   const text = storyText(story);
+  const softAiTransitionMatch = trustedSoftAiTransitionMatch(story);
 
-  return INCLUSION_RULES
+  const matches: AiTechRuleMatch[] = INCLUSION_RULES
     .map((rule) => ({
       id: rule.id,
       axis: rule.axis,
       keywordMatches: matchingTerms(text, rule.keywords)
     }))
     .filter((match) => match.keywordMatches.length > 0);
+
+  if (softAiTransitionMatch) {
+    matches.push(softAiTransitionMatch);
+  }
+
+  return matches;
 }
 
 function exclusionMatches(story: NormalizedStory): AiTechRuleMatch[] {
@@ -793,7 +1056,7 @@ function hasConcreteCoreMovement(
   if (
     geography !== "global" &&
     primaryAxis === "policy_regulation" &&
-    hasAny(text, ["policy", "regulation", "regulatory", "rules", "guidelines", "roadmap", "dict", "bsp", "dti", "neda"])
+    hasAny(text, ["policy", "law", "legislation", "bill", "regulation", "regulatory", "rules", "guidelines", "roadmap", "dict", "bsp", "dti", "neda"])
   ) {
     return true;
   }
@@ -904,7 +1167,7 @@ function hasHardDeploymentMovement(
   if (
     geography !== "global" &&
     primaryAxis === "policy_regulation" &&
-    hasAny(text, ["policy", "regulation", "regulatory", "rules", "guidelines", "roadmap", "dict", "bsp", "dti", "neda"])
+    hasAny(text, ["policy", "law", "legislation", "bill", "regulation", "regulatory", "rules", "guidelines", "roadmap", "dict", "bsp", "dti", "neda"])
   ) {
     return true;
   }
@@ -1077,7 +1340,8 @@ export function classifyAiTechStory(story: NormalizedStory): AiTechClassificatio
     materiality
   );
   const failsInterpretationQuality = looksLikeLowQualityInterpretation(story);
-  const hasAiSignal = hasAny(text, AI_ANCHOR_TERMS);
+  const hasAiSignal = hasAny(text, AI_ANCHOR_TERMS) || hasTrustedSoftAiTransitionSignal(story);
+  const lowMaterialityPublicSectorNoise = isLowMaterialityPublicSectorNoise(story);
   const passesGlobalGate =
     geography !== "global" ||
     hasGlobalMaterialDownstream(story) ||
@@ -1085,6 +1349,7 @@ export function classifyAiTechStory(story: NormalizedStory): AiTechClassificatio
   const passesInclusion = hasAiSignal && inclusionMatches.length > 0 && downstream && passesGlobalGate;
   const hardExcluded =
     !hasAiSignal ||
+    lowMaterialityPublicSectorNoise ||
     !downstream ||
     !passesGlobalGate ||
     isFeatureOnlyGlobalDrop(story, geography, materiality) ||
@@ -1104,7 +1369,7 @@ export function classifyAiTechStory(story: NormalizedStory): AiTechClassificatio
     ) ||
     (
       exclusionRuleMatches.some((match) => match.id === "funding_without_deployment") &&
-      !hasAny(text, ["deploy", "deployment", "rollout", "customer", "enterprise"])
+      !hasAny(text, ["deploy", "deployment", "rollout", "customer", "enterprise", "implementation", "roadmap", "framework", "data center", "subsea cable", "skills", "workforce"])
     ) ||
     (
       exclusionRuleMatches.some((match) => match.id === "speculative_opinion_without_deployment") &&

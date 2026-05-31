@@ -2,6 +2,17 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.sourceWeightByName = void 0;
 exports.sourceWeightByName = {
+    "Department of Information and Communications Technology AI Policy": 0.1,
+    "Department of Trade and Industry AI Economy": 0.09,
+    "NEDA Digital Economy": 0.08,
+    "IBPAP IT-BPM AI Transition": 0.09,
+    "Philippine Economic Zone Authority Digital Infrastructure": 0.07,
+    "Board of Investments Digital Economy": 0.07,
+    "Department of Labor and Employment Workforce Transition": 0.06,
+    "TESDA Skills and Workforce Transition": 0.06,
+    "ASEAN Digital Economy and AI Governance": 0.08,
+    "ERIA Digital Economy": 0.06,
+    "Asian Development Bank Digital Economy": 0.06,
     TechCrunch: 0.05,
     Wired: 0.05,
     "The Verge": 0.05,
