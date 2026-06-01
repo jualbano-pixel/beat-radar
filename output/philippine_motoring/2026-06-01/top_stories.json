@@ -1,0 +1,119 @@
+{
+  "top_stories": [
+    {
+      "title": "Japan backs PH bid to strengthen fuel reserve system",
+      "source": "Inquirer Business",
+      "date": "2026-05-30T02:00:00.000Z",
+      "summary": "MANILA, Philippines – Japan has committed to backing the Philippines’ target to beef up its fuel reserve capacity, as the Middle East war has exposed the latter’s vulnerability. Currently, the Philippines has begun working on a strategic petroleum reserve program, which would include the construction of new stockpil...",
+      "tags": [
+        "ownership_cost",
+        "product_market_signal"
+      ],
+      "priority_score": 4.3,
+      "priority_reasons": [
+        "policy_shift",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "New Yamaha Mio Gear S launched with P81.9k SRP",
+      "source": "TopGear Philippines",
+      "date": "2026-05-31T21:30:00.000Z",
+      "summary": "Yamaha updates its local Mio lineup",
+      "tags": [
+        "pricing_pressure",
+        "product_market_signal"
+      ],
+      "priority_score": 4.1,
+      "priority_reasons": [
+        "policy_shift"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "The plug-in hybrid BYD Dolphin exists, and it’s headed for Europe",
+      "source": "TopGear Philippines",
+      "date": "2026-05-28T01:22:00.000Z",
+      "summary": "Would you want to see this in the Philippines?",
+      "tags": [
+        "ev_transition_gap",
+        "product_market_signal"
+      ],
+      "priority_score": 3.9,
+      "priority_reasons": [
+        "policy_shift"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "Chinese auto firm explores partnerships for local EV brand",
+      "source": "Philstar Business",
+      "date": "2026-05-30T16:00:00.000Z",
+      "summary": "Chinese automotive design and engineering firm Shanghai Launch Automotive Technology Co. Ltd. is looking to partner with local firms to help develop a Philippine electric vehicle brand.",
+      "tags": [
+        "ev_transition_gap",
+        "product_market_signal"
+      ],
+      "priority_score": 0.8,
+      "priority_reasons": [
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Fuel prices seen to drop by up to P10 per liter next week",
+      "source": "Inquirer Business",
+      "date": "2026-05-30T09:31:02.000Z",
+      "summary": "MANILA, Philippines — Fuel prices are expected to decline by as much as P10 per liter next week after a series of increases in recent weeks, partly driven by optimism over possible progress in peace negotiations between the United States and Iran. Citing price movements during the first four trading days of the week...",
+      "tags": [
+        "pricing_pressure",
+        "ownership_cost",
+        "product_market_signal"
+      ],
+      "priority_score": 0.8,
+      "priority_reasons": [
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "First impressions: The VinFast VF MPV7 is a promising entry in the MPV segment",
+      "source": "TopGear Philippines",
+      "date": "2026-05-29T01:40:00.000Z",
+      "summary": "This could be the first electrified MPV for many families",
+      "tags": [
+        "consumer_demand_shift"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Official: The Subaru Crosstrek e-Boxer Hybrid will debut at PIMS 2026",
+      "source": "TopGear Philippines",
+      "date": "2026-05-29T00:29:00.000Z",
+      "summary": "Another hybrid option from Subaru",
+      "tags": [
+        "ev_transition_gap"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Specs, prices, features: Everything you need to know about the new BYD Sealion 7",
+      "source": "TopGear Philippines",
+      "date": "2026-05-28T16:00:00.000Z",
+      "summary": "BYD’s all-new performance EV has arrived",
+      "tags": [
+        "pricing_pressure",
+        "ev_transition_gap"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    }
+  ],
+  "secondary_signals": []
+}

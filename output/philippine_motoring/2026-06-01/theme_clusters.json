@@ -1,0 +1,101 @@
+[
+  {
+    "theme_id": "ev_transition_gap",
+    "theme_label": "EV transition gap",
+    "theme_summary": "EV transition gap is the shared editorial thread across 3 related stories. The strongest signal is EV transition gap visible.",
+    "story_count": 3,
+    "cluster_ids": [],
+    "story_ids": [
+      "52d31e697980",
+      "0c20c013d39e",
+      "eb3e11d9d049"
+    ],
+    "associated_stories": [
+      {
+        "id": "52d31e697980",
+        "title": "Chinese auto firm explores partnerships for local EV brand",
+        "url": "https://www.philstar.com/business/2026/05/31/2531660/chinese-auto-firm-explores-partnerships-local-ev-brand",
+        "source": "Philstar Business",
+        "published_at": "2026-05-30T16:00:00.000Z"
+      },
+      {
+        "id": "eb3e11d9d049",
+        "title": "The plug-in hybrid BYD Dolphin exists, and it’s headed for Europe",
+        "url": "https://www.topgear.com.ph/news/car-news/byd-dolphin-phev-2026-eu-release-a6888-20260528",
+        "source": "TopGear Philippines",
+        "published_at": "2026-05-28T01:22:00.000Z"
+      },
+      {
+        "id": "0c20c013d39e",
+        "title": "Official: The Subaru Crosstrek e-Boxer Hybrid will debut at PIMS 2026",
+        "url": "https://www.topgear.com.ph/news/car-news/subaru-crosstrek-hybrid-2026-pims-debut-a6888-20260529",
+        "source": "TopGear Philippines",
+        "published_at": "2026-05-29T00:29:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "product_signal",
+      "watchlist_signal",
+      "local_business_relevance"
+    ],
+    "dominant_angle_signals": [
+      "EV transition gap visible",
+      "product launch reveals market bet"
+    ],
+    "top_story_refs": [
+      "52d31e697980",
+      "eb3e11d9d049",
+      "0c20c013d39e"
+    ]
+  },
+  {
+    "theme_id": "pricing_pressure",
+    "theme_label": "pricing pressure",
+    "theme_summary": "pricing pressure is the shared editorial thread across 3 related stories. The strongest signal is pricing pressure building.",
+    "story_count": 3,
+    "cluster_ids": [],
+    "story_ids": [
+      "3f2bd11c7da5",
+      "c9f262e84338",
+      "8fc1a9703c79"
+    ],
+    "associated_stories": [
+      {
+        "id": "3f2bd11c7da5",
+        "title": "Fuel prices seen to drop by up to P10 per liter next week",
+        "url": "https://business.inquirer.net/592918/fuel-prices-seen-to-drop-by-up-to-p10-per-liter-next-week",
+        "source": "Inquirer Business",
+        "published_at": "2026-05-30T09:31:02.000Z"
+      },
+      {
+        "id": "c9f262e84338",
+        "title": "New Yamaha Mio Gear S launched with P81.9k SRP",
+        "url": "https://www.topgear.com.ph/moto-sapiens/motorcycle-news/yamaha-mio-gear-s-2026-ph-launch-a5361-20260601",
+        "source": "TopGear Philippines",
+        "published_at": "2026-05-31T21:30:00.000Z"
+      },
+      {
+        "id": "8fc1a9703c79",
+        "title": "Specs, prices, features: Everything you need to know about the new BYD Sealion 7",
+        "url": "https://www.topgear.com.ph/features/feature-articles/byd-sealion-7-2026-specs-features-prices-a6888-20260529",
+        "source": "TopGear Philippines",
+        "published_at": "2026-05-28T16:00:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "local_business_relevance",
+      "product_signal",
+      "market_signal"
+    ],
+    "dominant_angle_signals": [
+      "pricing pressure building",
+      "product launch reveals market bet",
+      "ownership cost reality surfacing"
+    ],
+    "top_story_refs": [
+      "3f2bd11c7da5",
+      "c9f262e84338",
+      "8fc1a9703c79"
+    ]
+  }
+]
