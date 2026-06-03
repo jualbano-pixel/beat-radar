@@ -4,7 +4,7 @@ import type { AiTechTimeMode, NormalizedStory } from "./types.js";
 const TAG_GROUPS_BY_BEAT: Record<string, Array<{ tag: string; keywords: string[] }>> = {
   ai_tech: [
   {
-    tag: "ai_models",
+    tag: "ai_automation",
     keywords: [
       "gpt",
       "llm",
@@ -14,25 +14,28 @@ const TAG_GROUPS_BY_BEAT: Record<string, Array<{ tag: string; keywords: string[]
       "reasoning",
       "codex",
       "sora",
-      "operator"
+      "operator",
+      "automation",
+      "workflow automation",
+      "agentic"
     ]
   },
   {
-    tag: "ai_research",
+    tag: "cybersecurity",
     keywords: [
-      "benchmark",
-      "eval",
-      "evaluation",
-      "alignment",
-      "safety",
-      "system card",
-      "theorem proving",
-      "reinforcement learning",
-      "embeddings"
+      "cybersecurity",
+      "cyberattack",
+      "data breach",
+      "ransomware",
+      "security incident",
+      "vulnerability",
+      "data privacy",
+      "npc",
+      "cyber resilience"
     ]
   },
   {
-    tag: "ai_infrastructure",
+    tag: "tech_infrastructure",
     keywords: [
       "gpu",
       "chip",
@@ -42,11 +45,18 @@ const TAG_GROUPS_BY_BEAT: Record<string, Array<{ tag: string; keywords: string[]
       "training",
       "data center",
       "semiconductor",
-      "api"
+      "api",
+      "cloud region",
+      "subsea cable",
+      "submarine cable",
+      "broadband",
+      "5g",
+      "fiber",
+      "network expansion"
     ]
   },
   {
-    tag: "applied_ai",
+    tag: "enterprise_tech",
     keywords: [
       "workflow",
       "automation",
@@ -55,9 +65,30 @@ const TAG_GROUPS_BY_BEAT: Record<string, Array<{ tag: string; keywords: string[]
       "customer service",
       "business",
       "enterprise",
+      "erp",
+      "crm",
+      "cloud migration",
+      "digital transformation",
+      "saas",
       "developer",
       "developers"
     ]
+  },
+  {
+    tag: "telecom_connectivity",
+    keywords: ["pldt", "globe", "dito", "converge", "telco", "telecom", "5g", "broadband", "fiber", "submarine cable", "subsea cable", "network expansion"]
+  },
+  {
+    tag: "digital_policy",
+    keywords: ["dict", "npc", "policy", "regulation", "regulatory", "law", "legislation", "data privacy", "ai governance", "digital economy"]
+  },
+  {
+    tag: "startups_vc",
+    keywords: ["startup", "startups", "venture capital", "funding", "funding round", "series a", "series b", "acquisition", "ecosystem"]
+  },
+  {
+    tag: "consumer_tech_shift",
+    keywords: ["smartphone", "smartphones", "laptop", "laptops", "wearable", "consumer electronics", "market share", "shipments", "consumer behavior", "mobile payments"]
   }
   ],
   philippine_motoring: [

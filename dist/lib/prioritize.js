@@ -35,7 +35,17 @@ const IMPACT_KEYWORDS = {
         "training",
         "data center",
         "datacenter",
-        "semiconductor"
+        "semiconductor",
+        "data center",
+        "datacenter",
+        "cloud region",
+        "availability zone",
+        "5g",
+        "broadband",
+        "fiber",
+        "submarine cable",
+        "subsea cable",
+        "network expansion"
     ],
     policy: [
         "policy",
@@ -51,7 +61,12 @@ const IMPACT_KEYWORDS = {
         "governance",
         "deepfake",
         "deepfakes",
-        "disinformation"
+        "disinformation",
+        "dict",
+        "npc",
+        "data privacy",
+        "cybersecurity",
+        "digital economy"
     ],
     partnership: [
         "partnership",
@@ -86,6 +101,64 @@ const STRATEGIC_KEYWORDS = {
         "workflow",
         "operations",
         "productivity"
+    ],
+    systemic_importance: [
+        "deployment",
+        "rollout",
+        "implemented",
+        "implementation",
+        "enterprise",
+        "business operations",
+        "government",
+        "public services",
+        "infrastructure",
+        "data center",
+        "cloud region",
+        "5g",
+        "broadband",
+        "submarine cable",
+        "cybersecurity",
+        "data breach",
+        "ransomware",
+        "regulation",
+        "policy",
+        "investment",
+        "funding",
+        "market share",
+        "shipments",
+        "consumer behavior",
+        "adoption"
+    ],
+    cybersecurity: [
+        "cybersecurity",
+        "cyberattack",
+        "data breach",
+        "ransomware",
+        "security incident",
+        "vulnerability",
+        "cyber resilience",
+        "data privacy"
+    ],
+    telecom_connectivity: [
+        "pldt",
+        "globe",
+        "dito",
+        "converge",
+        "5g",
+        "broadband",
+        "fiber",
+        "submarine cable",
+        "subsea cable",
+        "network expansion",
+        "connectivity"
+    ],
+    consumer_market_shift: [
+        "market share",
+        "shipments",
+        "consumer behavior",
+        "adoption trend",
+        "ecosystem change",
+        "industry direction"
     ],
     ph_economic_transformation: [
         "bpo",
@@ -226,7 +299,44 @@ const MINOR_ITEM_KEYWORDS = [
     "experiment",
     "demo",
     "minor update",
-    "small update"
+    "small update",
+    "benchmark",
+    "award",
+    "recognized",
+    "magic quadrant",
+    "gadget launch",
+    "now available"
+];
+const ROUTINE_PRODUCT_TERMS = [
+    "launch",
+    "launches",
+    "launched",
+    "unveils",
+    "introduces",
+    "released",
+    "new feature",
+    "new model",
+    "now available"
+];
+const BROADER_IMPACT_TERMS = [
+    "deployment",
+    "rollout",
+    "implemented",
+    "enterprise",
+    "customers",
+    "government",
+    "regulation",
+    "policy",
+    "data breach",
+    "ransomware",
+    "infrastructure",
+    "data center",
+    "5g",
+    "broadband",
+    "market share",
+    "shipments",
+    "consumer behavior",
+    "adoption"
 ];
 function normalizeTitle(title) {
     return title
@@ -302,10 +412,22 @@ function getRecencyBoost(publishedAt, latestDate) {
 function buildWhyItMatters(reasons) {
     const reasonSet = new Set(reasons);
     if (reasonSet.has("broad_ecosystem_impact")) {
-        return "This belongs in the top group because its effects reach across multiple parts of the ecosystem, such as enterprises, developers, platforms, users, or regulators. It has practical consequences beyond a narrow technical audience.";
+        return "This belongs in the top group because its effects reach across multiple parts of the technology ecosystem, such as businesses, governments, infrastructure operators, consumers, or regulators.";
+    }
+    if (reasonSet.has("systemic_importance")) {
+        return "This matters because it changes how technology is used, secured, regulated, funded, or delivered beyond a single vendor announcement.";
+    }
+    if (reasonSet.has("cybersecurity_or_resilience_signal")) {
+        return "This matters because cybersecurity pressure can quickly change operating risk, compliance expectations, and public trust.";
+    }
+    if (reasonSet.has("connectivity_expansion_signal")) {
+        return "This matters because connectivity buildout changes who can access digital services and where businesses can operate.";
+    }
+    if (reasonSet.has("consumer_behavior_or_market_shift")) {
+        return "This matters because it points to a change in consumer adoption, market share, or ecosystem direction rather than a routine device launch.";
     }
     if (reasonSet.has("multi_group_impact")) {
-        return "This matters because it changes how more than one important group can build, buy, deploy, or govern AI. The impact is broader than a single product or research update.";
+        return "This matters because it changes how more than one important group can build, buy, deploy, secure, or govern technology.";
     }
     if (reasonSet.has("infrastructure_move")) {
         return "This matters because infrastructure changes shape what the ecosystem can build next. It affects cost, capability, or speed at platform scale.";
@@ -326,7 +448,7 @@ function buildWhyItMatters(reasons) {
         return "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle.";
     }
     if (reasonSet.has("enterprise_scale_signal")) {
-        return "This is a strong editorial signal because it shows how AI is moving into real-world deployment at scale. It points to traction beyond experimentation.";
+        return "This is a strong editorial signal because it shows technology moving into real-world deployment at scale. It points to traction beyond experimentation.";
     }
     if (reasonSet.has("broader_trend")) {
         return "This surfaced because it looks like part of a larger theme rather than a one-off. Multiple related signals suggest it has wider editorial significance.";
@@ -360,7 +482,19 @@ function buildSecondaryNote(reasons) {
         return "Useful supporting signal on banking-system behavior.";
     }
     if (reasons.includes("broad_ecosystem_impact")) {
-        return "Useful because it has broad practical impact across the AI ecosystem.";
+        return "Useful because it has broad practical impact across the technology ecosystem.";
+    }
+    if (reasons.includes("systemic_importance")) {
+        return "Useful because it points to material technology impact beyond a single announcement.";
+    }
+    if (reasons.includes("cybersecurity_or_resilience_signal")) {
+        return "Worth tracking for operating risk, compliance, or resilience implications.";
+    }
+    if (reasons.includes("connectivity_expansion_signal")) {
+        return "Worth tracking for access, coverage, or digital-service reach.";
+    }
+    if (reasons.includes("consumer_behavior_or_market_shift")) {
+        return "Useful because it suggests consumer behavior or market structure is moving.";
     }
     if (reasons.includes("multi_group_impact")) {
         return "Useful because it affects more than one important audience or buyer group.";
@@ -466,16 +600,37 @@ function scoreStory(story, topicCoverage, latestDate) {
     let score = 0;
     if (countKeywordHits(text, IMPACT_KEYWORDS.major_ai_company) > 0 &&
         countKeywordHits(text, IMPACT_KEYWORDS.model_or_platform) > 0) {
-        score += 4;
+        score += 1.5;
         reasons.push("model_or_platform_change");
     }
     if (countKeywordHits(text, IMPACT_KEYWORDS.infrastructure) > 0) {
-        score += 3.5;
+        score += 4;
         reasons.push("infrastructure_move");
     }
     if (countKeywordHits(text, IMPACT_KEYWORDS.policy) > 0) {
-        score += 3.5;
+        score += 4;
         reasons.push("policy_shift");
+    }
+    const systemicHits = countKeywordHits(text, STRATEGIC_KEYWORDS.systemic_importance);
+    if (systemicHits >= 3) {
+        score += 4.5;
+        reasons.push("systemic_importance");
+    }
+    else if (systemicHits >= 1) {
+        score += 2;
+        reasons.push("material_technology_effect");
+    }
+    if (countKeywordHits(text, STRATEGIC_KEYWORDS.cybersecurity) > 0) {
+        score += 4;
+        reasons.push("cybersecurity_or_resilience_signal");
+    }
+    if (countKeywordHits(text, STRATEGIC_KEYWORDS.telecom_connectivity) > 0) {
+        score += 3.5;
+        reasons.push("connectivity_expansion_signal");
+    }
+    if (countKeywordHits(text, STRATEGIC_KEYWORDS.consumer_market_shift) > 0) {
+        score += 3;
+        reasons.push("consumer_behavior_or_market_shift");
     }
     if (countKeywordHits(text, IMPACT_KEYWORDS.partnership) > 0 &&
         countKeywordHits(text, IMPACT_KEYWORDS.major_ai_company) > 0) {
@@ -487,7 +642,7 @@ function scoreStory(story, topicCoverage, latestDate) {
         reasons.push("safety_or_governance");
     }
     if (countKeywordHits(text, STRATEGIC_KEYWORDS.enterprise_rollout) > 0) {
-        score += 2;
+        score += 3;
         reasons.push("enterprise_scale_signal");
     }
     if (hasPhilippineEconomicTransformationSignal(story, text)) {
@@ -518,7 +673,11 @@ function scoreStory(story, topicCoverage, latestDate) {
         reasons.push("practical_usability_impact");
     }
     if (topicCoverage > 1) {
-        score += Math.min(2, (topicCoverage - 1) * 0.75);
+        const isVendorPlatformHeavy = countKeywordHits(text, IMPACT_KEYWORDS.major_ai_company) > 0 &&
+            countKeywordHits(text, BROADER_IMPACT_TERMS) === 0;
+        score += isVendorPlatformHeavy
+            ? Math.min(0.75, (topicCoverage - 1) * 0.25)
+            : Math.min(1.5, (topicCoverage - 1) * 0.5);
         reasons.push("broader_trend");
     }
     score += getRecencyBoost(story.publishedAt, latestDate);
@@ -529,6 +688,11 @@ function scoreStory(story, topicCoverage, latestDate) {
     if (countKeywordHits(text, MINOR_ITEM_KEYWORDS) > 0) {
         score -= 1;
         reasons.push("minor_or_routine");
+    }
+    if (countKeywordHits(text, ROUTINE_PRODUCT_TERMS) > 0 &&
+        countKeywordHits(text, BROADER_IMPACT_TERMS) === 0) {
+        score -= 3;
+        reasons.push("routine_launch_without_broader_impact");
     }
     if (reasons.includes("foundational_research") &&
         !reasons.includes("broad_ecosystem_impact") &&

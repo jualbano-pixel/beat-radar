@@ -1,5 +1,6 @@
 import { relevanceConfigByBeat } from "../config/relevance.js";
 import {
+  classifyAiTechStory,
   evaluateAiTechRelevance,
   summarizeAiTechClassification
 } from "./ai-tech-filter.js";
@@ -411,6 +412,16 @@ function getKeepSignalCategories(story: NormalizedStory): string[] {
     return classification.inclusionMatches.map((match) => `property_${match.id}`);
   }
 
+  if (isAiTechBeat(story)) {
+    const classification = classifyAiTechStory(story);
+
+    if (!classification.passesInclusion || classification.hardExcluded) {
+      return categories;
+    }
+
+    return classification.inclusionMatches.map((match) => `technology_${match.id}`);
+  }
+
   const isModelRelease =
     matchesKeepSignalCategory(combinedText, keepSignals.model_release) &&
     (matchesAny(combinedText, config.core_ai_keywords) ||
@@ -592,6 +603,12 @@ function hasDirectBeatSignal(story: NormalizedStory): boolean {
   if (!isMotoringBeat(story)) {
     if (isPropertyBeat(story)) {
       const classification = classifyPropertyStory(story);
+
+      return classification.passesInclusion && !classification.hardExcluded;
+    }
+
+    if (isAiTechBeat(story)) {
+      const classification = classifyAiTechStory(story);
 
       return classification.passesInclusion && !classification.hardExcluded;
     }

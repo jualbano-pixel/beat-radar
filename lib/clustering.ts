@@ -235,47 +235,61 @@ type ThemeRule = {
 
 const AI_TECH_THEME_RULES: ThemeRule[] = [
   {
-    id: "models_platforms",
-    label: "models and platform releases",
-    keywords: ["gpt", "model", "api", "launch", "introduce", "release", "platform"],
-    tags: ["ai_models"]
+    id: "ai_automation",
+    label: "AI and automation adoption",
+    keywords: ["ai", "automation", "agent", "agents", "workflow", "productivity", "bpo", "customer service"],
+    tags: ["ai_automation"]
   },
   {
-    id: "infrastructure_execution_gap",
-    label: "infrastructure execution gap",
-    keywords: ["compute", "gpu", "capacity", "inference", "cloud", "data center"],
-    tags: ["ai_infrastructure"],
+    id: "enterprise_technology",
+    label: "enterprise technology adoption",
+    keywords: ["enterprise", "erp", "crm", "cloud migration", "digital transformation", "deployment", "workflow", "saas"],
+    tags: ["enterprise_tech"],
+    angleSignals: ["enterprise adoption pressure rising"]
+  },
+  {
+    id: "telecom_connectivity",
+    label: "connectivity buildout",
+    keywords: ["pldt", "globe", "dito", "converge", "5g", "broadband", "fiber", "submarine cable", "subsea cable", "network expansion"],
+    tags: ["telecom_connectivity"],
+    angleSignals: ["connectivity buildout changing access"]
+  },
+  {
+    id: "cybersecurity_resilience",
+    label: "cybersecurity and resilience",
+    keywords: ["cybersecurity", "data breach", "ransomware", "cyberattack", "security incident", "vulnerability", "data privacy"],
+    tags: ["cybersecurity"],
+    reasonCodes: ["execution_consequence", "policy_regulatory_move"],
+    angleSignals: ["cyber risk affecting operations"]
+  },
+  {
+    id: "data_centers_infrastructure",
+    label: "data centers and digital infrastructure",
+    keywords: ["compute", "gpu", "capacity", "cloud", "cloud region", "data center", "datacenter", "availability zone", "power requirements"],
+    tags: ["tech_infrastructure"],
     angleSignals: ["infrastructure lag visible", "execution gap showing"]
   },
   {
-    id: "capital_caution",
-    label: "capital caution",
-    keywords: ["investment", "funding", "valuation", "demand", "pricing"],
+    id: "technology_investment",
+    label: "technology investment and startups",
+    keywords: ["investment", "funding", "valuation", "venture capital", "startup", "startups", "acquisition", "ecosystem"],
+    tags: ["startups_vc"],
     reasonCodes: ["market_signal"]
   },
   {
-    id: "policy_governance",
-    label: "policy and governance pressure",
-    keywords: ["policy", "regulation", "court", "compliance", "governance"],
+    id: "digital_policy_regulation",
+    label: "digital policy and regulation",
+    keywords: ["policy", "regulation", "court", "compliance", "governance", "dict", "npc", "data privacy", "digital economy"],
+    tags: ["digital_policy"],
     reasonCodes: ["policy_regulatory_move"]
   },
   {
-    id: "supply_chain_strain",
-    label: "supply chain strain",
-    keywords: ["supply", "chip", "chips", "shortage", "capacity", "strain"],
-    angleSignals: ["supply risk rising"]
-  },
-  {
-    id: "enterprise_adoption",
-    label: "enterprise adoption",
-    keywords: ["enterprise", "workflow", "deployment", "customer", "business"],
-    tags: ["applied_ai"]
-  },
-  {
-    id: "industry_repositioning",
-    label: "industry repositioning",
-    keywords: ["partnership", "acquisition", "acquire", "agreement", "platform"],
-    reasonCodes: ["industry_repositioning", "meaningful_shift"]
+    id: "consumer_technology_shift",
+    label: "consumer technology shift",
+    keywords: ["smartphone", "laptop", "wearable", "consumer electronics", "market share", "shipments", "consumer behavior", "mobile payments"],
+    tags: ["consumer_tech_shift"],
+    reasonCodes: ["market_signal", "product_signal"],
+    angleSignals: ["consumer technology behavior shifting"]
   }
 ];
 

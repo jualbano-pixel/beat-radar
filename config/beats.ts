@@ -15,23 +15,27 @@ export type BeatConfig = {
 export const beatConfigs: Record<Beat, BeatConfig> = {
   ai_tech: {
     beat: "ai_tech",
-    displayName: "AI / Tech",
+    displayName: "Technology / Digital Economy",
     timeModeEnvVar: "AI_TECH_TIME_MODE",
     structure: {
       system_axes: [
-        "models_platforms",
-        "enterprise_adoption",
-        "policy_regulation",
-        "infrastructure_compute",
-        "distribution_integration",
-        "labor_workflow_impact"
+        "ai_automation",
+        "enterprise_technology",
+        "telecom_connectivity",
+        "cybersecurity",
+        "digital_policy_regulation",
+        "data_centers_infrastructure",
+        "startups_vc",
+        "consumer_technology"
       ],
       inclusion_requirement:
-        "Include only AI/Tech stories that change understanding of Philippine or Southeast Asian AI policy, enterprise adoption, workflow impact, infrastructure access, distribution, or platform capability used in real workflows.",
+        "Include only Technology / Digital Economy stories that change how people, businesses, or governments use technology through adoption, infrastructure, connectivity, cybersecurity, regulation, investment, or material consumer behavior.",
       geographic_lens:
-        "Boost Philippine signals strongly, boost Southeast Asian signals moderately, and allow global signals only when they affect real usage, pricing, access, or deployment.",
+        "Boost Philippine signals strongly, boost Southeast Asian signals moderately, and allow global signals only when they affect real usage, pricing, access, security, infrastructure, regulation, or deployment.",
       global_gate:
-        "Global AI stories must have downstream relevance; generic feature drops, hype, and platform news without practical impact are excluded."
+        "Global technology stories must have downstream relevance; generic product launches, hype, benchmark-only updates, and vendor news without practical impact are excluded.",
+      house_question:
+        "Does this change how people, businesses, or governments use technology?"
     }
   },
   philippine_motoring: {

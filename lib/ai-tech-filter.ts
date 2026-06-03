@@ -32,12 +32,14 @@ type AiTechClassification = {
 };
 
 const AXIS_PRIORITY: AiTechSystemAxis[] = [
-  "policy_regulation",
-  "enterprise_adoption",
-  "infrastructure_compute",
-  "labor_workflow_impact",
-  "distribution_integration",
-  "models_platforms"
+  "digital_policy_regulation",
+  "cybersecurity",
+  "telecom_connectivity",
+  "data_centers_infrastructure",
+  "enterprise_technology",
+  "ai_automation",
+  "startups_vc",
+  "consumer_technology"
 ];
 
 const PH_SOURCES = [
@@ -92,6 +94,21 @@ const GLOBAL_PLATFORM_TERMS = [
   "llama"
 ];
 
+const MAJOR_TECH_VENDOR_TERMS = [
+  ...GLOBAL_PLATFORM_TERMS,
+  "apple",
+  "amazon",
+  "aws",
+  "oracle",
+  "salesforce",
+  "sap",
+  "servicenow",
+  "cisco",
+  "dell",
+  "huawei",
+  "samsung"
+];
+
 const PH_TERMS = [
   "philippines",
   "philippine",
@@ -109,7 +126,16 @@ const PH_TERMS = [
   "neda",
   "bsp",
   "bangko sentral",
+  "npc",
+  "national privacy commission",
   "peza",
+  "pldt",
+  "globe",
+  "dito",
+  "converge",
+  "smart",
+  "gcash",
+  "maya",
   "bpo",
   "it-bpm",
   "it bpm",
@@ -168,23 +194,15 @@ const AI_ANCHOR_TERMS = [
 ];
 
 const AXIS_TERMS: Record<AiTechSystemAxis, string[]> = {
-  models_platforms: [
-    "model",
-    "models",
-    "gpt",
-    "chatgpt",
-    "claude",
-    "gemini",
-    "llama",
-    "reasoning model",
-    "multimodal",
-    "foundation model",
-    "platform",
-    "system card",
-    "benchmark",
-    "model release"
+  ai_automation: [
+    ...AI_ANCHOR_TERMS,
+    "workflow automation",
+    "robotic process automation",
+    "rpa",
+    "agentic",
+    "agents"
   ],
-  enterprise_adoption: [
+  enterprise_technology: [
     "deploy",
     "deployed",
     "deployment",
@@ -202,9 +220,20 @@ const AXIS_TERMS: Record<AiTechSystemAxis, string[]> = {
     "logistics",
     "customer service",
     "operations",
-    "back office"
+    "back office",
+    "cloud migration",
+    "erp",
+    "crm",
+    "sap",
+    "salesforce",
+    "oracle",
+    "servicenow",
+    "digital transformation",
+    "productivity tools",
+    "software as a service",
+    "saas"
   ],
-  policy_regulation: [
+  digital_policy_regulation: [
     "law",
     "laws",
     "legislation",
@@ -219,6 +248,9 @@ const AXIS_TERMS: Record<AiTechSystemAxis, string[]> = {
     "governance",
     "privacy",
     "data protection",
+    "data privacy",
+    "national privacy commission",
+    "npc",
     "cybersecurity",
     "cyber resilience",
     "deepfake",
@@ -233,7 +265,48 @@ const AXIS_TERMS: Record<AiTechSystemAxis, string[]> = {
     "neda",
     "government"
   ],
-  infrastructure_compute: [
+  telecom_connectivity: [
+    "pldt",
+    "globe",
+    "dito",
+    "converge",
+    "smart",
+    "telco",
+    "telecom",
+    "5g",
+    "broadband",
+    "fiber",
+    "fiber optic",
+    "network expansion",
+    "network rollout",
+    "subsea cable",
+    "submarine cable",
+    "tower",
+    "towers",
+    "connectivity",
+    "internet service",
+    "coverage"
+  ],
+  cybersecurity: [
+    "cybersecurity",
+    "cyberattack",
+    "cyber attack",
+    "data breach",
+    "breach",
+    "ransomware",
+    "malware",
+    "phishing",
+    "security incident",
+    "security regulation",
+    "enterprise security",
+    "national cyber policy",
+    "cyber resilience",
+    "zero trust",
+    "vulnerability",
+    "hacked",
+    "hackers"
+  ],
+  data_centers_infrastructure: [
     "data center",
     "datacenter",
     "cloud",
@@ -244,62 +317,55 @@ const AXIS_TERMS: Record<AiTechSystemAxis, string[]> = {
     "semiconductor",
     "compute",
     "computing capacity",
-    "telco",
-    "telecom",
-    "5g",
     "subsea cable",
+    "submarine cable",
     "fiber",
     "sovereign cloud",
     "region",
-    "availability zone"
+    "availability zone",
+    "power requirement",
+    "power requirements",
+    "energy demand",
+    "semiconductor supply chain"
   ],
-  distribution_integration: [
-    "api",
-    "apis",
-    "sdk",
-    "developer",
-    "developers",
-    "integration",
-    "integrated",
-    "copilot",
-    "workspace",
-    "office",
-    "teams",
-    "app",
-    "apps",
+  startups_vc: [
+    "startup",
+    "startups",
+    "venture capital",
+    "vc",
+    "funding",
+    "fundraise",
+    "funding round",
+    "seed round",
+    "series a",
+    "series b",
+    "acquisition",
+    "acquires",
+    "merger",
+    "ecosystem development",
+    "entrepreneurship",
+    "valuation"
+  ],
+  consumer_technology: [
+    "smartphone",
+    "smartphones",
+    "laptop",
+    "laptops",
+    "wearable",
+    "wearables",
+    "gaming hardware",
+    "consumer electronics",
+    "device",
+    "devices",
+    "gadget",
+    "gadgets",
+    "market share",
+    "shipments",
+    "adoption",
+    "consumer behavior",
     "ecosystem",
-    "plugin",
-    "platform access",
-    "pricing"
-  ],
-  labor_workflow_impact: [
-    "workers",
-    "workforce",
-    "jobs",
-    "labor",
-    "labour",
-    "workflow",
-    "workflows",
-    "productivity",
-    "automation",
-    "automate",
-    "reskilling",
-    "upskilling",
-    "training",
-    "skills",
-    "role migration",
-    "job displacement",
-    "job creation",
-    "shared services",
-    "global capability center",
-    "global capability centres",
-    "it-bpm",
-    "it bpm",
-    "teachers",
-    "students",
-    "bpo",
-    "call center",
-    "contact center"
+    "app store",
+    "mobile payments"
   ]
 };
 
@@ -309,44 +375,56 @@ const INCLUSION_RULES: Array<{
   keywords: string[];
 }> = [
   {
-    id: "affects_ph_sea_ai_policy_or_regulation",
-    axis: "policy_regulation",
-    keywords: AXIS_TERMS.policy_regulation
+    id: "affects_digital_policy_or_regulation",
+    axis: "digital_policy_regulation",
+    keywords: AXIS_TERMS.digital_policy_regulation
   },
   {
-    id: "shows_real_enterprise_adoption_or_deployment",
-    axis: "enterprise_adoption",
-    keywords: AXIS_TERMS.enterprise_adoption
+    id: "shows_enterprise_technology_adoption_or_deployment",
+    axis: "enterprise_technology",
+    keywords: AXIS_TERMS.enterprise_technology
   },
   {
-    id: "impacts_local_workforce_or_business_workflows",
-    axis: "labor_workflow_impact",
-    keywords: AXIS_TERMS.labor_workflow_impact
+    id: "changes_ai_automation_or_workflows",
+    axis: "ai_automation",
+    keywords: AXIS_TERMS.ai_automation
   },
   {
-    id: "changes_infrastructure_access_compute_cloud_telco",
-    axis: "infrastructure_compute",
-    keywords: AXIS_TERMS.infrastructure_compute
+    id: "changes_data_center_cloud_or_compute_capacity",
+    axis: "data_centers_infrastructure",
+    keywords: AXIS_TERMS.data_centers_infrastructure
+  },
+  {
+    id: "expands_telecom_or_connectivity_access",
+    axis: "telecom_connectivity",
+    keywords: AXIS_TERMS.telecom_connectivity
+  },
+  {
+    id: "shows_cybersecurity_incident_or_resilience_shift",
+    axis: "cybersecurity",
+    keywords: AXIS_TERMS.cybersecurity
   },
   {
     id: "reflects_regional_competition_asean_positioning",
-    axis: "policy_regulation",
+    axis: "digital_policy_regulation",
     keywords: ["asean", "southeast asia", "regional", "competition", "investment", "roadmap"]
   },
   {
-    id: "shifts_platform_capability_used_in_real_workflows",
-    axis: "distribution_integration",
+    id: "signals_startup_vc_or_technology_investment",
+    axis: "startups_vc",
+    keywords: AXIS_TERMS.startups_vc
+  },
+  {
+    id: "changes_consumer_technology_behavior_or_market_structure",
+    axis: "consumer_technology",
     keywords: [
-      "api",
-      "integration",
-      "developer",
-      "copilot",
-      "workspace",
-      "teams",
-      "pricing",
-      "available",
-      "enterprise",
-      "workflow"
+      ...AXIS_TERMS.consumer_technology,
+      "market shift",
+      "market share",
+      "consumer adoption",
+      "shipments",
+      "ecosystem change",
+      "industry direction"
     ]
   }
 ];
@@ -370,6 +448,16 @@ const SOFT_AI_POLICY_ECONOMY_TERMS = [
   "digital government",
   "egov",
   "egovph",
+  "cloud",
+  "erp",
+  "crm",
+  "broadband",
+  "5g",
+  "telecom",
+  "connectivity",
+  "cybersecurity",
+  "data privacy",
+  "data center",
   "defa",
   "digital economy framework agreement",
   "adgmin",
@@ -405,8 +493,22 @@ const SOFT_AI_MATERIALITY_TERMS = [
   "data center",
   "datacenter",
   "subsea cable",
+  "submarine cable",
   "cloud region",
   "sovereign cloud",
+  "5g",
+  "broadband",
+  "fiber",
+  "network expansion",
+  "cybersecurity",
+  "data breach",
+  "ransomware",
+  "data privacy",
+  "npc",
+  "national privacy commission",
+  "erp",
+  "crm",
+  "cloud migration",
   "skills",
   "reskilling",
   "upskilling",
@@ -421,7 +523,10 @@ const SOFT_AI_MATERIALITY_TERMS = [
   "standards",
   "compliance",
   "operational",
-  "operations"
+  "operations",
+  "market share",
+  "shipments",
+  "consumer behavior"
 ];
 
 const MATERIALITY_TERMS = [
@@ -445,10 +550,22 @@ const MATERIALITY_TERMS = [
   "data center",
   "gpu",
   "compute",
-      "policy",
-      "law",
-      "legislation",
-      "regulation",
+  "datacenter",
+  "cloud region",
+  "5g",
+  "broadband",
+  "fiber",
+  "submarine cable",
+  "subsea cable",
+  "network expansion",
+  "cybersecurity",
+  "data breach",
+  "ransomware",
+  "security incident",
+  "policy",
+  "law",
+  "legislation",
+  "regulation",
   "guidelines",
   "roadmap",
   "framework",
@@ -474,7 +591,10 @@ const MATERIALITY_TERMS = [
   "digital infrastructure",
   "subsea cable",
   "sovereign cloud",
-  "cyber resilience"
+  "cyber resilience",
+  "market share",
+  "shipments",
+  "consumer behavior"
 ];
 
 const GLOBAL_DOWNSTREAM_TERMS = [
@@ -493,6 +613,14 @@ const GLOBAL_DOWNSTREAM_TERMS = [
   "access",
   "cloud",
   "data center",
+  "datacenter",
+  "5g",
+  "broadband",
+  "cybersecurity",
+  "data breach",
+  "ransomware",
+  "erp",
+  "crm",
   "gpu",
   "chip",
   "compute",
@@ -503,7 +631,10 @@ const GLOBAL_DOWNSTREAM_TERMS = [
   "security",
   "privacy",
   "compliance",
-  "regulation"
+  "regulation",
+  "market share",
+  "shipments",
+  "consumer behavior"
 ];
 
 const GLOBAL_MATERIAL_DOWNSTREAM_TERMS = [
@@ -529,7 +660,15 @@ const GLOBAL_MATERIAL_DOWNSTREAM_TERMS = [
   "regulation",
   "sovereign cloud",
   "cost",
-  "reliability"
+  "reliability",
+  "5g",
+  "broadband",
+  "cybersecurity",
+  "data breach",
+  "ransomware",
+  "adoption",
+  "market share",
+  "shipments"
 ];
 
 const EXCLUSION_RULES: Array<{
@@ -579,8 +718,20 @@ const EXCLUSION_RULES: Array<{
     keywords: ["launch", "launches", "released", "new feature", "feature drop", "update"]
   },
   {
+    id: "routine_gadget_launch_without_market_shift",
+    keywords: ["smartphone", "laptop", "wearable", "gadget", "device", "launch", "unveils", "now available"]
+  },
+  {
+    id: "benchmark_or_minor_model_update_without_impact",
+    keywords: ["benchmark", "eval", "evaluation", "minor update", "new model", "model update"]
+  },
+  {
+    id: "vendor_marketing_without_measurable_impact",
+    keywords: ["introducing", "announcing", "showcase", "leader", "award", "recognized", "magic quadrant"]
+  },
+  {
     id: "global_news_without_ph_sea_or_downstream_impact",
-    keywords: ["openai", "google", "microsoft", "meta", "anthropic", "nvidia"]
+    keywords: MAJOR_TECH_VENDOR_TERMS
   }
 ];
 
@@ -601,9 +752,23 @@ const HIGH_VALUE_TERMS = [
   "rollout",
   "implementation",
   "data center",
+  "datacenter",
   "subsea cable",
+  "submarine cable",
   "cloud region",
   "sovereign cloud",
+  "5g",
+  "broadband",
+  "fiber",
+  "network expansion",
+  "cybersecurity",
+  "data breach",
+  "ransomware",
+  "security incident",
+  "npc",
+  "data privacy",
+  "erp",
+  "crm",
   "gpu",
   "bpo",
   "it-bpm",
@@ -614,7 +779,10 @@ const HIGH_VALUE_TERMS = [
   "reskilling",
   "upskilling",
   "pricing",
-  "api"
+  "api",
+  "market share",
+  "shipments",
+  "consumer behavior"
 ];
 
 const LOW_SIGNAL_GOVERNMENT_TERMS = [
@@ -664,8 +832,17 @@ const HARD_PUBLIC_SECTOR_MATERIALITY_TERMS = [
   "data center",
   "datacenter",
   "subsea cable",
+  "submarine cable",
   "cloud region",
   "sovereign cloud",
+  "5g",
+  "broadband",
+  "fiber",
+  "network expansion",
+  "cybersecurity",
+  "data breach",
+  "ransomware",
+  "security incident",
   "skills",
   "reskilling",
   "upskilling",
@@ -896,10 +1073,14 @@ function trustedSoftAiTransitionMatch(story: NormalizedStory): AiTechRuleMatch |
   return {
     id: "trusted_source_policy_economic_transition",
     axis: hasAny(text, ["workforce", "jobs", "skills", "reskilling", "upskilling", "bpo", "it-bpm", "it bpm", "contact center", "call center"])
-      ? "labor_workflow_impact"
-      : hasAny(text, ["data center", "datacenter", "subsea cable", "cloud region", "sovereign cloud", "digital infrastructure"])
-        ? "infrastructure_compute"
-        : "policy_regulation",
+      ? "ai_automation"
+      : hasAny(text, ["data center", "datacenter", "subsea cable", "submarine cable", "cloud region", "sovereign cloud", "digital infrastructure"])
+        ? "data_centers_infrastructure"
+        : hasAny(text, ["5g", "broadband", "fiber", "connectivity", "telecom", "telco"])
+          ? "telecom_connectivity"
+          : hasAny(text, ["cybersecurity", "data breach", "ransomware", "cyber resilience"])
+            ? "cybersecurity"
+            : "digital_policy_regulation",
     keywordMatches: [...new Set([...softMatches, ...materialityMatches])]
   };
 }
@@ -1055,21 +1236,35 @@ function hasConcreteCoreMovement(
 
   if (
     geography !== "global" &&
-    primaryAxis === "policy_regulation" &&
-    hasAny(text, ["policy", "law", "legislation", "bill", "regulation", "regulatory", "rules", "guidelines", "roadmap", "dict", "bsp", "dti", "neda"])
+    primaryAxis === "digital_policy_regulation" &&
+    hasAny(text, ["policy", "law", "legislation", "bill", "regulation", "regulatory", "rules", "guidelines", "roadmap", "dict", "bsp", "dti", "neda", "npc"])
   ) {
     return true;
   }
 
   if (
-    primaryAxis === "infrastructure_compute" &&
-    hasAny(text, ["data center", "cloud", "gpu", "compute", "telco", "5g", "sovereign cloud", "infrastructure"])
+    primaryAxis === "data_centers_infrastructure" &&
+    hasAny(text, ["data center", "datacenter", "cloud", "gpu", "compute", "sovereign cloud", "infrastructure", "availability zone", "power requirement"])
   ) {
     return true;
   }
 
   if (
-    primaryAxis === "enterprise_adoption" &&
+    primaryAxis === "telecom_connectivity" &&
+    hasAny(text, ["pldt", "globe", "dito", "converge", "5g", "broadband", "fiber", "submarine cable", "subsea cable", "network expansion", "coverage"])
+  ) {
+    return true;
+  }
+
+  if (
+    primaryAxis === "cybersecurity" &&
+    hasAny(text, ["data breach", "ransomware", "cyberattack", "security incident", "cybersecurity", "vulnerability", "national cyber policy", "cyber resilience"])
+  ) {
+    return true;
+  }
+
+  if (
+    primaryAxis === "enterprise_technology" &&
     (
       hasAny(text, ["deploy", "deployed", "deployment", "rollout", "implemented", "customer", "enterprise", "enterprises"]) ||
       materiality.includes("deployment") ||
@@ -1080,8 +1275,23 @@ function hasConcreteCoreMovement(
   }
 
   if (
-    primaryAxis === "labor_workflow_impact" &&
-    hasAny(text, ["workers", "workforce", "jobs", "bpo", "call center", "workflow", "operations", "customer service"])
+    primaryAxis === "ai_automation" &&
+    hasAny(text, ["workers", "workforce", "jobs", "bpo", "call center", "workflow", "operations", "customer service", "automation", "automate"])
+  ) {
+    return true;
+  }
+
+  if (
+    primaryAxis === "consumer_technology" &&
+    hasAny(text, ["market share", "shipments", "consumer behavior", "adoption", "ecosystem", "mobile payments", "industry direction"])
+  ) {
+    return true;
+  }
+
+  if (
+    primaryAxis === "startups_vc" &&
+    hasAny(text, ["funding", "investment", "acquisition", "startup", "venture capital"]) &&
+    hasAny(text, ["enterprise", "infrastructure", "adoption", "customers", "ecosystem", "market", "southeast asia", "philippines"])
   ) {
     return true;
   }
@@ -1106,9 +1316,9 @@ function isCapabilityWatchStory(
   return (
     (geography === "global" || hasAny(text, PLATFORM_VENDOR_TERMS)) &&
     (
-      primaryAxis === "distribution_integration" ||
-      primaryAxis === "models_platforms" ||
-      primaryAxis === "infrastructure_compute" ||
+      primaryAxis === "ai_automation" ||
+      primaryAxis === "enterprise_technology" ||
+      primaryAxis === "data_centers_infrastructure" ||
       hasAny(text, CAPABILITY_WATCH_TERMS)
     ) &&
     hasAny(text, CAPABILITY_WATCH_TERMS)
@@ -1166,21 +1376,35 @@ function hasHardDeploymentMovement(
 
   if (
     geography !== "global" &&
-    primaryAxis === "policy_regulation" &&
-    hasAny(text, ["policy", "law", "legislation", "bill", "regulation", "regulatory", "rules", "guidelines", "roadmap", "dict", "bsp", "dti", "neda"])
+    primaryAxis === "digital_policy_regulation" &&
+    hasAny(text, ["policy", "law", "legislation", "bill", "regulation", "regulatory", "rules", "guidelines", "roadmap", "dict", "bsp", "dti", "neda", "npc"])
   ) {
     return true;
   }
 
   if (
-    primaryAxis === "infrastructure_compute" &&
-    hasAny(text, ["data center", "cloud region", "sovereign cloud", "gpu", "compute", "telco", "5g", "availability zone"])
+    primaryAxis === "data_centers_infrastructure" &&
+    hasAny(text, ["data center", "datacenter", "cloud region", "sovereign cloud", "gpu", "compute", "availability zone", "power requirement"])
   ) {
     return true;
   }
 
   if (
-    primaryAxis === "enterprise_adoption" &&
+    primaryAxis === "telecom_connectivity" &&
+    hasAny(text, ["5g", "broadband", "fiber", "submarine cable", "subsea cable", "network expansion", "coverage", "pldt", "globe", "dito", "converge"])
+  ) {
+    return true;
+  }
+
+  if (
+    primaryAxis === "cybersecurity" &&
+    hasAny(text, ["data breach", "ransomware", "cyberattack", "security incident", "cybersecurity", "vulnerability", "cyber resilience"])
+  ) {
+    return true;
+  }
+
+  if (
+    primaryAxis === "enterprise_technology" &&
     (
       hasAny(text, ["deploy", "deployed", "deployment", "rollout", "implemented", "implementation", "customer", "customers"]) ||
       (
@@ -1193,7 +1417,7 @@ function hasHardDeploymentMovement(
   }
 
   if (
-    primaryAxis === "labor_workflow_impact" &&
+    primaryAxis === "ai_automation" &&
     hasAny(text, ["workers", "workforce", "jobs", "bpo", "call center", "workflow", "operations", "customer service"]) &&
     hasAny(text, ["deploy", "deployment", "implemented", "automation", "automate", "training", "reskilling", "upskilling"])
   ) {
@@ -1234,7 +1458,7 @@ function hasGlobalCorePhSeaImpact(
   }
 
   if (
-    primaryAxis === "infrastructure_compute" &&
+    primaryAxis === "data_centers_infrastructure" &&
     hasAny(text, ["cloud region", "availability zone", "sovereign cloud", "data residency", "data center", "compute region"]) &&
     hasAny(text, regionalAccessTerms)
   ) {
@@ -1323,6 +1547,153 @@ function assignAiTechEditorialBucket(
   return "core_signal";
 }
 
+function hasTechnologyDomainSignal(story: NormalizedStory): boolean {
+  const text = storyText(story);
+
+  return (
+    hasAny(text, AI_ANCHOR_TERMS) ||
+    hasAny(text, [
+      "cloud",
+      "erp",
+      "crm",
+      "enterprise software",
+      "digital transformation",
+      "telecom",
+      "telco",
+      "5g",
+      "broadband",
+      "fiber",
+      "submarine cable",
+      "subsea cable",
+      "data center",
+      "datacenter",
+      "cybersecurity",
+      "data breach",
+      "ransomware",
+      "data privacy",
+      "digital economy",
+      "digital government",
+      "startup",
+      "venture capital",
+      "smartphone",
+      "smartphones",
+      "laptop",
+      "laptops",
+      "wearable",
+      "wearables",
+      "consumer electronics"
+    ]) ||
+    hasTrustedSoftAiTransitionSignal(story)
+  );
+}
+
+function hasSystemicImportance(
+  story: NormalizedStory,
+  primaryAxis: AiTechSystemAxis | undefined,
+  geography: AiTechGeography,
+  materiality: string[],
+  inclusionMatches: AiTechRuleMatch[]
+): boolean {
+  const text = storyText(story);
+
+  return (
+    hasConcreteCoreMovement(story, primaryAxis, geography, materiality) ||
+    hasHardDeploymentMovement(story, primaryAxis, geography) ||
+    inclusionMatches.length >= 2 ||
+    hasAny(text, [
+      "deployment",
+      "rollout",
+      "implemented",
+      "implementation",
+      "enterprise adoption",
+      "business operations",
+      "government services",
+      "public services",
+      "regulation",
+      "rules",
+      "law",
+      "legislation",
+      "data breach",
+      "ransomware",
+      "cyberattack",
+      "security incident",
+      "network expansion",
+      "5g",
+      "broadband",
+      "submarine cable",
+      "data center",
+      "cloud region",
+      "investment",
+      "funding",
+      "market share",
+      "shipments",
+      "consumer behavior",
+      "adoption trend"
+    ])
+  );
+}
+
+function isRoutineProductOrVendorAnnouncement(
+  story: NormalizedStory,
+  primaryAxis: AiTechSystemAxis | undefined,
+  materiality: string[]
+): boolean {
+  const text = storyText(story);
+  const routineLaunch =
+    hasAny(text, ["launch", "launches", "launched", "unveils", "introduces", "released", "now available"]) &&
+    (
+      primaryAxis === "consumer_technology" ||
+      hasAny(text, ["smartphone", "laptop", "wearable", "gadget", "device", "feature", "new model"])
+    );
+  const minorAiUpdate =
+    hasAny(text, ["benchmark", "eval", "evaluation", "minor update", "model update", "new model"]) &&
+    !hasAny(text, ["deployment", "enterprise", "customers", "pricing", "security", "regulation", "infrastructure", "market share"]);
+  const vendorMarketing =
+    hasAny(text, ["award", "recognized", "leader", "showcase", "announcing", "introducing"]) &&
+    hasAny(text, MAJOR_TECH_VENDOR_TERMS) &&
+    !hasAny(text, ["customer", "customers", "deployment", "rollout", "adoption", "market share", "regulation", "data center", "security incident"]);
+  const broaderImpact =
+    materiality.some((signal) =>
+      [
+        "deployment",
+        "rollout",
+        "implemented",
+        "investment",
+        "funding",
+        "regulation",
+        "data breach",
+        "ransomware",
+        "network expansion",
+        "market share",
+        "shipments",
+        "consumer behavior",
+        "data center",
+        "cloud region"
+      ].includes(signal)
+    ) ||
+    hasAny(text, ["market share", "shipments", "consumer behavior", "adoption trend", "enterprise deployment", "government rollout", "policy impact"]);
+
+  return (routineLaunch || minorAiUpdate || vendorMarketing) && !broaderImpact;
+}
+
+function explicitlySaysNoMaterialAction(story: NormalizedStory): boolean {
+  const text = normalizeText(storyText(story));
+
+  return (
+    text.includes("no deployment") ||
+    text.includes("no rollout") ||
+    text.includes("no implementation") ||
+    text.includes("no budget") ||
+    text.includes("no funding") ||
+    text.includes("no pricing") ||
+    text.includes("no market share") ||
+    text.includes("no adoption") ||
+    text.includes("no ecosystem impact") ||
+    text.includes("no named framework") ||
+    text.includes("announced no")
+  );
+}
+
 export function classifyAiTechStory(story: NormalizedStory): AiTechClassification {
   const text = storyText(story);
   const geography = detectGeography(story);
@@ -1340,15 +1711,36 @@ export function classifyAiTechStory(story: NormalizedStory): AiTechClassificatio
     materiality
   );
   const failsInterpretationQuality = looksLikeLowQualityInterpretation(story);
-  const hasAiSignal = hasAny(text, AI_ANCHOR_TERMS) || hasTrustedSoftAiTransitionSignal(story);
+  const hasTechSignal = hasTechnologyDomainSignal(story);
+  const hasSystemicSignal = hasSystemicImportance(
+    story,
+    primaryAxis,
+    geography,
+    materiality,
+    inclusionMatches
+  );
+  const routineProductOrVendorAnnouncement = isRoutineProductOrVendorAnnouncement(
+    story,
+    primaryAxis,
+    materiality
+  );
+  const noMaterialAction = explicitlySaysNoMaterialAction(story);
   const lowMaterialityPublicSectorNoise = isLowMaterialityPublicSectorNoise(story);
   const passesGlobalGate =
     geography !== "global" ||
     hasGlobalMaterialDownstream(story) ||
     hasAny(text, SEA_TERMS);
-  const passesInclusion = hasAiSignal && inclusionMatches.length > 0 && downstream && passesGlobalGate;
+  const passesInclusion =
+    hasTechSignal &&
+    hasSystemicSignal &&
+    inclusionMatches.length > 0 &&
+    downstream &&
+    passesGlobalGate;
   const hardExcluded =
-    !hasAiSignal ||
+    !hasTechSignal ||
+    !hasSystemicSignal ||
+    noMaterialAction ||
+    routineProductOrVendorAnnouncement ||
     lowMaterialityPublicSectorNoise ||
     !downstream ||
     !passesGlobalGate ||
@@ -1369,7 +1761,7 @@ export function classifyAiTechStory(story: NormalizedStory): AiTechClassificatio
     ) ||
     (
       exclusionRuleMatches.some((match) => match.id === "funding_without_deployment") &&
-      !hasAny(text, ["deploy", "deployment", "rollout", "customer", "enterprise", "implementation", "roadmap", "framework", "data center", "subsea cable", "skills", "workforce"])
+      !hasAny(text, ["deploy", "deployment", "rollout", "customer", "enterprise", "implementation", "roadmap", "framework", "data center", "subsea cable", "submarine cable", "skills", "workforce", "market", "ecosystem", "infrastructure"])
     ) ||
     (
       exclusionRuleMatches.some((match) => match.id === "speculative_opinion_without_deployment") &&
@@ -1379,7 +1771,8 @@ export function classifyAiTechStory(story: NormalizedStory): AiTechClassificatio
   const highValue =
     phSeaScore >= 6 ||
     hasAny(text, HIGH_VALUE_TERMS) ||
-    inclusionMatches.length >= 2;
+    inclusionMatches.length >= 2 ||
+    hasSystemicSignal;
   const importanceTier: AiTechImportanceTier = hardExcluded || !passesInclusion
     ? "low_auto_exclude"
     : highValue
@@ -1435,8 +1828,8 @@ export function evaluateAiTechRelevance(story: NormalizedStory): {
   }
 
   const details = classification.hardExcluded
-    ? `Matched AI/Tech exclusion gate: ${summary.exclusion_rule_ids.join(", ") || "no_ai_or_no_downstream_relevance"}`
-    : "Did not change understanding of PH/SEA AI policy, adoption, workflow impact, infrastructure, distribution, or platform capability used in real workflows";
+    ? `Matched Technology / Digital Economy exclusion gate: ${summary.exclusion_rule_ids.join(", ") || "no_technology_or_no_systemic_relevance"}`
+    : "Did not change how people, businesses, or governments use technology through adoption, infrastructure, connectivity, cybersecurity, regulation, investment, or consumer behavior";
 
   return {
     kept: false,

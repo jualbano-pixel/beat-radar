@@ -62,7 +62,7 @@ export const aiTechSourceStrategy: AiTechSourceStrategyEntry[] = [
     reliability: "stable",
     ingestionScope: "core",
     notes:
-      "Primary ingestion layer for PH/SEA AI-system intelligence. Broad business feeds are filtered hard for actual AI deployment or policy movement."
+      "Primary ingestion layer for PH/SEA technology and digital-economy intelligence. Broad business feeds are filtered hard for actual deployment, infrastructure, policy, security, investment, or adoption movement."
   },
   {
     tier: "tier_3_regional_asean",

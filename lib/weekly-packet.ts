@@ -301,7 +301,7 @@ function buildWhatHappened(story: PrioritizedStory): string {
   if (summary) {
     sentences.push(summary);
   } else {
-    sentences.push(`${title} was one of the strongest AI tech developments in this run.`);
+    sentences.push(`${title} was one of the strongest Technology / Digital Economy developments in this run.`);
   }
 
   if (story.tags.includes("ai_models")) {
@@ -893,6 +893,34 @@ function inferPatternAndTensionForLabel(
     };
   }
 
+  if (normalizedLabel.includes("connectivity buildout")) {
+    return {
+      pattern: "Connectivity expansion is changing access, coverage, and the geography of digital services.",
+      tension: "Tension: network ambition vs useful access"
+    };
+  }
+
+  if (normalizedLabel.includes("cybersecurity")) {
+    return {
+      pattern: "Cyber risk is moving from a technical concern into an operating and trust problem.",
+      tension: "Tension: digital dependence vs resilience"
+    };
+  }
+
+  if (normalizedLabel.includes("data centers") || normalizedLabel.includes("cloud capacity")) {
+    return {
+      pattern: "Digital infrastructure demand is turning capacity, power, and location into strategic constraints.",
+      tension: "Tension: digital growth vs infrastructure readiness"
+    };
+  }
+
+  if (normalizedLabel.includes("consumer technology")) {
+    return {
+      pattern: "Consumer technology signals matter where they reveal adoption, market share, or ecosystem direction.",
+      tension: "Tension: product novelty vs behavior change"
+    };
+  }
+
   if (normalizedLabel.includes("critical infrastructure cyber risk")) {
     return {
       pattern: "Critical infrastructure risk is becoming harder to separate from day-to-day operations.",
@@ -1166,6 +1194,22 @@ function buildEditorialWhyLineForLabel(
 
   if (normalizedLabel.includes("capital caution")) {
     return "Funding and pricing claims are worth tracking because they reveal where AI demand still looks less settled than the narrative suggests.";
+  }
+
+  if (normalizedLabel.includes("connectivity buildout")) {
+    return "Connectivity buildout matters when it changes who can participate in digital services, where firms can operate, and what public services can reach.";
+  }
+
+  if (normalizedLabel.includes("cybersecurity")) {
+    return "Cybersecurity matters because incidents and resilience rules can change operating risk, trust, compliance, and public-service continuity.";
+  }
+
+  if (normalizedLabel.includes("data centers") || normalizedLabel.includes("cloud capacity")) {
+    return "Data-center and cloud capacity matter because they set practical limits on deployment, cost, resilience, and energy demand.";
+  }
+
+  if (normalizedLabel.includes("consumer technology")) {
+    return "Consumer technology is editorially useful when it shows behavior, adoption, or market share moving rather than just another device launch.";
   }
 
   if (normalizedLabel.includes("critical infrastructure cyber risk")) {
@@ -2315,18 +2359,22 @@ function beatSpecificStoryLabel(story: NormalizedStory): string | null {
 
   if (story.beat === "ai_tech") {
     switch (story.ai_tech_filter?.primary_axis) {
-      case "models_platforms":
-        return "model capability race";
-      case "enterprise_adoption":
-        return "enterprise adoption";
-      case "policy_regulation":
-        return "AI governance pressure";
-      case "infrastructure_compute":
-        return "compute capacity strain";
-      case "distribution_integration":
-        return "platform distribution fight";
-      case "labor_workflow_impact":
-        return "workflow disruption";
+      case "ai_automation":
+        return "AI and automation adoption";
+      case "enterprise_technology":
+        return "enterprise technology adoption";
+      case "telecom_connectivity":
+        return "connectivity buildout";
+      case "cybersecurity":
+        return "cybersecurity and resilience";
+      case "digital_policy_regulation":
+        return "digital policy pressure";
+      case "data_centers_infrastructure":
+        return "data center and cloud capacity";
+      case "startups_vc":
+        return "technology investment";
+      case "consumer_technology":
+        return "consumer technology shift";
       default:
         break;
     }
@@ -2371,6 +2419,27 @@ function buildStoryBriefItem(
   const topPriority = Math.max(...uniqueStories.map((story) => story.priority_score ?? 0), 0);
   const propertyScoreBoost =
     uniqueStories.some((story) => story.property_filter?.stress_signal) ? 8 : 0;
+  const normalizedLabel = normalizeText(label);
+  const technologySystemBoost =
+    uniqueStories.some((story) => story.beat === "ai_tech") &&
+    (
+      normalizedLabel.includes("connectivity") ||
+      normalizedLabel.includes("cybersecurity") ||
+      normalizedLabel.includes("digital policy") ||
+      normalizedLabel.includes("data center") ||
+      normalizedLabel.includes("cloud capacity") ||
+      normalizedLabel.includes("consumer technology")
+    )
+      ? 8
+      : 0;
+  const vendorHeavyAiPenalty =
+    uniqueStories.some((story) => story.beat === "ai_tech") &&
+    (normalizedLabel.includes("ai and automation") || normalizedLabel.includes("enterprise technology")) &&
+    uniqueStories.filter((story) =>
+      ["OpenAI Blog", "Microsoft Blog AI", "TechCrunch AI", "Google AI Blog"].includes(story.source)
+    ).length > uniqueStories.length / 2
+      ? 8
+      : 0;
   const hardSignalBoost =
     uniqueStories.some((story) =>
       story.property_filter?.editorial_bucket === "core_signal" ||
@@ -2396,8 +2465,10 @@ function buildStoryBriefItem(
       averagePriority(uniqueStories) +
       Math.min(uniqueStories.length, 4) +
       propertyScoreBoost +
+      technologySystemBoost +
       hardSignalBoost -
-      interpretationPenalty,
+      interpretationPenalty -
+      vendorHeavyAiPenalty,
     whyItMatters: bankingFreshWhy ?? motoringFreshWhy ?? propertyFreshWhy ?? buildEditorialWhyLineForLabel(label, reasonCodes, angles, reasonKept),
     pattern: bankingFreshPattern?.pattern ?? motoringFreshPattern?.pattern ?? propertyFreshPattern?.pattern ?? patternAndTension.pattern,
     tension: bankingFreshPattern?.tension ?? motoringFreshPattern?.tension ?? propertyFreshPattern?.tension ?? patternAndTension.tension,
@@ -4616,42 +4687,47 @@ function buildPropertyEditorialRead(stories: NormalizedStory[]): string[] {
 
 function buildAiTechEditorialRead(stories: NormalizedStory[], themeClusters: StoryThemeCluster[]): string[] {
   if (stories.length === 0) {
-    return buildThinEditorialRead("AI / Tech");
+    return buildThinEditorialRead("Technology / Digital Economy");
   }
 
   const bullets: string[] = [];
-  const hasCapability = readHasAny(stories, [
-    "model",
-    "models",
-    "reasoning",
-    "benchmark",
-    "agent",
-    "agents",
-    "sora",
-    "gpt",
-    "compute"
-  ]) || readHasTheme(themeClusters, ["model", "capability", "compute"]);
-  const hasAccessPricing = readHasAny(stories, [
-    "pricing",
-    "price",
-    "subscription",
-    "free",
-    "api",
-    "access",
-    "availability",
-    "rollout"
-  ]);
-  const hasGovernance = readHasAny(stories, [
+  const hasInfrastructure = readHasAny(stories, [
+    "data center",
+    "datacenter",
+    "cloud",
+    "compute",
+    "5g",
+    "broadband",
+    "fiber",
+    "submarine cable",
+    "subsea cable",
+    "network expansion"
+  ]) || readHasTheme(themeClusters, ["infrastructure", "connectivity", "data center", "cloud"]);
+  const hasSecurity = readHasAny(stories, [
+    "cybersecurity",
+    "data breach",
+    "ransomware",
+    "cyberattack",
+    "security incident",
+    "data privacy"
+  ]) || readHasTheme(themeClusters, ["cybersecurity", "resilience", "security"]);
+  const hasPolicy = readHasAny(stories, [
     "regulation",
     "governance",
-    "safety",
-    "copyright",
     "privacy",
+    "data privacy",
     "policy",
-    "rules"
-  ]) || readHasTheme(themeClusters, ["policy", "safety", "governance"]);
+    "rules",
+    "dict",
+    "npc",
+    "digital economy"
+  ]) || readHasTheme(themeClusters, ["policy", "regulation", "governance"]);
   const hasEnterprise = readHasAny(stories, [
     "enterprise",
+    "erp",
+    "crm",
+    "cloud migration",
+    "digital transformation",
     "workflow",
     "adoption",
     "deployment",
@@ -4660,35 +4736,52 @@ function buildAiTechEditorialRead(stories: NormalizedStory[], themeClusters: Sto
     "regional",
     "philippines",
     "southeast asia"
-  ]) || readHasTheme(themeClusters, ["enterprise", "adoption", "partnership"]);
+  ]) || readHasTheme(themeClusters, ["enterprise", "adoption"]);
+  const hasConsumerShift = readHasAny(stories, [
+    "market share",
+    "shipments",
+    "consumer behavior",
+    "smartphone",
+    "laptop",
+    "wearable",
+    "mobile payments"
+  ]) || readHasTheme(themeClusters, ["consumer", "market"]);
 
-  if (hasCapability && hasAccessPricing) {
+  if (hasInfrastructure) {
     bullets.push(
-      "Capability gains matter this week because access and pricing are also moving; the question is who can actually use the new tools at scale."
-    );
-  } else if (hasCapability) {
-    bullets.push(
-      "Capability remains the center of gravity, but the stronger read is practical movement rather than novelty."
+      "Infrastructure and connectivity signals matter this week because they change who can access digital services and what businesses can run at scale."
     );
   }
 
-  if (hasGovernance) {
+  if (hasSecurity) {
     bullets.push(
-      "Governance is still shaping the runway, with safety, copyright, privacy, or policy signals setting limits around adoption."
+      "Cybersecurity is part of the operating story, with incidents, resilience, or data-protection pressure affecting trust and continuity."
+    );
+  }
+
+  if (hasPolicy) {
+    bullets.push(
+      "Digital policy is shaping the runway, with privacy, cyber, governance, or digital-economy rules changing what governments and firms can deploy."
     );
   }
 
   if (hasEnterprise) {
     bullets.push(
-      "Enterprise and regional adoption signals are useful when they show workflow change, not just another product announcement."
+      "Enterprise adoption signals are strongest where they show workflow, spending, or operating-model change rather than another vendor announcement."
+    );
+  }
+
+  if (hasConsumerShift && bullets.length < 4) {
+    bullets.push(
+      "Consumer technology belongs in the brief only where launches point to adoption, market-share movement, ecosystem change, or behavior shifts."
     );
   }
 
   if (bullets.length === 0) {
     bullets.push(
       stories.length <= 2
-        ? "AI / Tech is narrow this week; the desk should treat the available signals as watchlist movement, not a broad cycle read."
-        : "The week is fragmented, so the useful read is where capability, distribution, and governance start to overlap."
+        ? "Technology / Digital Economy is narrow this week; the desk should treat the available signals as watchlist movement, not a broad cycle read."
+        : "The week is fragmented, so the useful read is where adoption, infrastructure, security, regulation, and consumer behavior start to overlap."
     );
   }
 
@@ -5930,7 +6023,7 @@ function renderAiTechMarkdown(packet: WeeklyEditorialPacket): string {
   if (!output) {
     lines.push("## Core Signals");
     lines.push("");
-    lines.push("- No AI/Tech editorial bucket output was generated for this run.");
+    lines.push("- No Technology / Digital Economy editorial bucket output was generated for this run.");
     lines.push("");
 
     return lines.join("\n");
@@ -5940,7 +6033,7 @@ function renderAiTechMarkdown(packet: WeeklyEditorialPacket): string {
     lines,
     "Core Signals",
     output.core_signals,
-    "No hard AI-system movement is strong enough for Core Signals."
+    "No hard technology or digital-economy movement is strong enough for Core Signals."
   );
   renderAiTechBucket(
     lines,
@@ -5950,9 +6043,9 @@ function renderAiTechMarkdown(packet: WeeklyEditorialPacket): string {
   );
   renderAiTechBucket(
     lines,
-    "Platform / Capability Watch",
+    "Technology Watch",
     output.capability_watch,
-    "No downstream platform or capability enabler is material enough this week."
+    "No downstream technology enabler, product shift, or market signal is material enough this week."
   );
 
   return lines.join("\n");
@@ -6253,7 +6346,7 @@ export function buildWeeklyEditorialPacket(
   },
   timeMode: AiTechTimeMode,
   fetchedAt: string,
-  beatName = "AI / Tech",
+  beatName = "Technology / Digital Economy",
   eventClusters: EventCluster[] = [],
   storyThemeClusters: StoryThemeCluster[] = []
 ): WeeklyEditorialPacket {

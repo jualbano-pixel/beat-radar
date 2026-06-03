@@ -9,13 +9,13 @@ const AI_TECH_KEYWORDS = {
   immediacy: [
     "today",
     "now",
-    "launch",
     "announced",
-    "introducing",
     "rollout",
-    "release",
-    "debuts",
-    "new"
+    "deployment",
+    "implemented",
+    "breach",
+    "outage",
+    "expands"
   ],
   impact: [
     "acquire",
@@ -27,10 +27,23 @@ const AI_TECH_KEYWORDS = {
     "regulation",
     "policy",
     "infrastructure",
+    "data center",
+    "cloud",
+    "5g",
+    "broadband",
+    "submarine cable",
+    "cybersecurity",
+    "data breach",
+    "ransomware",
+    "erp",
+    "crm",
     "compute",
     "api",
     "enterprise",
-    "platform"
+    "platform",
+    "market share",
+    "shipments",
+    "consumer behavior"
   ],
   continuity: [
     "update",
@@ -46,6 +59,9 @@ const AI_TECH_KEYWORDS = {
   ],
   relevance: [
     "enterprise",
+    "business operations",
+    "government",
+    "public services",
     "developers",
     "developer",
     "business",
@@ -54,7 +70,10 @@ const AI_TECH_KEYWORDS = {
     "productivity",
     "integration",
     "deployment",
-    "customer"
+    "customer",
+    "connectivity",
+    "security",
+    "consumer adoption"
   ],
   policy: [
     "approval",
@@ -67,7 +86,11 @@ const AI_TECH_KEYWORDS = {
     "antitrust",
     "compliance",
     "governance",
-    "policy"
+    "policy",
+    "dict",
+    "npc",
+    "data privacy",
+    "cybersecurity"
   ],
   shift: [
     "shift",
@@ -87,7 +110,11 @@ const AI_TECH_KEYWORDS = {
     "constraint",
     "latency",
     "reliability",
-    "capacity"
+    "capacity",
+    "security incident",
+    "ransomware",
+    "data breach",
+    "network expansion"
   ],
   market: [
     "funding",
@@ -97,7 +124,10 @@ const AI_TECH_KEYWORDS = {
     "spending",
     "pricing",
     "revenue",
-    "market"
+    "market",
+    "market share",
+    "shipments",
+    "adoption"
   ],
   localBusiness: [
     "philippines",
@@ -108,7 +138,13 @@ const AI_TECH_KEYWORDS = {
     "sme",
     "small business",
     "bpo",
-    "local company"
+    "local company",
+    "pldt",
+    "globe",
+    "dito",
+    "converge",
+    "dict",
+    "npc"
   ]
 };
 
@@ -360,8 +396,18 @@ const ANGLE_SIGNAL_RULES: Array<{ phrase: string; keywords: string[]; tags?: str
   },
   {
     phrase: "infrastructure lag visible",
-    keywords: ["compute", "gpu", "data center", "inference", "cloud", "capacity"],
-    tags: ["ai_infrastructure"]
+    keywords: ["compute", "gpu", "data center", "datacenter", "inference", "cloud", "capacity", "submarine cable", "5g", "broadband"],
+    tags: ["tech_infrastructure"]
+  },
+  {
+    phrase: "connectivity buildout changing access",
+    keywords: ["pldt", "globe", "dito", "converge", "5g", "broadband", "fiber", "network expansion", "submarine cable"],
+    tags: ["telecom_connectivity"]
+  },
+  {
+    phrase: "cyber risk affecting operations",
+    keywords: ["cybersecurity", "data breach", "ransomware", "cyberattack", "security incident", "vulnerability"],
+    tags: ["cybersecurity"]
   },
   {
     phrase: "developer workflow changing",
@@ -369,7 +415,8 @@ const ANGLE_SIGNAL_RULES: Array<{ phrase: string; keywords: string[]; tags?: str
   },
   {
     phrase: "enterprise adoption pressure rising",
-    keywords: ["enterprise", "business", "deployment", "workflow", "adoption"]
+    keywords: ["enterprise", "business", "deployment", "workflow", "adoption", "erp", "crm", "cloud migration", "digital transformation"],
+    tags: ["enterprise_tech"]
   },
   {
     phrase: "competitive position shifting",
@@ -393,7 +440,13 @@ const ANGLE_SIGNAL_RULES: Array<{ phrase: string; keywords: string[]; tags?: str
   },
   {
     phrase: "investment caution showing",
-    keywords: ["funding", "investment", "valuation", "spending", "revenue"]
+    keywords: ["funding", "investment", "valuation", "spending", "revenue"],
+    tags: ["startups_vc"]
+  },
+  {
+    phrase: "consumer technology behavior shifting",
+    keywords: ["market share", "shipments", "consumer behavior", "adoption trend", "mobile payments"],
+    tags: ["consumer_tech_shift"]
   },
   {
     phrase: "transition friction emerging",
@@ -522,6 +575,17 @@ const SOURCE_RELEVANCE_BONUS: Record<string, number> = {
   "Wired": 1,
   "OpenAI Blog": 1,
   "Google AI Blog": 1,
+  "Microsoft Blog AI": 1,
+  "TechCrunch AI": 1,
+  "BusinessWorld AI/Tech": 1,
+  "Inquirer Tech": 1,
+  "Inquirer Business AI/Tech": 1,
+  "Philippine Star Business AI/Tech": 1,
+  "Malaya Business AI/Tech": 1,
+  "e27 SEA Tech": 1,
+  "Department of Information and Communications Technology AI Policy": 1,
+  "NEDA Digital Economy": 1,
+  "ASEAN Digital Economy and AI Governance": 1,
   "NVIDIA Blog": 1,
   "TopGear Philippines": 1,
   "CarGuide PH": 1,
@@ -622,8 +686,10 @@ function scoreStory(
   const impact = scoreDimension(
     text,
     keywords.impact,
-    tags.has("ai_infrastructure") ||
-      tags.has("ai_models") ||
+    tags.has("tech_infrastructure") ||
+      tags.has("ai_automation") ||
+      tags.has("cybersecurity") ||
+      tags.has("telecom_connectivity") ||
       tags.has("pricing_pressure") ||
       tags.has("regulation_enforcement")
       ? 1
@@ -637,7 +703,7 @@ function scoreStory(
   const relevance = scoreDimension(
     text,
     keywords.relevance,
-    (tags.has("applied_ai") ? 1 : 0) + (SOURCE_RELEVANCE_BONUS[story.source] ?? 0)
+    ((tags.has("enterprise_tech") || tags.has("ai_automation")) ? 1 : 0) + (SOURCE_RELEVANCE_BONUS[story.source] ?? 0)
   );
   const distinctiveness = clampScore(
     5 -
@@ -865,16 +931,28 @@ function buildFallbackAngleSignals(story: NormalizedStory): string[] {
     return ["risk repricing visible"];
   }
 
-  if (tags.has("ai_infrastructure")) {
+  if (tags.has("tech_infrastructure")) {
     return ["infrastructure pressure worth watching"];
   }
 
-  if (tags.has("applied_ai")) {
+  if (tags.has("enterprise_tech")) {
     return ["adoption pressure worth watching"];
   }
 
-  if (tags.has("ai_models")) {
-    return ["model competition tightening"];
+  if (tags.has("ai_automation")) {
+    return ["automation capability changing workflows"];
+  }
+
+  if (tags.has("cybersecurity")) {
+    return ["cyber risk worth watching"];
+  }
+
+  if (tags.has("telecom_connectivity")) {
+    return ["connectivity buildout worth watching"];
+  }
+
+  if (tags.has("consumer_tech_shift")) {
+    return ["consumer technology behavior shifting"];
   }
 
   if (countHits(text, keywords.policy) > 0) {

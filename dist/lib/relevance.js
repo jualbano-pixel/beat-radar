@@ -321,6 +321,13 @@ function getKeepSignalCategories(story) {
         }
         return classification.inclusionMatches.map((match) => `property_${match.id}`);
     }
+    if (isAiTechBeat(story)) {
+        const classification = (0, ai_tech_filter_js_1.classifyAiTechStory)(story);
+        if (!classification.passesInclusion || classification.hardExcluded) {
+            return categories;
+        }
+        return classification.inclusionMatches.map((match) => `technology_${match.id}`);
+    }
     const isModelRelease = matchesKeepSignalCategory(combinedText, keepSignals.model_release) &&
         (matchesAny(combinedText, config.core_ai_keywords) ||
             matchesAny(combinedText, ["gpt", "model", "models", "system card", "codex"]));
@@ -443,6 +450,10 @@ function hasDirectBeatSignal(story) {
     if (!isMotoringBeat(story)) {
         if (isPropertyBeat(story)) {
             const classification = (0, property_filter_js_1.classifyPropertyStory)(story);
+            return classification.passesInclusion && !classification.hardExcluded;
+        }
+        if (isAiTechBeat(story)) {
+            const classification = (0, ai_tech_filter_js_1.classifyAiTechStory)(story);
             return classification.passesInclusion && !classification.hardExcluded;
         }
         return hasDirectAiSignal(story);

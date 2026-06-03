@@ -128,12 +128,14 @@ export type EnergyFilterSummary = {
 };
 
 export type AiTechSystemAxis =
-  | "models_platforms"
-  | "enterprise_adoption"
-  | "policy_regulation"
-  | "infrastructure_compute"
-  | "distribution_integration"
-  | "labor_workflow_impact";
+  | "ai_automation"
+  | "enterprise_technology"
+  | "telecom_connectivity"
+  | "cybersecurity"
+  | "digital_policy_regulation"
+  | "data_centers_infrastructure"
+  | "startups_vc"
+  | "consumer_technology";
 
 export type AiTechGeography = "ph" | "sea" | "global";
 
@@ -147,6 +149,7 @@ export type AiTechBeatStructure = {
   inclusion_requirement: string;
   geographic_lens: string;
   global_gate: string;
+  house_question?: string;
 };
 
 export type AiTechFilterSummary = {
