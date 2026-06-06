@@ -11,65 +11,64 @@ Week of 2026-06-01
 
 ## What matters most
 
-### connectivity buildout
-- Why it matters: Connectivity buildout matters when it changes who can participate in digital services, where firms can operate, and what public services can reach.
-- Pattern: Connectivity expansion is changing access, coverage, and the geography of digital services.
-- Tension: network ambition vs useful access
+### technology investment
+- Why it matters: Regulatory and governance pressure is starting to shape rollout decisions before operating rules are fully settled.
+- Pattern: Policy is moving faster than operating clarity.
+- Tension: policy vs execution
 - Supporting stories:
-- [Globe backs MSME digital shift with cable, data center projects](https://bworldonline.com/bw-launchpad/2026/06/03/753924/globe-backs-msme-digital-shift-with-cable-data-center-projects) | BusinessWorld AI/Tech | Strong local business relevance with likely downstream effects.
-- [PLDT banks on 5G growth for Smart Communications revenue](https://bworldonline.com/corporate/2026/06/03/753949/pldt-banks-on-5g-growth-for-smart-communications-revenue) | BusinessWorld AI/Tech | Makes the infrastructure strain visible.
+- [How Khmer Enterprise is connecting Cambodia’s startup to regional ecosystem](https://e27.co/how-khmer-enterprise-is-connecting-cambodias-startup-to-regional-ecosystem-20260603) | e27 SEA Tech | Shows where platform control is shifting into developer workflow.
 
 ### enterprise technology adoption
 - Why it matters: Vendors are pushing enterprise positioning before usage patterns, ROI, and buyer confidence have fully stabilized.
 - Pattern: Enterprise positioning is getting pushed ahead of proven demand.
 - Tension: adoption vs proof
 - Supporting stories:
+- [The AI trust gap: Why SEA startups need proof before they scale](https://e27.co/the-ai-trust-gap-why-sea-startups-need-proof-before-they-scale-20260601) | e27 SEA Tech | Makes the demand and pricing question harder to ignore.
 - [OpenAI launches DeployCo to help businesses build around intelligence](https://openai.com/index/openai-launches-the-deployment-company) | OpenAI Blog | Shows how vendors are trying to lock in enterprise trust before demand settles.
-- [How Big Sky Capital and Astana Hub are helping startups scale across Southeast Asia’s technology ecosystem](https://e27.co/how-big-sky-capital-and-astana-hub-are-helping-startups-scale-across-southeast-asias-technology-ecosystem-20260529) | e27 SEA Tech | Shows where platform control is shifting into developer workflow.
 - [AI alone won’t change your business. The system running it will.](https://blogs.microsoft.com/blog/2026/06/02/ai-alone-wont-change-your-business-the-system-running-it-will) | Microsoft Blog AI | Marks a genuine change in direction, not another routine release.
 - [From AI pilots to enterprise impact: Why execution is the new differentiator](https://blogs.microsoft.com/blog/2026/05/21/from-ai-pilots-to-enterprise-impact-why-execution-is-the-new-differentiator) | Microsoft Blog AI | Shows that this is more than another incremental update.
 
-### cybersecurity and resilience
-- Why it matters: Cybersecurity matters because incidents and resilience rules can change operating risk, trust, compliance, and public-service continuity.
-- Pattern: Cyber risk is moving from a technical concern into an operating and trust problem.
-- Tension: digital dependence vs resilience
-- Supporting stories:
-- [Anthropic scales Claude Mythos to critical infrastructure in 15+ countries](https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries) | TechCrunch AI | Shows how safety posture is becoming part of product strategy.
-
-### AI and automation adoption
+### digital policy pressure
 - Why it matters: Regulatory and governance pressure is starting to shape rollout decisions before operating rules are fully settled.
 - Pattern: Policy is moving faster than operating clarity.
 - Tension: policy vs execution
 - Supporting stories:
-- [Anthropic files to go public](https://techcrunch.com/2026/06/01/anthropic-files-to-go-public) | TechCrunch AI | Shows how vendors are trying to lock in enterprise trust before demand settles.
-- [OpenAI named a Leader in enterprise coding agents by Gartner](https://openai.com/index/gartner-2026-agentic-coding-leader) | OpenAI Blog | Shows how the enterprise pitch is arriving ahead of proof.
-- [Anthropic’s US$65B cheque redraws AI funding map](https://e27.co/anthropics-us65b-cheque-redraws-ai-funding-map-20260529) | e27 SEA Tech | Shows where platform control is shifting into developer workflow.
+- [Wavemaker Ventures leads US$4M round in New Zealand data privacy startup DataMasque](https://e27.co/wavemaker-ventures-leads-us4m-round-in-new-zealand-data-privacy-startup-datamasque-20260605) | e27 SEA Tech | Shows where policy pressure is starting to change operating choices.
+- [Singapore leads on security governance but struggles to enforce it, report finds](https://e27.co/singapore-leads-on-security-governance-but-struggles-to-enforce-it-report-finds-20260603) | e27 SEA Tech | Shows how regulation is starting to shape the playbook.
+- [Indonesia’s antivirus reliance: A cybersecurity blindspot](https://e27.co/indonesias-antivirus-reliance-a-cybersecurity-blindspot-20230129) | e27 SEA Tech | Shows how safety posture is becoming part of product strategy.
+- [OpenAI’s Frontier Governance Framework](https://openai.com/index/openai-frontier-governance-framework) | OpenAI Blog | Makes the governance pitch part of the product story.
+
+### AI and automation adoption
+- Why it matters: Multiple players are adding capability faster than they can secure capacity, coordination, or deployment discipline.
+- Pattern: Infrastructure is scaling faster than coordination.
+- Tension: ambition vs capacity
+- Supporting stories:
+- [OpenAI named a Leader in enterprise coding agents by Gartner](https://openai.com/index/gartner-2026-agentic-coding-leader) | OpenAI Blog | Shows how vendors are trying to lock in enterprise trust before demand settles.
 - [OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments](https://openai.com/index/dell-codex-enterprise-partnership) | OpenAI Blog | Shows where policy pressure is starting to change operating choices.
+- [How Endava is redesigning software delivery around AI agents](https://openai.com/index/endava-frontiers) | OpenAI Blog | Shows how the enterprise pitch is arriving ahead of proof.
+- [MUFG aims to become AI-native with OpenAI](https://openai.com/index/mufg) | OpenAI Blog | Gives the theme a concrete operating example.
 
 ## Structural shifts
 
-### technology investment
-- Editorial note: Vendors are pushing enterprise positioning before usage patterns, ROI, and buyer confidence have fully stabilized.
-- Pattern: Enterprise positioning is getting pushed ahead of proven demand.
-- Tension: adoption vs proof
+### data center and cloud capacity
+- Editorial note: Data-center and cloud capacity matter because they set practical limits on deployment, cost, resilience, and energy demand.
+- Pattern: Digital infrastructure demand is turning capacity, power, and location into strategic constraints.
+- Tension: digital growth vs infrastructure readiness
 - Supporting stories:
-- [From Korea to ASEAN: 10 startups building bridges at Echelon Singapore 2026](https://e27.co/from-korea-to-asean-10-startups-building-bridges-at-echelon-singapore-2026-20260602) | e27 SEA Tech | Makes the demand and pricing question harder to ignore.
-- [How Notion is becoming the operating system for Southeast Asia’s startup builders](https://e27.co/how-notion-is-becoming-the-operating-system-for-southeast-asias-startup-builders-20260529) | e27 SEA Tech | Shows competitive repositioning that could reshape the field.
-- [Gaming is not a channel. In SEA, it’s the entire playing field](https://e27.co/gaming-is-not-a-channel-in-sea-its-the-entire-playing-field-20260530) | e27 SEA Tech | Early sign worth tracking if repeated.
+- [AirTrunk commits $30B to build 5GW of AI data centers in India](https://techcrunch.com/2026/06/05/airtrunk-commits-30b-to-build-5gw-of-ai-data-centers-in-india) | TechCrunch AI | Shows where strategy is running into execution reality.
+- [Google will pay SpaceX $920M per month for compute](https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute) | TechCrunch AI | Makes the demand and pricing question harder to ignore.
 
-### digital policy pressure
-- Editorial note: Regulatory and governance pressure is starting to shape rollout decisions before operating rules are fully settled.
-- Pattern: Policy is moving faster than operating clarity.
-- Tension: policy vs execution
+### consumer technology shift
+- Editorial note: Consumer technology is editorially useful when it shows behavior, adoption, or market share moving rather than just another device launch.
+- Pattern: Consumer technology signals matter where they reveal adoption, market share, or ecosystem direction.
+- Tension: product novelty vs behavior change
 - Supporting stories:
-- [On making requests for exemption, postponement, or to use alternative means of notification](https://bworldonline.com/opinion/2026/06/03/753885/on-making-requests-for-exemption-postponement-or-to-use-alternative-means-of-notification) | BusinessWorld AI/Tech | Shows where policy pressure is starting to change operating choices.
-- [OpenAI’s Frontier Governance Framework](https://openai.com/index/openai-frontier-governance-framework) | OpenAI Blog | Shows how safety posture is becoming part of product strategy.
-- [Our views on AI policy and political advocacy](https://openai.com/index/our-views-on-ai-policy-and-political-advocacy) | OpenAI Blog | Makes the governance pitch part of the product story.
-- [Japanese telecom firm eyes Philippine entry](https://bworldonline.com/corporate/2026/06/03/753952/japanese-telecom-firm-eyes-philippine-entry) | BusinessWorld AI/Tech | Shows how regulation is starting to shape the playbook.
+- [Review: The new MacBook Pro is a Creative’s dream](https://technology.inquirer.net/147115/review-the-new-macbook-pro-is-a-creatives-dream) | Inquirer Tech | Strong local business relevance with likely downstream effects.
 
 ## What seems to be happening
 
-- Connectivity expansion is changing access, coverage, and the geography of digital services.
-- Enterprise positioning is getting pushed ahead of proven demand.
-- Cyber risk is moving from a technical concern into an operating and trust problem.
 - Policy is moving faster than operating clarity.
+- Enterprise positioning is getting pushed ahead of proven demand.
+- Infrastructure is scaling faster than coordination.
+- Digital infrastructure demand is turning capacity, power, and location into strategic constraints.
+- Consumer technology signals matter where they reveal adoption, market share, or ecosystem direction.
