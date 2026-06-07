@@ -181,5 +181,30 @@ export const aiTechFilterFixtures: AiTechFilterFixture[] = [
       kept: false,
       reasonRuleId: "benchmark_or_minor_model_update_without_impact"
     }
+  },
+  {
+    name: "vendor thought leadership without development stays out",
+    story: story(
+      "Our views on the future of enterprise AI adoption",
+      "The post shares principles and recommendations but includes no deployment, rollout, customer, infrastructure, pricing, security, or regulatory development.",
+      "OpenAI Blog"
+    ),
+    expected: {
+      kept: false,
+      reasonRuleId: "no_ai_or_no_downstream_relevance"
+    }
+  },
+  {
+    name: "reported connectivity development remains eligible over vendor context",
+    story: story(
+      "PLDT expands 5G broadband sites as enterprise demand rises",
+      "The reported network expansion increases connectivity for business districts and shows market behavior through higher data usage and enterprise adoption.",
+      "BusinessWorld AI/Tech"
+    ),
+    expected: {
+      kept: true,
+      primaryAxis: "telecom_connectivity",
+      reasonRuleId: "expands_telecom_or_connectivity_access"
+    }
   }
 ];

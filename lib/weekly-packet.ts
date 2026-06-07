@@ -1,4 +1,8 @@
 import type { AiTechTimeMode } from "../config/time-modes.js";
+import {
+  isVendorAuthoredTechnologyStory,
+  technologyDevelopmentPreferenceScore
+} from "./technology-source-priority.js";
 import type {
   EventCluster,
   NormalizedStory,
@@ -1233,6 +1237,13 @@ function pickSupportingStories(
 ): NormalizedStory[] {
   return [...stories]
     .sort((left, right) => {
+      const developmentDelta =
+        technologyDevelopmentPreferenceScore(right) -
+        technologyDevelopmentPreferenceScore(left);
+      if (developmentDelta !== 0) {
+        return developmentDelta;
+      }
+
       const priorityDelta = (right.priority_score ?? 0) - (left.priority_score ?? 0);
 
       if (priorityDelta !== 0) {
@@ -2435,11 +2446,15 @@ function buildStoryBriefItem(
   const vendorHeavyAiPenalty =
     uniqueStories.some((story) => story.beat === "ai_tech") &&
     (normalizedLabel.includes("ai and automation") || normalizedLabel.includes("enterprise technology")) &&
-    uniqueStories.filter((story) =>
-      ["OpenAI Blog", "Microsoft Blog AI", "TechCrunch AI", "Google AI Blog"].includes(story.source)
-    ).length > uniqueStories.length / 2
+    uniqueStories.filter(isVendorAuthoredTechnologyStory).length > uniqueStories.length / 2
       ? 8
       : 0;
+  const reportedDevelopmentBoost =
+    uniqueStories.some((story) => technologyDevelopmentPreferenceScore(story) >= 6)
+      ? 6
+      : uniqueStories.some((story) => technologyDevelopmentPreferenceScore(story) >= 3)
+        ? 3
+        : 0;
   const hardSignalBoost =
     uniqueStories.some((story) =>
       story.property_filter?.editorial_bucket === "core_signal" ||
@@ -2466,6 +2481,7 @@ function buildStoryBriefItem(
       Math.min(uniqueStories.length, 4) +
       propertyScoreBoost +
       technologySystemBoost +
+      reportedDevelopmentBoost +
       hardSignalBoost -
       interpretationPenalty -
       vendorHeavyAiPenalty,

@@ -4,6 +4,11 @@ import type {
   PriorityBreakdown,
   ReasonCode
 } from "./types.js";
+import {
+  isVendorAnnouncement,
+  isVendorThoughtLeadership,
+  technologyDevelopmentPreferenceScore
+} from "./technology-source-priority.js";
 
 const AI_TECH_KEYWORDS = {
   immediacy: [
@@ -681,6 +686,7 @@ function scoreStory(
   const tags = new Set(story.tags);
   const keywords = keywordsForStory(story);
   const recurringTags = story.tags.filter((tag) => (tagFrequency.get(tag) ?? 0) >= 8).length;
+  const developmentPreference = technologyDevelopmentPreferenceScore(story);
 
   const immediacy = scoreDimension(text, keywords.immediacy);
   const impact = scoreDimension(
@@ -709,7 +715,9 @@ function scoreStory(
     5 -
       Math.max(0, recurringTags - 1) +
       (countHits(text, keywords.shift) > 0 ? 1 : 0) +
-      (countHits(text, keywords.policy) > 0 ? 1 : 0)
+      (countHits(text, keywords.policy) > 0 ? 1 : 0) +
+      (developmentPreference >= 5 ? 1 : 0) -
+      (isVendorThoughtLeadership(story) ? 2 : isVendorAnnouncement(story) ? 1 : 0)
   );
 
   const priority_breakdown = {
@@ -719,16 +727,29 @@ function scoreStory(
     relevance,
     distinctiveness
   };
+  const sourceDevelopmentAdjustment =
+    story.beat === "ai_tech"
+      ? developmentPreference >= 6
+        ? 12
+        : developmentPreference >= 3
+          ? 8
+          : developmentPreference >= 1
+            ? -2
+            : developmentPreference < 0
+              ? developmentPreference * 4
+              : 0
+      : 0;
   const priority_score =
     (priority_breakdown.immediacy +
       priority_breakdown.impact +
       priority_breakdown.continuity +
       priority_breakdown.relevance +
       priority_breakdown.distinctiveness) *
-    4;
+      4 +
+    sourceDevelopmentAdjustment;
 
   return {
-    priority_score,
+    priority_score: Math.max(0, priority_score),
     priority_breakdown
   };
 }

@@ -1,4 +1,9 @@
 import { sourceWeightByName } from "../config/ranking.js";
+import {
+  isVendorAnnouncement,
+  isVendorThoughtLeadership,
+  technologyDevelopmentPreferenceScore
+} from "./technology-source-priority.js";
 import type { NormalizedStory } from "./types.js";
 
 type PriorityOutputStory = {
@@ -472,6 +477,14 @@ function buildWhyItMatters(reasons: string[]): string {
     return "This belongs in the top group because its effects reach across multiple parts of the technology ecosystem, such as businesses, governments, infrastructure operators, consumers, or regulators.";
   }
 
+  if (reasonSet.has("reported_or_regulatory_development")) {
+    return "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning.";
+  }
+
+  if (reasonSet.has("reported_material_development")) {
+    return "This matters because it is a concrete development in infrastructure, deployment, market behavior, or investment rather than vendor commentary.";
+  }
+
   if (reasonSet.has("systemic_importance")) {
     return "This matters because it changes how technology is used, secured, regulated, funded, or delivered beyond a single vendor announcement.";
   }
@@ -564,6 +577,14 @@ function buildSecondaryNote(reasons: string[]): string {
 
   if (reasons.includes("broad_ecosystem_impact")) {
     return "Useful because it has broad practical impact across the technology ecosystem.";
+  }
+
+  if (reasons.includes("reported_or_regulatory_development")) {
+    return "Useful as a reported or official development rather than vendor-authored positioning.";
+  }
+
+  if (reasons.includes("reported_material_development")) {
+    return "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment.";
   }
 
   if (reasons.includes("systemic_importance")) {
@@ -716,6 +737,21 @@ function scoreStory(
   const text = `${story.title} ${story.summary ?? ""}`;
   const reasons: string[] = [];
   let score = 0;
+  const developmentPreference = technologyDevelopmentPreferenceScore(story);
+
+  if (developmentPreference >= 6) {
+    score += 4;
+    reasons.push("reported_or_regulatory_development");
+  } else if (developmentPreference >= 3) {
+    score += 2.5;
+    reasons.push("reported_material_development");
+  } else if (developmentPreference >= 1) {
+    score += 0.5;
+    reasons.push("vendor_announcement_supporting_signal");
+  } else if (developmentPreference < 0) {
+    score += developmentPreference;
+    reasons.push("vendor_authored_context");
+  }
 
   if (
     countKeywordHits(text, IMPACT_KEYWORDS.major_ai_company) > 0 &&
@@ -840,6 +876,16 @@ function scoreStory(
   ) {
     score -= 3;
     reasons.push("routine_launch_without_broader_impact");
+  }
+
+  if (isVendorAnnouncement(story)) {
+    score -= 1.5;
+    reasons.push("vendor_announcement_demoted");
+  }
+
+  if (isVendorThoughtLeadership(story)) {
+    score -= 4;
+    reasons.push("vendor_thought_leadership_demoted");
   }
 
   if (

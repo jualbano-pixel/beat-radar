@@ -4,6 +4,10 @@ import {
   bankingClusterKey,
   bankingThemeLabel
 } from "./banking.js";
+import {
+  isVendorAuthoredTechnologyStory,
+  technologyDevelopmentPreferenceScore
+} from "./technology-source-priority.js";
 import type {
   ClusterKind,
   ClusterAssociatedStory,
@@ -1005,6 +1009,13 @@ function bankingClusterCompressionLine(
 
 function pickLeadStory(stories: ClusterStory[]): ClusterStory {
   return [...stories].sort((left, right) => {
+    const developmentDelta =
+      technologyDevelopmentPreferenceScore(right.story) -
+      technologyDevelopmentPreferenceScore(left.story);
+    if (developmentDelta !== 0) {
+      return developmentDelta;
+    }
+
     const priorityDelta =
       (right.story.priority_score ?? 0) - (left.story.priority_score ?? 0);
     if (priorityDelta !== 0) {
@@ -1029,6 +1040,13 @@ function pickLeadStory(stories: ClusterStory[]): ClusterStory {
       (sourceWeightByName[left.story.source] ?? 0);
     if (sourceDelta !== 0) {
       return sourceDelta;
+    }
+
+    if (
+      isVendorAuthoredTechnologyStory(left.story) !==
+      isVendorAuthoredTechnologyStory(right.story)
+    ) {
+      return isVendorAuthoredTechnologyStory(left.story) ? 1 : -1;
     }
 
     return left.index - right.index;
@@ -1993,7 +2011,16 @@ function buildThemeClusters(
       }
 
       const topStoryRefs = [...entry.stories]
-        .sort((left, right) => (right.priority_score ?? 0) - (left.priority_score ?? 0))
+        .sort((left, right) => {
+          const developmentDelta =
+            technologyDevelopmentPreferenceScore(right) -
+            technologyDevelopmentPreferenceScore(left);
+          if (developmentDelta !== 0) {
+            return developmentDelta;
+          }
+
+          return (right.priority_score ?? 0) - (left.priority_score ?? 0);
+        })
         .slice(0, 3)
         .map((story) => story.id);
 
@@ -2012,9 +2039,16 @@ function buildThemeClusters(
         cluster_ids: [...entry.cluster_ids],
         story_ids: [...entry.story_ids],
         associated_stories: associatedStories(
-          [...entry.stories].sort((left, right) =>
-            (right.priority_score ?? 0) - (left.priority_score ?? 0)
-          )
+          [...entry.stories].sort((left, right) => {
+            const developmentDelta =
+              technologyDevelopmentPreferenceScore(right) -
+              technologyDevelopmentPreferenceScore(left);
+            if (developmentDelta !== 0) {
+              return developmentDelta;
+            }
+
+            return (right.priority_score ?? 0) - (left.priority_score ?? 0);
+          })
         ),
         dominant_reason_codes: [...reasonCounts.entries()]
           .sort((left, right) => right[1] - left[1])
