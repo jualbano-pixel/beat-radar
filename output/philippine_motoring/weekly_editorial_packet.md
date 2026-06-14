@@ -1,59 +1,41 @@
 # Weekly Editorial Packet — Philippine Motoring
 
-Week of 2026-06-01
+Week of 2026-06-08
 
 ## Editorial Read
 
 - Shell's P5/L gasoline and P3/L diesel discount makes affordability concrete this week, especially for motorists and operators who feel fuel costs immediately.
-- Changan owner support, charging stories, and new PHEV arrivals make the EV read about practical ownership, not just model launches.
-- The viral crash arrest gives enforcement a visible consequence, turning road discipline from background complaint into this week's concrete signal.
+- The EV signal is shifting from model arrival to whether the operating math works for cost-sensitive owners.
 - Premium SUV attention is testing aspiration at the top end while the rest of the beat is still ruled by cost and daily use.
+- Demand now has to clear the operating-cost test, not just the launch or showroom test.
 
 ## What matters most
 
-### ownership cost reality
-- Why it matters: The pressure is shifting from the purchase decision to weekly fuel exposure.
-- Pattern: The useful signal is the fuel contrast: temporary promo relief against a still-rising cost base.
-- Tension: purchase intent vs cost of use
-- Supporting stories:
-- [CAMPI sees 5-8% drop in vehicle sales this year](https://bworldonline.com/top-stories/2026/06/05/754686/campi-sees-5-8-drop-in-vehicle-sales-this-year) | BusinessWorld Online | Makes fuel-price pressure part of the buyer and operator story.
-- [Cebu Pacific bets on fuel-efficient fleet to navigate crisis](https://www.philstar.com/business/2026/06/07/2533287/cebu-pacific-bets-fuel-efficient-fleet-navigate-crisis) | Philstar Business | Shows how pump-price swings can quickly change household and fleet costs.
-
 ### pricing pressure
-- Why it matters: Fare movement matters because it shows transport costs reaching actual users.
-- Pattern: The useful signal is how transport costs change household and operator budgets.
+- Why it matters: The useful signal is the fuel contrast: temporary promo relief against a still-rising cost base.
+- Pattern: Fuel pressure matters because motorists and fleets feel it immediately in weekly use.
 - Tension: purchase intent vs cost of use
 - Supporting stories:
-- [Diesel prices seen climbing next week on Middle East uncertainty](https://business.inquirer.net/593728/diesel-prices-seen-climbing-next-week-on-middle-east-uncertainty) | Inquirer Business | Makes fuel-price pressure part of the buyer and operator story.
-- [PIMS 2026: Toyota unveils new Land Cruiser Hybrid with a P6.93-M price tag](https://www.topgear.com.ph/news/car-news/toyota-land-cruiser-hybrid-2026-pims-launch-a5361-20260604) | TopGear Philippines | Makes the affordability test visible, not just the launch claim.
+- [DOE sees oil price surges amid renewed US-Iran war](https://business.inquirer.net/595052/doe-sees-oil-price-surges-amid-renewed-us-iran-war) | Inquirer Business | Makes fuel-price pressure part of the buyer and operator story.
+- [Diesel poised for price cuts next week despite renewed ME war](https://business.inquirer.net/595078/diesel-poised-for-price-cuts-next-week-despite-renewed-me-war) | Inquirer Business | Shows how pump-price swings can quickly change household and fleet costs.
 
 ### EV transition gap
-- Why it matters: The EV signal is shifting from model arrival to whether ownership is practical.
-- Pattern: Charging access and owner support are becoming the adoption test.
+- Why it matters: Charging access and owner support are becoming the adoption test.
+- Pattern: EV availability is ahead of the everyday cost math needed for broader adoption.
 - Tension: model arrival vs practical ownership
 - Supporting stories:
-- [More EV charging projects pushed](https://business.inquirer.net/593638/more-ev-charging-projects-pushed) | Inquirer Business | Shows how electrified models are being pushed into a still-cost-sensitive market.
-- [Say hello to Audi’s newest supercar, the Nuvolari](https://www.topgear.com.ph/news/car-news/audi-nuvolari-2027-tguk-a2602-20260606-lfrm) | TopGear Philippines | Shows the premium-aspiration side of the market split.
-- [PIMS 2026: The hybrid Subaru Crosstrek e-Boxer debuts at P1.998-M](https://www.topgear.com.ph/news/car-news/subaru-crosstrek-eboxer-launch-2026-pims-a6888-20260604) | TopGear Philippines | Keeps the EV transition tied to price, range, and everyday usability.
+- [The Philippine International Motor Show had over 55,500 attendees this year](https://www.topgear.com.ph/news/industry-news/pims-2026-post-show-report-a2619-20260611) | TopGear Philippines | Makes buyer demand easier to read through pricing and product choices.
+- [The plug-in hybrid BYD Dolphin launches with 1,040km of range](https://www.topgear.com.ph/news/car-news/byd-dolphin-phev-2026-eu-launch-a6888-20260611) | TopGear Philippines | Shows how electrified models are being pushed into a still-cost-sensitive market.
 
-### regulation and enforcement
-- Why it matters: The policy read is moving from rule announcement to visible driver consequence.
-- Pattern: Enforcement matters because it changes the cost of delay, violations, and loose road behavior.
-- Tension: road behavior vs enforcement consequence
+### consumer demand shift
+- Why it matters: Honda's 12-million motorcycle milestone shows the practical end of the market still has scale.
+- Pattern: The cost of keeping a vehicle on the road is becoming harder to separate from fuel, financing, and regulation.
+- Tension: mobility need vs affordability
 - Supporting stories:
-- [The Ferrari Amalfi has received LTO homologation—PH launch imminent?](https://www.topgear.com.ph/news/car-news/ferrari-amalfi-lto-homologation-a6941-20260605) | TopGear Philippines | Shows where road rules are starting to meet actual driver behavior.
-
-### motoring market signal
-- Why it matters: The live read is what changed for motorists and operators, not just which product or promo appeared on the market.
-- Pattern: The market is starting to show what buyers can still afford, and what they will not.
-- Tension: cost vs demand
-- Supporting stories:
-- [The updated Flying Spur is the first Bentley sedan to have single headlamps since 1962](https://www.topgear.com.ph/news/car-news/bentley-flying-spur-2027-tguk-a3832-20260606) | TopGear Philippines | Adds a concrete read on buyer behavior in the Philippine motoring market.
+- [The Sealion 8 could bring three-row big-SUV goodness to the local BYD lineup](https://www.topgear.com.ph/news/car-news/byd-sealion-8-doe-recognition-a6941-20260610) | TopGear Philippines | Shows how electrified models are being pushed into a still-cost-sensitive market.
 
 ## What seems to be happening
 
-- The useful signal is the fuel contrast: temporary promo relief against a still-rising cost base.
-- The useful signal is how transport costs change household and operator budgets.
-- Charging and owner education are carrying more of the EV story.
-- Enforcement matters because it changes the cost of delay, violations, and loose road behavior.
-- The market is starting to show what buyers can still afford, and what they will not.
+- Fuel pressure matters because motorists and fleets feel it immediately in weekly use.
+- EV availability is ahead of the everyday cost math needed for broader adoption.
+- Fuel, fares, and compliance are now doing more work than sticker price.
