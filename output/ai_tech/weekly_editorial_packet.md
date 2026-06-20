@@ -1,6 +1,6 @@
 # Weekly Editorial Packet — Technology / Digital Economy
 
-Week of 2026-06-08
+Week of 2026-06-15
 
 ## Editorial Read
 
@@ -11,42 +11,42 @@ Week of 2026-06-08
 
 ## What matters most
 
+### technology investment
+- Why it matters: Vendors are pushing enterprise positioning before usage patterns, ROI, and buyer confidence have fully stabilized.
+- Pattern: Enterprise positioning is getting pushed ahead of proven demand.
+- Tension: adoption vs proof
+- Supporting stories:
+- [Solving operational problems in traditional industries: Where Tin Men Capital sees opportunities for impact](https://e27.co/tin-men-capital-interview-20260616) | e27 SEA Tech | Shows where platform control is shifting into developer workflow.
+
 ### enterprise technology adoption
 - Why it matters: Regulatory and governance pressure is starting to shape rollout decisions before operating rules are fully settled.
 - Pattern: Policy is moving faster than operating clarity.
 - Tension: policy vs execution
 - Supporting stories:
-- [Chinese cybercrime operation that used AI to scam ‘hundreds of thousands of victims’ sued by Google](https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google) | TechCrunch AI | Shows how vendors are trying to lock in enterprise trust before demand settles.
-- [The illusion of safety: What happens when LLMs say the right things for wrong reasons](https://e27.co/the-illusion-of-safety-what-happens-when-llms-say-the-right-things-for-wrong-reasons-20260606) | e27 SEA Tech | Shows how safety posture is becoming part of product strategy.
-- [GIC, Stripe back Supabase in US$500M round as AI deployment surges across SEA](https://e27.co/gic-stripe-back-supabase-in-us500m-round-as-ai-deployment-surges-across-sea-20260609) | e27 SEA Tech | Shows who is trying to lock up position before the market settles.
-- [Access OpenAI models and Codex through your Oracle cloud commitment](https://openai.com/index/openai-on-oracle-cloud) | OpenAI Blog | Makes the governance pitch part of the product story.
-
-### connectivity buildout
-- Why it matters: Connectivity buildout matters when it changes who can participate in digital services, where firms can operate, and what public services can reach.
-- Pattern: Connectivity expansion is changing access, coverage, and the geography of digital services.
-- Tension: network ambition vs useful access
-- Supporting stories:
-- [Globe restores 97% of services in quake-hit Mindanao](https://business.inquirer.net/594894/globe-restores-97-of-services-in-quake-hit-mindanao) | Inquirer Business AI/Tech | Strong local business relevance with likely downstream effects.
-
-### AI and automation adoption
-- Why it matters: Multiple players are adding capability faster than they can secure capacity, coordination, or deployment discipline.
-- Pattern: Infrastructure is scaling faster than coordination.
-- Tension: ambition vs capacity
-- Supporting stories:
-- [US Government orders Anthropic to shut down Fable 5 and Mythos 5 globally](https://technology.inquirer.net/147351/us-government-orders-anthropic-to-shut-down-fable-5-and-mythos-5-globally) | Inquirer Tech | Early sign worth tracking if repeated.
-- [WATCH: Computex 2026 was AI agents, hybrid systems, gaming](https://technology.inquirer.net/147183/watch-computex-2026-was-ai-agents-hybrid-systems-gaming) | Inquirer Tech | Shows where policy pressure is starting to change operating choices.
-- [OpenAI to acquire Ona](https://openai.com/index/openai-to-acquire-ona) | OpenAI Blog | Shows who is trying to lock up position before the market settles.
-- [OpenAI named a Leader in enterprise coding agents by Gartner](https://openai.com/index/gartner-2026-agentic-coding-leader) | OpenAI Blog | Shows how vendors are trying to lock in enterprise trust before demand settles.
+- [fileAI secures strategic investment from JR East Group’s venture arm to expand in Japan](https://e27.co/fileai-funding-20260619) | e27 SEA Tech | Shows who is trying to lock up position before the market settles.
+- [Workers sprint ahead of bosses in AI adoption in Singapore, exposing a transformation gap](https://e27.co/workers-sprint-ahead-of-bosses-in-ai-adoption-in-singapore-exposing-a-transformation-gap-20260616) | e27 SEA Tech | Makes the demand and pricing question harder to ignore.
+- [Access OpenAI models and Codex through your Oracle cloud commitment](https://openai.com/index/openai-on-oracle-cloud) | OpenAI Blog | Shows how safety posture is becoming part of product strategy.
+- [Introducing the OpenAI Partner Network](https://openai.com/index/introducing-openai-partner-network) | OpenAI Blog | Shows where the market signal is firmer than the narrative.
 
 ### digital policy pressure
 - Why it matters: Regulatory and governance pressure is starting to shape rollout decisions before operating rules are fully settled.
 - Pattern: Policy is moving faster than operating clarity.
 - Tension: policy vs execution
 - Supporting stories:
-- [Bridging the AI trust gap: Overcoming the human oversight challenge in Southeast Asia](https://e27.co/bridging-the-ai-trust-gap-overcoming-the-human-oversight-challenge-in-southeast-asia-20260603) | e27 SEA Tech | Shows where platform control is shifting into developer workflow.
-- [PH touts renewable energy, AI potential to Swedish govt – DOF](https://malaya.com.ph/business/corporate/ph-touts-renewable-energy-ai-potential-to-swedish-govt-dof) | Malaya Business AI/Tech | Shows how safety posture is becoming part of product strategy.
-- [OpenAI’s Frontier Governance Framework](https://openai.com/index/openai-frontier-governance-framework) | OpenAI Blog | Makes the governance pitch part of the product story.
-- [Our views on AI policy and political advocacy](https://openai.com/index/our-views-on-ai-policy-and-political-advocacy) | OpenAI Blog | Shows where policy pressure is starting to change operating choices.
+- [AI governance in banking operations and decisioning](https://e27.co/ai-governance-in-banking-operations-and-decisioning-20260606) | e27 SEA Tech | Shows how safety posture is becoming part of product strategy.
+- [OPINION: AI legislation taking a wrong turn in the Philippines](https://technology.inquirer.net/147400/opinion-ai-legislation-taking-a-wrong-turn-in-the-philippines) | Inquirer Tech | Shows where policy pressure is starting to change operating choices.
+- [Is the US government’s Anthropic ban accidentally helping the brand?](https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand) | TechCrunch AI | Makes the governance pitch part of the product story.
+- [The US banned Anthropic’s Fable 5 release, but the numbers don’t seem to care](https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care) | TechCrunch AI | Shows how regulation is starting to shape the playbook.
+
+### AI and automation adoption
+- Why it matters: Multiple players are adding capability faster than they can secure capacity, coordination, or deployment discipline.
+- Pattern: Infrastructure is scaling faster than coordination.
+- Tension: ambition vs capacity
+- Supporting stories:
+- [Acrab raises US$350M to advance Agentic AI compute infrastructure](https://e27.co/acrab-raises-us350m-to-advance-agentic-ai-compute-infrastructure-20260618) | e27 SEA Tech | Shows where policy pressure is starting to change operating choices.
+- [Singapore leads APAC in AI agent deployment but also in rollbacks, research finds](https://e27.co/singapore-leads-apac-in-ai-agent-deployment-but-also-in-rollbacks-research-finds-20260617) | e27 SEA Tech | Early sign worth tracking if repeated.
+- [Chinese backers move to buy Manus from Meta in potential US$2B reversal](https://e27.co/chinese-backers-move-to-buy-manus-from-meta-in-potential-us2b-reversal-20260619) | e27 SEA Tech | Shows where platform control is shifting into developer workflow.
+- [US Government orders Anthropic to shut down Fable 5 and Mythos 5 globally](https://technology.inquirer.net/147351/us-government-orders-anthropic-to-shut-down-fable-5-and-mythos-5-globally) | Inquirer Tech | Shows what the platform push looks like in practice.
 
 ## Structural shifts
 
@@ -55,19 +55,12 @@ Week of 2026-06-08
 - Pattern: Digital infrastructure demand is turning capacity, power, and location into strategic constraints.
 - Tension: digital growth vs infrastructure readiness
 - Supporting stories:
-- [Applied’s US$500M Singapore expansion tightens ties with Southeast Asia’s chip push](https://e27.co/applieds-us500m-singapore-expansion-tightens-ties-with-southeast-asias-chip-push-20260611) | e27 SEA Tech | Shows where strategy is running into execution reality.
-
-### consumer technology shift
-- Editorial note: Consumer technology is editorially useful when it shows behavior, adoption, or market share moving rather than just another device launch.
-- Pattern: Consumer technology signals matter where they reveal adoption, market share, or ecosystem direction.
-- Tension: product novelty vs behavior change
-- Supporting stories:
-- [Review: The new MacBook Pro is a Creative’s dream](https://technology.inquirer.net/147115/review-the-new-macbook-pro-is-a-creatives-dream) | Inquirer Tech | Strong local business relevance with likely downstream effects.
+- [We’re strengthening our presence in Alabama through new investments and community support.](https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026) | Google AI Blog | Shows where policy pressure is starting to change operating choices.
+- [Mini Dramas, Mini Games encourage new business models for TikTok](https://technology.inquirer.net/147477/mini-dramas-mini-games-encourage-new-business-models-for-tiktok) | Inquirer Tech | Strong local business relevance with likely downstream effects.
 
 ## What seems to be happening
 
+- Enterprise positioning is getting pushed ahead of proven demand.
 - Policy is moving faster than operating clarity.
-- Connectivity expansion is changing access, coverage, and the geography of digital services.
 - Infrastructure is scaling faster than coordination.
 - Digital infrastructure demand is turning capacity, power, and location into strategic constraints.
-- Consumer technology signals matter where they reveal adoption, market share, or ecosystem direction.
