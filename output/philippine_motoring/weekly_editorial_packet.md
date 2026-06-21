@@ -1,41 +1,47 @@
 # Weekly Editorial Packet — Philippine Motoring
 
-Week of 2026-06-08
+Week of 2026-06-15
 
 ## Editorial Read
 
 - Shell's P5/L gasoline and P3/L diesel discount makes affordability concrete this week, especially for motorists and operators who feel fuel costs immediately.
-- The EV signal is shifting from model arrival to whether the operating math works for cost-sensitive owners.
-- Premium SUV attention is testing aspiration at the top end while the rest of the beat is still ruled by cost and daily use.
+- Changan owner support, charging stories, and new PHEV arrivals make the EV read about practical ownership, not just model launches.
+- Dealer, warranty, and owner-support stories matter because they affect what ownership costs after the sale.
 - Demand now has to clear the operating-cost test, not just the launch or showroom test.
 
 ## What matters most
 
-### pricing pressure
-- Why it matters: The useful signal is the fuel contrast: temporary promo relief against a still-rising cost base.
-- Pattern: Fuel pressure matters because motorists and fleets feel it immediately in weekly use.
+### ownership cost reality
+- Why it matters: The pressure is shifting from the purchase decision to weekly fuel exposure.
+- Pattern: The useful signal is the fuel contrast: temporary promo relief against a still-rising cost base.
 - Tension: purchase intent vs cost of use
 - Supporting stories:
-- [DOE sees oil price surges amid renewed US-Iran war](https://business.inquirer.net/595052/doe-sees-oil-price-surges-amid-renewed-us-iran-war) | Inquirer Business | Makes fuel-price pressure part of the buyer and operator story.
-- [Diesel poised for price cuts next week despite renewed ME war](https://business.inquirer.net/595078/diesel-poised-for-price-cuts-next-week-despite-renewed-me-war) | Inquirer Business | Shows how pump-price swings can quickly change household and fleet costs.
+- [Fuel prices poised for another rollback](https://business.inquirer.net/596317/fuel-prices-poised-for-another-rollback) | Inquirer Business | Makes fuel-price pressure part of the buyer and operator story.
 
 ### EV transition gap
-- Why it matters: Charging access and owner support are becoming the adoption test.
-- Pattern: EV availability is ahead of the everyday cost math needed for broader adoption.
+- Why it matters: The EV signal is shifting from model arrival to whether ownership is practical.
+- Pattern: Charging access and owner support are becoming the adoption test.
 - Tension: model arrival vs practical ownership
 - Supporting stories:
-- [The Philippine International Motor Show had over 55,500 attendees this year](https://www.topgear.com.ph/news/industry-news/pims-2026-post-show-report-a2619-20260611) | TopGear Philippines | Makes buyer demand easier to read through pricing and product choices.
-- [The plug-in hybrid BYD Dolphin launches with 1,040km of range](https://www.topgear.com.ph/news/car-news/byd-dolphin-phev-2026-eu-launch-a6888-20260611) | TopGear Philippines | Shows how electrified models are being pushed into a still-cost-sensitive market.
+- [Choose your own BYD: Your guide to the BYD lineup in the Philippines](https://www.topgear.com.ph/sponsored-content/byd-cars-ph-go-electric-advcon-a6946-a6946-20260619-lfrm) | TopGear Philippines | Shows how electrified models are being pushed into a still-cost-sensitive market.
 
-### consumer demand shift
-- Why it matters: Honda's 12-million motorcycle milestone shows the practical end of the market still has scale.
-- Pattern: The cost of keeping a vehicle on the road is becoming harder to separate from fuel, financing, and regulation.
-- Tension: mobility need vs affordability
+### pricing pressure
+- Why it matters: Fuel pressure matters because motorists and fleets feel it immediately in weekly use.
+- Pattern: Shell's P5/L gasoline and P3/L diesel discount matters because the next pump-price hike is already in view.
+- Tension: purchase intent vs cost of use
 - Supporting stories:
-- [The Sealion 8 could bring three-row big-SUV goodness to the local BYD lineup](https://www.topgear.com.ph/news/car-news/byd-sealion-8-doe-recognition-a6941-20260610) | TopGear Philippines | Shows how electrified models are being pushed into a still-cost-sensitive market.
+- [Diesel rollback may reach P9.50/liter next week](https://business.inquirer.net/596026/diesel-rollback-may-reach-p9-50-liter-next-week) | Inquirer Business | Makes fuel-price pressure part of the buyer and operator story.
+
+### motoring market signal
+- Why it matters: The live read is what changed for motorists and operators, not just which product or promo appeared on the market.
+- Pattern: The market is starting to show what buyers can still afford, and what they will not.
+- Tension: cost vs demand
+- Supporting stories:
+- [VinFast’s Rentapasada program lets TNVS drivers rent a VF5 for P1,050 a day](https://www.topgear.com.ph/news/industry-news/vinfast-rentapasada-program-a6938-20260619) | TopGear Philippines | Adds a concrete read on buyer behavior in the Philippine motoring market.
 
 ## What seems to be happening
 
-- Fuel pressure matters because motorists and fleets feel it immediately in weekly use.
-- EV availability is ahead of the everyday cost math needed for broader adoption.
-- Fuel, fares, and compliance are now doing more work than sticker price.
+- The useful signal is the fuel contrast: temporary promo relief against a still-rising cost base.
+- Charging and owner education are carrying more of the EV story.
+- Shell's discount and the expected fuel hike define the cost signal.
+- The market is starting to show what buyers can still afford, and what they will not.
