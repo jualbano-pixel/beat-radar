@@ -1,47 +1,50 @@
 # Weekly Editorial Packet — Philippine Motoring
 
-Week of 2026-06-15
+Week of 2026-06-22
 
 ## Editorial Read
 
 - Shell's P5/L gasoline and P3/L diesel discount makes affordability concrete this week, especially for motorists and operators who feel fuel costs immediately.
 - Changan owner support, charging stories, and new PHEV arrivals make the EV read about practical ownership, not just model launches.
-- Dealer, warranty, and owner-support stories matter because they affect what ownership costs after the sale.
-- Demand now has to clear the operating-cost test, not just the launch or showroom test.
+- Premium SUV attention is testing aspiration at the top end while the rest of the beat is still ruled by cost and daily use.
+- PITX fee relief and fleet fuel-savings stories put operator costs on the desk alongside consumer ownership costs.
 
 ## What matters most
 
-### ownership cost reality
-- Why it matters: The pressure is shifting from the purchase decision to weekly fuel exposure.
-- Pattern: The useful signal is the fuel contrast: temporary promo relief against a still-rising cost base.
+### pricing pressure
+- Why it matters: Affordability is being tested through weekly fuel exposure, not sticker price alone.
+- Pattern: The cost of keeping a vehicle on the road is becoming harder to separate from fuel, financing, and regulation.
 - Tension: purchase intent vs cost of use
 - Supporting stories:
-- [Fuel prices poised for another rollback](https://business.inquirer.net/596317/fuel-prices-poised-for-another-rollback) | Inquirer Business | Makes fuel-price pressure part of the buyer and operator story.
+- [Airfares may get cheaper in July as fuel surcharge hits new low](https://www.philstar.com/business/2026/06/27/2538188/airfares-may-get-cheaper-july-fuel-surcharge-hits-new-low) | Philstar Business | Makes fuel-price pressure part of the buyer and operator story.
 
 ### EV transition gap
 - Why it matters: The EV signal is shifting from model arrival to whether ownership is practical.
 - Pattern: Charging access and owner support are becoming the adoption test.
 - Tension: model arrival vs practical ownership
 - Supporting stories:
-- [Choose your own BYD: Your guide to the BYD lineup in the Philippines](https://www.topgear.com.ph/sponsored-content/byd-cars-ph-go-electric-advcon-a6946-a6946-20260619-lfrm) | TopGear Philippines | Shows how electrified models are being pushed into a still-cost-sensitive market.
+- [Can this rapid-charging EV prototype convince everyone to go electric?](https://www.topgear.com.ph/features/feature-articles/shell-rapid-charging-ev-tguk-a2602-20260627-lfrm) | TopGear Philippines | Shows how electrified models are being pushed into a still-cost-sensitive market.
+- [2026 Toyota Ativ HEV review: Toyota’s most affordable hybrid tested](https://www.topgear.com.ph/videos/2026-toyota-ativ-hev-review-youtube-a2619-20260626) | TopGear Philippines | Makes the affordability test visible, not just the launch claim.
+- [Naga City redevelops national highway for active urban mobility](https://www.topgear.com.ph/mobility/naga-city-redevelops-road-active-urban-mobility-a4682-20260626) | TopGear Philippines | Adds a concrete read on buyer behavior in the Philippine motoring market.
 
-### pricing pressure
-- Why it matters: Fuel pressure matters because motorists and fleets feel it immediately in weekly use.
-- Pattern: Shell's P5/L gasoline and P3/L diesel discount matters because the next pump-price hike is already in view.
-- Tension: purchase intent vs cost of use
+### consumer demand shift
+- Why it matters: Honda's 12-million motorcycle milestone shows the practical end of the market still has scale.
+- Pattern: The demand signal is split between basic mobility and higher-end aspiration.
+- Tension: mobility need vs affordability
 - Supporting stories:
-- [Diesel rollback may reach P9.50/liter next week](https://business.inquirer.net/596026/diesel-rollback-may-reach-p9-50-liter-next-week) | Inquirer Business | Makes fuel-price pressure part of the buyer and operator story.
+- [Launching soon? The GAC E8 HEV looks set to make its PH debut](https://www.topgear.com.ph/news/car-news/gac-e8-hev-lto-homologation-a6938-20260626) | TopGear Philippines | Shows the premium-aspiration side of the market split.
+- [PH car sales report: Tesla tops BEV sales in May, VinFast still leads year-to-date](https://www.topgear.com.ph/news/industry-news/ph-car-sales-may-2026-a5361-20260625) | TopGear Philippines | Shows which vehicle segments brands think Filipino buyers will still stretch for.
 
-### motoring market signal
-- Why it matters: The live read is what changed for motorists and operators, not just which product or promo appeared on the market.
-- Pattern: The market is starting to show what buyers can still afford, and what they will not.
-- Tension: cost vs demand
+### infrastructure constraint
+- Why it matters: Traffic and road-condition stories keep the infrastructure read tied to daily travel time, health, and vehicle wear.
+- Pattern: Traffic, road hazards, and transport infrastructure are defining the daily-use limits around the vehicle market.
+- Tension: vehicle use vs road conditions
 - Supporting stories:
-- [VinFast’s Rentapasada program lets TNVS drivers rent a VF5 for P1,050 a day](https://www.topgear.com.ph/news/industry-news/vinfast-rentapasada-program-a6938-20260619) | TopGear Philippines | Adds a concrete read on buyer behavior in the Philippine motoring market.
+- [8 Electric vehicles we want to see on PH roads](https://www.topgear.com.ph/features/feature-articles/seven-evs-we-want-in-ph-2026-a6888-20260626) | TopGear Philippines | Keeps the read tied to daily travel time, road conditions, and vehicle use.
 
 ## What seems to be happening
 
-- The useful signal is the fuel contrast: temporary promo relief against a still-rising cost base.
+- Fuel, fares, and compliance are now doing more work than sticker price.
 - Charging and owner education are carrying more of the EV story.
-- Shell's discount and the expected fuel hike define the cost signal.
-- The market is starting to show what buyers can still afford, and what they will not.
+- The market is split between motorcycle scale and premium aspiration.
+- Traffic, road hazards, and transport infrastructure are defining the daily-use limits around the vehicle market.
