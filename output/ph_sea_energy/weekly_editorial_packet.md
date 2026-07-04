@@ -1,9 +1,10 @@
 # Weekly Editorial Packet — Philippine / SEA Energy
 
-Week of 2026-06-22
+Week of 2026-06-29
 
 ## Editorial Read
 
+- Fuel and policy signals are moving together, so the pressure is not just price direction but who absorbs the cost.
 - Grid and project-execution signals keep capacity risk on the desk, even when price stories dominate the week.
 
 ## What matters most
@@ -13,7 +14,8 @@ Week of 2026-06-22
 - Pattern: Grid and project execution are shaping how much capacity the system can actually use.
 - Tension: infrastructure ambition vs delivery
 - Supporting stories:
-- [Philex sets Silangan mine opening by Q3](https://www.philstar.com/business/2026/06/27/2538007/philex-sets-silangan-mine-opening-q3) | Philippine Star Business Energy | Shows how policy decisions can shift who absorbs energy costs.
+- [Pinoys overestimate their digital hygiene – survey](https://www.philstar.com/business/2026/07/05/2539817/pinoys-overestimate-their-digital-hygiene-survey) | Philippine Star Business Energy | Shows how policy decisions can shift who absorbs energy costs.
+- [MGen completes restoration of Panay coal plant unit](https://malaya.com.ph/business/corporate/mgen-completes-restoration-of-panay-coal-plant-unit) | Malaya Business | Makes the capacity and delivery constraint concrete.
 
 ## What seems to be happening
 
