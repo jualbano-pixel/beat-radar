@@ -1,0 +1,135 @@
+{
+  "top_stories": [
+    {
+      "title": "PHL auto sales rebound in May",
+      "source": "BusinessWorld Online",
+      "date": "2026-07-05T16:05:57.000Z",
+      "summary": "EVEN WITH the US-Iran war in full swing last May, local auto sales registered a hefty rebound, per the consolidated report from the Chamber of Automotive Manufacturers of the Philippines, Inc. (CAMPI) and Truck Manufacturers Association (TMA). Versus April, total May sales hiked by 24% to reach 33,532 units. Factori...",
+      "tags": [
+        "consumer_demand_shift",
+        "product_market_signal"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Four watches to get if you want to add Scandinavian style to your rotation",
+      "source": "TopGear Philippines",
+      "date": "2026-07-05T04:29:00.000Z",
+      "summary": "Prices range from around P9k to P260k",
+      "tags": [
+        "pricing_pressure",
+        "ev_transition_gap"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "This is a Ferrari 550 Maranello that’s been turned into an open-top supercar",
+      "source": "TopGear Philippines",
+      "date": "2026-07-04T00:30:00.000Z",
+      "summary": "You need to pay a hefty price to transform your donor car into one",
+      "tags": [
+        "pricing_pressure"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "The GAC Aion UT’s special introductory offer just got extended",
+      "source": "TopGear Philippines",
+      "date": "2026-07-03T06:17:00.000Z",
+      "summary": "Get up to P70,000 off this EV ’til the end of the month",
+      "tags": [
+        "ev_transition_gap"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "The Pope has electrified the Vatican City’s fleet with these Fiat Topolinos",
+      "source": "TopGear Philippines",
+      "date": "2026-07-03T05:38:00.000Z",
+      "summary": "As part of the city-state’s Ecological Conversion 2030 program",
+      "tags": [
+        "general_philippine_motoring"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "The Kia PV5 turns into a Ducati service vehicle, police car, and more at BIMOS 2026",
+      "source": "TopGear Philippines",
+      "date": "2026-07-02T17:34:00.000Z",
+      "summary": "You name it, the PV5 can probably do it",
+      "tags": [
+        "general_philippine_motoring"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Considering a new PHEV? Meet the Changan Nevo Q05",
+      "source": "TopGear Philippines",
+      "date": "2026-07-02T10:00:00.000Z",
+      "summary": "Starting at P1.259-M, it sure packs a lot",
+      "tags": [
+        "general_philippine_motoring"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Kia Sonet Pilipinas Club marks second year as the subcompact SUV breaches 10,000 unit sales",
+      "source": "TopGear Philippines",
+      "date": "2026-07-02T07:16:00.000Z",
+      "summary": "The Sonet has carved a niche for itself in the local market",
+      "tags": [
+        "consumer_demand_shift"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    }
+  ],
+  "secondary_signals": [
+    {
+      "title": "Many roads, one destination",
+      "source": "Philstar Business",
+      "date": "2026-07-05T16:00:00.000Z",
+      "summary": "Over 200 kilometers from Mactan to this municipality at the northern tip of Cebu – and back – I got a firsthand look at how Toyota Motor Philippines (TMP) is advancing its multi-pathway strategy toward cleaner mobility.",
+      "tags": [
+        "motoring_infrastructure",
+        "product_market_signal"
+      ],
+      "priority_score": -0.2,
+      "priority_reasons": [
+        "editorial_source_confirmation",
+        "minor_or_routine"
+      ],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Jaecoo opens two new dealers in Cavite as it gears up for J5 EV launch",
+      "source": "TopGear Philippines",
+      "date": "2026-07-02T04:13:00.000Z",
+      "summary": "These locations are shared with its sister brand Omoda",
+      "tags": [
+        "ev_transition_gap",
+        "product_market_signal"
+      ],
+      "priority_score": -2.6,
+      "priority_reasons": [
+        "routine_launch_without_broader_impact"
+      ],
+      "note": "Useful supporting editorial signal."
+    }
+  ]
+}

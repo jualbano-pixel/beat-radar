@@ -1,0 +1,88 @@
+[
+  {
+    "theme_id": "energy_power_costs_moving_through_recovery",
+    "theme_label": "Electricity costs are moving through rates and recovery",
+    "theme_summary": "Regulated rate, tariff, and recovery signals are changing how generation and electricity costs pass through the system.",
+    "story_count": 4,
+    "cluster_ids": [
+      "energy_002"
+    ],
+    "story_ids": [
+      "ce728811d678",
+      "ce728811d678",
+      "5c3dfc3c976a",
+      "5c3dfc3c976a"
+    ],
+    "associated_stories": [
+      {
+        "id": "ce728811d678",
+        "title": "June inflation likely eased for second month in a row — poll",
+        "url": "https://bworldonline.com/top-stories/2026/07/06/761151/june-inflation-likely-eased-for-second-month-in-a-row-poll",
+        "source": "BusinessWorld Energy",
+        "published_at": "2026-07-05T16:34:38.000Z"
+      },
+      {
+        "id": "ce728811d678",
+        "title": "June inflation likely eased for second month in a row — poll",
+        "url": "https://bworldonline.com/top-stories/2026/07/06/761151/june-inflation-likely-eased-for-second-month-in-a-row-poll",
+        "source": "BusinessWorld Energy",
+        "published_at": "2026-07-05T16:34:38.000Z"
+      },
+      {
+        "id": "5c3dfc3c976a",
+        "title": "Analysts’ June inﬂation rate estimates",
+        "url": "https://bworldonline.com/infographics/2026/07/06/761190/analysts-june-in%ef%ac%82ation-rate-estimates",
+        "source": "BusinessWorld Energy",
+        "published_at": "2026-07-05T16:01:59.000Z"
+      },
+      {
+        "id": "5c3dfc3c976a",
+        "title": "Analysts’ June inﬂation rate estimates",
+        "url": "https://bworldonline.com/infographics/2026/07/06/761190/analysts-june-in%ef%ac%82ation-rate-estimates",
+        "source": "BusinessWorld Energy",
+        "published_at": "2026-07-05T16:01:59.000Z"
+      }
+    ],
+    "dominant_reason_codes": [],
+    "dominant_angle_signals": [],
+    "top_story_refs": [
+      "ce728811d678"
+    ],
+    "theme_type": "secondary"
+  },
+  {
+    "theme_id": "energy_reliability_pressure_building",
+    "theme_label": "Reliability pressure is building in the power system",
+    "theme_summary": "Grid, outage, reserve, or alert signals point to tightening physical reliability rather than isolated operational noise.",
+    "story_count": 2,
+    "cluster_ids": [
+      "energy_001"
+    ],
+    "story_ids": [
+      "08756ada788a",
+      "08756ada788a"
+    ],
+    "associated_stories": [
+      {
+        "id": "08756ada788a",
+        "title": "Federal Land shifts 4 Pasay projects to RE",
+        "url": "https://bworldonline.com/corporate/2026/07/06/761158/federal-land-shifts-4-pasay-projects-to-re",
+        "source": "BusinessWorld Energy",
+        "published_at": "2026-07-05T16:04:43.000Z"
+      },
+      {
+        "id": "08756ada788a",
+        "title": "Federal Land shifts 4 Pasay projects to RE",
+        "url": "https://bworldonline.com/corporate/2026/07/06/761158/federal-land-shifts-4-pasay-projects-to-re",
+        "source": "BusinessWorld Energy",
+        "published_at": "2026-07-05T16:04:43.000Z"
+      }
+    ],
+    "dominant_reason_codes": [],
+    "dominant_angle_signals": [],
+    "top_story_refs": [
+      "08756ada788a"
+    ],
+    "theme_type": "secondary"
+  }
+]

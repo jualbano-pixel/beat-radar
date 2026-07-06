@@ -1,0 +1,106 @@
+[
+  {
+    "cluster_id": "energy_001",
+    "cluster_kind": "same_event",
+    "lead_story_id": "08756ada788a",
+    "story_count": 2,
+    "story_ids": [
+      "08756ada788a",
+      "08756ada788a"
+    ],
+    "story_titles": [
+      "Federal Land shifts 4 Pasay projects to RE",
+      "Federal Land shifts 4 Pasay projects to RE"
+    ],
+    "associated_stories": [
+      {
+        "id": "08756ada788a",
+        "title": "Federal Land shifts 4 Pasay projects to RE",
+        "url": "https://bworldonline.com/corporate/2026/07/06/761158/federal-land-shifts-4-pasay-projects-to-re",
+        "source": "BusinessWorld Energy",
+        "published_at": "2026-07-05T16:04:43.000Z"
+      },
+      {
+        "id": "08756ada788a",
+        "title": "Federal Land shifts 4 Pasay projects to RE",
+        "url": "https://bworldonline.com/corporate/2026/07/06/761158/federal-land-shifts-4-pasay-projects-to-re",
+        "source": "BusinessWorld Energy",
+        "published_at": "2026-07-05T16:04:43.000Z"
+      }
+    ],
+    "entities": [],
+    "event_label": "Outage, alert, or reliability stress",
+    "compression_line": "Reliability stress is visible in grid, outage, reserve, or alert signals that point to pressure on the physical power system.",
+    "priority_score": 32,
+    "editorial_bucket": "background",
+    "cluster_type": "pattern",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": [
+      "08756ada788a"
+    ],
+    "primary_theme_id": "energy_reliability_pressure_building",
+    "primary_theme_label": "Reliability pressure is building in the power system"
+  },
+  {
+    "cluster_id": "energy_002",
+    "cluster_kind": "same_event",
+    "lead_story_id": "ce728811d678",
+    "story_count": 4,
+    "story_ids": [
+      "ce728811d678",
+      "ce728811d678",
+      "5c3dfc3c976a",
+      "5c3dfc3c976a"
+    ],
+    "story_titles": [
+      "June inflation likely eased for second month in a row — poll",
+      "June inflation likely eased for second month in a row — poll",
+      "Analysts’ June inﬂation rate estimates",
+      "Analysts’ June inﬂation rate estimates"
+    ],
+    "associated_stories": [
+      {
+        "id": "ce728811d678",
+        "title": "June inflation likely eased for second month in a row — poll",
+        "url": "https://bworldonline.com/top-stories/2026/07/06/761151/june-inflation-likely-eased-for-second-month-in-a-row-poll",
+        "source": "BusinessWorld Energy",
+        "published_at": "2026-07-05T16:34:38.000Z"
+      },
+      {
+        "id": "ce728811d678",
+        "title": "June inflation likely eased for second month in a row — poll",
+        "url": "https://bworldonline.com/top-stories/2026/07/06/761151/june-inflation-likely-eased-for-second-month-in-a-row-poll",
+        "source": "BusinessWorld Energy",
+        "published_at": "2026-07-05T16:34:38.000Z"
+      },
+      {
+        "id": "5c3dfc3c976a",
+        "title": "Analysts’ June inﬂation rate estimates",
+        "url": "https://bworldonline.com/infographics/2026/07/06/761190/analysts-june-in%ef%ac%82ation-rate-estimates",
+        "source": "BusinessWorld Energy",
+        "published_at": "2026-07-05T16:01:59.000Z"
+      },
+      {
+        "id": "5c3dfc3c976a",
+        "title": "Analysts’ June inﬂation rate estimates",
+        "url": "https://bworldonline.com/infographics/2026/07/06/761190/analysts-june-in%ef%ac%82ation-rate-estimates",
+        "source": "BusinessWorld Energy",
+        "published_at": "2026-07-05T16:01:59.000Z"
+      }
+    ],
+    "entities": [],
+    "event_label": "Electricity rate, tariff, or recovery movement",
+    "compression_line": "Electricity cost recovery or tariff signals are moving through the regulated price chain rather than appearing as isolated company news.",
+    "priority_score": 24,
+    "editorial_bucket": "background",
+    "cluster_type": "pattern",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": [
+      "ce728811d678",
+      "5c3dfc3c976a",
+      "5c3dfc3c976a"
+    ],
+    "primary_theme_id": "energy_power_costs_moving_through_recovery",
+    "primary_theme_label": "Electricity costs are moving through rates and recovery"
+  }
+]

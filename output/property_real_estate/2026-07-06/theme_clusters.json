@@ -1,0 +1,41 @@
+[
+  {
+    "theme_id": "cybersecurity_resilience",
+    "theme_label": "cybersecurity and resilience",
+    "theme_summary": "cybersecurity and resilience is the shared editorial thread across 2 related stories. The strongest signal is local operators exposed.",
+    "story_count": 2,
+    "cluster_ids": [],
+    "story_ids": [
+      "8bc925e00c50",
+      "b0f656b54b90"
+    ],
+    "associated_stories": [
+      {
+        "id": "b0f656b54b90",
+        "title": "GSIS snapping up hundreds of millions of Citicore shares",
+        "url": "https://mb.com.ph/article/10925034/business/the-stock-market/gsis-snapping-up-hundreds-of-millions-of-citicore-shares",
+        "source": "Manila Bulletin Business Property",
+        "published_at": "2026-07-03T04:13:00.000Z"
+      },
+      {
+        "id": "8bc925e00c50",
+        "title": "Opportunities amid Volatility",
+        "url": "https://santosknightfrank.com/wp-content/uploads/2025/08/SKF-1H-2025_Opportunities-Amid-Volatility-Final-Compressed.pdf",
+        "source": "Santos Knight Frank Market Reports",
+        "published_at": "2025-08-21T01:49:24.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "policy_regulatory_move"
+    ],
+    "dominant_angle_signals": [
+      "local operators exposed",
+      "safety pressure building",
+      "supply risk rising"
+    ],
+    "top_story_refs": [
+      "b0f656b54b90",
+      "8bc925e00c50"
+    ]
+  }
+]

@@ -1,0 +1,309 @@
+{
+  "top_stories": [
+    {
+      "title": "BSP Statement",
+      "source": "Bangko Sentral ng Pilipinas",
+      "date": "2026-06-26T08:50:34.000Z",
+      "summary": "PDate: 6/26/2026 Content: ​The BSP notes Fitch’s assessment and continues to closely monitor risks to credit quality, profitability, liquidity, and capital adequacy. Philippine banks remain well positioned to withstand potential shocks, supported by ample liquidity, adequate capital buffers, and manageable asset qua...",
+      "tags": [
+        "banking_lending",
+        "banking_liquidity",
+        "banking_funding",
+        "banking_regulation",
+        "banking_preserving",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_driver_institution",
+        "banking_regulator"
+      ],
+      "priority_score": 14.2,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "banking_deposit_funding_signal",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+    },
+    {
+      "title": "Banking system raises ‘caution flag’ as bad loans hit ₱601 billion",
+      "source": "Manila Bulletin Business",
+      "date": "2026-07-03T05:38:00.000Z",
+      "summary": "Philippine banks’ bad loan ratio further deteriorated to 3.44 percent as of end-May, marking a nine-month high as borrowers struggled to settle loans due to elevated borrowing and business costs. The latest Bangko Sentral ng Pilipinas (BSP) data showed that the banking industry’s gross non-performing loan (NPL) rati...",
+      "tags": [
+        "banking_lending",
+        "banking_risk",
+        "banking_regulation",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_driver_institution",
+        "banking_regulator"
+      ],
+      "priority_score": 13.85,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "banking_risk_signal",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+    },
+    {
+      "title": "IFC eyes wider MSME credit access in Philippines",
+      "source": "Manila Bulletin Business",
+      "date": "2026-07-03T09:47:00.000Z",
+      "summary": "International Finance Corp. (IFC), the World Bank Group’s (WBG) private-sector arm, is supporting a new initiative to expand lending to micro, small, and medium enterprises (MSMEs) in the Philippines, particularly in underserved areas outside Metro Manila, as part of efforts to improve financial inclusion and genera...",
+      "tags": [
+        "banking_lending",
+        "banking_rising",
+        "banking_system",
+        "banking_driver_institution",
+        "banking_multilateral"
+      ],
+      "priority_score": 13.6,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because it shows banks changing behavior through lending, liquidity, risk appetite, or pricing."
+    },
+    {
+      "title": "Monetary Board raises target RRP Rate by 25 basis points",
+      "source": "Bangko Sentral ng Pilipinas",
+      "date": "2026-06-18T06:14:12.000Z",
+      "summary": "PDate: 6/18/2026 Content: ​At its monetary policy meeting today, the Monetary Board decided to raise the BSP’s Target Reverse Repurchase (RRP) Rate by 25 basis points to 4.75 percent. The interest rates on the overnight deposit and lending facilities were adjusted to 4.25 percent and 5.25 percent, respectively. Infl...",
+      "tags": [
+        "banking_lending",
+        "banking_deposits",
+        "banking_regulation",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_driver_market",
+        "banking_regulator"
+      ],
+      "priority_score": 12.7,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "banking_deposit_funding_signal",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+    },
+    {
+      "title": "A new BSP publication: Risk and Resilience in the Philippine Financial System",
+      "source": "BusinessWorld Banking",
+      "date": "2026-07-05T16:04:02.000Z",
+      "summary": "I recently came across an interview with Mervyn King, former Governor of the Bank of England, in Central Banking magazine (“Mervyn King on his career and big ‘mistakes’,” Central Banking). Looking back on the Global Financial Crisis (GFC), he said that the problem was not only the scale of the threat facing major ba...",
+      "tags": [
+        "banking_risk",
+        "banking_regulation",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_driver_institution",
+        "banking_regulator"
+      ],
+      "priority_score": 12.55,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "banking_risk_signal",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+    },
+    {
+      "title": "BSP extends maximum repayment period for salary-based loans to seven years",
+      "source": "Bangko Sentral ng Pilipinas",
+      "date": "2026-06-19T07:05:25.000Z",
+      "summary": "PDate: 6/19/2026 Content: ​The Bangko Sentral ng Pilipinas (BSP) has raised the maximum repayment period for salary-based consumption loans to seven years. This applies to all borrowers, including teachers and other employees. The longer period makes loans easier to repay while still encouraging responsible borrowin...",
+      "tags": [
+        "banking_lending",
+        "banking_regulation",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_regulator"
+      ],
+      "priority_score": 11.95,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+    },
+    {
+      "title": "HSBC, Standard Chartered weigh significant risk transfers as Asia-linked deals ramp up",
+      "source": "The Business Times Banking",
+      "date": "2026-07-03T11:11:26.000Z",
+      "summary": "Such moves allow banks to manage default risk on loan books, boost solvency ratios, free up regulatory capital",
+      "tags": [
+        "banking_lending",
+        "banking_risk",
+        "banking_regulation",
+        "banking_system",
+        "banking_driver_institution",
+        "banking_driver_regional",
+        "banking_private_bank"
+      ],
+      "priority_score": 11.85,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "banking_risk_signal",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+    },
+    {
+      "title": "BSP holding up digital bank approvals on rules mismatch",
+      "source": "Manila Bulletin Business",
+      "date": "2026-07-05T16:00:00.000Z",
+      "summary": "The Bangko Sentral ng Pilipinas (BSP) is delaying the selection of four new digital banking players as it seeks to reconcile conflicting regulatory tracks for different types of applicants. While the market anticipated the entry of the new digital lenders as early as the first quarter, BSP Governor Eli Remolona Jr....",
+      "tags": [
+        "banking_regulation",
+        "banking_digital_shift",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_driver_market",
+        "banking_driver_institution",
+        "banking_regulator"
+      ],
+      "priority_score": 11.8,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+    }
+  ],
+  "secondary_signals": [
+    {
+      "title": "Panuntunan ng BSP hinggil sa mas mahigpit na authentication, pinapalakas ang proteksyon sa transakysong digital",
+      "source": "Bangko Sentral ng Pilipinas",
+      "date": "2026-06-29T03:48:10.000Z",
+      "summary": "PDate: 6/24/2026 Content: ​Mas protektado na ang mga gumagamit ng digital banking services laban sa panloloko at sa mga sumusubok pumasok sa kanilang account nang walang pahintulot. Ito ay dahil sa pagpapatupad ng BSP-supervised financial institutions (BSFIs) ng mas ligtas na mga hakbang sa pagberipika ng pagkakakil...",
+      "tags": [
+        "banking_regulation",
+        "banking_digital_shift",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_regulator"
+      ],
+      "priority_score": 11.4,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful supporting signal on banking-system behavior."
+    },
+    {
+      "title": "BSP, pinahaba hanggang pitong taon ang pagbabayad ng mga pautang na nakabatay sa sahod",
+      "source": "Bangko Sentral ng Pilipinas",
+      "date": "2026-06-25T01:20:52.000Z",
+      "summary": "PDate: 6/19/2026 Content: ​Pinahaba ng Bangko Sentral ng Pilipinas (BSP) hanggang pitong taon ang panahon ng pagbabayad para sa mga salary-based general-purpose consumption loan (SBGPCL). Saklaw nito ang lahat ng borrowers, kabilang ang mga guro at iba pang empleyado. Layunin nitong gawing mas magaan ang pagbabayad...",
+      "tags": [
+        "banking_lending",
+        "banking_regulation",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_regulator"
+      ],
+      "priority_score": 11.2,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful supporting signal on banking-system behavior."
+    },
+    {
+      "title": "BSP rule on stronger authentication strengthens user protection",
+      "source": "Bangko Sentral ng Pilipinas",
+      "date": "2026-06-24T08:10:35.000Z",
+      "summary": "PDate: 6/24/2026 Content: ​Users of digital banking services are now better protected from fraud and unauthorized account access as Bangko Sentral ng Pilipinas (BSP)-supervised financial institutions (BSFIs) implement more secure authentication measures. The BSP last year required covered BSFIs to replace SMS- and e...",
+      "tags": [
+        "banking_regulation",
+        "banking_digital_shift",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_regulator"
+      ],
+      "priority_score": 11.2,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful supporting signal on banking-system behavior."
+    },
+    {
+      "title": "DBS completes US$1 billion significant risk transfer deal, a first for Singapore bank",
+      "source": "The Business Times Banking",
+      "date": "2026-06-30T03:00:00.000Z",
+      "summary": "It gives investors exposure to a corporate loan portfolio, while freeing up regulatory capital for the lender",
+      "tags": [
+        "banking_lending",
+        "banking_risk",
+        "banking_regulation",
+        "banking_single_bank",
+        "banking_driver_institution",
+        "banking_driver_regional",
+        "banking_private_bank"
+      ],
+      "priority_score": 11.15,
+      "priority_reasons": [
+        "banking_weak_cluster_signal",
+        "banking_policy_pressure",
+        "banking_risk_signal",
+        "editorial_source_confirmation"
+      ],
+      "note": "Weak but relevant banking signal retained because it may cluster into a larger pattern."
+    },
+    {
+      "title": "BSP, nagbigay ng pansamantalang relief sa mga bangko, quasi-banks",
+      "source": "Bangko Sentral ng Pilipinas",
+      "date": "2026-06-25T10:32:06.000Z",
+      "summary": "PDate: 6/23/2026 Content: ​Nagbigay ang Bangko Sentral ng Pilipinas (BSP) ng pansamantalang regulatory relief sa mga bangko at quasi-banks upang makatulong na mabawasan ang epekto ng mga biglaang pagbabago sa merkado dulot ng kaguluhan sa Gitnang Silangan. Sa ilalim ng BSP Memorandum Blg. 2026-027, maaaring pansaman...",
+      "tags": [
+        "banking_regulation",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_driver_institution",
+        "banking_regulator"
+      ],
+      "priority_score": 10.2,
+      "priority_reasons": [
+        "banking_weak_cluster_signal",
+        "banking_policy_pressure",
+        "editorial_source_confirmation"
+      ],
+      "note": "Weak but relevant banking signal retained because it may cluster into a larger pattern."
+    },
+    {
+      "title": "BSP grants temporary relief to banks, quasi-banks",
+      "source": "Bangko Sentral ng Pilipinas",
+      "date": "2026-06-23T02:26:08.000Z",
+      "summary": "PDate: 6/23/2026 Content: ​The Bangko Sentral ng Pilipinas (BSP) has granted temporary regulatory relief to banks and quasi-banks to help cushion the impact of market volatility arising from the Middle East conflict. Under BSP Memorandum No. 2026-027, banks and quasi-banks may temporarily exclude from the computatio...",
+      "tags": [
+        "banking_regulation",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_driver_market",
+        "banking_driver_institution",
+        "banking_regulator"
+      ],
+      "priority_score": 10.2,
+      "priority_reasons": [
+        "banking_weak_cluster_signal",
+        "banking_policy_pressure",
+        "editorial_source_confirmation"
+      ],
+      "note": "Weak but relevant banking signal retained because it may cluster into a larger pattern."
+    }
+  ]
+}

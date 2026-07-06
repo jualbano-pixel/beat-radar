@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.renderWeeklyEditorialPacketMarkdown = renderWeeklyEditorialPacketMarkdown;
 exports.buildWeeklyEditorialPacket = buildWeeklyEditorialPacket;
+const technology_source_priority_js_1 = require("./technology-source-priority.js");
 const THEME_RULES = {
     models: ["ai_models", "model_or_platform_change", "foundational_research"],
     infra: ["ai_infra", "infrastructure_move"],
@@ -848,6 +849,11 @@ function buildEditorialWhyLineForLabel(label, reasonCodes, angles, reasonKept) {
 function pickSupportingStories(stories, limit) {
     return [...stories]
         .sort((left, right) => {
+        const developmentDelta = (0, technology_source_priority_js_1.technologyDevelopmentPreferenceScore)(right) -
+            (0, technology_source_priority_js_1.technologyDevelopmentPreferenceScore)(left);
+        if (developmentDelta !== 0) {
+            return developmentDelta;
+        }
         const priorityDelta = (right.priority_score ?? 0) - (left.priority_score ?? 0);
         if (priorityDelta !== 0) {
             return priorityDelta;
@@ -1736,9 +1742,14 @@ function buildStoryBriefItem(label, stories) {
         : 0;
     const vendorHeavyAiPenalty = uniqueStories.some((story) => story.beat === "ai_tech") &&
         (normalizedLabel.includes("ai and automation") || normalizedLabel.includes("enterprise technology")) &&
-        uniqueStories.filter((story) => ["OpenAI Blog", "Microsoft Blog AI", "TechCrunch AI", "Google AI Blog"].includes(story.source)).length > uniqueStories.length / 2
+        uniqueStories.filter(technology_source_priority_js_1.isVendorAuthoredTechnologyStory).length > uniqueStories.length / 2
         ? 8
         : 0;
+    const reportedDevelopmentBoost = uniqueStories.some((story) => (0, technology_source_priority_js_1.technologyDevelopmentPreferenceScore)(story) >= 6)
+        ? 6
+        : uniqueStories.some((story) => (0, technology_source_priority_js_1.technologyDevelopmentPreferenceScore)(story) >= 3)
+            ? 3
+            : 0;
     const hardSignalBoost = uniqueStories.some((story) => story.property_filter?.editorial_bucket === "core_signal" ||
         story.ai_tech_filter?.editorial_bucket === "core_signal" ||
         story.energy_filter?.importance_tier === "high" ||
@@ -1759,6 +1770,7 @@ function buildStoryBriefItem(label, stories) {
             Math.min(uniqueStories.length, 4) +
             propertyScoreBoost +
             technologySystemBoost +
+            reportedDevelopmentBoost +
             hardSignalBoost -
             interpretationPenalty -
             vendorHeavyAiPenalty,

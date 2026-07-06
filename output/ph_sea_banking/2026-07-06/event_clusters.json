@@ -1,0 +1,232 @@
+[
+  {
+    "cluster_id": "banking_001",
+    "cluster_kind": "same_event",
+    "lead_story_id": "f77009c20565",
+    "story_count": 1,
+    "story_ids": [
+      "f77009c20565"
+    ],
+    "story_titles": [
+      "BSP Statement"
+    ],
+    "associated_stories": [
+      {
+        "id": "f77009c20565",
+        "title": "BSP Statement",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7956",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-06-26T08:50:34.000Z"
+      }
+    ],
+    "entities": [
+      "regulator"
+    ],
+    "event_label": "Liquidity is being preserved over growth",
+    "compression_line": "The grouped stories point to banks preserving buffers rather than stretching balance sheets for growth.",
+    "priority_score": 60,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "event",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": []
+  },
+  {
+    "cluster_id": "banking_002",
+    "cluster_kind": "same_event",
+    "lead_story_id": "7b32a924f7d3",
+    "story_count": 1,
+    "story_ids": [
+      "7b32a924f7d3"
+    ],
+    "story_titles": [
+      "IFC eyes wider MSME credit access in Philippines"
+    ],
+    "associated_stories": [
+      {
+        "id": "7b32a924f7d3",
+        "title": "IFC eyes wider MSME credit access in Philippines",
+        "url": "https://mb.com.ph/article/10925103/business/banking-finance/ifc-eyes-wider-msme-credit-access-in-philippines",
+        "source": "Manila Bulletin Business",
+        "published_at": "2026-07-03T09:47:00.000Z"
+      }
+    ],
+    "entities": [
+      "multilateral"
+    ],
+    "event_label": "Loan growth is still carrying the system",
+    "compression_line": "The cluster keeps loan growth in view, but the useful read is whether that growth is becoming harder for borrowers to carry.",
+    "priority_score": 56,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "event",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": []
+  },
+  {
+    "cluster_id": "banking_003",
+    "cluster_kind": "same_event",
+    "lead_story_id": "0b05c2853830",
+    "story_count": 6,
+    "story_ids": [
+      "0b05c2853830",
+      "af550c18ef5a",
+      "b2d6972dc706",
+      "3486a26526e6",
+      "6f23572affc1",
+      "8e1cac1c9d60"
+    ],
+    "story_titles": [
+      "Monetary Board raises target RRP Rate by 25 basis points",
+      "BSP extends maximum repayment period for salary-based loans to seven years",
+      "BSP holding up digital bank approvals on rules mismatch",
+      "Panuntunan ng BSP hinggil sa mas mahigpit na authentication, pinapalakas ang proteksyon sa transakysong digital",
+      "BSP, pinahaba hanggang pitong taon ang pagbabayad ng mga pautang na nakabatay sa sahod",
+      "BSP rule on stronger authentication strengthens user protection"
+    ],
+    "associated_stories": [
+      {
+        "id": "0b05c2853830",
+        "title": "Monetary Board raises target RRP Rate by 25 basis points",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7941",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-06-18T06:14:12.000Z"
+      },
+      {
+        "id": "af550c18ef5a",
+        "title": "BSP extends maximum repayment period for salary-based loans to seven years",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7944",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-06-19T07:05:25.000Z"
+      },
+      {
+        "id": "b2d6972dc706",
+        "title": "BSP holding up digital bank approvals on rules mismatch",
+        "url": "https://mb.com.ph/article/10925301/business/banking-finance/bsp-holding-up-digital-bank-approvals-on-rules-mismatch",
+        "source": "Manila Bulletin Business",
+        "published_at": "2026-07-05T16:00:00.000Z"
+      },
+      {
+        "id": "3486a26526e6",
+        "title": "Panuntunan ng BSP hinggil sa mas mahigpit na authentication, pinapalakas ang proteksyon sa transakysong digital",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7961",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-06-29T03:48:10.000Z"
+      },
+      {
+        "id": "6f23572affc1",
+        "title": "BSP, pinahaba hanggang pitong taon ang pagbabayad ng mga pautang na nakabatay sa sahod",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7951",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-06-25T01:20:52.000Z"
+      },
+      {
+        "id": "8e1cac1c9d60",
+        "title": "BSP rule on stronger authentication strengthens user protection",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=7950",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-06-24T08:10:35.000Z"
+      }
+    ],
+    "entities": [
+      "regulator"
+    ],
+    "event_label": "Deposit movement is on watch",
+    "compression_line": "The grouped stories point to deposit movement that could change funding cost, liquidity, or competitive behavior.",
+    "priority_score": 56,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "pattern",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": [
+      "af550c18ef5a",
+      "b2d6972dc706",
+      "3486a26526e6",
+      "6f23572affc1",
+      "8e1cac1c9d60"
+    ]
+  },
+  {
+    "cluster_id": "banking_004",
+    "cluster_kind": "same_event",
+    "lead_story_id": "d6e14aa05c17",
+    "story_count": 3,
+    "story_ids": [
+      "d6e14aa05c17",
+      "1aedca28ff6e",
+      "8b2dc883e859"
+    ],
+    "story_titles": [
+      "Banking system raises ‘caution flag’ as bad loans hit ₱601 billion",
+      "A new BSP publication: Risk and Resilience in the Philippine Financial System",
+      "HSBC, Standard Chartered weigh significant risk transfers as Asia-linked deals ramp up"
+    ],
+    "associated_stories": [
+      {
+        "id": "d6e14aa05c17",
+        "title": "Banking system raises ‘caution flag’ as bad loans hit ₱601 billion",
+        "url": "https://mb.com.ph/article/10925046/business/banking-finance/banking-system-raises-caution-flag-as-bad-loans-hit-601-billion",
+        "source": "Manila Bulletin Business",
+        "published_at": "2026-07-03T05:38:00.000Z"
+      },
+      {
+        "id": "1aedca28ff6e",
+        "title": "A new BSP publication: Risk and Resilience in the Philippine Financial System",
+        "url": "https://bworldonline.com/opinion/2026/07/06/761198/a-new-bsp-publication-risk-and-resilience-in-the-philippine-financial-system",
+        "source": "BusinessWorld Banking",
+        "published_at": "2026-07-05T16:04:02.000Z"
+      },
+      {
+        "id": "8b2dc883e859",
+        "title": "HSBC, Standard Chartered weigh significant risk transfers as Asia-linked deals ramp up",
+        "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/hsbc-standard-chartered-weigh-significant-risk-transfers-asia-linked-deals-ramp",
+        "source": "The Business Times Banking",
+        "published_at": "2026-07-03T11:11:26.000Z"
+      }
+    ],
+    "entities": [
+      "regulator",
+      "private_bank"
+    ],
+    "event_label": "Risk is starting to surface",
+    "compression_line": "Bad-loan and borrower-capacity signals suggest risk is beginning to surface beneath still-active lending.",
+    "priority_score": 60,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "pattern",
+    "cluster_classification": "secondary",
+    "primary_theme_id": "risk_surface",
+    "primary_theme_label": "Risk is starting to surface",
+    "supporting_story_ids": [
+      "1aedca28ff6e",
+      "8b2dc883e859"
+    ]
+  },
+  {
+    "cluster_id": "banking_005",
+    "cluster_kind": "same_event",
+    "lead_story_id": "a94911a076e3",
+    "story_count": 1,
+    "story_ids": [
+      "a94911a076e3"
+    ],
+    "story_titles": [
+      "DBS completes US$1 billion significant risk transfer deal, a first for Singapore bank"
+    ],
+    "associated_stories": [
+      {
+        "id": "a94911a076e3",
+        "title": "DBS completes US$1 billion significant risk transfer deal, a first for Singapore bank",
+        "url": "https://www.businesstimes.com.sg/companies-markets/dbs-completes-us1-billion-significant-risk-transfer-deal-first-singapore-bank",
+        "source": "The Business Times Banking",
+        "published_at": "2026-06-30T03:00:00.000Z"
+      }
+    ],
+    "entities": [
+      "private_bank"
+    ],
+    "event_label": "Risk is starting to surface",
+    "compression_line": "Bad-loan and borrower-capacity signals suggest risk is beginning to surface beneath still-active lending.",
+    "priority_score": 48,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "event",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": []
+  }
+]

@@ -1,0 +1,448 @@
+[
+  {
+    "theme_id": "enterprise_technology",
+    "theme_label": "enterprise technology adoption",
+    "theme_summary": "enterprise technology adoption is the shared editorial thread across 15 related stories. The strongest signal is enterprise adoption pressure rising.",
+    "story_count": 15,
+    "cluster_ids": [],
+    "story_ids": [
+      "48ba9cad33a6",
+      "9a5766087753",
+      "cc83f96e80d7",
+      "688ca223ebfe",
+      "cab6dff4c8fc",
+      "5f8ae94d3d52",
+      "4a975b89e4a0",
+      "450d5ccfb160",
+      "c000018ba1f0",
+      "4a1a2edfc53f",
+      "043e5abd4026",
+      "009f70280ebc",
+      "c17e7186c890",
+      "2e1f29b50d98",
+      "f4124bbb866e"
+    ],
+    "associated_stories": [
+      {
+        "id": "688ca223ebfe",
+        "title": "Thailand-founded Amity sets up Singapore AI hub, eyes 2027 IPO",
+        "url": "https://e27.co/thailand-founded-amity-sets-up-singapore-ai-hub-eyes-2027-ipo-20260629",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-06-29T08:21:52.000Z"
+      },
+      {
+        "id": "cc83f96e80d7",
+        "title": "Can your AI actually read your data?",
+        "url": "https://e27.co/can-your-ai-actually-read-your-data-20260628",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-06-30T01:45:05.000Z"
+      },
+      {
+        "id": "5f8ae94d3d52",
+        "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+        "url": "https://openai.com/index/hp-frontier-partnership",
+        "source": "OpenAI Blog",
+        "published_at": "2026-06-28T17:00:00.000Z"
+      },
+      {
+        "id": "009f70280ebc",
+        "title": "OpenAI to acquire Ona",
+        "url": "https://openai.com/index/openai-to-acquire-ona",
+        "source": "OpenAI Blog",
+        "published_at": "2026-06-11T00:00:00.000Z"
+      },
+      {
+        "id": "c17e7186c890",
+        "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
+        "url": "https://openai.com/index/openai-on-oracle-cloud",
+        "source": "OpenAI Blog",
+        "published_at": "2026-06-10T20:00:00.000Z"
+      },
+      {
+        "id": "4a975b89e4a0",
+        "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+        "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+        "source": "OpenAI Blog",
+        "published_at": "2026-06-21T23:00:00.000Z"
+      },
+      {
+        "id": "450d5ccfb160",
+        "title": "New usage analytics and updated spend controls for enterprises",
+        "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+        "source": "OpenAI Blog",
+        "published_at": "2026-06-18T17:00:00.000Z"
+      },
+      {
+        "id": "4a1a2edfc53f",
+        "title": "Introducing the OpenAI Partner Network",
+        "url": "https://openai.com/index/introducing-openai-partner-network",
+        "source": "OpenAI Blog",
+        "published_at": "2026-06-14T17:00:00.000Z"
+      },
+      {
+        "id": "2e1f29b50d98",
+        "title": "How Endava is redesigning software delivery around AI agents",
+        "url": "https://openai.com/index/endava-frontiers",
+        "source": "OpenAI Blog",
+        "published_at": "2026-06-04T12:00:00.000Z"
+      },
+      {
+        "id": "f4124bbb866e",
+        "title": "AI alone won’t change your business. The system running it will.",
+        "url": "https://blogs.microsoft.com/blog/2026/06/02/ai-alone-wont-change-your-business-the-system-running-it-will",
+        "source": "Microsoft Blog AI",
+        "published_at": "2026-06-02T19:00:13.000Z"
+      },
+      {
+        "id": "c000018ba1f0",
+        "title": "Predicting model behavior before release by simulating deployment",
+        "url": "https://openai.com/index/deployment-simulation",
+        "source": "OpenAI Blog",
+        "published_at": "2026-06-16T00:00:00.000Z"
+      },
+      {
+        "id": "043e5abd4026",
+        "title": "BBVA puts AI at the core of banking with OpenAI",
+        "url": "https://openai.com/index/bbva",
+        "source": "OpenAI Blog",
+        "published_at": "2026-06-11T00:00:00.000Z"
+      },
+      {
+        "id": "cab6dff4c8fc",
+        "title": "Synthetic identities now cost nothing to make, and ASEAN’s banks have not caught up",
+        "url": "https://e27.co/synthetic-identities-now-cost-nothing-to-make-and-aseans-banks-have-not-caught-up-20260619",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-06-26T01:45:25.000Z"
+      },
+      {
+        "id": "48ba9cad33a6",
+        "title": "Mini Dramas, Mini Games encourage new business models for TikTok",
+        "url": "https://technology.inquirer.net/147477/mini-dramas-mini-games-encourage-new-business-models-for-tiktok",
+        "source": "Inquirer Tech",
+        "published_at": "2026-06-18T23:39:42.000Z"
+      },
+      {
+        "id": "9a5766087753",
+        "title": "eGov app: a digital government, halfway there",
+        "url": "https://technology.inquirer.net/147360/egov-app-a-digital-government-halfway-there",
+        "source": "Inquirer Tech",
+        "published_at": "2026-06-14T20:09:08.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "developing_pattern",
+      "policy_regulatory_move",
+      "local_business_relevance"
+    ],
+    "dominant_angle_signals": [
+      "enterprise adoption pressure rising",
+      "ongoing platform expansion",
+      "investment caution showing"
+    ],
+    "top_story_refs": [
+      "688ca223ebfe",
+      "cc83f96e80d7",
+      "5f8ae94d3d52"
+    ]
+  },
+  {
+    "theme_id": "data_centers_infrastructure",
+    "theme_label": "data centers and digital infrastructure",
+    "theme_summary": "data centers and digital infrastructure is the shared editorial thread across 9 related stories. The strongest signal is infrastructure lag visible.",
+    "story_count": 9,
+    "cluster_ids": [],
+    "story_ids": [
+      "26f8d930b7f7",
+      "8dafd18ce217",
+      "1ae0dbb27415",
+      "8572f40562d4",
+      "4c8228f7f464",
+      "2333f99a059e",
+      "08b81d0f1eb9",
+      "278708794349",
+      "04c1d26ba613"
+    ],
+    "associated_stories": [
+      {
+        "id": "26f8d930b7f7",
+        "title": "AI is making your next Apple product more expensive",
+        "url": "https://technology.inquirer.net/147646/ai-is-making-your-next-apple-product-more-expensive",
+        "source": "Inquirer Tech",
+        "published_at": "2026-06-26T18:21:00.000Z"
+      },
+      {
+        "id": "8dafd18ce217",
+        "title": "The AI layoff trap points straight at Southeast Asia",
+        "url": "https://e27.co/the-ai-layoff-trap-points-straight-at-southeast-asia-20260626",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-07-01T02:30:36.000Z"
+      },
+      {
+        "id": "2333f99a059e",
+        "title": "Powering the next wave of AI: Expanding capacity with our new datacenter in Pecos",
+        "url": "https://blogs.microsoft.com/blog/2026/06/22/powering-the-next-wave-of-ai-expanding-capacity-with-our-new-datacenter-in-pecos",
+        "source": "Microsoft Blog AI",
+        "published_at": "2026-06-22T12:06:39.000Z"
+      },
+      {
+        "id": "08b81d0f1eb9",
+        "title": "We’re strengthening our presence in Alabama through new investments and community support.",
+        "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026",
+        "source": "Google AI Blog",
+        "published_at": "2026-06-15T15:00:00.000Z"
+      },
+      {
+        "id": "8572f40562d4",
+        "title": "Inside Microsoft’s two-decade push to cut water intensity while scaling for growth",
+        "url": "https://blogs.microsoft.com/blog/2026/06/24/inside-microsofts-two-decade-push-to-cut-water-intensity-while-scaling-for-growth",
+        "source": "Microsoft Blog AI",
+        "published_at": "2026-06-24T12:01:13.000Z"
+      },
+      {
+        "id": "04c1d26ba613",
+        "title": "Building the infrastructure for the Intelligence Age in Michigan",
+        "url": "https://openai.com/index/stargate-michigan-data-center",
+        "source": "OpenAI Blog",
+        "published_at": "2026-06-01T12:00:00.000Z"
+      },
+      {
+        "id": "278708794349",
+        "title": "PRC-linked influence operations are targeting AI debates in the US",
+        "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+        "source": "OpenAI Blog",
+        "published_at": "2026-06-10T12:00:00.000Z"
+      },
+      {
+        "id": "1ae0dbb27415",
+        "title": "South Korean tech giants commit over $550B to ease ‘RAMageddon’",
+        "url": "https://techcrunch.com/2026/06/29/south-korean-tech-giants-commit-over-550b-to-ease-ramageddon",
+        "source": "TechCrunch AI",
+        "published_at": "2026-06-29T18:07:48.000Z"
+      },
+      {
+        "id": "4c8228f7f464",
+        "title": "Rethinking cloud operations with agentic observability",
+        "url": "https://blogs.microsoft.com/blog/2026/06/23/rethinking-cloud-operations-with-agentic-observability",
+        "source": "Microsoft Blog AI",
+        "published_at": "2026-06-23T15:45:05.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "watchlist_signal",
+      "market_signal",
+      "local_business_relevance"
+    ],
+    "dominant_angle_signals": [
+      "infrastructure lag visible",
+      "regulation moving ahead of capacity",
+      "investment caution showing"
+    ],
+    "top_story_refs": [
+      "26f8d930b7f7",
+      "8dafd18ce217",
+      "2333f99a059e"
+    ]
+  },
+  {
+    "theme_id": "ai_automation",
+    "theme_label": "AI and automation adoption",
+    "theme_summary": "AI and automation adoption is the shared editorial thread across 4 related stories. The strongest signal is enterprise adoption pressure rising.",
+    "story_count": 4,
+    "cluster_ids": [],
+    "story_ids": [
+      "7033471efdee",
+      "ad3bafd59951",
+      "31fbe69190f1",
+      "6b6af348b158"
+    ],
+    "associated_stories": [
+      {
+        "id": "6b6af348b158",
+        "title": "AMC Robotics to build US$3.5M Vietnam factory as SEA automation race heats up",
+        "url": "https://e27.co/amc-robotics-to-build-us3-5m-vietnam-factory-as-sea-automation-race-heats-up-20260626",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-06-26T08:49:41.000Z"
+      },
+      {
+        "id": "ad3bafd59951",
+        "title": "OPINION: AI legislation taking a wrong turn in the Philippines",
+        "url": "https://technology.inquirer.net/147400/opinion-ai-legislation-taking-a-wrong-turn-in-the-philippines",
+        "source": "Inquirer Tech",
+        "published_at": "2026-06-17T12:33:40.000Z"
+      },
+      {
+        "id": "31fbe69190f1",
+        "title": "German-listed DDB acquires Singapore’s Infinium Robotics in US$24M share deal",
+        "url": "https://e27.co/german-listed-ddb-acquires-singapores-infinium-robotics-in-us24m-share-deal-20260630",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-06-30T08:38:27.000Z"
+      },
+      {
+        "id": "7033471efdee",
+        "title": "PHL posts net hot money inflow in May",
+        "url": "https://bworldonline.com/banking-finance/2026/07/01/760231/phl-posts-net-hot-money-inflow-in-may",
+        "source": "BusinessWorld AI/Tech",
+        "published_at": "2026-06-30T16:04:56.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "market_signal",
+      "policy_regulatory_move",
+      "developing_pattern"
+    ],
+    "dominant_angle_signals": [
+      "enterprise adoption pressure rising",
+      "safety pressure building",
+      "investment caution showing"
+    ],
+    "top_story_refs": [
+      "6b6af348b158",
+      "ad3bafd59951",
+      "31fbe69190f1"
+    ]
+  },
+  {
+    "theme_id": "digital_policy_regulation",
+    "theme_label": "digital policy and regulation",
+    "theme_summary": "digital policy and regulation is the shared editorial thread across 4 related stories. The strongest signal is safety pressure building.",
+    "story_count": 4,
+    "cluster_ids": [],
+    "story_ids": [
+      "2e815046d2b2",
+      "b0623e61f0dd",
+      "df48d050ae2c",
+      "4ef2b036d4be"
+    ],
+    "associated_stories": [
+      {
+        "id": "2e815046d2b2",
+        "title": "Where does the Philippines stand on AI regulation?",
+        "url": "https://technology.inquirer.net/147683/where-does-the-philippines-stand-on-ai-regulation",
+        "source": "Inquirer Tech",
+        "published_at": "2026-06-29T12:36:00.000Z"
+      },
+      {
+        "id": "b0623e61f0dd",
+        "title": "AI, data-driven governance lead discussions at DOST ASTICON 2026",
+        "url": "https://technology.inquirer.net/147658/ai-data-driven-governance-lead-discussions-at-dost-asticon-2026",
+        "source": "Inquirer Tech",
+        "published_at": "2026-06-27T01:14:11.000Z"
+      },
+      {
+        "id": "df48d050ae2c",
+        "title": "A blueprint for democratic governance of frontier AI",
+        "url": "https://openai.com/index/frontier-safety-blueprint",
+        "source": "OpenAI Blog",
+        "published_at": "2026-06-03T10:00:00.000Z"
+      },
+      {
+        "id": "4ef2b036d4be",
+        "title": "Our views on AI policy and political advocacy",
+        "url": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
+        "source": "OpenAI Blog",
+        "published_at": "2026-06-01T17:00:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "policy_regulatory_move"
+    ],
+    "dominant_angle_signals": [
+      "safety pressure building",
+      "policy pressure building",
+      "regulation moving ahead of capacity"
+    ],
+    "top_story_refs": [
+      "2e815046d2b2",
+      "b0623e61f0dd",
+      "df48d050ae2c"
+    ]
+  },
+  {
+    "theme_id": "cybersecurity_resilience",
+    "theme_label": "cybersecurity and resilience",
+    "theme_summary": "cybersecurity and resilience is the shared editorial thread across 3 related stories. The strongest signal is cyber risk affecting operations.",
+    "story_count": 3,
+    "cluster_ids": [],
+    "story_ids": [
+      "ae2edf7522ca",
+      "c2f6a0f3c6fa",
+      "30f48121decc"
+    ],
+    "associated_stories": [
+      {
+        "id": "ae2edf7522ca",
+        "title": "DICT, Google to boost AI and cybersecurity in gov’t services",
+        "url": "https://technology.inquirer.net/147606/dict-google-to-boost-ai-and-cybersecurity-in-govt-services",
+        "source": "Inquirer Tech",
+        "published_at": "2026-06-25T11:56:29.000Z"
+      },
+      {
+        "id": "c2f6a0f3c6fa",
+        "title": "The next ASEAN fintech opportunity is not payments acceptance, it’s settlement intelligence",
+        "url": "https://e27.co/the-next-asean-fintech-opportunity-is-not-payments-acceptance-its-settlement-intelligence-20260623",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-06-29T02:45:05.000Z"
+      },
+      {
+        "id": "30f48121decc",
+        "title": "Previewing GPT-5.6 Sol: a next-generation model",
+        "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+        "source": "OpenAI Blog",
+        "published_at": "2026-06-26T10:00:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "policy_regulatory_move"
+    ],
+    "dominant_angle_signals": [
+      "cyber risk affecting operations",
+      "infrastructure lag visible",
+      "competitive position shifting"
+    ],
+    "top_story_refs": [
+      "ae2edf7522ca",
+      "c2f6a0f3c6fa",
+      "30f48121decc"
+    ]
+  },
+  {
+    "theme_id": "technology_investment",
+    "theme_label": "technology investment and startups",
+    "theme_summary": "technology investment and startups is the shared editorial thread across 2 related stories. The strongest signal is investment caution showing.",
+    "story_count": 2,
+    "cluster_ids": [],
+    "story_ids": [
+      "ecd29b5bc8ba",
+      "1005aa835d17"
+    ],
+    "associated_stories": [
+      {
+        "id": "1005aa835d17",
+        "title": "How Southeast Asia’s agritech startups are turning smallholder farms into high-tech powerhouses",
+        "url": "https://e27.co/how-southeast-asias-agritech-startups-are-turning-smallholder-farms-into-high-tech-powerhouses-20250824",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-06-25T12:30:36.000Z"
+      },
+      {
+        "id": "ecd29b5bc8ba",
+        "title": "DOST partners with Japan agency for AI disaster analytics",
+        "url": "https://technology.inquirer.net/147522/dost-partners-with-japan-agency-for-ai-disaster-analytics",
+        "source": "Inquirer Tech",
+        "published_at": "2026-06-19T20:17:48.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "local_business_relevance",
+      "policy_regulatory_move"
+    ],
+    "dominant_angle_signals": [
+      "investment caution showing",
+      "competitive position shifting",
+      "safety pressure building"
+    ],
+    "top_story_refs": [
+      "1005aa835d17",
+      "ecd29b5bc8ba"
+    ]
+  }
+]

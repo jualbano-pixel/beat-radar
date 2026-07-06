@@ -1,0 +1,53 @@
+[
+  {
+    "theme_id": "risk_surface",
+    "theme_label": "Risk is starting to surface",
+    "theme_summary": "The useful signal is balance-sheet caution: bad loans, provisions, exposure, or stress are becoming harder to treat as background noise.",
+    "story_count": 3,
+    "cluster_ids": [
+      "banking_004"
+    ],
+    "story_ids": [
+      "d6e14aa05c17",
+      "1aedca28ff6e",
+      "8b2dc883e859"
+    ],
+    "associated_stories": [
+      {
+        "id": "d6e14aa05c17",
+        "title": "Banking system raises ‘caution flag’ as bad loans hit ₱601 billion",
+        "url": "https://mb.com.ph/article/10925046/business/banking-finance/banking-system-raises-caution-flag-as-bad-loans-hit-601-billion",
+        "source": "Manila Bulletin Business",
+        "published_at": "2026-07-03T05:38:00.000Z"
+      },
+      {
+        "id": "1aedca28ff6e",
+        "title": "A new BSP publication: Risk and Resilience in the Philippine Financial System",
+        "url": "https://bworldonline.com/opinion/2026/07/06/761198/a-new-bsp-publication-risk-and-resilience-in-the-philippine-financial-system",
+        "source": "BusinessWorld Banking",
+        "published_at": "2026-07-05T16:04:02.000Z"
+      },
+      {
+        "id": "8b2dc883e859",
+        "title": "HSBC, Standard Chartered weigh significant risk transfers as Asia-linked deals ramp up",
+        "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/hsbc-standard-chartered-weigh-significant-risk-transfers-asia-linked-deals-ramp",
+        "source": "The Business Times Banking",
+        "published_at": "2026-07-03T11:11:26.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "policy_regulatory_move"
+    ],
+    "dominant_angle_signals": [
+      "risk repricing visible",
+      "regulatory pressure shaping bank behavior",
+      "regional signal adds banking-system context"
+    ],
+    "top_story_refs": [
+      "d6e14aa05c17",
+      "1aedca28ff6e",
+      "8b2dc883e859"
+    ],
+    "theme_type": "secondary"
+  }
+]

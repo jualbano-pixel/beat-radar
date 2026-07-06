@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.editorialLayer = editorialLayer;
+const technology_source_priority_js_1 = require("./technology-source-priority.js");
 const AI_TECH_KEYWORDS = {
     immediacy: [
         "today",
@@ -641,6 +642,7 @@ function scoreStory(story, tagFrequency) {
     const tags = new Set(story.tags);
     const keywords = keywordsForStory(story);
     const recurringTags = story.tags.filter((tag) => (tagFrequency.get(tag) ?? 0) >= 8).length;
+    const developmentPreference = (0, technology_source_priority_js_1.technologyDevelopmentPreferenceScore)(story);
     const immediacy = scoreDimension(text, keywords.immediacy);
     const impact = scoreDimension(text, keywords.impact, tags.has("tech_infrastructure") ||
         tags.has("ai_automation") ||
@@ -655,7 +657,9 @@ function scoreStory(story, tagFrequency) {
     const distinctiveness = clampScore(5 -
         Math.max(0, recurringTags - 1) +
         (countHits(text, keywords.shift) > 0 ? 1 : 0) +
-        (countHits(text, keywords.policy) > 0 ? 1 : 0));
+        (countHits(text, keywords.policy) > 0 ? 1 : 0) +
+        (developmentPreference >= 5 ? 1 : 0) -
+        ((0, technology_source_priority_js_1.isVendorThoughtLeadership)(story) ? 2 : (0, technology_source_priority_js_1.isVendorAnnouncement)(story) ? 1 : 0));
     const priority_breakdown = {
         immediacy,
         impact,
@@ -663,14 +667,26 @@ function scoreStory(story, tagFrequency) {
         relevance,
         distinctiveness
     };
+    const sourceDevelopmentAdjustment = story.beat === "ai_tech"
+        ? developmentPreference >= 6
+            ? 12
+            : developmentPreference >= 3
+                ? 8
+                : developmentPreference >= 1
+                    ? -2
+                    : developmentPreference < 0
+                        ? developmentPreference * 4
+                        : 0
+        : 0;
     const priority_score = (priority_breakdown.immediacy +
         priority_breakdown.impact +
         priority_breakdown.continuity +
         priority_breakdown.relevance +
         priority_breakdown.distinctiveness) *
-        4;
+        4 +
+        sourceDevelopmentAdjustment;
     return {
-        priority_score,
+        priority_score: Math.max(0, priority_score),
         priority_breakdown
     };
 }

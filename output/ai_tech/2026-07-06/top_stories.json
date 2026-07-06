@@ -1,0 +1,465 @@
+{
+  "top_stories": [
+    {
+      "title": "DICT, Google to boost AI and cybersecurity in gov’t services",
+      "source": "Inquirer Tech",
+      "date": "2026-06-25T11:56:29.000Z",
+      "summary": "MANILA, Philippines – The Department of Information and Communications Technology (DICT) and Google Cloud have announced a multi-year deal to expand the usage of Artificial Intelligence and strengthen cybersecurity in Philippine government services on June 22. The partnership also aims to enhance the country’s natio...",
+      "tags": [
+        "cybersecurity",
+        "digital_policy"
+      ],
+      "priority_score": 24.7,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "infrastructure_move",
+        "policy_shift",
+        "material_technology_effect",
+        "cybersecurity_or_resilience_signal",
+        "strategic_partnership",
+        "safety_or_governance",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
+    },
+    {
+      "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
+      "source": "OpenAI Blog",
+      "date": "2026-06-10T20:00:00.000Z",
+      "summary": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
+      "tags": [
+        "ai_automation",
+        "enterprise_tech"
+      ],
+      "priority_score": 21.7,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "model_or_platform_change",
+        "infrastructure_move",
+        "policy_shift",
+        "material_technology_effect",
+        "safety_or_governance",
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the technology ecosystem, such as businesses, governments, infrastructure operators, consumers, or regulators."
+    },
+    {
+      "title": "OpenAI to acquire Ona",
+      "source": "OpenAI Blog",
+      "date": "2026-06-11T00:00:00.000Z",
+      "summary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
+      "tags": [
+        "ai_automation",
+        "enterprise_tech"
+      ],
+      "priority_score": 17.2,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "model_or_platform_change",
+        "infrastructure_move",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "strategic_finance",
+        "broad_ecosystem_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the technology ecosystem, such as businesses, governments, infrastructure operators, consumers, or regulators."
+    },
+    {
+      "title": "New broadband player enters under Konektadong Pinoy Act",
+      "source": "Philippine Star Business AI/Tech",
+      "date": "2026-07-05T16:00:00.000Z",
+      "summary": "A new internet service provider (ISP) for businesses has arrived, introducing a new challenger to the broadband segment in an initial win for the Konektadong Pinoy Act.",
+      "tags": [
+        "tech_infrastructure",
+        "telecom_connectivity"
+      ],
+      "priority_score": 16.8,
+      "priority_reasons": [
+        "reported_material_development",
+        "infrastructure_move",
+        "material_technology_effect",
+        "connectivity_expansion_signal",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because it is a concrete development in infrastructure, deployment, market behavior, or investment rather than vendor commentary."
+    },
+    {
+      "title": "Globe bets on AI to improve operations, customer experience",
+      "source": "BusinessWorld AI/Tech",
+      "date": "2026-07-05T16:03:41.000Z",
+      "summary": "GLOBE TELECOM, Inc. said it is expanding its use of artificial intelligence (AI) across its operations as it seeks to improve customer experience, strengthen network operations, and develop new products and services. Speaking at Mobile World Congress Shanghai 2026, Globe President and Chief Executive Officer Carl R....",
+      "tags": [
+        "telecom_connectivity"
+      ],
+      "priority_score": 16.3,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "connectivity_expansion_signal",
+        "enterprise_scale_signal",
+        "ph_ai_economic_transformation",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
+    },
+    {
+      "title": "OPINION: AI legislation taking a wrong turn in the Philippines",
+      "source": "Inquirer Tech",
+      "date": "2026-06-17T12:33:40.000Z",
+      "summary": "The business process outsourcing (BPO) sector — 1.57 million workers as of 2023, contributing 7.4% of GDP — faces direct displacement as AI absorbs the routine functions that had defined it: customer service, data entry, basic financial processing. The International Labor Organization estimates 89% of BPO jobs face...",
+      "tags": [
+        "enterprise_tech",
+        "digital_policy"
+      ],
+      "priority_score": 16.2,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "policy_shift",
+        "enterprise_scale_signal",
+        "ph_ai_economic_transformation",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
+    },
+    {
+      "title": "PRC-linked influence operations are targeting AI debates in the US",
+      "source": "OpenAI Blog",
+      "date": "2026-06-10T12:00:00.000Z",
+      "summary": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims about ChatGPT.",
+      "tags": [
+        "tech_infrastructure"
+      ],
+      "priority_score": 15.2,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "model_or_platform_change",
+        "infrastructure_move",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the technology ecosystem, such as businesses, governments, infrastructure operators, consumers, or regulators."
+    },
+    {
+      "title": "Where does the Philippines stand on AI regulation?",
+      "source": "Inquirer Tech",
+      "date": "2026-06-29T12:36:00.000Z",
+      "summary": "Artificial intelligence (AI) is already making decisions that impact Filipinos—in hiring, credit scoring, content moderation, and public services. Across Southeast Asia, governments are racing to put binding rules around AI. While the Philippines is actively moving in the same direction, its efforts remain scattered...",
+      "tags": [
+        "digital_policy"
+      ],
+      "priority_score": 13.9,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "policy_shift",
+        "systemic_importance",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
+    }
+  ],
+  "secondary_signals": [
+    {
+      "title": "We’re strengthening our presence in Alabama through new investments and community support.",
+      "source": "Google AI Blog",
+      "date": "2026-06-15T15:00:00.000Z",
+      "summary": "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. Operating since 2019 on a repurposed former…",
+      "tags": [
+        "tech_infrastructure"
+      ],
+      "priority_score": 13.7,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "infrastructure_move",
+        "policy_shift",
+        "material_technology_effect",
+        "strategic_finance",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Worth watching for downstream regulatory impact."
+    },
+    {
+      "title": "Predicting model behavior before release by simulating deployment",
+      "source": "OpenAI Blog",
+      "date": "2026-06-16T00:00:00.000Z",
+      "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+      "tags": [
+        "ai_automation"
+      ],
+      "priority_score": 13.2,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "model_or_platform_change",
+        "policy_shift",
+        "material_technology_effect",
+        "safety_or_governance",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "editorial_source_confirmation",
+        "vendor_announcement_demoted"
+      ],
+      "note": "Shows practical adoption or rollout worth tracking."
+    },
+    {
+      "title": "Introducing the OpenAI Partner Network",
+      "source": "OpenAI Blog",
+      "date": "2026-06-14T17:00:00.000Z",
+      "summary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 12.7,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "systemic_importance",
+        "strategic_partnership",
+        "enterprise_scale_signal",
+        "strategic_finance",
+        "practical_usability_impact",
+        "editorial_source_confirmation",
+        "vendor_announcement_demoted"
+      ],
+      "note": "Useful because it points to material technology impact beyond a single announcement."
+    },
+    {
+      "title": "Microsoft launches its own AI deployment company with $2.5 billion commitment",
+      "source": "TechCrunch AI",
+      "date": "2026-07-02T13:53:00.000Z",
+      "summary": "Microsoft follows Amazon, OpenAI, and Anthropic with its new AI deployment group.",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 12.6,
+      "priority_reasons": [
+        "reported_material_development",
+        "policy_shift",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
+    },
+    {
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "source": "OpenAI Blog",
+      "date": "2026-06-26T10:00:00.000Z",
+      "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+      "tags": [
+        "ai_automation",
+        "cybersecurity"
+      ],
+      "priority_score": 12.2,
+      "priority_reasons": [
+        "vendor_authored_context",
+        "model_or_platform_change",
+        "policy_shift",
+        "material_technology_effect",
+        "cybersecurity_or_resilience_signal",
+        "safety_or_governance",
+        "editorial_source_confirmation",
+        "minor_or_routine"
+      ],
+      "note": "Worth tracking for operating risk, compliance, or resilience implications."
+    },
+    {
+      "title": "How TransTrack is embedding AI across its products and operations",
+      "source": "e27 SEA Tech",
+      "date": "2026-06-30T10:56:13.000Z",
+      "summary": "As Indonesia continues to grapple with a persistently high rate of traffic accidents, transport technology firm TransTrack is positioning AI, telematics and data analytics as central tools for improving road safety, both for its own operations and for the customers it serves. The company’s approach was outlined duri...",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 11.9,
+      "priority_reasons": [
+        "reported_material_development",
+        "safety_or_governance",
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it has broad practical impact across the technology ecosystem."
+    },
+    {
+      "title": "AI is making your next Apple product more expensive",
+      "source": "Inquirer Tech",
+      "date": "2026-06-26T18:21:00.000Z",
+      "summary": "Apple has officially raised prices on several MacBook and iPad models worldwide, including the Philippines, after soaring memory chip costs made it increasingly difficult for the company to absorb higher production expenses. The price adjustments come as technology companies race to build AI infrastructure, driving...",
+      "tags": [
+        "tech_infrastructure"
+      ],
+      "priority_score": 11.2,
+      "priority_reasons": [
+        "reported_material_development",
+        "infrastructure_move",
+        "material_technology_effect",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
+    },
+    {
+      "title": "FEU Tech partners with OpenAI",
+      "source": "Inquirer Tech",
+      "date": "2026-06-19T14:41:13.000Z",
+      "summary": "MANILA, Philippines – The Far Eastern University Institute of Technology (FEU Tech) announced its collaboration with OpenAI as the institution moves to build an AI-native university. Students, faculty members, and staff will gain access to OpenAI’s platform and tools, including ChatGPT Edu and Codex. “AI is no longe...",
+      "tags": [
+        "ai_automation"
+      ],
+      "priority_score": 11.2,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "policy_shift",
+        "strategic_partnership",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "BBVA puts AI at the core of banking with OpenAI",
+      "source": "OpenAI Blog",
+      "date": "2026-06-11T00:00:00.000Z",
+      "summary": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 11.2,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "model_or_platform_change",
+        "material_technology_effect",
+        "strategic_partnership",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation",
+        "vendor_announcement_demoted"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "MRC Allied-backed ISP starts enterprise rollout, plans provincial expansion",
+      "source": "BusinessWorld AI/Tech",
+      "date": "2026-07-05T16:01:40.000Z",
+      "summary": "BITSTAR Telecom, Inc., an enterprise internet service provider (ISP) backed by listed holding company MRC Allied, Inc., has begun serving enterprise clients in Metro Manila and is planning to expand to other parts of the country. In a statement on Sunday, Bitstar said it has been serving enterprise customers in the...",
+      "tags": [
+        "enterprise_tech",
+        "telecom_connectivity"
+      ],
+      "priority_score": 10.8,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful as a reported or official development rather than vendor-authored positioning."
+    },
+    {
+      "title": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office",
+      "source": "TechCrunch AI",
+      "date": "2026-07-02T05:30:00.000Z",
+      "summary": "Neo is Bhavin Turakhia’s fifth venture and his latest involving enterprise software. This time he's taking on Microsoft Office and Google Apps with AI.",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 10.6,
+      "priority_reasons": [
+        "reported_material_development",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
+    },
+    {
+      "title": "Inside Microsoft’s two-decade push to cut water intensity while scaling for growth",
+      "source": "Microsoft Blog AI",
+      "date": "2026-06-24T12:01:13.000Z",
+      "summary": "As demand for cloud and AI services continues to grow, datacenters are becoming more essential than ever. Communities also want to better understand how this infrastructure affects local resources, particularly water. At Microsoft, water stewardship has been a priority since our first datacenter builds in the early...",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 10.2,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "infrastructure_move",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Shows practical adoption or rollout worth tracking."
+    },
+    {
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "source": "OpenAI Blog",
+      "date": "2026-06-21T23:00:00.000Z",
+      "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+      "tags": [
+        "ai_automation",
+        "enterprise_tech"
+      ],
+      "priority_score": 9.7,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "model_or_platform_change",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "New usage analytics and updated spend controls for enterprises",
+      "source": "OpenAI Blog",
+      "date": "2026-06-18T17:00:00.000Z",
+      "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 9.7,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "model_or_platform_change",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "Treasurer unveils AlphaLenz at Echelon Singapore 2026 to target finance and insurance automation",
+      "source": "e27 SEA Tech",
+      "date": "2026-07-02T06:19:36.000Z",
+      "summary": "Treasurer, an AI financial technology company, used Echelon Singapore 2026 to introduce AlphaLenz, its enterprise AX solution for financial and insurance institutions, as it looks to deepen its footprint across Southeast Asia’s fast-growing fintech and enterprise AI market. The company presented AlphaLenz at the two...",
+      "tags": [
+        "ai_automation",
+        "enterprise_tech"
+      ],
+      "priority_score": 9.1,
+      "priority_reasons": [
+        "reported_material_development",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
+    }
+  ]
+}

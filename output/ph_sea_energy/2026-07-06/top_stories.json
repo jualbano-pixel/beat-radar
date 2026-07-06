@@ -1,0 +1,137 @@
+{
+  "top_stories": [
+    {
+      "title": "How does the Iran crisis compare with the 1979 oil shock?",
+      "source": "Malaya Business",
+      "date": "2026-07-05T16:05:44.000Z",
+      "summary": "LONDON — The Iran war has created the largest oil supply shock ever in terms of daily production losses but the 1979 Iranian Revolution remains the biggest oil crisis by cumulative supply loss, according to Reuters calculations based on International Energy Agency, OPEC and US Department of Energy data. The scale of...",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 7.6,
+      "priority_reasons": [
+        "policy_shift",
+        "enterprise_scale_signal"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "T-bill, bond rates may be mixed on PHL inflation, Fed hike bets",
+      "source": "BusinessWorld Energy",
+      "date": "2026-07-05T16:05:45.000Z",
+      "summary": "YIELDS on the Treasury bills (T-bills) and Treasury bonds (T-bonds) up for auction this week may end mixed amid inflation and rate hike bets. The Bureau of the Treasury (BTr) will auction off up to P60 billion in T-bills on Monday, or P20 billion each in 91- and 182-day papers and P10-20 billion in 364-day […]",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 5.1,
+      "priority_reasons": [
+        "policy_shift",
+        "broader_trend"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "Federal Land shifts 4 Pasay projects to RE",
+      "source": "BusinessWorld Energy",
+      "date": "2026-07-05T16:04:43.000Z",
+      "summary": "FEDERAL LAND, Inc., the property development arm of GT Capital Holdings, Inc., has shifted four residential developments within its Metropolitan Park complex in Pasay City to 100% renewable energy (RE) under a multi-year supply agreement with ACEN Renewable Energy Solutions (ACEN RES), the retail electricity unit of...",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 2.1,
+      "priority_reasons": [
+        "practical_usability_impact",
+        "broader_trend"
+      ],
+      "why_it_matters": "This surfaced because it looks like part of a larger theme rather than a one-off. Multiple related signals suggest it has wider editorial significance."
+    },
+    {
+      "title": "June inflation likely eased for second month in a row — poll",
+      "source": "BusinessWorld Energy",
+      "date": "2026-07-05T16:34:38.000Z",
+      "summary": "PHILIPPINE INFLATION likely eased for a second straight month to a three-month low in June as lower oil and rice prices offset higher electricity rates, analysts said.",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 1.1,
+      "priority_reasons": [
+        "broader_trend"
+      ],
+      "why_it_matters": "This surfaced because it looks like part of a larger theme rather than a one-off. Multiple related signals suggest it has wider editorial significance."
+    },
+    {
+      "title": "Analysts’ June inﬂation rate estimates",
+      "source": "BusinessWorld Energy",
+      "date": "2026-07-05T16:01:59.000Z",
+      "summary": "PHILIPPINE INFLATION likely eased for a second straight month to a three-month low in June as lower oil and rice prices offset higher electricity rates, analysts said. Read the full story.",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 1.1,
+      "priority_reasons": [
+        "broader_trend"
+      ],
+      "why_it_matters": "This surfaced because it looks like part of a larger theme rather than a one-off. Multiple related signals suggest it has wider editorial significance."
+    },
+    {
+      "title": "T-bill, bond rates may be mixed on PHL inflation, Fed hike bets",
+      "source": "BusinessWorld Energy",
+      "date": "2026-07-05T16:05:45.000Z",
+      "summary": "YIELDS on the Treasury bills (T-bills) and Treasury bonds (T-bonds) up for auction this week may end mixed amid inflation and rate hike bets. The Bureau of the Treasury (BTr) will auction off up to P60 billion in T-bills on Monday, or P20 billion each in 91- and 182-day papers and P10-20 billion in 364-day […]",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 5.1,
+      "priority_reasons": [
+        "policy_shift",
+        "broader_trend"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "Federal Land shifts 4 Pasay projects to RE",
+      "source": "BusinessWorld Energy",
+      "date": "2026-07-05T16:04:43.000Z",
+      "summary": "FEDERAL LAND, Inc., the property development arm of GT Capital Holdings, Inc., has shifted four residential developments within its Metropolitan Park complex in Pasay City to 100% renewable energy (RE) under a multi-year supply agreement with ACEN Renewable Energy Solutions (ACEN RES), the retail electricity unit of...",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 2.1,
+      "priority_reasons": [
+        "practical_usability_impact",
+        "broader_trend"
+      ],
+      "why_it_matters": "This surfaced because it looks like part of a larger theme rather than a one-off. Multiple related signals suggest it has wider editorial significance."
+    },
+    {
+      "title": "June inflation likely eased for second month in a row — poll",
+      "source": "BusinessWorld Energy",
+      "date": "2026-07-05T16:34:38.000Z",
+      "summary": "PHILIPPINE INFLATION likely eased for a second straight month to a three-month low in June as lower oil and rice prices offset higher electricity rates, analysts said.",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 1.1,
+      "priority_reasons": [
+        "broader_trend"
+      ],
+      "why_it_matters": "This surfaced because it looks like part of a larger theme rather than a one-off. Multiple related signals suggest it has wider editorial significance."
+    }
+  ],
+  "secondary_signals": [
+    {
+      "title": "Analysts’ June inﬂation rate estimates",
+      "source": "BusinessWorld Energy",
+      "date": "2026-07-05T16:01:59.000Z",
+      "summary": "PHILIPPINE INFLATION likely eased for a second straight month to a three-month low in June as lower oil and rice prices offset higher electricity rates, analysts said. Read the full story.",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 1.1,
+      "priority_reasons": [
+        "broader_trend"
+      ],
+      "note": "Useful supporting signal within a broader theme."
+    }
+  ]
+}

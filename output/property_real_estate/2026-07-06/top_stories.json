@@ -1,0 +1,111 @@
+{
+  "top_stories": [
+    {
+      "title": "A Brown raises ₱4 billion from oversubscribed maiden bond offering",
+      "source": "Manila Bulletin Business Property JSON Fallback",
+      "date": "2026-07-05T16:00:00.000Z",
+      "summary": "A Brown Co. Inc. has raised ₱4 billion from its maiden fixed-rate bond issuance, which will be deployed to support the growth of its real estate and renewable energy (RE) businesses. Now listed on Philippine Dealing & Exchange Corp. (PDEx), the issuance consists of series A three-year fixed-rate...",
+      "tags": [
+        "startups_vc"
+      ],
+      "priority_score": 8.6,
+      "priority_reasons": [
+        "policy_shift",
+        "enterprise_scale_signal",
+        "practical_usability_impact"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "GSIS snapping up hundreds of millions of Citicore shares",
+      "source": "Manila Bulletin Business Property",
+      "date": "2026-07-03T04:13:00.000Z",
+      "summary": "The Government Service Insurance System (GSIS) expanded its investment in Citicore Renewable Energy Corp. (CREC) to ₱4.5 billion, completing a series of secondary-market purchases that finalized builder Megawide Construction Corp.’s exit from the solar producer. CREC disclosed to the Philippine Stock Exchange on Fri...",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 7.6,
+      "priority_reasons": [
+        "policy_shift",
+        "material_technology_effect",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "Opportunities amid Volatility",
+      "source": "Santos Knight Frank Market Reports",
+      "date": "2025-08-21T01:49:24.000Z",
+      "summary": "Opportunities amid VolatilityThe Philippine property market in 2025 faced high office vacancy rates, an oversupply of mid-market condos, and various risks stemming from both global events and local politics.Despite ongoing volatility, the Philippine property sectors have displayed remarkable resilience. Industry pla...",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 2.7,
+      "priority_reasons": [
+        "safety_or_governance",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because it affects how AI systems are governed, evaluated, or deployed responsibly. Those choices can shape the broader direction of the market."
+    },
+    {
+      "title": "VisMin emerging as key property investment hotspot—Colliers",
+      "source": "Manila Bulletin Business Property JSON Fallback",
+      "date": "2026-07-04T09:51:00.000Z",
+      "summary": "The Visayas and Mindanao (VisMin) property market is emerging as a key investment hotspot outside Metro Manila as residential expansion, outsourcing-led office demand, and rising tourism fuel growth across regional hubs, according to property consultancy Colliers Philippines. In its latest VisMin...",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 2.6,
+      "priority_reasons": [
+        "material_technology_effect"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Federal Land shifts 4 Pasay projects to RE",
+      "source": "BusinessWorld Property",
+      "date": "2026-07-05T16:04:43.000Z",
+      "summary": "FEDERAL LAND, Inc., the property development arm of GT Capital Holdings, Inc., has shifted four residential developments within its Metropolitan Park complex in Pasay City to 100% renewable energy (RE) under a multi-year supply agreement with ACEN Renewable Energy Solutions (ACEN RES), the retail electricity unit of...",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 1.8,
+      "priority_reasons": [
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Metro Manila Office Report Q3 2025",
+      "source": "Santos Knight Frank Market Reports",
+      "date": "2025-11-11T06:30:43.000Z",
+      "summary": "Metro Manila Office Report Q3 2025The Metro Manila office market in the third quarter of 2025 reflected steady adjustments to evolving workplace strategies amid tempered demand. Total office stock reached 8.9 million sqm, with new supply from Quezon City adding 72,000 sqm. Overall vacancy stood at 21.2%, while avera...",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 0.2,
+      "priority_reasons": [
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Iloilo leads provincial office take-up as outsourcing firms expand",
+      "source": "BusinessWorld Property",
+      "date": "2026-07-05T16:02:41.000Z",
+      "summary": "ILOILO emerged as the top driver of office space take-up outside Metro Manila in the first quarter (Q1) of 2026, overtaking Cebu as outsourcing firms sought skilled labor and lower operating costs in regional hubs, according to Colliers Philippines. In its report released on Friday last week, Colliers Philippines sa...",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": -2.2,
+      "priority_reasons": [
+        "editorial_source_confirmation",
+        "routine_launch_without_broader_impact"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    }
+  ],
+  "secondary_signals": []
+}

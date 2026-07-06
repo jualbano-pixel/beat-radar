@@ -1,0 +1,128 @@
+[
+  {
+    "theme_id": "ev_transition_gap",
+    "theme_label": "EV transition gap",
+    "theme_summary": "EV transition gap is the shared editorial thread across 3 related stories. The strongest signal is EV transition gap visible.",
+    "story_count": 3,
+    "cluster_ids": [],
+    "story_ids": [
+      "0906b8f949fc",
+      "6979d14c809e",
+      "6cd7bd1c1e25"
+    ],
+    "associated_stories": [
+      {
+        "id": "6cd7bd1c1e25",
+        "title": "Jaecoo opens two new dealers in Cavite as it gears up for J5 EV launch",
+        "url": "https://www.topgear.com.ph/news/industry-news/omoda-jaecoo-new-cavite-dealerships-a6941-20260702",
+        "source": "TopGear Philippines",
+        "published_at": "2026-07-02T04:13:00.000Z"
+      },
+      {
+        "id": "6979d14c809e",
+        "title": "Considering a new PHEV? Meet the Changan Nevo Q05",
+        "url": "https://www.topgear.com.ph/sponsored-content/changan-nevo-q05-styling-features-tech-2026-advcon-a6943-a6943-20260702",
+        "source": "TopGear Philippines",
+        "published_at": "2026-07-02T10:00:00.000Z"
+      },
+      {
+        "id": "0906b8f949fc",
+        "title": "The GAC Aion UT’s special introductory offer just got extended",
+        "url": "https://www.topgear.com.ph/news/industry-news/gac-aion-ut-introductory-price-extended-a6941-20260703",
+        "source": "TopGear Philippines",
+        "published_at": "2026-07-03T06:17:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "watchlist_signal",
+      "product_signal"
+    ],
+    "dominant_angle_signals": [
+      "EV transition gap visible",
+      "product launch reveals market bet"
+    ],
+    "top_story_refs": [
+      "6cd7bd1c1e25",
+      "6979d14c809e",
+      "0906b8f949fc"
+    ]
+  },
+  {
+    "theme_id": "consumer_demand_shift",
+    "theme_label": "consumer demand shift",
+    "theme_summary": "consumer demand shift is the shared editorial thread across 2 related stories. The strongest signal is consumer demand shifting by segment.",
+    "story_count": 2,
+    "cluster_ids": [],
+    "story_ids": [
+      "2c1b933f7a6c",
+      "d57e7e3d87f9"
+    ],
+    "associated_stories": [
+      {
+        "id": "2c1b933f7a6c",
+        "title": "PHL auto sales rebound in May",
+        "url": "https://bworldonline.com/velocity/2026/07/06/761034/phl-auto-sales-rebound-in-may",
+        "source": "BusinessWorld Online",
+        "published_at": "2026-07-05T16:05:57.000Z"
+      },
+      {
+        "id": "d57e7e3d87f9",
+        "title": "Kia Sonet Pilipinas Club marks second year as the subcompact SUV breaches 10,000 unit sales",
+        "url": "https://www.topgear.com.ph/news/industry-news/kia-sonet-pilipinas-club-anniversary-sales-milestone-a6941-20260702",
+        "source": "TopGear Philippines",
+        "published_at": "2026-07-02T07:16:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "local_business_relevance",
+      "market_signal"
+    ],
+    "dominant_angle_signals": [
+      "consumer demand shifting by segment",
+      "EV transition gap visible",
+      "product launch reveals market bet"
+    ],
+    "top_story_refs": [
+      "2c1b933f7a6c",
+      "d57e7e3d87f9"
+    ]
+  },
+  {
+    "theme_id": "pricing_pressure",
+    "theme_label": "pricing pressure",
+    "theme_summary": "pricing pressure is the shared editorial thread across 2 related stories. The strongest signal is pricing pressure building.",
+    "story_count": 2,
+    "cluster_ids": [],
+    "story_ids": [
+      "8258e04003d7",
+      "0bea76d59350"
+    ],
+    "associated_stories": [
+      {
+        "id": "8258e04003d7",
+        "title": "Four watches to get if you want to add Scandinavian style to your rotation",
+        "url": "https://www.topgear.com.ph/features/lifestyle/four-watches-scandinavian-style-tguk-a6942-20260705",
+        "source": "TopGear Philippines",
+        "published_at": "2026-07-05T04:29:00.000Z"
+      },
+      {
+        "id": "0bea76d59350",
+        "title": "This is a Ferrari 550 Maranello that’s been turned into an open-top supercar",
+        "url": "https://www.topgear.com.ph/news/car-news/touring-superleggera-veloce12-aperta-tguk-a2603-20260704",
+        "source": "TopGear Philippines",
+        "published_at": "2026-07-04T00:30:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "market_signal"
+    ],
+    "dominant_angle_signals": [
+      "pricing pressure building",
+      "EV transition gap visible"
+    ],
+    "top_story_refs": [
+      "8258e04003d7",
+      "0bea76d59350"
+    ]
+  }
+]
