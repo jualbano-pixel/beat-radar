@@ -1,6 +1,6 @@
 # Weekly Editorial Packet — Technology / Digital Economy
 
-Week of 2026-06-29
+Week of 2026-07-06
 
 ## Editorial Read
 
@@ -16,62 +16,43 @@ Week of 2026-06-29
 - Pattern: Policy is moving faster than operating clarity.
 - Tension: policy vs execution
 - Supporting stories:
-- [Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off](https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off) | TechCrunch AI | Shows who is trying to lock up position before the market settles.
-- [DICT, Google to boost AI and cybersecurity in gov’t services](https://technology.inquirer.net/147606/dict-google-to-boost-ai-and-cybersecurity-in-govt-services) | Inquirer Tech | Makes the strategic land grab more visible.
-- [Regulate risk, not progress, business leaders urged](https://www.philstar.com/business/2026/07/04/2539845/regulate-risk-not-progress-business-leaders-urged) | Philippine Star Business AI/Tech | Shows where policy pressure is starting to change operating choices.
-- [Where does the Philippines stand on AI regulation?](https://technology.inquirer.net/147683/where-does-the-philippines-stand-on-ai-regulation) | Inquirer Tech | Shows how regulation is starting to shape the playbook.
+- [DICT, Google to boost AI and cybersecurity in gov’t services](https://technology.inquirer.net/147606/dict-google-to-boost-ai-and-cybersecurity-in-govt-services) | Inquirer Tech | Shows who is trying to lock up position before the market settles.
+- [Where does the Philippines stand on AI regulation?](https://technology.inquirer.net/147683/where-does-the-philippines-stand-on-ai-regulation) | Inquirer Tech | Shows where policy pressure is starting to change operating choices.
+- [A step-by-step framework to build your AI adoption roadmap for B2C service businesses](https://e27.co/a-step-by-step-framework-to-build-your-ai-adoption-roadmap-for-b2c-service-businesses-20260708) | e27 SEA Tech | Makes the demand and pricing question harder to ignore.
+- [When cybersecurity reminders are not enough](https://technology.inquirer.net/147808/when-cybersecurity-reminders-are-not-enough) | Inquirer Tech | Shows how safety posture is becoming part of product strategy.
 
 ### data center and cloud capacity
 - Why it matters: Data-center and cloud capacity matter because they set practical limits on deployment, cost, resilience, and energy demand.
 - Pattern: Digital infrastructure demand is turning capacity, power, and location into strategic constraints.
 - Tension: digital growth vs infrastructure readiness
 - Supporting stories:
-- [Meta, like SpaceX, looks to turn excess AI compute into cash](https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash) | TechCrunch AI | Makes the infrastructure strain visible.
-- [The AI layoff trap points straight at Southeast Asia](https://e27.co/the-ai-layoff-trap-points-straight-at-southeast-asia-20260626) | e27 SEA Tech | Shows where supply strain is starting to hit the story.
+- [Southeast Asia’s AI buildout is racing toward a power wall](https://e27.co/southeast-asias-ai-buildout-is-racing-toward-a-power-wall-20260707) | e27 SEA Tech | Shows where platform control is shifting into developer workflow.
+- [Why most enterprise AI in APAC is still stuck in the proof-of-concept room](https://e27.co/why-most-enterprise-ai-in-apac-is-still-stuck-in-the-proof-of-concept-room-20260706) | e27 SEA Tech | Shows how vendors are trying to lock in enterprise trust before demand settles.
 - [We’re strengthening our presence in Alabama through new investments and community support.](https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026) | Google AI Blog | Shows where policy pressure is starting to change operating choices.
 - [Powering the next wave of AI: Expanding capacity with our new datacenter in Pecos](https://blogs.microsoft.com/blog/2026/06/22/powering-the-next-wave-of-ai-expanding-capacity-with-our-new-datacenter-in-pecos) | Microsoft Blog AI | Shows where strategy is running into execution reality.
 
-### connectivity buildout
-- Why it matters: Connectivity buildout matters when it changes who can participate in digital services, where firms can operate, and what public services can reach.
-- Pattern: Connectivity expansion is changing access, coverage, and the geography of digital services.
-- Tension: network ambition vs useful access
-- Supporting stories:
-- [Converge, IBPAP partner to boost AI readiness in IT-BPM sector](https://bworldonline.com/corporate/2026/07/03/760817/converge-ibpap-partner-to-boost-ai-readiness-in-it-bpm-sector) | BusinessWorld AI/Tech | Shows where policy pressure is starting to change operating choices.
-- [PLDT, Smart, DITO ink infrastructure sharing deal](https://bworldonline.com/technology/2026/07/03/761017/pldt-smart-dito-ink-infrastructure-sharing-deal) | BusinessWorld AI/Tech | Strong local business relevance with likely downstream effects.
-
-### enterprise technology adoption
+### AI and automation adoption
 - Why it matters: Regulatory and governance pressure is starting to shape rollout decisions before operating rules are fully settled.
 - Pattern: Policy is moving faster than operating clarity.
 - Tension: policy vs execution
 - Supporting stories:
-- [Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office](https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office) | TechCrunch AI | Shows how vendors are trying to lock in enterprise trust before demand settles.
-- [How TransTrack is embedding AI across its products and operations](https://e27.co/how-transtrack-is-embedding-ai-across-its-products-and-operations-20260630) | e27 SEA Tech | Early sign worth tracking if repeated.
-- [HP Inc. launches Frontier strategic partnership with OpenAI](https://openai.com/index/hp-frontier-partnership) | OpenAI Blog | Shows who is trying to lock up position before the market settles.
-- [Access OpenAI models and Codex through your Oracle cloud commitment](https://openai.com/index/openai-on-oracle-cloud) | OpenAI Blog | Shows how safety posture is becoming part of product strategy.
-
-## Structural shifts
-
-### AI and automation adoption
-- Editorial note: Multiple players are adding capability faster than they can secure capacity, coordination, or deployment discipline.
-- Pattern: Infrastructure is scaling faster than coordination.
-- Tension: ambition vs capacity
-- Supporting stories:
+- [Sprouts.ai raises US$9M to build AI revenue agents for enterprise sales teams](https://e27.co/sprouts-ai-raises-us9m-to-build-ai-revenue-agents-for-enterprise-sales-teams-20260709) | e27 SEA Tech | Makes the demand and pricing question harder to ignore.
 - [AI is making your next Apple product more expensive](https://technology.inquirer.net/147646/ai-is-making-your-next-apple-product-more-expensive) | Inquirer Tech | Strong local business relevance with likely downstream effects.
-- [Treasurer unveils AlphaLenz at Echelon Singapore 2026 to target finance and insurance automation](https://e27.co/treasurer-unveils-alphalenz-at-echelon-singapore-2026-to-target-finance-and-insurance-automation-20260702) | e27 SEA Tech | Makes the demand and pricing question harder to ignore.
-- [Microsoft launches its own AI deployment company with $2.5 billion commitment](https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment) | TechCrunch AI | Shows where policy pressure is starting to change operating choices.
-- [German-listed DDB acquires Singapore’s Infinium Robotics in US$24M share deal](https://e27.co/german-listed-ddb-acquires-singapores-infinium-robotics-in-us24m-share-deal-20260630) | e27 SEA Tech | Shows who is trying to lock up position before the market settles.
+- [Why patient intake is becoming healthcare’s most important AI use case](https://e27.co/why-patient-intake-is-becoming-healthcares-most-important-ai-use-case-20260701) | e27 SEA Tech | Shows where strategy is running into execution reality.
+- [Samsung Electronics brings ChatGPT and Codex to employees](https://openai.com/index/samsung-electronics-chatgpt-codex-deployment) | OpenAI Blog | Shows how vendors are trying to lock in enterprise trust before demand settles.
 
-### technology investment
-- Editorial note: Vendors are pushing enterprise positioning before usage patterns, ROI, and buyer confidence have fully stabilized.
+### enterprise technology adoption
+- Why it matters: Vendors are pushing enterprise positioning before usage patterns, ROI, and buyer confidence have fully stabilized.
 - Pattern: Enterprise positioning is getting pushed ahead of proven demand.
 - Tension: adoption vs proof
 - Supporting stories:
-- [The next AI winners in Southeast Asia won’t be AI companies](https://e27.co/the-next-ai-winners-in-southeast-asia-wont-be-ai-companies-20260626) | e27 SEA Tech | Shows where platform control is shifting into developer workflow.
+- [Agentic AI ambitions in Singapore run into legacy systems and data quality gaps](https://e27.co/agentic-ai-ambitions-in-singapore-run-into-legacy-systems-and-data-quality-gaps-20260707) | e27 SEA Tech | Makes the demand and pricing question harder to ignore.
+- [Fidji Simo steps down from OpenAI’s No. 2 role](https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role) | TechCrunch AI | Shows where the market signal is firmer than the narrative.
+- [Singapore’s AI adoption problem is not worker resistance, but weak execution](https://e27.co/singapores-ai-adoption-problem-is-not-worker-resistance-but-weak-execution-20260708) | e27 SEA Tech | Shows how vendors are trying to lock in enterprise trust before demand settles.
+- [HP Inc. launches Frontier strategic partnership with OpenAI](https://openai.com/index/hp-frontier-partnership) | OpenAI Blog | Shows who is trying to lock up position before the market settles.
 
 ## What seems to be happening
 
 - Policy is moving faster than operating clarity.
 - Digital infrastructure demand is turning capacity, power, and location into strategic constraints.
-- Connectivity expansion is changing access, coverage, and the geography of digital services.
-- Infrastructure is scaling faster than coordination.
 - Enterprise positioning is getting pushed ahead of proven demand.

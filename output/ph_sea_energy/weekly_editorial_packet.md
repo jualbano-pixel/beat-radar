@@ -1,22 +1,29 @@
 # Weekly Editorial Packet — Philippine / SEA Energy
 
-Week of 2026-06-29
+Week of 2026-07-06
 
 ## Editorial Read
 
 - Fuel and policy signals are moving together, so the pressure is not just price direction but who absorbs the cost.
-- Grid and project-execution signals keep capacity risk on the desk, even when price stories dominate the week.
+- Supply conditions remain the constraint to watch where reserves, outages, or generation availability move.
 
 ## What matters most
 
-### grid capacity risk
-- Why it matters: Grid and project execution determine whether new capacity can actually reach users.
-- Pattern: Grid and project execution are shaping how much capacity the system can actually use.
-- Tension: infrastructure ambition vs delivery
+### energy price pressure
+- Why it matters: Energy-price pressure feeds through to households, operators, and policy decisions.
+- Pattern: Energy costs are still feeding into household and business pressure.
+- Tension: cost recovery vs affordability
 - Supporting stories:
-- [Pinoys overestimate their digital hygiene – survey](https://www.philstar.com/business/2026/07/05/2539817/pinoys-overestimate-their-digital-hygiene-survey) | Philippine Star Business Energy | Shows how policy decisions can shift who absorbs energy costs.
-- [MGen completes restoration of Panay coal plant unit](https://malaya.com.ph/business/corporate/mgen-completes-restoration-of-panay-coal-plant-unit) | Malaya Business | Makes the capacity and delivery constraint concrete.
+- [Meralco July power rate rises P0.3428/kWh on higher generation charge](https://bworldonline.com/corporate/2026/07/10/762580/meralco-july-power-rate-rises-p0-3428-kwh-on-higher-generation-charge) | BusinessWorld Energy | Adds a concrete read on price, supply, reliability, or policy pressure.
+
+### policy cost shift
+- Why it matters: Policy decisions matter because they decide whether energy pressure lands on utilities, businesses, or consumers.
+- Pattern: Policy decisions are shifting how energy costs move through utilities, businesses, and households.
+- Tension: cost recovery vs public burden
+- Supporting stories:
+- [CTA upholds partial Petron excise tax refunds in twin rulings](https://bworldonline.com/corporate/2026/07/10/762460/cta-upholds-partial-petron-excise-tax-refunds-in-twin-rulings) | BusinessWorld Energy | Adds a concrete read on price, supply, reliability, or policy pressure.
 
 ## What seems to be happening
 
-- Grid and project execution are shaping how much capacity the system can actually use.
+- Energy costs are still feeding into household and business pressure.
+- Policy decisions are shifting how energy costs move through utilities, businesses, and households.
