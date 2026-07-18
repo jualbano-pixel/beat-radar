@@ -1,29 +1,38 @@
 # Weekly Editorial Packet — Philippine / SEA Energy
 
-Week of 2026-07-06
+Week of 2026-07-13
 
 ## Editorial Read
 
 - Fuel and policy signals are moving together, so the pressure is not just price direction but who absorbs the cost.
-- Supply conditions remain the constraint to watch where reserves, outages, or generation availability move.
+- Grid and project-execution signals keep capacity risk on the desk, even when price stories dominate the week.
 
 ## What matters most
+
+### grid capacity risk
+- Why it matters: Grid and project execution determine whether new capacity can actually reach users.
+- Pattern: Grid and project execution are shaping how much capacity the system can actually use.
+- Tension: infrastructure ambition vs delivery
+- Supporting stories:
+- [WEEKENDER DIGEST](https://malaya.com.ph/weekender/weekender-digest-20) | Malaya Business | Makes the capacity and delivery constraint concrete.
+- [Repo market hits P119 billion as BSP reforms gain ground](https://www.philstar.com/business/2026/07/19/2543023/repo-market-hits-p119-billion-bsp-reforms-gain-ground) | Philippine Star Business Energy | Shows how policy decisions can shift who absorbs energy costs.
+
+### supply reliability risk
+- Why it matters: Reliability risk matters when supply tightness can turn into outages, reserves pressure, or higher prices.
+- Pattern: Supply and reserve signals are keeping reliability risk close to the surface.
+- Tension: demand needs vs available supply
+- Supporting stories:
+- [Malampaya back online after maintenance shutdown](https://www.philstar.com/business/2026/07/19/2543013/malampaya-back-online-after-maintenance-shutdown) | Philippine Star Business Energy | Adds a concrete read on price, supply, reliability, or policy pressure.
 
 ### energy price pressure
 - Why it matters: Energy-price pressure feeds through to households, operators, and policy decisions.
 - Pattern: Energy costs are still feeding into household and business pressure.
 - Tension: cost recovery vs affordability
 - Supporting stories:
-- [Meralco July power rate rises P0.3428/kWh on higher generation charge](https://bworldonline.com/corporate/2026/07/10/762580/meralco-july-power-rate-rises-p0-3428-kwh-on-higher-generation-charge) | BusinessWorld Energy | Adds a concrete read on price, supply, reliability, or policy pressure.
-
-### policy cost shift
-- Why it matters: Policy decisions matter because they decide whether energy pressure lands on utilities, businesses, or consumers.
-- Pattern: Policy decisions are shifting how energy costs move through utilities, businesses, and households.
-- Tension: cost recovery vs public burden
-- Supporting stories:
-- [CTA upholds partial Petron excise tax refunds in twin rulings](https://bworldonline.com/corporate/2026/07/10/762460/cta-upholds-partial-petron-excise-tax-refunds-in-twin-rulings) | BusinessWorld Energy | Adds a concrete read on price, supply, reliability, or policy pressure.
+- [PAGCOR hopeful of second-half gaming recovery](https://bworldonline.com/corporate/2026/07/17/764119/pagcor-hopeful-of-second-half-gaming-recovery) | BusinessWorld Energy | Adds a concrete read on price, supply, reliability, or policy pressure.
 
 ## What seems to be happening
 
+- Grid and project execution are shaping how much capacity the system can actually use.
+- Supply and reserve signals are keeping reliability risk close to the surface.
 - Energy costs are still feeding into household and business pressure.
-- Policy decisions are shifting how energy costs move through utilities, businesses, and households.
