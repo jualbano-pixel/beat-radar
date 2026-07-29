@@ -1,0 +1,169 @@
+{
+  "top_stories": [
+    {
+      "title": "Renewed Middle East conflict revives fuel excise tax suspension debate",
+      "source": "BusinessWorld Online",
+      "date": "2026-07-19T16:33:02.000Z",
+      "summary": "RENEWED UPWARD PRESSURE on global oil prices has revived calls for the Philippine government to suspend excise taxes on petroleum products, although experts remain divided on whether such a move would be effective.",
+      "tags": [
+        "pricing_pressure",
+        "ownership_cost"
+      ],
+      "priority_score": 6.6,
+      "priority_reasons": [
+        "policy_shift",
+        "material_technology_effect"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "Unioil, Aramco open first station in Sucat and bring premium fuel experience to Filipino drivers",
+      "source": "Philstar Business",
+      "date": "2026-07-20T02:00:00.000Z",
+      "summary": "Unioil Petroleum Philippines has opened the first Aramco-branded fuel station in the country.",
+      "tags": [
+        "ownership_cost",
+        "product_market_signal"
+      ],
+      "priority_score": 4.8,
+      "priority_reasons": [
+        "policy_shift",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "Thinking of going hybrid? Metrobank makes the switch easier",
+      "source": "TopGear Philippines",
+      "date": "2026-07-20T06:21:00.000Z",
+      "summary": "Hybrids are increasingly becoming an investment in lower day-to-day running costs",
+      "tags": [
+        "ev_transition_gap"
+      ],
+      "priority_score": 2.6,
+      "priority_reasons": [
+        "material_technology_effect"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Diesel, kerosene prices to jump by over P10 per liter",
+      "source": "Philstar Business",
+      "date": "2026-07-20T06:12:00.000Z",
+      "summary": "Massive oil price hike starting tomorrow, July 21, 2026.",
+      "tags": [
+        "pricing_pressure"
+      ],
+      "priority_score": 0.8,
+      "priority_reasons": [
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "CBC bundles credit, insurance to ease car ownership costs",
+      "source": "Philstar Business",
+      "date": "2026-07-20T01:55:00.000Z",
+      "summary": "The bundle slashes the steep upfront cash outlays that usually stall Filipino car buyers.",
+      "tags": [
+        "ownership_cost",
+        "consumer_demand_shift"
+      ],
+      "priority_score": 0.8,
+      "priority_reasons": [
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "The 10 best road cars Alpina has ever built",
+      "source": "TopGear Philippines",
+      "date": "2026-07-19T07:05:00.000Z",
+      "summary": "In celebration of the tuner joining BMW this year",
+      "tags": [
+        "motoring_infrastructure"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "The all-new BMW F450 GS lands in PH starting at P498k",
+      "source": "TopGear Philippines",
+      "date": "2026-07-17T11:00:00.000Z",
+      "summary": "The range-topping trim sticker for P548k",
+      "tags": [
+        "ev_transition_gap"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "The Toyota Crown will be getting a cleaner two-tone look for 2027",
+      "source": "TopGear Philippines",
+      "date": "2026-07-17T00:39:00.000Z",
+      "summary": "The crossover is scheduled to drop in September later this year",
+      "tags": [
+        "general_philippine_motoring"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    }
+  ],
+  "secondary_signals": [
+    {
+      "title": "Could the Lexus RZ350e be the SUV’s new base variant in PH market?",
+      "source": "TopGear Philippines",
+      "date": "2026-07-16T10:42:00.000Z",
+      "summary": "LTO papers point to a possible arrival",
+      "tags": [
+        "regulation_enforcement",
+        "consumer_demand_shift",
+        "product_market_signal"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Chinese carmaker Xpeng to enter PH with two EVs later this year",
+      "source": "TopGear Philippines",
+      "date": "2026-07-16T10:23:00.000Z",
+      "summary": "Expect its EVs to have a lot of AI capabilities",
+      "tags": [
+        "general_philippine_motoring"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Numbeo ranks PH with the 16th worst traffic in the world in 2026, from 9th worst in 2020",
+      "source": "TopGear Philippines",
+      "date": "2026-07-16T07:53:00.000Z",
+      "summary": "Do you think traffic congestion has improved since then?",
+      "tags": [
+        "motoring_infrastructure"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Is the recently launched Yamaha R9 already expecting a new update?",
+      "source": "TopGear Philippines",
+      "date": "2026-07-17T06:28:00.000Z",
+      "summary": "The sport bike was quietly launched this year with an P899k sticker tag",
+      "tags": [
+        "product_market_signal"
+      ],
+      "priority_score": -2.6,
+      "priority_reasons": [
+        "routine_launch_without_broader_impact"
+      ],
+      "note": "Useful supporting editorial signal."
+    }
+  ]
+}

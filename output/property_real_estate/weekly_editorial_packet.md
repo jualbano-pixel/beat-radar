@@ -1,29 +1,14 @@
 # Weekly Editorial Packet — Property / Real Estate
 
-Week of 2026-07-20
+Week of 2026-07-27
 
 ## Editorial Read
 
 - Resilience is the visible office-market framing; the useful read is whether vacancy, rents, and leasing follow-through support it underneath.
 - Resilience and volatility are sitting inside the same property narrative, which makes the tension more useful than either headline by itself.
 - The lack of clear occupancy improvement keeps this in stabilization territory, not a clean recovery call.
-- Residential construction looks softer where permit and demand signals point to a less aggressive build pipeline.
 
 ## What matters most
-
-### property credit conditions
-- Why it matters: REIT scale and possible index inclusion are capital-market positioning signals; they still need to be read separately from the space absorption reality.
-- Pattern: REIT growth is strengthening the capital-market story without settling the real occupancy read.
-- Tension: market-cap growth vs property utilization
-- Supporting stories:
-- [A Brown seals P2.3 billion wind investment in Alternergy](https://www.philstar.com/business/2026/07/22/2543686/brown-seals-p23-billion-wind-investment-alternergy) | Philippine Star Property | Adds a concrete read on Philippine property demand, supply, financing, or stress.
-
-### supply pipeline shift
-- Why it matters: Pipeline shifts matter because new supply can worsen imbalance if demand is not keeping up.
-- Pattern: Supply is becoming more uneven as construction, inventory, and geography matter more than headline expansion.
-- Tension: development pipeline vs market balance
-- Supporting stories:
-- [GSIS buys Megawide shares from Saavedra to boost stake to 9.5%](https://mb.com.ph/2026/07/22/gsis-buys-megawide-shares-from-saavedra-to-boost-stake-to-95) | Manila Bulletin Business Property JSON Fallback | Adds a concrete read on Philippine property demand, supply, financing, or stress.
 
 ### office market stress
 - Why it matters: The resilience call matters because it arrives with external pressure still in the frame; that makes optimism something to test against occupancy validation.
@@ -40,18 +25,16 @@ Week of 2026-07-20
 - Supporting stories:
 - [DOF: LGUs can reduce assessment levels and tax rates under RPVARA to lower property taxes](https://www.dof.gov.ph/dof-lgus-can-reduce-assessment-levels-and-tax-rates-under-rpvara-to-lower-property-taxes) | Department of Finance Property | Adds a concrete read on Philippine property demand, supply, financing, or stress.
 
-## Structural shifts
-
-### residential permit weakness
-- Editorial note: Permit weakness gives an early read on whether developers and buyers are pulling back from the residential pipeline.
-- Pattern: Residential construction signals are softening where demand is not strong enough to support faster building.
-- Tension: build pipeline vs real demand
+### supply pipeline shift
+- Why it matters: Pipeline shifts matter because new supply can worsen imbalance if demand is not keeping up.
+- Pattern: The week is mostly framing and persistence, not a new market turn.
+- Tension: standing research vs fresh demand signal
 - Supporting stories:
-- [Building permit approvals post steepest drop in 8 months](https://bworldonline.com/top-stories/2026/07/22/764991/building-permit-approvals-post-steepest-drop-in-8-months) | BusinessWorld Property | Shows whether the residential build pipeline is losing momentum.
-- [Construction permits down 12% in May](https://www.philstar.com/business/2026/07/22/2543684/construction-permits-down-12-may) | Philippine Star Property | Connects construction activity to actual demand rather than expansion claims.
+- [DOE explores power solutions for Pax Silica](https://business.inquirer.net/602829/doe-explores-power-solutions-for-pax-silica) | Inquirer Business Property | Adds a concrete read on Philippine property demand, supply, financing, or stress.
+- [Filipina develops sustainable alternative to concrete blocks](https://bworldonline.com/bw-launchpad/2026/07/29/766378/filipina-develops-sustainable-alternative-to-concrete-blocks) | BusinessWorld Property | Adds a concrete read on Philippine property demand, supply, financing, or stress.
 
 ## What seems to be happening
 
-- The office market generated optimistic framing without enough absorption improvement to make it a recovery story.
+- The office market generated optimistic framing without enough sustained tenant return to make it a recovery story.
 - Resilience and volatility are appearing in the same market frame, so the actual read sits between the two claims.
-- No clear hard leasing evidence broke through strongly enough to validate a turn.
+- No clear sustained tenant return broke through strongly enough to validate a turn.

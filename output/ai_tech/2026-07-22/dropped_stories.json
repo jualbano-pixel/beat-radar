@@ -6,57 +6,9 @@
     "reason_dropped": "hard_excluded_commerce"
   },
   {
-    "title": "BSP, PPMI launch new digital payment services",
-    "source": "Bangko Sentral ng Pilipinas AI/Tech",
-    "date": "2026-07-29T04:49:22.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Paalala ng BSP ukol sa Bangko Maharlika Ltd., na kilala rin bilang 'The Bank of Humanity'",
-    "source": "Bangko Sentral ng Pilipinas AI/Tech",
-    "date": "2026-07-28T07:48:22.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "BSP, PES launch knowledge-sharing series on key economic issues",
-    "source": "Bangko Sentral ng Pilipinas AI/Tech",
-    "date": "2026-07-28T08:03:02.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "BSP trains transport sector workers on counterfeit detection and currency handling",
-    "source": "Bangko Sentral ng Pilipinas AI/Tech",
-    "date": "2026-07-27T08:24:36.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "BSPEAI donates armchairs made from recycled polymer banknotes",
-    "source": "Bangko Sentral ng Pilipinas AI/Tech",
-    "date": "2026-07-24T03:32:12.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "BSP appoints Dino Gasmen as Assistant Governor for Financial Markets",
-    "source": "Bangko Sentral ng Pilipinas AI/Tech",
-    "date": "2026-07-24T08:52:47.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
     "title": "BSP, SEC, PSA sign agreement to enhance FDI data sharing",
     "source": "Bangko Sentral ng Pilipinas AI/Tech",
     "date": "2026-07-22T05:48:29.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "BSP signs info-sharing agreement with DOJ to accelerate scam investigations",
-    "source": "Bangko Sentral ng Pilipinas AI/Tech",
-    "date": "2026-07-22T06:39:08.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "BSP, DOJ lumagda ng kasunduan para mapabilis ang imbestigasyon ng financial scams",
-    "source": "Bangko Sentral ng Pilipinas AI/Tech",
-    "date": "2026-07-28T08:17:35.000Z",
     "reason_dropped": "low_relevance"
   },
   {
@@ -96,12 +48,6 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "BSP, suportado ang pagpapalawak ng digital fare payments sa LRT-2",
-    "source": "Bangko Sentral ng Pilipinas AI/Tech",
-    "date": "2026-07-28T09:09:23.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
     "title": "BSP briefs industry on 'Countercyclical Capital Buffer'",
     "source": "Bangko Sentral ng Pilipinas AI/Tech",
     "date": "2026-07-14T03:02:28.000Z",
@@ -138,21 +84,9 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "BSP isinusulong ang employer-sponsored PERA para palakasin ang retirement security ng mga manggagawa",
-    "source": "Bangko Sentral ng Pilipinas AI/Tech",
-    "date": "2026-07-28T08:54:53.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
     "title": "BSP launches book on financial system crises, resilience",
     "source": "Bangko Sentral ng Pilipinas AI/Tech",
     "date": "2026-07-09T04:35:23.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "BSP, naglunsad ng aklat tungkol sa mga krisis at katatagan ng sistemang pinansiyal",
-    "source": "Bangko Sentral ng Pilipinas AI/Tech",
-    "date": "2026-07-28T09:34:07.000Z",
     "reason_dropped": "low_relevance"
   },
   {
@@ -162,99 +96,147 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Mga bangko, nagbawas ng interbank transfer fees; BSP, suportado ang hakbang na gawing mas abot-kaya ang e-payments",
-    "source": "Bangko Sentral ng Pilipinas AI/Tech",
-    "date": "2026-07-28T08:38:19.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
     "title": "Inflation drops further to 6.4 percent in June",
     "source": "Bangko Sentral ng Pilipinas AI/Tech",
     "date": "2026-07-07T07:47:56.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Secretary-General of ASEAN engages regional media at the 10th ASEAN Media Forum",
+    "title": "Bank lending expands by 12.1% in May",
+    "source": "Bangko Sentral ng Pilipinas AI/Tech",
+    "date": "2026-07-07T11:05:32.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Domestic liquidity grows by 12.8% in May",
+    "source": "Bangko Sentral ng Pilipinas AI/Tech",
+    "date": "2026-07-07T11:07:54.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Country's foreign reserves rise to US$104.8 billion as of end-June 2026",
+    "source": "Bangko Sentral ng Pilipinas AI/Tech",
+    "date": "2026-07-07T13:22:06.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Inflation, bumaba pa sa 6.4% nitong Hunyo",
+    "source": "Bangko Sentral ng Pilipinas AI/Tech",
+    "date": "2026-07-10T03:51:34.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Malacañang reappoints MBMs Wassmer, Querubin",
+    "source": "Bangko Sentral ng Pilipinas AI/Tech",
+    "date": "2026-07-03T03:22:04.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Call for nominations: Financial Health and Inclusion Excellence Awards",
+    "source": "Bangko Sentral ng Pilipinas AI/Tech",
+    "date": "2026-07-02T03:31:09.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Statement on World Bank raising PH to upper middle-income status",
+    "source": "Bangko Sentral ng Pilipinas AI/Tech",
+    "date": "2026-07-02T07:42:52.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Panawagan para sa mga nominasyon: Financial Health and Inclusion Excellence Awards",
+    "source": "Bangko Sentral ng Pilipinas AI/Tech",
+    "date": "2026-07-07T03:13:08.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "BSP: Potential CBDC uses include securities settlement and int'l. payments",
+    "source": "Bangko Sentral ng Pilipinas AI/Tech",
+    "date": "2026-07-01T02:27:31.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "BSP, WB promote digitalization of government transactions",
+    "source": "Bangko Sentral ng Pilipinas AI/Tech",
+    "date": "2026-06-29T10:22:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "FCDU loans decreased by 0.8% to US$15.44 billion in Q1 2026",
+    "source": "Bangko Sentral ng Pilipinas AI/Tech",
+    "date": "2026-06-30T05:29:21.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Month-ahead inflation forecast for June 2026",
+    "source": "Bangko Sentral ng Pilipinas AI/Tech",
+    "date": "2026-06-30T08:11:59.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "The Philippines’ net external liability position widened as of end-March 2026",
+    "source": "Bangko Sentral ng Pilipinas AI/Tech",
+    "date": "2026-06-30T15:07:02.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Secretary-General of ASEAN Meets with the Secretary of State of the US",
     "source": "ASEAN Digital Economy and AI Governance",
-    "date": "2026-07-29T06:05:30.000Z",
+    "date": "2026-07-22T06:01:40.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Secretary-General of ASEAN officiates the 10th ASEAN Media Forum",
+    "title": "Secretary-General of ASEAN attends the ASEAN Post-Ministerial Conference with the US in Manila",
     "source": "ASEAN Digital Economy and AI Governance",
-    "date": "2026-07-29T04:39:30.000Z",
+    "date": "2026-07-22T03:30:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Secretary-General of ASEAN receives a courtesy visit from Guangxi Zishan Mining Co., Ltd.",
+    "title": "Secretary-General of ASEAN Delivers Pre-Recorded Remarks at the ASEAN–China Tourism Dialogue",
     "source": "ASEAN Digital Economy and AI Governance",
-    "date": "2026-07-28T12:23:19.000Z",
+    "date": "2026-07-22T03:29:28.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Secretary-General of ASEAN receives farewell call by outgoing Ambassador of Switzerland to ASEAN",
+    "title": "Secretary-General of ASEAN Meets with Minister of Foreign Affairs of Canada",
     "source": "ASEAN Digital Economy and AI Governance",
-    "date": "2026-07-28T10:51:15.000Z",
+    "date": "2026-07-22T02:39:30.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Secretary-General of ASEAN receives farewell call by outgoing Ambassador of Belgium to ASEAN",
+    "title": "Secretary-General of ASEAN attends the ASEAN Post-Ministerial Conference with India in Manila",
     "source": "ASEAN Digital Economy and AI Governance",
-    "date": "2026-07-28T09:10:34.000Z",
+    "date": "2026-07-22T02:23:20.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Secretary-General of ASEAN officiates the Opening Ceremony of the Fifth ASEAN Junior Fellowship Programme",
+    "title": "Secretary-General of ASEAN attends Gala Dinner hosted by the Chair of the ASEAN Foreign Ministers’ Meeting 2026",
     "source": "ASEAN Digital Economy and AI Governance",
-    "date": "2026-07-28T08:29:05.000Z",
+    "date": "2026-07-21T13:12:20.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Secretary-General of ASEAN Receives President of ERIA",
+    "title": "Secretary-General of ASEAN meets with Minister of Foreign Affairs of the People’s Republic of China",
     "source": "ASEAN Digital Economy and AI Governance",
-    "date": "2026-07-28T06:39:39.000Z",
+    "date": "2026-07-21T10:58:30.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Secretary-General of ASEAN Briefs the Diplomatic Corps and the Media on Key Outcomes of the 59th ASEAN Foreign Ministers’ Meeting and Related Meetings, in Manila",
+    "title": "Secretary-General of ASEAN participates in the Retreat Session of the 59th ASEAN Foreign Ministers’ Meeting",
     "source": "ASEAN Digital Economy and AI Governance",
-    "date": "2026-07-28T05:21:47.000Z",
+    "date": "2026-07-21T10:02:26.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Secretary-General of ASEAN to participate in the 10th ASEAN Media Forum",
+    "title": "Secretary-General of ASEAN Holds Bilateral Meeting with Minister of Foreign Affairs of Brunei Darussalam",
     "source": "ASEAN Digital Economy and AI Governance",
-    "date": "2026-07-27T02:15:00.000Z",
+    "date": "2026-07-21T08:58:12.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "The 44th ASEANAPOL Conference convenes in Manila, the Philippines",
+    "title": "Guidelines on the Modalities for Engagement of ASEAN with High Contracting Parties under the Treaty of Amity and Cooperation in Southeast Asia",
     "source": "ASEAN Digital Economy and AI Governance",
-    "date": "2026-07-26T11:43:09.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "ADB Approves $850 Million Loan to Accelerate Affordable Rooftop Solar Adoption for Households in India",
-    "source": "Asian Development Bank Digital Economy",
-    "date": "2026-07-28T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "ADB President Urges Faster Action on Water Security",
-    "source": "Asian Development Bank Digital Economy",
-    "date": "2026-07-28T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "ADB Approves $1 Billion Loan to Support Sustainable Growth and Resilience of India’s Cities",
-    "source": "Asian Development Bank Digital Economy",
-    "date": "2026-07-28T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "ADB and Partners Power Timor-Leste’s Energy Future with Landmark Investment in Solar and Battery Storage",
-    "source": "Asian Development Bank Digital Economy",
-    "date": "2026-07-27T00:00:00.000Z",
+    "date": "2026-07-21T08:55:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
@@ -324,15 +306,21 @@
     "reason_dropped": "low_relevance"
   },
   {
+    "title": "ADB Approves $12.5 Million Financing to Strengthen Fiscal Resilience and Sustainable Planning in Palau",
+    "source": "Asian Development Bank Digital Economy",
+    "date": "2026-07-06T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
     "title": "ADB Approves $10 Million Grant to Strengthen Maritime Transport in Tuvalu",
     "source": "Asian Development Bank Digital Economy",
     "date": "2026-07-06T00:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "ADB Approves $12.5 Million Financing to Strengthen Fiscal Resilience and Sustainable Planning in Palau",
+    "title": "ADB President Taps Global Business Leaders to Take on Asia and the Pacific’s Toughest Challenges",
     "source": "Asian Development Bank Digital Economy",
-    "date": "2026-07-06T00:00:00.000Z",
+    "date": "2026-07-03T00:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
@@ -342,243 +330,195 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "ASUS ExpertBook Ultra: Form and function, exemplified in a business laptop",
-    "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-29T00:00:31.000Z",
-    "reason_dropped": "hard_excluded_commerce"
-  },
-  {
-    "title": "PAGASA monitors two LPAs, rains to persist over Luzon",
-    "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-29T04:52:09.000Z",
+    "title": "ADB Begins Voting Process for President; Masato Kanda Nominated",
+    "source": "Asian Development Bank Digital Economy",
+    "date": "2026-07-02T00:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "ABS-CBN Corp. to hold Annual Meeting of Stockholders on Aug. 19 via remote communication",
-    "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-29T04:00:40.000Z",
+    "title": "ADB Establishes North Pacific Subregional Office, Expanding Support in Region",
+    "source": "Asian Development Bank Digital Economy",
+    "date": "2026-07-02T00:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "AMA issues intellectual property rights notice",
-    "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-29T01:00:29.000Z",
+    "title": "ADB, Golomt Bank Partner to Expand Sustainable and Inclusive Finance in Mongolia",
+    "source": "Asian Development Bank Digital Economy",
+    "date": "2026-07-02T00:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "BSP chief sees ‘small chance’ of aggressive tightening amid renewed volatility",
-    "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-28T16:34:58.000Z",
+    "title": "ADB Approves $200 Million Emergency Assistance for Sri Lanka’s Post-Cyclone Ditwah Recovery",
+    "source": "Asian Development Bank Digital Economy",
+    "date": "2026-07-01T00:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Revenue concerns cloud Marcos’ proposed tax relief",
+    "title": "Philippines’ BoP surplus widens to $3.4 billion in June",
     "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-28T16:33:56.000Z",
+    "date": "2026-07-21T16:34:56.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Marcos exempts new IT parks from ecozone moratorium in NCR",
+    "title": "Business groups urge Congress to prioritize economic reform bills",
     "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-28T16:32:55.000Z",
+    "date": "2026-07-21T16:33:01.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Power firms urge caution on removing system loss charges",
+    "title": "Building permit approvals post steepest drop in 8 months",
     "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-28T16:31:54.000Z",
+    "date": "2026-07-21T16:31:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "CAB raises fuel surcharge to Level 13, ending six-period slide",
+    "title": "BTr makes partial T-bond award as yields jump on Gulf hostilities",
     "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-28T16:08:52.000Z",
+    "date": "2026-07-21T16:07:08.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "SEC allows blockchain-based digital signing for corporate filings",
+    "title": "PSE overhauls index rules, updates 2011 framework",
     "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-28T16:07:37.000Z",
+    "date": "2026-07-21T16:06:52.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Developers seen expanding recurring-income portfolios",
+    "title": "BSP tells banks to tighten watch on clients with casino junket links",
     "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-28T16:05:36.000Z",
+    "date": "2026-07-21T16:06:07.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "PAL orders 9 more Airbus A350-1000 jets for long-haul expansion",
+    "source": "BusinessWorld AI/Tech",
+    "date": "2026-07-21T16:05:52.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Honoring art collectives and National Artists: What to look out for at Ortigas Art Festival",
+    "source": "BusinessWorld AI/Tech",
+    "date": "2026-07-21T16:05:19.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Peso nears all-time low on war risks",
+    "source": "BusinessWorld AI/Tech",
+    "date": "2026-07-21T16:05:16.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Top Line targets one-third of Cebu motorcycle taxi fuel market",
+    "source": "BusinessWorld AI/Tech",
+    "date": "2026-07-21T16:04:51.000Z",
     "reason_dropped": "low_relevance"
   },
   {
     "title": "Chile: A role model for the Philippine economy",
     "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-28T16:04:43.000Z",
+    "date": "2026-07-21T16:04:32.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Logistics mega-deals lift industrial demand — CBRE",
+    "title": "Nature in flux",
     "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-28T16:04:35.000Z",
+    "date": "2026-07-21T16:04:19.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "The Ortigas Foundation Library: A Short History",
+    "title": "LANDBANK partners with Visa on purchase card for government agencies",
     "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-28T16:04:32.000Z",
+    "date": "2026-07-21T16:04:06.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "BTr fully awards bond offering",
+    "title": "SEC’s green equity framework gains implementation support",
     "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-28T16:04:32.000Z",
+    "date": "2026-07-21T16:03:51.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "From promises to performance: Translating commitment to felt results",
+    "title": "Students launch AI chatbot to quicken fact checks",
     "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-28T16:03:43.000Z",
+    "date": "2026-07-21T16:03:42.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "BDO raises record P132B from sustainability bonds",
+    "title": "The Penultimate SONA: From reforms to results",
     "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-28T16:03:36.000Z",
+    "date": "2026-07-21T16:03:32.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Binance StratBox pilot eyed within the year",
+    "title": "Global bond market opportunities still open for PHL",
     "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-28T16:03:35.000Z",
+    "date": "2026-07-21T16:03:05.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "YPC Stage brings tales of heartbreak from Biñan to QC",
+    "title": "Philippines records $3.4-billion BoP surplus in June",
     "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-28T16:03:32.000Z",
+    "date": "2026-07-21T16:02:54.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Peso rises further on peace deal hopes",
+    "title": "McDonald’s shifts electricity supply of 36 Visayas stores to COREnergy",
     "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-28T16:02:35.000Z",
+    "date": "2026-07-21T16:02:50.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "URC cited for employee development programs",
+    "title": "Arts & Culture (07/22/26)",
     "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-28T16:02:34.000Z",
+    "date": "2026-07-21T16:02:18.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Filipina develops sustainable alternative to concrete blocks",
+    "title": "Why the Philippines Could Become ASEAN’s Reputation Management Hub",
     "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-28T16:02:30.000Z",
+    "date": "2026-07-21T16:02:14.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Banana leaf startup turns farm waste into jobs, eco-friendly products",
+    "title": "Central bank monitoring market for digital person-to-government payments",
     "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-28T16:01:44.000Z",
+    "date": "2026-07-21T16:02:05.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Mental health policies and programs in the workplace: Mandatory",
+    "title": "Palace says PrimeWater accountability review continues",
     "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-28T16:01:40.000Z",
+    "date": "2026-07-21T16:01:49.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Loan-to-deposit ratio may drop below 50% by 2050 as population ages",
+    "title": "Bride and Prejudice: The uneven and gendered paths to Philippine citizenship by marriage",
     "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-28T16:01:34.000Z",
+    "date": "2026-07-21T16:01:31.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "SM says deeper emission cuts hinge on power infrastructure",
+    "title": "How passport mobility has changed for Filipinos over the last 20 years",
     "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-28T16:01:33.000Z",
+    "date": "2026-07-21T16:01:04.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Arts & Culture (07/29/26)",
+    "title": "Atome Philippines taps Chubb to offer shopping insurance for its cardholders",
     "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-28T16:01:31.000Z",
+    "date": "2026-07-21T16:01:03.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "PHL’s 2026 ICT development score falls below global average",
+    "title": "How PSEi member stocks performed — July 21, 2026",
     "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-28T16:00:41.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "How PSEi member stocks performed — July 28, 2026",
-    "source": "BusinessWorld AI/Tech",
-    "date": "2026-07-28T16:00:09.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Meta brings back free Facebook verification",
-    "source": "Inquirer Tech",
-    "date": "2026-07-28T13:22:57.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "The PGDX 2026 experience",
-    "source": "Inquirer Tech",
-    "date": "2026-07-28T13:13:41.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "The P100,000 question of the foldable phone",
-    "source": "Inquirer Tech",
-    "date": "2026-07-27T17:32:15.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "How to get console gaming experience on your smartphone",
-    "source": "Inquirer Tech",
-    "date": "2026-07-27T16:30:56.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "DJI unveils dual-lens Osmo Pocket 4P",
-    "source": "Inquirer Tech",
-    "date": "2026-07-27T10:49:56.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Reigning MSC champions Team Liquid PH eliminated from EWC 2026",
-    "source": "Inquirer Tech",
-    "date": "2026-07-26T19:17:46.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "UP researchers build first Filipino-made air quality monitor",
-    "source": "Inquirer Tech",
-    "date": "2026-07-26T09:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Meet the three Filipino siblings behind upcoming ARPG, Dogwood",
-    "source": "Inquirer Tech",
-    "date": "2026-07-25T11:30:46.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Indie games to look out for at PGDX 2026",
-    "source": "Inquirer Tech",
-    "date": "2026-07-25T10:21:20.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Stablecoins, Samsung Wallet, and what it can mean for Philippine crypto",
-    "source": "Inquirer Tech",
-    "date": "2026-07-24T17:36:33.000Z",
+    "date": "2026-07-21T16:00:03.000Z",
     "reason_dropped": "low_relevance"
   },
   {
     "title": "Samsung launches Z Fold8, Fold8 Ultra, Flip8",
     "source": "Inquirer Tech",
-    "date": "2026-07-22T21:02:42.000Z",
+    "date": "2026-07-22T14:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
@@ -720,585 +660,435 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Industry backs farm initiatives, flags food security concerns",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-29T11:47:39.000Z",
+    "title": "Mapua launches first AI fluency strategy in PH",
+    "source": "Inquirer Tech",
+    "date": "2026-07-01T19:02:46.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Biz groups: Swift execution key to reaching Sona targets",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-29T05:30:00.000Z",
+    "title": "How should we bring AI into the classroom?",
+    "source": "Inquirer Tech",
+    "date": "2026-07-01T17:47:57.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Remolona sees ‘little chance’ of aggressive interest rate hikes",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-29T02:10:00.000Z",
+    "title": "Apple’s iOS 26.5.2 update fixes several security vulnerabilities",
+    "source": "Inquirer Tech",
+    "date": "2026-06-30T15:46:47.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Caregiving, family support weigh on Filipinos’ financial future",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-29T02:09:00.000Z",
+    "title": "Reserve your WhatsApp username for extra security",
+    "source": "Inquirer Tech",
+    "date": "2026-06-30T09:49:02.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "PH eyes wider antidirty money net",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-29T02:08:00.000Z",
+    "title": "First Filipino Horror Game Jam begins on September",
+    "source": "Inquirer Tech",
+    "date": "2026-06-28T11:18:09.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Airfares to rise anew as fuel surcharge climbs",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-29T02:07:00.000Z",
+    "title": "Why Africa looks smaller than it really is on Google Maps",
+    "source": "Inquirer Tech",
+    "date": "2026-06-26T19:41:37.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Metro Manila reopens door to new ecozones",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-29T02:06:00.000Z",
+    "title": "Meet the Filipino teams raising the flag at ENC 2026",
+    "source": "Inquirer Tech",
+    "date": "2026-06-26T15:10:47.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "BDO raises P132B in landmark bond deal",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-29T02:05:00.000Z",
+    "title": "Banbros launches UNV and Hopetrek in the Philippines",
+    "source": "Inquirer Tech",
+    "date": "2026-06-26T11:13:13.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Maharlika taps Morocco counterpart for ‘peer learning’",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-29T02:04:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Biz group cheers Marcos signal that EVs are ‘new norm’",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-29T02:03:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "To EV or not to EV?",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-29T02:01:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Visayas pest fight gets P35-M boost",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-29T00:05:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "BFAR eyes samaral growth",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-28T20:03:28.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Meat imports hit by rising costs",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-28T19:27:10.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "GSIS, Maxicare offer zero-interest HMO financing",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-28T17:58:05.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "PAL’s A350-1000 to debut in Davao",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-28T17:28:41.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "PSEi slips on profit-taking",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-28T17:11:12.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Airline fuel surcharge set to rise anew",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-28T14:49:01.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "The 2026 Franchise Negosyo Roadshow begins: ‘Franchise Negosyo Visayas Expo’ opens in Cebu",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-28T12:18:25.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Some system losses are ‘inherent’—Meralco exec",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-28T11:16:49.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "New round of major oil price hikes set on July 28",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-28T02:20:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "New US tariff worries PH firms",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-28T02:11:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Amro stays cautious on PH amid oil shock, trade tensions",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-28T02:10:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "PH banks’ assets breach P31-T mark, a fresh record high",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-28T02:09:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "BDO H1 profit reached record-high P 40.7B",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-28T02:08:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "UnionBank 6-month earnings surged 113%",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-28T02:06:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "SunAsia pitches P 12-B floating solar plants in Laguna",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-28T02:05:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Pagcor casino privatization to cut healthcare funds by P2.1B yearly",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-28T02:04:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "PSEi revamp: Maynilad in, Converge out",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-28T02:03:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "PH motorcycle sales up 4% in 1st semester amid skyrocketing fuel prices",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-28T02:02:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "From agri, Turkey keen on expanding to PH infra",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-28T02:01:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "BIZ BUZZ: When scammers name-drop BSP execs",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-28T02:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Marcos lifts ban on new Metro Manila ecozones",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-27T22:35:28.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Gov’t rolls out 35,000 farm machines",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-27T19:58:18.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "T-bill rates slide ahead of July inflation data",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-27T19:16:31.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "PSEi climbs on easing Mideast conflict",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-27T18:12:10.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Marcos extends tax relief to Filipinos hit by Middle East crisis",
-    "source": "Inquirer Business AI/Tech",
-    "date": "2026-07-27T17:51:15.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Samaral aquaculture boost eyed to broaden fisherfolk livelihood options",
+    "title": "Cebu Pacific, Vietnam Airlines sign wet lease deal",
     "source": "Philippine Star Business AI/Tech",
-    "date": "2026-07-29T04:30:00.000Z",
+    "date": "2026-07-22T03:18:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "URC named among Philippines top employer brands",
+    "title": "Telco backs stance on regulating instead of banning social media for children",
     "source": "Philippine Star Business AI/Tech",
-    "date": "2026-07-28T16:00:00.000Z",
+    "date": "2026-07-22T02:07:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Motorcycle sales rise 4% in H1",
+    "title": "No suspension of Metro Manila minimum wage hike, says Palace",
     "source": "Philippine Star Business AI/Tech",
-    "date": "2026-07-28T16:00:00.000Z",
+    "date": "2026-07-22T00:24:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "SRA steps up fight vs sugarcane pests",
+    "title": "Landbank boosts account security with insurance program",
     "source": "Philippine Star Business AI/Tech",
-    "date": "2026-07-28T16:00:00.000Z",
+    "date": "2026-07-21T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Taking the bull by the horns",
+    "title": "Top Line books Angkas to drive Cebu push",
     "source": "Philippine Star Business AI/Tech",
-    "date": "2026-07-28T16:00:00.000Z",
+    "date": "2026-07-21T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Impeachment",
+    "title": "DTI to issue new steel safety standards in August",
     "source": "Philippine Star Business AI/Tech",
-    "date": "2026-07-28T16:00:00.000Z",
+    "date": "2026-07-21T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "BDO raises P132 billion from sustainability bonds",
+    "title": "Construction permits down 12% in May",
     "source": "Philippine Star Business AI/Tech",
-    "date": "2026-07-28T16:00:00.000Z",
+    "date": "2026-07-21T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Stocks slip on last-minute profit taking",
+    "title": "Government anti-cybercrime unit eyes P1.5 billion budget for 2027",
     "source": "Philippine Star Business AI/Tech",
-    "date": "2026-07-28T16:00:00.000Z",
+    "date": "2026-07-21T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Marcos ends Metro Manila IT ecozone freeze",
+    "title": "A Brown seals P2.3 billion wind investment in Alternergy",
     "source": "Philippine Star Business AI/Tech",
-    "date": "2026-07-28T16:00:00.000Z",
+    "date": "2026-07-21T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Who will end up paying for system losses?",
+    "title": "BFAR to enforce stricter fishing rules for blue crab",
     "source": "Philippine Star Business AI/Tech",
-    "date": "2026-07-28T16:00:00.000Z",
+    "date": "2026-07-21T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "BSP sees slim chance of 50-bp rate increase",
+    "title": "PCA seeks regulatory powers for copra prices",
     "source": "Philippine Star Business AI/Tech",
-    "date": "2026-07-28T16:00:00.000Z",
+    "date": "2026-07-21T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Garin on electric bills: Marcos-ordered VAT cut limited to systems loss",
+    "title": "More McDonald’s stores secure competitive electricity rates",
     "source": "Philippine Star Business AI/Tech",
-    "date": "2026-07-28T09:49:00.000Z",
+    "date": "2026-07-21T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "After Marcos' SONA, Meralco urges caution on system loss reforms",
+    "title": "Philippines among strongest travel destinations in H2 – AirAsia",
     "source": "Philippine Star Business AI/Tech",
-    "date": "2026-07-28T09:34:00.000Z",
+    "date": "2026-07-21T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "GCash brings 'Wais Tindera Caravan' to Cebu, empowering MSMEs with financial tools and responsible borrowing",
+    "title": "Playing to the gallery?",
     "source": "Philippine Star Business AI/Tech",
-    "date": "2026-07-28T09:00:00.000Z",
+    "date": "2026-07-21T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "AMRO keeps Philippines growth outlook, lowers inflation forecast",
+    "title": "BDO funds Cebu Pacific’s new aircraft purchases",
     "source": "Philippine Star Business AI/Tech",
-    "date": "2026-07-27T16:00:00.000Z",
+    "date": "2026-07-21T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "SunAsia to invest P12 billion for Laguna Lake solar farms",
+    "title": "DOE vows better power sector by 2028",
     "source": "Philippine Star Business AI/Tech",
-    "date": "2026-07-27T16:00:00.000Z",
+    "date": "2026-07-21T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Razon-Pacquiao group’s Socoteco bid gains traction",
+    "title": "Wages and food prices",
     "source": "Philippine Star Business AI/Tech",
-    "date": "2026-07-27T16:00:00.000Z",
+    "date": "2026-07-21T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "BDO earns P40.7 billion in 6 months",
+    "title": "Stocks end winning streak on profit taking",
     "source": "Philippine Star Business AI/Tech",
-    "date": "2026-07-27T16:00:00.000Z",
+    "date": "2026-07-21T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Why Public-Private Partnerships Matter More Than Ever for Filipino MSMEs",
+    "title": "‘Philippines firms look overseas for growth amid volatility’",
+    "source": "Philippine Star Business AI/Tech",
+    "date": "2026-07-21T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Why Filipinos still pay ASEAN’s highest power rates despite renewable energy push",
     "source": "Malaya Business AI/Tech",
-    "date": "2026-07-29T05:29:07.000Z",
+    "date": "2026-07-22T05:17:07.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Eala rallies past Zheng in Mubadala DC Open debut",
+    "title": "Hati Health Welcomes Singapore Diagnostics to Its Network, Giving Filipinos Access to World-Class Diagnostics, from Routine Labs to Genetic Testing, Nationwide",
     "source": "Malaya Business AI/Tech",
-    "date": "2026-07-29T04:47:23.000Z",
+    "date": "2026-07-22T05:07:44.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Marcos: Remove system loss charges from electric bills",
+    "title": "Pulse Asia: Sara Duterte tops survey for 2028 presidential race",
     "source": "Malaya Business AI/Tech",
-    "date": "2026-07-29T03:39:03.000Z",
+    "date": "2026-07-22T04:45:45.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "FC Home Center Relaunches Its First-Ever Branch in Mandaluyong",
+    "title": "Govt affirms Bangsamoro parliamentary polls this September",
     "source": "Malaya Business AI/Tech",
-    "date": "2026-07-29T03:17:17.000Z",
+    "date": "2026-07-22T04:32:42.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "SM CINEMA THEATER FORMATS EXPLAINED: YOUR GUIDE TO CHOOSING THE CINEMA THAT BEST SUITS YOU",
+    "title": "OCTA Research: 64% of Filipinos distrust China",
     "source": "Malaya Business AI/Tech",
-    "date": "2026-07-29T02:55:47.000Z",
+    "date": "2026-07-22T04:23:30.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Gatchalian: Defense rejects alternate evidence presentation in impeachment trial",
+    "title": "PAL to acquire up to 20 Dreamliners for modernization program",
     "source": "Malaya Business AI/Tech",
-    "date": "2026-07-29T02:46:55.000Z",
+    "date": "2026-07-22T01:04:28.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "BIR files P402.74M tax evasion case vs POGO company",
+    "title": "ICEGEX 2026 Calls for Exhibitors as Frozen Dessert Industry Gathers in Manila This November",
     "source": "Malaya Business AI/Tech",
-    "date": "2026-07-29T02:36:06.000Z",
+    "date": "2026-07-21T16:01:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "OCTA: Padilla tops 2028 Senate race survey",
+    "title": "DOLLAR INFLOWS OFFSET HEADWINDS: June BOP surplus halves H1 2026 deficit to $3.9B",
     "source": "Malaya Business AI/Tech",
-    "date": "2026-07-29T01:35:18.000Z",
+    "date": "2026-07-21T15:30:42.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Erwin Tulfo: Minority blocking probe on Taguig infra anomalies",
+    "title": "Citi: $2.5B bond sale signals strong confidence in PH",
     "source": "Malaya Business AI/Tech",
-    "date": "2026-07-29T00:36:38.000Z",
+    "date": "2026-07-21T15:29:49.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "DFA ready to explain to senators PH-China deal on WPS RORE missions",
+    "title": "Top Line expands fuel depot, taps Angkas riders amid oil volatility",
     "source": "Malaya Business AI/Tech",
-    "date": "2026-07-29T00:30:38.000Z",
+    "date": "2026-07-21T15:29:05.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Ecosystem Roundup: When AI acts, humans are still responsible",
+    "title": "Ecosystem Roundup: SEA’s AI future is being coded in its own languages",
     "source": "e27 SEA Tech",
-    "date": "2026-07-24T08:57:25.000Z",
+    "date": "2026-07-21T09:10:16.000Z",
     "reason_dropped": "hard_excluded_commerce"
   },
   {
-    "title": "The market is pricing in regulatory clarity that does not exist yet. Why crypto is fragile?",
+    "title": "Ecosystem Roundup: Why Winnow’s Lumitics deal matters",
     "source": "e27 SEA Tech",
-    "date": "2026-07-29T05:58:26.000Z",
+    "date": "2026-07-17T09:36:28.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "Southeast Asia loves digital nomads until the paperwork gets complicated",
+    "source": "e27 SEA Tech",
+    "date": "2026-07-22T05:50:53.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "The one-person AI business is coming for the agency model",
+    "title": "Bitcoin just broke US$66,000: Is this the start of the next bull run or a trap for late investors?",
     "source": "e27 SEA Tech",
-    "date": "2026-07-29T03:00:00.000Z",
+    "date": "2026-07-22T04:15:47.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "AI is Vietnam’s new capital magnet",
+    "title": "Singapore’s data analysts trust AI to work, not to think",
     "source": "e27 SEA Tech",
-    "date": "2026-07-29T02:30:09.000Z",
+    "date": "2026-07-22T04:07:28.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "How companies can adapt early-career hiring for a remote world",
+    "title": "An honest look at SEA venture in 2026, and where I’m still investing",
     "source": "e27 SEA Tech",
-    "date": "2026-07-29T02:00:06.000Z",
+    "date": "2026-07-22T02:45:44.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Your product is not your startup",
+    "title": "Taiwan’s stablecoin moment: Why the NTD could outshine the dollar",
     "source": "e27 SEA Tech",
-    "date": "2026-07-29T01:45:55.000Z",
+    "date": "2026-07-22T02:30:41.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Singapore’s Psalion raises US$50M fund for Web3’s next practical phase",
+    "title": "Why remote no longer means anywhere",
     "source": "e27 SEA Tech",
-    "date": "2026-07-28T09:13:48.000Z",
+    "date": "2026-07-22T02:00:43.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "What BEYOND Expo 2026 taught me about Asia’s hardware edge",
+    "title": "Why AI empowered teams are getting smaller, and why that is harder than it sounds",
     "source": "e27 SEA Tech",
-    "date": "2026-07-28T08:11:37.000Z",
+    "date": "2026-07-22T01:45:24.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Malaysia, Singapore investors rebalance portfolios without ditching crypto",
+    "title": "GoSerpent exposes the quiet cyber war against Southeast Asian governments",
     "source": "e27 SEA Tech",
-    "date": "2026-07-28T05:42:45.000Z",
+    "date": "2026-07-21T06:11:51.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Bitcoin just lost US$65,500 three times in a row and the Fed has not even spoken",
+    "title": "Why boards are getting CEO succession wrong, and what it’s costing them",
     "source": "e27 SEA Tech",
-    "date": "2026-07-28T02:19:07.000Z",
+    "date": "2026-07-21T03:15:36.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Volatility is here to stay: What are you going to do about it?",
+    "title": "Your offshore vendor’s AI is running on your code: Do you know which one?",
     "source": "e27 SEA Tech",
-    "date": "2026-07-28T02:15:42.000Z",
+    "date": "2026-07-21T02:30:56.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "How the next-generation neobank should be built for the agentic economy?",
+    "title": "Finance doesn’t have a math problem, it has an ego problem.",
     "source": "e27 SEA Tech",
-    "date": "2026-07-28T02:15:41.000Z",
+    "date": "2026-07-21T02:30:06.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Why the future of clinical trials depends on understanding patients, not just drugs",
+    "title": "Bitcoin reclaims key technical levels, Ethereum leads broader market gains",
     "source": "e27 SEA Tech",
-    "date": "2026-07-28T02:00:47.000Z",
+    "date": "2026-07-21T02:21:42.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "The real workforce challenge: Bridging the credential-capability gap",
+    "title": "AI will not fix hiring if it only works for employers",
     "source": "e27 SEA Tech",
-    "date": "2026-07-28T01:15:33.000Z",
+    "date": "2026-07-21T02:15:03.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Why investors often back Vietnamese startups more aggressively than Thai peers",
+    "title": "Why DNA is becoming the next platform layer in digital health",
     "source": "e27 SEA Tech",
-    "date": "2026-07-28T01:15:10.000Z",
+    "date": "2026-07-21T02:00:18.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Vietnam’s tech talent market is broken and most companies are still hiring the wrong way",
+    "title": "Singapore is not a small market, it is a compressed one",
     "source": "e27 SEA Tech",
-    "date": "2026-07-28T01:00:18.000Z",
+    "date": "2026-07-21T01:15:23.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "The 27 SEA biotech firms betting on cells, fermentation, and code",
+    "title": "AI is answering your customers before they ever click, and it may never mention you",
     "source": "e27 SEA Tech",
-    "date": "2026-07-27T08:49:08.000Z",
+    "date": "2026-07-21T01:00:50.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Bridging boundaries: Sony’s blueprint for Japan-Singapore innovation collaboration",
+    "title": "SBI buys majority stake in Coinhako to deepen Singapore digital asset push",
     "source": "e27 SEA Tech",
-    "date": "2026-07-27T07:52:53.000Z",
+    "date": "2026-07-20T08:54:45.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Is Ether quietly stealing Bitcoin’s throne as the institutional favorite?",
+    "title": "Malaysian pension fund KWAP moves to contain damage after eFishery fraud shock",
     "source": "e27 SEA Tech",
-    "date": "2026-07-27T04:56:30.000Z",
+    "date": "2026-07-20T08:10:40.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Indonesia’s AI hiring gap is real, just not 28×",
+    "title": "Inside SEA’s AI gold rush: The 20 investors writing the biggest cheques",
     "source": "e27 SEA Tech",
-    "date": "2026-07-27T03:00:38.000Z",
+    "date": "2026-07-20T05:04:13.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "How Singapore SMEs should choose a payment provider: A practical checklist",
+    "title": "Should AI investing involve diversifying into Chinese tech stocks to counterbalance new industry rivals?",
     "source": "e27 SEA Tech",
-    "date": "2026-07-27T02:45:38.000Z",
+    "date": "2026-07-20T03:00:05.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "The 3Cs+1 framework: Navigating geopolitical fragmentation as a founder",
+    "title": "Could your Bitcoin balance soon help you qualify for a home mortgage?",
     "source": "e27 SEA Tech",
-    "date": "2026-07-27T02:15:00.000Z",
+    "date": "2026-07-20T02:55:16.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Southeast Asia’s fintech apps don’t have a literacy problem, they have a fear problem​",
+    "title": "The psychology of believing AI: Certainty vs truth",
     "source": "e27 SEA Tech",
-    "date": "2026-07-27T02:00:37.000Z",
+    "date": "2026-07-20T02:45:01.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "How do you finance a first nuclear reactor for a data centre? The deal structure is finally coming together",
+    "title": "Beyond the code: How Vietnam evolved from an execution hub to a product powerhouse",
     "source": "e27 SEA Tech",
-    "date": "2026-07-27T01:45:22.000Z",
+    "date": "2026-07-20T02:30:51.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Why Southeast Asia’s regulatory patchwork demands a local-first approach",
+    "title": "AI is about to blow a hole in ASEAN’s climate targets, unless baseload goes clean",
     "source": "e27 SEA Tech",
-    "date": "2026-07-27T01:30:14.000Z",
+    "date": "2026-07-20T02:15:18.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "The evolution of trust: From early adoption to institutional maturity",
+    "title": "From tools to partners: The Socratic dream of two butterflies",
     "source": "e27 SEA Tech",
-    "date": "2026-07-27T01:15:40.000Z",
+    "date": "2026-07-20T02:00:56.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Singapore’s Tikva targets solid cancer barrier with US$8M Series A",
+    "title": "Southeast Asia’s sustainability opportunity is infrastructure",
     "source": "e27 SEA Tech",
-    "date": "2026-07-24T09:17:20.000Z",
+    "date": "2026-07-20T01:40:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "“The AI did it” is not a defence; it is a confession",
+    "title": "The extinction events in product evolution",
     "source": "e27 SEA Tech",
-    "date": "2026-07-24T05:55:49.000Z",
+    "date": "2026-07-20T01:15:57.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Hong Kong’s pitch to SEA: “We want to be your super partner”",
+    "title": "The job you’re studying for might not exist: Here’s what still will",
     "source": "e27 SEA Tech",
-    "date": "2026-07-24T04:41:18.000Z",
+    "date": "2026-07-20T01:00:04.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Ropedia raises US$22M to build the data layer for robots that understand the real world",
+    "title": "pQCee’s US$3.9M raise puts Singapore in the post-quantum cybersecurity race",
     "source": "e27 SEA Tech",
-    "date": "2026-07-24T04:16:42.000Z",
+    "date": "2026-07-17T05:34:20.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Will Bitcoin hold its US$64,500 line in the sand, or are we heading straight for a test of the US$63,170 support level?",
+    "title": "How IPHatch is turning dormant MNC patents into startup equity across Asia",
     "source": "e27 SEA Tech",
-    "date": "2026-07-24T02:27:42.000Z",
+    "date": "2026-07-17T04:46:30.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "How AI is dismantling the risk pool in insurance",
+    "title": "How Asia is turning football’s year-round calendar into a fan engagement battleground",
     "source": "e27 SEA Tech",
-    "date": "2026-07-24T02:00:57.000Z",
+    "date": "2026-07-17T03:00:47.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "AI and the crisis of recognition: Do we still see the human behind the words?",
+    "source": "e27 SEA Tech",
+    "date": "2026-07-17T02:45:06.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "The sovereignty of judgment: Why human intelligence is your startup’s last moat",
+    "source": "e27 SEA Tech",
+    "date": "2026-07-17T02:15:04.000Z",
     "reason_dropped": "low_relevance"
   },
   {
@@ -1308,13 +1098,13 @@
     "reason_dropped": "hard_excluded_event_promo"
   },
   {
-    "title": "Stripe",
+    "title": "GPT-4",
     "source": "OpenAI Blog",
     "date": "2023-03-14T07:00:00.000Z",
     "reason_dropped": "garbage_title"
   },
   {
-    "title": "GPT-4",
+    "title": "Stripe",
     "source": "OpenAI Blog",
     "date": "2023-03-14T07:00:00.000Z",
     "reason_dropped": "garbage_title"
@@ -1350,36 +1140,6 @@
     "reason_dropped": "garbage_title"
   },
   {
-    "title": "Scientific computing in the age of agentic AI",
-    "source": "OpenAI Blog",
-    "date": "2026-07-28T17:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "How AI is expanding what people do at work",
-    "source": "OpenAI Blog",
-    "date": "2026-07-27T03:30:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Launching Health in ChatGPT",
-    "source": "OpenAI Blog",
-    "date": "2026-07-23T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "How news organizations are using AI to advance their vital missions",
-    "source": "OpenAI Blog",
-    "date": "2026-07-22T13:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Advancing the next era of national science",
-    "source": "OpenAI Blog",
-    "date": "2026-07-22T12:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
     "title": "Introducing the ChatGPT for small business program",
     "source": "OpenAI Blog",
     "date": "2026-07-21T17:00:00.000Z",
@@ -1395,12 +1155,6 @@
     "title": "Why teens deserve access to safe AI",
     "source": "OpenAI Blog",
     "date": "2026-07-16T16:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "How Codex became a collaborator for OpenAI’s creative team",
-    "source": "OpenAI Blog",
-    "date": "2026-07-16T07:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
@@ -1464,13 +1218,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "ChatGPT is now a partner for your most ambitious work",
+    "title": "GPT-5.5 Bio Bug Bounty",
     "source": "OpenAI Blog",
     "date": "2026-07-09T10:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "GPT-5.5 Bio Bug Bounty",
+    "title": "ChatGPT is now a partner for your most ambitious work",
     "source": "OpenAI Blog",
     "date": "2026-07-09T10:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -1512,13 +1266,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Introducing GeneBench-Pro",
+    "title": "Core dump epidemiology: fixing an 18-year-old bug",
     "source": "OpenAI Blog",
     "date": "2026-06-30T00:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Core dump epidemiology: fixing an 18-year-old bug",
+    "title": "Introducing GeneBench-Pro",
     "source": "OpenAI Blog",
     "date": "2026-06-30T00:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -1560,13 +1314,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Daybreak: Tools for securing every organization in the world",
+    "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
     "source": "OpenAI Blog",
     "date": "2026-06-22T10:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+    "title": "Daybreak: Tools for securing every organization in the world",
     "source": "OpenAI Blog",
     "date": "2026-06-22T10:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -1614,13 +1368,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+    "title": "How an astrophysicist uses Codex to help simulate black holes",
     "source": "OpenAI Blog",
     "date": "2026-06-11T00:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "How an astrophysicist uses Codex to help simulate black holes",
+    "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
     "source": "OpenAI Blog",
     "date": "2026-06-11T00:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -1800,6 +1554,12 @@
     "reason_dropped": "low_relevance"
   },
   {
+    "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+    "source": "OpenAI Blog",
+    "date": "2026-05-20T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
     "title": "How Ramp engineers accelerate code review with Codex",
     "source": "OpenAI Blog",
     "date": "2026-05-20T00:00:00.000Z",
@@ -1807,12 +1567,6 @@
   },
   {
     "title": "The next phase of OpenAI’s Education for Countries",
-    "source": "OpenAI Blog",
-    "date": "2026-05-20T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
     "source": "OpenAI Blog",
     "date": "2026-05-20T00:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -1896,13 +1650,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "OpenAI Campus Network: Student club interest form",
+    "title": "How enterprises are scaling AI",
     "source": "OpenAI Blog",
     "date": "2026-05-11T10:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "How enterprises are scaling AI",
+    "title": "OpenAI Campus Network: Student club interest form",
     "source": "OpenAI Blog",
     "date": "2026-05-11T10:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -1944,19 +1698,19 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Introducing ChatGPT Futures: Class of 2026",
-    "source": "OpenAI Blog",
-    "date": "2026-05-06T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
     "title": "Singular Bank helps bankers move fast with ChatGPT and Codex",
     "source": "OpenAI Blog",
     "date": "2026-05-06T00:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "GPT-5.5 Instant System Card",
+    "title": "Introducing ChatGPT Futures: Class of 2026",
+    "source": "OpenAI Blog",
+    "date": "2026-05-06T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
     "source": "OpenAI Blog",
     "date": "2026-05-05T10:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -1968,7 +1722,7 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+    "title": "GPT-5.5 Instant System Card",
     "source": "OpenAI Blog",
     "date": "2026-05-05T10:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -2010,13 +1764,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "OpenAI models, Codex, and Managed Agents come to AWS",
+    "title": "Our commitment to community safety",
     "source": "OpenAI Blog",
     "date": "2026-04-28T00:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Our commitment to community safety",
+    "title": "OpenAI models, Codex, and Managed Agents come to AWS",
     "source": "OpenAI Blog",
     "date": "2026-04-28T00:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -2052,13 +1806,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "GPT-5.5 System Card",
+    "title": "Introducing GPT-5.5",
     "source": "OpenAI Blog",
     "date": "2026-04-23T11:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Introducing GPT-5.5",
+    "title": "GPT-5.5 System Card",
     "source": "OpenAI Blog",
     "date": "2026-04-23T11:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -2136,121 +1890,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Applications of AI at OpenAI",
-    "source": "OpenAI Blog",
-    "date": "2026-04-10T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Research with ChatGPT",
-    "source": "OpenAI Blog",
-    "date": "2026-04-10T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Using skills",
-    "source": "OpenAI Blog",
-    "date": "2026-04-10T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Our response to the Axios developer tool compromise",
-    "source": "OpenAI Blog",
-    "date": "2026-04-10T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Brainstorming with ChatGPT",
-    "source": "OpenAI Blog",
-    "date": "2026-04-10T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Responsible and safe use of AI",
-    "source": "OpenAI Blog",
-    "date": "2026-04-10T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Working with files in ChatGPT",
-    "source": "OpenAI Blog",
-    "date": "2026-04-10T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Using projects in ChatGPT",
-    "source": "OpenAI Blog",
-    "date": "2026-04-10T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Financial services",
-    "source": "OpenAI Blog",
-    "date": "2026-04-10T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "ChatGPT for finance teams",
-    "source": "OpenAI Blog",
-    "date": "2026-04-10T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Using custom GPTs",
-    "source": "OpenAI Blog",
-    "date": "2026-04-10T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "ChatGPT for marketing teams",
-    "source": "OpenAI Blog",
-    "date": "2026-04-10T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "AI fundamentals",
-    "source": "OpenAI Blog",
-    "date": "2026-04-10T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Personalizing ChatGPT",
-    "source": "OpenAI Blog",
-    "date": "2026-04-10T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "ChatGPT for operations teams",
-    "source": "OpenAI Blog",
-    "date": "2026-04-10T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "ChatGPT for managers",
-    "source": "OpenAI Blog",
-    "date": "2026-04-10T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Analyzing data with ChatGPT",
-    "source": "OpenAI Blog",
-    "date": "2026-04-10T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Writing with ChatGPT",
-    "source": "OpenAI Blog",
-    "date": "2026-04-10T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
     "title": "Creating images with ChatGPT",
     "source": "OpenAI Blog",
     "date": "2026-04-10T00:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Healthcare",
+    "title": "ChatGPT for sales teams",
     "source": "OpenAI Blog",
     "date": "2026-04-10T00:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -2262,7 +1908,115 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Learn ChatGPT for Sales Teams",
+    "title": "Healthcare",
+    "source": "OpenAI Blog",
+    "date": "2026-04-10T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Writing with ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2026-04-10T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Research with ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2026-04-10T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Personalizing ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2026-04-10T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Our response to the Axios developer tool compromise",
+    "source": "OpenAI Blog",
+    "date": "2026-04-10T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Analyzing data with ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2026-04-10T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "ChatGPT for operations teams",
+    "source": "OpenAI Blog",
+    "date": "2026-04-10T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Using skills",
+    "source": "OpenAI Blog",
+    "date": "2026-04-10T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "AI fundamentals",
+    "source": "OpenAI Blog",
+    "date": "2026-04-10T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "ChatGPT for marketing teams",
+    "source": "OpenAI Blog",
+    "date": "2026-04-10T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Using projects in ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2026-04-10T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Using custom GPTs",
+    "source": "OpenAI Blog",
+    "date": "2026-04-10T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "ChatGPT for finance teams",
+    "source": "OpenAI Blog",
+    "date": "2026-04-10T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Financial services",
+    "source": "OpenAI Blog",
+    "date": "2026-04-10T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Working with files in ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2026-04-10T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Responsible and safe use of AI",
+    "source": "OpenAI Blog",
+    "date": "2026-04-10T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Brainstorming with ChatGPT",
+    "source": "OpenAI Blog",
+    "date": "2026-04-10T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Applications of AI at OpenAI",
+    "source": "OpenAI Blog",
+    "date": "2026-04-10T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "ChatGPT for managers",
     "source": "OpenAI Blog",
     "date": "2026-04-10T00:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -2436,6 +2190,12 @@
     "reason_dropped": "low_relevance"
   },
   {
+    "title": "Introducing GPT-5.4",
+    "source": "OpenAI Blog",
+    "date": "2026-03-05T10:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
     "title": "Reasoning models struggle to control their chains of thought, and that’s good",
     "source": "OpenAI Blog",
     "date": "2026-03-05T10:00:00.000Z",
@@ -2448,21 +2208,9 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Introducing GPT-5.4",
-    "source": "OpenAI Blog",
-    "date": "2026-03-05T10:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
     "title": "Ensuring AI use in education leads to opportunity",
     "source": "OpenAI Blog",
     "date": "2026-03-05T09:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Introducing ChatGPT for Excel and new financial data integrations",
-    "source": "OpenAI Blog",
-    "date": "2026-03-05T00:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
@@ -2478,15 +2226,15 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Extending single-minus amplitudes to gravitons",
+    "title": "Introducing ChatGPT for Excel and new financial data integrations",
     "source": "OpenAI Blog",
-    "date": "2026-03-04T10:00:00.000Z",
+    "date": "2026-03-05T00:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "How Axios uses AI to help deliver high-impact local journalism",
+    "title": "Extending single-minus amplitudes to gravitons",
     "source": "OpenAI Blog",
-    "date": "2026-03-04T00:00:00.000Z",
+    "date": "2026-03-04T10:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
@@ -2496,13 +2244,19 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "GPT-5.3 Instant System Card",
+    "title": "How Axios uses AI to help deliver high-impact local journalism",
+    "source": "OpenAI Blog",
+    "date": "2026-03-04T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
     "source": "OpenAI Blog",
     "date": "2026-03-03T10:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
+    "title": "GPT-5.3 Instant System Card",
     "source": "OpenAI Blog",
     "date": "2026-03-03T10:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -2514,13 +2268,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Joint Statement from OpenAI and Microsoft",
+    "title": "Scaling AI for everyone",
     "source": "OpenAI Blog",
     "date": "2026-02-27T05:30:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Scaling AI for everyone",
+    "title": "Joint Statement from OpenAI and Microsoft",
     "source": "OpenAI Blog",
     "date": "2026-02-27T05:30:00.000Z",
     "reason_dropped": "low_relevance"
@@ -2712,13 +2466,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "TRUSTBANK uses AI agents to personalize Furusato Nozei gifts",
+    "title": "Introducing Prism",
     "source": "OpenAI Blog",
     "date": "2026-01-27T00:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Introducing Prism",
+    "title": "TRUSTBANK uses AI agents to personalize Furusato Nozei gifts",
     "source": "OpenAI Blog",
     "date": "2026-01-27T00:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -2742,13 +2496,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Inside GPT-5 for Work: How Businesses Use GPT-5",
+    "title": "Inside Praktika's conversational approach to language learning",
     "source": "OpenAI Blog",
     "date": "2026-01-22T00:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Inside Praktika's conversational approach to language learning",
+    "title": "Inside GPT-5 for Work: How Businesses Use GPT-5",
     "source": "OpenAI Blog",
     "date": "2026-01-22T00:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -2760,13 +2514,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "How countries can end the capability overhang",
+    "title": "Introducing Edu for Countries",
     "source": "OpenAI Blog",
     "date": "2026-01-21T01:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Introducing Edu for Countries",
+    "title": "How countries can end the capability overhang",
     "source": "OpenAI Blog",
     "date": "2026-01-21T01:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -2856,13 +2610,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Updating our Model Spec with teen protections",
+    "title": "AI literacy resources for teens and parents",
     "source": "OpenAI Blog",
     "date": "2025-12-18T11:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "AI literacy resources for teens and parents",
+    "title": "Updating our Model Spec with teen protections",
     "source": "OpenAI Blog",
     "date": "2025-12-18T11:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -2898,13 +2652,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Staying ahead in the age of AI",
+    "title": "The new ChatGPT Images is here",
     "source": "OpenAI Blog",
     "date": "2025-12-16T00:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "The new ChatGPT Images is here",
+    "title": "Staying ahead in the age of AI",
     "source": "OpenAI Blog",
     "date": "2025-12-16T00:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -2922,7 +2676,7 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "How Podium is arming 10,000+ SMBs with AI agents",
+    "title": "Update to GPT-5 System Card: GPT-5.2",
     "source": "OpenAI Blog",
     "date": "2025-12-11T00:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -2934,13 +2688,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Introducing GPT-5.2",
+    "title": "How Podium is arming 10,000+ SMBs with AI agents",
     "source": "OpenAI Blog",
     "date": "2025-12-11T00:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Update to GPT-5 System Card: GPT-5.2",
+    "title": "Introducing GPT-5.2",
     "source": "OpenAI Blog",
     "date": "2025-12-11T00:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -3090,13 +2844,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Introducing group chats in ChatGPT",
+    "title": "Introducing GPT-5.1 for developers",
     "source": "OpenAI Blog",
     "date": "2025-11-13T00:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Introducing GPT-5.1 for developers",
+    "title": "Introducing group chats in ChatGPT",
     "source": "OpenAI Blog",
     "date": "2025-11-13T00:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -3210,13 +2964,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "The next chapter of the Microsoft–OpenAI partnership",
+    "title": "Built to benefit everyone",
     "source": "OpenAI Blog",
     "date": "2025-10-28T06:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Built to benefit everyone",
+    "title": "The next chapter of the Microsoft–OpenAI partnership",
     "source": "OpenAI Blog",
     "date": "2025-10-28T06:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -3228,13 +2982,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Addendum to GPT-5 System Card: Sensitive conversations",
+    "title": "Strengthening ChatGPT’s responses in sensitive conversations",
     "source": "OpenAI Blog",
     "date": "2025-10-27T10:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Strengthening ChatGPT’s responses in sensitive conversations",
+    "title": "Addendum to GPT-5 System Card: Sensitive conversations",
     "source": "OpenAI Blog",
     "date": "2025-10-27T10:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -3372,6 +3126,12 @@
     "reason_dropped": "low_relevance"
   },
   {
+    "title": "Sora 2 is here",
+    "source": "OpenAI Blog",
+    "date": "2025-09-30T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
     "title": "Launching Sora responsibly",
     "source": "OpenAI Blog",
     "date": "2025-09-30T00:00:00.000Z",
@@ -3384,19 +3144,7 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Sora 2 is here",
-    "source": "OpenAI Blog",
-    "date": "2025-09-30T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
     "title": "Empowering teams to unlock insights faster at OpenAI",
-    "source": "OpenAI Blog",
-    "date": "2025-09-29T13:30:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Improving support with every interaction at OpenAI",
     "source": "OpenAI Blog",
     "date": "2025-09-29T13:30:00.000Z",
     "reason_dropped": "low_relevance"
@@ -3408,13 +3156,19 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Driving sales productivity and customer success at OpenAI",
+    "title": "Converting inbound leads into customers at OpenAI",
     "source": "OpenAI Blog",
     "date": "2025-09-29T13:30:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Converting inbound leads into customers at OpenAI",
+    "title": "Improving support with every interaction at OpenAI",
+    "source": "OpenAI Blog",
+    "date": "2025-09-29T13:30:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Driving sales productivity and customer success at OpenAI",
     "source": "OpenAI Blog",
     "date": "2025-09-29T13:30:00.000Z",
     "reason_dropped": "low_relevance"
@@ -3660,7 +3414,7 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "GPT-5 System Card",
+    "title": "Introducing GPT-5",
     "source": "OpenAI Blog",
     "date": "2025-08-07T00:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -3672,7 +3426,7 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "How Cursor uses GPT-5",
+    "title": "From hard refusals to safe-completions: toward output-centric safety training",
     "source": "OpenAI Blog",
     "date": "2025-08-07T00:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -3684,13 +3438,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Introducing GPT-5",
+    "title": "GPT-5 System Card",
     "source": "OpenAI Blog",
     "date": "2025-08-07T00:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "From hard refusals to safe-completions: toward output-centric safety training",
+    "title": "How Cursor uses GPT-5",
     "source": "OpenAI Blog",
     "date": "2025-08-07T00:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -3702,12 +3456,6 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Introducing gpt-oss",
-    "source": "OpenAI Blog",
-    "date": "2025-08-05T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
     "title": "gpt-oss-120b & gpt-oss-20b Model Card",
     "source": "OpenAI Blog",
     "date": "2025-08-05T00:00:00.000Z",
@@ -3715,6 +3463,12 @@
   },
   {
     "title": "Open Weights and AI for All",
+    "source": "OpenAI Blog",
+    "date": "2025-08-05T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Introducing gpt-oss",
     "source": "OpenAI Blog",
     "date": "2025-08-05T00:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -3750,13 +3504,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Model ML is helping financial firms rebuild with AI from the ground up",
+    "title": "Announcing OpenAI DevDay 2025",
     "source": "OpenAI Blog",
     "date": "2025-07-23T00:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Announcing OpenAI DevDay 2025",
+    "title": "Model ML is helping financial firms rebuild with AI from the ground up",
     "source": "OpenAI Blog",
     "date": "2025-07-23T00:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -3804,6 +3558,12 @@
     "reason_dropped": "low_relevance"
   },
   {
+    "title": "OpenAI nonprofit jam",
+    "source": "OpenAI Blog",
+    "date": "2025-07-17T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
     "title": "Statement from the OpenAI Board of Directors on the Nonprofit Commission Report",
     "source": "OpenAI Blog",
     "date": "2025-07-17T00:00:00.000Z",
@@ -3811,12 +3571,6 @@
   },
   {
     "title": "Invideo AI uses OpenAI models to create videos 10x faster",
-    "source": "OpenAI Blog",
-    "date": "2025-07-17T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "OpenAI nonprofit jam",
     "source": "OpenAI Blog",
     "date": "2025-07-17T00:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -4032,12 +3786,6 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Thinking with images",
-    "source": "OpenAI Blog",
-    "date": "2025-04-16T10:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
     "title": "Introducing OpenAI o3 and o4-mini",
     "source": "OpenAI Blog",
     "date": "2025-04-16T10:00:00.000Z",
@@ -4045,6 +3793,12 @@
   },
   {
     "title": "OpenAI o3 and o4-mini System Card",
+    "source": "OpenAI Blog",
+    "date": "2025-04-16T10:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Thinking with images",
     "source": "OpenAI Blog",
     "date": "2025-04-16T10:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -4080,13 +3834,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Canva enables creativity with AI",
+    "title": "OpenAI’s EU Economic Blueprint",
     "source": "OpenAI Blog",
     "date": "2025-04-07T00:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "OpenAI’s EU Economic Blueprint",
+    "title": "Canva enables creativity with AI",
     "source": "OpenAI Blog",
     "date": "2025-04-07T00:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -4308,13 +4062,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Creating nail art with ChatGPT",
+    "title": "Building a custom math tutor powered by ChatGPT",
     "source": "OpenAI Blog",
     "date": "2025-02-04T00:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Building a custom math tutor powered by ChatGPT",
+    "title": "Creating nail art with ChatGPT",
     "source": "OpenAI Blog",
     "date": "2025-02-04T00:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -4338,13 +4092,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "OpenAI o3-mini",
+    "title": "OpenAI o3-mini System Card",
     "source": "OpenAI Blog",
     "date": "2025-01-31T11:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "OpenAI o3-mini System Card",
+    "title": "OpenAI o3-mini",
     "source": "OpenAI Blog",
     "date": "2025-01-31T11:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -4428,13 +4182,7 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Put AI to work for your product team",
-    "source": "OpenAI Blog",
-    "date": "2024-12-09T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Sora System Card",
+    "title": "Animator Lyndon Barrois creates new worlds with Sora",
     "source": "OpenAI Blog",
     "date": "2024-12-09T00:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -4452,7 +4200,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Animator Lyndon Barrois creates new worlds with Sora",
+    "title": "Sora System Card",
+    "source": "OpenAI Blog",
+    "date": "2024-12-09T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Put AI to work for your product team",
     "source": "OpenAI Blog",
     "date": "2024-12-09T00:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -4668,12 +4422,6 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Coding with OpenAI o1",
-    "source": "OpenAI Blog",
-    "date": "2024-09-12T00:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
     "title": "Economics and reasoning with OpenAI o1",
     "source": "OpenAI Blog",
     "date": "2024-09-12T00:00:00.000Z",
@@ -4681,6 +4429,12 @@
   },
   {
     "title": "Answering quantum physics questions with OpenAI o1",
+    "source": "OpenAI Blog",
+    "date": "2024-09-12T00:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Coding with OpenAI o1",
     "source": "OpenAI Blog",
     "date": "2024-09-12T00:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -4704,13 +4458,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Putting AI to work at Upwork",
+    "title": "Fine-tuning now available for GPT-4o",
     "source": "OpenAI Blog",
     "date": "2024-08-20T10:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Fine-tuning now available for GPT-4o",
+    "title": "Putting AI to work at Upwork",
     "source": "OpenAI Blog",
     "date": "2024-08-20T10:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -4962,13 +4716,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Introducing GPT-4o and more tools to ChatGPT free users",
+    "title": "Spring Update",
     "source": "OpenAI Blog",
     "date": "2024-05-13T10:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Spring Update",
+    "title": "Introducing GPT-4o and more tools to ChatGPT free users",
     "source": "OpenAI Blog",
     "date": "2024-05-13T10:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -4980,13 +4734,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Understanding the source of what we see and hear online",
+    "title": "Our approach to data and AI",
     "source": "OpenAI Blog",
     "date": "2024-05-07T00:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Our approach to data and AI",
+    "title": "Understanding the source of what we see and hear online",
     "source": "OpenAI Blog",
     "date": "2024-05-07T00:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -5010,13 +4764,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Introducing ChatGPT and Whisper APIs",
+    "title": "GPT-4 API general availability and deprecation of older models in the Completions API",
     "source": "OpenAI Blog",
     "date": "2024-04-24T00:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "GPT-4 API general availability and deprecation of older models in the Completions API",
+    "title": "Introducing ChatGPT and Whisper APIs",
     "source": "OpenAI Blog",
     "date": "2024-04-24T00:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -5064,13 +4818,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Start using ChatGPT instantly",
+    "title": "Reducing health insurance costs and improving care",
     "source": "OpenAI Blog",
     "date": "2024-04-01T00:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Reducing health insurance costs and improving care",
+    "title": "Start using ChatGPT instantly",
     "source": "OpenAI Blog",
     "date": "2024-04-01T00:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -5112,13 +4866,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Global news partnerships: Le Monde and Prisa Media",
+    "title": "Saving lives with AI health coaching",
     "source": "OpenAI Blog",
     "date": "2024-03-13T07:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Saving lives with AI health coaching",
+    "title": "Global news partnerships: Le Monde and Prisa Media",
     "source": "OpenAI Blog",
     "date": "2024-03-13T07:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -5196,13 +4950,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Introducing the GPT Store",
+    "title": "Introducing ChatGPT Team",
     "source": "OpenAI Blog",
     "date": "2024-01-10T08:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Introducing ChatGPT Team",
+    "title": "Introducing the GPT Store",
     "source": "OpenAI Blog",
     "date": "2024-01-10T08:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -5292,13 +5046,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Building AI-powered apps for business",
+    "title": "Simplifying contract reviews with AI",
     "source": "OpenAI Blog",
     "date": "2023-10-11T07:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Simplifying contract reviews with AI",
+    "title": "Building AI-powered apps for business",
     "source": "OpenAI Blog",
     "date": "2023-10-11T07:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -5490,7 +5244,7 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Preserving languages for the future",
+    "title": "Transforming visual accessibility",
     "source": "OpenAI Blog",
     "date": "2023-03-14T07:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -5502,13 +5256,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Transforming visual accessibility",
+    "title": "Filling crucial language learning gaps",
     "source": "OpenAI Blog",
     "date": "2023-03-14T07:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Filling crucial language learning gaps",
+    "title": "Preserving languages for the future",
     "source": "OpenAI Blog",
     "date": "2023-03-14T07:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -5820,13 +5574,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "TruthfulQA: Measuring how models mimic human falsehoods",
+    "title": "Helen Toner joins OpenAI’s board of directors",
     "source": "OpenAI Blog",
     "date": "2021-09-08T07:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Helen Toner joins OpenAI’s board of directors",
+    "title": "TruthfulQA: Measuring how models mimic human falsehoods",
     "source": "OpenAI Blog",
     "date": "2021-09-08T07:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -5892,13 +5646,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "DALL·E: Creating images from text",
+    "title": "CLIP: Connecting text and images",
     "source": "OpenAI Blog",
     "date": "2021-01-05T08:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "CLIP: Connecting text and images",
+    "title": "DALL·E: Creating images from text",
     "source": "OpenAI Blog",
     "date": "2021-01-05T08:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -6360,13 +6114,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Improving GANs using optimal transport",
+    "title": "Report from the OpenAI hackathon",
     "source": "OpenAI Blog",
     "date": "2018-03-15T07:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Report from the OpenAI hackathon",
+    "title": "Improving GANs using optimal transport",
     "source": "OpenAI Blog",
     "date": "2018-03-15T07:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -6414,13 +6168,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Preparing for malicious uses of AI",
+    "title": "OpenAI supporters",
     "source": "OpenAI Blog",
     "date": "2018-02-20T08:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "OpenAI supporters",
+    "title": "Preparing for malicious uses of AI",
     "source": "OpenAI Blog",
     "date": "2018-02-20T08:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -6480,13 +6234,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Asymmetric actor critic for image-based robot learning",
+    "title": "Sim-to-real transfer of robotic control with dynamics randomization",
     "source": "OpenAI Blog",
     "date": "2017-10-18T07:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Sim-to-real transfer of robotic control with dynamics randomization",
+    "title": "Asymmetric actor critic for image-based robot learning",
     "source": "OpenAI Blog",
     "date": "2017-10-18T07:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -6498,13 +6252,13 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Competitive self-play",
+    "title": "Meta-learning for wrestling",
     "source": "OpenAI Blog",
     "date": "2017-10-11T07:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Meta-learning for wrestling",
+    "title": "Competitive self-play",
     "source": "OpenAI Blog",
     "date": "2017-10-11T07:00:00.000Z",
     "reason_dropped": "low_relevance"
@@ -6844,18 +6598,6 @@
     "source": "OpenAI Blog",
     "date": "2015-12-11T08:00:00.000Z",
     "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
-    "source": "OpenAI Blog",
-    "date": "2026-06-28T17:00:00.000Z",
-    "reason_dropped": "dropped_time_mode"
-  },
-  {
-    "title": "Previewing GPT-5.6 Sol: a next-generation model",
-    "source": "OpenAI Blog",
-    "date": "2026-06-26T10:00:00.000Z",
-    "reason_dropped": "dropped_time_mode"
   },
   {
     "title": "Samsung Electronics brings ChatGPT and Codex to employees",
@@ -7200,7 +6942,7 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Commonwealth Bank of Australia builds AI fluency at scale",
+    "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
     "source": "OpenAI Blog",
     "date": "2025-12-09T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -7212,7 +6954,7 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
+    "title": "Commonwealth Bank of Australia builds AI fluency at scale",
     "source": "OpenAI Blog",
     "date": "2025-12-09T00:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -7500,13 +7242,13 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Sparking a more productive company with ChatGPT Enterprise",
+    "title": "Using AI to improve patient access to clinical trials",
     "source": "OpenAI Blog",
     "date": "2024-03-06T08:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Using AI to improve patient access to clinical trials",
+    "title": "Sparking a more productive company with ChatGPT Enterprise",
     "source": "OpenAI Blog",
     "date": "2024-03-06T08:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
@@ -7564,30 +7306,6 @@
     "source": "OpenAI Blog",
     "date": "2017-08-16T07:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
-  },
-  {
-    "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
-    "source": "Google AI Blog",
-    "date": "2026-07-28T16:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "5 ways AI Mode in Search helps you enjoy the real world",
-    "source": "Google AI Blog",
-    "date": "2026-07-28T13:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "5 ways to host the ultimate dinner party with Google Search",
-    "source": "Google AI Blog",
-    "date": "2026-07-28T13:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "3 Google updates from Galaxy Unpacked 2026",
-    "source": "Google AI Blog",
-    "date": "2026-07-22T13:00:00.000Z",
-    "reason_dropped": "low_relevance"
   },
   {
     "title": "Connect more of your apps to Search",
@@ -7680,28 +7398,34 @@
     "reason_dropped": "low_relevance"
   },
   {
+    "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+    "source": "Google AI Blog",
+    "date": "2026-05-29T17:30:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Check out real-life AI prototypes from the Futures Lab.",
+    "source": "Google AI Blog",
+    "date": "2026-05-29T12:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Catch up on 12 major I/O 2026 moments",
+    "source": "Google AI Blog",
+    "date": "2026-05-28T15:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Catch up on the Dialogues stage at Google I/O 2026.",
+    "source": "Google AI Blog",
+    "date": "2026-05-22T18:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
     "title": "We’re strengthening our presence in Alabama through new investments and community support.",
     "source": "Google AI Blog",
     "date": "2026-06-15T15:00:00.000Z",
     "reason_dropped": "dropped_time_mode"
-  },
-  {
-    "title": "Looking back on Microsoft’s FY26: From AI experimentation to Frontier Transformation",
-    "source": "Microsoft Blog AI",
-    "date": "2026-07-28T16:00:10.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Rethinking security for the age of AI",
-    "source": "Microsoft Blog AI",
-    "date": "2026-07-27T16:30:09.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Powering America’s Genesis Mission: Microsoft’s commitment to scientific discovery",
-    "source": "Microsoft Blog AI",
-    "date": "2026-07-22T12:00:06.000Z",
-    "reason_dropped": "low_relevance"
   },
   {
     "title": "The latest in our company transformation",
@@ -7716,117 +7440,141 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Inside Microsoft’s two-decade push to cut water intensity while scaling for growth",
+    "title": "Microsoft Build 2026: Be yourself at work",
     "source": "Microsoft Blog AI",
-    "date": "2026-06-24T12:01:13.000Z",
+    "date": "2026-06-02T18:54:13.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "AI alone won’t change your business. The system running it will.",
+    "source": "Microsoft Blog AI",
+    "date": "2026-06-02T19:00:13.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Rethinking cloud operations with agentic observability",
+    "title": "From AI pilots to enterprise impact: Why execution is the new differentiator",
     "source": "Microsoft Blog AI",
-    "date": "2026-06-23T15:45:05.000Z",
+    "date": "2026-05-21T11:02:33.000Z",
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Powering the next wave of AI: Expanding capacity with our new datacenter in Pecos",
-    "source": "Microsoft Blog AI",
-    "date": "2026-06-22T12:06:39.000Z",
-    "reason_dropped": "dropped_time_mode"
-  },
-  {
-    "title": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents",
+    "title": "The Anthropic-Physical Intelligence rumor roiling AI Twitter",
     "source": "TechCrunch AI",
-    "date": "2026-07-29T00:09:05.000Z",
+    "date": "2026-07-22T03:20:57.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Bot-detection startup Spur nabs $200M from Insight",
+    "title": "Meta is testing an AI bedtime story app for people with no imagination",
     "source": "TechCrunch AI",
-    "date": "2026-07-28T21:29:34.000Z",
+    "date": "2026-07-21T23:55:10.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "MCP startup Runlayer accuses Rippling of stealing its product idea",
+    "title": "OpenAI says Hugging Face was breached by its pre-release models",
     "source": "TechCrunch AI",
-    "date": "2026-07-28T20:45:12.000Z",
+    "date": "2026-07-21T20:56:55.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Sam Altman is ready to decelerate",
+    "title": "Jack Dorsey is taking on Slack with Buzz, a group chat platform for teams and their AI agents",
     "source": "TechCrunch AI",
-    "date": "2026-07-28T20:17:08.000Z",
+    "date": "2026-07-21T19:43:41.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Fish Audio raises $52M seed to build AI voice models for creators and enterprises",
+    "title": "AI and the rise of the universal entertainment app",
     "source": "TechCrunch AI",
-    "date": "2026-07-28T14:00:00.000Z",
+    "date": "2026-07-21T19:39:30.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing",
+    "title": "Data centers expected to use 4x more electricity by 2035",
     "source": "TechCrunch AI",
-    "date": "2026-07-28T04:30:00.000Z",
+    "date": "2026-07-21T18:06:38.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
+    "title": "Google releases three new Gemini models — but no 3.5 Pro",
     "source": "TechCrunch AI",
-    "date": "2026-07-28T00:13:33.000Z",
+    "date": "2026-07-21T17:11:50.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Satya Nadella says companies that trust one AI for everything may not survive",
+    "title": "US threatens sanctions against Chinese AI models over IP theft",
     "source": "TechCrunch AI",
-    "date": "2026-07-27T21:17:11.000Z",
+    "date": "2026-07-21T15:37:05.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "PSA: Your Claude shared chats and Artifacts may have ended up on Google",
+    "title": "Music streamer Deezer says more than 50% of daily uploads are AI-generated",
     "source": "TechCrunch AI",
-    "date": "2026-07-27T20:19:42.000Z",
+    "date": "2026-07-21T13:27:42.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "OpenAI’s Hugging Face breach has reignited the debate over alignment and control",
+    "title": "Gritt exits stealth with $32 million for robots to build solar plants — then, everything else",
     "source": "TechCrunch AI",
-    "date": "2026-07-27T17:28:42.000Z",
+    "date": "2026-07-21T10:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Threads users can now chat with Meta AI in their DMs",
+    "title": "Anthropic’s landmark $1.5B copyright settlement is approved",
     "source": "TechCrunch AI",
-    "date": "2026-07-27T16:45:24.000Z",
+    "date": "2026-07-21T00:12:24.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Google’s AI search is rapidly becoming the default, new data shows",
+    "title": "Trump’s latest AI czar has already resigned",
     "source": "TechCrunch AI",
-    "date": "2026-07-27T15:57:12.000Z",
+    "date": "2026-07-20T22:21:04.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "This $9 key physically locks your most addictive apps",
+    "title": "Google is working on a new AI chip designed to make Gemini more efficient",
     "source": "TechCrunch AI",
-    "date": "2026-07-27T15:25:37.000Z",
+    "date": "2026-07-20T21:21:15.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research",
+    "title": "AI’s most important protocol is getting a little bit easier to use",
     "source": "TechCrunch AI",
-    "date": "2026-07-27T15:01:50.000Z",
+    "date": "2026-07-20T20:50:40.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume",
+    "title": "X relaunches a rebuilt Android app after year-long effort",
     "source": "TechCrunch AI",
-    "date": "2026-07-27T13:00:00.000Z",
+    "date": "2026-07-20T19:37:39.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Are brain waves the next unlock for physical AI?",
+    "title": "OpenAI is scared of open-weight models. Should the US be?",
     "source": "TechCrunch AI",
-    "date": "2026-07-27T00:19:14.000Z",
+    "date": "2026-07-20T19:33:25.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Adobe camera app’s new feature will critique your photos using AI",
+    "source": "TechCrunch AI",
+    "date": "2026-07-20T15:45:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "YouTube clarifies policies around AI slop and upsetting videos",
+    "source": "TechCrunch AI",
+    "date": "2026-07-20T15:23:06.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "What to watch for after Jensen Huang’s Japan visit",
+    "source": "TechCrunch AI",
+    "date": "2026-07-19T21:16:07.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
+    "source": "TechCrunch AI",
+    "date": "2026-07-19T19:24:45.000Z",
     "reason_dropped": "low_relevance"
   }
 ]

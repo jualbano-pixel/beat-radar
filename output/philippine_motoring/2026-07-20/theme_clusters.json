@@ -1,0 +1,174 @@
+[
+  {
+    "theme_id": "ev_transition_gap",
+    "theme_label": "EV transition gap",
+    "theme_summary": "EV transition gap is the shared editorial thread across 3 related stories. The strongest signal is EV transition gap visible.",
+    "story_count": 3,
+    "cluster_ids": [],
+    "story_ids": [
+      "a882adda6b21",
+      "698cd73dda52",
+      "4f1677a68e6d"
+    ],
+    "associated_stories": [
+      {
+        "id": "698cd73dda52",
+        "title": "The all-new BMW F450 GS lands in PH starting at P498k",
+        "url": "https://www.topgear.com.ph/moto-sapiens/motorcycle-news/bmw-f450-gs-2027-ph-launch-a5361-20260717",
+        "source": "TopGear Philippines",
+        "published_at": "2026-07-17T11:00:00.000Z"
+      },
+      {
+        "id": "a882adda6b21",
+        "title": "Thinking of going hybrid? Metrobank makes the switch easier",
+        "url": "https://www.topgear.com.ph/sponsored-content/metrobank-hybrid-car-loan-advcon-a6940-a6940-20260720",
+        "source": "TopGear Philippines",
+        "published_at": "2026-07-20T06:21:00.000Z"
+      },
+      {
+        "id": "4f1677a68e6d",
+        "title": "Chinese carmaker Xpeng to enter PH with two EVs later this year",
+        "url": "https://www.topgear.com.ph/news/industry-news/xpeng-ph-launch-q3-2026-a6888-20260716",
+        "source": "TopGear Philippines",
+        "published_at": "2026-07-16T10:23:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "watchlist_signal"
+    ],
+    "dominant_angle_signals": [
+      "EV transition gap visible"
+    ],
+    "top_story_refs": [
+      "698cd73dda52",
+      "a882adda6b21",
+      "4f1677a68e6d"
+    ]
+  },
+  {
+    "theme_id": "ownership_cost_reality",
+    "theme_label": "ownership cost reality",
+    "theme_summary": "ownership cost reality is the shared editorial thread across 3 related stories. The strongest signal is ownership cost reality surfacing.",
+    "story_count": 3,
+    "cluster_ids": [],
+    "story_ids": [
+      "feb7fa97971b",
+      "18769eb63b80",
+      "f9120781381f"
+    ],
+    "associated_stories": [
+      {
+        "id": "f9120781381f",
+        "title": "Renewed Middle East conflict revives fuel excise tax suspension debate",
+        "url": "https://bworldonline.com/top-stories/2026/07/20/764407/renewed-middle-east-conflict-revives-fuel-excise-tax-suspension-debate",
+        "source": "BusinessWorld Online",
+        "published_at": "2026-07-19T16:33:02.000Z"
+      },
+      {
+        "id": "feb7fa97971b",
+        "title": "Unioil, Aramco open first station in Sucat and bring premium fuel experience to Filipino drivers",
+        "url": "https://www.philstar.com/biz-memos/2026/07/20/2543408/unioil-aramco-open-first-station-sucat-and-bring-premium-fuel-experience-filipino-drivers",
+        "source": "Philstar Business",
+        "published_at": "2026-07-20T02:00:00.000Z"
+      },
+      {
+        "id": "18769eb63b80",
+        "title": "CBC bundles credit, insurance to ease car ownership costs",
+        "url": "https://www.philstar.com/banking/2026/07/20/2539562/cbc-bundles-credit-insurance-ease-car-ownership-costs",
+        "source": "Philstar Business",
+        "published_at": "2026-07-20T01:55:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "local_business_relevance",
+      "watchlist_signal"
+    ],
+    "dominant_angle_signals": [
+      "ownership cost reality surfacing",
+      "product launch reveals market bet",
+      "consumer demand shifting by segment"
+    ],
+    "top_story_refs": [
+      "f9120781381f",
+      "feb7fa97971b",
+      "18769eb63b80"
+    ]
+  },
+  {
+    "theme_id": "consumer_demand_shift",
+    "theme_label": "consumer demand shift",
+    "theme_summary": "consumer demand shift is the shared editorial thread across 2 related stories. The strongest signal is product launch reveals market bet.",
+    "story_count": 2,
+    "cluster_ids": [],
+    "story_ids": [
+      "033f219bde08",
+      "a44a43e30647"
+    ],
+    "associated_stories": [
+      {
+        "id": "a44a43e30647",
+        "title": "Could the Lexus RZ350e be the SUV’s new base variant in PH market?",
+        "url": "https://www.topgear.com.ph/news/car-news/lexus-rz350e-lto-homologation-a6938-20260716",
+        "source": "TopGear Philippines",
+        "published_at": "2026-07-16T10:42:00.000Z"
+      },
+      {
+        "id": "033f219bde08",
+        "title": "Is the recently launched Yamaha R9 already expecting a new update?",
+        "url": "https://www.topgear.com.ph/moto-sapiens/motorcycle-news/yamaha-yzf-r9-lto-homologation-2026-a6938-20260717",
+        "source": "TopGear Philippines",
+        "published_at": "2026-07-17T06:28:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "product_signal"
+    ],
+    "dominant_angle_signals": [
+      "product launch reveals market bet",
+      "regulation moving into ownership reality",
+      "consumer demand shifting by segment"
+    ],
+    "top_story_refs": [
+      "a44a43e30647",
+      "033f219bde08"
+    ]
+  },
+  {
+    "theme_id": "infrastructure_constraint",
+    "theme_label": "infrastructure constraint",
+    "theme_summary": "infrastructure constraint is the shared editorial thread across 2 related stories. The strongest signal is infrastructure constraint showing.",
+    "story_count": 2,
+    "cluster_ids": [],
+    "story_ids": [
+      "e5240174d768",
+      "7fe4065573f9"
+    ],
+    "associated_stories": [
+      {
+        "id": "e5240174d768",
+        "title": "The 10 best road cars Alpina has ever built",
+        "url": "https://www.topgear.com.ph/features/feature-articles/alpina-10-best-ever-road-cars-tguk-a2607-20260719",
+        "source": "TopGear Philippines",
+        "published_at": "2026-07-19T07:05:00.000Z"
+      },
+      {
+        "id": "7fe4065573f9",
+        "title": "Numbeo ranks PH with the 16th worst traffic in the world in 2026, from 9th worst in 2020",
+        "url": "https://www.topgear.com.ph/news/motoring-news/philippines-numbeo-traffic-report-2026-a6938-20260716",
+        "source": "TopGear Philippines",
+        "published_at": "2026-07-16T07:53:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "watchlist_signal"
+    ],
+    "dominant_angle_signals": [
+      "infrastructure constraint showing",
+      "EV transition gap visible"
+    ],
+    "top_story_refs": [
+      "e5240174d768",
+      "7fe4065573f9"
+    ]
+  }
+]

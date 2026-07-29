@@ -1,0 +1,447 @@
+{
+  "top_stories": [
+    {
+      "title": "Cybersecurity in the Philippines is still lagging behind",
+      "source": "Inquirer Tech",
+      "date": "2026-07-15T12:06:06.000Z",
+      "summary": "The rapid pace of digital transformation has changed how Philippine businesses operate. Banks have expanded digital services, enterprises have adopted cloud platforms, and hybrid work has become a permanent part of many organizations. Arun Kumar J, Regional Director for APAC at ManageEngine, believes those changes h...",
+      "tags": [
+        "cybersecurity",
+        "enterprise_tech"
+      ],
+      "priority_score": 26.4,
+      "priority_reasons": [
+        "reported_material_development",
+        "infrastructure_move",
+        "policy_shift",
+        "material_technology_effect",
+        "cybersecurity_or_resilience_signal",
+        "safety_or_governance",
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the technology ecosystem, such as businesses, governments, infrastructure operators, consumers, or regulators."
+    },
+    {
+      "title": "Global expansion is no longer about reducing information costs, it’s about reducing trust costs",
+      "source": "e27 SEA Tech",
+      "date": "2026-07-21T03:00:57.000Z",
+      "summary": "For decades, globalisation followed a predictable economic logic. Technology lowered the cost of communication, cloud computing reduced infrastructure costs, SaaS standardised business processes, and AI is now making information almost free. Every major wave of innovation has reduced the friction of doing business a...",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 20.3,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "infrastructure_move",
+        "policy_shift",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
+    },
+    {
+      "title": "More Philippine organizations invest in cybersecurity amid AI-driven threats",
+      "source": "BusinessWorld AI/Tech",
+      "date": "2026-07-21T16:32:00.000Z",
+      "summary": "THE RISE of artificial intelligence (AI) is reshaping cybersecurity strategies, with Philippine organizations increasing investments to counter increasingly sophisticated cyberthreats and strengthen their resilience against attacks, experts said.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "priority_score": 18.3,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "policy_shift",
+        "material_technology_effect",
+        "cybersecurity_or_resilience_signal",
+        "safety_or_governance",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
+    },
+    {
+      "title": "WBBA convenes Asia-Pacific’s first Broadband Development Summit in Bangkok, launches AI-Net Certification",
+      "source": "e27 SEA Tech",
+      "date": "2026-07-17T11:32:52.000Z",
+      "summary": "Regulators, standards bodies and leading operators met in Bangkok on 14 July for the region’s inaugural summit, where the World Broadband Association set out a shared agenda for network infrastructure in the AI era and named XLSmart its first AI-Net Champion. Government officials, international standards bodies and...",
+      "tags": [
+        "tech_infrastructure",
+        "telecom_connectivity"
+      ],
+      "priority_score": 17.4,
+      "priority_reasons": [
+        "reported_material_development",
+        "infrastructure_move",
+        "systemic_importance",
+        "connectivity_expansion_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because it is a concrete development in infrastructure, deployment, market behavior, or investment rather than vendor commentary."
+    },
+    {
+      "title": "DICT, LANDBANK partner on AI tools for MSMEs",
+      "source": "BusinessWorld AI/Tech",
+      "date": "2026-07-21T16:01:42.000Z",
+      "summary": "THE Department of Information and Communications Technology (DICT) and Land Bank of the Philippines (LANDBANK) have signed an agreement to develop artificial intelligence (AI)-powered digital tools aimed at helping micro, small and medium enterprises (MSME) improve access to financing and boost their competitiveness...",
+      "tags": [
+        "digital_policy"
+      ],
+      "priority_score": 16.3,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "policy_shift",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
+    },
+    {
+      "title": "It’s time to rebuild the house: The AI-driven transformation of enterprise",
+      "source": "e27 SEA Tech",
+      "date": "2026-07-21T02:45:36.000Z",
+      "summary": "Somewhere around 2017, at a family dinner in my hometown in Gujarat (India), an uncle asked me what I actually did for a living. I said “cloud consulting,” and he had no idea what that meant. So I reached for an analogy, and it worked so well that I’ve been using it for a decade […] The post It’s time to rebuild the...",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 16.3,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "infrastructure_move",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
+    },
+    {
+      "title": "The myth of the neutral stack: Why SEA startups can no longer sit on the fence",
+      "source": "e27 SEA Tech",
+      "date": "2026-07-22T01:45:03.000Z",
+      "summary": "For years, startups in Southeast Asia had an unusual advantage. They could build across markets. A company in Singapore, Bangkok, Jakarta, or Kuala Lumpur could use US cloud software, Chinese hardware, regional logistics tools, and global customer platforms in the same operation. The choices looked technical. Cost m...",
+      "tags": [
+        "startups_vc"
+      ],
+      "priority_score": 15.3,
+      "priority_reasons": [
+        "reported_material_development",
+        "infrastructure_move",
+        "policy_shift",
+        "broad_ecosystem_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the technology ecosystem, such as businesses, governments, infrastructure operators, consumers, or regulators."
+    },
+    {
+      "title": "The real difference between OpenAI and Anthropic is what happens when AI gets cheaper",
+      "source": "e27 SEA Tech",
+      "date": "2026-07-22T01:15:57.000Z",
+      "summary": "Anthropic may look stronger than OpenAI on the usual pre-IPO scoreboard. It has reported stronger private-market momentum. It appears closer to near-term operating profit. Its gross margin is reported above OpenAI’s. It has deep enterprise relationships, a strong reputation with developers, and Claude Code has becom...",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 15.3,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "model_or_platform_change",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the technology ecosystem, such as businesses, governments, infrastructure operators, consumers, or regulators."
+    }
+  ],
+  "secondary_signals": [
+    {
+      "title": "Microsoft expands Azure AI and HPC infrastructure with AMD",
+      "source": "Microsoft Blog AI",
+      "date": "2026-07-20T13:00:02.000Z",
+      "summary": "AI workloads are scaling faster than any single infrastructure approach can support — with more models, new agent-driven workloads and surging compute demand driving the need for greater specialization across the stack. To meet this need, Microsoft continues to evolve Azure’s infrastructure, including expanding its...",
+      "tags": [
+        "tech_infrastructure"
+      ],
+      "priority_score": 14.3,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "model_or_platform_change",
+        "infrastructure_move",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "Where does the Philippines stand on AI regulation?",
+      "source": "Inquirer Tech",
+      "date": "2026-06-29T12:36:00.000Z",
+      "summary": "Artificial intelligence (AI) is already making decisions that impact Filipinos—in hiring, credit scoring, content moderation, and public services. Across Southeast Asia, governments are racing to put binding rules around AI. While the Philippines is actively moving in the same direction, its efforts remain scattered...",
+      "tags": [
+        "digital_policy"
+      ],
+      "priority_score": 13.7,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "policy_shift",
+        "systemic_importance",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful as a reported or official development rather than vendor-authored positioning."
+    },
+    {
+      "title": "CMBI, SMBC back Whale’s US$40M Series C extension for enterprise AI expansion",
+      "source": "e27 SEA Tech",
+      "date": "2026-07-17T09:53:10.000Z",
+      "summary": "Singapore-headquartered enterprise AI company Whale has raised a US$40 million extension to its Series C round, bringing the total Series C financing to US$100 million, as it looks to expand deployments across Asia Pacific and North America. The extension was led by CMB International, through an investment fund focu...",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 12.9,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "systemic_importance",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful as a reported or official development rather than vendor-authored positioning."
+    },
+    {
+      "title": "When cybersecurity reminders are not enough",
+      "source": "Inquirer Tech",
+      "date": "2026-07-09T10:16:01.000Z",
+      "summary": "The latest findings from the Philippine Statistics Authority should change the way the country talks about cybersecurity. When 6 out of 10 Filipinos have been exposed to a cybersecurity incident in 2024, maybe reminders are not enough. More than six in ten Filipinos using information and communications technology de...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "priority_score": 12.7,
+      "priority_reasons": [
+        "policy_shift",
+        "material_technology_effect",
+        "cybersecurity_or_resilience_signal",
+        "safety_or_governance",
+        "editorial_source_confirmation"
+      ],
+      "note": "Worth tracking for operating risk, compliance, or resilience implications."
+    },
+    {
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "source": "OpenAI Blog",
+      "date": "2026-06-26T10:00:00.000Z",
+      "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+      "tags": [
+        "ai_automation",
+        "cybersecurity"
+      ],
+      "priority_score": 12.2,
+      "priority_reasons": [
+        "vendor_authored_context",
+        "model_or_platform_change",
+        "policy_shift",
+        "material_technology_effect",
+        "cybersecurity_or_resilience_signal",
+        "safety_or_governance",
+        "editorial_source_confirmation",
+        "minor_or_routine"
+      ],
+      "note": "Worth tracking for operating risk, compliance, or resilience implications."
+    },
+    {
+      "title": "Singapore turns AI scrutiny towards chatbots, personal data, and digital twins",
+      "source": "e27 SEA Tech",
+      "date": "2026-07-21T04:45:28.000Z",
+      "summary": "Singapore is moving to sharpen the rules around how companies use personal data in generative AI, as the country tries to square two competing realities: businesses want more data to build AI systems, while users are increasingly asked to trust tools they barely understand. At the Singapore Data Festival on Monday,...",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 11.3,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it has broad practical impact across the technology ecosystem."
+    },
+    {
+      "title": "Empathy and AI: two sides of the same coin",
+      "source": "Inquirer Tech",
+      "date": "2026-07-13T17:24:33.000Z",
+      "summary": "For decades, the Philippines has served as the world’s “heart” for customer service and hospitality. This global reputation was not built on technical infrastructure alone, but on malasakit—a proactive, deep-seated concern for the well-being of others. Our ability to care deeply is what makes Filipino talent indispe...",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 11.2,
+      "priority_reasons": [
+        "reported_material_development",
+        "material_technology_effect",
+        "ph_ai_economic_transformation",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
+    },
+    {
+      "title": "AI is making your next Apple product more expensive",
+      "source": "Inquirer Tech",
+      "date": "2026-06-26T18:21:00.000Z",
+      "summary": "Apple has officially raised prices on several MacBook and iPad models worldwide, including the Philippines, after soaring memory chip costs made it increasingly difficult for the company to absorb higher production expenses. The price adjustments come as technology companies race to build AI infrastructure, driving...",
+      "tags": [
+        "tech_infrastructure"
+      ],
+      "priority_score": 11.2,
+      "priority_reasons": [
+        "reported_material_development",
+        "infrastructure_move",
+        "material_technology_effect",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
+    },
+    {
+      "title": "AI-powered business automation: How SMEs are transforming operations in Southeast Asia",
+      "source": "e27 SEA Tech",
+      "date": "2026-07-22T03:00:09.000Z",
+      "summary": "Small and medium-sized enterprises (SMEs) are the backbone of Southeast Asia’s economy, accounting for approximately 99 per cent of businesses across the region and employing millions of people. As competition intensifies and customer expectations continue to rise, many SMEs are under increasing pressure to improve...",
+      "tags": [
+        "ai_automation",
+        "enterprise_tech"
+      ],
+      "priority_score": 10.8,
+      "priority_reasons": [
+        "reported_material_development",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
+    },
+    {
+      "title": "Hapinoy trains more than 10,000 mom-and-pop store owners in AI",
+      "source": "BusinessWorld AI/Tech",
+      "date": "2026-07-21T16:02:41.000Z",
+      "summary": "PHILIPPINE SOCIAL enterprise At1ndahan, Inc., better known as Hapinoy, has trained more than 10,000 mom-and-pop store owners in artificial intelligence (AI), putting it on track to meet its target of 12,000 participants under a regional program aimed at expanding AI skills among workers in underserved communities.",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 10.8,
+      "priority_reasons": [
+        "reported_material_development",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
+    },
+    {
+      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+      "source": "OpenAI Blog",
+      "date": "2026-07-21T07:00:00.000Z",
+      "summary": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
+      "tags": [
+        "ai_automation",
+        "cybersecurity"
+      ],
+      "priority_score": 10.8,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "model_or_platform_change",
+        "cybersecurity_or_resilience_signal",
+        "strategic_partnership",
+        "safety_or_governance",
+        "editorial_source_confirmation",
+        "vendor_announcement_demoted"
+      ],
+      "note": "Worth tracking for operating risk, compliance, or resilience implications."
+    },
+    {
+      "title": "Safety and alignment in an era of long-horizon models",
+      "source": "OpenAI Blog",
+      "date": "2026-07-20T10:00:00.000Z",
+      "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 10.8,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "model_or_platform_change",
+        "material_technology_effect",
+        "safety_or_governance",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Shows practical adoption or rollout worth tracking."
+    },
+    {
+      "title": "Inside Microsoft’s two-decade push to cut water intensity while scaling for growth",
+      "source": "Microsoft Blog AI",
+      "date": "2026-06-24T12:01:13.000Z",
+      "summary": "As demand for cloud and AI services continues to grow, datacenters are becoming more essential than ever. Communities also want to better understand how this infrastructure affects local resources, particularly water. At Microsoft, water stewardship has been a priority since our first datacenter builds in the early...",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 10.2,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "infrastructure_move",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Shows practical adoption or rollout worth tracking."
+    },
+    {
+      "title": "Rewriting the rules: Southeast Asia as climate capital proving ground",
+      "source": "e27 SEA Tech",
+      "date": "2026-07-22T01:30:34.000Z",
+      "summary": "The rules of the global economy are being rewritten. Trade fragmentation, semiconductor controls, sovereign AI ambitions, and shifting capital flows are no longer abstract geopolitical events. They are lived realities shaping the decisions of founders, fund managers, and ecosystem builders across Southeast Asia. For...",
+      "tags": [
+        "tech_infrastructure",
+        "startups_vc"
+      ],
+      "priority_score": 9.8,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "infrastructure_move",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful as a reported or official development rather than vendor-authored positioning."
+    },
+    {
+      "title": "MUFG aims to become AI-native with OpenAI",
+      "source": "OpenAI Blog",
+      "date": "2026-07-07T00:00:00.000Z",
+      "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 9.7,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "model_or_platform_change",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    }
+  ]
+}

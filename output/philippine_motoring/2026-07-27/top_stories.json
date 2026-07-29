@@ -1,0 +1,232 @@
+{
+  "top_stories": [
+    {
+      "title": "PH car sales report: Auto industry hit with 11.4% year-on-year drop in H1; 204,557 units sold so far",
+      "source": "TopGear Philippines",
+      "date": "2026-07-23T10:42:00.000Z",
+      "summary": "The oil crisis was (and still is) a huge shakeup for the industry this year",
+      "tags": [
+        "consumer_demand_shift"
+      ],
+      "priority_score": 4.2,
+      "priority_reasons": [
+        "policy_shift"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "Peso may test new lows on oil price surge",
+      "source": "BusinessWorld Online",
+      "date": "2026-07-26T16:03:36.000Z",
+      "summary": "THE PESO may continue to test new lows against the dollar this week, with inflation risks growing anew due to soaring global oil prices amid the conflict in the Middle East. On Friday, the currency sank by 9.7 centavos to a new all-time low of P61.847 versus the greenback from P61.75 on Thursday, which was […]",
+      "tags": [
+        "pricing_pressure"
+      ],
+      "priority_score": 3.1,
+      "priority_reasons": [
+        "safety_or_governance"
+      ],
+      "why_it_matters": "This matters because it affects how AI systems are governed, evaluated, or deployed responsibly. Those choices can shape the broader direction of the market."
+    },
+    {
+      "title": "Fuel costs, peso depreciation drive power rate hikes—Meralco",
+      "source": "Inquirer Business",
+      "date": "2026-07-25T09:21:34.000Z",
+      "summary": "MANILA, Philippines — Manila Electric Co. (Meralco) said recent power rate hikes stemmed from higher generation charges driven by soaring fuel prices, peso depreciation amid the Middle East conflict, and the government’s shift to natural gas and suspension of new coal-fired power plants. In a statement sent to Inqui...",
+      "tags": [
+        "pricing_pressure",
+        "ownership_cost",
+        "product_market_signal"
+      ],
+      "priority_score": 2.6,
+      "priority_reasons": [
+        "material_technology_effect",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Specs, prices, features: Everything you need to know about the 2027 Kia Sportage",
+      "source": "TopGear Philippines",
+      "date": "2026-07-24T04:00:00.000Z",
+      "summary": "Another OG compact crossover nameplate returns to the market",
+      "tags": [
+        "pricing_pressure"
+      ],
+      "priority_score": 0.9,
+      "priority_reasons": [
+        "broader_trend"
+      ],
+      "why_it_matters": "This surfaced because it looks like part of a larger theme rather than a one-off. Multiple related signals suggest it has wider editorial significance."
+    },
+    {
+      "title": "About P7/liter fuel price hike set on July 28",
+      "source": "Inquirer Business",
+      "date": "2026-07-27T14:25:40.000Z",
+      "summary": "MANILA, Philippines — Motorists will bear the brunt of higher fuel prices this week as oil firms raise pump prices by about P7 per liter starting Tuesday. Based on an advisory from Unioil, diesel prices would be costlier by P7.30 per liter, while gasoline would go up by P6.80 a liter. READ: Oil prices jump",
+      "tags": [
+        "pricing_pressure",
+        "ownership_cost",
+        "product_market_signal"
+      ],
+      "priority_score": 0.8,
+      "priority_reasons": [
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "The next-gen Honda Ridgeline will debut within the next two years",
+      "source": "TopGear Philippines",
+      "date": "2026-07-27T05:34:00.000Z",
+      "summary": "Is it time for this pickup to go global?",
+      "tags": [
+        "consumer_demand_shift"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Tesla opens two new charging stations in BGC and Biñan",
+      "source": "TopGear Philippines",
+      "date": "2026-07-27T05:10:00.000Z",
+      "summary": "Specifically at Arthaland Century Pacific Tower and Southwoods Mall",
+      "tags": [
+        "ev_transition_gap"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "MMDA installs crash cushions on EDSA, C5 to reduce traffic-related deaths, injuries",
+      "source": "TopGear Philippines",
+      "date": "2026-07-27T03:53:00.000Z",
+      "summary": "Some have also been installed on Mindanao Avenue and Quezon Avenue",
+      "tags": [
+        "motoring_infrastructure",
+        "regulation_enforcement"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    }
+  ],
+  "secondary_signals": [
+    {
+      "title": "Specs, prices, features: Everything you need to know about the 2027 Jaecoo J5 EV",
+      "source": "TopGear Philippines",
+      "date": "2026-07-23T03:18:00.000Z",
+      "summary": "Another budget-friendly EV has entered the market",
+      "tags": [
+        "pricing_pressure",
+        "ev_transition_gap"
+      ],
+      "priority_score": 0.7,
+      "priority_reasons": [
+        "broader_trend"
+      ],
+      "note": "Useful supporting signal within a broader theme."
+    },
+    {
+      "title": "Review: 2027 Honda CR-V RS e:HEV AWD",
+      "source": "TopGear Philippines",
+      "date": "2026-07-27T02:28:00.000Z",
+      "summary": "The crossover king returns?",
+      "tags": [
+        "general_philippine_motoring"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Review: 2027 Ford Territory Hybrid Titanium X",
+      "source": "TopGear Philippines",
+      "date": "2026-07-24T08:13:00.000Z",
+      "summary": "One of the best hybrids available",
+      "tags": [
+        "ev_transition_gap"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "ACMobility, Shell open EV charging hubs at NLEX stops in Mexico, Pampanga",
+      "source": "TopGear Philippines",
+      "date": "2026-07-23T03:59:00.000Z",
+      "summary": "Both northbound and southbound sides now have Evro-connected chargers",
+      "tags": [
+        "ev_transition_gap"
+      ],
+      "priority_score": 0.2,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Review: 2027 Dongfeng Nammi EV",
+      "source": "TopGear Philippines",
+      "date": "2026-07-23T03:53:00.000Z",
+      "summary": "Thinking outside the (nano) box",
+      "tags": [
+        "ev_transition_gap"
+      ],
+      "priority_score": 0.2,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "SLEX TR4 update: Sto. Tomas to Tiaong will be passable by December 2026",
+      "source": "TopGear Philippines",
+      "date": "2026-07-23T01:53:00.000Z",
+      "summary": "The DOTr confirmed that this 31.6km stretch will be open by the end of the year",
+      "tags": [
+        "regulation_enforcement"
+      ],
+      "priority_score": 0.2,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "The Jaecoo J5 EV has landed in PH with a P1.399-M sticker price",
+      "source": "TopGear Philippines",
+      "date": "2026-07-22T07:20:00.000Z",
+      "summary": "The latest EV from Omoda & Jaecoo has arrived",
+      "tags": [
+        "pricing_pressure",
+        "ev_transition_gap"
+      ],
+      "priority_score": 0.2,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Review: 2027 Denza B8 Premium",
+      "source": "TopGear Philippines",
+      "date": "2026-07-22T06:43:00.000Z",
+      "summary": "Can Denza’s SUV compete with legacy nameplates?",
+      "tags": [
+        "consumer_demand_shift"
+      ],
+      "priority_score": 0.2,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "The plug-in hybrid BMW X3 xLine enters PH with a P4.498-M price tag*",
+      "source": "TopGear Philippines",
+      "date": "2026-07-22T03:21:00.000Z",
+      "summary": "*Introductory prices are currently in place for the new X3 variant",
+      "tags": [
+        "pricing_pressure",
+        "ev_transition_gap",
+        "product_market_signal"
+      ],
+      "priority_score": 0.2,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    }
+  ]
+}

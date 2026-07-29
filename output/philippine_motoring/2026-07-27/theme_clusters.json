@@ -1,0 +1,189 @@
+[
+  {
+    "theme_id": "pricing_pressure",
+    "theme_label": "pricing pressure",
+    "theme_summary": "pricing pressure is the shared editorial thread across 6 related stories. The strongest signal is pricing pressure building.",
+    "story_count": 6,
+    "cluster_ids": [],
+    "story_ids": [
+      "b96ebf12b1d1",
+      "607921733f1a",
+      "e4c634cdb346",
+      "b4674d1efb29",
+      "39593d8dc2fc",
+      "df82fe254d65"
+    ],
+    "associated_stories": [
+      {
+        "id": "b96ebf12b1d1",
+        "title": "About P7/liter fuel price hike set on July 28",
+        "url": "https://business.inquirer.net/602568/about-p7-liter-fuel-price-hike-set-on-july-28",
+        "source": "Inquirer Business",
+        "published_at": "2026-07-27T14:25:40.000Z"
+      },
+      {
+        "id": "607921733f1a",
+        "title": "Peso may test new lows on oil price surge",
+        "url": "https://bworldonline.com/banking-finance/2026/07/27/765882/peso-may-test-new-lows-on-oil-price-surge",
+        "source": "BusinessWorld Online",
+        "published_at": "2026-07-26T16:03:36.000Z"
+      },
+      {
+        "id": "e4c634cdb346",
+        "title": "Specs, prices, features: Everything you need to know about the 2027 Kia Sportage",
+        "url": "https://www.topgear.com.ph/features/feature-articles/kia-sportage-2027-ph-specs-prices-features-a2578-20260724-lfrm",
+        "source": "TopGear Philippines",
+        "published_at": "2026-07-24T04:00:00.000Z"
+      },
+      {
+        "id": "b4674d1efb29",
+        "title": "Specs, prices, features: Everything you need to know about the 2027 Jaecoo J5 EV",
+        "url": "https://www.topgear.com.ph/features/feature-articles/jaecoo-j5-ev-2027-ph-specs-prices-features-a5361-20260723",
+        "source": "TopGear Philippines",
+        "published_at": "2026-07-23T03:18:00.000Z"
+      },
+      {
+        "id": "df82fe254d65",
+        "title": "The plug-in hybrid BMW X3 xLine enters PH with a P4.498-M price tag*",
+        "url": "https://www.topgear.com.ph/news/car-news/bmw-x3-xline-phev-2027-ph-launch-a6888-20260722",
+        "source": "TopGear Philippines",
+        "published_at": "2026-07-22T03:21:00.000Z"
+      },
+      {
+        "id": "39593d8dc2fc",
+        "title": "The Jaecoo J5 EV has landed in PH with a P1.399-M sticker price",
+        "url": "https://www.topgear.com.ph/news/car-news/jaecoo-j5-ev-2027-launch-ph-a5361-20260722",
+        "source": "TopGear Philippines",
+        "published_at": "2026-07-22T07:20:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "market_signal",
+      "local_business_relevance",
+      "product_signal"
+    ],
+    "dominant_angle_signals": [
+      "pricing pressure building",
+      "EV transition gap visible",
+      "product launch reveals market bet"
+    ],
+    "top_story_refs": [
+      "b96ebf12b1d1",
+      "607921733f1a",
+      "e4c634cdb346"
+    ]
+  },
+  {
+    "theme_id": "ev_transition_gap",
+    "theme_label": "EV transition gap",
+    "theme_summary": "EV transition gap is the shared editorial thread across 5 related stories. The strongest signal is EV transition gap visible.",
+    "story_count": 5,
+    "cluster_ids": [],
+    "story_ids": [
+      "1ca8e4021c68",
+      "70186baf0d4d",
+      "9899f7eeaee2",
+      "061b7653f2e6",
+      "d575f37142b1"
+    ],
+    "associated_stories": [
+      {
+        "id": "1ca8e4021c68",
+        "title": "Tesla opens two new charging stations in BGC and Biñan",
+        "url": "https://www.topgear.com.ph/news/motoring-news/tesla-philippines-new-charging-stations-bgc-laguna-a6938-20260727",
+        "source": "TopGear Philippines",
+        "published_at": "2026-07-27T05:10:00.000Z"
+      },
+      {
+        "id": "061b7653f2e6",
+        "title": "ACMobility, Shell open EV charging hubs at NLEX stops in Mexico, Pampanga",
+        "url": "https://www.topgear.com.ph/news/industry-news/acmobility-shell-mexico-pampanga-charging-hub-a6941-20260723",
+        "source": "TopGear Philippines",
+        "published_at": "2026-07-23T03:59:00.000Z"
+      },
+      {
+        "id": "9899f7eeaee2",
+        "title": "Review: 2027 Ford Territory Hybrid Titanium X",
+        "url": "https://www.topgear.com.ph/drives/car-reviews/ford-territory-hybrid-titanium-x-2027-ph-review-a962-20260724-lfrm",
+        "source": "TopGear Philippines",
+        "published_at": "2026-07-24T08:13:00.000Z"
+      },
+      {
+        "id": "70186baf0d4d",
+        "title": "Review: 2027 Honda CR-V RS e:HEV AWD",
+        "url": "https://www.topgear.com.ph/drives/car-reviews/honda-crv-rs-ehev-awd-2027-ph-review-a2584-20260727-lfrm",
+        "source": "TopGear Philippines",
+        "published_at": "2026-07-27T02:28:00.000Z"
+      },
+      {
+        "id": "d575f37142b1",
+        "title": "Review: 2027 Dongfeng Nammi EV",
+        "url": "https://www.topgear.com.ph/drives/car-reviews/dongfeng-nammi-2027-ph-review-a2584-20260723-lfrm",
+        "source": "TopGear Philippines",
+        "published_at": "2026-07-23T03:53:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "watchlist_signal",
+      "execution_consequence"
+    ],
+    "dominant_angle_signals": [
+      "EV transition gap visible",
+      "infrastructure constraint showing"
+    ],
+    "top_story_refs": [
+      "1ca8e4021c68",
+      "061b7653f2e6",
+      "9899f7eeaee2"
+    ]
+  },
+  {
+    "theme_id": "consumer_demand_shift",
+    "theme_label": "consumer demand shift",
+    "theme_summary": "consumer demand shift is the shared editorial thread across 3 related stories. The strongest signal is consumer demand shifting by segment.",
+    "story_count": 3,
+    "cluster_ids": [],
+    "story_ids": [
+      "6505d3d29180",
+      "0e0dc0e59260",
+      "f0754228faab"
+    ],
+    "associated_stories": [
+      {
+        "id": "0e0dc0e59260",
+        "title": "PH car sales report: Auto industry hit with 11.4% year-on-year drop in H1; 204,557 units sold so far",
+        "url": "https://www.topgear.com.ph/news/industry-news/philippine-car-sales-h1-2026-a6941-20260723",
+        "source": "TopGear Philippines",
+        "published_at": "2026-07-23T10:42:00.000Z"
+      },
+      {
+        "id": "6505d3d29180",
+        "title": "The next-gen Honda Ridgeline will debut within the next two years",
+        "url": "https://www.topgear.com.ph/news/car-news/honda-ridgeline-third-gen-confirmed-a6888-20260727",
+        "source": "TopGear Philippines",
+        "published_at": "2026-07-27T05:34:00.000Z"
+      },
+      {
+        "id": "f0754228faab",
+        "title": "Review: 2027 Denza B8 Premium",
+        "url": "https://www.topgear.com.ph/drives/car-reviews/denza-b8-premium-2027-ph-review-a6937-20260722-lfrm2",
+        "source": "TopGear Philippines",
+        "published_at": "2026-07-22T06:43:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "watchlist_signal",
+      "market_signal",
+      "policy_regulatory_move"
+    ],
+    "dominant_angle_signals": [
+      "consumer demand shifting by segment",
+      "EV transition gap visible"
+    ],
+    "top_story_refs": [
+      "0e0dc0e59260",
+      "6505d3d29180",
+      "f0754228faab"
+    ]
+  }
+]
