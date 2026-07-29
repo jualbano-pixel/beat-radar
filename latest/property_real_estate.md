@@ -10,6 +10,14 @@ Week of 2026-07-27
 
 ## What matters most
 
+### supply pipeline shift
+- Why it matters: Supply additions matter because they can either validate demand or add to the overhang; the difference depends on absorption improvement.
+- Pattern: The week is mostly framing and persistence, not a new market turn.
+- Tension: standing research vs fresh demand signal
+- Supporting stories:
+- [Metro Manila IT ecozone ban lift to expand PEZA office supply—Colliers](https://mb.com.ph/2026/07/29/metro-manila-it-ecozone-ban-lift-to-expand-peza-office-supplycolliers) | Manila Bulletin Business Property JSON Fallback | Adds a concrete read on Philippine property demand, supply, financing, or stress.
+- [DOE explores power solutions for Pax Silica](https://business.inquirer.net/602829/doe-explores-power-solutions-for-pax-silica) | Inquirer Business Property | Adds a concrete read on Philippine property demand, supply, financing, or stress.
+
 ### office market stress
 - Why it matters: The resilience call matters because it arrives with external pressure still in the frame; that makes optimism something to test against occupancy validation.
 - Pattern: The office market is remaining in a holding pattern, which keeps the read closer to stabilization than recovery.
@@ -24,14 +32,6 @@ Week of 2026-07-27
 - Tension: policy vs execution
 - Supporting stories:
 - [DOF: LGUs can reduce assessment levels and tax rates under RPVARA to lower property taxes](https://www.dof.gov.ph/dof-lgus-can-reduce-assessment-levels-and-tax-rates-under-rpvara-to-lower-property-taxes) | Department of Finance Property | Adds a concrete read on Philippine property demand, supply, financing, or stress.
-
-### supply pipeline shift
-- Why it matters: Pipeline shifts matter because new supply can worsen imbalance if demand is not keeping up.
-- Pattern: The week is mostly framing and persistence, not a new market turn.
-- Tension: standing research vs fresh demand signal
-- Supporting stories:
-- [DOE explores power solutions for Pax Silica](https://business.inquirer.net/602829/doe-explores-power-solutions-for-pax-silica) | Inquirer Business Property | Adds a concrete read on Philippine property demand, supply, financing, or stress.
-- [Filipina develops sustainable alternative to concrete blocks](https://bworldonline.com/bw-launchpad/2026/07/29/766378/filipina-develops-sustainable-alternative-to-concrete-blocks) | BusinessWorld Property | Adds a concrete read on Philippine property demand, supply, financing, or stress.
 
 ## What seems to be happening
 

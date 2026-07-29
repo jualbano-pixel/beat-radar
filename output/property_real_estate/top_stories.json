@@ -1,20 +1,19 @@
 {
   "top_stories": [
     {
-      "title": "Filipina develops sustainable alternative to concrete blocks",
-      "source": "BusinessWorld Property",
-      "date": "2026-07-28T16:02:30.000Z",
-      "summary": "A FILIPINA engineer is pushing wider adoption of sustainable construction materials in the Philippines after developing organic hollow blocks made from locally sourced materials as an alternative to conventional concrete.",
+      "title": "Metro Manila IT ecozone ban lift to expand PEZA office supply—Colliers",
+      "source": "Manila Bulletin Business Property JSON Fallback",
+      "date": "2026-07-29T14:46:00.000Z",
+      "summary": "The lifting of the seven-year moratorium on new Philippine Economic Zone Authority (PEZA)-accredited information technology (IT) parks and IT centers in Metro Manila is expected to ease the shortage of PEZA-compliant office space in the capital region as well as attract more technology and business...",
       "tags": [
-        "general_property_real_estate"
+        "enterprise_tech"
       ],
-      "priority_score": 3.8,
+      "priority_score": 6.1,
       "priority_reasons": [
-        "material_technology_effect",
-        "practical_usability_impact",
-        "editorial_source_confirmation"
+        "enterprise_scale_signal",
+        "multi_group_impact"
       ],
-      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+      "why_it_matters": "This matters because it changes how more than one important group can build, buy, deploy, secure, or govern technology."
     },
     {
       "title": "DOE explores power solutions for Pax Silica",

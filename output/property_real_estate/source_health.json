@@ -10,7 +10,7 @@
     "beat": "property_real_estate",
     "url": "https://www.bsp.gov.ph/_layouts/15/listfeed.aspx?List=9b0a2117-49d8-4e96-80ba-8651a0e3e17a&View=8c968884-887d-4d63-8c00-ba05ea3c2d93",
     "type": "rss",
-    "checkedAt": "2026-07-29T06:41:14.893Z"
+    "checkedAt": "2026-07-29T12:00:32.476Z"
   },
   {
     "source": "BSP Property Media Releases SharePoint",
@@ -23,7 +23,7 @@
     "beat": "property_real_estate",
     "url": "https://www.bsp.gov.ph/_api/web/lists/getByTitle('Media%20Releases%20and%20Advisories')/items?%24top=40&%24orderby=PDate%20desc&%24select=ID,Title,PDate,Tag,Status,OData__ModerationStatus",
     "type": "sharepoint",
-    "checkedAt": "2026-07-29T06:41:14.893Z"
+    "checkedAt": "2026-07-29T12:00:32.476Z"
   },
   {
     "source": "BSP Property Issuances SharePoint",
@@ -36,7 +36,7 @@
     "beat": "property_real_estate",
     "url": "https://www.bsp.gov.ph/_api/web/lists/getByTitle('Issuances')/items?%24top=40&%24orderby=DateIssued%20desc&%24select=ID,Title,DateIssued,CircularNumber,IssuanceType,OData__ModerationStatus",
     "type": "sharepoint",
-    "checkedAt": "2026-07-29T06:41:14.893Z"
+    "checkedAt": "2026-07-29T12:00:32.476Z"
   },
   {
     "source": "Santos Knight Frank Market Reports",
@@ -49,7 +49,7 @@
     "beat": "property_real_estate",
     "url": "https://santosknightfrank.com/market-reports/",
     "type": "html",
-    "checkedAt": "2026-07-29T06:41:14.893Z"
+    "checkedAt": "2026-07-29T12:00:32.476Z"
   },
   {
     "source": "Inquirer Business Property HTML Fallback",
@@ -64,7 +64,7 @@
     "beat": "property_real_estate",
     "url": "https://business.inquirer.net/",
     "type": "html",
-    "checkedAt": "2026-07-29T06:41:14.893Z"
+    "checkedAt": "2026-07-29T12:00:32.476Z"
   },
   {
     "source": "Manila Bulletin Business Property JSON Fallback",
@@ -72,12 +72,12 @@
     "health": "healthy",
     "fetchedCount": 30,
     "normalizedCount": 30,
-    "droppedCount": 30,
-    "keptCount": 0,
+    "droppedCount": 29,
+    "keptCount": 1,
     "beat": "property_real_estate",
     "url": "https://mb.com.ph/api/pb/fetch-articles-paginated?limit=30&hide_widget_in_pagination=1&path_url=/category/business&section_id=27",
     "type": "json",
-    "checkedAt": "2026-07-29T06:41:14.893Z"
+    "checkedAt": "2026-07-29T12:00:32.476Z"
   },
   {
     "source": "Department of Finance Property",
@@ -90,7 +90,7 @@
     "beat": "property_real_estate",
     "url": "https://www.dof.gov.ph/feed/",
     "type": "rss",
-    "checkedAt": "2026-07-29T06:41:14.893Z"
+    "checkedAt": "2026-07-29T12:00:32.476Z"
   },
   {
     "source": "BusinessWorld Property",
@@ -98,12 +98,12 @@
     "health": "healthy",
     "fetchedCount": 30,
     "normalizedCount": 30,
-    "droppedCount": 29,
-    "keptCount": 1,
+    "droppedCount": 30,
+    "keptCount": 0,
     "beat": "property_real_estate",
     "url": "https://www.bworldonline.com/feed/",
     "type": "rss",
-    "checkedAt": "2026-07-29T06:41:14.893Z"
+    "checkedAt": "2026-07-29T12:00:32.476Z"
   },
   {
     "source": "BusinessMirror Property",
@@ -118,7 +118,7 @@
     "beat": "property_real_estate",
     "url": "https://businessmirror.com.ph/business/feed/",
     "type": "rss",
-    "checkedAt": "2026-07-29T06:41:14.893Z"
+    "checkedAt": "2026-07-29T12:00:32.476Z"
   },
   {
     "source": "Inquirer Business Property",
@@ -131,7 +131,7 @@
     "beat": "property_real_estate",
     "url": "https://business.inquirer.net/feed",
     "type": "rss",
-    "checkedAt": "2026-07-29T06:41:14.893Z"
+    "checkedAt": "2026-07-29T12:00:32.476Z"
   },
   {
     "source": "Philippine Star Property",
@@ -144,7 +144,7 @@
     "beat": "property_real_estate",
     "url": "https://www.philstar.com/rss/business",
     "type": "rss",
-    "checkedAt": "2026-07-29T06:41:14.893Z"
+    "checkedAt": "2026-07-29T12:00:32.476Z"
   },
   {
     "source": "Malaya Business Property",
@@ -157,7 +157,7 @@
     "beat": "property_real_estate",
     "url": "https://malaya.com.ph/feed/",
     "type": "rss",
-    "checkedAt": "2026-07-29T06:41:14.893Z"
+    "checkedAt": "2026-07-29T12:00:32.476Z"
   },
   {
     "source": "Manila Bulletin Business Property",
@@ -170,6 +170,6 @@
     "beat": "property_real_estate",
     "url": "https://mb.com.ph/rss/business",
     "type": "rss",
-    "checkedAt": "2026-07-29T06:41:14.893Z"
+    "checkedAt": "2026-07-29T12:00:32.476Z"
   }
 ]
