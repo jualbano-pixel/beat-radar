@@ -15,21 +15,25 @@ Week of 2026-07-27
 - Pattern: Grid and project execution are shaping how much capacity the system can actually use.
 - Tension: infrastructure ambition vs delivery
 - Supporting stories:
-- [SM says deeper emission cuts hinge on power infrastructure](https://bworldonline.com/corporate/2026/07/29/766482/sm-says-deeper-emission-cuts-hinge-on-power-infrastructure) | BusinessWorld Energy | Makes the capacity and delivery constraint concrete.
-- [After Marcos' SONA, Meralco urges caution on system loss reforms](https://www.philstar.com/business/2026/07/28/2545372/after-marcos-sona-meralco-urges-caution-system-loss-reforms) | Philippine Star Business Energy | Makes the capacity and delivery constraint concrete.
-- [Meat imports hit by rising costs](https://business.inquirer.net/602786/meat-imports-hit-by-rising-costs) | Inquirer Business Energy | Adds a concrete read on price, supply, reliability, or policy pressure.
+- [New yellow alert declared over Visayas](https://business.inquirer.net/603280/new-yellow-alert-declared-over-visayas) | Inquirer Business Energy | Makes the capacity and delivery constraint concrete.
+- [ERC clears third extension of Meralco-Sta. Rita deal](https://bworldonline.com/corporate/2026/07/31/767100/erc-clears-third-extension-of-meralco-sta-rita-deal) | BusinessWorld Energy | Shows how policy decisions can shift who absorbs energy costs.
 
-### energy price pressure
-- Why it matters: Energy-price pressure feeds through to households, operators, and policy decisions.
-- Pattern: Energy costs are still feeding into household and business pressure.
-- Tension: cost recovery vs affordability
+### external energy shock
+- Why it matters: External shocks matter when they pass through to local prices, supply planning, or reliability risk.
+- Pattern: External fuel shocks are passing through to local prices, supply planning, and operating costs.
+- Tension: global exposure vs local resilience
 - Supporting stories:
-- [BSP sees slim chance of 50-bp rate increase](https://www.philstar.com/business/2026/07/29/2545401/bsp-sees-slim-chance-50-bp-rate-increase) | Philippine Star Business Energy | Makes the capacity and delivery constraint concrete.
-- [New US tariff worries PH firms](https://business.inquirer.net/602631/new-us-tariff-worries-ph-firms) | Inquirer Business Energy | Shows how policy decisions can shift who absorbs energy costs.
-- [New round of major oil price hikes set on July 28](https://business.inquirer.net/602703/new-round-of-major-oil-price-hikes-set-on-july-28) | Inquirer Business Energy | Shows how fuel-price movement is feeding into household and operating costs.
-- [PH motorcycle sales up 4% in 1st semester amid skyrocketing fuel prices](https://business.inquirer.net/602633/ph-motorcycle-sales-up-4-in-1st-semester-amid-skyrocketing-fuel-prices) | Inquirer Business Energy | Shows how policy decisions can shift who absorbs energy costs.
+- [Minimal oil price cuts seen on August 4](https://business.inquirer.net/603283/minimal-oil-price-cuts-seen-on-august-4) | Inquirer Business Energy | Shows how fuel-price movement is feeding into household and operating costs.
+
+### demand pressure
+- Why it matters: Demand pressure can turn ordinary supply tightness into a price or reliability problem.
+- Pattern: Demand is making supply, price, and reliability constraints harder to absorb.
+- Tension: consumption needs vs system capacity
+- Supporting stories:
+- [Understanding seasonal swings in power consumption](https://business.inquirer.net/596980/understanding-seasonal-swings-in-power-consumption) | Inquirer Business Energy | Adds a concrete read on price, supply, reliability, or policy pressure.
 
 ## What seems to be happening
 
 - Grid and project execution are shaping how much capacity the system can actually use.
-- Energy costs are still feeding into household and business pressure.
+- External fuel shocks are passing through to local prices, supply planning, and operating costs.
+- Demand is making supply, price, and reliability constraints harder to absorb.
