@@ -1,6 +1,6 @@
 # Weekly Editorial Packet — Property / Real Estate
 
-Week of 2026-07-27
+Week of 2026-08-03
 
 ## Editorial Read
 
@@ -9,14 +9,6 @@ Week of 2026-07-27
 - The lack of clear occupancy improvement keeps this in stabilization territory, not a clean recovery call.
 
 ## What matters most
-
-### supply pipeline shift
-- Why it matters: Supply additions matter because they can either validate demand or add to the overhang; the difference depends on absorption improvement.
-- Pattern: The week is mostly framing and persistence, not a new market turn.
-- Tension: standing research vs fresh demand signal
-- Supporting stories:
-- [Metro Manila IT ecozone ban lift to expand PEZA office supply—Colliers](https://mb.com.ph/2026/07/29/metro-manila-it-ecozone-ban-lift-to-expand-peza-office-supplycolliers) | Manila Bulletin Business Property JSON Fallback | Adds a concrete read on Philippine property demand, supply, financing, or stress.
-- [DOE explores power solutions for Pax Silica](https://business.inquirer.net/602829/doe-explores-power-solutions-for-pax-silica) | Inquirer Business Property | Adds a concrete read on Philippine property demand, supply, financing, or stress.
 
 ### office market stress
 - Why it matters: The resilience call matters because it arrives with external pressure still in the frame; that makes optimism something to test against occupancy validation.
@@ -31,10 +23,18 @@ Week of 2026-07-27
 - Pattern: Policy is moving faster than operating clarity.
 - Tension: policy vs execution
 - Supporting stories:
+- [Stocks retreat as Iran denies US peace talks, tax proposals weigh](https://mb.com.ph/article/10929649/business/the-stock-market/stocks-retreat-as-iran-denies-us-peace-talks-tax-proposals-weigh) | Manila Bulletin Business Property | Adds a concrete read on Philippine property demand, supply, financing, or stress.
 - [DOF: LGUs can reduce assessment levels and tax rates under RPVARA to lower property taxes](https://www.dof.gov.ph/dof-lgus-can-reduce-assessment-levels-and-tax-rates-under-rpvara-to-lower-property-taxes) | Department of Finance Property | Adds a concrete read on Philippine property demand, supply, financing, or stress.
+
+### property credit conditions
+- Why it matters: REIT scale and possible index inclusion are capital-market positioning signals; they still need to be read separately from the space absorption reality.
+- Pattern: REIT growth is strengthening the capital-market story without settling the real occupancy read.
+- Tension: market-cap growth vs property utilization
+- Supporting stories:
+- [RCR secures PCC clearance for P10.6-B asset infusion](https://bworldonline.com/corporate/2026/08/05/768096/rcr-secures-pcc-clearance-for-p10-6-b-asset-infusion) | BusinessWorld Property | Adds a concrete read on Philippine property demand, supply, financing, or stress.
 
 ## What seems to be happening
 
-- The office market generated optimistic framing without enough sustained tenant return to make it a recovery story.
+- The office market generated optimistic framing without enough demand-side validation to make it a recovery story.
 - Resilience and volatility are appearing in the same market frame, so the actual read sits between the two claims.
-- No clear sustained tenant return broke through strongly enough to validate a turn.
+- No clear demand-side validation broke through strongly enough to validate a turn.
