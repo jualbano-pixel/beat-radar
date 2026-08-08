@@ -1,12 +1,11 @@
 # Weekly Editorial Packet — Philippine / SEA Energy
 
-Week of 2026-07-27
+Week of 2026-08-03
 
 ## Editorial Read
 
 - Fuel and policy signals are moving together, so the pressure is not just price direction but who absorbs the cost.
 - Grid and project-execution signals keep capacity risk on the desk, even when price stories dominate the week.
-- Demand pressure matters because it can turn ordinary supply tightness into a reliability or price problem.
 
 ## What matters most
 
@@ -15,25 +14,25 @@ Week of 2026-07-27
 - Pattern: Grid and project execution are shaping how much capacity the system can actually use.
 - Tension: infrastructure ambition vs delivery
 - Supporting stories:
-- [New yellow alert declared over Visayas](https://business.inquirer.net/603280/new-yellow-alert-declared-over-visayas) | Inquirer Business Energy | Makes the capacity and delivery constraint concrete.
-- [ERC clears third extension of Meralco-Sta. Rita deal](https://bworldonline.com/corporate/2026/07/31/767100/erc-clears-third-extension-of-meralco-sta-rita-deal) | BusinessWorld Energy | Shows how policy decisions can shift who absorbs energy costs.
+- [Brownouts may hit Visayas amid thin power supply](https://business.inquirer.net/604475/brownouts-may-hit-visayas-amid-thin-power-supply) | Inquirer Business Energy | Makes the capacity and delivery constraint concrete.
 
-### external energy shock
-- Why it matters: External shocks matter when they pass through to local prices, supply planning, or reliability risk.
-- Pattern: External fuel shocks are passing through to local prices, supply planning, and operating costs.
-- Tension: global exposure vs local resilience
+### supply reliability risk
+- Why it matters: Reliability risk matters when supply tightness can turn into outages, reserves pressure, or higher prices.
+- Pattern: Supply and reserve signals are keeping reliability risk close to the surface.
+- Tension: demand needs vs available supply
 - Supporting stories:
-- [Minimal oil price cuts seen on August 4](https://business.inquirer.net/603283/minimal-oil-price-cuts-seen-on-august-4) | Inquirer Business Energy | Shows how fuel-price movement is feeding into household and operating costs.
+- [Lufthansa breaks ground on largest PH investment yet](https://business.inquirer.net/604349/lufthansa-breaks-ground-on-largest-ph-investment-yet) | Inquirer Business Energy | Adds a concrete read on price, supply, reliability, or policy pressure.
 
-### demand pressure
-- Why it matters: Demand pressure can turn ordinary supply tightness into a price or reliability problem.
-- Pattern: Demand is making supply, price, and reliability constraints harder to absorb.
-- Tension: consumption needs vs system capacity
+### fuel price easing
+- Why it matters: Pump-price relief matters because it quickly changes household transport costs and business operating pressure.
+- Pattern: Fuel prices are easing at the pump, but cost relief remains exposed to external swings.
+- Tension: short-term relief vs oil exposure
 - Supporting stories:
-- [Understanding seasonal swings in power consumption](https://business.inquirer.net/596980/understanding-seasonal-swings-in-power-consumption) | Inquirer Business Energy | Adds a concrete read on price, supply, reliability, or policy pressure.
+- [Fuel price cuts seen next week](https://business.inquirer.net/604478/fuel-price-cuts-seen-next-week) | Inquirer Business Energy | Shows how fuel-price movement is feeding into household and operating costs.
+- [DOE sees major pump price rollback next week](https://www.philstar.com/business/2026/08/07/2547645/doe-sees-major-pump-price-rollback-next-week) | Philippine Star Business Energy | Shows how policy decisions can shift who absorbs energy costs.
 
 ## What seems to be happening
 
 - Grid and project execution are shaping how much capacity the system can actually use.
-- External fuel shocks are passing through to local prices, supply planning, and operating costs.
-- Demand is making supply, price, and reliability constraints harder to absorb.
+- Supply and reserve signals are keeping reliability risk close to the surface.
+- Fuel prices are easing at the pump, but cost relief remains exposed to external swings.
