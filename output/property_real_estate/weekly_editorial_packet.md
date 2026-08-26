@@ -1,66 +1,61 @@
 # Weekly Editorial Packet — Property / Real Estate
 
-Week of 2026-08-17
+Week of 2026-08-24
 
 ## Editorial Read
 
-- Resilience is the visible office-market framing; the useful read is whether vacancy, rents, and leasing follow-through support it underneath.
-- Resilience and volatility are sitting inside the same property narrative, which makes the tension more useful than either headline by itself.
+- Office remains a visible stress channel, with vacancy, rents, and tenant demand carrying more weight than developer positioning.
 - The lack of clear occupancy improvement keeps this in stabilization territory, not a clean recovery call.
 - Housing finance and rental-housing policy are present, but support signals have not yet outweighed the pressure signs.
 
 ## What matters most
 
-### usage and occupancy shift
-- Why it matters: Vendors are pushing enterprise positioning before usage patterns, ROI, and buyer confidence have fully stabilized.
-- Pattern: Enterprise positioning is getting pushed ahead of proven demand.
-- Tension: adoption vs proof
-- Supporting stories:
-- [Capturing the Suburban Retail Boom: Filinvest Malls Deliver 12% Revenue Growth as Occupancy Climbs to 81%](https://malaya.com.ph/business/marketing-board/capturing-the-suburban-retail-boom-filinvest-malls-deliver-12-revenue-growth-as-occupancy-climbs-to-81) | Malaya Business Property | Adds a concrete read on Philippine property demand, supply, financing, or stress.
-
-### housing finance support
-- Why it matters: Housing finance support matters only if it improves access enough to offset affordability pressure.
-- Pattern: The week is mostly framing and persistence, not a new market turn.
-- Tension: standing research vs fresh demand signal
-- Supporting stories:
-- [Pag-IBIG funds first batch of Naga employees’ homes](https://business.inquirer.net/606624/pag-ibig-funds-first-batch-of-naga-employee-homes) | Inquirer Business Property | Shows how policy or credit support is trying to reach housing demand.
-
-### office market stress
-- Why it matters: The resilience call matters because it arrives with external pressure still in the frame; that makes optimism something to test against leasing conversion.
-- Pattern: The office market is pausing rather than recovering, which keeps the read closer to stabilization than recovery.
-- Tension: resilience framing vs occupancy validation
-- Supporting stories:
-- [AI-driven automation hits Metro Manila commercial real estate](https://mb.com.ph/2026/08/18/ai-driven-automation-hits-metro-manila-commercial-real-estate) | Manila Bulletin Business Property JSON Fallback | Shows real property utilization through vacancy, rents, or leasing demand.
-- [Opportunities amid Volatility](https://santosknightfrank.com/wp-content/uploads/2025/08/SKF-1H-2025_Opportunities-Amid-Volatility-Final-Compressed.pdf) | Santos Knight Frank Market Reports | Keeps the office read tied to occupancy and tenant behavior.
-- [Metro Manila Office Report Q3 2025](https://santosknightfrank.com/wp-content/uploads/2025/11/MMOR-Q325-v2.pdf) | Santos Knight Frank Market Reports | Keeps stress, vacancy, oversupply, or weak absorption at the center of the property read.
-
-### supply pipeline shift
-- Why it matters: Supply additions matter because they can either validate demand or add to the overhang; the difference depends on pricing stabilization.
-- Pattern: Supply is becoming more uneven as construction, inventory, and geography matter more than headline expansion.
-- Tension: development pipeline vs market balance
-- Supporting stories:
-- [Aboitiz estate eyes 500-ha LIMA expansion, P7-B office pipeline](https://bworldonline.com/corporate/2026/08/19/770993/aboitiz-estate-eyes-500-ha-lima-expansion-p7-b-office-pipeline) | BusinessWorld Property | Adds a concrete read on Philippine property demand, supply, financing, or stress.
-
-## Structural shifts
-
-### property stress
-- Editorial note: Standing reports and analyst calls can frame the market, but they do not move it without absorption improvement.
-- Pattern: The week is mostly framing and persistence, not a new market turn.
-- Tension: standing research vs fresh demand signal
-- Supporting stories:
-- [DOF delays key privatization deals to Q4 to meet revenue target](https://mb.com.ph/2026/08/18/dof-delays-key-privatization-deals-to-q4-to-meet-revenue-target) | Manila Bulletin Business Property JSON Fallback | Keeps stress, vacancy, oversupply, or weak absorption at the center of the property read.
-
 ### property credit conditions
-- Editorial note: REIT scale and possible index inclusion are capital-market positioning signals; they still need to be read separately from the tenant-side demand picture.
+- Why it matters: REIT scale and possible index inclusion are capital-market positioning signals; they still need to be read separately from the tenant-side demand picture.
 - Pattern: REIT growth is strengthening the capital-market story without settling the practical utilization picture.
 - Tension: market-cap growth vs property utilization
 - Supporting stories:
-- [Philippines hits digital payments goal –– BSP](https://business.inquirer.net/606328/philippines-hits-digital-payments-goal-bsp) | Inquirer Business Property | Adds a concrete read on Philippine property demand, supply, financing, or stress.
-- [Philippines hits digital payments target](https://www.bsp.gov.ph/SitePages/MediaAndResearch/MediaDisp.aspx?ItemId=8035&MType=Media+Releases) | BSP Property Media Releases SharePoint | Adds a concrete read on Philippine property demand, supply, financing, or stress.
-- [MREIT eyes Uptown BGC, Alliance Global hotels for next asset infusion wave](https://mb.com.ph/article/10931668/business/the-stock-market/mreit-eyes-uptown-bgc-alliance-global-hotels-for-next-asset-infusion-wave) | Manila Bulletin Business Property | Adds a concrete read on Philippine property demand, supply, financing, or stress.
+- [Pag-IBIG housing assets breach P1T in end-July](https://business.inquirer.net/607504/pag-ibig-housing-assets-breach-p1t-in-end-july) | Inquirer Business Property | Adds a concrete read on Philippine property demand, supply, financing, or stress.
+- [Philippines investment slump drags ASEAN growth as peso nears record low](https://mb.com.ph/article/10932683/business/the-economy/philippines-investment-slump-drags-asean-growth-as-peso-nears-record-low) | Manila Bulletin Business Property | Adds a concrete read on Philippine property demand, supply, financing, or stress.
+
+### affordability pressure
+- Why it matters: Affordability pressure determines who can still buy or rent, and where demand starts to break.
+- Pattern: The market is being shaped by who can still buy, rent, or absorb higher housing costs.
+- Tension: prices vs purchasing power
+- Supporting stories:
+- [SM Prime pours ₱4 billion into 'high occupancy' malls outside Metro Manila](https://mb.com.ph/2026/08/26/sm-prime-pours-4-billion-into-high-occupancy-malls-outside-metro-manila) | Manila Bulletin Business Property JSON Fallback | Adds a concrete read on Philippine property demand, supply, financing, or stress.
+
+### office market stress
+- Why it matters: Office stress matters because vacancy, rents, and leasing behavior reveal real utilization, not promotional demand.
+- Pattern: Office demand is still being tested by vacancy, rent, and tenant-cost pressure.
+- Tension: supply overhang vs usable demand
+- Supporting stories:
+- [Metro Manila Office Report Q3 2025](https://santosknightfrank.com/wp-content/uploads/2025/11/MMOR-Q325-v2.pdf) | Santos Knight Frank Market Reports | Shows real property utilization through vacancy, rents, or leasing demand.
+
+### property stress
+- Why it matters: Property stress matters here because promotional language can stay upbeat while vacancy, oversupply, and weak absorption keep doing the real diagnostic work.
+- Pattern: Stress signals are showing up in vacancy, oversupply, or weaker absorption rather than in launch volume.
+- Tension: inventory vs demand
+- Supporting stories:
+- [ERC extends deadline for two transmission projects](https://business.inquirer.net/607561/erc-extends-deadline-for-two-transmission-projects) | Inquirer Business Property | Keeps stress, vacancy, oversupply, or weak absorption at the center of the property read.
+
+## Structural shifts
+
+### office supply positioning
+- Editorial note: Developer expansion is the visible move, but the sharper property read is whether new gross leasable space can produce actual space take-up.
+- Pattern: The new office pipeline is being framed as expansion, but its demand read still has to come through absorption evidence.
+- Tension: developer expansion vs tenant absorption
+- Supporting stories:
+- [Filinvest office portfolio maintains solid renewals](https://www.philstar.com/business/2026/08/26/2551727/filinvest-office-portfolio-maintains-solid-renewals) | Philippine Star Property | Shows real property utilization through vacancy, rents, or leasing demand.
+
+### supply pipeline shift
+- Editorial note: Pipeline shifts matter because new supply can worsen imbalance if demand is not keeping up.
+- Pattern: The week is mostly framing and persistence, not a new market turn.
+- Tension: standing research vs fresh demand signal
+- Supporting stories:
+- [Michelin looks beyond cars to drive PH growth](https://business.inquirer.net/607392/michelin-looks-beyond-cars-to-drive-ph-growth) | Inquirer Business Property | Adds a concrete read on Philippine property demand, supply, financing, or stress.
 
 ## What seems to be happening
 
-- The office market generated optimistic framing without enough absorption improvement to make it a recovery story.
-- Resilience and volatility are appearing in the same market frame, so the actual read sits between the two claims.
+- The office read still turns on vacancy, rents, leasing, and tenant behavior.
 - No clear hard leasing evidence broke through strongly enough to validate a turn.
