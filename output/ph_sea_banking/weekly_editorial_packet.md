@@ -1,62 +1,45 @@
 # Weekly Editorial Packet — Philippine / SEA Banking
 
-Week of 2026-08-17
+Week of 2026-08-24
 
 ## Editorial Read
 
-- What matters now is not deposit movement in the abstract, but whether it forces banks to pay up for funds or defend liquidity.
-- Liquidity signals now read as pressure management: banks are protecting room to move before stretching balance sheets again.
-- Policy remains a live driver, but its market impact depends on whether it changes credit behavior rather than just compliance posture.
+- This week, the rate move landed; the more useful question now is what it costs through funding and deposit pricing.
+- Credit conditions are leaning tighter as banks or regulators put more weight on borrower capacity and lending discipline.
+- Deposit movement matters less as a static liquidity fact than as a test of whether banks have to pay up to defend funding.
 
 ## What matters most
 
-### liquidity preservation
-- Why it matters: The liquidity signal is defensive: banks are protecting room to move before stretching again.
-- Pattern: Liquidity matters because balance-sheet room is becoming part of the risk response.
-- Tension: liquidity defense vs credit expansion
+### credit tightening
+- Why it matters: The sharper read is which borrowers still pass the higher-rate test.
+- Pattern: Credit discipline is moving from background control to operating constraint.
+- Tension: loan growth vs borrower quality
 - Supporting stories:
-- [Domestic Liquidity Grows by 10.6% in June](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8014) | Bangko Sentral ng Pilipinas | Connects bank behavior to actual credit conditions.
-- [Philippine BOP swings to $1.47-billion deficit in July as forex reserves hit 18-month low](https://mb.com.ph/article/10932121/business/the-economy/philippine-bop-swings-to-147-billion-deficit-in-july-as-forex-reserves-hit-18-month-low) | Manila Bulletin Business | Makes funding and liquidity pressure visible beyond headline earnings.
+- [BSP sees no need for another rate hike—for now](https://mb.com.ph/article/10933196/business/banking-finance/bsp-sees-no-need-for-another-rate-hikefor-now) | Manila Bulletin Business | Connects bank behavior to actual credit conditions.
+- [Peso weakens further, breaches 62:$1 level](https://business.inquirer.net/608089/peso-weakens-further-breaches-621-level) | Inquirer Business | Shows how policy can change lending behavior or risk appetite.
 
 ### banking policy pressure
 - Why it matters: Policy is no longer just a signal from the center; the sharper question is how quickly it reaches credit appetite, deposit pricing, and risk controls.
 - Pattern: The policy signal is clear; the operating environment it lands in is not.
 - Tension: policy vs execution
 - Supporting stories:
-- [PHL banks’ trust assets jump to record P6.65 trillion as of June](https://bworldonline.com/banking-finance/2026/08/21/771567/phl-banks-trust-assets-jump-to-record-p6-65-trillion-as-of-june) | BusinessWorld Banking | Shows how policy can change lending behavior or risk appetite.
-- [Central bank writes off P2.8 billion in past-due loans](https://www.philstar.com/business/2026/08/21/2550638/central-bank-writes-p28-billion-past-due-loans) | Philstar Business | Shows where borrower stress is starting to matter for asset quality.
-- [BSP, regional peers agree to enhance cooperation](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8038) | Bangko Sentral ng Pilipinas | Shows how policy can change lending behavior or risk appetite.
+- [BSP raises key interest rate to 5%](https://bworldonline.com/top-stories/2026/08/28/772982/bsp-raises-key-interest-rate-to-5) | BusinessWorld Banking | Connects bank behavior to actual credit conditions.
+- [August inflation seen exceeding BSP target](https://www.philstar.com/business/2026/08/29/2552455/august-inflation-seen-exceeding-bsp-target) | Philstar Business | Shows how policy can change lending behavior or risk appetite.
+- [PSEi drops below 6,000 after rate hike, peso slump](https://www.philstar.com/business/2026/08/29/2552458/psei-drops-below-6000-after-rate-hike-peso-slump) | Philstar Business | Shows how policy can change lending behavior or risk appetite.
+- [Peso falls to 62-per-dollar level](https://business.inquirer.net/608019/peso-falls-to-62-per-dollar-level) | Inquirer Business | Shows how policy can change lending behavior or risk appetite.
 
 ### deposit funding shift
-- Why it matters: The funding question is moving from available liquidity to price: banks may still have funds, but the next read is what those funds cost.
-- Pattern: Deposit movement is making funding cost and liquidity management harder to ignore.
-- Tension: funding stability vs margin pressure
+- Why it matters: Funding costs now matter because they affect bank appetite for risk and growth.
+- Pattern: The immediate issue is not the rate move itself, but what it does to funding costs.
+- Tension: deposit defense vs margin protection
 - Supporting stories:
-- [Singapore’s AI-powered recruitment platform Snaphunt to shut down as $2.8M funding round fails](https://e.vnexpress.net/news/business/companies/singapore-s-ai-powered-recruitment-platform-snaphunt-to-shut-down-as-2-8m-funding-round-fails-5110438.html) | VNExpress Business | Makes funding and liquidity pressure visible beyond headline earnings.
-- [PNB betting ₱1 billion on consumer finance platform Billease](https://mb.com.ph/article/10932180/business/banking-finance/pnb-betting-1-billion-on-consumer-finance-platform-billease) | Manila Bulletin Business | Connects bank behavior to actual credit conditions.
-- [Gov’t faces constraints in funding new 2027 projects](https://business.inquirer.net/606718/govt-faces-constraints-in-funding-new-2027-projects) | Inquirer Business | Shows how policy can change lending behavior or risk appetite.
-
-### lending conditions
-- Why it matters: The sharper read is which borrowers still pass the higher-rate test.
-- Pattern: Platform expansion is outrunning stable operating models.
-- Tension: momentum vs operating reality
-- Supporting stories:
-- [Banks expect unchanged lending standards and demand for loans in Q3 2026](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8011) | Bangko Sentral ng Pilipinas | Connects bank behavior to actual credit conditions.
-
-## Structural shifts
-
-### borrower risk
-- Editorial note: Repayment capacity is doing more work than headline lending momentum.
-- Pattern: Asset quality is the live test underneath still-active lending.
-- Tension: growth vs asset quality
-- Supporting stories:
-- [Billease secures P1-billion credit facility from PNB](https://bworldonline.com/banking-finance/2026/08/21/771565/billease-secures-p1-billion-credit-facility-from-pnb) | BusinessWorld Banking | Shows where borrower stress is starting to matter for asset quality.
-- [BillEase bags P 1-billion credit facility from PNB](https://business.inquirer.net/606904/billease-bags-p-1-billion-credit-facility-from-pnb) | Inquirer Business | Connects bank behavior to actual credit conditions.
+- [Philippine bank deposits hit ₱22 trillion in Q1 as savings surge](https://mb.com.ph/article/10933200/business/banking-finance/philippine-bank-deposits-hit-22-trillion-in-q1-as-savings-surge) | Manila Bulletin Business | Makes funding and liquidity pressure visible beyond headline earnings.
+- [Monetary Board raises target RRP Rate by 25 basis points](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8047) | Bangko Sentral ng Pilipinas | Connects bank behavior to actual credit conditions.
+- [EastWest sets P9-billion capital raising push](https://business.inquirer.net/607907/eastwest-sets-p9-billion-capital-raising-push) | Inquirer Business | Shows how policy can change lending behavior or risk appetite.
+- [BSP expands retirement savings options with PERA time deposits](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8045) | Bangko Sentral ng Pilipinas | Makes funding and liquidity pressure visible beyond headline earnings.
 
 ## What seems to be happening
 
-- Liquidity matters because balance-sheet room is becoming part of the risk response.
+- Borrower quality is carrying more of the credit story.
 - Policy is clear enough to matter, but transmission is still unsettled.
-- Deposit movement is making funding cost and liquidity management harder to ignore.
-- Platform expansion is outrunning stable operating models.
-- Asset quality is the live test underneath still-active lending.
+- The rate decision now has to be read through funding costs.
