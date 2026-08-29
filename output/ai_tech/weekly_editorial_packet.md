@@ -1,6 +1,6 @@
 # Weekly Editorial Packet — Technology / Digital Economy
 
-Week of 2026-08-17
+Week of 2026-08-24
 
 ## Editorial Read
 
@@ -11,25 +11,15 @@ Week of 2026-08-17
 
 ## What matters most
 
-### digital policy pressure
-- Why it matters: Regulatory and governance pressure is starting to shape rollout decisions before operating rules are fully settled.
-- Pattern: Policy is moving faster than operating clarity.
-- Tension: policy vs execution
+### enterprise technology adoption
+- Why it matters: Vendors are pushing enterprise positioning before usage patterns, ROI, and buyer confidence have fully stabilized.
+- Pattern: Enterprise positioning is getting pushed ahead of proven demand.
+- Tension: adoption vs proof
 - Supporting stories:
-- [Malaysia’s AI Nation 2030 puts cities and farms at the heart of climate resilience](https://e27.co/malaysias-ai-nation-2030-puts-cities-and-farms-at-the-heart-of-climate-resilience-20260820) | e27 SEA Tech | Shows where policy pressure is starting to change operating choices.
-- [BSP: Responsible use, strong governance are keys to unlocking AI's potential](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8026) | Bangko Sentral ng Pilipinas AI/Tech | Shows how safety posture is becoming part of product strategy.
-- [Singapore Polytechnic launches CASTLE to help SMEs strengthen cyber defences](https://e27.co/singapore-polytechnic-launches-castle-to-help-smes-strengthen-cyber-defences-20260820) | e27 SEA Tech | Shows how regulation is starting to shape the playbook.
-- [Putting frontier cyber models in more trusted hands](https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands) | OpenAI Blog | Makes the governance pitch part of the product story.
-
-### data center and cloud capacity
-- Why it matters: Data-center and cloud capacity matter because they set practical limits on deployment, cost, resilience, and energy demand.
-- Pattern: Digital infrastructure demand is turning capacity, power, and location into strategic constraints.
-- Tension: digital growth vs infrastructure readiness
-- Supporting stories:
-- [Deepgram expands into Singapore to tackle APAC’s multilingual Voice AI challenge](https://e27.co/deepgram-expands-into-singapore-to-tackle-apacs-multilingual-voice-ai-challenge-20260818) | e27 SEA Tech | Makes the demand and pricing question harder to ignore.
-- [AI demand lifts Malaysia’s chip sector, but not every player wins](https://e27.co/ai-demand-lifts-malaysias-chip-sector-but-not-every-player-wins-20260817) | e27 SEA Tech | Shows where policy pressure is starting to change operating choices.
-- [ADB Commits MYR300 Million to Malaysia’s First Data Center Sukuk](https://www.adb.org/news/adb-commits-myr-300-million-malaysia-first-data-center-sukuk) | Asian Development Bank Digital Economy | Early sign worth tracking if repeated.
-- [Nvidia partners with data center developer Cloverleaf](https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf) | TechCrunch AI | Shows where platform control is shifting into developer workflow.
+- [fileAI expands in Japan with new backing from SMBC and Singtel Innov8](https://e27.co/fileai-expands-in-japan-with-new-backing-from-smbc-and-singtel-innov8-20260828) | e27 SEA Tech | Shows how vendors are trying to lock in enterprise trust before demand settles.
+- [Rippling expands Singapore office as AI boom pushes companies to hire globally](https://e27.co/rippling-expands-singapore-office-as-ai-boom-pushes-companies-to-hire-globally-20260827) | e27 SEA Tech | Shows who is trying to lock up position before the market settles.
+- [A Southeast Asia AI adoption outlook vs alternative global hubs](https://e27.co/a-southeast-asia-ai-adoption-outlook-vs-alternative-global-hubs-20260824) | e27 SEA Tech | Makes the demand and pricing question harder to ignore.
+- [Moving past the pilot and scaling AI in Southeast Asian retail](https://e27.co/moving-past-the-pilot-and-scaling-ai-in-southeast-asian-retail-20260809) | e27 SEA Tech | Shows how safety posture is becoming part of product strategy.
 
 ### cybersecurity and resilience
 - Why it matters: Cybersecurity matters because incidents and resilience rules can change operating risk, trust, compliance, and public-service continuity.
@@ -45,50 +35,54 @@ Week of 2026-08-17
 - Pattern: Infrastructure is scaling faster than coordination.
 - Tension: ambition vs capacity
 - Supporting stories:
-- [DICT AI tools for MSMEs now available in Bicol](https://malaya.com.ph/business/corporate/dict-ai-tools-for-msmes-now-available-in-bicol) | Malaya Business AI/Tech | Shows where platform control is shifting into developer workflow.
-- [Why Southeast Asia doesn’t need to pick a side in the AI race](https://e27.co/why-southeast-asia-doesnt-need-to-pick-a-side-in-the-ai-race-20260815) | e27 SEA Tech | Shows where policy pressure is starting to change operating choices.
-- [A new hub for small entrepreneurs to learn AI](https://business.inquirer.net/606915/a-new-hub-for-small-entrepreneurs-to-learn-ai) | Inquirer Business AI/Tech | Strong local business relevance with likely downstream effects.
-- [OpenAI is gaining on Anthropic with business users, new data indicates](https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates) | TechCrunch AI | Makes the demand and pricing question harder to ignore.
+- [From industrial strength to broader development recognition](https://bworldonline.com/spotlight/2026/08/28/772591/from-industrial-strength-to-broader-development-recognition) | BusinessWorld AI/Tech | Strong local business relevance with likely downstream effects.
+- [Apple unveils new Mac mini models after two years](https://technology.inquirer.net/148757/apple-unveils-new-mac-mini-models-after-two-years) | Inquirer Tech | Makes the demand and pricing question harder to ignore.
+- [SM City Baguio shares the love of learning through AI, connecting generations in the digital age](https://technology.inquirer.net/148768/sm-city-baguio-shares-the-love-of-learning-through-ai-connecting-generations-in-the-digital-age) | Inquirer Tech | Shows who is trying to lock up position before the market settles.
+- [Language was never the problem: Inside SEA’s real AI adoption gap](https://e27.co/language-was-never-the-problem-inside-seas-real-ai-adoption-gap-20260827) | e27 SEA Tech | Shows where the market signal is firmer than the narrative.
+
+### digital policy pressure
+- Why it matters: Regulatory and governance pressure is starting to shape rollout decisions before operating rules are fully settled.
+- Pattern: Policy is moving faster than operating clarity.
+- Tension: policy vs execution
+- Supporting stories:
+- [Converge secures green lane status for Angeles data center](https://bworldonline.com/corporate/2026/08/28/772988/converge-secures-green-lane-status-for-angeles-data-center) | BusinessWorld AI/Tech | Shows where policy pressure is starting to change operating choices.
+- [Converge data center gets ‘green lane’ tag](https://business.inquirer.net/607906/converge-data-center-gets-green-lane-tag) | Inquirer Business AI/Tech | Shows how regulation is starting to shape the playbook.
+- [BIR, Ayala develop AI tax assistant to speed up processes](https://business.inquirer.net/608271/bir-ayala-develop-ai-tax-assistant-to-speed-up-processes) | Inquirer Business AI/Tech | Shows where platform control is shifting into developer workflow.
+- [BSP: Responsible use, strong governance are keys to unlocking AI's potential](https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8026) | Bangko Sentral ng Pilipinas AI/Tech | Shows how safety posture is becoming part of product strategy.
 
 ## Structural shifts
-
-### consumer technology shift
-- Editorial note: Consumer technology is editorially useful when it shows behavior, adoption, or market share moving rather than just another device launch.
-- Pattern: Consumer technology signals matter where they reveal adoption, market share, or ecosystem direction.
-- Tension: product novelty vs behavior change
-- Supporting stories:
-- [Why Malaysia’s AI Nation 2030 plan matters for B2B startups](https://e27.co/why-malaysias-ai-nation-2030-plan-matters-for-b2b-startups-20260821) | e27 SEA Tech | Shows where policy pressure is starting to change operating choices.
 
 ### connectivity buildout
 - Editorial note: Connectivity buildout matters when it changes who can participate in digital services, where firms can operate, and what public services can reach.
 - Pattern: Connectivity expansion is changing access, coverage, and the geography of digital services.
 - Tension: network ambition vs useful access
 - Supporting stories:
-- [Telco backs stronger safeguards online, blocks sites inducing violence](https://www.philstar.com/telecoms/2026/08/21/2550858/telco-backs-stronger-safeguards-online-blocks-sites-inducing-violence) | Philippine Star Business AI/Tech | Early sign worth tracking if repeated.
-- [PGDX shines with local telco, cloud gaming support](https://technology.inquirer.net/148508/pgdx-shines-with-local-telco-cloud-gaming-support) | Inquirer Tech | Strong local business relevance with likely downstream effects.
-- [Linkdaze’s smart calendar is built to run a household, not just track a schedule](https://techcrunch.com/2026/08/20/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule) | TechCrunch AI | Shows where platform control is shifting into developer workflow.
+- [ASEAN Connectivity Coordinating Committee convenes, advances implementation and partnerships](https://asean.org/asean-connectivity-coordinating-committee-convenes-advances-implementation-and-partnerships) | ASEAN Digital Economy and AI Governance | Strong local business relevance with likely downstream effects.
+- [PGDX shines with local telco, cloud gaming support](https://technology.inquirer.net/148508/pgdx-shines-with-local-telco-cloud-gaming-support) | Inquirer Tech | Shows who is trying to lock up position before the market settles.
 
-### enterprise technology adoption
-- Editorial note: Vendors are pushing enterprise positioning before usage patterns, ROI, and buyer confidence have fully stabilized.
-- Pattern: Enterprise positioning is getting pushed ahead of proven demand.
-- Tension: adoption vs proof
+### data center and cloud capacity
+- Editorial note: Data-center and cloud capacity matter because they set practical limits on deployment, cost, resilience, and energy demand.
+- Pattern: Digital infrastructure demand is turning capacity, power, and location into strategic constraints.
+- Tension: digital growth vs infrastructure readiness
 - Supporting stories:
-- [The transformation ecology crisis: How AI is exposing the hidden fragility of high-performing teams](https://e27.co/the-transformation-ecology-crisis-how-ai-is-exposing-the-hidden-fragility-of-high-performing-teams-20260821) | e27 SEA Tech | Makes the demand and pricing question harder to ignore.
-- [Microsoft work trends and the paradox of AI adoption](https://technology.inquirer.net/148537/microsoft-work-trends-and-the-paradox-of-ai-adoption) | Inquirer Tech | Strong local business relevance with likely downstream effects.
-- [How Zapier transformed core marketing processes with ChatGPT Work](https://openai.com/index/zapier) | OpenAI Blog | Shows where platform control is shifting into developer workflow.
+- [A 90-episode series in 3 weeks: How AI is speeding up Indonesia’s creative economy](https://e27.co/a-90-episode-series-in-3-weeks-how-ai-is-speeding-up-indonesias-creative-economy-20260824) | e27 SEA Tech | Gives the theme a concrete operating example.
+- [ADB Commits MYR300 Million to Malaysia’s First Data Center Sukuk](https://www.adb.org/news/adb-commits-myr-300-million-malaysia-first-data-center-sukuk) | Asian Development Bank Digital Economy | Early sign worth tracking if repeated.
+- [Nvidia’s AI advantage is moving beyond the GPU](https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu) | TechCrunch AI | Makes the infrastructure strain visible.
+- [AI has become how Southeast Asia finds you, but it still isn’t how the region decides](https://e27.co/ai-has-become-how-southeast-asia-finds-you-but-it-still-isnt-how-the-region-decides-20260824) | e27 SEA Tech | Makes the demand and pricing question harder to ignore.
 
 ### technology investment
 - Editorial note: Multiple players are adding capability faster than they can secure capacity, coordination, or deployment discipline.
 - Pattern: Infrastructure is scaling faster than coordination.
 - Tension: ambition vs capacity
 - Supporting stories:
-- [ADB Launches Initiative to Bring Japanese Startup Innovation to Southeast Asia and the Pacific](https://www.adb.org/news/adb-launches-initiative-bring-japanese-startup-innovation-southeast-asia-and-pacific) | Asian Development Bank Digital Economy | Early sign worth tracking if repeated.
-- [The silent migration: Why top SEA startups are quietly building core R&D hubs in Vietnam](https://e27.co/the-silent-migration-why-top-sea-startups-are-quietly-building-core-rd-hubs-in-vietnam-20260817) | e27 SEA Tech | Shows where strategy is running into execution reality.
+- [The new startup playbook: From product velocity to cognitive positioning](https://e27.co/the-new-startup-playbook-from-product-velocity-to-cognitive-positioning-20260827) | e27 SEA Tech | Shows where strategy is running into execution reality.
+- [Malaysia’s OSKVI and Affin Hwang move into venture debt with Pothos Fund I](https://e27.co/pothos-fund-i-brings-venture-debt-option-to-southeast-asian-growth-companies-20260827) | e27 SEA Tech | Shows where platform control is shifting into developer workflow.
+- [Taiwan Tech Solution Day in Bangkok Strengthens Taiwan–Thailand Innovation Ties Through Cross-Ministry Collaboration](https://e27.co/taiwan-tech-solution-day-in-bangkok-strengthens-taiwan-thailand-innovation-ties-through-cross-ministry-collaboration-20260826) | e27 SEA Tech | Makes the demand and pricing question harder to ignore.
 
 ## What seems to be happening
 
-- Policy is moving faster than operating clarity.
-- Digital infrastructure demand is turning capacity, power, and location into strategic constraints.
+- Enterprise positioning is getting pushed ahead of proven demand.
 - Cyber risk is moving from a technical concern into an operating and trust problem.
 - Infrastructure is scaling faster than coordination.
-- Consumer technology signals matter where they reveal adoption, market share, or ecosystem direction.
+- Policy is moving faster than operating clarity.
+- Connectivity expansion is changing access, coverage, and the geography of digital services.
