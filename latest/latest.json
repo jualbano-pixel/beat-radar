@@ -14,8 +14,8 @@
   "ph_sea_banking": {
     "beat_name": "Philippine / SEA Banking",
     "latest_packet": "latest/ph_sea_banking.md",
-    "archived_packet": "output/ph_sea_banking/2026-09-12/weekly_editorial_packet.md",
-    "updated_at": "2026-09-12T13:11:05.011Z"
+    "archived_packet": "output/ph_sea_banking/2026-09-19/weekly_editorial_packet.md",
+    "updated_at": "2026-09-19T13:31:02.515Z"
   },
   "ph_sea_energy": {
     "beat_name": "Philippine / SEA Energy",
