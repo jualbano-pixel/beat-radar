@@ -1,6 +1,6 @@
 # Weekly Editorial Packet — Philippine / SEA Energy
 
-Week of 2026-09-14
+Week of 2026-09-21
 
 ## Editorial Read
 
@@ -9,22 +9,29 @@ Week of 2026-09-14
 
 ## What matters most
 
+### policy cost shift
+- Why it matters: Policy decisions matter because they decide whether energy pressure lands on utilities, businesses, or consumers.
+- Pattern: Policy decisions are shifting how energy costs move through utilities, businesses, and households.
+- Tension: cost recovery vs public burden
+- Supporting stories:
+- [Let the science speak](https://www.philstar.com/business/2026/09/26/2558874/let-science-speak) | Philippine Star Business Energy | Shows how policy decisions can shift who absorbs energy costs.
+
 ### grid capacity risk
 - Why it matters: Grid and project execution determine whether new capacity can actually reach users.
 - Pattern: Grid and project execution are shaping how much capacity the system can actually use.
 - Tension: infrastructure ambition vs delivery
 - Supporting stories:
-- [PayMongo strengthens payment reliability](https://www.philstar.com/business/2026/09/20/2557426/paymongo-strengthens-payment-reliability) | Philippine Star Business Energy | Shows how policy decisions can shift who absorbs energy costs.
+- [Beyond the mine: A rehabilitation journey](https://www.philstar.com/business/2026/09/27/2559097/beyond-mine-rehabilitation-journey) | Philippine Star Business Energy | Adds a concrete read on price, supply, reliability, or policy pressure.
 
-### energy price pressure
-- Why it matters: Energy-price pressure feeds through to households, operators, and policy decisions.
-- Pattern: Energy costs are still feeding into household and business pressure.
-- Tension: cost recovery vs affordability
+### external energy shock
+- Why it matters: External shocks matter when they pass through to local prices, supply planning, or reliability risk.
+- Pattern: External fuel shocks are passing through to local prices, supply planning, and operating costs.
+- Tension: global exposure vs local resilience
 - Supporting stories:
-- [Diesel hike next week seen at P8.82 per liter](https://malaya.com.ph/business/business-news/diesel-hike-next-week-seen-at-p8-82-per-liter) | Malaya Business | Shows how fuel-price movement is feeding into household and operating costs.
-- [Diesel seen up by as much as P10.50 per liter next week](https://business.inquirer.net/611625/diesel-seen-up-by-as-much-as-p10-50-per-liter-next-week) | Inquirer Business Energy | Shows how fuel-price movement is feeding into household and operating costs.
+- [Diesel prices seen falling by as much as P8/l next week](https://malaya.com.ph/business/business-news/diesel-prices-seen-falling-by-as-much-as-p8-l-next-week) | Malaya Business | Shows how fuel-price movement is feeding into household and operating costs.
 
 ## What seems to be happening
 
+- Policy decisions are shifting how energy costs move through utilities, businesses, and households.
 - Grid and project execution are shaping how much capacity the system can actually use.
-- Energy costs are still feeding into household and business pressure.
+- External fuel shocks are passing through to local prices, supply planning, and operating costs.
