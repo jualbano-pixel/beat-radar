@@ -1,43 +1,4 @@
 {
-  "top_stories": [
-    {
-      "title": "Let the science speak",
-      "source": "Philippine Star Business Energy",
-      "date": "2026-09-25T16:00:00.000Z",
-      "summary": "Established under the Tax Reform for Acceleration and Inclusion (TRAIN) Law, the fuel marking program serves as the country’s frontline defense against the entry of smuggled fuel by introducing microscopic chemical markers into taxed petroleum products.",
-      "tags": [
-        "digital_policy"
-      ],
-      "priority_score": 4.6,
-      "priority_reasons": [
-        "policy_shift"
-      ],
-      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
-    },
-    {
-      "title": "Beyond the mine: A rehabilitation journey",
-      "source": "Philippine Star Business Energy",
-      "date": "2026-09-26T16:00:00.000Z",
-      "summary": "I visited a nickel mining site for the first time, upon the invite of Berong Nickel Corp., a subsidiary of DMCI Mining Corp.",
-      "tags": [
-        "general_ph_sea_energy"
-      ],
-      "priority_score": 0.6,
-      "priority_reasons": [],
-      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
-    },
-    {
-      "title": "Diesel prices seen falling by as much as P8/l next week",
-      "source": "Malaya Business",
-      "date": "2026-09-26T08:23:54.000Z",
-      "summary": "Diesel prices could drop by as much as P8 per liter next week, offering motorists relief after three consecutive weeks of steep increases as global oil markets ease on improving supply prospects from the Middle East. The Department of Energy (DOE) said diesel prices could fall by as much as P8 per liter and kerosene...",
-      "tags": [
-        "general_ph_sea_energy"
-      ],
-      "priority_score": 0.6,
-      "priority_reasons": [],
-      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
-    }
-  ],
+  "top_stories": [],
   "secondary_signals": []
 }

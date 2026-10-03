@@ -1,41 +1,121 @@
 [
   {
+    "theme_id": "enterprise_technology",
+    "theme_label": "enterprise technology adoption",
+    "theme_summary": "enterprise technology adoption is the shared editorial thread across 9 related stories. The strongest signal is enterprise adoption pressure rising.",
+    "story_count": 9,
+    "cluster_ids": [],
+    "story_ids": [
+      "c3fc7912359b",
+      "7796574853d0",
+      "0a2ac8a3e916",
+      "75c65c27341f",
+      "6ab9b897c283",
+      "50f50fd34c1b",
+      "637d3dfa247f",
+      "bb71e409dd7f",
+      "4410122683c5"
+    ],
+    "associated_stories": [
+      {
+        "id": "0a2ac8a3e916",
+        "title": "SMEs adopt AI four times slower than big business, the fix starts with the PC",
+        "url": "https://e27.co/how-ai-can-be-the-biggest-accelerator-for-smes-20260930",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-10-02T03:00:55.000Z"
+      },
+      {
+        "id": "50f50fd34c1b",
+        "title": "SIA has scaled AI. Aviation must now govern the point of action",
+        "url": "https://e27.co/sia-has-scaled-ai-aviation-must-now-govern-the-point-of-action-20260924",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-09-28T01:00:39.000Z"
+      },
+      {
+        "id": "c3fc7912359b",
+        "title": "BSP issues capital, other requirements for banks shifting to digital model",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8084",
+        "source": "Bangko Sentral ng Pilipinas AI/Tech",
+        "published_at": "2026-09-23T09:13:50.000Z"
+      },
+      {
+        "id": "7796574853d0",
+        "title": "Data security, privacy remain barriers to AI adoption",
+        "url": "https://www.philstar.com/business/2026/10/04/2560714/data-security-privacy-remain-barriers-ai-adoption",
+        "source": "Philippine Star Business AI/Tech",
+        "published_at": "2026-10-03T16:00:00.000Z"
+      },
+      {
+        "id": "637d3dfa247f",
+        "title": "How Albertsons Companies is reimagining retail from the inside out",
+        "url": "https://openai.com/index/albertsons-reimagining-retail",
+        "source": "OpenAI Blog",
+        "published_at": "2026-10-01T16:00:00.000Z"
+      },
+      {
+        "id": "4410122683c5",
+        "title": "How to connect AI usage to business value",
+        "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+        "source": "OpenAI Blog",
+        "published_at": "2026-09-16T12:00:00.000Z"
+      },
+      {
+        "id": "6ab9b897c283",
+        "title": "The AI agent boom is exposing Southeast Asia’s startup codebase problem",
+        "url": "https://e27.co/the-ai-agent-boom-is-exposing-southeast-asias-startup-codebase-problem-20261001",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-10-01T01:20:29.000Z"
+      },
+      {
+        "id": "75c65c27341f",
+        "title": "Meta appoints Dhruv Vohra to lead Southeast Asia business as AI and chat commerce reshape online retail",
+        "url": "https://e27.co/meta-appoints-dhruv-vohra-to-lead-southeast-asia-business-as-ai-and-chat-commerce-reshape-online-retail-20261001",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-10-01T03:30:32.000Z"
+      },
+      {
+        "id": "bb71e409dd7f",
+        "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+        "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+        "source": "OpenAI Blog",
+        "published_at": "2026-09-23T02:00:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "market_signal",
+      "meaningful_shift",
+      "policy_regulatory_move"
+    ],
+    "dominant_angle_signals": [
+      "enterprise adoption pressure rising",
+      "demand still unproven",
+      "developer workflow changing"
+    ],
+    "top_story_refs": [
+      "0a2ac8a3e916",
+      "50f50fd34c1b",
+      "c3fc7912359b"
+    ]
+  },
+  {
     "theme_id": "data_centers_infrastructure",
     "theme_label": "data centers and digital infrastructure",
-    "theme_summary": "data centers and digital infrastructure is the shared editorial thread across 8 related stories. The strongest signal is infrastructure lag visible.",
-    "story_count": 8,
+    "theme_summary": "data centers and digital infrastructure is the shared editorial thread across 4 related stories. The strongest signal is infrastructure lag visible.",
+    "story_count": 4,
     "cluster_ids": [],
     "story_ids": [
       "219f0cf14b9b",
-      "200ffcf84bf3",
-      "82c44141529c",
-      "5052bea52d09",
-      "e2a6a90d9b2c",
-      "c67b725df023",
-      "439dcfde53e4",
+      "104b51f0ce0a",
+      "67dac9f5f513",
       "b32e9b847135"
     ],
     "associated_stories": [
       {
-        "id": "c67b725df023",
-        "title": "Ahead of US IPO, British AI neocloud Nscale secures $3.36B in convertible financing",
-        "url": "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing",
+        "id": "67dac9f5f513",
+        "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
+        "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas",
         "source": "TechCrunch AI",
-        "published_at": "2026-09-25T18:33:59.000Z"
-      },
-      {
-        "id": "200ffcf84bf3",
-        "title": "Opinion: Pax Silica is not a data center",
-        "url": "https://technology.inquirer.net/149180/opinion-pax-silica-is-not-a-data-center",
-        "source": "Inquirer Tech",
-        "published_at": "2026-09-13T09:42:55.000Z"
-      },
-      {
-        "id": "e2a6a90d9b2c",
-        "title": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
-        "url": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal",
-        "source": "TechCrunch AI",
-        "published_at": "2026-09-25T19:13:38.000Z"
+        "published_at": "2026-10-03T18:43:57.000Z"
       },
       {
         "id": "b32e9b847135",
@@ -52,212 +132,27 @@
         "published_at": "2026-09-23T11:55:03.000Z"
       },
       {
-        "id": "5052bea52d09",
-        "title": "Why Singapore, Indonesia, and Vietnam are losing the AI race they think they are winning",
-        "url": "https://e27.co/why-singapore-indonesia-and-vietnam-are-losing-the-ai-race-they-think-they-are-winning-20260916",
+        "id": "104b51f0ce0a",
+        "title": "A*STAR and EDB unveil SG Semiconductor as partnerships target AI-era chis",
+        "url": "https://e27.co/astar-and-edb-unveil-sg-semiconductor-as-partnerships-target-ai-era-chis-20260928",
         "source": "e27 SEA Tech",
-        "published_at": "2026-09-23T01:00:41.000Z"
-      },
-      {
-        "id": "439dcfde53e4",
-        "title": "TechCrunch Disrupt 2026: Ricursive Intelligence’s Anna Goldie and Azalia Mirhoseini on when AI starts designing its own hardware",
-        "url": "https://techcrunch.com/2026/09/25/techcrunch-disrupt-2026-ricursive-intelligences-anna-goldie-and-azalia-mirhoseini-on-when-ai-starts-designing-its-own-hardware",
-        "source": "TechCrunch AI",
-        "published_at": "2026-09-25T15:00:00.000Z"
-      },
-      {
-        "id": "82c44141529c",
-        "title": "College students can get a year of Google AI Plus for free",
-        "url": "https://technology.inquirer.net/149080/college-students-can-get-a-year-of-google-ai-plus-for-free",
-        "source": "Inquirer Tech",
-        "published_at": "2026-09-09T20:09:40.000Z"
-      }
-    ],
-    "dominant_reason_codes": [
-      "policy_regulatory_move",
-      "developing_pattern",
-      "local_business_relevance"
-    ],
-    "dominant_angle_signals": [
-      "infrastructure lag visible",
-      "regulation moving ahead of capacity",
-      "policy pressure building"
-    ],
-    "top_story_refs": [
-      "c67b725df023",
-      "200ffcf84bf3",
-      "e2a6a90d9b2c"
-    ]
-  },
-  {
-    "theme_id": "enterprise_technology",
-    "theme_label": "enterprise technology adoption",
-    "theme_summary": "enterprise technology adoption is the shared editorial thread across 6 related stories. The strongest signal is enterprise adoption pressure rising.",
-    "story_count": 6,
-    "cluster_ids": [],
-    "story_ids": [
-      "c3fc7912359b",
-      "5d8aa86e750c",
-      "bb71e409dd7f",
-      "4410122683c5",
-      "b0cbef382238",
-      "330fba64551d"
-    ],
-    "associated_stories": [
-      {
-        "id": "c3fc7912359b",
-        "title": "BSP issues capital, other requirements for banks shifting to digital model",
-        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8084",
-        "source": "Bangko Sentral ng Pilipinas AI/Tech",
-        "published_at": "2026-09-23T09:13:50.000Z"
-      },
-      {
-        "id": "5d8aa86e750c",
-        "title": "AI won’t just replace jobs. It will redesign how companies work",
-        "url": "https://e27.co/ai-wont-just-replace-jobs-it-will-redesign-how-companies-work-20260921",
-        "source": "e27 SEA Tech",
-        "published_at": "2026-09-24T01:30:18.000Z"
-      },
-      {
-        "id": "330fba64551d",
-        "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
-        "url": "https://openai.com/index/gilbert-tobin",
-        "source": "OpenAI Blog",
-        "published_at": "2026-09-01T01:00:00.000Z"
-      },
-      {
-        "id": "b0cbef382238",
-        "title": "How AI-native companies turn workflows into operating capability",
-        "url": "https://openai.com/index/ai-native-company-workflows",
-        "source": "OpenAI Blog",
-        "published_at": "2026-09-01T17:00:00.000Z"
-      },
-      {
-        "id": "4410122683c5",
-        "title": "How to connect AI usage to business value",
-        "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
-        "source": "OpenAI Blog",
-        "published_at": "2026-09-16T12:00:00.000Z"
-      },
-      {
-        "id": "bb71e409dd7f",
-        "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
-        "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
-        "source": "OpenAI Blog",
-        "published_at": "2026-09-23T02:00:00.000Z"
+        "published_at": "2026-09-28T06:38:11.000Z"
       }
     ],
     "dominant_reason_codes": [
       "watchlist_signal",
-      "meaningful_shift",
+      "policy_regulatory_move",
       "ongoing_story_advance"
     ],
     "dominant_angle_signals": [
-      "enterprise adoption pressure rising",
-      "developer workflow changing",
-      "ongoing platform expansion"
-    ],
-    "top_story_refs": [
-      "c3fc7912359b",
-      "5d8aa86e750c",
-      "330fba64551d"
-    ]
-  },
-  {
-    "theme_id": "cybersecurity_resilience",
-    "theme_label": "cybersecurity and resilience",
-    "theme_summary": "cybersecurity and resilience is the shared editorial thread across 3 related stories. The strongest signal is safety pressure building.",
-    "story_count": 3,
-    "cluster_ids": [],
-    "story_ids": [
-      "749ea43419ac",
-      "39210f987919",
-      "f2694bfa96c4"
-    ],
-    "associated_stories": [
-      {
-        "id": "749ea43419ac",
-        "title": "BSP sets P1 billion capital floor for banks shifting to digital model",
-        "url": "https://www.philstar.com/business/2026/09/27/2559094/bsp-sets-p1-billion-capital-floor-banks-shifting-digital-model",
-        "source": "Philippine Star Business AI/Tech",
-        "published_at": "2026-09-26T16:00:00.000Z"
-      },
-      {
-        "id": "39210f987919",
-        "title": "Safety overview: GPT-6 Astra",
-        "url": "https://openai.com/index/safety-overview-gpt-6-astra",
-        "source": "OpenAI Blog",
-        "published_at": "2026-09-03T00:00:00.000Z"
-      },
-      {
-        "id": "f2694bfa96c4",
-        "title": "Path to Astra: critical capabilities and frontier safeguards",
-        "url": "https://openai.com/index/path-to-astra",
-        "source": "OpenAI Blog",
-        "published_at": "2026-09-01T13:00:00.000Z"
-      }
-    ],
-    "dominant_reason_codes": [
-      "policy_regulatory_move"
-    ],
-    "dominant_angle_signals": [
-      "safety pressure building",
-      "cyber risk affecting operations",
-      "developer workflow changing"
-    ],
-    "top_story_refs": [
-      "749ea43419ac",
-      "39210f987919",
-      "f2694bfa96c4"
-    ]
-  },
-  {
-    "theme_id": "technology_investment",
-    "theme_label": "technology investment and startups",
-    "theme_summary": "technology investment and startups is the shared editorial thread across 3 related stories. The strongest signal is investment caution showing.",
-    "story_count": 3,
-    "cluster_ids": [],
-    "story_ids": [
-      "6a95923e939c",
-      "fd2e63b3dc9c",
-      "52919761ea59"
-    ],
-    "associated_stories": [
-      {
-        "id": "6a95923e939c",
-        "title": "SEA startup funding jumps to US$7.25B, but most founders are still waiting",
-        "url": "https://e27.co/sea-startup-funding-jumps-to-us7-25b-but-most-founders-are-still-waiting-20260924",
-        "source": "e27 SEA Tech",
-        "published_at": "2026-09-24T08:34:01.000Z"
-      },
-      {
-        "id": "52919761ea59",
-        "title": "Supercell backs Hyperbond Studio as Call Me Sensei bets on AI romance for language learning",
-        "url": "https://e27.co/supercell-backs-hyperbond-studio-as-call-me-sensei-bets-on-ai-romance-for-language-learning-20260922",
-        "source": "e27 SEA Tech",
-        "published_at": "2026-09-22T05:00:40.000Z"
-      },
-      {
-        "id": "fd2e63b3dc9c",
-        "title": "Why Southeast Asia’s next healthtech winners will be built around healthcare workflows, not just AI",
-        "url": "https://e27.co/why-southeast-asias-next-healthtech-winners-will-be-built-around-healthcare-workflows-not-just-ai-20260921",
-        "source": "e27 SEA Tech",
-        "published_at": "2026-09-23T03:30:05.000Z"
-      }
-    ],
-    "dominant_reason_codes": [
-      "policy_regulatory_move",
-      "watchlist_signal"
-    ],
-    "dominant_angle_signals": [
-      "investment caution showing",
-      "enterprise adoption pressure rising",
+      "infrastructure lag visible",
+      "competitive position shifting",
       "narrative outrunning reality"
     ],
     "top_story_refs": [
-      "6a95923e939c",
-      "52919761ea59",
-      "fd2e63b3dc9c"
+      "67dac9f5f513",
+      "b32e9b847135",
+      "219f0cf14b9b"
     ]
   },
   {
@@ -297,6 +192,46 @@
     "top_story_refs": [
       "71409e16290b",
       "de69a5a48600"
+    ]
+  },
+  {
+    "theme_id": "technology_investment",
+    "theme_label": "technology investment and startups",
+    "theme_summary": "technology investment and startups is the shared editorial thread across 2 related stories. The strongest signal is investment caution showing.",
+    "story_count": 2,
+    "cluster_ids": [],
+    "story_ids": [
+      "a08e95645a15",
+      "bbd082728510"
+    ],
+    "associated_stories": [
+      {
+        "id": "a08e95645a15",
+        "title": "Japan’s Kawaijuku backs Do Ventures to enter Vietnam’s education market",
+        "url": "https://e27.co/japans-kawaijuku-backs-do-ventures-to-enter-vietnams-education-market-20260930",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-09-30T04:23:12.000Z"
+      },
+      {
+        "id": "bbd082728510",
+        "title": "One-person company: Why Southeast Asia’s next unicorn may look nothing like Grab",
+        "url": "https://e27.co/one-person-company-why-southeast-asias-next-unicorn-may-look-nothing-like-grab-20260927",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-09-28T01:30:40.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "market_signal",
+      "policy_regulatory_move"
+    ],
+    "dominant_angle_signals": [
+      "investment caution showing",
+      "developer workflow changing",
+      "ongoing platform expansion"
+    ],
+    "top_story_refs": [
+      "a08e95645a15",
+      "bbd082728510"
     ]
   }
 ]

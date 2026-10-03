@@ -1,0 +1,237 @@
+[
+  {
+    "theme_id": "enterprise_technology",
+    "theme_label": "enterprise technology adoption",
+    "theme_summary": "enterprise technology adoption is the shared editorial thread across 9 related stories. The strongest signal is enterprise adoption pressure rising.",
+    "story_count": 9,
+    "cluster_ids": [],
+    "story_ids": [
+      "c3fc7912359b",
+      "7796574853d0",
+      "0a2ac8a3e916",
+      "75c65c27341f",
+      "6ab9b897c283",
+      "50f50fd34c1b",
+      "637d3dfa247f",
+      "bb71e409dd7f",
+      "4410122683c5"
+    ],
+    "associated_stories": [
+      {
+        "id": "0a2ac8a3e916",
+        "title": "SMEs adopt AI four times slower than big business, the fix starts with the PC",
+        "url": "https://e27.co/how-ai-can-be-the-biggest-accelerator-for-smes-20260930",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-10-02T03:00:55.000Z"
+      },
+      {
+        "id": "50f50fd34c1b",
+        "title": "SIA has scaled AI. Aviation must now govern the point of action",
+        "url": "https://e27.co/sia-has-scaled-ai-aviation-must-now-govern-the-point-of-action-20260924",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-09-28T01:00:39.000Z"
+      },
+      {
+        "id": "c3fc7912359b",
+        "title": "BSP issues capital, other requirements for banks shifting to digital model",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8084",
+        "source": "Bangko Sentral ng Pilipinas AI/Tech",
+        "published_at": "2026-09-23T09:13:50.000Z"
+      },
+      {
+        "id": "7796574853d0",
+        "title": "Data security, privacy remain barriers to AI adoption",
+        "url": "https://www.philstar.com/business/2026/10/04/2560714/data-security-privacy-remain-barriers-ai-adoption",
+        "source": "Philippine Star Business AI/Tech",
+        "published_at": "2026-10-03T16:00:00.000Z"
+      },
+      {
+        "id": "637d3dfa247f",
+        "title": "How Albertsons Companies is reimagining retail from the inside out",
+        "url": "https://openai.com/index/albertsons-reimagining-retail",
+        "source": "OpenAI Blog",
+        "published_at": "2026-10-01T16:00:00.000Z"
+      },
+      {
+        "id": "4410122683c5",
+        "title": "How to connect AI usage to business value",
+        "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+        "source": "OpenAI Blog",
+        "published_at": "2026-09-16T12:00:00.000Z"
+      },
+      {
+        "id": "6ab9b897c283",
+        "title": "The AI agent boom is exposing Southeast Asia’s startup codebase problem",
+        "url": "https://e27.co/the-ai-agent-boom-is-exposing-southeast-asias-startup-codebase-problem-20261001",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-10-01T01:20:29.000Z"
+      },
+      {
+        "id": "75c65c27341f",
+        "title": "Meta appoints Dhruv Vohra to lead Southeast Asia business as AI and chat commerce reshape online retail",
+        "url": "https://e27.co/meta-appoints-dhruv-vohra-to-lead-southeast-asia-business-as-ai-and-chat-commerce-reshape-online-retail-20261001",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-10-01T03:30:32.000Z"
+      },
+      {
+        "id": "bb71e409dd7f",
+        "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+        "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+        "source": "OpenAI Blog",
+        "published_at": "2026-09-23T02:00:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "market_signal",
+      "meaningful_shift",
+      "policy_regulatory_move"
+    ],
+    "dominant_angle_signals": [
+      "enterprise adoption pressure rising",
+      "demand still unproven",
+      "developer workflow changing"
+    ],
+    "top_story_refs": [
+      "0a2ac8a3e916",
+      "50f50fd34c1b",
+      "c3fc7912359b"
+    ]
+  },
+  {
+    "theme_id": "data_centers_infrastructure",
+    "theme_label": "data centers and digital infrastructure",
+    "theme_summary": "data centers and digital infrastructure is the shared editorial thread across 4 related stories. The strongest signal is infrastructure lag visible.",
+    "story_count": 4,
+    "cluster_ids": [],
+    "story_ids": [
+      "219f0cf14b9b",
+      "104b51f0ce0a",
+      "67dac9f5f513",
+      "b32e9b847135"
+    ],
+    "associated_stories": [
+      {
+        "id": "67dac9f5f513",
+        "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
+        "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas",
+        "source": "TechCrunch AI",
+        "published_at": "2026-10-03T18:43:57.000Z"
+      },
+      {
+        "id": "b32e9b847135",
+        "title": "Introducing the Agents API",
+        "url": "https://openai.com/index/introducing-the-agents-api",
+        "source": "OpenAI Blog",
+        "published_at": "2026-09-10T00:00:00.000Z"
+      },
+      {
+        "id": "219f0cf14b9b",
+        "title": "University students can get free AWS training and certification resources through Student Rewards",
+        "url": "https://technology.inquirer.net/149408/university-students-can-get-free-aws-training-and-certification-resources-through-student-rewards",
+        "source": "Inquirer Tech",
+        "published_at": "2026-09-23T11:55:03.000Z"
+      },
+      {
+        "id": "104b51f0ce0a",
+        "title": "A*STAR and EDB unveil SG Semiconductor as partnerships target AI-era chis",
+        "url": "https://e27.co/astar-and-edb-unveil-sg-semiconductor-as-partnerships-target-ai-era-chis-20260928",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-09-28T06:38:11.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "watchlist_signal",
+      "policy_regulatory_move",
+      "ongoing_story_advance"
+    ],
+    "dominant_angle_signals": [
+      "infrastructure lag visible",
+      "competitive position shifting",
+      "narrative outrunning reality"
+    ],
+    "top_story_refs": [
+      "67dac9f5f513",
+      "b32e9b847135",
+      "219f0cf14b9b"
+    ]
+  },
+  {
+    "theme_id": "telecom_connectivity",
+    "theme_label": "connectivity buildout",
+    "theme_summary": "connectivity buildout is the shared editorial thread across 2 related stories. The strongest signal is connectivity buildout changing access.",
+    "story_count": 2,
+    "cluster_ids": [],
+    "story_ids": [
+      "de69a5a48600",
+      "71409e16290b"
+    ],
+    "associated_stories": [
+      {
+        "id": "71409e16290b",
+        "title": "#OpEd: The Discord ban affects freelancers, students, remote workers",
+        "url": "https://technology.inquirer.net/149413/oped-the-discord-ban-affects-freelancers-students-remote-workers",
+        "source": "Inquirer Tech",
+        "published_at": "2026-09-24T01:02:09.000Z"
+      },
+      {
+        "id": "de69a5a48600",
+        "title": "Telco brings single AI model workspace for subscribers",
+        "url": "https://technology.inquirer.net/149432/telco-brings-single-ai-model-workspace-for-subscribers",
+        "source": "Inquirer Tech",
+        "published_at": "2026-09-24T17:14:28.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "local_business_relevance"
+    ],
+    "dominant_angle_signals": [
+      "connectivity buildout changing access",
+      "developer workflow changing",
+      "local operators exposed"
+    ],
+    "top_story_refs": [
+      "71409e16290b",
+      "de69a5a48600"
+    ]
+  },
+  {
+    "theme_id": "technology_investment",
+    "theme_label": "technology investment and startups",
+    "theme_summary": "technology investment and startups is the shared editorial thread across 2 related stories. The strongest signal is investment caution showing.",
+    "story_count": 2,
+    "cluster_ids": [],
+    "story_ids": [
+      "a08e95645a15",
+      "bbd082728510"
+    ],
+    "associated_stories": [
+      {
+        "id": "a08e95645a15",
+        "title": "Japan’s Kawaijuku backs Do Ventures to enter Vietnam’s education market",
+        "url": "https://e27.co/japans-kawaijuku-backs-do-ventures-to-enter-vietnams-education-market-20260930",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-09-30T04:23:12.000Z"
+      },
+      {
+        "id": "bbd082728510",
+        "title": "One-person company: Why Southeast Asia’s next unicorn may look nothing like Grab",
+        "url": "https://e27.co/one-person-company-why-southeast-asias-next-unicorn-may-look-nothing-like-grab-20260927",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-09-28T01:30:40.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "market_signal",
+      "policy_regulatory_move"
+    ],
+    "dominant_angle_signals": [
+      "investment caution showing",
+      "developer workflow changing",
+      "ongoing platform expansion"
+    ],
+    "top_story_refs": [
+      "a08e95645a15",
+      "bbd082728510"
+    ]
+  }
+]

@@ -10,7 +10,7 @@
     "beat": "ai_tech",
     "url": "https://www.bsp.gov.ph/_layouts/15/listfeed.aspx?List=9b0a2117-49d8-4e96-80ba-8651a0e3e17a&View=8c968884-887d-4d63-8c00-ba05ea3c2d93",
     "type": "rss",
-    "checkedAt": "2026-09-26T18:55:12.435Z"
+    "checkedAt": "2026-10-03T18:56:33.077Z"
   },
   {
     "source": "Department of Information and Communications Technology AI Policy",
@@ -25,7 +25,7 @@
     "beat": "ai_tech",
     "url": "https://dict.gov.ph/feed/",
     "type": "rss",
-    "checkedAt": "2026-09-26T18:55:12.435Z"
+    "checkedAt": "2026-10-03T18:56:33.077Z"
   },
   {
     "source": "Department of Trade and Industry AI Economy",
@@ -35,12 +35,12 @@
     "normalizedCount": 0,
     "droppedCount": 0,
     "keptCount": 0,
-    "error": "Request failed with status code 404",
-    "errorKind": "http_error",
+    "error": "timeout of 15000ms exceeded",
+    "errorKind": "timeout",
     "beat": "ai_tech",
     "url": "https://www.dti.gov.ph/category/dti-news/",
     "type": "html",
-    "checkedAt": "2026-09-26T18:55:12.435Z"
+    "checkedAt": "2026-10-03T18:56:33.077Z"
   },
   {
     "source": "NEDA Digital Economy",
@@ -55,7 +55,7 @@
     "beat": "ai_tech",
     "url": "https://neda.gov.ph/feed/",
     "type": "rss",
-    "checkedAt": "2026-09-26T18:55:12.435Z"
+    "checkedAt": "2026-10-03T18:56:33.077Z"
   },
   {
     "source": "IBPAP IT-BPM AI Transition",
@@ -68,7 +68,7 @@
     "beat": "ai_tech",
     "url": "https://www.ibpap.org/knowledge-hub/",
     "type": "html",
-    "checkedAt": "2026-09-26T18:55:12.435Z"
+    "checkedAt": "2026-10-03T18:56:33.077Z"
   },
   {
     "source": "Philippine Economic Zone Authority Digital Infrastructure",
@@ -83,7 +83,7 @@
     "beat": "ai_tech",
     "url": "https://www.peza.gov.ph/press-releases?page=1",
     "type": "html",
-    "checkedAt": "2026-09-26T18:55:12.435Z"
+    "checkedAt": "2026-10-03T18:56:33.077Z"
   },
   {
     "source": "Board of Investments Digital Economy",
@@ -98,7 +98,7 @@
     "beat": "ai_tech",
     "url": "https://boi.gov.ph/feed/",
     "type": "rss",
-    "checkedAt": "2026-09-26T18:55:12.435Z"
+    "checkedAt": "2026-10-03T18:56:33.077Z"
   },
   {
     "source": "Department of Labor and Employment Workforce Transition",
@@ -113,7 +113,7 @@
     "beat": "ai_tech",
     "url": "https://www.dole.gov.ph/feed/",
     "type": "rss",
-    "checkedAt": "2026-09-26T18:55:12.435Z"
+    "checkedAt": "2026-10-03T18:56:33.077Z"
   },
   {
     "source": "TESDA Skills and Workforce Transition",
@@ -128,7 +128,7 @@
     "beat": "ai_tech",
     "url": "https://www.tesda.gov.ph/News",
     "type": "html",
-    "checkedAt": "2026-09-26T18:55:12.435Z"
+    "checkedAt": "2026-10-03T18:56:33.077Z"
   },
   {
     "source": "ASEAN Digital Economy and AI Governance",
@@ -141,7 +141,7 @@
     "beat": "ai_tech",
     "url": "https://asean.org/feed/",
     "type": "rss",
-    "checkedAt": "2026-09-26T18:55:12.435Z"
+    "checkedAt": "2026-10-03T18:56:33.077Z"
   },
   {
     "source": "ERIA Digital Economy",
@@ -154,7 +154,7 @@
     "beat": "ai_tech",
     "url": "https://www.eria.org/news-and-views/category/all/digital-economy/",
     "type": "html",
-    "checkedAt": "2026-09-26T18:55:12.435Z"
+    "checkedAt": "2026-10-03T18:56:33.077Z"
   },
   {
     "source": "Asian Development Bank Digital Economy",
@@ -167,7 +167,7 @@
     "beat": "ai_tech",
     "url": "https://www.adb.org/rss/news",
     "type": "rss",
-    "checkedAt": "2026-09-26T18:55:12.435Z"
+    "checkedAt": "2026-10-03T18:56:33.077Z"
   },
   {
     "source": "BusinessWorld AI/Tech",
@@ -177,12 +177,12 @@
     "normalizedCount": 0,
     "droppedCount": 0,
     "keptCount": 0,
-    "error": "Status code 403",
-    "errorKind": "http_error",
+    "error": "Non-whitespace before first tag.\nLine: 1\nColumn: 1\nChar: ﻿",
+    "errorKind": "parse_error",
     "beat": "ai_tech",
     "url": "https://www.bworldonline.com/feed/",
     "type": "rss",
-    "checkedAt": "2026-09-26T18:55:12.435Z"
+    "checkedAt": "2026-10-03T18:56:33.077Z"
   },
   {
     "source": "Inquirer Tech",
@@ -190,12 +190,12 @@
     "health": "healthy",
     "fetchedCount": 40,
     "normalizedCount": 40,
-    "droppedCount": 34,
-    "keptCount": 6,
+    "droppedCount": 36,
+    "keptCount": 4,
     "beat": "ai_tech",
     "url": "https://technology.inquirer.net/feed",
     "type": "rss",
-    "checkedAt": "2026-09-26T18:55:12.435Z"
+    "checkedAt": "2026-10-03T18:56:33.077Z"
   },
   {
     "source": "Inquirer Business AI/Tech",
@@ -210,7 +210,7 @@
     "beat": "ai_tech",
     "url": "https://business.inquirer.net/feed",
     "type": "rss",
-    "checkedAt": "2026-09-26T18:55:12.435Z"
+    "checkedAt": "2026-10-03T18:56:33.077Z"
   },
   {
     "source": "Philippine Star Business AI/Tech",
@@ -223,20 +223,22 @@
     "beat": "ai_tech",
     "url": "https://www.philstar.com/rss/business",
     "type": "rss",
-    "checkedAt": "2026-09-26T18:55:12.435Z"
+    "checkedAt": "2026-10-03T18:56:33.077Z"
   },
   {
     "source": "Malaya Business AI/Tech",
-    "success": true,
-    "health": "healthy",
-    "fetchedCount": 10,
-    "normalizedCount": 10,
-    "droppedCount": 10,
+    "success": false,
+    "health": "failing",
+    "fetchedCount": 0,
+    "normalizedCount": 0,
+    "droppedCount": 0,
     "keptCount": 0,
+    "error": "Status code 403",
+    "errorKind": "http_error",
     "beat": "ai_tech",
     "url": "https://malaya.com.ph/feed/",
     "type": "rss",
-    "checkedAt": "2026-09-26T18:55:12.435Z"
+    "checkedAt": "2026-10-03T18:56:33.077Z"
   },
   {
     "source": "e27 SEA Tech",
@@ -244,25 +246,25 @@
     "health": "healthy",
     "fetchedCount": 50,
     "normalizedCount": 50,
-    "droppedCount": 43,
-    "keptCount": 7,
+    "droppedCount": 40,
+    "keptCount": 10,
     "beat": "ai_tech",
     "url": "https://e27.co/feed/",
     "type": "rss",
-    "checkedAt": "2026-09-26T18:55:12.435Z"
+    "checkedAt": "2026-10-03T18:56:33.077Z"
   },
   {
     "source": "OpenAI Blog",
     "success": true,
     "health": "healthy",
-    "fetchedCount": 1230,
-    "normalizedCount": 1230,
-    "droppedCount": 1221,
-    "keptCount": 9,
+    "fetchedCount": 1245,
+    "normalizedCount": 1245,
+    "droppedCount": 1239,
+    "keptCount": 6,
     "beat": "ai_tech",
     "url": "https://openai.com/news/rss.xml",
     "type": "rss",
-    "checkedAt": "2026-09-26T18:55:12.435Z"
+    "checkedAt": "2026-10-03T18:56:33.077Z"
   },
   {
     "source": "Google AI Blog",
@@ -275,7 +277,7 @@
     "beat": "ai_tech",
     "url": "https://blog.google/technology/ai/rss/",
     "type": "rss",
-    "checkedAt": "2026-09-26T18:55:12.435Z"
+    "checkedAt": "2026-10-03T18:56:33.077Z"
   },
   {
     "source": "Microsoft Blog AI",
@@ -288,7 +290,7 @@
     "beat": "ai_tech",
     "url": "https://blogs.microsoft.com/feed/",
     "type": "rss",
-    "checkedAt": "2026-09-26T18:55:12.435Z"
+    "checkedAt": "2026-10-03T18:56:33.077Z"
   },
   {
     "source": "TechCrunch AI",
@@ -296,11 +298,11 @@
     "health": "healthy",
     "fetchedCount": 20,
     "normalizedCount": 20,
-    "droppedCount": 17,
-    "keptCount": 3,
+    "droppedCount": 19,
+    "keptCount": 1,
     "beat": "ai_tech",
     "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
     "type": "rss",
-    "checkedAt": "2026-09-26T18:55:12.435Z"
+    "checkedAt": "2026-10-03T18:56:33.077Z"
   }
 ]
