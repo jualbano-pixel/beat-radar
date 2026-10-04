@@ -1,60 +1,25 @@
 {
   "top_stories": [
     {
-      "title": "Project Nightingale, in the metal: Rolls-Royce’s first EV has begun testing",
+      "title": "Take note: NCAP to be reimplemented starting next week, October 5",
       "source": "TopGear Philippines",
-      "date": "2026-09-27T03:06:00.000Z",
-      "summary": "Just 100 of these sophisticated coachbuilt convertibles will be produced",
+      "date": "2026-09-30T08:25:00.000Z",
+      "summary": "With or without NCAP, though, you shouldn’t be breaking traffic rules, anyway",
       "tags": [
-        "ev_transition_gap"
+        "motoring_infrastructure"
       ],
-      "priority_score": 0.6,
-      "priority_reasons": [],
+      "priority_score": 2.4,
+      "priority_reasons": [
+        "material_technology_effect"
+      ],
       "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
     },
     {
-      "title": "Geely’s AI-powered EV charger will do sub-5min top-ups from 10% to 70%",
+      "title": "Want a comfortable V8-powered super SUV? Say hello to the Aston Martin DBX GT",
       "source": "TopGear Philippines",
-      "date": "2026-09-25T13:40:00.000Z",
-      "summary": "Peak power output is 2,250kW",
+      "date": "2026-10-03T16:00:00.000Z",
+      "summary": "It carries over the 717hp twin-turbo V8 from the DBX S",
       "tags": [
-        "ev_transition_gap"
-      ],
-      "priority_score": 0.6,
-      "priority_reasons": [],
-      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
-    },
-    {
-      "title": "Opinion: Enough with the hypercars—we want the affordable sports cars back",
-      "source": "TopGear Philippines",
-      "date": "2026-09-25T13:10:00.000Z",
-      "summary": "It’s gotten a bit too much lately",
-      "tags": [
-        "pricing_pressure"
-      ],
-      "priority_score": 0.6,
-      "priority_reasons": [],
-      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
-    },
-    {
-      "title": "This is Bentley’s EV future: The Torcal is the most powerful car to wear the Flying B badge",
-      "source": "TopGear Philippines",
-      "date": "2026-09-25T13:00:00.000Z",
-      "summary": "Time to cancel the Bentayga order?",
-      "tags": [
-        "ev_transition_gap"
-      ],
-      "priority_score": 0.6,
-      "priority_reasons": [],
-      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
-    },
-    {
-      "title": "Specs, price, features: Everything you need to know about the all-new Xpeng X9",
-      "source": "TopGear Philippines",
-      "date": "2026-09-25T12:01:00.000Z",
-      "summary": "Here’s a closer look at this fully electric MPV",
-      "tags": [
-        "pricing_pressure",
         "consumer_demand_shift"
       ],
       "priority_score": 0.6,
@@ -62,10 +27,46 @@
       "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
     },
     {
-      "title": "Do EV batteries go boom? Answering your burning questions about EV battery fires",
+      "title": "Report: ICE models made up less than half of global car sales in H1 2026",
       "source": "TopGear Philippines",
-      "date": "2026-09-24T11:36:00.000Z",
-      "summary": "Here’s a full explainer",
+      "date": "2026-10-02T11:47:00.000Z",
+      "summary": "Analysts also forecast that EVs could lead the market by 2030",
+      "tags": [
+        "consumer_demand_shift"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Nissan exec says the Patrol won't get an EV or hybrid option any time soon",
+      "source": "TopGear Philippines",
+      "date": "2026-10-02T07:39:00.000Z",
+      "summary": "Perhaps bigger things are in store for the Patrol",
+      "tags": [
+        "ev_transition_gap"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "You can now book a Green GSM EV taxi in Northern Mindanao",
+      "source": "TopGear Philippines",
+      "date": "2026-10-02T04:17:00.000Z",
+      "summary": "More transportation options for everybody",
+      "tags": [
+        "ev_transition_gap"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Casio has turned the classic F-91W into a Bluetooth fitness watch",
+      "source": "TopGear Philippines",
+      "date": "2026-10-01T03:22:00.000Z",
+      "summary": "It’s called the F-B100W, and it doesn’t need charging",
       "tags": [
         "ev_transition_gap"
       ],
@@ -74,24 +75,24 @@
       "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
     },
     {
-      "title": "GAC offering free home charger, free PMS with purchase of EVs until end of 2026",
+      "title": "LTO summons motorist caught on camera failing to give way to pedestrians",
       "source": "TopGear Philippines",
-      "date": "2026-09-24T08:15:00.000Z",
-      "summary": "A ’Ber month special promo to celebrate a productive year for the brand",
+      "date": "2026-10-01T00:09:00.000Z",
+      "summary": "Pedestrian priority is a thing, people",
       "tags": [
-        "ev_transition_gap"
+        "regulation_enforcement"
       ],
       "priority_score": 0.4,
       "priority_reasons": [],
       "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
     },
     {
-      "title": "MG’s Multiply Greatness Tour is heading to SM Mall of Asia this weekend",
+      "title": "6 Plug-in hybrid EVs that should debut in PH",
       "source": "TopGear Philippines",
-      "date": "2026-09-24T03:28:00.000Z",
-      "summary": "Test drive the brand’s electrified models and score special deals",
+      "date": "2026-09-30T11:15:00.000Z",
+      "summary": "A couple of these are closer than you think",
       "tags": [
-        "general_philippine_motoring"
+        "ev_transition_gap"
       ],
       "priority_score": 0.4,
       "priority_reasons": [],
@@ -100,29 +101,39 @@
   ],
   "secondary_signals": [
     {
-      "title": "Gas-powered, electric drive: The curious case of Nissan’s e-Power crossovers",
+      "title": "Suzuki’s full hybrid cars are coming…within the next 10 years",
       "source": "TopGear Philippines",
-      "date": "2026-09-24T01:00:00.000Z",
-      "summary": "Does the market have room for BEVs that run on gasoline?",
+      "date": "2026-09-30T03:43:00.000Z",
+      "summary": "Better late than never?",
       "tags": [
-        "general_philippine_motoring"
+        "ev_transition_gap"
       ],
       "priority_score": 0.4,
       "priority_reasons": [],
       "note": "Useful supporting editorial signal."
     },
     {
-      "title": "Xpeng officially launches in PH with the electrified X9 MPV and L03 sedan",
+      "title": "Gallery: Tag along on our scenic road trip across Western Sichuan with BYD and Denza",
       "source": "TopGear Philippines",
-      "date": "2026-09-25T11:48:00.000Z",
-      "summary": "The Chinese carmaker finally enters the Philippine market",
+      "date": "2026-09-29T11:37:00.000Z",
+      "summary": "We get to test some cool cars along the way",
+      "tags": [
+        "motoring_infrastructure"
+      ],
+      "priority_score": 0.2,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Review: 2027 Toyota Hilux Conquest 4x4 A/T",
+      "source": "TopGear Philippines",
+      "date": "2026-09-29T09:54:00.000Z",
+      "summary": "The iconic pickup that still conquers its competitors",
       "tags": [
         "consumer_demand_shift"
       ],
-      "priority_score": -2.4,
-      "priority_reasons": [
-        "routine_launch_without_broader_impact"
-      ],
+      "priority_score": 0.2,
+      "priority_reasons": [],
       "note": "Useful supporting editorial signal."
     }
   ]

@@ -1,0 +1,140 @@
+{
+  "top_stories": [
+    {
+      "title": "Take note: NCAP to be reimplemented starting next week, October 5",
+      "source": "TopGear Philippines",
+      "date": "2026-09-30T08:25:00.000Z",
+      "summary": "With or without NCAP, though, you shouldn’t be breaking traffic rules, anyway",
+      "tags": [
+        "motoring_infrastructure"
+      ],
+      "priority_score": 2.4,
+      "priority_reasons": [
+        "material_technology_effect"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Want a comfortable V8-powered super SUV? Say hello to the Aston Martin DBX GT",
+      "source": "TopGear Philippines",
+      "date": "2026-10-03T16:00:00.000Z",
+      "summary": "It carries over the 717hp twin-turbo V8 from the DBX S",
+      "tags": [
+        "consumer_demand_shift"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Report: ICE models made up less than half of global car sales in H1 2026",
+      "source": "TopGear Philippines",
+      "date": "2026-10-02T11:47:00.000Z",
+      "summary": "Analysts also forecast that EVs could lead the market by 2030",
+      "tags": [
+        "consumer_demand_shift"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Nissan exec says the Patrol won't get an EV or hybrid option any time soon",
+      "source": "TopGear Philippines",
+      "date": "2026-10-02T07:39:00.000Z",
+      "summary": "Perhaps bigger things are in store for the Patrol",
+      "tags": [
+        "ev_transition_gap"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "You can now book a Green GSM EV taxi in Northern Mindanao",
+      "source": "TopGear Philippines",
+      "date": "2026-10-02T04:17:00.000Z",
+      "summary": "More transportation options for everybody",
+      "tags": [
+        "ev_transition_gap"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Casio has turned the classic F-91W into a Bluetooth fitness watch",
+      "source": "TopGear Philippines",
+      "date": "2026-10-01T03:22:00.000Z",
+      "summary": "It’s called the F-B100W, and it doesn’t need charging",
+      "tags": [
+        "ev_transition_gap"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "LTO summons motorist caught on camera failing to give way to pedestrians",
+      "source": "TopGear Philippines",
+      "date": "2026-10-01T00:09:00.000Z",
+      "summary": "Pedestrian priority is a thing, people",
+      "tags": [
+        "regulation_enforcement"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "6 Plug-in hybrid EVs that should debut in PH",
+      "source": "TopGear Philippines",
+      "date": "2026-09-30T11:15:00.000Z",
+      "summary": "A couple of these are closer than you think",
+      "tags": [
+        "ev_transition_gap"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    }
+  ],
+  "secondary_signals": [
+    {
+      "title": "Suzuki’s full hybrid cars are coming…within the next 10 years",
+      "source": "TopGear Philippines",
+      "date": "2026-09-30T03:43:00.000Z",
+      "summary": "Better late than never?",
+      "tags": [
+        "ev_transition_gap"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Gallery: Tag along on our scenic road trip across Western Sichuan with BYD and Denza",
+      "source": "TopGear Philippines",
+      "date": "2026-09-29T11:37:00.000Z",
+      "summary": "We get to test some cool cars along the way",
+      "tags": [
+        "motoring_infrastructure"
+      ],
+      "priority_score": 0.2,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Review: 2027 Toyota Hilux Conquest 4x4 A/T",
+      "source": "TopGear Philippines",
+      "date": "2026-09-29T09:54:00.000Z",
+      "summary": "The iconic pickup that still conquers its competitors",
+      "tags": [
+        "consumer_demand_shift"
+      ],
+      "priority_score": 0.2,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    }
+  ]
+}

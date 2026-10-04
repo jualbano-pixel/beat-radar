@@ -6,98 +6,145 @@
     "story_count": 5,
     "cluster_ids": [],
     "story_ids": [
-      "b18eccfeec0b",
-      "a0d0ec2d45bd",
-      "94593705b6ca",
-      "f188ca342522",
-      "636ccd09fba9"
+      "b1f63e8a8a6e",
+      "fc675929cd32",
+      "3626c5b3cf4c",
+      "df191e3e2721",
+      "823acb9d3734"
     ],
     "associated_stories": [
       {
-        "id": "b18eccfeec0b",
-        "title": "Project Nightingale, in the metal: Rolls-Royce’s first EV has begun testing",
-        "url": "https://www.topgear.com.ph/news/car-news/rolls-royce-project-nightingale-tguk-a3832-20260927",
+        "id": "fc675929cd32",
+        "title": "You can now book a Green GSM EV taxi in Northern Mindanao",
+        "url": "https://www.topgear.com.ph/news/motoring-news/green-gsm-northern-mindanao-launch-a6938-20261002",
         "source": "TopGear Philippines",
-        "published_at": "2026-09-27T03:06:00.000Z"
+        "published_at": "2026-10-02T04:17:00.000Z"
       },
       {
-        "id": "a0d0ec2d45bd",
-        "title": "Geely’s AI-powered EV charger will do sub-5min top-ups from 10% to 70%",
-        "url": "https://www.topgear.com.ph/news/technology-news/geely-smart-charging-2250kw-tguk-a2620-20260925",
+        "id": "3626c5b3cf4c",
+        "title": "Casio has turned the classic F-91W into a Bluetooth fitness watch",
+        "url": "https://www.topgear.com.ph/features/lifestyle/casio-fb100w-launch-a6938-20261001",
         "source": "TopGear Philippines",
-        "published_at": "2026-09-25T13:40:00.000Z"
+        "published_at": "2026-10-01T03:22:00.000Z"
       },
       {
-        "id": "94593705b6ca",
-        "title": "This is Bentley’s EV future: The Torcal is the most powerful car to wear the Flying B badge",
-        "url": "https://www.topgear.com.ph/news/car-news/bentley-torcal-ev-2027-tguk-a6947-20260925-lfrm",
+        "id": "b1f63e8a8a6e",
+        "title": "Nissan exec says the Patrol won't get an EV or hybrid option any time soon",
+        "url": "https://www.topgear.com.ph/news/car-news/nissan-patrol-no-electric-plans-a6888-20261002",
         "source": "TopGear Philippines",
-        "published_at": "2026-09-25T13:00:00.000Z"
+        "published_at": "2026-10-02T07:39:00.000Z"
       },
       {
-        "id": "f188ca342522",
-        "title": "Do EV batteries go boom? Answering your burning questions about EV battery fires",
-        "url": "https://www.topgear.com.ph/features/feature-articles/explainer-electric-vehicle-battery-fires-a2584-20260924-lfrm",
+        "id": "df191e3e2721",
+        "title": "6 Plug-in hybrid EVs that should debut in PH",
+        "url": "https://www.topgear.com.ph/features/feature-articles/six-phevs-we-want-in-ph-a6888-20260930",
         "source": "TopGear Philippines",
-        "published_at": "2026-09-24T11:36:00.000Z"
+        "published_at": "2026-09-30T11:15:00.000Z"
       },
       {
-        "id": "636ccd09fba9",
-        "title": "GAC offering free home charger, free PMS with purchase of EVs until end of 2026",
-        "url": "https://www.topgear.com.ph/news/industry-news/gac-ber-months-promo-2026-a6941-20260924",
+        "id": "823acb9d3734",
+        "title": "Suzuki’s full hybrid cars are coming…within the next 10 years",
+        "url": "https://www.topgear.com.ph/news/industry-news/suzuki-10-year-plan-hev-phev-a6888-20260930",
         "source": "TopGear Philippines",
-        "published_at": "2026-09-24T08:15:00.000Z"
+        "published_at": "2026-09-30T03:43:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "watchlist_signal",
+      "execution_consequence"
+    ],
+    "dominant_angle_signals": [
+      "EV transition gap visible"
+    ],
+    "top_story_refs": [
+      "fc675929cd32",
+      "3626c5b3cf4c",
+      "b1f63e8a8a6e"
+    ]
+  },
+  {
+    "theme_id": "consumer_demand_shift",
+    "theme_label": "consumer demand shift",
+    "theme_summary": "consumer demand shift is the shared editorial thread across 3 related stories. The strongest signal is consumer demand shifting by segment.",
+    "story_count": 3,
+    "cluster_ids": [],
+    "story_ids": [
+      "f7e91cf2ff3e",
+      "2c64c8d78b86",
+      "8ecb4984cad6"
+    ],
+    "associated_stories": [
+      {
+        "id": "2c64c8d78b86",
+        "title": "Report: ICE models made up less than half of global car sales in H1 2026",
+        "url": "https://www.topgear.com.ph/news/industry-news/h1-2026-ice-cars-under-50-percent-a6941-20261002",
+        "source": "TopGear Philippines",
+        "published_at": "2026-10-02T11:47:00.000Z"
+      },
+      {
+        "id": "f7e91cf2ff3e",
+        "title": "Want a comfortable V8-powered super SUV? Say hello to the Aston Martin DBX GT",
+        "url": "https://www.topgear.com.ph/news/car-news/aston-martin-dbx-gt-2027-launch-tguk-a2603-20261004",
+        "source": "TopGear Philippines",
+        "published_at": "2026-10-03T16:00:00.000Z"
+      },
+      {
+        "id": "8ecb4984cad6",
+        "title": "Review: 2027 Toyota Hilux Conquest 4x4 A/T",
+        "url": "https://www.topgear.com.ph/drives/car-reviews/toyota-hilux-conquest-4x4-at-2027-ph-review-a2690-20260929-lfrm",
+        "source": "TopGear Philippines",
+        "published_at": "2026-09-29T09:54:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "watchlist_signal",
+      "market_signal"
+    ],
+    "dominant_angle_signals": [
+      "consumer demand shifting by segment",
+      "EV transition gap visible"
+    ],
+    "top_story_refs": [
+      "2c64c8d78b86",
+      "f7e91cf2ff3e",
+      "8ecb4984cad6"
+    ]
+  },
+  {
+    "theme_id": "infrastructure_constraint",
+    "theme_label": "infrastructure constraint",
+    "theme_summary": "infrastructure constraint is the shared editorial thread across 2 related stories. The strongest signal is infrastructure constraint showing.",
+    "story_count": 2,
+    "cluster_ids": [],
+    "story_ids": [
+      "6ba9d40547c9",
+      "405aa9196241"
+    ],
+    "associated_stories": [
+      {
+        "id": "6ba9d40547c9",
+        "title": "Take note: NCAP to be reimplemented starting next week, October 5",
+        "url": "https://www.topgear.com.ph/news/motoring-news/ncap-reimplementation-october-2026-a6941-20260930",
+        "source": "TopGear Philippines",
+        "published_at": "2026-09-30T08:25:00.000Z"
+      },
+      {
+        "id": "405aa9196241",
+        "title": "Gallery: Tag along on our scenic road trip across Western Sichuan with BYD and Denza",
+        "url": "https://www.topgear.com.ph/features/feature-articles/gallery-western-sichuan-road-trip-byd-denza-a6938-20260929-lfrm",
+        "source": "TopGear Philippines",
+        "published_at": "2026-09-29T11:37:00.000Z"
       }
     ],
     "dominant_reason_codes": [
       "watchlist_signal"
     ],
     "dominant_angle_signals": [
-      "EV transition gap visible"
+      "infrastructure constraint showing"
     ],
     "top_story_refs": [
-      "b18eccfeec0b",
-      "a0d0ec2d45bd",
-      "94593705b6ca"
-    ]
-  },
-  {
-    "theme_id": "pricing_pressure",
-    "theme_label": "pricing pressure",
-    "theme_summary": "pricing pressure is the shared editorial thread across 2 related stories. The strongest signal is EV transition gap visible.",
-    "story_count": 2,
-    "cluster_ids": [],
-    "story_ids": [
-      "56a15bc15a90",
-      "52d44cdc55f3"
-    ],
-    "associated_stories": [
-      {
-        "id": "56a15bc15a90",
-        "title": "Specs, price, features: Everything you need to know about the all-new Xpeng X9",
-        "url": "https://www.topgear.com.ph/features/feature-articles/xpeng-x9-2027-ph-specs-price-features-a5361-20260925",
-        "source": "TopGear Philippines",
-        "published_at": "2026-09-25T12:01:00.000Z"
-      },
-      {
-        "id": "52d44cdc55f3",
-        "title": "Gas-powered, electric drive: The curious case of Nissan’s e-Power crossovers",
-        "url": "https://www.topgear.com.ph/features/feature-articles/nissan-e-power-media-drive-a6941-20260924-lfrm",
-        "source": "TopGear Philippines",
-        "published_at": "2026-09-24T01:00:00.000Z"
-      }
-    ],
-    "dominant_reason_codes": [
-      "market_signal"
-    ],
-    "dominant_angle_signals": [
-      "EV transition gap visible",
-      "pricing pressure building",
-      "consumer demand shifting by segment"
-    ],
-    "top_story_refs": [
-      "56a15bc15a90",
-      "52d44cdc55f3"
+      "6ba9d40547c9",
+      "405aa9196241"
     ]
   }
 ]
