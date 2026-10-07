@@ -1,0 +1,166 @@
+{
+  "top_stories": [
+    {
+      "title": "PLDT delays ₱24.2-billion VITRO REIT IPO to 2027 as interest rates rise",
+      "source": "Manila Bulletin Business Property JSON Fallback",
+      "date": "2026-10-06T17:44:00.000Z",
+      "summary": "Manuel V. Pangilinan-led telco giant PLDT Inc. is delaying the launch of the country’s first digital infrastructure real estate investment trust (REIT) to 2027, as it waits for more favorable market conditions to raise up to ₱24.2 billion from the listing of its data centers. In a disclosure on...",
+      "tags": [
+        "telecom_connectivity"
+      ],
+      "priority_score": 17.6,
+      "priority_reasons": [
+        "infrastructure_move",
+        "policy_shift",
+        "systemic_importance",
+        "connectivity_expansion_signal",
+        "practical_usability_impact"
+      ],
+      "why_it_matters": "This matters because it changes how technology is used, secured, regulated, funded, or delivered beyond a single vendor announcement."
+    },
+    {
+      "title": "PPA allots P1.35 billion for Ilocos Norte cruise port upgrade",
+      "source": "Philippine Star Property",
+      "date": "2026-10-07T16:00:00.000Z",
+      "summary": "One of the country’s dedicated ports for cruise arrivals in Luzon is getting a P1.35-billion budget for the construction of breakwater to reduce coastal risks and support marine navigation.",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 7.3,
+      "priority_reasons": [
+        "policy_shift",
+        "safety_or_governance",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because it affects how AI systems are governed, evaluated, or deployed responsibly. Those choices can shape the broader direction of the market."
+    },
+    {
+      "title": "Metro Manila condo sales jump in Q3 as promos, gov't housing programs lure buyers",
+      "source": "Manila Bulletin Business Property JSON Fallback",
+      "date": "2026-10-07T16:25:00.000Z",
+      "summary": "Metro Manila residential condominium sales grew 17 percent to 8,454 units in the third quarter of 2026 from 7,255 in the second quarter, as aggressive developer promotions and government housing initiatives supported the market despite affordability pressures, elevated inventory, and cautious...",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 6.6,
+      "priority_reasons": [
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "practical_usability_impact"
+      ],
+      "why_it_matters": "This is a strong editorial signal because it shows technology moving into real-world deployment at scale. It points to traction beyond experimentation."
+    },
+    {
+      "title": "VITRO REIT IPO pushed to 2027",
+      "source": "Philippine Star Property",
+      "date": "2026-10-07T08:01:00.000Z",
+      "summary": "PLDT deferred the planned VITRO REIT IPO to 2027, citing market conditions and higher interest rates.",
+      "tags": [
+        "telecom_connectivity"
+      ],
+      "priority_score": 4.3,
+      "priority_reasons": [
+        "connectivity_expansion_signal",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because connectivity buildout changes who can access digital services and where businesses can operate."
+    },
+    {
+      "title": "Businesses less pessimistic in August, more optimistic ahead",
+      "source": "BSP Property Media Releases SharePoint",
+      "date": "2026-09-24T16:00:00.000Z",
+      "summary": "​Philippine business sentiment became less pessimistic in August 2026, results of the latest Business Expectations Survey (BES) of the Bangko Sentral ng Pilipinas (BSP) showed.[1] Firms attributed the improvement to expectations of higher demand for essential commodities, loan products, and construction activities.&...",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 4,
+      "priority_reasons": [
+        "enterprise_scale_signal",
+        "practical_usability_impact"
+      ],
+      "why_it_matters": "This is a strong editorial signal because it shows technology moving into real-world deployment at scale. It points to traction beyond experimentation."
+    },
+    {
+      "title": "Condo demand picks up in Q3",
+      "source": "Philippine Star Property",
+      "date": "2026-10-07T16:00:00.000Z",
+      "summary": "Residential condominium take-up in Metro Manila posted robust growth during the third quarter, but real estate brokerage firm Leechiu Property Consultants Inc. (LPC) cautioned that the recent improvement should not yet be interpreted as a return to sustained growth.",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 0.8,
+      "priority_reasons": [
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "F&B seen driving nearly half of Metro Manila retail take-up through 2028 — Colliers",
+      "source": "BusinessWorld Property",
+      "date": "2026-10-07T14:02:12.000Z",
+      "summary": "FOOD and beverage (F&B) tenants are expected to account for nearly half of Metro Manila retail space absorption…",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 0.8,
+      "priority_reasons": [
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Pag-IBIG tie-up supports RLC residential conversion",
+      "source": "Philippine Star Property",
+      "date": "2026-10-07T08:03:00.000Z",
+      "summary": "RLC signed an MoU with Pag-IBIG to expand home loan accreditation across its resi portfolio.",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 0.8,
+      "priority_reasons": [
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    }
+  ],
+  "secondary_signals": [
+    {
+      "title": "August unemployment eases from post-pandemic high as agriculture, construction add jobs",
+      "source": "Manila Bulletin Business Property JSON Fallback",
+      "date": "2026-10-07T12:10:00.000Z",
+      "summary": "The Philippines’ unemployment rate eased to 5.3 percent in August from a post-pandemic high of six percent in July as agriculture and construction added jobs, although the labor market remained weaker than a year ago amid continued manufacturing job losses. Results of the Philippine Statistics...",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Filipinos Win as Robinsons Land and Pag-IBIG Make Homeownership More Accessible",
+      "source": "Manila Bulletin Business Property JSON Fallback",
+      "date": "2026-10-07T09:50:00.000Z",
+      "summary": "For many Filipino families, a home of their own is where plans for a better future begin to take shape. Through its partnership with Pag-IBIG Fund, Robinsons Land (RLC) is bringing quality homes in thoughtfully planned communities together with financing options that can help qualified buyers make...",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Metro Manila Office Report Q3 2025",
+      "source": "Santos Knight Frank Market Reports",
+      "date": "2025-11-11T06:30:43.000Z",
+      "summary": "Metro Manila Office Report Q3 2025The Metro Manila office market in the third quarter of 2025 reflected steady adjustments to evolving workplace strategies amid tempered demand. Total office stock reached 8.9 million sqm, with new supply from Quezon City adding 72,000 sqm. Overall vacancy stood at 21.2%, while avera...",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 0.2,
+      "priority_reasons": [
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful supporting editorial signal."
+    }
+  ]
+}

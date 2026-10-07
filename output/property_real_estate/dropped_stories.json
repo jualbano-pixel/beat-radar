@@ -1,5 +1,29 @@
 [
   {
+    "title": "Bangko Sentral ng Pilipinas Discount Window Facility interest rates effective 08 October 2026",
+    "source": "Bangko Sentral ng Pilipinas Property",
+    "date": "2026-10-07T03:13:04.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "GIR settle at US$100B as of end-Sept 2026",
+    "source": "Bangko Sentral ng Pilipinas Property",
+    "date": "2026-10-07T10:47:14.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "September inflation rises to 7.2 percent",
+    "source": "Bangko Sentral ng Pilipinas Property",
+    "date": "2026-10-06T04:13:40.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Inflation tumaas sa 7.2 porsiyento noong Setyembre",
+    "source": "Bangko Sentral ng Pilipinas Property",
+    "date": "2026-10-06T08:15:03.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
     "title": "Month-ahead inflation forecast for September 2026",
     "source": "Bangko Sentral ng Pilipinas Property",
     "date": "2026-09-30T02:40:52.000Z",
@@ -45,6 +69,12 @@
     "title": "BSP honors outstanding Mindanao partners",
     "source": "Bangko Sentral ng Pilipinas Property",
     "date": "2026-09-28T09:09:31.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "BSP nagpasidungog sa mga talagsaong kaabag sa Mindanao",
+    "source": "Bangko Sentral ng Pilipinas Property",
+    "date": "2026-10-02T15:51:34.000Z",
     "reason_dropped": "low_relevance"
   },
   {
@@ -150,40 +180,28 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "BSP co-chairs ASEAN meeting on capital account liberalization",
-    "source": "Bangko Sentral ng Pilipinas Property",
-    "date": "2026-09-11T06:01:34.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "BSP hosts forum to help MSMEs access credit",
-    "source": "Bangko Sentral ng Pilipinas Property",
-    "date": "2026-09-11T07:53:02.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "BOP deficit narrows in H1 2026 amid stronger financial account inflows",
-    "source": "Bangko Sentral ng Pilipinas Property",
-    "date": "2026-09-11T11:34:01.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "PH external debt rises in Q2 2026, remains manageable",
-    "source": "Bangko Sentral ng Pilipinas Property",
-    "date": "2026-09-11T11:59:24.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "BSP officer wins green finance leadership award",
-    "source": "Bangko Sentral ng Pilipinas Property",
-    "date": "2026-09-10T01:51:05.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Bangko Sentral ng Pilipinas Discount Window Facility interest rates effective 08 September 2026",
+    "title": "Bangko Sentral ng Pilipinas Discount Window Facility interest rates effective 08 October 2026",
     "source": "BSP Property Media Releases SharePoint",
-    "date": "2026-09-06T16:00:00.000Z",
+    "date": "2026-10-06T16:00:00.000Z",
     "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "GIR settle at US$100B as of end-Sept 2026",
+    "source": "BSP Property Media Releases SharePoint",
+    "date": "2026-10-06T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "September inflation rises to 7.2 percent",
+    "source": "BSP Property Media Releases SharePoint",
+    "date": "2026-10-05T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Inflation tumaas sa 7.2 porsiyento noong Setyembre",
+    "source": "BSP Property Media Releases SharePoint",
+    "date": "2026-10-05T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
   },
   {
     "title": "Month-ahead inflation forecast for September 2026",
@@ -219,6 +237,12 @@
     "title": "Domestic liquidity grows by 11.2% in August",
     "source": "BSP Property Media Releases SharePoint",
     "date": "2026-09-29T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "BSP nagpasidungog sa mga talagsaong kaabag sa Mindanao",
+    "source": "BSP Property Media Releases SharePoint",
+    "date": "2026-09-27T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
@@ -390,34 +414,28 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Domestic liquidity grows by 10.3% in July",
-    "source": "BSP Property Media Releases SharePoint",
-    "date": "2026-09-07T16:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Bank lending expands by 10.4% in July",
-    "source": "BSP Property Media Releases SharePoint",
-    "date": "2026-09-07T16:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "BSP, AMRO exchange views on economic, financial developments",
-    "source": "BSP Property Media Releases SharePoint",
-    "date": "2026-09-06T16:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Country's foreign reserves rise to US$104.8B as of end-August 2026",
-    "source": "BSP Property Media Releases SharePoint",
-    "date": "2026-09-06T16:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
     "title": "MFGH Remittance Services (MFGH), TNP Ticket N Post Messengerial Services (TNP), Wilma’s Foreign Exchange (WILMAS). AUD-PHP Trading Inc. (AUD-PHP) and Mohur, Inc. (MOHUR) - Cancellation of BSP Registration to Operate as Money Service Businesses (MSB)",
     "source": "BSP Property Issuances SharePoint",
     "date": "2026-09-10T16:00:00.000Z",
     "reason_dropped": "hard_excluded_event_promo"
+  },
+  {
+    "title": "Anti-Money Laundering Council (AMLC) Resolution Nos. TF-118 and TF-119, All Series of 2026 [Targeted Financial Sanctions (TFS) in Relation to Anti-Terrorism Council (ATC) Resolution Nos. 86 (2026) and 87 (2026), respectively]",
+    "source": "BSP Property Issuances SharePoint",
+    "date": "2026-10-05T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Cancellation of BSP Registration as Remittance Agent with Money Changing/Foreign Exchange Dealing Operations of SAMCHAN FOREIGN EXCHANGE CORP.",
+    "source": "BSP Property Issuances SharePoint",
+    "date": "2026-10-01T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Guidelines on the Submission of the Cybersecurity Controls Self Assessment (CCSA) through the Advanced SupTech Engine for Risk based Compliance (ASTERisC*) Platform",
+    "source": "BSP Property Issuances SharePoint",
+    "date": "2026-09-30T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
   },
   {
     "title": "Prudential Requirements for Technology-Driven Thrift, Rural and Cooperative Banks",
@@ -636,24 +654,6 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Guidance Paper Entitled \"Governance Principles for Artificial Intelligence (AI) in Financial Services\"",
-    "source": "BSP Property Issuances SharePoint",
-    "date": "2026-06-23T16:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Deferral of Live Submission of the Financial Reporting Package (FRP) version 16",
-    "source": "BSP Property Issuances SharePoint",
-    "date": "2026-06-22T16:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Lost Bangko Sentral Registration Documents (BSRDs)",
-    "source": "BSP Property Issuances SharePoint",
-    "date": "2026-06-21T16:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
     "title": "Metro Manila Office Market Q1 2026",
     "source": "Santos Knight Frank Market Reports",
     "date": "",
@@ -678,183 +678,189 @@
     "reason_dropped": "dropped_time_mode"
   },
   {
-    "title": "Navigating the currents of Cebu's port standoff",
+    "title": "Soaring inflation threatens Philippine poverty reduction gains despite new upper-middle-income status—World Bank",
     "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-10-01T00:01:00.000Z",
+    "date": "2026-10-07T19:28:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "NTC eyes mandatory permits to curb stolen, defective phone sales",
+    "title": "DA eyes DALI's 1,400-store network to expand farmers' market access",
     "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-30T20:58:00.000Z",
+    "date": "2026-10-07T19:06:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "8 Philippine firms named among Forbes' best employers worldwide",
+    "title": "ADB pushes $300-million MRT-4 loan approval to 2030",
     "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-30T18:13:00.000Z",
+    "date": "2026-10-07T18:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Philippine economy 'to disappoint' until Marcos term ends in 2028—think tank",
+    "title": "DTI requires safety certification for nicotine pouches",
     "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-30T18:00:00.000Z",
+    "date": "2026-10-07T17:55:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "PCC reinstates pre-pandemic filing timelines for M&As",
+    "title": "PSEi rebounds as lower unemployment, US yields lift sentiment",
     "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-30T17:55:00.000Z",
+    "date": "2026-10-07T16:52:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Exporters drive 5.6% rise in Philippine bank foreign currency lending",
+    "title": "SSI Group brings fast-growing Swiss sportswear brand On to Philippine market",
     "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-30T17:18:00.000Z",
+    "date": "2026-10-07T16:38:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Stocks hit new 2026 low as inflation warning triggers market sell-off",
+    "title": "BOI green lane fast-tracks ₱456-billion investments, nearly 47,000 jobs",
     "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-30T17:04:00.000Z",
+    "date": "2026-10-07T16:18:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "SEC clears Century Properties-PHirst Park Homes merger plan",
+    "title": "BPI Wealth: Filipino investors turn to global funds as inflation, weak peso bite",
     "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-30T16:18:00.000Z",
+    "date": "2026-10-07T16:12:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "SEC drafts single rules framework for Philippine foundations",
+    "title": "GSIS, SSS lead local investors jockeying for bigger Mynt IPO allocations",
     "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-30T16:09:00.000Z",
+    "date": "2026-10-07T16:06:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "JTI eyeing Philippines as 'priority market' despite smuggling losses",
+    "title": "Philippine fuel inflation highest in region amid stronger oil price pass-through",
     "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-30T16:03:00.000Z",
+    "date": "2026-10-07T15:26:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Philippine debt hits new record ₱19.61 trillion at end-August as peso weakness adds pressure",
+    "title": "NGCP seeks more ancillary services to bolster Visayas grid amid power woes",
     "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-30T15:59:00.000Z",
+    "date": "2026-10-07T15:23:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "DOST, SEIPI explore feasibility study for Philippines' first semiconductor wafer lab",
+    "title": "SEC stops 3 firms from soliciting investments without approval",
     "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-30T15:53:00.000Z",
+    "date": "2026-10-07T15:21:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Remittances, holiday spending seen lifting growth in Q4 despite inflation risks",
+    "title": "MVP acquires another ₱2.2-billion Meralco stake as San Miguel rues lost dividends",
     "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-30T14:58:00.000Z",
+    "date": "2026-10-07T14:39:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Former Security Bank exec John Cary Ong takes helm at PBCom",
+    "title": "Philippine nuclear leaders head to US to forge advanced energy partnerships",
     "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-30T14:42:00.000Z",
+    "date": "2026-10-07T13:20:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "PetroWind secures 20-year fixed tariff for Visayas wind project",
+    "title": "Semirara warns DOE bidding rules risk zero coal output, higher power rates",
     "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-30T14:08:00.000Z",
+    "date": "2026-10-07T12:46:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "4-year streak broken: Philippines slips in 2026 Global Innovation ranking",
+    "title": "Philippine factory output growth nearly doubles in August as electronics production surges",
     "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-30T14:02:00.000Z",
+    "date": "2026-10-07T12:36:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Philippine exports, imports hit record highs at end-August",
+    "title": "Mynt secures SEC Permit to Sell for IPO shares",
     "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-30T13:58:00.000Z",
+    "date": "2026-10-07T09:25:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "China Bank Savings backs Filipino teachers with financial wellness push",
+    "title": "ING Hubs Philippines: Powering Banking Innovation Around the World",
     "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-30T13:54:00.000Z",
+    "date": "2026-10-07T08:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Philippines calls for boosted global biodiversity financing",
+    "title": "Top Bank Strengthens Presence in Muntinlupa with New Business Center",
     "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-30T13:32:00.000Z",
+    "date": "2026-10-07T06:15:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Factory-gate prices rise faster in August as petroleum, food costs climb",
+    "title": "This scam cost investors millions",
     "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-30T13:29:00.000Z",
+    "date": "2026-10-07T00:01:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Intersections Communications named Media Agency of the Year, sweeps four plates at 4As 28th AOY Awards",
+    "title": "DHL sees Philippines among 22 high-growth trade markets as exporters diversify",
     "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-30T13:29:00.000Z",
+    "date": "2026-10-06T23:58:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Inflation may have surged to 3.5-year high of 7.4% in September as food, peso, oil pressures mount",
+    "title": "OCBC sees stronger net exports cushioning Philippine economy against weaker global growth",
     "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-30T12:17:00.000Z",
+    "date": "2026-10-06T19:30:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Lopezes retain control of ABS-CBN after strategic investor's entry",
+    "title": "76% of Philippine jobs vulnerable to automation as AI reshapes skills demand—ADBI",
     "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-30T12:04:00.000Z",
+    "date": "2026-10-06T18:43:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Pangilinan-led MGEN, VITRO team up on power, data center projects",
+    "title": "NAIA passenger traffic dips to 35 million at end-August as higher airfares weigh on demand",
     "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-30T11:41:00.000Z",
+    "date": "2026-10-06T18:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "ACEN brings in Dutch partner for Rajasthan solar expansion",
+    "title": "PSEi falls below 5,700 as inflation spike fuels BSP rate hike bets",
     "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-30T11:23:00.000Z",
+    "date": "2026-10-06T17:05:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "GCash IPO gets something money cannot easily buy: Global investor conviction",
+    "title": "Pwede nang bumili ng GCash IPO shares sa GCash app!",
     "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-30T08:46:00.000Z",
+    "date": "2026-10-06T16:46:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "SM Supermalls honored at Economic Times Human Capital Awards Southeast Asia 2026",
-    "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-30T06:34:00.000Z",
+    "title": "Toshiba to invest billions in PH, expand electronics production capacity",
+    "source": "Department of Finance Property",
+    "date": "2026-10-05T07:19:34.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "ANP and SM for MSMEs open BÚTLAK: The 40th Negros Trade Fair",
-    "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-30T06:30:00.000Z",
+    "title": "DOF, ADB boost financial protections for Filipinos, businesses from financial crime",
+    "source": "Department of Finance Property",
+    "date": "2026-10-05T02:34:12.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Canada opposes Philippine plan to hike tariff on pork jowls",
-    "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-30T00:14:00.000Z",
+    "title": "PH, ADB advance more responsive Universal Health Care for Filipinos",
+    "source": "Department of Finance Property",
+    "date": "2026-10-02T06:12:34.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Gov't collects fraction of potential corporate, VAT revenues—World Bank",
-    "source": "Manila Bulletin Business Property JSON Fallback",
-    "date": "2026-09-29T21:12:00.000Z",
+    "title": "PH-Singapore conclude tax treaty negotiations to support investment, economic growth",
+    "source": "Department of Finance Property",
+    "date": "2026-10-02T02:05:03.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "PhilHealth, private insurers build on YAKAP to maximize primary care coverage",
+    "source": "Department of Finance Property",
+    "date": "2026-10-01T06:03:57.000Z",
     "reason_dropped": "low_relevance"
   },
   {
@@ -888,315 +894,273 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "PH granted US$60-Million to reform energy sector for more affordable, reliable power",
-    "source": "Department of Finance Property",
-    "date": "2026-09-10T03:13:21.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "PH takes investment agenda to HK, eyes China market, deeper investment ties",
-    "source": "Department of Finance Property",
-    "date": "2026-09-07T08:37:17.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Investment Coordination Committee approves enhanced TESDA project, expanding quality education and training for Filipinos",
-    "source": "Department of Finance Property",
-    "date": "2026-09-04T01:23:04.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Nationwide consultations begin for ProGRESS Bill",
-    "source": "Department of Finance Property",
-    "date": "2026-09-03T04:29:48.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Japan Credit Rating Agency affirms Philippines’ A- rating, stable outlook",
-    "source": "Department of Finance Property",
-    "date": "2026-08-28T06:39:58.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "ComClark, JG Summit submit P33-B air navigation proposal",
+    "title": "Malaysia hoping to sustain palm oil export growth to PHL after shipments top 700,000 metric tons",
     "source": "BusinessWorld Property",
-    "date": "2026-09-30T16:09:18.000Z",
-    "reason_dropped": "low_relevance"
+    "date": "2026-10-07T13:43:01.000Z",
+    "reason_dropped": "hard_excluded_commerce"
   },
   {
-    "title": "ABS-CBN says Lopez group to keep strategic direction after P6-B investment",
+    "title": "Cebu Landmasters enters new phase as leadership, expansion reshape growth story",
     "source": "BusinessWorld Property",
-    "date": "2026-09-30T16:08:18.000Z",
+    "date": "2026-10-07T16:05:41.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Century Properties gets SEC nod for PHirst Park Homes merger",
+    "title": "AllDay, AllHome trim store networks amid cost push",
     "source": "BusinessWorld Property",
-    "date": "2026-09-30T16:07:17.000Z",
+    "date": "2026-10-07T14:59:50.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "ACEN signs fourth India renewable deal",
+    "title": "Unemployment rate hits 5.3% in August",
     "source": "BusinessWorld Property",
-    "date": "2026-09-30T16:06:16.000Z",
+    "date": "2026-10-07T14:07:33.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Casino Plus pays out historic ₱122.4-M Jackpot in full, reinforcing player-first commitment",
+    "title": "BSP may deliver fourth straight rate hike amid mounting inflation risks",
     "source": "BusinessWorld Property",
-    "date": "2026-09-30T16:05:19.000Z",
+    "date": "2026-10-07T14:06:36.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "First as tragedy, then as farce",
+    "title": "Philippine factory output growth fastest in over 4 years",
     "source": "BusinessWorld Property",
-    "date": "2026-09-30T16:04:25.000Z",
+    "date": "2026-10-07T14:05:29.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Telcos question NTC fines over due process, testing standards",
+    "title": "Philippines aims to cut oil dependence by 50% by 2040",
     "source": "BusinessWorld Property",
-    "date": "2026-09-30T16:04:14.000Z",
+    "date": "2026-10-07T14:04:32.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Something new (and obscure) in Silang",
+    "title": "Pangilinan signs deal to acquire P2.19-B Meralco stake from San Miguel unit",
     "source": "BusinessWorld Property",
-    "date": "2026-09-30T16:04:12.000Z",
+    "date": "2026-10-07T14:03:03.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Banks’ foreign currency loans rise past $16 billion as of June",
+    "title": "SMPC warns coal bid rules could disrupt Semirara production",
     "source": "BusinessWorld Property",
-    "date": "2026-09-30T16:04:00.000Z",
+    "date": "2026-10-07T14:02:55.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Yields on central bank’s term deposits edge up as demand weakens further",
+    "title": "Mynt IPO seen drawing strong local demand",
     "source": "BusinessWorld Property",
-    "date": "2026-09-30T16:03:59.000Z",
+    "date": "2026-10-07T14:02:48.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Insect protein",
+    "title": "SSI Group to open dedicated On stores under PHL distribution deal",
     "source": "BusinessWorld Property",
-    "date": "2026-09-30T16:03:23.000Z",
+    "date": "2026-10-07T14:02:42.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Trading down: How prices and promotions dictate Philippine wine consumption",
+    "title": "BPOs seek lower-cost provincial hubs as NCR wages rise — PRIME",
     "source": "BusinessWorld Property",
-    "date": "2026-09-30T16:03:12.000Z",
+    "date": "2026-10-07T14:02:37.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Change management may help PHL firms get most out of AI",
+    "title": "Manila Water completes P5.7-billion submarine pipeline for East Bay project",
     "source": "BusinessWorld Property",
-    "date": "2026-09-30T16:03:07.000Z",
+    "date": "2026-10-07T14:02:30.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "On rising imports and the budget deficit",
+    "title": "Aboitiz group expands AI, cybersecurity skills development",
     "source": "BusinessWorld Property",
-    "date": "2026-09-30T16:02:22.000Z",
+    "date": "2026-10-07T14:02:07.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "SEC proposes simplified reporting for foundations",
+    "title": "August unemployment rate rises to 5.3%",
     "source": "BusinessWorld Property",
-    "date": "2026-09-30T16:02:12.000Z",
+    "date": "2026-10-07T13:51:54.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Beyond steaks and comfort food",
+    "title": "ADB weighs $300-M initial package for MRT-4",
     "source": "BusinessWorld Property",
-    "date": "2026-09-30T16:02:11.000Z",
+    "date": "2026-10-07T13:51:52.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "EastWest Ageas expects minimal impact from weak economy, tighter financial conditions",
+    "title": "AI infra emerging as key driver of global trade — DHL Express",
     "source": "BusinessWorld Property",
-    "date": "2026-09-30T16:02:09.000Z",
+    "date": "2026-10-07T13:50:45.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "China’s AI agents can lie and scheme — just like their US rivals",
+    "title": "Factory output growth hits over four-year high of 11.8% in August",
     "source": "BusinessWorld Property",
-    "date": "2026-09-30T16:02:08.000Z",
+    "date": "2026-10-07T13:50:40.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "No heavy schedule",
+    "title": "Investments eligible for green lane hit P455 billion at end of September",
     "source": "BusinessWorld Property",
-    "date": "2026-09-30T16:01:26.000Z",
+    "date": "2026-10-07T13:49:22.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "PLDT seeks clearer rules for faster action on online harms",
+    "title": "Subdivision industry bats for uniform land transfer rules after DoJ opinion",
     "source": "BusinessWorld Property",
-    "date": "2026-09-30T16:01:11.000Z",
+    "date": "2026-10-07T13:48:35.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Peso weakens as traders eye US data",
+    "title": "Plastic Bank seeks more tie-ups to collect waste in Philippines",
     "source": "BusinessWorld Property",
-    "date": "2026-09-30T16:01:10.000Z",
+    "date": "2026-10-07T13:47:22.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Dining In/Out (10/01/26)",
+    "title": "WB sees tough regional competition for data centers",
     "source": "BusinessWorld Property",
-    "date": "2026-09-30T16:01:10.000Z",
+    "date": "2026-10-07T13:46:25.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "The next AI race is not just about capability, but coordination",
+    "title": "House OKs P7.2-T 2027 budget on second reading",
     "source": "BusinessWorld Property",
-    "date": "2026-09-30T16:01:03.000Z",
+    "date": "2026-10-07T13:45:44.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Trade gap narrows to $3.85 billion in August",
+    "title": "Makati court orders Leviste’s arrest over alleged solar franchise violations",
     "source": "BusinessWorld Property",
-    "date": "2026-09-30T16:00:57.000Z",
+    "date": "2026-10-07T13:45:32.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "How PSEi member stocks performed — September 30, 2026",
+    "title": "NGCP lining up more power reserve deals for Visayas",
     "source": "BusinessWorld Property",
-    "date": "2026-09-30T16:00:57.000Z",
+    "date": "2026-10-07T13:45:19.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Philippines ramps up drought measures as severe El Niño looms",
+    "title": "Senate probes accounts of Duterte-linked firms",
     "source": "BusinessWorld Property",
-    "date": "2026-09-30T13:14:40.000Z",
+    "date": "2026-10-07T13:44:29.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "House subcommittee gears up for budget review; NUP eyes special provisions",
+    "title": "PHL deemed among top regional choices for VC, but tiny fraction goes to women-led firms",
     "source": "BusinessWorld Property",
-    "date": "2026-09-30T13:13:39.000Z",
+    "date": "2026-10-07T13:44:23.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Presidential Palace warns officials against hiding behind subordinates",
+    "title": "Presidential Palace defends Marcos F1 attendance as part of investor push",
     "source": "BusinessWorld Property",
-    "date": "2026-09-30T13:12:38.000Z",
+    "date": "2026-10-07T13:43:25.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "British Chamber urges clarity on pork tariffs",
+    "title": "Poorest 30% households experienced 23.6% rice inflation in September",
+    "source": "BusinessWorld Property",
+    "date": "2026-10-07T13:42:23.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "ACEN boosts war chest with P3.5 billion ING loan",
     "source": "Philippine Star Property",
-    "date": "2026-09-30T07:52:00.000Z",
+    "date": "2026-10-07T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Metro Manila water allocation cut as Super El Niño looms",
+    "title": "BPI Wealth assets breach P2 trillion, eyes 18% growth",
     "source": "Philippine Star Property",
-    "date": "2026-09-30T03:21:00.000Z",
+    "date": "2026-10-07T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Alternergy raises P2 billion from maiden notes issue",
+    "title": "Puregold Barangayan rolls out in 16 locations nationwide",
     "source": "Philippine Star Property",
-    "date": "2026-09-29T16:00:00.000Z",
+    "date": "2026-10-07T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "DA lifts poultry import ban on Albania, Indiana",
+    "title": "West Cebu Estate expands with Aboitiz Foods feedmill",
     "source": "Philippine Star Property",
-    "date": "2026-09-29T16:00:00.000Z",
+    "date": "2026-10-07T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "PCC adopts digital filing to ease legal procedures",
+    "title": "Philippines plans to mandate 1% SAF mix by 2030",
     "source": "Philippine Star Property",
-    "date": "2026-09-29T16:00:00.000Z",
+    "date": "2026-10-07T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Financial system resources climb to P38 trillion",
+    "title": "Factory output growth accelerates in August",
     "source": "Philippine Star Property",
-    "date": "2026-09-29T16:00:00.000Z",
+    "date": "2026-10-07T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "YCO Cloud, Aolani to roll out 10,000 NVIDIA AI units in Philippines",
+    "title": "Fixing water flow, restoring hope",
     "source": "Philippine Star Property",
-    "date": "2026-09-29T16:00:00.000Z",
+    "date": "2026-10-07T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Air France makes return trip to Manila",
+    "title": "Villar Group trims AllDay, AllHome stores",
     "source": "Philippine Star Property",
-    "date": "2026-09-29T16:00:00.000Z",
+    "date": "2026-10-07T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Security Bank retail banking head steps down",
+    "title": "SMPC: Semirara coal auction rules unfair",
     "source": "Philippine Star Property",
-    "date": "2026-09-29T16:00:00.000Z",
+    "date": "2026-10-07T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "SEC opens market to structured warrants",
+    "title": "MVP hikes Meralco stake with P2.2 billion SMC deal",
     "source": "Philippine Star Property",
-    "date": "2026-09-29T16:00:00.000Z",
+    "date": "2026-10-07T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Are we losing our edge?",
+    "title": "PSEi bounces back on bargain hunting",
     "source": "Philippine Star Property",
-    "date": "2026-09-29T16:00:00.000Z",
+    "date": "2026-10-07T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "DOE orders monthly fuel cost reports",
+    "title": "September inflation surge fuels rate-hike bets",
     "source": "Philippine Star Property",
-    "date": "2026-09-29T16:00:00.000Z",
+    "date": "2026-10-07T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "GSIS chief named Asia’s Modern Hero for public service",
+    "title": "GCash has an IPO problem – and it’s a good one",
     "source": "Philippine Star Property",
-    "date": "2026-09-29T16:00:00.000Z",
+    "date": "2026-10-07T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Housing program",
+    "title": "Jobless Pinoys fall to 2.77 million in August",
     "source": "Philippine Star Property",
-    "date": "2026-09-29T16:00:00.000Z",
+    "date": "2026-10-07T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "PSEi extends decline as oil price soars",
+    "title": "Power: El Niño tightens supply, lifts price upside",
     "source": "Philippine Star Property",
-    "date": "2026-09-29T16:00:00.000Z",
+    "date": "2026-10-07T07:55:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "‘3 in 5 Pinoys want 5G service all the time’",
+    "title": "Jobless Filipinos drop to 2.77 million in August",
     "source": "Philippine Star Property",
-    "date": "2026-09-29T16:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "‘Data residency law to drive up investments in data centers’",
-    "source": "Philippine Star Property",
-    "date": "2026-09-29T16:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Meralco starts auction for 900-MW baseload power",
-    "source": "Philippine Star Property",
-    "date": "2026-09-29T16:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Government to borrow P892 billion from domestic market",
-    "source": "Philippine Star Property",
-    "date": "2026-09-29T16:00:00.000Z",
+    "date": "2026-10-07T03:16:00.000Z",
     "reason_dropped": "low_relevance"
   }
 ]

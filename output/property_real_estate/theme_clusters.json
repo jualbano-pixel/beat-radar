@@ -2,20 +2,21 @@
   {
     "theme_id": "enterprise_technology",
     "theme_label": "enterprise technology adoption",
-    "theme_summary": "enterprise technology adoption is the shared editorial thread across 2 related stories. The strongest signal is enterprise adoption pressure rising.",
-    "story_count": 2,
+    "theme_summary": "enterprise technology adoption is the shared editorial thread across 3 related stories. The strongest signal is enterprise adoption pressure rising.",
+    "story_count": 3,
     "cluster_ids": [],
     "story_ids": [
-      "35100249c20d",
+      "ecff4fb96ad6",
+      "59025f03f3a5",
       "aa416e3005c2"
     ],
     "associated_stories": [
       {
-        "id": "35100249c20d",
-        "title": "NEXTASIA Land expands buyer financing options",
-        "url": "https://bworldonline.com/corporate/2026/10/01/783369/nextasia-land-expands-buyer-financing-options",
-        "source": "BusinessWorld Property",
-        "published_at": "2026-09-30T16:03:12.000Z"
+        "id": "59025f03f3a5",
+        "title": "Metro Manila condo sales jump in Q3 as promos, gov't housing programs lure buyers",
+        "url": "https://mb.com.ph/2026/10/07/metro-manila-condo-sales-jump-as-promos-housing-programs-lure-buyers",
+        "source": "Manila Bulletin Business Property JSON Fallback",
+        "published_at": "2026-10-07T16:25:00.000Z"
       },
       {
         "id": "aa416e3005c2",
@@ -23,20 +24,68 @@
         "url": "https://www.bsp.gov.ph/SitePages/MediaAndResearch/MediaDisp.aspx?ItemId=8088&MType=Media+Releases",
         "source": "BSP Property Media Releases SharePoint",
         "published_at": "2026-09-24T16:00:00.000Z"
+      },
+      {
+        "id": "ecff4fb96ad6",
+        "title": "Condo demand picks up in Q3",
+        "url": "https://www.philstar.com/business/2026/10/08/2561580/condo-demand-picks-q3",
+        "source": "Philippine Star Property",
+        "published_at": "2026-10-07T16:00:00.000Z"
       }
     ],
     "dominant_reason_codes": [
-      "ongoing_story_advance",
-      "local_business_relevance"
+      "local_business_relevance",
+      "policy_regulatory_move"
     ],
     "dominant_angle_signals": [
       "enterprise adoption pressure rising",
-      "developer workflow changing",
-      "ongoing platform expansion"
+      "local operators exposed",
+      "demand still unproven"
     ],
     "top_story_refs": [
-      "35100249c20d",
-      "aa416e3005c2"
+      "59025f03f3a5",
+      "aa416e3005c2",
+      "ecff4fb96ad6"
+    ]
+  },
+  {
+    "theme_id": "telecom_connectivity",
+    "theme_label": "connectivity buildout",
+    "theme_summary": "connectivity buildout is the shared editorial thread across 2 related stories. The strongest signal is connectivity buildout changing access.",
+    "story_count": 2,
+    "cluster_ids": [],
+    "story_ids": [
+      "48d2ac696757",
+      "f50609abfb42"
+    ],
+    "associated_stories": [
+      {
+        "id": "f50609abfb42",
+        "title": "PLDT delays ₱24.2-billion VITRO REIT IPO to 2027 as interest rates rise",
+        "url": "https://mb.com.ph/2026/10/06/pldt-delays-242-billion-vitro-reit-ipo-to-2027-as-interest-rates-rise",
+        "source": "Manila Bulletin Business Property JSON Fallback",
+        "published_at": "2026-10-06T17:44:00.000Z"
+      },
+      {
+        "id": "48d2ac696757",
+        "title": "VITRO REIT IPO pushed to 2027",
+        "url": "https://www.philstar.com/stock-commentary/2026/10/07/2561562/vitro-reit-ipo-pushed-2027",
+        "source": "Philippine Star Property",
+        "published_at": "2026-10-07T08:01:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "local_business_relevance",
+      "policy_regulatory_move"
+    ],
+    "dominant_angle_signals": [
+      "connectivity buildout changing access",
+      "regulation moving ahead of capacity",
+      "infrastructure lag visible"
+    ],
+    "top_story_refs": [
+      "f50609abfb42",
+      "48d2ac696757"
     ]
   }
 ]
