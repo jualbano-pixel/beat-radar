@@ -1,0 +1,236 @@
+{
+  "top_stories": [
+    {
+      "title": "Dollar reserves fall below $100 billion",
+      "source": "BusinessWorld Banking",
+      "date": "2026-10-08T13:19:29.000Z",
+      "summary": "THE PHILIPPINES’ dollar reserves plummeted to its lowest level in three years at end-September as the central bank used it to support the peso, with foreign debt payments and lower value of gold and foreign-currency assets dragging it further.",
+      "tags": [
+        "banking_liquidity",
+        "banking_regulation",
+        "banking_digital_shift",
+        "banking_falling",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_driver_institution",
+        "banking_regulator"
+      ],
+      "priority_score": 16.3,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+    },
+    {
+      "title": "Businesses less pessimistic in August, more optimistic ahead",
+      "source": "Bangko Sentral ng Pilipinas",
+      "date": "2026-09-25T10:41:40.000Z",
+      "summary": "PDate: 9/25/2026 Content: ​Philippine business sentiment became less pessimistic in August 2026, results of the latest Business Expectations Survey (BES) of the Bangko Sentral ng Pilipinas (BSP) showed.[1] Firms attributed the improvement to expectations of higher demand for essential commodities, loan products, and...",
+      "tags": [
+        "banking_lending",
+        "banking_regulation",
+        "banking_rising",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_regulator"
+      ],
+      "priority_score": 14.2,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+    },
+    {
+      "title": "BSP issues capital, other requirements for banks shifting to digital model",
+      "source": "Bangko Sentral ng Pilipinas",
+      "date": "2026-09-23T09:13:50.000Z",
+      "summary": "PDate: 9/23/2026 Content: ​The Bangko Sentral ng Pilipinas (BSP) has issued capital and other requirements for thrift, rural, and cooperative banks (TBs, RBs, and coop banks) shifting to digital bank business models. The requirements aim to ensure that these banks operate in a safe and sound manner.​ Under Circular...",
+      "tags": [
+        "banking_regulation",
+        "banking_digital_shift",
+        "banking_shifting",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_driver_institution",
+        "banking_regulator"
+      ],
+      "priority_score": 14.2,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+    },
+    {
+      "title": "Banks chase risky chip loans in Asia’s US$8.2 trillion AI buildout",
+      "source": "The Business Times Banking",
+      "date": "2026-10-06T04:37:11.000Z",
+      "summary": "With lenders a bigger funding source, firms must do more to prove projects will generate enough revenue",
+      "tags": [
+        "banking_lending",
+        "banking_funding",
+        "banking_system",
+        "banking_driver_institution",
+        "banking_driver_regional",
+        "banking_private_bank"
+      ],
+      "priority_score": 13.35,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_deposit_funding_signal",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because deposit and funding movement shows whether money is staying put, seeking yield, or becoming more expensive for banks."
+    },
+    {
+      "title": "GIR settle at US$100B as of end-Sept 2026",
+      "source": "Bangko Sentral ng Pilipinas",
+      "date": "2026-10-07T10:47:14.000Z",
+      "summary": "PDate: 10/7/2026 Content: ​Gross international reserves (GIR) declined to US$100.0 billion as of end-September 2026.[1] The decrease was mainly driven by the following: Bangko Sentral ng Pilipinas (BSP)’s net foreign exchange operations; downward valuation adjustments, primarily driven by changes in the prices of th...",
+      "tags": [
+        "banking_liquidity",
+        "banking_regulation",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_regulator"
+      ],
+      "priority_score": 13.1,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+    },
+    {
+      "title": "Philippines aligns bond pricing with global convention",
+      "source": "Inquirer Business",
+      "date": "2026-10-10T02:14:00.000Z",
+      "summary": "MANILA, Philippines — The Philippines will adopt an international bond pricing convention on Jan. 4, 2027, covering eligible peso-denominated government and corporate securities as regulators seek to attract more investors and deepen market liquidity. On Friday, the Bangko Sentral ng Pilipinas (BSP) said the transit...",
+      "tags": [
+        "banking_liquidity",
+        "banking_regulation",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_driver_market",
+        "banking_regulator"
+      ],
+      "priority_score": 12.55,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+    },
+    {
+      "title": "PDIC beats recovery targets",
+      "source": "Inquirer Business",
+      "date": "2026-10-10T02:12:00.000Z",
+      "summary": "MANILA, Philippines — The Philippine Deposit Insurance Corp. (PDIC) exceeded its 2025 targets for asset recovery, loan resolution and the liquidation of closed banks, boosting recoveries for depositors and creditors. The state-run deposit insurer resolved 2,389 pieces of property with a combined gross book value of...",
+      "tags": [
+        "banking_lending",
+        "banking_deposits",
+        "banking_system",
+        "banking_driver_institution",
+        "banking_private_bank"
+      ],
+      "priority_score": 11.8,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_deposit_funding_signal",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because deposit and funding movement shows whether money is staying put, seeking yield, or becoming more expensive for banks."
+    },
+    {
+      "title": "Confidence in banking system intact – BSP",
+      "source": "Philstar Business",
+      "date": "2026-10-09T16:00:00.000Z",
+      "summary": "Confidence in the Philippine banking system remains intact, the Bangko Sentral ng Pilipinas (BSP) said, citing banks’ strong fundamentals and safeguards meant to protect the integrity of the financial system.",
+      "tags": [
+        "banking_regulation",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_driver_institution",
+        "banking_regulator"
+      ],
+      "priority_score": 11.55,
+      "priority_reasons": [
+        "banking_weak_cluster_signal",
+        "banking_policy_pressure",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+    }
+  ],
+  "secondary_signals": [
+    {
+      "title": "PH, ADB advance more responsive Universal Health Care for Filipinos",
+      "source": "Department of Finance",
+      "date": "2026-10-02T06:12:34.000Z",
+      "summary": "The Philippine Government, through Finance Secretary Frederick D. Go, has signed a JPY119.745-billion (around PHP48 billion) financing agreement with the Asian Development Bank (ADB) that will unlock funding support for reforms to strengthen the country’s universal health care system and expand access to quality and...",
+      "tags": [
+        "banking_funding",
+        "banking_rising",
+        "banking_single_bank",
+        "banking_driver_institution",
+        "banking_multilateral"
+      ],
+      "priority_score": 10.9,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_deposit_funding_signal",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful supporting signal on banking-system behavior."
+    },
+    {
+      "title": "Courts convict former rural bank officers, money changer and pawnshop owners",
+      "source": "Bangko Sentral ng Pilipinas",
+      "date": "2026-09-17T07:14:38.000Z",
+      "summary": "PDate: 9/17/2026 Content: The following persons associated with closed banks and money changing and pawnshop businesses have been convicted by various courts for violation of banking and other laws after being investigated and referred for prosecution by the Bangko Sentral ng Pilipinas (BSP). Judgment included fines...",
+      "tags": [
+        "banking_regulation",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_driver_institution",
+        "banking_regulator"
+      ],
+      "priority_score": 10.2,
+      "priority_reasons": [
+        "banking_weak_cluster_signal",
+        "banking_policy_pressure",
+        "editorial_source_confirmation"
+      ],
+      "note": "Weak but relevant banking signal retained because it may cluster into a larger pattern."
+    },
+    {
+      "title": "Philippines, World Bank sign €212.7-M water project loan",
+      "source": "BusinessWorld Banking",
+      "date": "2026-10-08T13:18:57.000Z",
+      "summary": "THE PHILIPPINES has signed a €212.7-million (around P14.9 billion) loan agreement with the World Bank to finance water…",
+      "tags": [
+        "banking_lending",
+        "banking_single_bank",
+        "banking_driver_institution",
+        "banking_multilateral"
+      ],
+      "priority_score": 9.8,
+      "priority_reasons": [
+        "banking_weak_cluster_signal",
+        "editorial_source_confirmation"
+      ],
+      "note": "Weak but relevant banking signal retained because it may cluster into a larger pattern."
+    }
+  ]
+}

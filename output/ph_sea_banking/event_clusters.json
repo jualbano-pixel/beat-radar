@@ -2,28 +2,25 @@
   {
     "cluster_id": "banking_001",
     "cluster_kind": "same_event",
-    "lead_story_id": "1335503c5607",
-    "story_count": 4,
+    "lead_story_id": "c3fc7912359b",
+    "story_count": 6,
     "story_ids": [
-      "1335503c5607",
       "c3fc7912359b",
-      "a20fdc745d47",
+      "a7b78bbd46a6",
+      "6999e6b34d32",
+      "ebcef816fbec",
+      "49a029b780a0",
       "4bd244bd996c"
     ],
     "story_titles": [
-      "Net external liabilities widen to $65.6 billion in Q2",
       "BSP issues capital, other requirements for banks shifting to digital model",
-      "BSP hosts forum to help MSMEs access credit",
+      "GIR settle at US$100B as of end-Sept 2026",
+      "Philippines aligns bond pricing with global convention",
+      "PDIC beats recovery targets",
+      "Confidence in banking system intact – BSP",
       "Courts convict former rural bank officers, money changer and pawnshop owners"
     ],
     "associated_stories": [
-      {
-        "id": "1335503c5607",
-        "title": "Net external liabilities widen to $65.6 billion in Q2",
-        "url": "https://www.philstar.com/business/2026/10/03/2560516/net-external-liabilities-widen-656-billion-q2",
-        "source": "Philstar Business",
-        "published_at": "2026-10-02T16:00:00.000Z"
-      },
       {
         "id": "c3fc7912359b",
         "title": "BSP issues capital, other requirements for banks shifting to digital model",
@@ -32,11 +29,32 @@
         "published_at": "2026-09-23T09:13:50.000Z"
       },
       {
-        "id": "a20fdc745d47",
-        "title": "BSP hosts forum to help MSMEs access credit",
-        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8067",
+        "id": "a7b78bbd46a6",
+        "title": "GIR settle at US$100B as of end-Sept 2026",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8102",
         "source": "Bangko Sentral ng Pilipinas",
-        "published_at": "2026-09-11T07:53:02.000Z"
+        "published_at": "2026-10-07T10:47:14.000Z"
+      },
+      {
+        "id": "6999e6b34d32",
+        "title": "Philippines aligns bond pricing with global convention",
+        "url": "https://business.inquirer.net/615128/philippines-aligns-bond-pricing-with-global-convention",
+        "source": "Inquirer Business",
+        "published_at": "2026-10-10T02:14:00.000Z"
+      },
+      {
+        "id": "ebcef816fbec",
+        "title": "PDIC beats recovery targets",
+        "url": "https://business.inquirer.net/615125/pdic-beats-recovery-targets",
+        "source": "Inquirer Business",
+        "published_at": "2026-10-10T02:12:00.000Z"
+      },
+      {
+        "id": "49a029b780a0",
+        "title": "Confidence in banking system intact – BSP",
+        "url": "https://www.philstar.com/business/2026/10/10/2562074/confidence-banking-system-intact-bsp",
+        "source": "Philstar Business",
+        "published_at": "2026-10-09T16:00:00.000Z"
       },
       {
         "id": "4bd244bd996c",
@@ -47,7 +65,8 @@
       }
     ],
     "entities": [
-      "regulator"
+      "regulator",
+      "private_bank"
     ],
     "event_label": "Credit rules are moving onto the watchlist",
     "compression_line": "Loan rules and regulatory signals are putting credit discipline back on the banking desk's watchlist.",
@@ -56,8 +75,10 @@
     "cluster_type": "pattern",
     "cluster_classification": "secondary",
     "supporting_story_ids": [
-      "c3fc7912359b",
-      "a20fdc745d47",
+      "a7b78bbd46a6",
+      "6999e6b34d32",
+      "ebcef816fbec",
+      "49a029b780a0",
       "4bd244bd996c"
     ]
   },
@@ -95,6 +116,37 @@
   {
     "cluster_id": "banking_003",
     "cluster_kind": "same_event",
+    "lead_story_id": "d5a7388b49b1",
+    "story_count": 1,
+    "story_ids": [
+      "d5a7388b49b1"
+    ],
+    "story_titles": [
+      "Dollar reserves fall below $100 billion"
+    ],
+    "associated_stories": [
+      {
+        "id": "d5a7388b49b1",
+        "title": "Dollar reserves fall below $100 billion",
+        "url": "https://bworldonline.com/top-stories/2026/10/08/785626/dollar-reserves-fall-below-100-billion",
+        "source": "BusinessWorld Banking",
+        "published_at": "2026-10-08T13:19:29.000Z"
+      }
+    ],
+    "entities": [
+      "regulator"
+    ],
+    "event_label": "System liquidity is tightening",
+    "compression_line": "The grouped stories point to banks preserving buffers rather than stretching balance sheets for growth.",
+    "priority_score": 68,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "event",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": []
+  },
+  {
+    "cluster_id": "banking_004",
+    "cluster_kind": "same_event",
     "lead_story_id": "31435165b041",
     "story_count": 1,
     "story_ids": [
@@ -124,23 +176,54 @@
     "supporting_story_ids": []
   },
   {
-    "cluster_id": "banking_004",
+    "cluster_id": "banking_005",
     "cluster_kind": "same_event",
-    "lead_story_id": "d325ba5d4ac1",
+    "lead_story_id": "62b50a252093",
     "story_count": 1,
     "story_ids": [
-      "d325ba5d4ac1"
+      "62b50a252093"
     ],
     "story_titles": [
-      "Philippines, ADB sign P48 billion loan for universal health care"
+      "Banks chase risky chip loans in Asia’s US$8.2 trillion AI buildout"
     ],
     "associated_stories": [
       {
-        "id": "d325ba5d4ac1",
-        "title": "Philippines, ADB sign P48 billion loan for universal health care",
-        "url": "https://www.philstar.com/business/2026/10/03/2560511/philippines-adb-sign-p48-billion-loan-universal-health-care",
-        "source": "Philstar Business",
-        "published_at": "2026-10-02T16:00:00.000Z"
+        "id": "62b50a252093",
+        "title": "Banks chase risky chip loans in Asia’s US$8.2 trillion AI buildout",
+        "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/banks-chase-risky-chip-loans-asias-us8-2-trillion-ai-buildout",
+        "source": "The Business Times Banking",
+        "published_at": "2026-10-06T04:37:11.000Z"
+      }
+    ],
+    "entities": [
+      "private_bank"
+    ],
+    "event_label": "Funding pressure is on watch",
+    "compression_line": "The stories belong together as early banking-system signals, but the direction still needs confirmation.",
+    "priority_score": 56,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "event",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": []
+  },
+  {
+    "cluster_id": "banking_006",
+    "cluster_kind": "same_event",
+    "lead_story_id": "eb61dc881f7a",
+    "story_count": 1,
+    "story_ids": [
+      "eb61dc881f7a"
+    ],
+    "story_titles": [
+      "Philippines, World Bank sign €212.7-M water project loan"
+    ],
+    "associated_stories": [
+      {
+        "id": "eb61dc881f7a",
+        "title": "Philippines, World Bank sign €212.7-M water project loan",
+        "url": "https://bworldonline.com/top-stories/2026/10/08/785627/philippines-world-bank-sign-e212-7-m-water-project-loan",
+        "source": "BusinessWorld Banking",
+        "published_at": "2026-10-08T13:18:57.000Z"
       }
     ],
     "entities": [

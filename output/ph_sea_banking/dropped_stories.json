@@ -1,608 +1,1316 @@
 [
   {
-    "title": "RHR named Philippine’s Leading Hotel Group",
+    "title": "PEZA sees record investment approvals this year",
+    "source": "BusinessWorld Banking",
+    "date": "2026-10-09T08:57:16.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Mental health group opposes blanket social media ban for minors",
+    "source": "BusinessWorld Banking",
+    "date": "2026-10-09T08:54:38.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "More control, less complexity: How player choice is reshaping sportsbook design",
+    "source": "BusinessWorld Banking",
+    "date": "2026-10-09T08:50:48.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "LG Philippines targets data center cooling demand",
+    "source": "BusinessWorld Banking",
+    "date": "2026-10-09T08:39:36.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Nearly 30 years after IMF rescue, Thailand faces new economic test",
+    "source": "BusinessWorld Banking",
+    "date": "2026-10-09T08:32:59.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Fuji-Haya Electric at IIEE 2026: Get smart. Be future-ready",
+    "source": "BusinessWorld Banking",
+    "date": "2026-10-09T08:30:39.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "South Korea, Japan buffeted by hacks as AI lowers bar for cybercriminals",
+    "source": "BusinessWorld Banking",
+    "date": "2026-10-09T08:03:37.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Africa’s biggest IPO exposes continent’s cross-border investing barriers",
+    "source": "BusinessWorld Banking",
+    "date": "2026-10-09T08:02:20.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Philippine Air Force to get advanced Black Hawk training systems from Lockheed Martin",
+    "source": "BusinessWorld Banking",
+    "date": "2026-10-09T07:42:19.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "OpenAI says it has fired three researchers for violating sensitive information policy",
+    "source": "BusinessWorld Banking",
+    "date": "2026-10-09T07:27:10.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Ready to go electric? What to know before making the switch",
+    "source": "BusinessWorld Banking",
+    "date": "2026-10-09T07:15:53.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "PhilFIDA seeks wider market for Philippine fibers at HABI fair",
+    "source": "BusinessWorld Banking",
+    "date": "2026-10-09T07:09:18.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "CCPI presses PHL to diversify growth, build self-sufficient industries",
+    "source": "BusinessWorld Banking",
+    "date": "2026-10-09T06:49:15.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Philippines, Japan strengthen Asia’s clean energy cooperation",
+    "source": "BusinessWorld Banking",
+    "date": "2026-10-09T05:00:39.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "[B-SIDE Podcast] Where Are We Now in the AI Revolution in Business?",
+    "source": "BusinessWorld Banking",
+    "date": "2026-10-09T03:45:09.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "DELSEY PARIS celebrates 80 years of travel, perfected",
+    "source": "BusinessWorld Banking",
+    "date": "2026-10-09T03:30:45.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Philippines raises P168 billion from RTB 32",
+    "source": "BusinessWorld Banking",
+    "date": "2026-10-09T02:41:30.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "AI surveillance startup Flock Safety to cut several hundred jobs amid backlash, sources say",
+    "source": "BusinessWorld Banking",
+    "date": "2026-10-09T01:59:39.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Thousands of Spaniards march to mark death of octogenarian at heart of housing protests",
+    "source": "BusinessWorld Banking",
+    "date": "2026-10-09T01:50:58.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Genre-defying Canadian poet Anne Carson wins 2026 Nobel Prize in Literature",
+    "source": "BusinessWorld Banking",
+    "date": "2026-10-09T01:38:34.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Protesters stage ‘I Am Jane Doe’ rally in New York City against sexual violence",
+    "source": "BusinessWorld Banking",
+    "date": "2026-10-09T01:35:41.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "US to livestream Army execution of Fort Hood shooter, Pentagon official says",
+    "source": "BusinessWorld Banking",
+    "date": "2026-10-09T01:32:19.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "ICC says former Philippine President Duterte fit to stand trial",
+    "source": "BusinessWorld Banking",
+    "date": "2026-10-09T00:56:47.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Toyota PH donates PHP 3 million to support Tamaraw conservation in Mindoro",
+    "source": "BusinessWorld Banking",
+    "date": "2026-10-08T16:05:46.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "The Collector Who Became the Watchmaker",
+    "source": "BusinessWorld Banking",
+    "date": "2026-10-08T16:05:21.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "BÚTLAK: Celebrating 40 years of Negros enterprise",
+    "source": "BusinessWorld Banking",
+    "date": "2026-10-08T16:02:30.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Domestic constraints may blunt gains from Philippines-EU FTA",
+    "source": "BusinessWorld Banking",
+    "date": "2026-10-08T13:19:24.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Budget realignments may address social needs but growth impact unclear",
+    "source": "BusinessWorld Banking",
+    "date": "2026-10-08T13:18:53.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Big-ticket projects in 2026 to propel Peza to record year, says Panga",
+    "source": "Inquirer Business",
+    "date": "2026-10-10T02:10:00.000Z",
+    "reason_dropped": "hard_excluded_event_promo"
+  },
+  {
+    "title": "ERC approves Meralco’s rate hike after a decade",
+    "source": "Inquirer Business",
+    "date": "2026-10-10T19:25:39.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "DBM orders project review ahead of 2028 budget cycle",
+    "source": "Inquirer Business",
+    "date": "2026-10-10T15:14:09.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Mixed pump price adjustments seen Oct. 13",
+    "source": "Inquirer Business",
+    "date": "2026-10-10T05:50:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Gov’t raises P167.25B from new retail bonds",
+    "source": "Inquirer Business",
+    "date": "2026-10-10T02:18:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "GCash IPO seen putting PH firms back on foreign investors’ radar",
+    "source": "Inquirer Business",
+    "date": "2026-10-10T02:16:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "QC has the space, the pace and the perks",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T21:55:31.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "The road to growth runs through C5",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T21:53:59.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "A new view of city living along C5",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T21:53:09.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "The Filipino housing dream is changing, and that’s not a bad thing",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T21:52:58.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "SEC proposes exchange-led oversight of green equity labels",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T19:19:14.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "WTO sees rosier trade in ‘26 as AI shipments boom",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T18:59:33.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "DA urges youth to take up farming",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T18:45:45.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "BIR abatement program draws 2,379 micro taxpayers in 3 months",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T17:56:56.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "BIR warns taxpayers against fake ORUS website",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T17:41:43.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Megawide shifts P1.23B in bond proceeds to 4PH housing",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T17:24:15.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "PSEi rebounds to 5,700 as bargain hunters return",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T17:16:32.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "No sign of reenacted budget yet, says DBM",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T17:07:41.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "MPIC closes P12.4-B Meralco share acquisition",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T15:04:46.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "PAL extends Riyadh flight suspension until Oct. 11",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T13:29:16.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Strong El Niño may drive up food, power costs in 2027",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T12:46:58.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Mixed fuel price adjustments expected next week",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T10:48:43.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "The Wrong Pill",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T07:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Survey: Filipinos lost P121B to scams in 2025",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T05:44:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Peso sinks to fresh record low of 62.90:$1",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T02:34:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "100-km NCR busway boost pushed",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T02:32:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "PH growth seen below 3% with weak demand, inflation",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T02:30:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Figaro Culinary moves to delist from PSE",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T02:26:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Caap ramps up airport makeovers with 91 projects",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T02:24:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "10 firms eye PH’s first natural gas auction",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T02:22:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Toyota pours P3M into tamaraw conservation",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T02:20:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Price is the only P that can break you",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T02:18:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Stop selling certainty: The case for assumption-driven leadership",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T02:16:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Buyers, know your rights: Gov’t strengthens guardrails",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T02:14:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Human hedonism, a springboard to excellent customer service",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T02:12:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Homegrown brands stand tall in Asia’s retail race",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T02:10:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Initial native hydrogen exploration shows promise — DOE chief",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T00:15:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "DTI assures continuity in trade talks after chief negotiator’s exit",
+    "source": "Inquirer Business",
+    "date": "2026-10-09T00:10:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "ASEAN trade expo to showcase regional crafts, enterprises",
     "source": "Philstar Business",
-    "date": "2026-10-02T16:00:00.000Z",
+    "date": "2026-10-09T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Stocks slip to lowest level in 11 months",
+    "title": "The money that wasn’t there",
     "source": "Philstar Business",
-    "date": "2026-10-02T16:00:00.000Z",
+    "date": "2026-10-09T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Philippines, Singapore conclude talks on tax treaty update",
+    "title": "Courage left the meeting room",
     "source": "Philstar Business",
-    "date": "2026-10-02T16:00:00.000Z",
+    "date": "2026-10-09T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "MVP tightens grip on Meralco with P12.4 billion stake deal",
+    "title": "MPIC completes P12.4 billion Meralco deal",
     "source": "Philstar Business",
-    "date": "2026-10-02T16:00:00.000Z",
+    "date": "2026-10-09T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "NTC to issue rules on importation, sale of refurbished mobile phones",
+    "title": "Over 2,000 micro taxpayers seek tax abatement program",
     "source": "Philstar Business",
-    "date": "2026-10-02T16:00:00.000Z",
+    "date": "2026-10-09T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "ICTSI’s Croatia unit hits 4 million TEUs milestone",
+    "title": "Philippines, AZEC strengthen regional oil stockpiling push",
     "source": "Philstar Business",
-    "date": "2026-10-02T16:00:00.000Z",
+    "date": "2026-10-09T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "A multi-faceted problem",
+    "title": "CIC makes 1st dividend remittance of P170 million",
     "source": "Philstar Business",
-    "date": "2026-10-02T16:00:00.000Z",
+    "date": "2026-10-09T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Architecture not gadgets",
+    "title": "Government ‘very confident’ of meeting renewable energy targets",
     "source": "Philstar Business",
-    "date": "2026-10-02T16:00:00.000Z",
+    "date": "2026-10-09T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Globe extends Starlink service to Japan",
+    "title": "Bargain hunting lifts PSEi from 11-month low",
     "source": "Philstar Business",
-    "date": "2026-10-02T16:00:00.000Z",
+    "date": "2026-10-09T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Indian firms eye exclusive ecozone for pharma, biotech",
+    "title": "PEZA sees record investment approvals this year",
     "source": "Philstar Business",
-    "date": "2026-10-02T16:00:00.000Z",
+    "date": "2026-10-09T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "FPH allots P5 billion for new share buyback program",
+    "title": "Government raises P167.3 billion from retail bond sale",
     "source": "Philstar Business",
-    "date": "2026-10-02T16:00:00.000Z",
+    "date": "2026-10-09T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "SMPC cuts more jobs as coal bid uncertainty hits Acacia",
+    "title": "DOE targets P27bn microgrid rollout",
     "source": "Philstar Business",
-    "date": "2026-10-02T16:00:00.000Z",
+    "date": "2026-10-09T05:44:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "GCash brings stock market education within reach through GStocks PH ‘Part-Owner Era’ hubs",
+    "title": "Agri output likely contracted in 3Q",
     "source": "Philstar Business",
-    "date": "2026-10-02T08:00:00.000Z",
+    "date": "2026-10-09T05:41:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Diesel prices may drop by P1/L next week, gasoline and kerosene seen up",
+    "title": "ICT: Hapag-Lloyd suspends Philippine bookings amid port congestion",
     "source": "Philstar Business",
-    "date": "2026-10-02T03:28:00.000Z",
+    "date": "2026-10-09T05:38:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Filipinos get shot at digital economy ownership with GCash IPO, says solon",
+    "title": "7.2% high inflation rate weakens Philippine peso — economist",
     "source": "Philstar Business",
-    "date": "2026-10-02T02:34:00.000Z",
+    "date": "2026-10-09T04:58:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Whoscall launches 'Di Lahat Dinededma' campaign to empower Filipinos to avoid scams without missing important calls",
+    "title": "Supporting Baguio’s next chapter: How Converge ICT powers data, mobility and resilience in urban governance",
     "source": "Philstar Business",
-    "date": "2026-10-02T01:16:00.000Z",
+    "date": "2026-10-09T02:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Looming worker strike to cut Philex’s Padcal mine output",
+    "title": "Megawide secures P13 billion new 4PH contracts in September",
     "source": "Philstar Business",
-    "date": "2026-10-01T16:00:00.000Z",
+    "date": "2026-10-08T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Shakey’s Pizza ushers in business transformation",
+    "title": "Bloomberry expands digital gaming portfolio",
     "source": "Philstar Business",
-    "date": "2026-10-01T16:00:00.000Z",
+    "date": "2026-10-08T16:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Vietnam's economy grew 9.95% in Q3, fastest pace in 4 years",
+    "title": "PGMG, MTVi ink agreement for ‘Filipinos in California’ book",
+    "source": "Philstar Business",
+    "date": "2026-10-08T16:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "UK-Japan-Italy fighter plans Japan design center with '1,000' staff",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Roadblocks in Pakistan capital to deter Imran Khan supporters",
+    "title": "Dutch greenhouse firms in China pivot to selling software",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Japan's Aozora, Arthur D. Little partner on investment, advisory services",
+    "title": "Trump sanctions will not break the ICC, court's special adviser declares",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Student Body President: Stephen Schwarzman (3)",
+    "title": "Russia's attacks on Kyiv test civilian resilience as winter looms",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Once in decline, Japan's hard-drive suppliers ride soaring AI demand",
+    "title": "Taiwan's KMT shows signs of power struggle tracked by US and China",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Japan's TEPCO to counter 'capacity squatters' in AI data center boom",
+    "title": "Japan turns academic success into an export industry",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Young Indians flock to EU as immigration curbs bite in US, UK",
+    "title": "On Lombok island, a volcano climb worth every step",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Scandal-hit Nidec's new CEO long praised by founder Nagamori",
+    "title": "Japan's Nakatsugawa aims to attract more visitors to 'Samurai Road'",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Japan local governments step up Taiwan outreach for chip investment",
+    "title": "Cambodian rice farmers help to conserve threatened cranes",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Nippon Life set to gain from affiliate Corebridge's merger with Equitable",
+    "title": "Japan food tax cut gets cabinet approval with key questions unanswered",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Soybeans slump on dimming hope of Chinese tariff cuts",
+    "title": "Tropicana: Stephen Schwarzman (10)",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Japan's Niterra drops deal for Denso spark plug, exhaust sensor businesses",
+    "title": "Honda to sell Thai-built Mitsubishi pickup under own brand in Southeast Asia",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Japan hits Russia 'shadow fleet' in 1st sanctions since Putin trip to disputed isle",
+    "title": "Japan PM faces calls for immigration cap as she weighs policy on foreigners",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Japan to develop low-cost cruise missile that overwhelms air defenses",
+    "title": "Beijing wields pop culture to court Malaysian Chinese",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Hyundai group tops Honda for first time in US hybrid sales",
+    "title": "Once China's most valuable stock, liquor maker Kweichow Moutai down 43% from peak",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "JAL to lower bar for elite status in bid for frequent flyers",
+    "title": "Bessent to skip IMF, World Bank meetings in Bangkok",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Japan legal tech firm teams with AI provider Harvey to supply data",
+    "title": "Japan's Kobe Steel eyes India M&A to lift compressor production: executive",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Thai Airways suspends CEO after Bangkok airport chaos during flooding",
+    "title": "Japan firms unwind $56bn in cross-shareholdings, 2nd most on record",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Japan finance minister: Government united in view reflation is over",
+    "title": "Japan machine tool order backlog hits all-time high on AI demand",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Japan watchdog prepares sales suspension for Prudential Life",
+    "title": "Nobel laureate Pillay calls US sanctions on ICC judges 'shocking'",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "New World shares swing from gain to loss as investors weigh 11 Skies exit",
+    "title": "Trump's 'super intelligence' AI rebrand triggers rush on .si domain names",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Pakistan needs Indonesia-style reform, not new provinces",
+    "title": "Tariffs targeting China's Temu, Shein shrink US small parcel deliveries",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Three fourths of electronics firms in Malaysia to lift investment: AmCham",
+    "title": "Fujitsu to set up US quantum computing research center in New Mexico",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "GCash parent prices Philippine IPO at record $3.3bn",
+    "title": "Japan's DOGE to 'step up' spending review, eyeing EV subsidies, health checks",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Japan's largest power producer JERA sets up oil storage company",
+    "title": "TDK weighs sale of hard-drive head unit, but regulatory OK uncertain",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Singapore eyes bigger role in nuclear fusion industry",
+    "title": "Mitsubishi Corp. ex-employee faces fine for insider trading",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Through the Lens: Thailand floods leave capital in turmoil",
+    "title": "China's Geely announces entry into Canadian auto market",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "El Nino dries Kalimantan rivers, hits coal shipments in Indonesia",
+    "title": "Tokyo police to set up autonomous driving unit to handle permits, accidents",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Pakistan's new YouTuber tax threatens to spark talent flight",
+    "title": "Malaysia cuts income tax and raises wage floors as election approaches",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Taiwanese banks urged to trim branches as office rents hit high",
+    "title": "China-EU trade talks yield prospect of Chinese hybrid exports halving",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "US won't 'sit there and take' overproduction from China: USTR Greer",
+    "title": "7-Eleven owner eyes European expansion after India exit",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Moving showed me a different America: Stephen Schwarzman (2)",
+    "title": "Nepal, prone to disaster, needs insurance to price risk of catastrophes",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Toshiba to double hard-disk drive supply to fill AI chip memory gap",
+    "title": "Nvidia-backed data center provider Firmus scraps $5bn Australian IPO",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Japan students offered study abroad, grants as job sweeteners",
+    "title": "Editor's Choice: Has the AI race reached its speed limit?",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Japan's soggy September dampens tourist spending",
+    "title": "Exclusive: Apple cuts iPhone 18 Pro orders due to soft demand",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "China shortens leash on property developers",
+    "title": "Honda board had too little say in major investment decisions, chair says",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Japan's Takaichi disavows reflation as US pushes for policy change",
+    "title": "Danang cracks down on begging as Vietnam tourism surges",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Yamato vans add rides to package deliveries on remote Japanese island",
+    "title": "Bangladesh hands UAE's DP World key port contract after years of delay",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Daikin faces calls for cooler, leaner strategy as capital efficiency lags",
+    "title": "AI casts shadow over India's multinational tech job machine",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Making AI work for workers",
+    "title": "Taliban face civil war as China's Afghanistan-Pakistan mediation fails",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Vietjet Thailand aims to double revenue by 2028: CEO",
+    "title": "Line aims to be Thailand's 'everyday AI app' in key market",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Japan banks uncover twice the vulnerabilities following Mythos AI release",
+    "title": "Through the Lens: China's Golden Week holiday",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "BOJ debated more rate hikes to adjust 'accommodative' conditions: opinion summary",
+    "title": "Japan's EV subsidies benefit Tesla more than Honda, Nissan",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Japan's shipbuilding revival fund stokes private investment",
+    "title": "Lehman Brothers: Stephen Schwarzman (9)",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Gas vehicles fall under 50% of global new-auto sales for first time",
+    "title": "Vietnamese in Japan surpass Koreans as foreign population grows",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Northern Japan banks set for merger talks to create region's top lender",
+    "title": "Netflix grows advertiser deals in Japan 12-fold",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "US rate hike bets fade as revised inflation data points to October pause",
+    "title": "Global cyberattacks leak data on at least 320m people since Sept.: Nikkei research",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Japan satellite maker Synspective lands 20-launch deal with Rocket Lab",
+    "title": "Thai crackdown on gun violence challenged by glut of firearms",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "India's opposition steps up calls to oust election commission head",
+    "title": "Japan's Terumo takes $610m hit after losing US customer for plasma device",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Nidec's new chief blames expansion drive, profit chase for write-downs",
+    "title": "Trump's AI free-for-all plays into China's hands",
     "source": "Nikkei Asia Business",
-    "date": "2026-10-03T14:26:16.040Z",
+    "date": "2026-10-10T15:35:17.540Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "US Fed’s Cook sees AI inflationary push as a top 2027 risk",
+    "title": "Revolut CEO says fintech is coming for Amex, JPMorgan in US",
     "source": "The Business Times Banking",
-    "date": "2026-10-01T22:25:16.000Z",
+    "date": "2026-10-09T09:05:06.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "US 10-year Treasury yield risks hitting 6% for first time since 2000: Pimco",
+    "source": "The Business Times Banking",
+    "date": "2026-10-09T05:57:47.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Amex fined US$350 million for anti-money laundering lapses",
+    "source": "The Business Times Banking",
+    "date": "2026-10-09T00:36:47.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "UK card defaults rise for longest period in 17 years: BOE",
+    "source": "The Business Times Banking",
+    "date": "2026-10-08T11:57:34.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Temasek-related Azalea, SeaTown, Seviora Capital to merge in 2027",
+    "source": "The Business Times Banking",
+    "date": "2026-10-08T10:48:13.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "More interest rate hikes needed, but there is ‘flexibility’ about the pace: Fed’s Waller",
+    "source": "The Business Times Banking",
+    "date": "2026-10-08T09:19:21.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Goldman Sachs says middle managers at risk as new hires oversee AI",
+    "source": "The Business Times Banking",
+    "date": "2026-10-08T06:44:18.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "China-based suspect in South Korea bank hacks used AI, Claude tools: CrowdStrike report",
+    "source": "The Business Times Banking",
+    "date": "2026-10-08T04:34:02.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "DBS, OCBC, UOB rout lops billions off STI as inflation, rate concerns spook investors",
+    "source": "The Business Times Banking",
+    "date": "2026-10-08T02:32:10.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Bitcoin falls as US$650 million in risky crypto bets wiped out",
+    "source": "The Business Times Banking",
+    "date": "2026-10-07T14:17:29.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "US$7 trillion data-centre boom is creating gaps in insurance cover within Apac: report",
+    "source": "The Business Times Banking",
+    "date": "2026-10-07T10:18:44.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "India’s central bank lifts rates for first time in nearly four years",
+    "source": "The Business Times Banking",
+    "date": "2026-10-07T05:55:12.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "HSBC plans job cuts across UK wealth business in AI push: report",
+    "source": "The Business Times Banking",
+    "date": "2026-10-07T05:42:56.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "OCBC sheds S$8 billion in value as shares close nearly 6% down; analysts cautious on banks",
+    "source": "The Business Times Banking",
+    "date": "2026-10-07T03:02:15.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "‘Legitimate concern’: JPMorgan CEO Dimon says Anthropic’s Mythos pushed cyber risk up 10 times",
+    "source": "The Business Times Banking",
+    "date": "2026-10-06T22:54:13.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "South Korea investigates possible use of AI in hacks on its banks",
+    "source": "The Business Times Banking",
+    "date": "2026-10-06T12:04:13.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Wall Street bonuses poised to hit record as annual profits forecast to top US$90 billion",
+    "source": "The Business Times Banking",
+    "date": "2026-10-06T10:01:48.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "AI appears to have been used in bank hacks: South Korea’s Lee",
+    "source": "The Business Times Banking",
+    "date": "2026-10-06T07:04:52.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "BOJ may signal underlying inflation has hit 2% goal: sources",
+    "source": "The Business Times Banking",
+    "date": "2026-10-06T06:32:18.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "China, Japan may pull back from US debt, billionaire investor Ray Dalio warns",
+    "source": "The Business Times Banking",
+    "date": "2026-10-06T06:04:40.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Citi targets globally ambitious firms as geopolitical de-risking drives Singapore flows",
+    "source": "The Business Times Banking",
+    "date": "2026-10-05T23:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Digital payment tokens, insurance policies could become tax-exempted for Singapore family offices",
+    "source": "The Business Times Banking",
+    "date": "2026-10-05T13:30:55.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "70% of Asian families set to transfer wealth, but only half see next gen ready for family office",
+    "source": "The Business Times Banking",
+    "date": "2026-10-05T13:07:41.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Half of new accounts at private banks in Singapore industry group opened in a month: ABS",
+    "source": "The Business Times Banking",
+    "date": "2026-10-05T11:55:54.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Revolut’s rise to become Europe’s US$115 billion big bank rival",
+    "source": "The Business Times Banking",
+    "date": "2026-10-05T06:41:59.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "South Korean president orders probe into wave of data breaches at banks, public agencies",
+    "source": "The Business Times Banking",
+    "date": "2026-10-04T07:54:26.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "3 Sentosa Cove bungalows seized in Singapore’s biggest money laundering case now on sale",
+    "source": "VNExpress Business",
+    "date": "2026-10-07T03:17:42.000Z",
     "reason_dropped": "hard_excluded_commerce"
   },
   {
-    "title": "UOB rolls out online booking for branch appointments",
-    "source": "The Business Times Banking",
-    "date": "2026-10-02T11:45:09.000Z",
+    "title": "Phu My Hung 2.0 marks transformation of billion-dollar urban area",
+    "source": "VNExpress Business",
+    "date": "2026-10-10T12:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Fed policymakers lean against October rate hike",
-    "source": "The Business Times Banking",
-    "date": "2026-10-02T05:25:04.000Z",
+    "title": "Singapore's Marina Bay Sands, Resorts World Sentosa casinos fined $137,000 by regulator",
+    "source": "VNExpress Business",
+    "date": "2026-10-10T09:17:02.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Japan does not need excessively loose monetary policy, economy minister says",
-    "source": "The Business Times Banking",
-    "date": "2026-10-02T04:03:57.000Z",
+    "title": "Vietnam-Cambodia trade gathers pace towards $20B target",
+    "source": "VNExpress Business",
+    "date": "2026-10-10T09:14:46.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Why UOB has the most to gain from stronger Singdollar rates: Macquarie",
-    "source": "The Business Times Banking",
-    "date": "2026-10-02T02:40:02.000Z",
+    "title": "Dollar falls against dong on black market",
+    "source": "VNExpress Business",
+    "date": "2026-10-10T09:08:51.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Airtel Money plans UK IPO that may rank as biggest in five years",
-    "source": "The Business Times Banking",
-    "date": "2026-10-01T07:59:21.000Z",
+    "title": "Gold prices climb",
+    "source": "VNExpress Business",
+    "date": "2026-10-09T08:01:17.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "EU questions Binance over continued operations despite wind-down order, FT reports",
-    "source": "The Business Times Banking",
-    "date": "2026-10-01T05:51:12.000Z",
+    "title": "Dollar weakens against dong",
+    "source": "VNExpress Business",
+    "date": "2026-10-09T08:00:45.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Blackstone’s Gautam Banerjee joins DBS board",
-    "source": "The Business Times Banking",
-    "date": "2026-10-01T00:17:38.000Z",
+    "title": "Malaysian billionaire brothers' IOI Properties, Singapore's Capitaland in exclusive talks to buy one of city-state's tallest skyscrapers",
+    "source": "VNExpress Business",
+    "date": "2026-10-09T03:27:19.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "US Fed’s Kashkari says central bank must lower inflation pressures",
-    "source": "The Business Times Banking",
-    "date": "2026-10-01T00:11:57.000Z",
+    "title": "Chinese chocolate persimmon hits record low prices in Vietnam",
+    "source": "VNExpress Business",
+    "date": "2026-10-09T03:26:35.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Laying the foundations for a new world of money",
-    "source": "The Business Times Banking",
-    "date": "2026-09-30T23:00:00.000Z",
+    "title": "$70K per international student: US seeks to charge fee for work after graduation",
+    "source": "VNExpress Business",
+    "date": "2026-10-09T03:26:18.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Trust is the real AI advantage",
-    "source": "The Business Times Banking",
-    "date": "2026-09-30T23:00:00.000Z",
+    "title": "Tennis star Serena Williams-backed coffee chain with over 1,500 outlets mulls Singapore listing",
+    "source": "VNExpress Business",
+    "date": "2026-10-09T03:26:02.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Watchdog finds no Fed misconduct in renovation; Trump calls for Powell’s resignation",
-    "source": "The Business Times Banking",
-    "date": "2026-09-30T22:44:19.000Z",
+    "title": "Uniqlo set to overtake H&M as world's second-largest apparel retailer",
+    "source": "VNExpress Business",
+    "date": "2026-10-09T03:25:44.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "US dollar surges in September, leaving euro lagging",
-    "source": "The Business Times Banking",
-    "date": "2026-09-30T12:17:19.000Z",
+    "title": "Terumo Vietnam, VNHA partner on cardiovascular training",
+    "source": "VNExpress Business",
+    "date": "2026-10-09T01:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Renminbi has ‘huge’ room to grow as more Chinese firms expand overseas: StanChart",
-    "source": "The Business Times Banking",
-    "date": "2026-09-30T09:45:46.000Z",
+    "title": "Singapore's homegrown restaurant brand Crystal Jade shuts another 4 outlets, 9 so far this year",
+    "source": "VNExpress Business",
+    "date": "2026-10-08T23:25:01.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Robinhood to allow 24-hour weekend trading of US stocks as industry shifts to wider access",
-    "source": "The Business Times Banking",
-    "date": "2026-09-30T00:22:08.000Z",
+    "title": "Southeast Asia’s second-most visited country proposes $30 departure tax for air travelers",
+    "source": "VNExpress Business",
+    "date": "2026-10-08T23:24:46.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "US Fed’s Williams sees no urgency for next rate hike",
-    "source": "The Business Times Banking",
-    "date": "2026-09-29T22:54:06.000Z",
+    "title": "3 Malaysian tycoon daughters, including richest man Robert Kuok's, make Fortune's 'Most Powerful Women Asia' list",
+    "source": "VNExpress Business",
+    "date": "2026-10-08T23:18:14.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Greenback climbs as oil, US yields stay high",
-    "source": "The Business Times Banking",
-    "date": "2026-09-29T12:14:38.000Z",
+    "title": "Vingroup, controlled by Southeast Asia’s richest billionaire, orders 200 driverless metro trains from Alstom for Hanoi",
+    "source": "VNExpress Business",
+    "date": "2026-10-08T10:16:09.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "GXS wants more secured loans, targets second-hand car market",
-    "source": "The Business Times Banking",
-    "date": "2026-09-29T09:45:46.000Z",
+    "title": "World Bank lifts Vietnam’s 2026 GDP growth forecast to 7.4%",
+    "source": "VNExpress Business",
+    "date": "2026-10-08T10:15:50.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "UOB found ‘grossly negligent’ over Stamford Land rights issue advice, to pay S$1.9 million",
-    "source": "The Business Times Banking",
-    "date": "2026-09-29T07:59:24.000Z",
+    "title": "Dollar slips against dong",
+    "source": "VNExpress Business",
+    "date": "2026-10-08T10:15:34.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "India central bank's FX blitz drains nearly US$20 billion from surplus liquidity",
-    "source": "The Business Times Banking",
-    "date": "2026-09-29T07:43:01.000Z",
+    "title": "Gasoline prices rise",
+    "source": "VNExpress Business",
+    "date": "2026-10-08T10:15:18.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Vietcombank considering maiden public offshore bond issue: sources",
-    "source": "The Business Times Banking",
-    "date": "2026-09-29T07:23:02.000Z",
+    "title": "Japan raids 4 largest beer makers over suspected price cartel",
+    "source": "VNExpress Business",
+    "date": "2026-10-08T02:53:32.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Australia’s central bank lifts rates to 15-year high, signals risk of further hikes",
-    "source": "The Business Times Banking",
-    "date": "2026-09-29T04:59:19.000Z",
+    "title": "Thailand asks firms to cut egg exports as floods hit supplies",
+    "source": "VNExpress Business",
+    "date": "2026-10-08T02:53:14.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "China’s bad consumer debt cleanup falters, spooking investors",
-    "source": "The Business Times Banking",
-    "date": "2026-09-29T01:09:01.000Z",
+    "title": "World's largest convenience store chain exits India amid fierce competition",
+    "source": "VNExpress Business",
+    "date": "2026-10-08T02:52:55.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "US Fed watchdog flags apparent data breaches by retiring staff member",
-    "source": "The Business Times Banking",
-    "date": "2026-09-28T23:07:19.000Z",
+    "title": "Singapore former national goalkeeper's food stall shutters after 6 years",
+    "source": "VNExpress Business",
+    "date": "2026-10-07T08:52:42.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "UBS faces 9% profit hit from latest Swiss capital plan",
-    "source": "The Business Times Banking",
-    "date": "2026-09-28T15:17:38.000Z",
+    "title": "Gold prices slide",
+    "source": "VNExpress Business",
+    "date": "2026-10-07T08:09:48.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Greenback near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets",
-    "source": "The Business Times Banking",
-    "date": "2026-09-28T12:39:01.000Z",
+    "title": "Dollar dips against dong",
+    "source": "VNExpress Business",
+    "date": "2026-10-07T07:07:14.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Indian firms ready US$3 billion of debt issues with eye on potential RBI rate hike",
-    "source": "The Business Times Banking",
-    "date": "2026-09-28T10:37:35.000Z",
+    "title": "Wife of Southeast Asia's richest man among 5 Vietnamese on Asia’s most powerful women list",
+    "source": "VNExpress Business",
+    "date": "2026-10-07T04:43:37.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Hong Kong lists 8 ETFs to tap Chinese insurer demand for overseas assets",
-    "source": "The Business Times Banking",
-    "date": "2026-09-28T05:44:59.000Z",
+    "title": "15-year-old flat in Singapore’s Bishan sells for record $1.34M",
+    "source": "VNExpress Business",
+    "date": "2026-10-07T04:41:56.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "HSBC makes big push for affluent clients in India to fuel growth",
-    "source": "The Business Times Banking",
-    "date": "2026-09-28T05:01:05.000Z",
+    "title": "Malaysia draws property buyers with Singapore-style comfort at prices closer to Thailand’s",
+    "source": "VNExpress Business",
+    "date": "2026-10-07T03:17:58.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "China’s yuan eases after Trump-Xi meeting, but exports underpin further strength",
-    "source": "The Business Times Banking",
-    "date": "2026-09-28T04:47:14.000Z",
+    "title": "Bangkok luxury property developer eyes $300M project on Thailand’s largest island",
+    "source": "VNExpress Business",
+    "date": "2026-10-07T03:17:24.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Bank of Japan debated need for faster rate hikes, July minutes show",
-    "source": "The Business Times Banking",
-    "date": "2026-09-28T03:03:02.000Z",
+    "title": "India’s richest man joins Jensen Huang among world’s 5 biggest wealth gainers",
+    "source": "VNExpress Business",
+    "date": "2026-10-07T02:27:10.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Foreign banks have expressed UBS merger interest: Swiss newspaper",
-    "source": "The Business Times Banking",
-    "date": "2026-09-27T21:48:50.000Z",
+    "title": "Vietstock 2026 to feature livestock conferences, technical seminars",
+    "source": "VNExpress Business",
+    "date": "2026-10-07T02:00:00.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "UBS leaving home would be more expensive, Swiss minister says",
-    "source": "The Business Times Banking",
-    "date": "2026-09-27T09:32:17.000Z",
+    "title": "Which Southeast Asian country is forecast to see world's fastest ultra-rich population growth?",
+    "source": "VNExpress Business",
+    "date": "2026-10-06T23:56:04.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "China’s second-richest man among world’s 5 biggest single-day wealth losers",
+    "source": "VNExpress Business",
+    "date": "2026-10-06T23:52:43.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Singapore lender DBS's CEO Tan Su Shan named Asia's most powerful businesswoman",
+    "source": "VNExpress Business",
+    "date": "2026-10-06T23:40:12.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Late Malaysian billionaire Lim Goh Tong's grandson seeks to remove administrators in Genting family will dispute",
+    "source": "VNExpress Business",
+    "date": "2026-10-06T23:39:48.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Wife of Southeast Asia’s richest man returns to second place on Vietnam's rich list",
+    "source": "VNExpress Business",
+    "date": "2026-10-06T23:39:32.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "8,500 people join CapitaLand campaign to support vulnerable children",
+    "source": "VNExpress Business",
+    "date": "2026-10-06T11:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Gold prices slip after 3-day flat streak",
+    "source": "VNExpress Business",
+    "date": "2026-10-06T10:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Dollar strengthens against dong on black market",
+    "source": "VNExpress Business",
+    "date": "2026-10-06T07:10:23.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Elon Musk becomes trillionaire again, exceeds combined wealth of next 3 billionaires",
+    "source": "VNExpress Business",
+    "date": "2026-10-06T03:18:09.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Phu My Hung's new luxury project draws on river-inspired architecture",
+    "source": "VNExpress Business",
+    "date": "2026-10-06T03:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "New project offers luxury homes on four-frontage site in Phu My Hung center",
+    "source": "VNExpress Business",
+    "date": "2026-10-05T12:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Singapore's decades-old Lao Liang Pork Trotter Jelly & Shark Meat stall to shut down this month",
+    "source": "VNExpress Business",
+    "date": "2026-10-05T09:54:53.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Developer backed by billionaire Lucio Tan plans to build Philippines’ 2nd tallest tower",
+    "source": "VNExpress Business",
+    "date": "2026-10-05T09:54:38.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Singapore ranks 6th among world's top hubs for next generation wealth, ahead of Hong Kong",
+    "source": "VNExpress Business",
+    "date": "2026-10-05T08:29:31.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Dollar up against dong on black market",
+    "source": "VNExpress Business",
+    "date": "2026-10-05T08:29:08.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "HCMC posts decade-high economic growth of 9.86%",
+    "source": "VNExpress Business",
+    "date": "2026-10-05T07:42:43.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Ghana, PSL Machinery advance cashew processing partnership",
+    "source": "VNExpress Business",
+    "date": "2026-10-05T04:00:00.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Singapore's second richest man Kwek Leng Beng's CDL sells 61% of units at new condo over launch weekend",
+    "source": "VNExpress Business",
+    "date": "2026-10-05T03:52:09.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Singapore-listed firm to open 250 new Starbucks outlets mainly in Vietnam, Thailand",
+    "source": "VNExpress Business",
+    "date": "2026-10-05T03:49:37.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Bangkok’s 46-year-old park offered for sale at $300M as flood damages rides",
+    "source": "VNExpress Business",
+    "date": "2026-10-05T03:48:49.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Malaysia's IOI Properties to buy Singapore’s Shenton House from its billionaire CEO for $1",
+    "source": "VNExpress Business",
+    "date": "2026-10-05T00:29:55.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Which Southeast Asian brand is the most valuable?",
+    "source": "VNExpress Business",
+    "date": "2026-10-04T08:13:57.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Vietnam has 1,233 ultra-rich individuals, population set for 4th-fastest growth globally",
+    "source": "VNExpress Business",
+    "date": "2026-10-04T07:39:50.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Genting Singapore vs Marina Bay Sands: Who leads the casino market in world’s second-richest country?",
+    "source": "VNExpress Business",
+    "date": "2026-10-04T02:24:53.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Thai billionaire's joint venture to build luxury mixed-use project along Singapore River",
+    "source": "VNExpress Business",
+    "date": "2026-10-04T01:22:59.000Z",
+    "reason_dropped": "low_relevance"
+  },
+  {
+    "title": "Billionaire brothers' IOI Properties to build 4 new Marriott hotels across Malaysia",
+    "source": "VNExpress Business",
+    "date": "2026-10-04T00:27:23.000Z",
     "reason_dropped": "low_relevance"
   },
   {
@@ -618,351 +1326,33 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "GDP expands 9.95% in Q3",
-    "source": "VNExpress Business",
-    "date": "2026-10-03T06:48:44.000Z",
+    "title": "Bangko Sentral ng Pilipinas Discount Window Facility interest rates effective 08 October 2026",
+    "source": "Bangko Sentral ng Pilipinas",
+    "date": "2026-10-07T03:13:04.000Z",
+    "reason_dropped": "hard_excluded_commerce"
+  },
+  {
+    "title": "Philippines to adopt international bond pricing convention",
+    "source": "Bangko Sentral ng Pilipinas",
+    "date": "2026-10-09T00:56:42.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "From risk to reputation: Jason Ho on what makes a bank worthy of trust",
-    "source": "VNExpress Business",
-    "date": "2026-10-02T12:00:00.000Z",
+    "title": "BSP commemorates service of Cesar E.A. Virata",
+    "source": "Bangko Sentral ng Pilipinas",
+    "date": "2026-10-08T05:36:41.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Dollar gains over dong",
-    "source": "VNExpress Business",
-    "date": "2026-10-02T05:02:30.000Z",
+    "title": "September inflation rises to 7.2 percent",
+    "source": "Bangko Sentral ng Pilipinas",
+    "date": "2026-10-06T04:13:40.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Singapore-listed company to take over 1,100 Starbucks outlets in Asia",
-    "source": "VNExpress Business",
-    "date": "2026-10-02T04:41:58.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Warren Buffett becomes world's 10th richest man after surpassing billionaire Zara founder",
-    "source": "VNExpress Business",
-    "date": "2026-10-02T04:41:43.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Singapore homegrown restaurant brand Crystal Jade's holding firms placed under receivership",
-    "source": "VNExpress Business",
-    "date": "2026-10-02T04:41:28.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Bangkok surpasses Singapore, Hong Kong in luxury home price growth",
-    "source": "VNExpress Business",
-    "date": "2026-10-02T04:41:11.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Japan’s richest man Masayoshi Son trails only Elon Musk in one-day wealth gain",
-    "source": "VNExpress Business",
-    "date": "2026-10-02T04:40:56.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Gold prices decline",
-    "source": "VNExpress Business",
-    "date": "2026-10-02T04:40:40.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Wife of Southeast Asia’s richest man slips to 3rd on Vietnam’s rich list",
-    "source": "VNExpress Business",
-    "date": "2026-10-02T03:15:07.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Which airline has Southeast Asia’s highest revenue?",
-    "source": "VNExpress Business",
-    "date": "2026-10-02T00:01:46.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Brokers remain positive on CDL of Singapore's 2nd richest man Kwek Leng Beng following strategic review",
-    "source": "VNExpress Business",
-    "date": "2026-10-01T23:49:23.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Bamboo Airways makes 8th chairman change in under 5 years",
-    "source": "VNExpress Business",
-    "date": "2026-10-01T09:19:18.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Japanese retail giant Aeon targets 300 supermarkets, 30 shopping malls in Vietnam",
-    "source": "VNExpress Business",
-    "date": "2026-10-01T09:19:01.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Vietnam eyes $18B in Q4 agriculture exports",
-    "source": "VNExpress Business",
-    "date": "2026-10-01T09:18:43.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Dollar rises against dong on black market",
-    "source": "VNExpress Business",
-    "date": "2026-10-01T09:18:23.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Gasoline prices increase",
-    "source": "VNExpress Business",
-    "date": "2026-10-01T08:46:29.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Gold prices dip",
-    "source": "VNExpress Business",
-    "date": "2026-10-01T08:42:53.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "F&B market grows amid intensifying competition",
-    "source": "VNExpress Business",
-    "date": "2026-10-01T08:42:30.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "World's second richest country to give one million households utility rebates in October",
-    "source": "VNExpress Business",
-    "date": "2026-09-30T09:41:40.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Casino billionaire sells home for $8.9M in world’s most expensive residential market",
-    "source": "VNExpress Business",
-    "date": "2026-09-30T09:15:17.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Dollar slips against dong",
-    "source": "VNExpress Business",
-    "date": "2026-09-30T08:26:13.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Gold prices gain",
-    "source": "VNExpress Business",
-    "date": "2026-09-30T07:47:44.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "First ‘Select by Hilton’ hotel to open in Southeast Asia’s second-most visited country",
-    "source": "VNExpress Business",
-    "date": "2026-09-30T07:47:29.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "World's richest woman grows $33B richer in a year without running a company",
-    "source": "VNExpress Business",
-    "date": "2026-09-30T05:00:20.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Singapore’s TikTok-viral cafe owner apologizes for late salaries, staff paying for supplies",
-    "source": "VNExpress Business",
-    "date": "2026-09-30T05:00:03.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Hong Kong challenges world's biggest super-prime property market in sales",
-    "source": "VNExpress Business",
-    "date": "2026-09-30T04:59:48.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Bus, train fares in Asia’s richest country to rise 7%",
-    "source": "VNExpress Business",
-    "date": "2026-09-30T04:59:29.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Luckin Coffee has 100 outlets in Southeast Asia's smallest country",
-    "source": "VNExpress Business",
-    "date": "2026-09-30T04:59:12.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Singapore's 6-year-old homegrown patisserie to shutter by year-end",
-    "source": "VNExpress Business",
-    "date": "2026-09-30T03:42:55.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Former glue salesman becomes billionaire as chip-cooling material sales surge",
-    "source": "VNExpress Business",
-    "date": "2026-09-30T00:50:14.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "CDL of Singapore's 2nd richest man Kwek Leng Beng to hire dedicated CEO for fund management",
-    "source": "VNExpress Business",
-    "date": "2026-09-30T00:47:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Tea exports to US jump 36% on higher volumes, prices",
-    "source": "VNExpress Business",
-    "date": "2026-09-29T09:42:14.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "5 Asian billionaires post world’s biggest single-day wealth gains",
-    "source": "VNExpress Business",
-    "date": "2026-09-29T09:41:56.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Vingroup of Southeast Asia's richest man enters oil industry with new company",
-    "source": "VNExpress Business",
-    "date": "2026-09-29T09:41:38.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Gold prices decline to 8-week bottom",
-    "source": "VNExpress Business",
-    "date": "2026-09-29T08:44:29.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Dollar increases against dong",
-    "source": "VNExpress Business",
-    "date": "2026-09-29T08:43:51.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Hundreds attend opening event of Phu My Hung's luxury apartment project",
-    "source": "VNExpress Business",
-    "date": "2026-09-28T12:15:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Shares of Singapore's second richest man Kwek Leng Beng’s CDL plunge after strategic review release",
-    "source": "VNExpress Business",
-    "date": "2026-09-28T10:15:06.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Gold prices drop to 6-week low",
-    "source": "VNExpress Business",
-    "date": "2026-09-28T07:46:20.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Dollar dips against dong",
-    "source": "VNExpress Business",
-    "date": "2026-09-28T07:45:56.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Cushman & Wakefield taps into Vietnam's hyperscale data center growth",
-    "source": "VNExpress Business",
-    "date": "2026-09-28T07:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Hermes diamond bracelet draws $282K bid at Singapore’s biggest money laundering case auction",
-    "source": "VNExpress Business",
-    "date": "2026-09-28T05:15:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Thai billionaire Charoen Sirivadhanabhakdi's firm eyes $1B listing for real estate investment trust",
-    "source": "VNExpress Business",
-    "date": "2026-09-28T04:00:17.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Japanese retailer MaxValu’s stores in Thailand to drop name after 19 years",
-    "source": "VNExpress Business",
-    "date": "2026-09-28T03:38:35.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Bangkok shoppers empty store shelves as flood paralyzes city",
-    "source": "VNExpress Business",
-    "date": "2026-09-28T02:48:35.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Techcombank Hanoi International Marathon generates nearly $14M for local economy",
-    "source": "VNExpress Business",
-    "date": "2026-09-28T01:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Which country is Southeast Asia's largest oil importer?",
-    "source": "VNExpress Business",
-    "date": "2026-09-27T23:40:45.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Airlines in Southeast Asia's 2nd largest aviation market hit by soaring jet fuel",
-    "source": "VNExpress Business",
-    "date": "2026-09-27T23:37:38.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Singapore's large gyms struggle to stay in shape as smaller chains win over customers",
-    "source": "VNExpress Business",
-    "date": "2026-09-27T13:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Hong Kong see hotels revamped into student dorms",
-    "source": "VNExpress Business",
-    "date": "2026-09-27T11:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Hong Kong remains Asia's top billionaire hub despite losing two members",
-    "source": "VNExpress Business",
-    "date": "2026-09-27T10:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Nam A Bank secures $60M from FMO for green finance, small businesses",
-    "source": "VNExpress Business",
-    "date": "2026-09-27T06:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Phu My Hung relocates real estate trading floor after over 20 years",
-    "source": "VNExpress Business",
-    "date": "2026-09-27T06:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Singapore tops globally in foreign commercial property investment",
-    "source": "VNExpress Business",
-    "date": "2026-09-26T11:00:00.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "194,000 Jetstar Asia customers approved for $8.9M refunds",
-    "source": "VNExpress Business",
-    "date": "2026-09-26T06:14:45.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Singapore billionaire family's UOL discussing purchase of $382M Hong Kong hotel",
-    "source": "VNExpress Business",
-    "date": "2026-09-26T05:03:28.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "Dollar advances against dong on black market",
-    "source": "VNExpress Business",
-    "date": "2026-09-26T05:02:54.000Z",
+    "title": "Inflation tumaas sa 7.2 porsiyento noong Setyembre",
+    "source": "Bangko Sentral ng Pilipinas",
+    "date": "2026-10-06T08:15:03.000Z",
     "reason_dropped": "low_relevance"
   },
   {
@@ -1092,33 +1482,27 @@
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "Gilunsad sa BSP ang fin-ed roadshow sa Cebu",
-    "source": "Bangko Sentral ng Pilipinas",
-    "date": "2026-09-15T14:01:19.000Z",
+    "title": "Clean and accessible water for Filipinos in underserved areas with EUR212.7 million World Bank financing",
+    "source": "Department of Finance",
+    "date": "2026-10-09T05:55:22.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "BSP recognizes outstanding Visayas partners",
-    "source": "Bangko Sentral ng Pilipinas",
-    "date": "2026-09-14T06:40:52.000Z",
+    "title": "Credit Information Corporation remits first-ever dividend, generating resources for national development",
+    "source": "Department of Finance",
+    "date": "2026-10-08T08:31:12.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "BSP co-chairs ASEAN meeting on capital account liberalization",
-    "source": "Bangko Sentral ng Pilipinas",
-    "date": "2026-09-11T06:01:34.000Z",
+    "title": "Toshiba to invest billions in PH, expand electronics production capacity",
+    "source": "Department of Finance",
+    "date": "2026-10-05T07:19:34.000Z",
     "reason_dropped": "low_relevance"
   },
   {
-    "title": "BOP deficit narrows in H1 2026 amid stronger financial account inflows",
-    "source": "Bangko Sentral ng Pilipinas",
-    "date": "2026-09-11T11:34:01.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "PH external debt rises in Q2 2026, remains manageable",
-    "source": "Bangko Sentral ng Pilipinas",
-    "date": "2026-09-11T11:59:24.000Z",
+    "title": "DOF, ADB boost financial protections for Filipinos, businesses from financial crime",
+    "source": "Department of Finance",
+    "date": "2026-10-05T02:34:12.000Z",
     "reason_dropped": "low_relevance"
   },
   {
@@ -1149,30 +1533,6 @@
     "title": "PH, UK-ASEAN explore partnerships to create more jobs, build future-ready Filipino workforce",
     "source": "Department of Finance",
     "date": "2026-09-28T04:40:08.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "PH gains access to up to £5 billion UK financing support for priority projects",
-    "source": "Department of Finance",
-    "date": "2026-09-23T07:51:02.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "PH secures PhP2-Billion Australia grant to expand jobs and investment",
-    "source": "Department of Finance",
-    "date": "2026-09-22T09:55:21.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "PH granted US$60-Million to reform energy sector for more affordable, reliable power",
-    "source": "Department of Finance",
-    "date": "2026-09-10T03:13:21.000Z",
-    "reason_dropped": "low_relevance"
-  },
-  {
-    "title": "PH takes investment agenda to HK, eyes China market, deeper investment ties",
-    "source": "Department of Finance",
-    "date": "2026-09-07T08:37:17.000Z",
     "reason_dropped": "low_relevance"
   }
 ]
