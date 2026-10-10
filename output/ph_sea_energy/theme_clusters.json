@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "theme_id": "energy_fuel_prices_easing",
+    "theme_label": "Fuel prices are easing through rollbacks",
+    "theme_summary": "Pump-price movement is pointing downward, with diesel, gasoline, and fuel-monitor stories reinforcing the same cost direction.",
+    "story_count": 2,
+    "cluster_ids": [
+      "energy_001"
+    ],
+    "story_ids": [
+      "3fefd7e72552",
+      "e01c84c7b995"
+    ],
+    "associated_stories": [
+      {
+        "id": "3fefd7e72552",
+        "title": "Mixed fuel price adjustments expected next week",
+        "url": "https://business.inquirer.net/615058/mixed-fuel-price-adjustments-expected-next-week",
+        "source": "Inquirer Business Energy",
+        "published_at": "2026-10-09T10:48:43.000Z"
+      },
+      {
+        "id": "e01c84c7b995",
+        "title": "Mixed pump price adjustments seen Oct. 13",
+        "url": "https://business.inquirer.net/615310/mixed-pump-price-adjustments-seen-oct-13",
+        "source": "Inquirer Business Energy",
+        "published_at": "2026-10-10T05:50:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [],
+    "dominant_angle_signals": [],
+    "top_story_refs": [
+      "3fefd7e72552"
+    ],
+    "theme_type": "secondary"
+  }
+]

@@ -1,4 +1,60 @@
 {
-  "top_stories": [],
+  "top_stories": [
+    {
+      "title": "ERC approves Meralco’s rate hike after a decade",
+      "source": "Inquirer Business Energy",
+      "date": "2026-10-10T19:25:39.000Z",
+      "summary": "MANILA, Philippines — Consumers may have to brace for even higher power rates, as the Energy Regulatory Commission (ERC) has approved Manila Electric Co.’s (Meralco) rate reset after more than a decade. In its decision, the ERC set a total revenue requirement of about P342 billion over the four years, a significant...",
+      "tags": [
+        "digital_policy"
+      ],
+      "priority_score": 5.6,
+      "priority_reasons": [
+        "policy_shift",
+        "practical_usability_impact"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "Mixed pump price adjustments seen Oct. 13",
+      "source": "Inquirer Business Energy",
+      "date": "2026-10-10T05:50:00.000Z",
+      "summary": "MANILA, Philippines — Diesel products are on track for three consecutive weeks of rollbacks, while gasoline prices are expected to increase anew on Oct. 13. In an advisory on Friday, Jetti Petroleum president Leo Bellas said diesel prices may decrease by P1.80 to P2 per liter, while gasoline may rise by P2 to P2.20 per",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 4.6,
+      "priority_reasons": [
+        "policy_shift"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "Mixed fuel price adjustments expected next week",
+      "source": "Inquirer Business Energy",
+      "date": "2026-10-09T10:48:43.000Z",
+      "summary": "MANILA, Philippines — Motorists will continue to enjoy diesel savings for a third consecutive week, while gasoline prices will likely rise again next week. In a Friday advisory, Jetti Petroleum president Leo Bellas said diesel prices may decrease by P1.80 to P2 per liter. READ: Tehran’s wartime billboards mock Trump...",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 4.6,
+      "priority_reasons": [
+        "policy_shift"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "Manila Water bolsters resilience to El Niño",
+      "source": "Philippine Star Business Energy",
+      "date": "2026-10-10T16:00:00.000Z",
+      "summary": "Manila Water has completed the installation of submarine transmission lines for the East Bay Phase 2 project, enhancing its capability to convey additional water across the East Bay area, improving system reliability and operational flexibility to help ensure continuous water service amid the challenges posed by the...",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    }
+  ],
   "secondary_signals": []
 }

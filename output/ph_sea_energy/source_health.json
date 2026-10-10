@@ -7,27 +7,25 @@
     "normalizedCount": 0,
     "droppedCount": 0,
     "keptCount": 0,
-    "error": "Non-whitespace before first tag.\nLine: 1\nColumn: 1\nChar: ﻿",
-    "errorKind": "parse_error",
+    "error": "Status code 503",
+    "errorKind": "http_error",
     "beat": "ph_sea_energy",
     "url": "https://www.bworldonline.com/feed/",
     "type": "rss",
-    "checkedAt": "2026-10-03T18:58:36.989Z"
+    "checkedAt": "2026-10-10T19:42:17.400Z"
   },
   {
     "source": "Inquirer Business Energy",
-    "success": false,
-    "health": "failing",
-    "fetchedCount": 0,
-    "normalizedCount": 0,
-    "droppedCount": 0,
-    "keptCount": 0,
-    "error": "Status code 403",
-    "errorKind": "http_error",
+    "success": true,
+    "health": "healthy",
+    "fetchedCount": 40,
+    "normalizedCount": 40,
+    "droppedCount": 37,
+    "keptCount": 3,
     "beat": "ph_sea_energy",
     "url": "https://business.inquirer.net/feed",
     "type": "rss",
-    "checkedAt": "2026-10-03T18:58:36.989Z"
+    "checkedAt": "2026-10-10T19:42:17.400Z"
   },
   {
     "source": "BusinessMirror Energy",
@@ -42,7 +40,7 @@
     "beat": "ph_sea_energy",
     "url": "https://businessmirror.com.ph/business/feed/",
     "type": "rss",
-    "checkedAt": "2026-10-03T18:58:36.989Z"
+    "checkedAt": "2026-10-10T19:42:17.400Z"
   },
   {
     "source": "Philippine Star Business Energy",
@@ -50,12 +48,12 @@
     "health": "healthy",
     "fetchedCount": 20,
     "normalizedCount": 20,
-    "droppedCount": 20,
-    "keptCount": 0,
+    "droppedCount": 19,
+    "keptCount": 1,
     "beat": "ph_sea_energy",
     "url": "https://www.philstar.com/rss/business",
     "type": "rss",
-    "checkedAt": "2026-10-03T18:58:36.989Z"
+    "checkedAt": "2026-10-10T19:42:17.400Z"
   },
   {
     "source": "Malaya Business",
@@ -70,7 +68,7 @@
     "beat": "ph_sea_energy",
     "url": "https://malaya.com.ph/feed/",
     "type": "rss",
-    "checkedAt": "2026-10-03T18:58:36.989Z"
+    "checkedAt": "2026-10-10T19:42:17.400Z"
   },
   {
     "source": "BusinessWorld Energy",
@@ -80,11 +78,11 @@
     "normalizedCount": 0,
     "droppedCount": 0,
     "keptCount": 0,
-    "error": "Non-whitespace before first tag.\nLine: 1\nColumn: 1\nChar: ﻿",
-    "errorKind": "parse_error",
+    "error": "Status code 503",
+    "errorKind": "http_error",
     "beat": "ph_sea_energy",
     "url": "https://www.bworldonline.com/feed/",
     "type": "rss",
-    "checkedAt": "2026-10-03T18:58:36.989Z"
+    "checkedAt": "2026-10-10T19:42:17.400Z"
   }
 ]

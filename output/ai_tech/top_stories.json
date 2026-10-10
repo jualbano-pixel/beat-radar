@@ -1,6 +1,87 @@
 {
   "top_stories": [
     {
+      "title": "MDI Ventures sharpens SEA thesis around AI, blockchain, digital asset infra",
+      "source": "e27 SEA Tech",
+      "date": "2026-10-06T22:00:14.000Z",
+      "summary": "MDI Ventures, the corporate venture capital arm of Indonesia’s TelkomGroup, is narrowing its Southeast Asia investment focus around enterprise AI, AI infrastructure, governance software, real-world asset tokenisation, institutional custody, and regulated digital asset rails. The Jakarta-headquartered firm said its u...",
+      "tags": [
+        "enterprise_tech",
+        "startups_vc"
+      ],
+      "priority_score": 22.6,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "policy_shift",
+        "systemic_importance",
+        "safety_or_governance",
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the technology ecosystem, such as businesses, governments, infrastructure operators, consumers, or regulators."
+    },
+    {
+      "title": "Globe’s cybersecurity chief steps down",
+      "source": "Philippine Star Business AI/Tech",
+      "date": "2026-10-10T16:00:00.000Z",
+      "summary": "Telco-to-tech giant Globe Telecom Inc. lost its main cybersecurity leader, as he is stepping away not just from the company, but from the corporate sector.",
+      "tags": [
+        "cybersecurity",
+        "telecom_connectivity"
+      ],
+      "priority_score": 16.8,
+      "priority_reasons": [
+        "policy_shift",
+        "material_technology_effect",
+        "cybersecurity_or_resilience_signal",
+        "connectivity_expansion_signal",
+        "safety_or_governance",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because cybersecurity pressure can quickly change operating risk, compliance expectations, and public trust."
+    },
+    {
+      "title": "Granite Asia, Google AI Futures Fund team up to back Asia’s AI founders",
+      "source": "e27 SEA Tech",
+      "date": "2026-10-07T03:28:35.000Z",
+      "summary": "Asia’s AI founders are increasingly facing a split-screen reality. Investor interest is high, but building at the frontier of artificial intelligence still requires more than a seed cheque. Startups need access to large models, cloud infrastructure, technical feedback, distribution channels and patient capital, all...",
+      "tags": [
+        "startups_vc"
+      ],
+      "priority_score": 16.6,
+      "priority_reasons": [
+        "reported_material_development",
+        "model_or_platform_change",
+        "infrastructure_move",
+        "material_technology_effect",
+        "strategic_finance",
+        "broad_ecosystem_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the technology ecosystem, such as businesses, governments, infrastructure operators, consumers, or regulators."
+    },
+    {
+      "title": "OneByZero raises US$20M Series A to help enterprises move AI from pilots to production",
+      "source": "e27 SEA Tech",
+      "date": "2026-10-05T06:00:45.000Z",
+      "summary": "For many large companies in Southeast Asia, the challenge with artificial intelligence (AI) is no longer access. The models are available, the cloud infrastructure is ready, and boards have approved AI experimentation. The harder problem is turning that experimentation into systems that work inside heavily regulated...",
+      "tags": [
+        "startups_vc"
+      ],
+      "priority_score": 16.4,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "infrastructure_move",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact",
+        "editorial_source_confirmation",
+        "minor_or_routine"
+      ],
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the technology ecosystem, such as businesses, governments, infrastructure operators, consumers, or regulators."
+    },
+    {
       "title": "#OpEd: The Discord ban affects freelancers, students, remote workers",
       "source": "Inquirer Tech",
       "date": "2026-09-24T01:02:09.000Z",
@@ -21,59 +102,79 @@
       "why_it_matters": "This matters because it is a concrete development in infrastructure, deployment, market behavior, or investment rather than vendor commentary."
     },
     {
-      "title": "Data security, privacy remain barriers to AI adoption",
-      "source": "Philippine Star Business AI/Tech",
-      "date": "2026-10-03T16:00:00.000Z",
-      "summary": "Philippine businesses are increasingly embracing AI to boost productivity, but concerns over data security and privacy continue to hamper further adoption.",
+      "title": "0G picks Singapore as global base, expands AI research into badminton",
+      "source": "e27 SEA Tech",
+      "date": "2026-10-05T11:30:56.000Z",
+      "summary": "For most artificial intelligence companies, Singapore is either a regional sales base or a policy-friendly testbed. For Zero Gravity, better known as 0G, the city-state is now becoming something more central: its global headquarters. The AI infrastructure company said it will invest about US$15.4 million in Singapor...",
       "tags": [
-        "enterprise_tech"
+        "digital_policy"
       ],
-      "priority_score": 13.3,
+      "priority_score": 12.9,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "policy_shift",
+        "material_technology_effect",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
+    },
+    {
+      "title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
+      "source": "TechCrunch AI",
+      "date": "2026-10-09T16:56:42.000Z",
+      "summary": "Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to hundreds of proposed and enacted moratoriums from New York to San Franc...",
+      "tags": [
+        "tech_infrastructure"
+      ],
+      "priority_score": 12.8,
       "priority_reasons": [
         "reported_material_development",
-        "material_technology_effect",
-        "safety_or_governance",
-        "enterprise_scale_signal",
-        "multi_group_impact",
+        "infrastructure_move",
+        "systemic_importance",
+        "practical_usability_impact",
         "editorial_source_confirmation"
       ],
       "why_it_matters": "This matters because it is a concrete development in infrastructure, deployment, market behavior, or investment rather than vendor commentary."
     },
     {
-      "title": "One-person company: Why Southeast Asia’s next unicorn may look nothing like Grab",
-      "source": "e27 SEA Tech",
-      "date": "2026-09-28T01:30:40.000Z",
-      "summary": "For almost two decades, the startup creation playbook for Southeast Asia has been largely predictable: build a super app, raise hundreds of millions of dollars, staff thousands of employees, operate in dozens of markets and scale to dominate the region. Firms like Grab, Sea Group and GoTo have since been synonymous...",
+      "title": "Amazon drops data center NDAs, and AI agents want your credit card",
+      "source": "TechCrunch AI",
+      "date": "2026-10-09T16:53:02.000Z",
+      "summary": "Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to hundreds of proposed and enacted moratoriums from New York to San Franc...",
       "tags": [
-        "startups_vc"
+        "tech_infrastructure"
       ],
-      "priority_score": 12.4,
+      "priority_score": 12.8,
       "priority_reasons": [
-        "reported_or_regulatory_development",
-        "policy_shift",
+        "reported_material_development",
+        "infrastructure_move",
+        "systemic_importance",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because it is a concrete development in infrastructure, deployment, market behavior, or investment rather than vendor commentary."
+    }
+  ],
+  "secondary_signals": [
+    {
+      "title": "Singtel’s RE:AI partners SIT-NVIDIA centre to tackle enterprise AI deployment gap",
+      "source": "e27 SEA Tech",
+      "date": "2026-10-08T05:30:39.000Z",
+      "summary": "For many companies, the harder part of artificial intelligence is no longer running a pilot. It is turning that pilot into something reliable enough to sit inside daily operations. That gap is what Singtel’s RE:AI and the Singapore Institute of Technology (SIT) are trying to address through a new partnership with th...",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 12.1,
+      "priority_reasons": [
+        "reported_material_development",
+        "material_technology_effect",
+        "strategic_partnership",
         "enterprise_scale_signal",
         "practical_usability_impact",
         "editorial_source_confirmation"
       ],
-      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
-    },
-    {
-      "title": "SIA has scaled AI. Aviation must now govern the point of action",
-      "source": "e27 SEA Tech",
-      "date": "2026-09-28T01:00:39.000Z",
-      "summary": "Singapore Airlines’ expanding artificial intelligence (AI) portfolio shows that adoption is no longer the main issue. The harder question is what an AI system should be permitted to do. The Business Times reported on 18 August that Singapore Airlines, or SIA, has deployed more than 160 AI applications and identified...",
-      "tags": [
-        "enterprise_tech"
-      ],
-      "priority_score": 11.9,
-      "priority_reasons": [
-        "reported_or_regulatory_development",
-        "material_technology_effect",
-        "enterprise_scale_signal",
-        "multi_group_impact",
-        "editorial_source_confirmation"
-      ],
-      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
+      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
     },
     {
       "title": "How Albertsons Companies is reimagining retail from the inside out",
@@ -84,7 +185,7 @@
         "tech_infrastructure",
         "enterprise_tech"
       ],
-      "priority_score": 11.6,
+      "priority_score": 11.2,
       "priority_reasons": [
         "vendor_announcement_supporting_signal",
         "model_or_platform_change",
@@ -93,7 +194,7 @@
         "broad_ecosystem_impact",
         "editorial_source_confirmation"
       ],
-      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the technology ecosystem, such as businesses, governments, infrastructure operators, consumers, or regulators."
+      "note": "Useful because it has broad practical impact across the technology ecosystem."
     },
     {
       "title": "How to connect AI usage to business value",
@@ -115,46 +216,85 @@
         "editorial_source_confirmation",
         "minor_or_routine"
       ],
-      "why_it_matters": "This matters because it changes how more than one important group can build, buy, deploy, secure, or govern technology."
+      "note": "Useful because it affects more than one important audience or buyer group."
     },
     {
-      "title": "SMEs adopt AI four times slower than big business, the fix starts with the PC",
+      "title": "East Asia’s crypto market splits as Korea bets on AI tokens and Hong Kong courts institutions",
       "source": "e27 SEA Tech",
-      "date": "2026-10-02T03:00:55.000Z",
-      "summary": "Talking about artificial intelligence (AI) in the context of Small, Medium Enterprises (SMEs) is no longer a discussion about the future, but about the present. According to IMDA’s latest data, SMEs’ AI adoption rate has more than tripled in just one year: 14.5 per cent of SMEs have adopted AI as compared to 62.5 pe...",
+      "date": "2026-10-06T04:01:42.000Z",
+      "summary": "East Asia’s crypto market is no longer moving as one bloc. New regional data shows a fragmented landscape where South Korea is trading artificial intelligence-linked tokens at scale, Hong Kong is pulling in institutional capital, Japan’s retail users are quietly moving on-chain, and China’s stablecoin activity is ex...",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 10.9,
+      "priority_reasons": [
+        "policy_shift",
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it has broad practical impact across the technology ecosystem."
+    },
+    {
+      "title": "Addressing the Digital Shift – AI Accounting ERP Trend in Singapore",
+      "source": "e27 SEA Tech",
+      "date": "2026-10-06T08:55:15.000Z",
+      "summary": "Selecting a scalable enterprise solution is no longer just an operational choice; it is a core business strategy. For small and medium businesses navigating a highly digitalized economy, legacy architectures fail to meet modern efficiency standards. Integrating advanced automation into financial workflows is crucial...",
+      "tags": [
+        "ai_automation",
+        "enterprise_tech"
+      ],
+      "priority_score": 10.4,
+      "priority_reasons": [
+        "reported_material_development",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
+    },
+    {
+      "title": "Why Southeast Asia’s AI coding race is moving from models to infrastructure",
+      "source": "e27 SEA Tech",
+      "date": "2026-10-05T03:58:37.000Z",
+      "summary": "For the past three years, much of the AI debate inside Southeast Asia’s engineering teams has centred on a familiar question: which model is best? Founders, CTOs and developers compared GPT-4, Claude, Codex, Cursor and open-weight models on code completion, documentation, debugging and speed. For many startups, the...",
+      "tags": [
+        "ai_automation",
+        "enterprise_tech",
+        "startups_vc"
+      ],
+      "priority_score": 10.4,
+      "priority_reasons": [
+        "reported_material_development",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
+    },
+    {
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "source": "OpenAI Blog",
+      "date": "2026-10-06T16:00:00.000Z",
+      "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
       "tags": [
         "enterprise_tech"
       ],
-      "priority_score": 10.8,
+      "priority_score": 9.9,
       "priority_reasons": [
-        "reported_or_regulatory_development",
+        "vendor_announcement_supporting_signal",
+        "model_or_platform_change",
         "material_technology_effect",
+        "strategic_partnership",
         "enterprise_scale_signal",
         "practical_usability_impact",
-        "editorial_source_confirmation"
+        "editorial_source_confirmation",
+        "vendor_announcement_demoted"
       ],
-      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
+      "note": "Shows practical adoption or rollout worth tracking."
     },
-    {
-      "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
-      "source": "TechCrunch AI",
-      "date": "2026-10-03T18:43:57.000Z",
-      "summary": "The CEO of Amazon Web Services tried to push back against widespread suspicion of data centers.",
-      "tags": [
-        "tech_infrastructure"
-      ],
-      "priority_score": 10.3,
-      "priority_reasons": [
-        "reported_material_development",
-        "infrastructure_move",
-        "material_technology_effect",
-        "practical_usability_impact",
-        "editorial_source_confirmation"
-      ],
-      "why_it_matters": "This matters because it is a concrete development in infrastructure, deployment, market behavior, or investment rather than vendor commentary."
-    }
-  ],
-  "secondary_signals": [
     {
       "title": "BSP issues capital, other requirements for banks shifting to digital model",
       "source": "Bangko Sentral ng Pilipinas AI/Tech",
@@ -174,64 +314,37 @@
       "note": "Useful as a reported or official development rather than vendor-authored positioning."
     },
     {
-      "title": "Meta appoints Dhruv Vohra to lead Southeast Asia business as AI and chat commerce reshape online retail",
+      "title": "SEA’s insurers face a new question: what happens when customers have agents?",
       "source": "e27 SEA Tech",
-      "date": "2026-10-01T03:30:32.000Z",
-      "summary": "Meta has appointed Dhruv Vohra as Managing Director of its Global Business Group in Southeast Asia, putting a longtime regional executive in charge of one of the company’s most commercially important and behaviourally complex markets. Based in the region, Vohra will oversee Meta’s commercial strategy across Indonesi...",
+      "date": "2026-10-08T02:00:37.000Z",
+      "summary": "Insurance has spent the past year experimenting with generative AI in the most obvious corners of the enterprise: summarising emails, extracting details from claims forms, drafting responses for call-centre agents, and speeding up document-heavy back-office work. Those are useful gains. But a new whitepaper by Googl...",
       "tags": [
         "enterprise_tech"
       ],
-      "priority_score": 6.1,
+      "priority_score": 9.6,
       "priority_reasons": [
+        "reported_material_development",
+        "material_technology_effect",
         "enterprise_scale_signal",
         "multi_group_impact",
-        "editorial_source_confirmation"
+        "editorial_source_confirmation",
+        "minor_or_routine"
       ],
-      "note": "Useful because it affects more than one important audience or buyer group."
+      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
     },
     {
-      "title": "Japan’s Kawaijuku backs Do Ventures to enter Vietnam’s education market",
-      "source": "e27 SEA Tech",
-      "date": "2026-09-30T04:23:12.000Z",
-      "summary": "Japan’s education companies are increasingly looking beyond a home market shaped by a shrinking population. Kawaijuku, one of the country’s larger private education providers, is taking a venture-capital route into Vietnam. KJ Holdings, the holding company of the Japanese education group, has invested in Do Ventures...",
-      "tags": [
-        "startups_vc"
-      ],
-      "priority_score": 5.6,
-      "priority_reasons": [
-        "reported_or_regulatory_development",
-        "practical_usability_impact",
-        "editorial_source_confirmation"
-      ],
-      "note": "Useful as a reported or official development rather than vendor-authored positioning."
-    },
-    {
-      "title": "Singapore’s AI dividend will depend on what happens after the pilot phase",
-      "source": "e27 SEA Tech",
-      "date": "2026-10-02T11:17:28.000Z",
-      "summary": "Singapore’s early bet on artificial intelligence could give its economy a modest but meaningful lift as population ageing starts to bite. But the real test will not be how many companies say they use AI. It will be whether they can rebuild work around it. The ASEAN+3 Macroeconomic Research Office (AMRO) said in its...",
-      "tags": [
-        "general_ai_tech"
-      ],
-      "priority_score": 5.3,
-      "priority_reasons": [
-        "reported_or_regulatory_development",
-        "practical_usability_impact",
-        "editorial_source_confirmation"
-      ],
-      "note": "Useful as a reported or official development rather than vendor-authored positioning."
-    },
-    {
-      "title": "The AI agent boom is exposing Southeast Asia’s startup codebase problem",
-      "source": "e27 SEA Tech",
-      "date": "2026-10-01T01:20:29.000Z",
-      "summary": "Across Southeast Asia’s technology hubs, the AI conversation has moved quickly from “Can it help developers write code faster?” to a harder question: “Can it be trusted to work on the codebase by itself?” That shift matters. The first wave of generative AI in software engineering was largely about assistance: autoco...",
+      "title": "Pinoy startup joins Anthropic’s partner network",
+      "source": "Philippine Star Business AI/Tech",
+      "date": "2026-10-10T16:00:00.000Z",
+      "summary": "A Philippine digital startup has been selected as a network partner of Anthropic, the developer of artificial intelligence assistant Claude, to become the first in the country to do so.",
       "tags": [
         "enterprise_tech",
         "startups_vc"
       ],
-      "priority_score": 4.6,
+      "priority_score": 9.3,
       "priority_reasons": [
+        "model_or_platform_change",
+        "strategic_partnership",
         "enterprise_scale_signal",
         "practical_usability_impact",
         "editorial_source_confirmation"
@@ -239,169 +352,89 @@
       "note": "Shows practical adoption or rollout worth tracking."
     },
     {
-      "title": "A*STAR and EDB unveil SG Semiconductor as partnerships target AI-era chis",
+      "title": "SoftBank, Grab, PETROS explore AI infra platform in Sarawak",
       "source": "e27 SEA Tech",
-      "date": "2026-09-28T06:38:11.000Z",
-      "summary": "Singapore is putting a clearer name and sharper frame around one of its most important industrial bets. On Friday, the city-state announced SG Semiconductor, a national identity for its semiconductor sector, jointly developed by A*STAR and the Singapore Economic Development Board (EDB). The move is not a new agency...",
+      "date": "2026-10-09T05:30:44.000Z",
+      "summary": "Sarawak is not usually the first place that comes to mind when Southeast Asia’s artificial intelligence race is discussed. Singapore has the region’s densest cloud and startup ecosystem, Malaysia’s Johor has been drawing data centre investment because of its proximity to Singapore, and Indonesia has been positioning...",
       "tags": [
-        "tech_infrastructure"
+        "startups_vc"
       ],
-      "priority_score": 4.4,
+      "priority_score": 9.3,
       "priority_reasons": [
         "infrastructure_move",
-        "editorial_source_confirmation"
-      ],
-      "note": "Useful supporting editorial signal."
-    },
-    {
-      "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
-      "source": "OpenAI Blog",
-      "date": "2026-09-23T02:00:00.000Z",
-      "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
-      "tags": [
-        "general_ai_tech"
-      ],
-      "priority_score": 4.2,
-      "priority_reasons": [
-        "vendor_authored_context",
-        "enterprise_scale_signal",
+        "material_technology_effect",
         "multi_group_impact",
         "editorial_source_confirmation"
       ],
       "note": "Useful because it affects more than one important audience or buyer group."
     },
     {
-      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
-      "source": "OpenAI Blog",
-      "date": "2026-09-23T13:00:00.000Z",
-      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+      "title": "Stop calling Southeast Asia an emerging market in mobile. It is where the behaviour gets invented",
+      "source": "e27 SEA Tech",
+      "date": "2026-10-05T04:00:36.000Z",
+      "summary": "In November, ASEAN leaders are scheduled to sign the Digital Economy Framework Agreement (DEFA), the first region-wide pact written specifically for the digital economy. Negotiators closed the text in Manila in May, and ASEAN’s own statement puts the prize at up to US$2 trillion in digital economy value by 2030 if t...",
       "tags": [
-        "general_ai_tech"
+        "digital_policy"
       ],
-      "priority_score": 3.2,
+      "priority_score": 8.4,
       "priority_reasons": [
-        "vendor_announcement_supporting_signal",
-        "material_technology_effect",
-        "practical_usability_impact",
+        "reported_or_regulatory_development",
+        "policy_shift",
         "editorial_source_confirmation"
       ],
-      "note": "Useful supporting editorial signal."
+      "note": "Useful as a reported or official development rather than vendor-authored positioning."
     },
     {
-      "title": "The smartphone is becoming the agent",
-      "source": "Inquirer Tech",
-      "date": "2026-09-30T12:53:03.000Z",
-      "summary": "Your smartphone already knows where you are, what time your next meeting starts, and which apps you use. Alibaba now wants it to do something with all that information. The company is betting on that idea with Qwen Intelligence, a platform designed to help smartphone makers build AI agents directly into their device...",
+      "title": "WTO sees rosier trade in ‘26 as AI shipments boom",
+      "source": "Inquirer Business AI/Tech",
+      "date": "2026-10-09T18:59:33.000Z",
+      "summary": "MANILA, Philippines — The World Trade Organization (WTO) has more than doubled its global merchandise trade growth forecast for 2026, as surging demand for artificial intelligence (AI) equipment, particularly from Asian manufacturers, has outweighed disruptions caused by the war in the Middle East. In its latest Glo...",
       "tags": [
         "consumer_tech_shift"
       ],
-      "priority_score": 3.1,
+      "priority_score": 8.3,
       "priority_reasons": [
+        "reported_material_development",
+        "material_technology_effect",
+        "consumer_behavior_or_market_shift",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
+    },
+    {
+      "title": "AI boom pushes chipmakers to expand across Asia Pacific, FedEx report finds",
+      "source": "e27 SEA Tech",
+      "date": "2026-10-09T11:11:59.000Z",
+      "summary": "The artificial intelligence boom is no longer just a story about software models, cloud platforms, or the companies racing to build the next large language model. It is increasingly a story about where chips are made, how far they travel, and whether the supply chains behind them can withstand the next geopolitical...",
+      "tags": [
+        "ai_automation",
+        "tech_infrastructure"
+      ],
+      "priority_score": 7.3,
+      "priority_reasons": [
+        "infrastructure_move",
         "multi_group_impact",
         "editorial_source_confirmation"
       ],
       "note": "Useful because it affects more than one important audience or buyer group."
     },
     {
-      "title": "Introducing the Agents API",
-      "source": "OpenAI Blog",
-      "date": "2026-09-10T00:00:00.000Z",
-      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
-      "tags": [
-        "ai_automation",
-        "tech_infrastructure"
-      ],
-      "priority_score": 2.7,
-      "priority_reasons": [
-        "vendor_announcement_supporting_signal",
-        "infrastructure_move",
-        "multi_group_impact",
-        "editorial_source_confirmation",
-        "routine_launch_without_broader_impact",
-        "vendor_announcement_demoted"
-      ],
-      "note": "Useful because it affects more than one important audience or buyer group."
-    },
-    {
-      "title": "University students can get free AWS training and certification resources through Student Rewards",
-      "source": "Inquirer Tech",
-      "date": "2026-09-23T11:55:03.000Z",
-      "summary": "For university students looking to build skills in cloud computing and AI, Amazon Web Services has launched a program that is worth knowing about, particularly for those already studying technology-related courses. AWS Student Rewards, available through the AWS Builder Center, gives verified higher education student...",
-      "tags": [
-        "tech_infrastructure"
-      ],
-      "priority_score": 2.2,
-      "priority_reasons": [
-        "infrastructure_move",
-        "practical_usability_impact",
-        "editorial_source_confirmation",
-        "routine_launch_without_broader_impact"
-      ],
-      "note": "Useful supporting editorial signal."
-    },
-    {
-      "title": "The hidden economics of autonomous AI agents",
+      "title": "MAS gives Singapore’s financial firms one year to prepare for AI risk rules",
       "source": "e27 SEA Tech",
-      "date": "2026-10-02T03:28:53.000Z",
-      "summary": "For many startup founders, the first attempt to understand the cost of artificial intelligence (AI) begins in the wrong place: the model provider’s pricing page. They calculate the price of input and output tokens, compare one model against another, and try to forecast usage as if AI were a simple utility meter. Tha...",
-      "tags": [
-        "ai_automation",
-        "startups_vc"
-      ],
-      "priority_score": 1.8,
-      "priority_reasons": [
-        "practical_usability_impact",
-        "editorial_source_confirmation"
-      ],
-      "note": "Useful supporting editorial signal."
-    },
-    {
-      "title": "Telco brings single AI model workspace for subscribers",
-      "source": "Inquirer Tech",
-      "date": "2026-09-24T17:14:28.000Z",
-      "summary": "Most people who want to try AI tools in the Philippines run into the same problem: there are several of them, each with its own subscription, and most are priced in dollars. Local telco player Smart Communications is trying to address that with AI.Smart, a browser-based workspace that puts several models behind one...",
-      "tags": [
-        "ai_automation",
-        "telecom_connectivity"
-      ],
-      "priority_score": 1.2,
-      "priority_reasons": [
-        "practical_usability_impact",
-        "editorial_source_confirmation"
-      ],
-      "note": "Useful supporting editorial signal."
-    },
-    {
-      "title": "Why AI could unbundle the beauty industry",
-      "source": "e27 SEA Tech",
-      "date": "2026-09-30T01:30:28.000Z",
-      "summary": "A new beauty brand no longer needs to look much like a traditional beauty company. It does not need its own factory, a large product-development department or a nationwide retail network. Specialist manufacturers can formulate, produce and package cosmetics for outside brands, while e-commerce provides access to cus...",
+      "date": "2026-10-08T06:16:03.000Z",
+      "summary": "Singapore’s financial regulator has set out how banks, insurers, payment companies and other financial institutions should govern artificial intelligence, as AI moves from back-office experiments into systems that can influence customer outcomes, risk decisions and even execution. The Monetary Authority of Singapore...",
       "tags": [
         "general_ai_tech"
       ],
-      "priority_score": 0.1,
+      "priority_score": 6.6,
       "priority_reasons": [
-        "editorial_source_confirmation"
-      ],
-      "note": "Useful supporting editorial signal."
-    },
-    {
-      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
-      "source": "OpenAI Blog",
-      "date": "2026-09-23T00:00:00.000Z",
-      "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
-      "tags": [
-        "general_ai_tech"
-      ],
-      "priority_score": -1.3,
-      "priority_reasons": [
-        "vendor_announcement_supporting_signal",
-        "strategic_partnership",
+        "reported_or_regulatory_development",
+        "safety_or_governance",
+        "practical_usability_impact",
         "editorial_source_confirmation",
-        "routine_launch_without_broader_impact",
-        "vendor_announcement_demoted"
+        "minor_or_routine"
       ],
-      "note": "Useful supporting editorial signal."
+      "note": "Useful as a reported or official development rather than vendor-authored positioning."
     }
   ]
 }

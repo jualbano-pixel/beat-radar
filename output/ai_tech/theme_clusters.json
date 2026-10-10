@@ -2,34 +2,30 @@
   {
     "theme_id": "enterprise_technology",
     "theme_label": "enterprise technology adoption",
-    "theme_summary": "enterprise technology adoption is the shared editorial thread across 9 related stories. The strongest signal is enterprise adoption pressure rising.",
-    "story_count": 9,
+    "theme_summary": "enterprise technology adoption is the shared editorial thread across 12 related stories. The strongest signal is enterprise adoption pressure rising.",
+    "story_count": 12,
     "cluster_ids": [],
     "story_ids": [
       "c3fc7912359b",
-      "7796574853d0",
-      "0a2ac8a3e916",
-      "75c65c27341f",
-      "6ab9b897c283",
-      "50f50fd34c1b",
+      "ca87cc6b3a7c",
+      "543f39816c2c",
+      "d30be04880e9",
+      "16b06963e13b",
+      "71cb0a7ae79a",
+      "11b7a0d8fb6f",
+      "57a03dfa6950",
+      "2896758265ce",
       "637d3dfa247f",
       "bb71e409dd7f",
       "4410122683c5"
     ],
     "associated_stories": [
       {
-        "id": "0a2ac8a3e916",
-        "title": "SMEs adopt AI four times slower than big business, the fix starts with the PC",
-        "url": "https://e27.co/how-ai-can-be-the-biggest-accelerator-for-smes-20260930",
+        "id": "16b06963e13b",
+        "title": "MDI Ventures sharpens SEA thesis around AI, blockchain, digital asset infra",
+        "url": "https://e27.co/mdi-ventures-sharpens-sea-thesis-around-ai-blockchain-digital-asset-infra-20261006",
         "source": "e27 SEA Tech",
-        "published_at": "2026-10-02T03:00:55.000Z"
-      },
-      {
-        "id": "50f50fd34c1b",
-        "title": "SIA has scaled AI. Aviation must now govern the point of action",
-        "url": "https://e27.co/sia-has-scaled-ai-aviation-must-now-govern-the-point-of-action-20260924",
-        "source": "e27 SEA Tech",
-        "published_at": "2026-09-28T01:00:39.000Z"
+        "published_at": "2026-10-06T22:00:14.000Z"
       },
       {
         "id": "c3fc7912359b",
@@ -39,11 +35,32 @@
         "published_at": "2026-09-23T09:13:50.000Z"
       },
       {
-        "id": "7796574853d0",
-        "title": "Data security, privacy remain barriers to AI adoption",
-        "url": "https://www.philstar.com/business/2026/10/04/2560714/data-security-privacy-remain-barriers-ai-adoption",
-        "source": "Philippine Star Business AI/Tech",
-        "published_at": "2026-10-03T16:00:00.000Z"
+        "id": "57a03dfa6950",
+        "title": "Why Southeast Asia’s AI coding race is moving from models to infrastructure",
+        "url": "https://e27.co/why-southeast-asias-ai-coding-race-is-moving-from-models-to-infrastructure-20261005",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-10-05T03:58:37.000Z"
+      },
+      {
+        "id": "543f39816c2c",
+        "title": "Singtel’s RE:AI partners SIT-NVIDIA centre to tackle enterprise AI deployment gap",
+        "url": "https://e27.co/singtels-reai-partners-sit-nvidia-centre-to-tackle-enterprise-ai-deployment-gap-20261008",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-10-08T05:30:39.000Z"
+      },
+      {
+        "id": "71cb0a7ae79a",
+        "title": "Addressing the Digital Shift – AI Accounting ERP Trend in Singapore",
+        "url": "https://e27.co/top-5-popular-ai-accounting-erp-for-smb-in-singapore-20261006",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-10-06T08:55:15.000Z"
+      },
+      {
+        "id": "d30be04880e9",
+        "title": "SEA’s insurers face a new question: what happens when customers have agents?",
+        "url": "https://e27.co/seas-insurers-face-a-new-question-what-happens-when-customers-have-agents-20261007",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-10-08T02:00:37.000Z"
       },
       {
         "id": "637d3dfa247f",
@@ -53,6 +70,13 @@
         "published_at": "2026-10-01T16:00:00.000Z"
       },
       {
+        "id": "2896758265ce",
+        "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+        "url": "https://openai.com/index/atlassian-partnership",
+        "source": "OpenAI Blog",
+        "published_at": "2026-10-06T16:00:00.000Z"
+      },
+      {
         "id": "4410122683c5",
         "title": "How to connect AI usage to business value",
         "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
@@ -60,18 +84,18 @@
         "published_at": "2026-09-16T12:00:00.000Z"
       },
       {
-        "id": "6ab9b897c283",
-        "title": "The AI agent boom is exposing Southeast Asia’s startup codebase problem",
-        "url": "https://e27.co/the-ai-agent-boom-is-exposing-southeast-asias-startup-codebase-problem-20261001",
+        "id": "11b7a0d8fb6f",
+        "title": "The junior developer dilemma: How AI is reshaping tech talent in Southeast Asia",
+        "url": "https://e27.co/the-junior-developer-dilemma-how-ai-is-reshaping-tech-talent-in-southeast-asia-20261006",
         "source": "e27 SEA Tech",
-        "published_at": "2026-10-01T01:20:29.000Z"
+        "published_at": "2026-10-06T05:21:26.000Z"
       },
       {
-        "id": "75c65c27341f",
-        "title": "Meta appoints Dhruv Vohra to lead Southeast Asia business as AI and chat commerce reshape online retail",
-        "url": "https://e27.co/meta-appoints-dhruv-vohra-to-lead-southeast-asia-business-as-ai-and-chat-commerce-reshape-online-retail-20261001",
-        "source": "e27 SEA Tech",
-        "published_at": "2026-10-01T03:30:32.000Z"
+        "id": "ca87cc6b3a7c",
+        "title": "Pinoy startup joins Anthropic’s partner network",
+        "url": "https://www.philstar.com/business/2026/10/11/2562282/pinoy-startup-joins-anthropics-partner-network",
+        "source": "Philippine Star Business AI/Tech",
+        "published_at": "2026-10-10T16:00:00.000Z"
       },
       {
         "id": "bb71e409dd7f",
@@ -82,47 +106,65 @@
       }
     ],
     "dominant_reason_codes": [
-      "market_signal",
+      "developing_pattern",
       "meaningful_shift",
-      "policy_regulatory_move"
+      "local_business_relevance"
     ],
     "dominant_angle_signals": [
       "enterprise adoption pressure rising",
-      "demand still unproven",
-      "developer workflow changing"
+      "developer workflow changing",
+      "transition friction emerging"
     ],
     "top_story_refs": [
-      "0a2ac8a3e916",
-      "50f50fd34c1b",
-      "c3fc7912359b"
+      "16b06963e13b",
+      "c3fc7912359b",
+      "57a03dfa6950"
     ]
   },
   {
     "theme_id": "data_centers_infrastructure",
     "theme_label": "data centers and digital infrastructure",
-    "theme_summary": "data centers and digital infrastructure is the shared editorial thread across 4 related stories. The strongest signal is infrastructure lag visible.",
-    "story_count": 4,
-    "cluster_ids": [],
+    "theme_summary": "data centers and digital infrastructure is the shared editorial thread across 6 related stories. The strongest signal is infrastructure lag visible.",
+    "story_count": 6,
+    "cluster_ids": [
+      "event_001"
+    ],
     "story_ids": [
+      "7fbc7f2d590f",
+      "dd1a4ba899e0",
       "219f0cf14b9b",
-      "104b51f0ce0a",
-      "67dac9f5f513",
-      "b32e9b847135"
+      "2c3f8de21687",
+      "40d79eed5f0a",
+      "53ed02a7c664"
     ],
     "associated_stories": [
       {
-        "id": "67dac9f5f513",
-        "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
-        "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas",
-        "source": "TechCrunch AI",
-        "published_at": "2026-10-03T18:43:57.000Z"
+        "id": "53ed02a7c664",
+        "title": "OneByZero raises US$20M Series A to help enterprises move AI from pilots to production",
+        "url": "https://e27.co/onebyzero-raises-us20m-series-a-to-help-enterprises-move-ai-from-pilots-to-production-20261005",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-10-05T06:00:45.000Z"
       },
       {
-        "id": "b32e9b847135",
-        "title": "Introducing the Agents API",
-        "url": "https://openai.com/index/introducing-the-agents-api",
-        "source": "OpenAI Blog",
-        "published_at": "2026-09-10T00:00:00.000Z"
+        "id": "7fbc7f2d590f",
+        "title": "Amazon drops data center NDAs, and AI agents want your credit card",
+        "url": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card",
+        "source": "TechCrunch AI",
+        "published_at": "2026-10-09T16:53:02.000Z"
+      },
+      {
+        "id": "dd1a4ba899e0",
+        "title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
+        "url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust",
+        "source": "TechCrunch AI",
+        "published_at": "2026-10-09T16:56:42.000Z"
+      },
+      {
+        "id": "40d79eed5f0a",
+        "title": "Granite Asia, Google AI Futures Fund team up to back Asia’s AI founders",
+        "url": "https://e27.co/granite-asia-google-ai-futures-fund-team-up-to-back-asias-ai-founders-20261007",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-10-07T03:28:35.000Z"
       },
       {
         "id": "219f0cf14b9b",
@@ -132,27 +174,67 @@
         "published_at": "2026-09-23T11:55:03.000Z"
       },
       {
-        "id": "104b51f0ce0a",
-        "title": "A*STAR and EDB unveil SG Semiconductor as partnerships target AI-era chis",
-        "url": "https://e27.co/astar-and-edb-unveil-sg-semiconductor-as-partnerships-target-ai-era-chis-20260928",
+        "id": "2c3f8de21687",
+        "title": "AI boom pushes chipmakers to expand across Asia Pacific, FedEx report finds",
+        "url": "https://e27.co/ai-boom-pushes-chipmakers-to-expand-across-asia-pacific-fedex-report-finds-20261009",
         "source": "e27 SEA Tech",
-        "published_at": "2026-09-28T06:38:11.000Z"
+        "published_at": "2026-10-09T11:11:59.000Z"
       }
     ],
     "dominant_reason_codes": [
       "watchlist_signal",
       "policy_regulatory_move",
-      "ongoing_story_advance"
+      "industry_repositioning"
     ],
     "dominant_angle_signals": [
       "infrastructure lag visible",
-      "competitive position shifting",
-      "narrative outrunning reality"
+      "regulation moving ahead of capacity",
+      "competitive position shifting"
     ],
     "top_story_refs": [
-      "67dac9f5f513",
-      "b32e9b847135",
-      "219f0cf14b9b"
+      "53ed02a7c664",
+      "7fbc7f2d590f",
+      "dd1a4ba899e0"
+    ]
+  },
+  {
+    "theme_id": "ai_automation",
+    "theme_label": "AI and automation adoption",
+    "theme_summary": "AI and automation adoption is the shared editorial thread across 2 related stories. The strongest signal is developer workflow changing.",
+    "story_count": 2,
+    "cluster_ids": [],
+    "story_ids": [
+      "673bf7f9c8d0",
+      "512cb5780375"
+    ],
+    "associated_stories": [
+      {
+        "id": "673bf7f9c8d0",
+        "title": "The agent that lied: what GPT-6.1 Astra’s cancellation means for Southeast Asia",
+        "url": "https://e27.co/the-agent-that-lied-what-gpt-6-1-astras-cancellation-means-for-southeast-asia-20261005",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-10-06T01:00:35.000Z"
+      },
+      {
+        "id": "512cb5780375",
+        "title": "Natura’s $99 smart ring puts AI agents on your finger",
+        "url": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger",
+        "source": "TechCrunch AI",
+        "published_at": "2026-10-08T16:00:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "developing_pattern",
+      "watchlist_signal"
+    ],
+    "dominant_angle_signals": [
+      "developer workflow changing",
+      "enterprise adoption pressure rising",
+      "early sign worth tracking"
+    ],
+    "top_story_refs": [
+      "673bf7f9c8d0",
+      "512cb5780375"
     ]
   },
   {
@@ -195,43 +277,82 @@
     ]
   },
   {
-    "theme_id": "technology_investment",
-    "theme_label": "technology investment and startups",
-    "theme_summary": "technology investment and startups is the shared editorial thread across 2 related stories. The strongest signal is investment caution showing.",
+    "theme_id": "consumer_technology_shift",
+    "theme_label": "consumer technology shift",
+    "theme_summary": "consumer technology shift is the shared editorial thread across 2 related stories. The strongest signal is consumer technology behavior shifting.",
     "story_count": 2,
     "cluster_ids": [],
     "story_ids": [
-      "a08e95645a15",
-      "bbd082728510"
+      "6b2fc1512e08",
+      "22533dad93ea"
     ],
     "associated_stories": [
       {
-        "id": "a08e95645a15",
-        "title": "Japan’s Kawaijuku backs Do Ventures to enter Vietnam’s education market",
-        "url": "https://e27.co/japans-kawaijuku-backs-do-ventures-to-enter-vietnams-education-market-20260930",
-        "source": "e27 SEA Tech",
-        "published_at": "2026-09-30T04:23:12.000Z"
+        "id": "6b2fc1512e08",
+        "title": "WTO sees rosier trade in ‘26 as AI shipments boom",
+        "url": "https://business.inquirer.net/615121/wto-sees-rosier-trade-in-26-as-ai-shipments-boom",
+        "source": "Inquirer Business AI/Tech",
+        "published_at": "2026-10-09T18:59:33.000Z"
       },
       {
-        "id": "bbd082728510",
-        "title": "One-person company: Why Southeast Asia’s next unicorn may look nothing like Grab",
-        "url": "https://e27.co/one-person-company-why-southeast-asias-next-unicorn-may-look-nothing-like-grab-20260927",
-        "source": "e27 SEA Tech",
-        "published_at": "2026-09-28T01:30:40.000Z"
+        "id": "22533dad93ea",
+        "title": "The smartphone is becoming the agent",
+        "url": "https://technology.inquirer.net/149524/the-smartphone-is-becoming-the-agent",
+        "source": "Inquirer Tech",
+        "published_at": "2026-09-30T12:53:03.000Z"
       }
     ],
     "dominant_reason_codes": [
-      "market_signal",
+      "local_business_relevance",
+      "industry_repositioning"
+    ],
+    "dominant_angle_signals": [
+      "consumer technology behavior shifting",
+      "demand still unproven",
+      "local operators exposed"
+    ],
+    "top_story_refs": [
+      "6b2fc1512e08",
+      "22533dad93ea"
+    ]
+  },
+  {
+    "theme_id": "cybersecurity_resilience",
+    "theme_label": "cybersecurity and resilience",
+    "theme_summary": "cybersecurity and resilience is the shared editorial thread across 2 related stories. The strongest signal is connectivity buildout changing access.",
+    "story_count": 2,
+    "cluster_ids": [],
+    "story_ids": [
+      "53495db76fa6",
+      "190a253fffc8"
+    ],
+    "associated_stories": [
+      {
+        "id": "53495db76fa6",
+        "title": "Globe’s cybersecurity chief steps down",
+        "url": "https://www.philstar.com/business/2026/10/11/2562270/globes-cybersecurity-chief-steps-down",
+        "source": "Philippine Star Business AI/Tech",
+        "published_at": "2026-10-10T16:00:00.000Z"
+      },
+      {
+        "id": "190a253fffc8",
+        "title": "East Asia’s crypto market splits as Korea bets on AI tokens and Hong Kong courts institutions",
+        "url": "https://e27.co/east-asias-crypto-market-splits-as-korea-bets-on-ai-tokens-and-hong-kong-courts-institutions-20261006",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-10-06T04:01:42.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
       "policy_regulatory_move"
     ],
     "dominant_angle_signals": [
-      "investment caution showing",
-      "developer workflow changing",
-      "ongoing platform expansion"
+      "connectivity buildout changing access",
+      "cyber risk affecting operations",
+      "safety pressure building"
     ],
     "top_story_refs": [
-      "a08e95645a15",
-      "bbd082728510"
+      "53495db76fa6",
+      "190a253fffc8"
     ]
   }
 ]

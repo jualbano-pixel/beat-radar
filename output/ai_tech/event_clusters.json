@@ -1,1 +1,45 @@
-[]
+[
+  {
+    "cluster_id": "event_001",
+    "cluster_kind": "same_event",
+    "lead_story_id": "7fbc7f2d590f",
+    "story_count": 2,
+    "story_ids": [
+      "7fbc7f2d590f",
+      "dd1a4ba899e0"
+    ],
+    "story_titles": [
+      "Amazon drops data center NDAs, and AI agents want your credit card",
+      "Amazon and others are done keeping data center deals secret. Is it enough to build trust?"
+    ],
+    "associated_stories": [
+      {
+        "id": "7fbc7f2d590f",
+        "title": "Amazon drops data center NDAs, and AI agents want your credit card",
+        "url": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card",
+        "source": "TechCrunch AI",
+        "published_at": "2026-10-09T16:53:02.000Z"
+      },
+      {
+        "id": "dd1a4ba899e0",
+        "title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
+        "url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust",
+        "source": "TechCrunch AI",
+        "published_at": "2026-10-09T16:56:42.000Z"
+      }
+    ],
+    "entities": [
+      "microsoft",
+      "amazon"
+    ],
+    "event_label": "Amazon drops data center NDAs, and AI agents want your credit card",
+    "compression_line": "Multiple reports point to the same development around Amazon drops data center NDAs, and AI agents want your credit card, giving the cluster enough support for downstream treatment.",
+    "priority_score": 64,
+    "editorial_bucket": "context_watch",
+    "primary_theme_id": "data_centers_infrastructure",
+    "primary_theme_label": "data centers and digital infrastructure",
+    "supporting_story_ids": [
+      "dd1a4ba899e0"
+    ]
+  }
+]
