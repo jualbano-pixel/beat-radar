@@ -1,0 +1,193 @@
+[
+  {
+    "theme_id": "consumer_demand_shift",
+    "theme_label": "consumer demand shift",
+    "theme_summary": "consumer demand shift is the shared editorial thread across 5 related stories. The strongest signal is consumer demand shifting by segment.",
+    "story_count": 5,
+    "cluster_ids": [],
+    "story_ids": [
+      "ef76a57c691e",
+      "d788b49e65b6",
+      "a4e69e03af06",
+      "cacdc8df944f",
+      "ce45907b94dd"
+    ],
+    "associated_stories": [
+      {
+        "id": "cacdc8df944f",
+        "title": "Ford takes P600k off the Mustang Mach-E as Truck Month promo extends to October",
+        "url": "https://www.topgear.com.ph/news/industry-news/ford-mustang-mach-e-truck-month-promo-a2619-20261007",
+        "source": "TopGear Philippines",
+        "published_at": "2026-10-07T09:25:00.000Z"
+      },
+      {
+        "id": "ce45907b94dd",
+        "title": "The Geely Monjaro EM-i set a new world record in the Sahara Desert",
+        "url": "https://www.topgear.com.ph/news/car-news/geely-monjaro-world-record-sahara-a6938-20261007",
+        "source": "TopGear Philippines",
+        "published_at": "2026-10-07T03:16:00.000Z"
+      },
+      {
+        "id": "ef76a57c691e",
+        "title": "You can go ghostbusting in the Rivian Ecto-R1 electric SUV",
+        "url": "https://www.topgear.com.ph/news/car-news/rivian-ecto-r1-ghostbusters-themed-tguk-a6884-20261011",
+        "source": "TopGear Philippines",
+        "published_at": "2026-10-11T00:12:00.000Z"
+      },
+      {
+        "id": "d788b49e65b6",
+        "title": "VinFast MPV 7 serves as official vehicle for ASEAN Ministers on Energy Meeting",
+        "url": "https://www.topgear.com.ph/news/industry-news/vinfast-asean-ministers-energy-meeting-2026-a2619-20261009",
+        "source": "TopGear Philippines",
+        "published_at": "2026-10-09T11:10:00.000Z"
+      },
+      {
+        "id": "a4e69e03af06",
+        "title": "Report: Honda is rebadging the Mitsubishi Triton to add a pickup to its roster",
+        "url": "https://www.topgear.com.ph/news/car-news/honda-rebadging-mitsubishi-triton-a6941-20261009",
+        "source": "TopGear Philippines",
+        "published_at": "2026-10-09T02:59:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "watchlist_signal",
+      "market_signal"
+    ],
+    "dominant_angle_signals": [
+      "consumer demand shifting by segment"
+    ],
+    "top_story_refs": [
+      "cacdc8df944f",
+      "ce45907b94dd",
+      "ef76a57c691e"
+    ]
+  },
+  {
+    "theme_id": "ev_transition_gap",
+    "theme_label": "EV transition gap",
+    "theme_summary": "EV transition gap is the shared editorial thread across 3 related stories. The strongest signal is EV transition gap visible.",
+    "story_count": 3,
+    "cluster_ids": [],
+    "story_ids": [
+      "ccf759c54bad",
+      "d889a1a0f0eb",
+      "28ca24a4ef93"
+    ],
+    "associated_stories": [
+      {
+        "id": "28ca24a4ef93",
+        "title": "BYD’s electric kei car is launching in markets outside Japan",
+        "url": "https://www.topgear.com.ph/news/car-news/byd-racco-2027-new-global-launches-a6888-20261008",
+        "source": "TopGear Philippines",
+        "published_at": "2026-10-08T08:09:00.000Z"
+      },
+      {
+        "id": "d889a1a0f0eb",
+        "title": "Wireless EV charging at highway speeds? Honda is testing the tech",
+        "url": "https://www.topgear.com.ph/news/technology-news/honda-highway-speed-wireless-ev-charging-a6941-20261008",
+        "source": "TopGear Philippines",
+        "published_at": "2026-10-08T08:19:00.000Z"
+      },
+      {
+        "id": "ccf759c54bad",
+        "title": "Review: 2027 Honda HR-V S CVT",
+        "url": "https://www.topgear.com.ph/drives/car-reviews/honda-hrv-s-cvt-2027-ph-review-a6938-20261010-lfrm",
+        "source": "TopGear Philippines",
+        "published_at": "2026-10-09T19:40:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "watchlist_signal",
+      "execution_consequence",
+      "product_signal"
+    ],
+    "dominant_angle_signals": [
+      "EV transition gap visible",
+      "infrastructure constraint showing",
+      "product launch reveals market bet"
+    ],
+    "top_story_refs": [
+      "28ca24a4ef93",
+      "d889a1a0f0eb",
+      "ccf759c54bad"
+    ]
+  },
+  {
+    "theme_id": "infrastructure_constraint",
+    "theme_label": "infrastructure constraint",
+    "theme_summary": "infrastructure constraint is the shared editorial thread across 2 related stories. The strongest signal is infrastructure constraint showing.",
+    "story_count": 2,
+    "cluster_ids": [],
+    "story_ids": [
+      "72a254fc89ba",
+      "43d4d72c2434"
+    ],
+    "associated_stories": [
+      {
+        "id": "72a254fc89ba",
+        "title": "The road to growth runs through C5",
+        "url": "https://business.inquirer.net/615250/the-road-to-growth-runs-through-c5",
+        "source": "Inquirer Business",
+        "published_at": "2026-10-09T21:53:59.000Z"
+      },
+      {
+        "id": "43d4d72c2434",
+        "title": "Can-Am’s electric motorcycles have landed in PH, will be priced above P1-M",
+        "url": "https://www.topgear.com.ph/moto-sapiens/motorcycle-news/can-am-pulse-origin-electric-motorcycles-ph-a5361-20261008",
+        "source": "TopGear Philippines",
+        "published_at": "2026-10-08T00:51:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "meaningful_shift",
+      "market_signal"
+    ],
+    "dominant_angle_signals": [
+      "infrastructure constraint showing",
+      "pricing pressure building"
+    ],
+    "top_story_refs": [
+      "72a254fc89ba",
+      "43d4d72c2434"
+    ]
+  },
+  {
+    "theme_id": "pricing_pressure",
+    "theme_label": "pricing pressure",
+    "theme_summary": "pricing pressure is the shared editorial thread across 2 related stories. The strongest signal is pricing pressure building.",
+    "story_count": 2,
+    "cluster_ids": [],
+    "story_ids": [
+      "e01c84c7b995",
+      "3fefd7e72552"
+    ],
+    "associated_stories": [
+      {
+        "id": "e01c84c7b995",
+        "title": "Mixed pump price adjustments seen Oct. 13",
+        "url": "https://business.inquirer.net/615310/mixed-pump-price-adjustments-seen-oct-13",
+        "source": "Inquirer Business",
+        "published_at": "2026-10-10T05:50:00.000Z"
+      },
+      {
+        "id": "3fefd7e72552",
+        "title": "Mixed fuel price adjustments expected next week",
+        "url": "https://business.inquirer.net/615058/mixed-fuel-price-adjustments-expected-next-week",
+        "source": "Inquirer Business",
+        "published_at": "2026-10-09T10:48:43.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "local_business_relevance"
+    ],
+    "dominant_angle_signals": [
+      "pricing pressure building",
+      "product launch reveals market bet",
+      "ownership cost reality surfacing"
+    ],
+    "top_story_refs": [
+      "e01c84c7b995",
+      "3fefd7e72552"
+    ]
+  }
+]
