@@ -1,69 +1,84 @@
 {
   "top_stories": [
     {
-      "title": "PLDT delays ₱24.2-billion VITRO REIT IPO to 2027 as interest rates rise",
-      "source": "Manila Bulletin Business Property JSON Fallback",
-      "date": "2026-10-06T17:44:00.000Z",
-      "summary": "Manuel V. Pangilinan-led telco giant PLDT Inc. is delaying the launch of the country’s first digital infrastructure real estate investment trust (REIT) to 2027, as it waits for more favorable market conditions to raise up to ₱24.2 billion from the listing of its data centers. In a disclosure on...",
+      "title": "Pork prices remain elevated despite tariff cuts",
+      "source": "Inquirer Business Property",
+      "date": "2026-10-12T23:31:06.000Z",
+      "summary": "MANILA, Philippines — Retail pork prices remained high despite lower tariffs on imported pork and declining hog prices, according to the Department of Agriculture (DA). Katrin Mares of the Department of Agriculture’s (DA) Policy Research Service said the agency noted a widening gap between retail and farm-gate price...",
       "tags": [
-        "telecom_connectivity"
+        "digital_policy"
       ],
-      "priority_score": 17.6,
-      "priority_reasons": [
-        "infrastructure_move",
-        "policy_shift",
-        "systemic_importance",
-        "connectivity_expansion_signal",
-        "practical_usability_impact"
-      ],
-      "why_it_matters": "This matters because it changes how technology is used, secured, regulated, funded, or delivered beyond a single vendor announcement."
-    },
-    {
-      "title": "PPA allots P1.35 billion for Ilocos Norte cruise port upgrade",
-      "source": "Philippine Star Property",
-      "date": "2026-10-07T16:00:00.000Z",
-      "summary": "One of the country’s dedicated ports for cruise arrivals in Luzon is getting a P1.35-billion budget for the construction of breakwater to reduce coastal risks and support marine navigation.",
-      "tags": [
-        "general_property_real_estate"
-      ],
-      "priority_score": 7.3,
+      "priority_score": 7.8,
       "priority_reasons": [
         "policy_shift",
-        "safety_or_governance",
+        "material_technology_effect",
+        "practical_usability_impact",
         "editorial_source_confirmation"
       ],
-      "why_it_matters": "This matters because it affects how AI systems are governed, evaluated, or deployed responsibly. Those choices can shape the broader direction of the market."
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
     },
     {
-      "title": "Metro Manila condo sales jump in Q3 as promos, gov't housing programs lure buyers",
+      "title": "PIDS warns land-use law could fail without power to settle government disputes",
       "source": "Manila Bulletin Business Property JSON Fallback",
-      "date": "2026-10-07T16:25:00.000Z",
-      "summary": "Metro Manila residential condominium sales grew 17 percent to 8,454 units in the third quarter of 2026 from 7,255 in the second quarter, as aggressive developer promotions and government housing initiatives supported the market despite affordability pressures, elevated inventory, and cautious...",
+      "date": "2026-10-14T19:16:00.000Z",
+      "summary": "A proposed national land use law could end up adding another layer of bureaucracy unless it gives an independent body binding authority to resolve conflicts among government agencies over competing uses of land, according to state-run policy think tank Philippine Institute for Development Studies...",
+      "tags": [
+        "digital_policy"
+      ],
+      "priority_score": 7.6,
+      "priority_reasons": [
+        "policy_shift",
+        "material_technology_effect",
+        "practical_usability_impact"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "Study: AI boom gives PH chance to catch up in chip race",
+      "source": "Inquirer Business Property",
+      "date": "2026-10-14T02:10:00.000Z",
+      "summary": "MANILA, Philippines — The global boom in artificial intelligence (AI) could give the Philippines a chance to narrow its gap with faster-growing Asian semiconductor exporters, as rising demand for advanced chips and more diversified supply chains open the door to new investments. That is according to logistics giant...",
+      "tags": [
+        "tech_infrastructure"
+      ],
+      "priority_score": 6.8,
+      "priority_reasons": [
+        "infrastructure_move",
+        "material_technology_effect",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because infrastructure changes shape what the ecosystem can build next. It affects cost, capability, or speed at platform scale."
+    },
+    {
+      "title": "Metro Manila condo glut persists as buyer back-outs rise—Colliers",
+      "source": "Manila Bulletin Business Property JSON Fallback",
+      "date": "2026-10-14T12:30:00.000Z",
+      "summary": "Metro Manila’s condominium market continues to grapple with a large stock of unsold units, particularly in the mid-income segment, as buyer back-outs have started rising again despite developers offering discounts and longer payment terms, according to property consultancy Colliers Philippines....",
       "tags": [
         "enterprise_tech"
       ],
-      "priority_score": 6.6,
+      "priority_score": 6.1,
       "priority_reasons": [
-        "material_technology_effect",
         "enterprise_scale_signal",
-        "practical_usability_impact"
+        "multi_group_impact"
       ],
-      "why_it_matters": "This is a strong editorial signal because it shows technology moving into real-world deployment at scale. It points to traction beyond experimentation."
+      "why_it_matters": "This matters because it changes how more than one important group can build, buy, deploy, secure, or govern technology."
     },
     {
-      "title": "VITRO REIT IPO pushed to 2027",
-      "source": "Philippine Star Property",
-      "date": "2026-10-07T08:01:00.000Z",
-      "summary": "PLDT deferred the planned VITRO REIT IPO to 2027, citing market conditions and higher interest rates.",
+      "title": "Philippine condo developers bend terms, not prices",
+      "source": "BusinessWorld Property",
+      "date": "2026-10-14T13:33:31.000Z",
+      "summary": "PHILIPPINE property developers are offering longer payment terms and financing incentives instead of cutting condominium prices, as high mortgage rates and a record inventory of unsold units weigh on residential sales, property consultants said.",
       "tags": [
-        "telecom_connectivity"
+        "enterprise_tech"
       ],
-      "priority_score": 4.3,
+      "priority_score": 4.8,
       "priority_reasons": [
-        "connectivity_expansion_signal",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
         "editorial_source_confirmation"
       ],
-      "why_it_matters": "This matters because connectivity buildout changes who can access digital services and where businesses can operate."
+      "why_it_matters": "This is a strong editorial signal because it shows technology moving into real-world deployment at scale. It points to traction beyond experimentation."
     },
     {
       "title": "Businesses less pessimistic in August, more optimistic ahead",
@@ -81,26 +96,12 @@
       "why_it_matters": "This is a strong editorial signal because it shows technology moving into real-world deployment at scale. It points to traction beyond experimentation."
     },
     {
-      "title": "Condo demand picks up in Q3",
-      "source": "Philippine Star Property",
-      "date": "2026-10-07T16:00:00.000Z",
-      "summary": "Residential condominium take-up in Metro Manila posted robust growth during the third quarter, but real estate brokerage firm Leechiu Property Consultants Inc. (LPC) cautioned that the recent improvement should not yet be interpreted as a return to sustained growth.",
-      "tags": [
-        "general_property_real_estate"
-      ],
-      "priority_score": 0.8,
-      "priority_reasons": [
-        "editorial_source_confirmation"
-      ],
-      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
-    },
-    {
-      "title": "F&B seen driving nearly half of Metro Manila retail take-up through 2028 — Colliers",
+      "title": "Kepwealth further delays property acquisition plan",
       "source": "BusinessWorld Property",
-      "date": "2026-10-07T14:02:12.000Z",
-      "summary": "FOOD and beverage (F&B) tenants are expected to account for nearly half of Metro Manila retail space absorption…",
+      "date": "2026-10-14T12:42:30.000Z",
+      "summary": "KEPWEALTH Property Phils., Inc. has further delayed its planned property acquisition as the listed company continues to assess…",
       "tags": [
-        "general_property_real_estate"
+        "startups_vc"
       ],
       "priority_score": 0.8,
       "priority_reasons": [
@@ -109,10 +110,10 @@
       "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
     },
     {
-      "title": "Pag-IBIG tie-up supports RLC residential conversion",
-      "source": "Philippine Star Property",
-      "date": "2026-10-07T08:03:00.000Z",
-      "summary": "RLC signed an MoU with Pag-IBIG to expand home loan accreditation across its resi portfolio.",
+      "title": "DA eyes bigger ube exports as global demand surges",
+      "source": "Inquirer Business Property",
+      "date": "2026-10-14T02:18:00.000Z",
+      "summary": "MANILA, Philippines — The Department of Agriculture (DA) is ramping up purple yam (ube) production in Cagayan Valley to unlock more export opportunities amid surging global demand. Through its regional office in Cagayan Valley, the DA initially targets 100 hectares of farmland in Isabela for ube production and plans...",
       "tags": [
         "general_property_real_estate"
       ],
@@ -125,27 +126,17 @@
   ],
   "secondary_signals": [
     {
-      "title": "August unemployment eases from post-pandemic high as agriculture, construction add jobs",
-      "source": "Manila Bulletin Business Property JSON Fallback",
-      "date": "2026-10-07T12:10:00.000Z",
-      "summary": "The Philippines’ unemployment rate eased to 5.3 percent in August from a post-pandemic high of six percent in July as agriculture and construction added jobs, although the labor market remained weaker than a year ago amid continued manufacturing job losses. Results of the Philippine Statistics...",
+      "title": "DMCI Homes nears completion of Batangas beachfront project",
+      "source": "Philippine Star Property",
+      "date": "2026-10-12T16:00:00.000Z",
+      "summary": "DMCI Homes of the Consunji Group has reached a major construction milestone for its 7.5-hectare Solmera Coast beachfront estate in Batangas, with the company completing the structural framework of all five buildings in the project’s resort component.",
       "tags": [
         "general_property_real_estate"
       ],
       "priority_score": 0.6,
-      "priority_reasons": [],
-      "note": "Useful supporting editorial signal."
-    },
-    {
-      "title": "Filipinos Win as Robinsons Land and Pag-IBIG Make Homeownership More Accessible",
-      "source": "Manila Bulletin Business Property JSON Fallback",
-      "date": "2026-10-07T09:50:00.000Z",
-      "summary": "For many Filipino families, a home of their own is where plans for a better future begin to take shape. Through its partnership with Pag-IBIG Fund, Robinsons Land (RLC) is bringing quality homes in thoughtfully planned communities together with financing options that can help qualified buyers make...",
-      "tags": [
-        "general_property_real_estate"
+      "priority_reasons": [
+        "editorial_source_confirmation"
       ],
-      "priority_score": 0.6,
-      "priority_reasons": [],
       "note": "Useful supporting editorial signal."
     },
     {
