@@ -1,0 +1,157 @@
+[
+  {
+    "cluster_id": "banking_001",
+    "cluster_kind": "same_event",
+    "lead_story_id": "4f5de49be4fe",
+    "story_count": 4,
+    "story_ids": [
+      "4f5de49be4fe",
+      "c3fc7912359b",
+      "a2c704c1056a",
+      "a7b78bbd46a6"
+    ],
+    "story_titles": [
+      "Overseas Filipino remittances hit 3-month bottom in August",
+      "BSP issues capital, other requirements for banks shifting to digital model",
+      "Peso sinks past 63:$1 for the first time",
+      "GIR settle at US$100B as of end-Sept 2026"
+    ],
+    "associated_stories": [
+      {
+        "id": "4f5de49be4fe",
+        "title": "Overseas Filipino remittances hit 3-month bottom in August",
+        "url": "https://business.inquirer.net/616113/overseas-filipino-remittances-hit-3-month-bottom-in-august",
+        "source": "Inquirer Business",
+        "published_at": "2026-10-16T02:22:00.000Z"
+      },
+      {
+        "id": "c3fc7912359b",
+        "title": "BSP issues capital, other requirements for banks shifting to digital model",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8084",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-09-23T09:13:50.000Z"
+      },
+      {
+        "id": "a2c704c1056a",
+        "title": "Peso sinks past 63:$1 for the first time",
+        "url": "https://business.inquirer.net/616108/peso-sinks-past-631-for-the-first-time",
+        "source": "Inquirer Business",
+        "published_at": "2026-10-16T02:24:00.000Z"
+      },
+      {
+        "id": "a7b78bbd46a6",
+        "title": "GIR settle at US$100B as of end-Sept 2026",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8102",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-10-07T10:47:14.000Z"
+      }
+    ],
+    "entities": [
+      "regulator"
+    ],
+    "event_label": "Credit rules are moving onto the watchlist",
+    "compression_line": "Loan rules and regulatory signals are putting credit discipline back on the banking desk's watchlist.",
+    "priority_score": 68,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "pattern",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": [
+      "c3fc7912359b",
+      "a2c704c1056a",
+      "a7b78bbd46a6"
+    ]
+  },
+  {
+    "cluster_id": "banking_002",
+    "cluster_kind": "same_event",
+    "lead_story_id": "a165c212c382",
+    "story_count": 1,
+    "story_ids": [
+      "a165c212c382"
+    ],
+    "story_titles": [
+      "Businesses less pessimistic in August, more optimistic ahead"
+    ],
+    "associated_stories": [
+      {
+        "id": "a165c212c382",
+        "title": "Businesses less pessimistic in August, more optimistic ahead",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8088",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-09-25T10:41:40.000Z"
+      }
+    ],
+    "entities": [
+      "regulator"
+    ],
+    "event_label": "Loan growth is still carrying the system",
+    "compression_line": "The cluster keeps loan growth in view, but the useful read is whether that growth is becoming harder for borrowers to carry.",
+    "priority_score": 60,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "event",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": []
+  },
+  {
+    "cluster_id": "banking_003",
+    "cluster_kind": "same_event",
+    "lead_story_id": "31435165b041",
+    "story_count": 1,
+    "story_ids": [
+      "31435165b041"
+    ],
+    "story_titles": [
+      "PH, ADB advance more responsive Universal Health Care for Filipinos"
+    ],
+    "associated_stories": [
+      {
+        "id": "31435165b041",
+        "title": "PH, ADB advance more responsive Universal Health Care for Filipinos",
+        "url": "https://www.dof.gov.ph/ph-adb-advance-more-responsive-universal-health-care-for-filipinos",
+        "source": "Department of Finance",
+        "published_at": "2026-10-02T06:12:34.000Z"
+      }
+    ],
+    "entities": [
+      "multilateral"
+    ],
+    "event_label": "Funding costs are pressing margins",
+    "compression_line": "The stories belong together as early banking-system signals, but the direction still needs confirmation.",
+    "priority_score": 44,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "event",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": []
+  },
+  {
+    "cluster_id": "banking_004",
+    "cluster_kind": "same_event",
+    "lead_story_id": "9e018ab17726",
+    "story_count": 1,
+    "story_ids": [
+      "9e018ab17726"
+    ],
+    "story_titles": [
+      "BSP adopts new standardized approach for operational risk capital requirements"
+    ],
+    "associated_stories": [
+      {
+        "id": "9e018ab17726",
+        "title": "BSP adopts new standardized approach for operational risk capital requirements",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8108",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-10-13T11:25:04.000Z"
+      }
+    ],
+    "entities": [
+      "regulator"
+    ],
+    "event_label": "Risk is starting to surface",
+    "compression_line": "Bad-loan and borrower-capacity signals suggest risk is beginning to surface beneath still-active lending.",
+    "priority_score": 48,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "event",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": []
+  }
+]

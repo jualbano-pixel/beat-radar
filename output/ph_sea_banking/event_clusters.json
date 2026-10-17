@@ -2,25 +2,28 @@
   {
     "cluster_id": "banking_001",
     "cluster_kind": "same_event",
-    "lead_story_id": "c3fc7912359b",
-    "story_count": 6,
+    "lead_story_id": "4f5de49be4fe",
+    "story_count": 4,
     "story_ids": [
+      "4f5de49be4fe",
       "c3fc7912359b",
-      "a7b78bbd46a6",
-      "6999e6b34d32",
-      "ebcef816fbec",
-      "49a029b780a0",
-      "4bd244bd996c"
+      "a2c704c1056a",
+      "a7b78bbd46a6"
     ],
     "story_titles": [
+      "Overseas Filipino remittances hit 3-month bottom in August",
       "BSP issues capital, other requirements for banks shifting to digital model",
-      "GIR settle at US$100B as of end-Sept 2026",
-      "Philippines aligns bond pricing with global convention",
-      "PDIC beats recovery targets",
-      "Confidence in banking system intact – BSP",
-      "Courts convict former rural bank officers, money changer and pawnshop owners"
+      "Peso sinks past 63:$1 for the first time",
+      "GIR settle at US$100B as of end-Sept 2026"
     ],
     "associated_stories": [
+      {
+        "id": "4f5de49be4fe",
+        "title": "Overseas Filipino remittances hit 3-month bottom in August",
+        "url": "https://business.inquirer.net/616113/overseas-filipino-remittances-hit-3-month-bottom-in-august",
+        "source": "Inquirer Business",
+        "published_at": "2026-10-16T02:22:00.000Z"
+      },
       {
         "id": "c3fc7912359b",
         "title": "BSP issues capital, other requirements for banks shifting to digital model",
@@ -29,57 +32,33 @@
         "published_at": "2026-09-23T09:13:50.000Z"
       },
       {
+        "id": "a2c704c1056a",
+        "title": "Peso sinks past 63:$1 for the first time",
+        "url": "https://business.inquirer.net/616108/peso-sinks-past-631-for-the-first-time",
+        "source": "Inquirer Business",
+        "published_at": "2026-10-16T02:24:00.000Z"
+      },
+      {
         "id": "a7b78bbd46a6",
         "title": "GIR settle at US$100B as of end-Sept 2026",
         "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8102",
         "source": "Bangko Sentral ng Pilipinas",
         "published_at": "2026-10-07T10:47:14.000Z"
-      },
-      {
-        "id": "6999e6b34d32",
-        "title": "Philippines aligns bond pricing with global convention",
-        "url": "https://business.inquirer.net/615128/philippines-aligns-bond-pricing-with-global-convention",
-        "source": "Inquirer Business",
-        "published_at": "2026-10-10T02:14:00.000Z"
-      },
-      {
-        "id": "ebcef816fbec",
-        "title": "PDIC beats recovery targets",
-        "url": "https://business.inquirer.net/615125/pdic-beats-recovery-targets",
-        "source": "Inquirer Business",
-        "published_at": "2026-10-10T02:12:00.000Z"
-      },
-      {
-        "id": "49a029b780a0",
-        "title": "Confidence in banking system intact – BSP",
-        "url": "https://www.philstar.com/business/2026/10/10/2562074/confidence-banking-system-intact-bsp",
-        "source": "Philstar Business",
-        "published_at": "2026-10-09T16:00:00.000Z"
-      },
-      {
-        "id": "4bd244bd996c",
-        "title": "Courts convict former rural bank officers, money changer and pawnshop owners",
-        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8079",
-        "source": "Bangko Sentral ng Pilipinas",
-        "published_at": "2026-09-17T07:14:38.000Z"
       }
     ],
     "entities": [
-      "regulator",
-      "private_bank"
+      "regulator"
     ],
     "event_label": "Credit rules are moving onto the watchlist",
     "compression_line": "Loan rules and regulatory signals are putting credit discipline back on the banking desk's watchlist.",
-    "priority_score": 60,
+    "priority_score": 68,
     "editorial_bucket": "structural_trend",
     "cluster_type": "pattern",
     "cluster_classification": "secondary",
     "supporting_story_ids": [
-      "a7b78bbd46a6",
-      "6999e6b34d32",
-      "ebcef816fbec",
-      "49a029b780a0",
-      "4bd244bd996c"
+      "c3fc7912359b",
+      "a2c704c1056a",
+      "a7b78bbd46a6"
     ]
   },
   {
@@ -116,37 +95,6 @@
   {
     "cluster_id": "banking_003",
     "cluster_kind": "same_event",
-    "lead_story_id": "d5a7388b49b1",
-    "story_count": 1,
-    "story_ids": [
-      "d5a7388b49b1"
-    ],
-    "story_titles": [
-      "Dollar reserves fall below $100 billion"
-    ],
-    "associated_stories": [
-      {
-        "id": "d5a7388b49b1",
-        "title": "Dollar reserves fall below $100 billion",
-        "url": "https://bworldonline.com/top-stories/2026/10/08/785626/dollar-reserves-fall-below-100-billion",
-        "source": "BusinessWorld Banking",
-        "published_at": "2026-10-08T13:19:29.000Z"
-      }
-    ],
-    "entities": [
-      "regulator"
-    ],
-    "event_label": "System liquidity is tightening",
-    "compression_line": "The grouped stories point to banks preserving buffers rather than stretching balance sheets for growth.",
-    "priority_score": 68,
-    "editorial_bucket": "structural_trend",
-    "cluster_type": "event",
-    "cluster_classification": "secondary",
-    "supporting_story_ids": []
-  },
-  {
-    "cluster_id": "banking_004",
-    "cluster_kind": "same_event",
     "lead_story_id": "31435165b041",
     "story_count": 1,
     "story_ids": [
@@ -176,65 +124,34 @@
     "supporting_story_ids": []
   },
   {
-    "cluster_id": "banking_005",
+    "cluster_id": "banking_004",
     "cluster_kind": "same_event",
-    "lead_story_id": "62b50a252093",
+    "lead_story_id": "9e018ab17726",
     "story_count": 1,
     "story_ids": [
-      "62b50a252093"
+      "9e018ab17726"
     ],
     "story_titles": [
-      "Banks chase risky chip loans in Asia’s US$8.2 trillion AI buildout"
+      "BSP adopts new standardized approach for operational risk capital requirements"
     ],
     "associated_stories": [
       {
-        "id": "62b50a252093",
-        "title": "Banks chase risky chip loans in Asia’s US$8.2 trillion AI buildout",
-        "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/banks-chase-risky-chip-loans-asias-us8-2-trillion-ai-buildout",
-        "source": "The Business Times Banking",
-        "published_at": "2026-10-06T04:37:11.000Z"
+        "id": "9e018ab17726",
+        "title": "BSP adopts new standardized approach for operational risk capital requirements",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8108",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-10-13T11:25:04.000Z"
       }
     ],
     "entities": [
-      "private_bank"
+      "regulator"
     ],
-    "event_label": "Funding pressure is on watch",
-    "compression_line": "The stories belong together as early banking-system signals, but the direction still needs confirmation.",
-    "priority_score": 56,
+    "event_label": "Risk is starting to surface",
+    "compression_line": "Bad-loan and borrower-capacity signals suggest risk is beginning to surface beneath still-active lending.",
+    "priority_score": 48,
     "editorial_bucket": "structural_trend",
     "cluster_type": "event",
     "cluster_classification": "secondary",
-    "supporting_story_ids": []
-  },
-  {
-    "cluster_id": "banking_006",
-    "cluster_kind": "same_event",
-    "lead_story_id": "eb61dc881f7a",
-    "story_count": 1,
-    "story_ids": [
-      "eb61dc881f7a"
-    ],
-    "story_titles": [
-      "Philippines, World Bank sign €212.7-M water project loan"
-    ],
-    "associated_stories": [
-      {
-        "id": "eb61dc881f7a",
-        "title": "Philippines, World Bank sign €212.7-M water project loan",
-        "url": "https://bworldonline.com/top-stories/2026/10/08/785627/philippines-world-bank-sign-e212-7-m-water-project-loan",
-        "source": "BusinessWorld Banking",
-        "published_at": "2026-10-08T13:18:57.000Z"
-      }
-    ],
-    "entities": [
-      "multilateral"
-    ],
-    "event_label": "Credit rules are moving onto the watchlist",
-    "compression_line": "The stories belong together as early banking-system signals, but the direction still needs confirmation.",
-    "priority_score": 40,
-    "editorial_bucket": "context_watch",
-    "cluster_type": "event",
-    "cluster_classification": "watch",
     "supporting_story_ids": []
   }
 ]
