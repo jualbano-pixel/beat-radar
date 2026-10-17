@@ -2,30 +2,25 @@
   {
     "theme_id": "enterprise_technology",
     "theme_label": "enterprise technology adoption",
-    "theme_summary": "enterprise technology adoption is the shared editorial thread across 12 related stories. The strongest signal is enterprise adoption pressure rising.",
-    "story_count": 12,
+    "theme_summary": "enterprise technology adoption is the shared editorial thread across 7 related stories. The strongest signal is enterprise adoption pressure rising.",
+    "story_count": 7,
     "cluster_ids": [],
     "story_ids": [
       "c3fc7912359b",
-      "ca87cc6b3a7c",
-      "543f39816c2c",
-      "d30be04880e9",
-      "16b06963e13b",
-      "71cb0a7ae79a",
-      "11b7a0d8fb6f",
-      "57a03dfa6950",
+      "3a389cc8bb53",
+      "5857ba23b645",
+      "74c9e10c0254",
       "2896758265ce",
       "637d3dfa247f",
-      "bb71e409dd7f",
-      "4410122683c5"
+      "bb71e409dd7f"
     ],
     "associated_stories": [
       {
-        "id": "16b06963e13b",
-        "title": "MDI Ventures sharpens SEA thesis around AI, blockchain, digital asset infra",
-        "url": "https://e27.co/mdi-ventures-sharpens-sea-thesis-around-ai-blockchain-digital-asset-infra-20261006",
+        "id": "5857ba23b645",
+        "title": "Everyone is talking about AI adoption. But are enterprises actually ready for it?",
+        "url": "https://e27.co/everyone-is-talking-about-ai-adoption-but-are-enterprises-actually-ready-for-it-20261010",
         "source": "e27 SEA Tech",
-        "published_at": "2026-10-06T22:00:14.000Z"
+        "published_at": "2026-10-13T02:00:56.000Z"
       },
       {
         "id": "c3fc7912359b",
@@ -35,32 +30,11 @@
         "published_at": "2026-09-23T09:13:50.000Z"
       },
       {
-        "id": "57a03dfa6950",
-        "title": "Why Southeast Asia’s AI coding race is moving from models to infrastructure",
-        "url": "https://e27.co/why-southeast-asias-ai-coding-race-is-moving-from-models-to-infrastructure-20261005",
-        "source": "e27 SEA Tech",
-        "published_at": "2026-10-05T03:58:37.000Z"
-      },
-      {
-        "id": "543f39816c2c",
-        "title": "Singtel’s RE:AI partners SIT-NVIDIA centre to tackle enterprise AI deployment gap",
-        "url": "https://e27.co/singtels-reai-partners-sit-nvidia-centre-to-tackle-enterprise-ai-deployment-gap-20261008",
-        "source": "e27 SEA Tech",
-        "published_at": "2026-10-08T05:30:39.000Z"
-      },
-      {
-        "id": "71cb0a7ae79a",
-        "title": "Addressing the Digital Shift – AI Accounting ERP Trend in Singapore",
-        "url": "https://e27.co/top-5-popular-ai-accounting-erp-for-smb-in-singapore-20261006",
-        "source": "e27 SEA Tech",
-        "published_at": "2026-10-06T08:55:15.000Z"
-      },
-      {
-        "id": "d30be04880e9",
-        "title": "SEA’s insurers face a new question: what happens when customers have agents?",
-        "url": "https://e27.co/seas-insurers-face-a-new-question-what-happens-when-customers-have-agents-20261007",
-        "source": "e27 SEA Tech",
-        "published_at": "2026-10-08T02:00:37.000Z"
+        "id": "3a389cc8bb53",
+        "title": "Only 17% of Philippine businesses have a roadmap to scale AI",
+        "url": "https://technology.inquirer.net/149825/only-17-of-philippine-businesses-have-a-roadmap-to-scale-ai",
+        "source": "Inquirer Tech",
+        "published_at": "2026-10-17T14:36:28.000Z"
       },
       {
         "id": "637d3dfa247f",
@@ -70,32 +44,18 @@
         "published_at": "2026-10-01T16:00:00.000Z"
       },
       {
+        "id": "74c9e10c0254",
+        "title": "Gemini 4 Argon: Built to solve your hardest problems",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
+        "source": "Google AI Blog",
+        "published_at": "2026-10-13T16:00:00.000Z"
+      },
+      {
         "id": "2896758265ce",
         "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
         "url": "https://openai.com/index/atlassian-partnership",
         "source": "OpenAI Blog",
         "published_at": "2026-10-06T16:00:00.000Z"
-      },
-      {
-        "id": "4410122683c5",
-        "title": "How to connect AI usage to business value",
-        "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
-        "source": "OpenAI Blog",
-        "published_at": "2026-09-16T12:00:00.000Z"
-      },
-      {
-        "id": "11b7a0d8fb6f",
-        "title": "The junior developer dilemma: How AI is reshaping tech talent in Southeast Asia",
-        "url": "https://e27.co/the-junior-developer-dilemma-how-ai-is-reshaping-tech-talent-in-southeast-asia-20261006",
-        "source": "e27 SEA Tech",
-        "published_at": "2026-10-06T05:21:26.000Z"
-      },
-      {
-        "id": "ca87cc6b3a7c",
-        "title": "Pinoy startup joins Anthropic’s partner network",
-        "url": "https://www.philstar.com/business/2026/10/11/2562282/pinoy-startup-joins-anthropics-partner-network",
-        "source": "Philippine Star Business AI/Tech",
-        "published_at": "2026-10-10T16:00:00.000Z"
       },
       {
         "id": "bb71e409dd7f",
@@ -106,253 +66,147 @@
       }
     ],
     "dominant_reason_codes": [
-      "developing_pattern",
+      "watchlist_signal",
       "meaningful_shift",
       "local_business_relevance"
     ],
     "dominant_angle_signals": [
       "enterprise adoption pressure rising",
       "developer workflow changing",
-      "transition friction emerging"
+      "demand still unproven"
     ],
     "top_story_refs": [
-      "16b06963e13b",
+      "5857ba23b645",
       "c3fc7912359b",
-      "57a03dfa6950"
-    ]
-  },
-  {
-    "theme_id": "data_centers_infrastructure",
-    "theme_label": "data centers and digital infrastructure",
-    "theme_summary": "data centers and digital infrastructure is the shared editorial thread across 6 related stories. The strongest signal is infrastructure lag visible.",
-    "story_count": 6,
-    "cluster_ids": [
-      "event_001"
-    ],
-    "story_ids": [
-      "7fbc7f2d590f",
-      "dd1a4ba899e0",
-      "219f0cf14b9b",
-      "2c3f8de21687",
-      "40d79eed5f0a",
-      "53ed02a7c664"
-    ],
-    "associated_stories": [
-      {
-        "id": "53ed02a7c664",
-        "title": "OneByZero raises US$20M Series A to help enterprises move AI from pilots to production",
-        "url": "https://e27.co/onebyzero-raises-us20m-series-a-to-help-enterprises-move-ai-from-pilots-to-production-20261005",
-        "source": "e27 SEA Tech",
-        "published_at": "2026-10-05T06:00:45.000Z"
-      },
-      {
-        "id": "7fbc7f2d590f",
-        "title": "Amazon drops data center NDAs, and AI agents want your credit card",
-        "url": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card",
-        "source": "TechCrunch AI",
-        "published_at": "2026-10-09T16:53:02.000Z"
-      },
-      {
-        "id": "dd1a4ba899e0",
-        "title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
-        "url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust",
-        "source": "TechCrunch AI",
-        "published_at": "2026-10-09T16:56:42.000Z"
-      },
-      {
-        "id": "40d79eed5f0a",
-        "title": "Granite Asia, Google AI Futures Fund team up to back Asia’s AI founders",
-        "url": "https://e27.co/granite-asia-google-ai-futures-fund-team-up-to-back-asias-ai-founders-20261007",
-        "source": "e27 SEA Tech",
-        "published_at": "2026-10-07T03:28:35.000Z"
-      },
-      {
-        "id": "219f0cf14b9b",
-        "title": "University students can get free AWS training and certification resources through Student Rewards",
-        "url": "https://technology.inquirer.net/149408/university-students-can-get-free-aws-training-and-certification-resources-through-student-rewards",
-        "source": "Inquirer Tech",
-        "published_at": "2026-09-23T11:55:03.000Z"
-      },
-      {
-        "id": "2c3f8de21687",
-        "title": "AI boom pushes chipmakers to expand across Asia Pacific, FedEx report finds",
-        "url": "https://e27.co/ai-boom-pushes-chipmakers-to-expand-across-asia-pacific-fedex-report-finds-20261009",
-        "source": "e27 SEA Tech",
-        "published_at": "2026-10-09T11:11:59.000Z"
-      }
-    ],
-    "dominant_reason_codes": [
-      "watchlist_signal",
-      "policy_regulatory_move",
-      "industry_repositioning"
-    ],
-    "dominant_angle_signals": [
-      "infrastructure lag visible",
-      "regulation moving ahead of capacity",
-      "competitive position shifting"
-    ],
-    "top_story_refs": [
-      "53ed02a7c664",
-      "7fbc7f2d590f",
-      "dd1a4ba899e0"
+      "3a389cc8bb53"
     ]
   },
   {
     "theme_id": "ai_automation",
     "theme_label": "AI and automation adoption",
-    "theme_summary": "AI and automation adoption is the shared editorial thread across 2 related stories. The strongest signal is developer workflow changing.",
-    "story_count": 2,
+    "theme_summary": "AI and automation adoption is the shared editorial thread across 3 related stories. The strongest signal is developer workflow changing.",
+    "story_count": 3,
     "cluster_ids": [],
     "story_ids": [
-      "673bf7f9c8d0",
-      "512cb5780375"
+      "dc03fc243d22",
+      "e51740a57379",
+      "8ffbbf24c13a"
     ],
     "associated_stories": [
       {
-        "id": "673bf7f9c8d0",
-        "title": "The agent that lied: what GPT-6.1 Astra’s cancellation means for Southeast Asia",
-        "url": "https://e27.co/the-agent-that-lied-what-gpt-6-1-astras-cancellation-means-for-southeast-asia-20261005",
+        "id": "e51740a57379",
+        "title": "Beyond automation: How AI is reshaping the SME landscape in Southeast Asia",
+        "url": "https://e27.co/beyond-automation-how-ai-is-reshaping-the-sme-landscape-in-southeast-asia-20261010",
         "source": "e27 SEA Tech",
-        "published_at": "2026-10-06T01:00:35.000Z"
+        "published_at": "2026-10-12T04:00:42.000Z"
       },
       {
-        "id": "512cb5780375",
-        "title": "Natura’s $99 smart ring puts AI agents on your finger",
-        "url": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger",
+        "id": "dc03fc243d22",
+        "title": "Singapore SMEs buy back time with AI, but messy data keeps pilots stuck",
+        "url": "https://e27.co/singapore-smes-buy-back-time-with-ai-but-messy-data-keeps-pilots-stuck-20261012",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-10-12T05:00:13.000Z"
+      },
+      {
+        "id": "8ffbbf24c13a",
+        "title": "India becomes the latest country to report rogue AI agent activity",
+        "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity",
         "source": "TechCrunch AI",
-        "published_at": "2026-10-08T16:00:00.000Z"
-      }
-    ],
-    "dominant_reason_codes": [
-      "developing_pattern",
-      "watchlist_signal"
-    ],
-    "dominant_angle_signals": [
-      "developer workflow changing",
-      "enterprise adoption pressure rising",
-      "early sign worth tracking"
-    ],
-    "top_story_refs": [
-      "673bf7f9c8d0",
-      "512cb5780375"
-    ]
-  },
-  {
-    "theme_id": "telecom_connectivity",
-    "theme_label": "connectivity buildout",
-    "theme_summary": "connectivity buildout is the shared editorial thread across 2 related stories. The strongest signal is connectivity buildout changing access.",
-    "story_count": 2,
-    "cluster_ids": [],
-    "story_ids": [
-      "de69a5a48600",
-      "71409e16290b"
-    ],
-    "associated_stories": [
-      {
-        "id": "71409e16290b",
-        "title": "#OpEd: The Discord ban affects freelancers, students, remote workers",
-        "url": "https://technology.inquirer.net/149413/oped-the-discord-ban-affects-freelancers-students-remote-workers",
-        "source": "Inquirer Tech",
-        "published_at": "2026-09-24T01:02:09.000Z"
-      },
-      {
-        "id": "de69a5a48600",
-        "title": "Telco brings single AI model workspace for subscribers",
-        "url": "https://technology.inquirer.net/149432/telco-brings-single-ai-model-workspace-for-subscribers",
-        "source": "Inquirer Tech",
-        "published_at": "2026-09-24T17:14:28.000Z"
-      }
-    ],
-    "dominant_reason_codes": [
-      "local_business_relevance"
-    ],
-    "dominant_angle_signals": [
-      "connectivity buildout changing access",
-      "developer workflow changing",
-      "local operators exposed"
-    ],
-    "top_story_refs": [
-      "71409e16290b",
-      "de69a5a48600"
-    ]
-  },
-  {
-    "theme_id": "consumer_technology_shift",
-    "theme_label": "consumer technology shift",
-    "theme_summary": "consumer technology shift is the shared editorial thread across 2 related stories. The strongest signal is consumer technology behavior shifting.",
-    "story_count": 2,
-    "cluster_ids": [],
-    "story_ids": [
-      "6b2fc1512e08",
-      "22533dad93ea"
-    ],
-    "associated_stories": [
-      {
-        "id": "6b2fc1512e08",
-        "title": "WTO sees rosier trade in ‘26 as AI shipments boom",
-        "url": "https://business.inquirer.net/615121/wto-sees-rosier-trade-in-26-as-ai-shipments-boom",
-        "source": "Inquirer Business AI/Tech",
-        "published_at": "2026-10-09T18:59:33.000Z"
-      },
-      {
-        "id": "22533dad93ea",
-        "title": "The smartphone is becoming the agent",
-        "url": "https://technology.inquirer.net/149524/the-smartphone-is-becoming-the-agent",
-        "source": "Inquirer Tech",
-        "published_at": "2026-09-30T12:53:03.000Z"
+        "published_at": "2026-10-16T17:52:24.000Z"
       }
     ],
     "dominant_reason_codes": [
       "local_business_relevance",
-      "industry_repositioning"
+      "developing_pattern"
     ],
     "dominant_angle_signals": [
-      "consumer technology behavior shifting",
-      "demand still unproven",
-      "local operators exposed"
+      "developer workflow changing",
+      "enterprise adoption pressure rising",
+      "narrative outrunning reality"
     ],
     "top_story_refs": [
-      "6b2fc1512e08",
-      "22533dad93ea"
+      "e51740a57379",
+      "dc03fc243d22",
+      "8ffbbf24c13a"
     ]
   },
   {
     "theme_id": "cybersecurity_resilience",
     "theme_label": "cybersecurity and resilience",
-    "theme_summary": "cybersecurity and resilience is the shared editorial thread across 2 related stories. The strongest signal is connectivity buildout changing access.",
+    "theme_summary": "cybersecurity and resilience is the shared editorial thread across 2 related stories. The strongest signal is demand still unproven.",
     "story_count": 2,
     "cluster_ids": [],
     "story_ids": [
-      "53495db76fa6",
-      "190a253fffc8"
+      "7b61d1c2f30b",
+      "7c76cc8218ff"
     ],
     "associated_stories": [
       {
-        "id": "53495db76fa6",
-        "title": "Globe’s cybersecurity chief steps down",
-        "url": "https://www.philstar.com/business/2026/10/11/2562270/globes-cybersecurity-chief-steps-down",
-        "source": "Philippine Star Business AI/Tech",
-        "published_at": "2026-10-10T16:00:00.000Z"
+        "id": "7b61d1c2f30b",
+        "title": "AI and inflation are driving Singapore’s workplace anxiety. Employers are spending on the wrong fix",
+        "url": "https://e27.co/ai-and-inflation-are-driving-singapores-workplace-anxiety-employers-are-spending-on-the-wrong-fix-20261015",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-10-15T04:00:44.000Z"
       },
       {
-        "id": "190a253fffc8",
-        "title": "East Asia’s crypto market splits as Korea bets on AI tokens and Hong Kong courts institutions",
-        "url": "https://e27.co/east-asias-crypto-market-splits-as-korea-bets-on-ai-tokens-and-hong-kong-courts-institutions-20261006",
+        "id": "7c76cc8218ff",
+        "title": "Adobe study finds 57 per cent of SEA firms stuck in AI’s “Frozen Middle”",
+        "url": "https://e27.co/adobe-study-finds-57-per-cent-of-sea-firms-stuck-in-ais-frozen-middle-20261013",
         "source": "e27 SEA Tech",
-        "published_at": "2026-10-06T04:01:42.000Z"
+        "published_at": "2026-10-13T06:00:12.000Z"
       }
     ],
     "dominant_reason_codes": [
       "policy_regulatory_move"
     ],
     "dominant_angle_signals": [
-      "connectivity buildout changing access",
-      "cyber risk affecting operations",
-      "safety pressure building"
+      "demand still unproven",
+      "investment caution showing",
+      "narrative outrunning reality"
     ],
     "top_story_refs": [
-      "53495db76fa6",
-      "190a253fffc8"
+      "7b61d1c2f30b",
+      "7c76cc8218ff"
+    ]
+  },
+  {
+    "theme_id": "technology_investment",
+    "theme_label": "technology investment and startups",
+    "theme_summary": "technology investment and startups is the shared editorial thread across 2 related stories. The strongest signal is developer workflow changing.",
+    "story_count": 2,
+    "cluster_ids": [],
+    "story_ids": [
+      "09e38cda89c2",
+      "14ad8919056e"
+    ],
+    "associated_stories": [
+      {
+        "id": "09e38cda89c2",
+        "title": "Leaders should stress-test the core business before the market does",
+        "url": "https://business.inquirer.net/616117/leaders-should-stress-test-the-core-business-before-the-market-does",
+        "source": "Inquirer Business AI/Tech",
+        "published_at": "2026-10-16T02:12:00.000Z"
+      },
+      {
+        "id": "14ad8919056e",
+        "title": "Sea and Google open chapter two of their AI pact before chapter one ships",
+        "url": "https://e27.co/sea-and-google-open-chapter-two-of-their-ai-pact-before-chapter-one-ships-20261015",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-10-15T08:19:49.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "policy_regulatory_move",
+      "watchlist_signal"
+    ],
+    "dominant_angle_signals": [
+      "developer workflow changing",
+      "enterprise adoption pressure rising",
+      "competitive position shifting"
+    ],
+    "top_story_refs": [
+      "09e38cda89c2",
+      "14ad8919056e"
     ]
   }
 ]

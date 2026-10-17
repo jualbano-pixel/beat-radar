@@ -2,41 +2,41 @@
   {
     "cluster_id": "energy_001",
     "cluster_kind": "same_event",
-    "lead_story_id": "3fefd7e72552",
+    "lead_story_id": "973fd504f043",
     "story_count": 2,
     "story_ids": [
-      "3fefd7e72552",
-      "e01c84c7b995"
+      "973fd504f043",
+      "5079ce317740"
     ],
     "story_titles": [
-      "Mixed fuel price adjustments expected next week",
-      "Mixed pump price adjustments seen Oct. 13"
+      "PSEi climbs 2.11% on bargain hunting, lower oil prices",
+      "Gasoline rollback, slight diesel hike seen next week"
     ],
     "associated_stories": [
       {
-        "id": "3fefd7e72552",
-        "title": "Mixed fuel price adjustments expected next week",
-        "url": "https://business.inquirer.net/615058/mixed-fuel-price-adjustments-expected-next-week",
+        "id": "973fd504f043",
+        "title": "PSEi climbs 2.11% on bargain hunting, lower oil prices",
+        "url": "https://business.inquirer.net/616230/psei-climbs-2-11-on-bargain-hunting-lower-oil-prices",
         "source": "Inquirer Business Energy",
-        "published_at": "2026-10-09T10:48:43.000Z"
+        "published_at": "2026-10-16T17:13:35.000Z"
       },
       {
-        "id": "e01c84c7b995",
-        "title": "Mixed pump price adjustments seen Oct. 13",
-        "url": "https://business.inquirer.net/615310/mixed-pump-price-adjustments-seen-oct-13",
+        "id": "5079ce317740",
+        "title": "Gasoline rollback, slight diesel hike seen next week",
+        "url": "https://business.inquirer.net/616181/gasoline-rollback-slight-diesel-hike-seen-next-week",
         "source": "Inquirer Business Energy",
-        "published_at": "2026-10-10T05:50:00.000Z"
+        "published_at": "2026-10-16T09:42:21.000Z"
       }
     ],
     "entities": [],
     "event_label": "Fuel price movement",
     "compression_line": "Fuel prices are moving through pump-price signals, changing the near-term cost read for consumers and fuel-sensitive sectors.",
-    "priority_score": 28,
-    "editorial_bucket": "context_watch",
+    "priority_score": 20,
+    "editorial_bucket": "background",
     "cluster_type": "pattern",
-    "cluster_classification": "secondary",
+    "cluster_classification": "primary",
     "supporting_story_ids": [
-      "e01c84c7b995"
+      "5079ce317740"
     ],
     "primary_theme_id": "energy_fuel_prices_easing",
     "primary_theme_label": "Fuel prices are easing through rollbacks"
@@ -44,26 +44,26 @@
   {
     "cluster_id": "energy_002",
     "cluster_kind": "same_event",
-    "lead_story_id": "435d5ecf6005",
+    "lead_story_id": "e13a4f09bafc",
     "story_count": 1,
     "story_ids": [
-      "435d5ecf6005"
+      "e13a4f09bafc"
     ],
     "story_titles": [
-      "ERC approves Meralco’s rate hike after a decade"
+      "Visayas grid faces new yellow alert on Oct. 15"
     ],
     "associated_stories": [
       {
-        "id": "435d5ecf6005",
-        "title": "ERC approves Meralco’s rate hike after a decade",
-        "url": "https://business.inquirer.net/615344/erc-approves-meralcos-rate-hike-after-a-decade",
+        "id": "e13a4f09bafc",
+        "title": "Visayas grid faces new yellow alert on Oct. 15",
+        "url": "https://business.inquirer.net/616015/visayas-grid-faces-new-yellow-alert-on-oct-15",
         "source": "Inquirer Business Energy",
-        "published_at": "2026-10-10T19:25:39.000Z"
+        "published_at": "2026-10-15T09:43:35.000Z"
       }
     ],
     "entities": [],
-    "event_label": "Electricity rate, tariff, or recovery movement",
-    "compression_line": "Electricity cost recovery or tariff signals are moving through the regulated price chain rather than appearing as isolated company news.",
+    "event_label": "Outage, alert, or reliability stress",
+    "compression_line": "Reliability stress is visible in grid, outage, reserve, or alert signals that point to pressure on the physical power system.",
     "priority_score": 20,
     "editorial_bucket": "background",
     "cluster_type": "event",

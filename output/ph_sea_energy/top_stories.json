@@ -1,58 +1,53 @@
 {
   "top_stories": [
     {
-      "title": "ERC approves Meralco’s rate hike after a decade",
+      "title": "Peso touches new record low of 63.23:$1 on Fed rate hike bets",
       "source": "Inquirer Business Energy",
-      "date": "2026-10-10T19:25:39.000Z",
-      "summary": "MANILA, Philippines — Consumers may have to brace for even higher power rates, as the Energy Regulatory Commission (ERC) has approved Manila Electric Co.’s (Meralco) rate reset after more than a decade. In its decision, the ERC set a total revenue requirement of about P342 billion over the four years, a significant...",
-      "tags": [
-        "digital_policy"
-      ],
-      "priority_score": 5.6,
-      "priority_reasons": [
-        "policy_shift",
-        "practical_usability_impact"
-      ],
-      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
-    },
-    {
-      "title": "Mixed pump price adjustments seen Oct. 13",
-      "source": "Inquirer Business Energy",
-      "date": "2026-10-10T05:50:00.000Z",
-      "summary": "MANILA, Philippines — Diesel products are on track for three consecutive weeks of rollbacks, while gasoline prices are expected to increase anew on Oct. 13. In an advisory on Friday, Jetti Petroleum president Leo Bellas said diesel prices may decrease by P1.80 to P2 per liter, while gasoline may rise by P2 to P2.20 per",
-      "tags": [
-        "general_ph_sea_energy"
-      ],
-      "priority_score": 4.6,
-      "priority_reasons": [
-        "policy_shift"
-      ],
-      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
-    },
-    {
-      "title": "Mixed fuel price adjustments expected next week",
-      "source": "Inquirer Business Energy",
-      "date": "2026-10-09T10:48:43.000Z",
-      "summary": "MANILA, Philippines — Motorists will continue to enjoy diesel savings for a third consecutive week, while gasoline prices will likely rise again next week. In a Friday advisory, Jetti Petroleum president Leo Bellas said diesel prices may decrease by P1.80 to P2 per liter. READ: Tehran’s wartime billboards mock Trump...",
-      "tags": [
-        "general_ph_sea_energy"
-      ],
-      "priority_score": 4.6,
-      "priority_reasons": [
-        "policy_shift"
-      ],
-      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
-    },
-    {
-      "title": "Manila Water bolsters resilience to El Niño",
-      "source": "Philippine Star Business Energy",
-      "date": "2026-10-10T16:00:00.000Z",
-      "summary": "Manila Water has completed the installation of submarine transmission lines for the East Bay Phase 2 project, enhancing its capability to convey additional water across the East Bay area, improving system reliability and operational flexibility to help ensure continuous water service amid the challenges posed by the...",
+      "date": "2026-10-17T02:30:00.000Z",
+      "summary": "MANILA, Philippines — The Philippine peso touched a fresh record low on Friday, extending its slide beyond 63 per dollar as signs of persistent US inflation strengthened expectations that the Federal Reserve (Fed) could raise interest rates again this month. The local currency weakened to an intraday low of 63.23 pe...",
       "tags": [
         "general_ph_sea_energy"
       ],
       "priority_score": 0.6,
       "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Gasoline rollback, slight diesel hike seen next week",
+      "source": "Inquirer Business Energy",
+      "date": "2026-10-16T09:42:21.000Z",
+      "summary": "MANILA, Philippines — Motorists may see gasoline prices drop by as much as P4.20 a liter next week, while diesel prices could rise, an industry source said. Gasoline prices will like drop by P4 to P4.20 a liter for the week of Oct. 19, while diesel prices may rise by P0.20 to P0.40 a liter. READ:",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Visayas grid faces new yellow alert on Oct. 15",
+      "source": "Inquirer Business Energy",
+      "date": "2026-10-15T09:43:35.000Z",
+      "summary": "MANILA, Philippines — After more than two weeks, the Visayas grid experienced a yellow alert on Thursday due to the unavailability of two large coal plants and limited power imports from Mindanao. Tight power supply continues, with 645.6 megawatts (MW) unavailable to the grid. READ: Red alert up for 5 hours over Vis...",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "PSEi climbs 2.11% on bargain hunting, lower oil prices",
+      "source": "Inquirer Business Energy",
+      "date": "2026-10-16T17:13:35.000Z",
+      "summary": "MANILA, Philippines — Local stocks rallied on Friday as investors hunted for bargains, with lower global bond yields and oil prices supporting sentiment. The benchmark Philippine Stock Exchange Index (PSEi) gained 119.53 points, or 2.11 percent, to close at 5,782.70. READ: Gasoline rollback, slight diesel hike seen...",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": -0.4,
+      "priority_reasons": [
+        "minor_or_routine"
+      ],
       "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
     }
   ],

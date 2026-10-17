@@ -7,12 +7,12 @@
     "normalizedCount": 0,
     "droppedCount": 0,
     "keptCount": 0,
-    "error": "Status code 503",
+    "error": "Status code 502",
     "errorKind": "http_error",
     "beat": "ph_sea_energy",
     "url": "https://www.bworldonline.com/feed/",
     "type": "rss",
-    "checkedAt": "2026-10-10T19:42:17.400Z"
+    "checkedAt": "2026-10-17T18:07:55.129Z"
   },
   {
     "source": "Inquirer Business Energy",
@@ -20,12 +20,12 @@
     "health": "healthy",
     "fetchedCount": 40,
     "normalizedCount": 40,
-    "droppedCount": 37,
-    "keptCount": 3,
+    "droppedCount": 36,
+    "keptCount": 4,
     "beat": "ph_sea_energy",
     "url": "https://business.inquirer.net/feed",
     "type": "rss",
-    "checkedAt": "2026-10-10T19:42:17.400Z"
+    "checkedAt": "2026-10-17T18:07:55.129Z"
   },
   {
     "source": "BusinessMirror Energy",
@@ -40,7 +40,7 @@
     "beat": "ph_sea_energy",
     "url": "https://businessmirror.com.ph/business/feed/",
     "type": "rss",
-    "checkedAt": "2026-10-10T19:42:17.400Z"
+    "checkedAt": "2026-10-17T18:07:55.129Z"
   },
   {
     "source": "Philippine Star Business Energy",
@@ -48,12 +48,12 @@
     "health": "healthy",
     "fetchedCount": 20,
     "normalizedCount": 20,
-    "droppedCount": 19,
-    "keptCount": 1,
+    "droppedCount": 20,
+    "keptCount": 0,
     "beat": "ph_sea_energy",
     "url": "https://www.philstar.com/rss/business",
     "type": "rss",
-    "checkedAt": "2026-10-10T19:42:17.400Z"
+    "checkedAt": "2026-10-17T18:07:55.129Z"
   },
   {
     "source": "Malaya Business",
@@ -68,7 +68,7 @@
     "beat": "ph_sea_energy",
     "url": "https://malaya.com.ph/feed/",
     "type": "rss",
-    "checkedAt": "2026-10-10T19:42:17.400Z"
+    "checkedAt": "2026-10-17T18:07:55.129Z"
   },
   {
     "source": "BusinessWorld Energy",
@@ -78,11 +78,11 @@
     "normalizedCount": 0,
     "droppedCount": 0,
     "keptCount": 0,
-    "error": "Status code 503",
+    "error": "Status code 502",
     "errorKind": "http_error",
     "beat": "ph_sea_energy",
     "url": "https://www.bworldonline.com/feed/",
     "type": "rss",
-    "checkedAt": "2026-10-10T19:42:17.400Z"
+    "checkedAt": "2026-10-17T18:07:55.129Z"
   }
 ]

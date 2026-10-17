@@ -1,0 +1,379 @@
+{
+  "top_stories": [
+    {
+      "title": "Everyone is talking about AI adoption. But are enterprises actually ready for it?",
+      "source": "e27 SEA Tech",
+      "date": "2026-10-13T02:00:56.000Z",
+      "summary": "A company can have hundreds of employees using ChatGPT, Copilot, or other AI tools every day, and still not be an AI-ready organisation. This may sound contradictory, but it is becoming increasingly common. Employees are experimenting with AI. Teams are building copilots. Companies are running pilots. Some are even...",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 15.9,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "policy_shift",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact",
+        "editorial_source_confirmation",
+        "minor_or_routine"
+      ],
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the technology ecosystem, such as businesses, governments, infrastructure operators, consumers, or regulators."
+    },
+    {
+      "title": "Leaders should stress-test the core business before the market does",
+      "source": "Inquirer Business AI/Tech",
+      "date": "2026-10-16T02:12:00.000Z",
+      "summary": "MANILA, Philippines — When business leaders discuss strategic risk, they usually focus on what is new: the startup investment, cross-border acquisition, digital transformation or multibillion-peso capital proposal. They ask probing questions because the future is unproven. But what about the core business that is al...",
+      "tags": [
+        "enterprise_tech",
+        "startups_vc"
+      ],
+      "priority_score": 14.8,
+      "priority_reasons": [
+        "policy_shift",
+        "material_technology_effect",
+        "safety_or_governance",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because it changes how more than one important group can build, buy, deploy, secure, or govern technology."
+    },
+    {
+      "title": "Converge tests lower-cost prepaid fiber offer",
+      "source": "Inquirer Business AI/Tech",
+      "date": "2026-10-17T02:20:00.000Z",
+      "summary": "MANILA, Philippines — Converge ICT Solutions Inc. is preparing to pilot a new low-cost prepaid home broadband offering this quarter, as the telco seeks to reach price-sensitive households amid the increasingly saturated fiber market. Dennis Anthony Uy, cofounder and CEO of Converge, said the product, which could be...",
+      "tags": [
+        "tech_infrastructure",
+        "telecom_connectivity"
+      ],
+      "priority_score": 14.3,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "infrastructure_move",
+        "material_technology_effect",
+        "connectivity_expansion_signal",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
+    },
+    {
+      "title": "Only 17% of Philippine businesses have a roadmap to scale AI",
+      "source": "Inquirer Tech",
+      "date": "2026-10-17T14:36:28.000Z",
+      "summary": "Only 17% of businesses in the Philippines have a roadmap for scaling artificial intelligence (AI), highlighting a gap between growing adoption of the technology and companies’ ability to integrate it more deeply into their operations. The finding comes from Unlocking the Philippines’ AI Potential 2026, a report comm...",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 12.8,
+      "priority_reasons": [
+        "reported_material_development",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "ph_ai_economic_transformation",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because it is a concrete development in infrastructure, deployment, market behavior, or investment rather than vendor commentary."
+    },
+    {
+      "title": "How Albertsons Companies is reimagining retail from the inside out",
+      "source": "OpenAI Blog",
+      "date": "2026-10-01T16:00:00.000Z",
+      "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+      "tags": [
+        "tech_infrastructure",
+        "enterprise_tech"
+      ],
+      "priority_score": 11.2,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "model_or_platform_change",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the technology ecosystem, such as businesses, governments, infrastructure operators, consumers, or regulators."
+    },
+    {
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "source": "OpenAI Blog",
+      "date": "2026-10-06T16:00:00.000Z",
+      "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 9.7,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "model_or_platform_change",
+        "material_technology_effect",
+        "strategic_partnership",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "editorial_source_confirmation",
+        "vendor_announcement_demoted"
+      ],
+      "why_it_matters": "This is more than a routine announcement because it signals where major AI platforms and partners are aligning. That can influence distribution, adoption, or competitive position."
+    },
+    {
+      "title": "BSP issues capital, other requirements for banks shifting to digital model",
+      "source": "Bangko Sentral ng Pilipinas AI/Tech",
+      "date": "2026-09-23T09:13:50.000Z",
+      "summary": "PDate: 9/23/2026 Content: ​The Bangko Sentral ng Pilipinas (BSP) has issued capital and other requirements for thrift, rural, and cooperative banks (TBs, RBs, and coop banks) shifting to digital bank business models. The requirements aim to ensure that these banks operate in a safe and sound manner.​ Under Circular...",
+      "tags": [
+        "ai_automation",
+        "enterprise_tech"
+      ],
+      "priority_score": 9.7,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
+    },
+    {
+      "title": "Beyond automation: How AI is reshaping the SME landscape in Southeast Asia",
+      "source": "e27 SEA Tech",
+      "date": "2026-10-12T04:00:42.000Z",
+      "summary": "Artificial intelligence is increasingly moving from an experimental technology to an operational tool for small and medium-sized enterprises across Southeast Asia. Yet the more important question is not whether SMEs will use AI, but where AI can create measurable business value without adding disproportionate comple...",
+      "tags": [
+        "ai_automation",
+        "enterprise_tech"
+      ],
+      "priority_score": 9.4,
+      "priority_reasons": [
+        "reported_material_development",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation",
+        "minor_or_routine"
+      ],
+      "why_it_matters": "This matters because it is a concrete development in infrastructure, deployment, market behavior, or investment rather than vendor commentary."
+    }
+  ],
+  "secondary_signals": [
+    {
+      "title": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles",
+      "source": "TechCrunch AI",
+      "date": "2026-10-16T14:00:00.000Z",
+      "summary": "Counterfeiters are getting better at replicating brands' marks and passing off dupes, known as \"superfakes,\" as genuine items. A startup called Veritas wants to tackle the problem with its own chip that verifies goods.",
+      "tags": [
+        "tech_infrastructure",
+        "startups_vc"
+      ],
+      "priority_score": 8.8,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "infrastructure_move",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful as a reported or official development rather than vendor-authored positioning."
+    },
+    {
+      "title": "Singapore wants Google’s AI to catch scammers before victims hit send",
+      "source": "e27 SEA Tech",
+      "date": "2026-10-14T05:00:10.000Z",
+      "summary": "Singapore’s war on scams has mostly been fought far from the victim: in police operations centres, bank back offices and, more recently, in rulebooks telling platforms what they must block. Now the city-state wants part of that fight to happen inside the phone itself. Google on Wednesday announced two initiatives wi...",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 8.6,
+      "priority_reasons": [
+        "model_or_platform_change",
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it has broad practical impact across the technology ecosystem."
+    },
+    {
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "source": "Google AI Blog",
+      "date": "2026-10-13T16:00:00.000Z",
+      "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+      "tags": [
+        "ai_automation",
+        "enterprise_tech"
+      ],
+      "priority_score": 8.6,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "India becomes the latest country to report rogue AI agent activity",
+      "source": "TechCrunch AI",
+      "date": "2026-10-16T17:52:24.000Z",
+      "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 6.8,
+      "priority_reasons": [
+        "infrastructure_move",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "Anthropic’s Singapore MOU bets on safety testing, not consumer reach",
+      "source": "e27 SEA Tech",
+      "date": "2026-10-14T10:08:29.000Z",
+      "summary": "Anthropic has finally given its Singapore customers somewhere to knock. The San Francisco-based AI lab opened an office in the city-state on Wednesday, its fifth in the Asia Pacific, and signed a memorandum of understanding (MOU) with the Ministry of Digital Development and Information (MDDI) that puts AI safety tes...",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 6.1,
+      "priority_reasons": [
+        "reported_material_development",
+        "safety_or_governance",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
+    },
+    {
+      "title": "Singapore SMEs buy back time with AI, but messy data keeps pilots stuck",
+      "source": "e27 SEA Tech",
+      "date": "2026-10-12T05:00:13.000Z",
+      "summary": "Ask a Singapore small business owner what AI has done for them, and the answer is time. Ask whether their systems are ready to let AI run more of the business, and the answer gets a lot less certain. Also Read: Beyond automation: How AI is reshaping the SME landscape in Southeast Asia That tension […] The post Singa...",
+      "tags": [
+        "ai_automation",
+        "enterprise_tech"
+      ],
+      "priority_score": 5.9,
+      "priority_reasons": [
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+      "source": "OpenAI Blog",
+      "date": "2026-09-23T02:00:00.000Z",
+      "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 4.2,
+      "priority_reasons": [
+        "vendor_authored_context",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "source": "OpenAI Blog",
+      "date": "2026-09-23T13:00:00.000Z",
+      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 3.2,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "material_technology_effect",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "The smartphone is becoming the agent",
+      "source": "Inquirer Tech",
+      "date": "2026-09-30T12:53:03.000Z",
+      "summary": "Your smartphone already knows where you are, what time your next meeting starts, and which apps you use. Alibaba now wants it to do something with all that information. The company is betting on that idea with Qwen Intelligence, a platform designed to help smartphone makers build AI agents directly into their device...",
+      "tags": [
+        "consumer_tech_shift"
+      ],
+      "priority_score": 2.7,
+      "priority_reasons": [
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "Sea and Google open chapter two of their AI pact before chapter one ships",
+      "source": "e27 SEA Tech",
+      "date": "2026-10-15T08:19:49.000Z",
+      "summary": "Google has been busy making friends in Singapore. On 7 October, its AI Futures Fund teamed up with Granite Asia to write cheques of up to US$2 million into Asian AI startups. Eight days later, the same fund has walked into Sea Limited’s office carrying something different: not a term sheet, but a key to […] The post...",
+      "tags": [
+        "startups_vc"
+      ],
+      "priority_score": 2.6,
+      "priority_reasons": [
+        "strategic_finance",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "AI and inflation are driving Singapore’s workplace anxiety. Employers are spending on the wrong fix",
+      "source": "e27 SEA Tech",
+      "date": "2026-10-15T04:00:44.000Z",
+      "summary": "Most Singapore office workers know the ritual. A message lands at 10.47pm. It is not urgent. You answer it within 90 seconds anyway, not because the work demands it, but because you want someone to notice that you answered it within 90 seconds. It turns out that performance is playing to a near-empty theatre. The […...",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 2.6,
+      "priority_reasons": [
+        "reported_material_development",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
+    },
+    {
+      "title": "Adobe study finds 57 per cent of SEA firms stuck in AI’s “Frozen Middle”",
+      "source": "e27 SEA Tech",
+      "date": "2026-10-13T06:00:12.000Z",
+      "summary": "Southeast Asian companies are not short of money for AI. Most of them simply can’t get their projects past their own IT and security teams. That is the uncomfortable picture painted by the Southeast Asia findings of Adobe’s 2026 State of AI Readiness Report, released today. The study surveyed 461 senior executives i...",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": -0.6,
+      "priority_reasons": [
+        "safety_or_governance",
+        "editorial_source_confirmation",
+        "routine_launch_without_broader_impact"
+      ],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+      "source": "OpenAI Blog",
+      "date": "2026-09-23T00:00:00.000Z",
+      "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": -1.3,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "strategic_partnership",
+        "editorial_source_confirmation",
+        "routine_launch_without_broader_impact",
+        "vendor_announcement_demoted"
+      ],
+      "note": "Useful supporting editorial signal."
+    }
+  ]
+}

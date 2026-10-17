@@ -8,30 +8,30 @@
       "energy_001"
     ],
     "story_ids": [
-      "3fefd7e72552",
-      "e01c84c7b995"
+      "973fd504f043",
+      "5079ce317740"
     ],
     "associated_stories": [
       {
-        "id": "3fefd7e72552",
-        "title": "Mixed fuel price adjustments expected next week",
-        "url": "https://business.inquirer.net/615058/mixed-fuel-price-adjustments-expected-next-week",
+        "id": "973fd504f043",
+        "title": "PSEi climbs 2.11% on bargain hunting, lower oil prices",
+        "url": "https://business.inquirer.net/616230/psei-climbs-2-11-on-bargain-hunting-lower-oil-prices",
         "source": "Inquirer Business Energy",
-        "published_at": "2026-10-09T10:48:43.000Z"
+        "published_at": "2026-10-16T17:13:35.000Z"
       },
       {
-        "id": "e01c84c7b995",
-        "title": "Mixed pump price adjustments seen Oct. 13",
-        "url": "https://business.inquirer.net/615310/mixed-pump-price-adjustments-seen-oct-13",
+        "id": "5079ce317740",
+        "title": "Gasoline rollback, slight diesel hike seen next week",
+        "url": "https://business.inquirer.net/616181/gasoline-rollback-slight-diesel-hike-seen-next-week",
         "source": "Inquirer Business Energy",
-        "published_at": "2026-10-10T05:50:00.000Z"
+        "published_at": "2026-10-16T09:42:21.000Z"
       }
     ],
     "dominant_reason_codes": [],
     "dominant_angle_signals": [],
     "top_story_refs": [
-      "3fefd7e72552"
+      "973fd504f043"
     ],
-    "theme_type": "secondary"
+    "theme_type": "primary"
   }
 ]
