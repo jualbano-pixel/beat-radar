@@ -5,12 +5,12 @@
     "health": "healthy",
     "fetchedCount": 30,
     "normalizedCount": 30,
-    "droppedCount": 18,
-    "keptCount": 12,
+    "droppedCount": 24,
+    "keptCount": 6,
     "beat": "philippine_motoring",
     "url": "https://www.topgear.com.ph/feed/rss1",
     "type": "rss",
-    "checkedAt": "2026-10-11T16:10:09.403Z"
+    "checkedAt": "2026-10-18T13:47:42.425Z"
   },
   {
     "source": "CarGuide PH",
@@ -23,7 +23,7 @@
     "beat": "philippine_motoring",
     "url": "https://feeds.feedburner.com/Carguideph",
     "type": "rss",
-    "checkedAt": "2026-10-11T16:10:09.403Z"
+    "checkedAt": "2026-10-18T13:47:42.425Z"
   },
   {
     "source": "BusinessMirror Motoring",
@@ -38,7 +38,7 @@
     "beat": "philippine_motoring",
     "url": "https://businessmirror.com.ph/life/motoring/feed/",
     "type": "rss",
-    "checkedAt": "2026-10-11T16:10:09.403Z"
+    "checkedAt": "2026-10-18T13:47:42.425Z"
   },
   {
     "source": "Inquirer Business",
@@ -46,12 +46,12 @@
     "health": "healthy",
     "fetchedCount": 40,
     "normalizedCount": 40,
-    "droppedCount": 37,
-    "keptCount": 3,
+    "droppedCount": 39,
+    "keptCount": 1,
     "beat": "philippine_motoring",
     "url": "https://business.inquirer.net/feed",
     "type": "rss",
-    "checkedAt": "2026-10-11T16:10:09.403Z"
+    "checkedAt": "2026-10-18T13:47:42.425Z"
   },
   {
     "source": "Philstar Business",
@@ -64,7 +64,7 @@
     "beat": "philippine_motoring",
     "url": "https://www.philstar.com/rss/business",
     "type": "rss",
-    "checkedAt": "2026-10-11T16:10:09.403Z"
+    "checkedAt": "2026-10-18T13:47:42.425Z"
   },
   {
     "source": "BusinessWorld Online",
@@ -72,12 +72,12 @@
     "health": "healthy",
     "fetchedCount": 30,
     "normalizedCount": 30,
-    "droppedCount": 30,
-    "keptCount": 0,
+    "droppedCount": 29,
+    "keptCount": 1,
     "beat": "philippine_motoring",
     "url": "https://www.bworldonline.com/feed/",
     "type": "rss",
-    "checkedAt": "2026-10-11T16:10:09.403Z"
+    "checkedAt": "2026-10-18T13:47:42.425Z"
   },
   {
     "source": "Land Transportation Office",
@@ -92,7 +92,7 @@
     "beat": "philippine_motoring",
     "url": "https://lto.gov.ph/news/feed/",
     "type": "rss",
-    "checkedAt": "2026-10-11T16:10:09.403Z"
+    "checkedAt": "2026-10-18T13:47:42.425Z"
   },
   {
     "source": "Land Transportation Franchising and Regulatory Board",
@@ -107,6 +107,6 @@
     "beat": "philippine_motoring",
     "url": "https://ltfrb.gov.ph/feed/",
     "type": "rss",
-    "checkedAt": "2026-10-11T16:10:09.403Z"
+    "checkedAt": "2026-10-18T13:47:42.425Z"
   }
 ]

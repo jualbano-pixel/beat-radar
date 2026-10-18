@@ -1,0 +1,68 @@
+[
+  {
+    "theme_id": "ev_transition_gap",
+    "theme_label": "EV transition gap",
+    "theme_summary": "EV transition gap is the shared editorial thread across 5 related stories. The strongest signal is EV transition gap visible.",
+    "story_count": 5,
+    "cluster_ids": [],
+    "story_ids": [
+      "2674106bfa6b",
+      "cfef08f3b040",
+      "e0290b3106c3",
+      "4d3fd6a72818",
+      "518fa3f438b4"
+    ],
+    "associated_stories": [
+      {
+        "id": "cfef08f3b040",
+        "title": "Honda launches facelifted City and City Hatchback with prices starting at P998k",
+        "url": "https://www.topgear.com.ph/news/car-news/honda-city-2027-launch-philippines-a5361-20261017",
+        "source": "TopGear Philippines",
+        "published_at": "2026-10-17T03:43:00.000Z"
+      },
+      {
+        "id": "2674106bfa6b",
+        "title": "BYD supports extension of zero-tariff EV import incentive scheme until 2040",
+        "url": "https://bworldonline.com/economy/2026/10/18/787547/byd-supports-extension-of-zero-tariff-ev-import-incentive-scheme-until-2040",
+        "source": "BusinessWorld Online",
+        "published_at": "2026-10-18T12:42:19.000Z"
+      },
+      {
+        "id": "e0290b3106c3",
+        "title": "The 2026 Philippine EV Summit is happening next week",
+        "url": "https://www.topgear.com.ph/news/industry-news/philippine-ev-summit-2026-a6941-20261016",
+        "source": "TopGear Philippines",
+        "published_at": "2026-10-16T07:26:00.000Z"
+      },
+      {
+        "id": "4d3fd6a72818",
+        "title": "The Tesla Roadster is here, and it (literally) sucks...and flips and flies",
+        "url": "https://www.topgear.com.ph/news/car-news/tesla-roadster-2027-reveal-a6941-20261016",
+        "source": "TopGear Philippines",
+        "published_at": "2026-10-16T03:20:00.000Z"
+      },
+      {
+        "id": "518fa3f438b4",
+        "title": "You can test drive MG’s hybrids and EVs in Nuvali this weekend",
+        "url": "https://www.topgear.com.ph/news/industry-news/mg-multiply-greatness-tour-2026-nuvali-a6941-20261015",
+        "source": "TopGear Philippines",
+        "published_at": "2026-10-15T07:19:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "local_business_relevance",
+      "watchlist_signal",
+      "product_signal"
+    ],
+    "dominant_angle_signals": [
+      "EV transition gap visible",
+      "product launch reveals market bet",
+      "supply constraint shaping choice"
+    ],
+    "top_story_refs": [
+      "cfef08f3b040",
+      "2674106bfa6b",
+      "e0290b3106c3"
+    ]
+  }
+]

@@ -1,204 +1,114 @@
 {
   "top_stories": [
     {
-      "title": "Mixed pump price adjustments seen Oct. 13",
-      "source": "Inquirer Business",
-      "date": "2026-10-10T05:50:00.000Z",
-      "summary": "MANILA, Philippines — Diesel products are on track for three consecutive weeks of rollbacks, while gasoline prices are expected to increase anew on Oct. 13. In an advisory on Friday, Jetti Petroleum president Leo Bellas said diesel prices may decrease by P1.80 to P2 per liter, while gasoline may rise by P2 to P2.20 per",
-      "tags": [
-        "pricing_pressure",
-        "product_market_signal"
-      ],
-      "priority_score": 4.8,
-      "priority_reasons": [
-        "policy_shift",
-        "editorial_source_confirmation"
-      ],
-      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
-    },
-    {
-      "title": "Mixed fuel price adjustments expected next week",
-      "source": "Inquirer Business",
-      "date": "2026-10-09T10:48:43.000Z",
-      "summary": "MANILA, Philippines — Motorists will continue to enjoy diesel savings for a third consecutive week, while gasoline prices will likely rise again next week. In a Friday advisory, Jetti Petroleum president Leo Bellas said diesel prices may decrease by P1.80 to P2 per liter. READ: Tehran’s wartime billboards mock Trump...",
-      "tags": [
-        "pricing_pressure",
-        "ownership_cost",
-        "product_market_signal"
-      ],
-      "priority_score": 4.8,
-      "priority_reasons": [
-        "policy_shift",
-        "editorial_source_confirmation"
-      ],
-      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
-    },
-    {
-      "title": "VinFast opens new motorcycle dealership at SM MOA",
+      "title": "The Tesla Roadster is here, and it (literally) sucks...and flips and flies",
       "source": "TopGear Philippines",
-      "date": "2026-10-09T03:42:00.000Z",
-      "summary": "Customers can view and test ride the brand’s electric scooters here",
+      "date": "2026-10-16T03:20:00.000Z",
+      "summary": "This EV has gadgets that put Bond’s cars to shame, courtesy of SpaceX",
       "tags": [
-        "general_philippine_motoring"
+        "ev_transition_gap"
       ],
-      "priority_score": 1.6,
+      "priority_score": 5.4,
+      "priority_reasons": [
+        "policy_shift",
+        "practical_usability_impact"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "The 2026 Philippine EV Summit is happening next week",
+      "source": "TopGear Philippines",
+      "date": "2026-10-16T07:26:00.000Z",
+      "summary": "Organizers say 2026 has been a breakthrough year for electrification in PH",
+      "tags": [
+        "ev_transition_gap"
+      ],
+      "priority_score": 1.4,
       "priority_reasons": [
         "practical_usability_impact"
       ],
       "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
     },
     {
-      "title": "The road to growth runs through C5",
-      "source": "Inquirer Business",
-      "date": "2026-10-09T21:53:59.000Z",
-      "summary": "The Circumferential Road 5, known as C5, is one of the most important thoroughfares in the country’s capital region. It connects eight cities namely Las Piñas, Parañaque, Makati, Pasay, Pasig, Quezon City, Taguig and Valenzuela. Transport corridor C5 Road is generally recognized as a busy transportation corridor in...",
-      "tags": [
-        "motoring_infrastructure"
-      ],
-      "priority_score": 0.8,
-      "priority_reasons": [
-        "practical_usability_impact",
-        "editorial_source_confirmation",
-        "minor_or_routine"
-      ],
-      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
-    },
-    {
-      "title": "You can go ghostbusting in the Rivian Ecto-R1 electric SUV",
-      "source": "TopGear Philippines",
-      "date": "2026-10-11T00:12:00.000Z",
-      "summary": "Who you gonna call?",
-      "tags": [
-        "consumer_demand_shift"
-      ],
-      "priority_score": 0.6,
-      "priority_reasons": [],
-      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
-    },
-    {
-      "title": "Review: 2027 Honda HR-V S CVT",
-      "source": "TopGear Philippines",
-      "date": "2026-10-09T19:40:00.000Z",
-      "summary": "The little crossover that could",
-      "tags": [
-        "general_philippine_motoring"
-      ],
-      "priority_score": 0.6,
-      "priority_reasons": [],
-      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
-    },
-    {
-      "title": "VinFast MPV 7 serves as official vehicle for ASEAN Ministers on Energy Meeting",
-      "source": "TopGear Philippines",
-      "date": "2026-10-09T11:10:00.000Z",
-      "summary": "Highlighting the carmaker’s commitment to strengthening electrified mobility",
-      "tags": [
-        "consumer_demand_shift"
-      ],
-      "priority_score": 0.6,
-      "priority_reasons": [],
-      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
-    },
-    {
-      "title": "Jetour PH is set to open a new dealership in Cabanatuan City",
-      "source": "TopGear Philippines",
-      "date": "2026-10-09T04:16:00.000Z",
-      "summary": "The brand is expanding its presence in Central Luzon",
-      "tags": [
-        "general_philippine_motoring"
-      ],
-      "priority_score": 0.6,
-      "priority_reasons": [],
-      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
-    }
-  ],
-  "secondary_signals": [
-    {
-      "title": "Report: Honda is rebadging the Mitsubishi Triton to add a pickup to its roster",
-      "source": "TopGear Philippines",
-      "date": "2026-10-09T02:59:00.000Z",
-      "summary": "The rebadged pickup could enter Southeast Asian markets as early as 2028",
-      "tags": [
-        "consumer_demand_shift"
-      ],
-      "priority_score": 0.6,
-      "priority_reasons": [],
-      "note": "Useful supporting editorial signal."
-    },
-    {
-      "title": "Wireless EV charging at highway speeds? Honda is testing the tech",
-      "source": "TopGear Philippines",
-      "date": "2026-10-08T08:19:00.000Z",
-      "summary": "Who needs a station when the road does the charging for you?",
+      "title": "BYD supports extension of zero-tariff EV import incentive scheme until 2040",
+      "source": "BusinessWorld Online",
+      "date": "2026-10-18T12:42:19.000Z",
+      "summary": "BYD Cars Philippines said it supports the Electric Vehicle Association of the Philippines’ (EVAP) request to extend zero…",
       "tags": [
         "ev_transition_gap",
-        "motoring_infrastructure"
+        "supply_availability",
+        "product_market_signal"
       ],
-      "priority_score": 0.4,
+      "priority_score": 0.6,
       "priority_reasons": [],
-      "note": "Useful supporting editorial signal."
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
     },
     {
-      "title": "VinFast PH opens its 36th dealership in Pasay City",
+      "title": "Pickup in the morning, MPV in the evening, SUV in between—the Fiat Multiplay is all those things",
       "source": "TopGear Philippines",
-      "date": "2026-10-08T06:02:00.000Z",
-      "summary": "It was inaugurated with Ravox Car Dealership",
+      "date": "2026-10-16T22:30:00.000Z",
+      "summary": "Is this the ultimate one-car-garage solution?",
+      "tags": [
+        "consumer_demand_shift"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Gasoline rollback, slight diesel hike seen next week",
+      "source": "Inquirer Business",
+      "date": "2026-10-16T09:42:21.000Z",
+      "summary": "MANILA, Philippines — Motorists may see gasoline prices drop by as much as P4.20 a liter next week, while diesel prices could rise, an industry source said. Gasoline prices will like drop by P4 to P4.20 a liter for the week of Oct. 19, while diesel prices may rise by P0.20 to P0.40 a liter. READ:",
+      "tags": [
+        "pricing_pressure",
+        "product_market_signal"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "You can test drive MG’s hybrids and EVs in Nuvali this weekend",
+      "source": "TopGear Philippines",
+      "date": "2026-10-15T07:19:00.000Z",
+      "summary": "It’s the third leg of MG’s Multiple Greatness tour",
       "tags": [
         "general_philippine_motoring"
       ],
       "priority_score": 0.4,
       "priority_reasons": [],
-      "note": "Useful supporting editorial signal."
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
     },
     {
-      "title": "Can-Am’s electric motorcycles have landed in PH, will be priced above P1-M",
+      "title": "Partially open by 2027, complete by 2033: DOTr shares updated NSCR timeline",
       "source": "TopGear Philippines",
-      "date": "2026-10-08T00:51:00.000Z",
-      "summary": "There’s the road-focused Pulse and the off-road-oriented Origin",
+      "date": "2026-10-15T04:04:00.000Z",
+      "summary": "Segments will gradually open across that time period",
       "tags": [
-        "motoring_infrastructure"
+        "regulation_enforcement"
       ],
       "priority_score": 0.4,
       "priority_reasons": [],
-      "note": "Useful supporting editorial signal."
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
     },
     {
-      "title": "Ford takes P600k off the Mustang Mach-E as Truck Month promo extends to October",
+      "title": "Honda launches facelifted City and City Hatchback with prices starting at P998k",
       "source": "TopGear Philippines",
-      "date": "2026-10-07T09:25:00.000Z",
-      "summary": "Complimentary after-sales services and cash discounts await new buyers",
+      "date": "2026-10-17T03:43:00.000Z",
+      "summary": "The range-topping Hatchback stickers for P1.178-M",
       "tags": [
-        "consumer_demand_shift"
+        "pricing_pressure",
+        "ev_transition_gap"
       ],
-      "priority_score": 0.4,
-      "priority_reasons": [],
-      "note": "Useful supporting editorial signal."
-    },
-    {
-      "title": "The Geely Monjaro EM-i set a new world record in the Sahara Desert",
-      "source": "TopGear Philippines",
-      "date": "2026-10-07T03:16:00.000Z",
-      "summary": "The SUV is expected to arrive on our shores later this month",
-      "tags": [
-        "consumer_demand_shift"
-      ],
-      "priority_score": 0.4,
-      "priority_reasons": [],
-      "note": "Useful supporting editorial signal."
-    },
-    {
-      "title": "BYD’s electric kei car is launching in markets outside Japan",
-      "source": "TopGear Philippines",
-      "date": "2026-10-08T08:09:00.000Z",
-      "summary": "Could the Racco eventually make its way to the Philippines?",
-      "tags": [
-        "product_market_signal"
-      ],
-      "priority_score": -2.6,
+      "priority_score": -2.4,
       "priority_reasons": [
         "routine_launch_without_broader_impact"
       ],
-      "note": "Useful supporting editorial signal."
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
     }
-  ]
+  ],
+  "secondary_signals": []
 }
