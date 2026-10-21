@@ -1,0 +1,77 @@
+{
+  "top_stories": [
+    {
+      "title": "Businesses less pessimistic in August, more optimistic ahead",
+      "source": "BSP Property Media Releases SharePoint",
+      "date": "2026-09-24T16:00:00.000Z",
+      "summary": "​Philippine business sentiment became less pessimistic in August 2026, results of the latest Business Expectations Survey (BES) of the Bangko Sentral ng Pilipinas (BSP) showed.[1] Firms attributed the improvement to expectations of higher demand for essential commodities, loan products, and construction activities.&...",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 4,
+      "priority_reasons": [
+        "enterprise_scale_signal",
+        "practical_usability_impact"
+      ],
+      "why_it_matters": "This is a strong editorial signal because it shows technology moving into real-world deployment at scale. It points to traction beyond experimentation."
+    },
+    {
+      "title": "Approved building permits fall to an over 6-year low in August",
+      "source": "BusinessWorld Property",
+      "date": "2026-10-21T13:16:44.000Z",
+      "summary": "THE NUMBER of approved building permits fell to an over six-year low in August, as elevated borrowing costs, slower economic activity, and weather disruptions dampened construction activity, analysts said.",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 1.8,
+      "priority_reasons": [
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Planned construction plunges 39% in August as POGO fallout, high costs weigh on property sector",
+      "source": "Manila Bulletin Business Property JSON Fallback",
+      "date": "2026-10-21T12:10:00.000Z",
+      "summary": "The value of planned private construction projects in the Philippines plunged nearly 39 percent in August from a year ago, as the property sector continued to grapple with oversupply following the Philippine offshore gaming operator (POGO) ban, high borrowing and material costs, and delayed...",
+      "tags": [
+        "ai_automation"
+      ],
+      "priority_score": 1.6,
+      "priority_reasons": [
+        "practical_usability_impact"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Philippine housing agency broadens loan subsidies to boost demand",
+      "source": "Manila Bulletin Business Property JSON Fallback",
+      "date": "2026-10-20T19:56:00.000Z",
+      "summary": "State-run Home Development Mutual Fund, known as Pag-IBIG Fund, is expanding home loan subsidies and promotional interest rates in a bid to stimulate buyer demand as the local residential property sector grapples with a prolonged downturn expected to stretch into late 2027. The state-backed...",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 1.6,
+      "priority_reasons": [
+        "practical_usability_impact"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Metro Manila Office Report Q3 2025",
+      "source": "Santos Knight Frank Market Reports",
+      "date": "2025-11-11T06:30:43.000Z",
+      "summary": "Metro Manila Office Report Q3 2025The Metro Manila office market in the third quarter of 2025 reflected steady adjustments to evolving workplace strategies amid tempered demand. Total office stock reached 8.9 million sqm, with new supply from Quezon City adding 72,000 sqm. Overall vacancy stood at 21.2%, while avera...",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 0.2,
+      "priority_reasons": [
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    }
+  ],
+  "secondary_signals": []
+}

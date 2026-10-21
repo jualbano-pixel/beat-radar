@@ -1,89 +1,51 @@
 [
   {
-    "theme_id": "enterprise_technology",
-    "theme_label": "enterprise technology adoption",
-    "theme_summary": "enterprise technology adoption is the shared editorial thread across 3 related stories. The strongest signal is enterprise adoption pressure rising.",
+    "theme_id": "cybersecurity_resilience",
+    "theme_label": "cybersecurity and resilience",
+    "theme_summary": "cybersecurity and resilience is the shared editorial thread across 3 related stories. The strongest signal is cost pressure building.",
     "story_count": 3,
     "cluster_ids": [],
     "story_ids": [
-      "910ff888ad52",
-      "409f22262ae5",
-      "aa416e3005c2"
+      "66522a062e5d",
+      "5daea159e7ac",
+      "242a73178c46"
     ],
     "associated_stories": [
       {
-        "id": "409f22262ae5",
-        "title": "Metro Manila condo glut persists as buyer back-outs rise—Colliers",
-        "url": "https://mb.com.ph/2026/10/14/metro-manila-condo-glut-persists-as-buyer-back-outs-risecolliers",
+        "id": "5daea159e7ac",
+        "title": "Planned construction plunges 39% in August as POGO fallout, high costs weigh on property sector",
+        "url": "https://mb.com.ph/2026/10/21/planned-construction-plunges-39-in-august-as-pogo-fallout-high-costs-weigh-on-property-sector",
         "source": "Manila Bulletin Business Property JSON Fallback",
-        "published_at": "2026-10-14T12:30:00.000Z"
+        "published_at": "2026-10-21T12:10:00.000Z"
       },
       {
-        "id": "910ff888ad52",
-        "title": "Philippine condo developers bend terms, not prices",
-        "url": "https://bworldonline.com/top-stories/2026/10/14/786908/philippine-condo-developers-bend-terms-not-prices",
+        "id": "242a73178c46",
+        "title": "Philippine housing agency broadens loan subsidies to boost demand",
+        "url": "https://mb.com.ph/2026/10/20/philippine-housing-agency-broadens-loan-subsidies-to-boost-demand",
+        "source": "Manila Bulletin Business Property JSON Fallback",
+        "published_at": "2026-10-20T19:56:00.000Z"
+      },
+      {
+        "id": "66522a062e5d",
+        "title": "Approved building permits fall to an over 6-year low in August",
+        "url": "https://bworldonline.com/top-stories/2026/10/21/788490/approved-building-permits-fall-to-an-over-6-year-low-in-august",
         "source": "BusinessWorld Property",
-        "published_at": "2026-10-14T13:33:31.000Z"
-      },
-      {
-        "id": "aa416e3005c2",
-        "title": "Businesses less pessimistic in August, more optimistic ahead",
-        "url": "https://www.bsp.gov.ph/SitePages/MediaAndResearch/MediaDisp.aspx?ItemId=8088&MType=Media+Releases",
-        "source": "BSP Property Media Releases SharePoint",
-        "published_at": "2026-09-24T16:00:00.000Z"
+        "published_at": "2026-10-21T13:16:44.000Z"
       }
     ],
     "dominant_reason_codes": [
-      "local_business_relevance"
+      "policy_regulatory_move",
+      "execution_consequence"
     ],
     "dominant_angle_signals": [
-      "enterprise adoption pressure rising",
-      "local operators exposed",
-      "developer workflow changing"
+      "cost pressure building",
+      "execution gap showing",
+      "supply risk rising"
     ],
     "top_story_refs": [
-      "409f22262ae5",
-      "910ff888ad52",
-      "aa416e3005c2"
-    ]
-  },
-  {
-    "theme_id": "digital_policy_regulation",
-    "theme_label": "digital policy and regulation",
-    "theme_summary": "digital policy and regulation is the shared editorial thread across 2 related stories. The strongest signal is policy pressure building.",
-    "story_count": 2,
-    "cluster_ids": [],
-    "story_ids": [
-      "5322496b1f99",
-      "2ad77f55a77e"
-    ],
-    "associated_stories": [
-      {
-        "id": "2ad77f55a77e",
-        "title": "PIDS warns land-use law could fail without power to settle government disputes",
-        "url": "https://mb.com.ph/2026/10/14/pids-warns-land-use-law-could-fail-without-power-to-settle-government-disputes",
-        "source": "Manila Bulletin Business Property JSON Fallback",
-        "published_at": "2026-10-14T19:16:00.000Z"
-      },
-      {
-        "id": "5322496b1f99",
-        "title": "Pork prices remain elevated despite tariff cuts",
-        "url": "https://business.inquirer.net/615570/pork-prices-remain-elevated-despite-tariff-cuts",
-        "source": "Inquirer Business Property",
-        "published_at": "2026-10-12T23:31:06.000Z"
-      }
-    ],
-    "dominant_reason_codes": [
-      "policy_regulatory_move"
-    ],
-    "dominant_angle_signals": [
-      "policy pressure building",
-      "regulation moving ahead of capacity",
-      "local operators exposed"
-    ],
-    "top_story_refs": [
-      "2ad77f55a77e",
-      "5322496b1f99"
+      "5daea159e7ac",
+      "242a73178c46",
+      "66522a062e5d"
     ]
   }
 ]
