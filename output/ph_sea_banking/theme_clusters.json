@@ -1,1 +1,53 @@
-[]
+[
+  {
+    "theme_id": "credit_tightening",
+    "theme_label": "Credit tightening is emerging",
+    "theme_summary": "Banks and regulators are giving more attention to loan terms, borrower capacity, and credit discipline than to simple volume growth.",
+    "story_count": 3,
+    "cluster_ids": [
+      "banking_002"
+    ],
+    "story_ids": [
+      "3fd7ad245465",
+      "96d1b1d09fa4",
+      "3a2fa79013ec"
+    ],
+    "associated_stories": [
+      {
+        "id": "3fd7ad245465",
+        "title": "Indonesia’s central bank keeps main rate unchanged but hikes deposit facility rate, to cut RRR",
+        "url": "https://www.businesstimes.com.sg/international/asean/indonesias-central-bank-keeps-main-rate-unchanged-hikes-deposit-facility-rate-cut-rrr",
+        "source": "The Business Times Banking",
+        "published_at": "2026-10-21T07:23:38.000Z"
+      },
+      {
+        "id": "96d1b1d09fa4",
+        "title": "Heads up: More BSP rate hikes on the way",
+        "url": "https://www.philstar.com/business/2026/10/24/2565254/heads-up-more-bsp-rate-hikes-way",
+        "source": "Philstar Business",
+        "published_at": "2026-10-23T16:00:00.000Z"
+      },
+      {
+        "id": "3a2fa79013ec",
+        "title": "BSP surprises with jumbo rate hike, signals further tightening",
+        "url": "https://bworldonline.com/top-stories/2026/10/22/788741/bsp-surprises-with-jumbo-rate-hike-signals-further-tightening",
+        "source": "BusinessWorld Banking",
+        "published_at": "2026-10-22T13:51:37.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "policy_regulatory_move"
+    ],
+    "dominant_angle_signals": [
+      "credit behavior tightening",
+      "regulatory pressure shaping bank behavior",
+      "deposit migration visible"
+    ],
+    "top_story_refs": [
+      "3fd7ad245465",
+      "96d1b1d09fa4",
+      "3a2fa79013ec"
+    ],
+    "theme_type": "primary"
+  }
+]

@@ -1,0 +1,365 @@
+[
+  {
+    "cluster_id": "banking_001",
+    "cluster_kind": "same_event",
+    "lead_story_id": "983131d01f66",
+    "story_count": 7,
+    "story_ids": [
+      "983131d01f66",
+      "8caa2838e265",
+      "54a1f7aa1146",
+      "01e54fc2aa91",
+      "f51ce43b86ef",
+      "8df886e59ef9",
+      "a7b78bbd46a6"
+    ],
+    "story_titles": [
+      "PSEi falls to 5,728 on rate hike, weaker peso",
+      "BSP unleashes jumbo rate hike vs inflation",
+      "Peso extends losses, falls past 63.5:$1",
+      "BSP may not be done hiking rates as inflation risks mount",
+      "Monetary Board raises Target RRP Rate by 50 basis points",
+      "GIR settle at US$99.5B, BOP posts US$3.1-B deficit in Sept 2026",
+      "GIR settle at US$100B as of end-Sept 2026"
+    ],
+    "associated_stories": [
+      {
+        "id": "983131d01f66",
+        "title": "PSEi falls to 5,728 on rate hike, weaker peso",
+        "url": "https://business.inquirer.net/617579/psei-falls-to-5728-on-rate-hike-weaker-peso",
+        "source": "Inquirer Business",
+        "published_at": "2026-10-23T18:43:46.000Z"
+      },
+      {
+        "id": "8caa2838e265",
+        "title": "BSP unleashes jumbo rate hike vs inflation",
+        "url": "https://business.inquirer.net/617363/bsp-unleashes-jumbo-rate-hike-vs-inflation",
+        "source": "Inquirer Business",
+        "published_at": "2026-10-23T02:26:00.000Z"
+      },
+      {
+        "id": "54a1f7aa1146",
+        "title": "Peso extends losses, falls past 63.5:$1",
+        "url": "https://business.inquirer.net/617362/peso-extends-losses-falls-past-63-51",
+        "source": "Inquirer Business",
+        "published_at": "2026-10-23T02:20:00.000Z"
+      },
+      {
+        "id": "01e54fc2aa91",
+        "title": "BSP may not be done hiking rates as inflation risks mount",
+        "url": "https://business.inquirer.net/617616/bsp-may-not-be-done-hiking-rates-as-inflation-risks-mount",
+        "source": "Inquirer Business",
+        "published_at": "2026-10-24T02:14:00.000Z"
+      },
+      {
+        "id": "f51ce43b86ef",
+        "title": "Monetary Board raises Target RRP Rate by 50 basis points",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8115",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-10-22T06:17:02.000Z"
+      },
+      {
+        "id": "8df886e59ef9",
+        "title": "GIR settle at US$99.5B, BOP posts US$3.1-B deficit in Sept 2026",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8112",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-10-19T06:09:53.000Z"
+      },
+      {
+        "id": "a7b78bbd46a6",
+        "title": "GIR settle at US$100B as of end-Sept 2026",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8102",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-10-07T10:47:14.000Z"
+      }
+    ],
+    "entities": [
+      "regulator"
+    ],
+    "event_label": "Credit rules are moving onto the watchlist",
+    "compression_line": "Loan rules and regulatory signals are putting credit discipline back on the banking desk's watchlist.",
+    "priority_score": 72,
+    "editorial_bucket": "urgent_important",
+    "cluster_type": "pattern",
+    "cluster_classification": "primary",
+    "supporting_story_ids": [
+      "8caa2838e265",
+      "54a1f7aa1146",
+      "01e54fc2aa91",
+      "f51ce43b86ef",
+      "8df886e59ef9",
+      "a7b78bbd46a6"
+    ]
+  },
+  {
+    "cluster_id": "banking_002",
+    "cluster_kind": "same_event",
+    "lead_story_id": "3fd7ad245465",
+    "story_count": 3,
+    "story_ids": [
+      "3fd7ad245465",
+      "96d1b1d09fa4",
+      "3a2fa79013ec"
+    ],
+    "story_titles": [
+      "Indonesia’s central bank keeps main rate unchanged but hikes deposit facility rate, to cut RRR",
+      "Heads up: More BSP rate hikes on the way",
+      "BSP surprises with jumbo rate hike, signals further tightening"
+    ],
+    "associated_stories": [
+      {
+        "id": "3fd7ad245465",
+        "title": "Indonesia’s central bank keeps main rate unchanged but hikes deposit facility rate, to cut RRR",
+        "url": "https://www.businesstimes.com.sg/international/asean/indonesias-central-bank-keeps-main-rate-unchanged-hikes-deposit-facility-rate-cut-rrr",
+        "source": "The Business Times Banking",
+        "published_at": "2026-10-21T07:23:38.000Z"
+      },
+      {
+        "id": "96d1b1d09fa4",
+        "title": "Heads up: More BSP rate hikes on the way",
+        "url": "https://www.philstar.com/business/2026/10/24/2565254/heads-up-more-bsp-rate-hikes-way",
+        "source": "Philstar Business",
+        "published_at": "2026-10-23T16:00:00.000Z"
+      },
+      {
+        "id": "3a2fa79013ec",
+        "title": "BSP surprises with jumbo rate hike, signals further tightening",
+        "url": "https://bworldonline.com/top-stories/2026/10/22/788741/bsp-surprises-with-jumbo-rate-hike-signals-further-tightening",
+        "source": "BusinessWorld Banking",
+        "published_at": "2026-10-22T13:51:37.000Z"
+      }
+    ],
+    "entities": [
+      "regulator"
+    ],
+    "event_label": "Credit tightening is emerging",
+    "compression_line": "The cluster points to stricter credit conditions, with banks or regulators becoming less willing to let lending run on autopilot.",
+    "priority_score": 64,
+    "editorial_bucket": "urgent_important",
+    "cluster_type": "pattern",
+    "cluster_classification": "primary",
+    "primary_theme_id": "credit_tightening",
+    "primary_theme_label": "Credit tightening is emerging",
+    "supporting_story_ids": [
+      "96d1b1d09fa4",
+      "3a2fa79013ec"
+    ]
+  },
+  {
+    "cluster_id": "banking_003",
+    "cluster_kind": "same_event",
+    "lead_story_id": "a165c212c382",
+    "story_count": 1,
+    "story_ids": [
+      "a165c212c382"
+    ],
+    "story_titles": [
+      "Businesses less pessimistic in August, more optimistic ahead"
+    ],
+    "associated_stories": [
+      {
+        "id": "a165c212c382",
+        "title": "Businesses less pessimistic in August, more optimistic ahead",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8088",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-09-25T10:41:40.000Z"
+      }
+    ],
+    "entities": [
+      "regulator"
+    ],
+    "event_label": "Loan growth is still carrying the system",
+    "compression_line": "The cluster keeps loan growth in view, but the useful read is whether that growth is becoming harder for borrowers to carry.",
+    "priority_score": 60,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "event",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": []
+  },
+  {
+    "cluster_id": "banking_004",
+    "cluster_kind": "same_event",
+    "lead_story_id": "b117b07a2189",
+    "story_count": 1,
+    "story_ids": [
+      "b117b07a2189"
+    ],
+    "story_titles": [
+      "US funnels $34 million into Philippines ube development"
+    ],
+    "associated_stories": [
+      {
+        "id": "b117b07a2189",
+        "title": "US funnels $34 million into Philippines ube development",
+        "url": "https://www.philstar.com/business/2026/10/24/2565252/us-funnels-34-million-philippines-ube-development",
+        "source": "Philstar Business",
+        "published_at": "2026-10-23T16:00:00.000Z"
+      }
+    ],
+    "entities": [
+      "private_bank"
+    ],
+    "event_label": "Funding costs are pressing margins",
+    "compression_line": "The stories belong together as early banking-system signals, but the direction still needs confirmation.",
+    "priority_score": 64,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "event",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": []
+  },
+  {
+    "cluster_id": "banking_005",
+    "cluster_kind": "same_event",
+    "lead_story_id": "74b334131730",
+    "story_count": 1,
+    "story_ids": [
+      "74b334131730"
+    ],
+    "story_titles": [
+      "BPI 9-month profit slips down to P48.9B"
+    ],
+    "associated_stories": [
+      {
+        "id": "74b334131730",
+        "title": "BPI 9-month profit slips down to P48.9B",
+        "url": "https://business.inquirer.net/617364/bpi-9-month-profit-slips-down-to-p48-9b",
+        "source": "Inquirer Business",
+        "published_at": "2026-10-23T02:24:00.000Z"
+      }
+    ],
+    "entities": [
+      "private_bank"
+    ],
+    "event_label": "Risk is starting to surface",
+    "compression_line": "Bad-loan and borrower-capacity signals suggest risk is beginning to surface beneath still-active lending.",
+    "priority_score": 56,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "event",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": []
+  },
+  {
+    "cluster_id": "banking_006",
+    "cluster_kind": "same_event",
+    "lead_story_id": "0504149182c5",
+    "story_count": 1,
+    "story_ids": [
+      "0504149182c5"
+    ],
+    "story_titles": [
+      "Japan debt watcher sees resilient PH economy"
+    ],
+    "associated_stories": [
+      {
+        "id": "0504149182c5",
+        "title": "Japan debt watcher sees resilient PH economy",
+        "url": "https://business.inquirer.net/617618/japan-debt-watcher-sees-resilient-ph-economy",
+        "source": "Inquirer Business",
+        "published_at": "2026-10-24T02:00:00.000Z"
+      }
+    ],
+    "entities": [
+      "private_bank"
+    ],
+    "event_label": "Liquidity is being preserved over growth",
+    "compression_line": "The grouped stories point to banks preserving buffers rather than stretching balance sheets for growth.",
+    "priority_score": 48,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "event",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": []
+  },
+  {
+    "cluster_id": "banking_007",
+    "cluster_kind": "same_event",
+    "lead_story_id": "9a87a6f26947",
+    "story_count": 1,
+    "story_ids": [
+      "9a87a6f26947"
+    ],
+    "story_titles": [
+      "UnionBank profit jumps 53% to P9.9B in nine months"
+    ],
+    "associated_stories": [
+      {
+        "id": "9a87a6f26947",
+        "title": "UnionBank profit jumps 53% to P9.9B in nine months",
+        "url": "https://business.inquirer.net/617582/unionbank-profit-jumps-53-to-p9-9b-in-nine-months",
+        "source": "Inquirer Business",
+        "published_at": "2026-10-24T02:30:00.000Z"
+      }
+    ],
+    "entities": [
+      "private_bank"
+    ],
+    "event_label": "Funding costs are pressing margins",
+    "compression_line": "The stories belong together as early banking-system signals, but the direction still needs confirmation.",
+    "priority_score": 56,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "event",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": []
+  },
+  {
+    "cluster_id": "banking_008",
+    "cluster_kind": "same_event",
+    "lead_story_id": "9e018ab17726",
+    "story_count": 1,
+    "story_ids": [
+      "9e018ab17726"
+    ],
+    "story_titles": [
+      "BSP adopts new standardized approach for operational risk capital requirements"
+    ],
+    "associated_stories": [
+      {
+        "id": "9e018ab17726",
+        "title": "BSP adopts new standardized approach for operational risk capital requirements",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8108",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-10-13T11:25:04.000Z"
+      }
+    ],
+    "entities": [
+      "regulator"
+    ],
+    "event_label": "Risk is starting to surface",
+    "compression_line": "Bad-loan and borrower-capacity signals suggest risk is beginning to surface beneath still-active lending.",
+    "priority_score": 48,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "event",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": []
+  },
+  {
+    "cluster_id": "banking_009",
+    "cluster_kind": "same_event",
+    "lead_story_id": "23e954c820ce",
+    "story_count": 1,
+    "story_ids": [
+      "23e954c820ce"
+    ],
+    "story_titles": [
+      "PNB 9-month profit jumps 15% to P21.3B"
+    ],
+    "associated_stories": [
+      {
+        "id": "23e954c820ce",
+        "title": "PNB 9-month profit jumps 15% to P21.3B",
+        "url": "https://business.inquirer.net/617623/pnb-9-month-profit-jumps-15-to-p21-3b",
+        "source": "Inquirer Business",
+        "published_at": "2026-10-24T02:08:00.000Z"
+      }
+    ],
+    "entities": [
+      "private_bank"
+    ],
+    "event_label": "Loan growth is still carrying the system",
+    "compression_line": "The cluster keeps loan growth in view, but the useful read is whether that growth is becoming harder for borrowers to carry.",
+    "priority_score": 52,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "event",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": []
+  }
+]

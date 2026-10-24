@@ -1,0 +1,384 @@
+{
+  "top_stories": [
+    {
+      "title": "PSEi falls to 5,728 on rate hike, weaker peso",
+      "source": "Inquirer Business",
+      "date": "2026-10-23T18:43:46.000Z",
+      "summary": "MANILA, Philippines — Local stocks retreated on Friday as investors weighed the impact of higher borrowing costs on economic growth, while a weakening peso added to market jitters. The benchmark Philippine Stock Exchange Index (PSEi) dropped 0.88 percent, or 51.10 points, to close at 5,728.63. READ: BSP unleashes ju...",
+      "tags": [
+        "banking_regulation",
+        "banking_rising",
+        "banking_falling",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_driver_market",
+        "banking_regulator"
+      ],
+      "priority_score": 17.3,
+      "priority_reasons": [
+        "banking_top_movement",
+        "banking_policy_pressure",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it points to a live shift in banking-system behavior, not just a company headline."
+    },
+    {
+      "title": "BSP unleashes jumbo rate hike vs inflation",
+      "source": "Inquirer Business",
+      "date": "2026-10-23T02:26:00.000Z",
+      "summary": "MANILA, Philippines — The Bangko Sentral ng Pilipinas (BSP) raised its policy rate by half a percentage point to 5.5 percent on Thursday, delivering a bigger-than-expected increase as it stepped up its fight against stubbornly high inflation. The decision by the Monetary Board, the central bank’s top policymaking bo...",
+      "tags": [
+        "banking_regulation",
+        "banking_rising",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_driver_market",
+        "banking_driver_institution",
+        "banking_regulator"
+      ],
+      "priority_score": 16.05,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+    },
+    {
+      "title": "Peso extends losses, falls past 63.5:$1",
+      "source": "Inquirer Business",
+      "date": "2026-10-23T02:20:00.000Z",
+      "summary": "MANILA, Philippines — The Philippine peso sank to another record low on Thursday, extending its slide despite a larger-than-expected interest rate increase by the Bangko Sentral ng Pilipinas (BSP), as broad US dollar strength continued to weigh on the currency. The local currency weakened by 15.9 centavos to close a...",
+      "tags": [
+        "banking_regulation",
+        "banking_rising",
+        "banking_falling",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_regulator"
+      ],
+      "priority_score": 15.8,
+      "priority_reasons": [
+        "banking_top_movement",
+        "banking_policy_pressure",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it points to a live shift in banking-system behavior, not just a company headline."
+    },
+    {
+      "title": "Indonesia’s central bank keeps main rate unchanged but hikes deposit facility rate, to cut RRR",
+      "source": "The Business Times Banking",
+      "date": "2026-10-21T07:23:38.000Z",
+      "summary": "Decision underscores central bank’s caution against tightening policy prematurely and stalling growth in South-east Asia’s largest economy",
+      "tags": [
+        "banking_deposits",
+        "banking_liquidity",
+        "banking_regulation",
+        "banking_rising",
+        "banking_tightening",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_driver_institution",
+        "banking_driver_regional",
+        "banking_regulator"
+      ],
+      "priority_score": 15.6,
+      "priority_reasons": [
+        "banking_top_movement",
+        "banking_policy_pressure",
+        "banking_deposit_funding_signal",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it points to a live shift in banking-system behavior, not just a company headline."
+    },
+    {
+      "title": "US funnels $34 million into Philippines ube development",
+      "source": "Philstar Business",
+      "date": "2026-10-23T16:00:00.000Z",
+      "summary": "The Philippines has secured $34.1 million in funding from the United States to boost the country’s ube industry, as the popularity of the purple yam continues to grow in global markets.",
+      "tags": [
+        "banking_funding",
+        "banking_rising",
+        "banking_system",
+        "banking_driver_institution",
+        "banking_private_bank"
+      ],
+      "priority_score": 15.3,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_deposit_funding_signal",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because deposit and funding movement shows whether money is staying put, seeking yield, or becoming more expensive for banks."
+    },
+    {
+      "title": "Businesses less pessimistic in August, more optimistic ahead",
+      "source": "Bangko Sentral ng Pilipinas",
+      "date": "2026-09-25T10:41:40.000Z",
+      "summary": "PDate: 9/25/2026 Content: ​Philippine business sentiment became less pessimistic in August 2026, results of the latest Business Expectations Survey (BES) of the Bangko Sentral ng Pilipinas (BSP) showed.[1] Firms attributed the improvement to expectations of higher demand for essential commodities, loan products, and...",
+      "tags": [
+        "banking_lending",
+        "banking_regulation",
+        "banking_rising",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_regulator"
+      ],
+      "priority_score": 14.2,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+    },
+    {
+      "title": "Heads up: More BSP rate hikes on the way",
+      "source": "Philstar Business",
+      "date": "2026-10-23T16:00:00.000Z",
+      "summary": "The Bangko Sentral ng Pilipinas is expected to raise interest rates further in December, with some economists anticipating additional tightening through early 2027 as persistent inflation and a weakening peso keep pressure on monetary authorities. Analysts from BofA Global Research, BMI and Bank of the Philippine Is...",
+      "tags": [
+        "banking_regulation",
+        "banking_tightening",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_driver_market",
+        "banking_driver_institution",
+        "banking_regulator"
+      ],
+      "priority_score": 13.8,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+    },
+    {
+      "title": "BPI 9-month profit slips down to P48.9B",
+      "source": "Inquirer Business",
+      "date": "2026-10-23T02:24:00.000Z",
+      "summary": "MANILA, Philippines — Bank of the Philippine Islands (BPI) saw its nine-month net income fall 3.2 percent to P48.9 billion as higher provisions and operating expenses outpaced revenue growth. January to September earnings declined from P50.5 billion a year earlier, despite increases in lending and fee income. READ:...",
+      "tags": [
+        "banking_lending",
+        "banking_risk",
+        "banking_rising",
+        "banking_falling",
+        "banking_single_bank",
+        "banking_driver_institution",
+        "banking_private_bank"
+      ],
+      "priority_score": 13.8,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_risk_signal",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because provisioning, NPLs, exposure, or stress signals reveal whether banks are protecting balance sheets or still leaning into growth."
+    }
+  ],
+  "secondary_signals": [
+    {
+      "title": "BSP surprises with jumbo rate hike, signals further tightening",
+      "source": "BusinessWorld Banking",
+      "date": "2026-10-22T13:51:37.000Z",
+      "summary": "THE BANGKO SENTRAL ng Pilipinas (BSP) on Thursday delivered a surprise 50-basis-point (bp) rate hike and signaled it was prepared to continue tightening amid broadening inflation risks from persistent price shocks and a strong El Niño.",
+      "tags": [
+        "banking_regulation",
+        "banking_tightening",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_driver_market",
+        "banking_regulator"
+      ],
+      "priority_score": 13.8,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful supporting signal on banking-system behavior."
+    },
+    {
+      "title": "UnionBank profit jumps 53% to P9.9B in nine months",
+      "source": "Inquirer Business",
+      "date": "2026-10-24T02:30:00.000Z",
+      "summary": "MANILA, Philippines — Union Bank of the Philippines grew its nine-month net income by 53 percent to P9.9 billion as wider lending margins and higher fee earnings lifted revenues. On Friday, the Aboitiz-led bank also disclosed plans to integrate its digital banking subsidiary, UnionDigital Bank, and fintech arm, UBX,...",
+      "tags": [
+        "banking_lending",
+        "banking_funding",
+        "banking_digital_shift",
+        "banking_rising",
+        "banking_single_bank",
+        "banking_driver_institution",
+        "banking_private_bank"
+      ],
+      "priority_score": 13.55,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_deposit_funding_signal",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful supporting signal on banking-system behavior."
+    },
+    {
+      "title": "BSP may not be done hiking rates as inflation risks mount",
+      "source": "Inquirer Business",
+      "date": "2026-10-24T02:14:00.000Z",
+      "summary": "MANILA, Philippines — The Bangko Sentral ng Pilipinas (BSP) may have more interest rate increases in store as it battles stubbornly high inflation, analysts said, a move that could change how Filipinos spend, save and invest. In a note to clients. Jojo Gonzales, research analyst at Bank of America, said the Monetary...",
+      "tags": [
+        "banking_regulation",
+        "banking_rising",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_driver_market",
+        "banking_driver_institution",
+        "banking_regulator"
+      ],
+      "priority_score": 13.55,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful supporting signal on banking-system behavior."
+    },
+    {
+      "title": "Monetary Board raises Target RRP Rate by 50 basis points",
+      "source": "Bangko Sentral ng Pilipinas",
+      "date": "2026-10-22T06:17:02.000Z",
+      "summary": "PDate: 10/22/2026 Content: ​At its monetary policy meeting today, the Monetary Board decided to raise the BSP’s Target Reverse Repurchase (RRP) Rate by 50 basis points to 5.50 percent. The interest rates on the overnight deposit and lending facilities were adjusted to 5.00 percent and 6.00 percent, respectively. Inf...",
+      "tags": [
+        "banking_lending",
+        "banking_deposits",
+        "banking_regulation",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_driver_market",
+        "banking_regulator"
+      ],
+      "priority_score": 13.3,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "banking_deposit_funding_signal",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful supporting signal on banking-system behavior."
+    },
+    {
+      "title": "GIR settle at US$99.5B, BOP posts US$3.1-B deficit in Sept 2026",
+      "source": "Bangko Sentral ng Pilipinas",
+      "date": "2026-10-19T06:09:53.000Z",
+      "summary": "PDate: 10/19/2026 Content: ​Gross international reserves (GIR) declined to US$99.5 billion as of end-September 2026[1] from the previous month. The decrease was mainly driven by the following: Bangko Sentral ng Pilipinas (BSP)’s net foreign exchange operations; downward valuation adjustments, primarily due to change...",
+      "tags": [
+        "banking_liquidity",
+        "banking_regulation",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_regulator"
+      ],
+      "priority_score": 12.9,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful supporting signal on banking-system behavior."
+    },
+    {
+      "title": "GIR settle at US$100B as of end-Sept 2026",
+      "source": "Bangko Sentral ng Pilipinas",
+      "date": "2026-10-07T10:47:14.000Z",
+      "summary": "PDate: 10/7/2026 Content: ​Gross international reserves (GIR) declined to US$100.0 billion as of end-September 2026.[1] The decrease was mainly driven by the following: Bangko Sentral ng Pilipinas (BSP)’s net foreign exchange operations; downward valuation adjustments, primarily driven by changes in the prices of th...",
+      "tags": [
+        "banking_liquidity",
+        "banking_regulation",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_regulator"
+      ],
+      "priority_score": 12.7,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful supporting signal on banking-system behavior."
+    },
+    {
+      "title": "PNB 9-month profit jumps 15% to P21.3B",
+      "source": "Inquirer Business",
+      "date": "2026-10-24T02:08:00.000Z",
+      "summary": "MANILA, Philippines — Philippine National Bank (PNB) saw its nine-month net income grow by 15 percent to P21.3 billion as lending expanded and the share of soured loans declined. On Friday, the Lucio Tan-led bank said its earnings in the January-to-September period rose from P18.5 billion a year earlier. READ: PNB f...",
+      "tags": [
+        "banking_lending",
+        "banking_rising",
+        "banking_single_bank",
+        "banking_driver_institution",
+        "banking_private_bank"
+      ],
+      "priority_score": 12.55,
+      "priority_reasons": [
+        "banking_weak_cluster_signal",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "note": "Weak but relevant banking signal retained because it may cluster into a larger pattern."
+    },
+    {
+      "title": "Japan debt watcher sees resilient PH economy",
+      "source": "Inquirer Business",
+      "date": "2026-10-24T02:00:00.000Z",
+      "summary": "MANILA, Philippines — The Japan Credit Rating Agency (JCR) said the Philippine economy is likely to remain highly resilient to external shocks despite mounting tariff pressures, citing the country’s strong foreign exchange buffers and potential to diversify export markets. “Given its solid foreign currency liquidity...",
+      "tags": [
+        "banking_lending",
+        "banking_liquidity",
+        "banking_preserving",
+        "banking_single_bank",
+        "banking_driver_institution",
+        "banking_private_bank"
+      ],
+      "priority_score": 12.05,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful supporting signal on banking-system behavior."
+    },
+    {
+      "title": "BSP adopts new standardized approach for operational risk capital requirements",
+      "source": "Bangko Sentral ng Pilipinas",
+      "date": "2026-10-13T11:25:04.000Z",
+      "summary": "PDate: 10/13/2026 Content: ​The Bangko Sentral ng Pilipinas (BSP) has adopted the Basel III[1] New Standardized Approach (NSA) for determining the capital that banks must hold to absorb unexpected losses from operational risk. The adoption is expected to strengthen banks’ resilience and align BSP’s risk-based capita...",
+      "tags": [
+        "banking_risk",
+        "banking_regulation",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_driver_institution",
+        "banking_regulator"
+      ],
+      "priority_score": 11.2,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "banking_risk_signal",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful supporting signal on banking-system behavior."
+    }
+  ]
+}
