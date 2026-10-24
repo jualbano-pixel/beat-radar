@@ -1,0 +1,395 @@
+{
+  "top_stories": [
+    {
+      "title": "HPE’s Walter So on complexities of data sovereignty",
+      "source": "Inquirer Tech",
+      "date": "2026-10-22T15:48:25.000Z",
+      "summary": "Data sovereignty is not as simply as we thought When the government passed Executive Order 119 to push for data privacy and sovereign data in Philippine soil, there’s more to the context than just having physical data centers to house private citizen data. Whenever you query into an AI tool, the data travels across...",
+      "tags": [
+        "cybersecurity",
+        "digital_policy"
+      ],
+      "priority_score": 21.1,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "infrastructure_move",
+        "policy_shift",
+        "material_technology_effect",
+        "cybersecurity_or_resilience_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
+    },
+    {
+      "title": "ADB, Rönesans Sign Financing to Invest in Hyperscale Data Center, Boost Renewable Energy in Türkiye",
+      "source": "Asian Development Bank Digital Economy",
+      "date": "2026-10-22T00:00:00.000Z",
+      "summary": "ADB and Rönesans Holding A.Ş. have signed a $75 million loan to expand renewable energy investments and develop digital infrastructure in Türkiye—ADB’s first loan with Rönesans and first financing for digital infrastructure in the country.",
+      "tags": [
+        "tech_infrastructure"
+      ],
+      "priority_score": 17.1,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "infrastructure_move",
+        "systemic_importance",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
+    },
+    {
+      "title": "The world’s rich are turning inward. Southeast Asia’s entrepreneurs are packing their bags",
+      "source": "e27 SEA Tech",
+      "date": "2026-10-21T06:00:47.000Z",
+      "summary": "For two decades, the startup gospel was simple: find product-market fit at home, then blitzscale across borders. In 2026, much of the world appears to be rethinking the second half of that sentence. According to HSBC’s Global Entrepreneurial Wealth Report (GEWR) 2026, the share of entrepreneurs globally who want to...",
+      "tags": [
+        "startups_vc"
+      ],
+      "priority_score": 12.6,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "policy_shift",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
+    },
+    {
+      "title": "Only 17% of Philippine businesses have a roadmap to scale AI",
+      "source": "Inquirer Tech",
+      "date": "2026-10-17T14:36:28.000Z",
+      "summary": "Only 17% of businesses in the Philippines have a roadmap for scaling artificial intelligence (AI), highlighting a gap between growing adoption of the technology and companies’ ability to integrate it more deeply into their operations. The finding comes from Unlocking the Philippines’ AI Potential 2026, a report comm...",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 12.4,
+      "priority_reasons": [
+        "reported_material_development",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "ph_ai_economic_transformation",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because it is a concrete development in infrastructure, deployment, market behavior, or investment rather than vendor commentary."
+    },
+    {
+      "title": "The AI exit window is wide open. Southeast Asia isn’t standing anywhere near it",
+      "source": "e27 SEA Tech",
+      "date": "2026-10-19T09:37:47.000Z",
+      "summary": "Last week, Amazon was reported to be in talks to pay around US$7 billion for Decart, a three-year-old startup valued at just under US$4 billion in May. Cohere signed a letter of intent to buy AI security startup AISLE. Prime Intellect snapped up Moondream. Bumble agreed to a US$1.3 billion take-private. And that was...",
+      "tags": [
+        "startups_vc"
+      ],
+      "priority_score": 11.9,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "policy_shift",
+        "safety_or_governance",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
+    },
+    {
+      "title": "How Albertsons Companies is reimagining retail from the inside out",
+      "source": "OpenAI Blog",
+      "date": "2026-10-01T16:00:00.000Z",
+      "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+      "tags": [
+        "tech_infrastructure",
+        "enterprise_tech"
+      ],
+      "priority_score": 11.2,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "model_or_platform_change",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the technology ecosystem, such as businesses, governments, infrastructure operators, consumers, or regulators."
+    },
+    {
+      "title": "HSBC says AI will create jobs. Southeast Asia should read the fine print first",
+      "source": "e27 SEA Tech",
+      "date": "2026-10-20T05:00:19.000Z",
+      "summary": "The most revealing thing about HSBC’s latest survey of the world’s entrepreneurs isn’t the headline number. It’s who is spending it. On the surface, the Global Entrepreneurial Wealth Report 2026 reads like a hype cycle in spreadsheet form. Business owners across 17 markets plan to spend a combined US$367 billion on...",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 10.9,
+      "priority_reasons": [
+        "reported_material_development",
+        "policy_shift",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because it is a concrete development in infrastructure, deployment, market behavior, or investment rather than vendor commentary."
+    },
+    {
+      "title": "Uber puts all 30,000 employees on ChatGPT Work",
+      "source": "TechCrunch AI",
+      "date": "2026-10-22T16:00:00.000Z",
+      "summary": "The ride-share giant previously deployed a much smaller pilot for ChatGPT Work but is now taking the enterprise agent company-wide.",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 10.6,
+      "priority_reasons": [
+        "reported_material_development",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because it is a concrete development in infrastructure, deployment, market behavior, or investment rather than vendor commentary."
+    }
+  ],
+  "secondary_signals": [
+    {
+      "title": "Who referees the AI agents? Enterprises aren’t sure, new report shows",
+      "source": "e27 SEA Tech",
+      "date": "2026-10-22T06:30:33.000Z",
+      "summary": "Ask a room of enterprise executives whether they can keep their AI agents in line and most will nod. Ask them what happens when two of those agents disagree, and the room goes quiet. That, in essence, is the finding of a new report from OutSystems, the Lisbon-born low-code company that now markets itself as […] The...",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 10.6,
+      "priority_reasons": [
+        "reported_material_development",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
+    },
+    {
+      "title": "OpenAI models are coming to Google Cloud",
+      "source": "OpenAI Blog",
+      "date": "2026-10-21T12:00:00.000Z",
+      "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+      "tags": [
+        "ai_automation"
+      ],
+      "priority_score": 10.6,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "model_or_platform_change",
+        "infrastructure_move",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation",
+        "vendor_announcement_demoted"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "AI won’t tidy your business. It just moves the mess faster",
+      "source": "e27 SEA Tech",
+      "date": "2026-10-21T03:30:15.000Z",
+      "summary": "I build AI tools for marketers, and run an AI marketing software firm in Singapore, so I spend a lot of time hearing about AI adoption. A recent talk by Robert Lai, founder of performance agency Kaliber, stuck with me because it opened with an uncomfortable claim: most of the AI work in the room […] The post AI won’...",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 10.6,
+      "priority_reasons": [
+        "reported_material_development",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
+    },
+    {
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "source": "OpenAI Blog",
+      "date": "2026-10-06T16:00:00.000Z",
+      "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 9.7,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "model_or_platform_change",
+        "material_technology_effect",
+        "strategic_partnership",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "editorial_source_confirmation",
+        "vendor_announcement_demoted"
+      ],
+      "note": "Shows practical adoption or rollout worth tracking."
+    },
+    {
+      "title": "Red Hat opens Singapore AI centre to pull enterprises out of pilot purgatory",
+      "source": "e27 SEA Tech",
+      "date": "2026-10-23T05:19:38.000Z",
+      "summary": "Southeast Asia does not have a shortage of AI pilots. It has a shortage of AI pilots that ever leave the lab. A recent regional survey found that 57 per cent of SEA firms can’t scale their AI pilots, a stretch of corporate limbo now known in industry jargon as the “frozen middle”. Red Hat, […] The post Red Hat opens...",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 8.8,
+      "priority_reasons": [
+        "reported_material_development",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
+    },
+    {
+      "title": "Tax perks and regulatory framework for secondhand smartphones pushed",
+      "source": "BusinessWorld AI/Tech",
+      "date": "2026-10-22T13:44:22.000Z",
+      "summary": "PUBLIC SECTOR intervention, including potential tax exemptions and regulatory frameworks for secondhand smartphones, is needed to mitigate the impact of rising device costs on the Philippines’ digital productivity.",
+      "tags": [
+        "enterprise_tech",
+        "digital_policy",
+        "consumer_tech_shift"
+      ],
+      "priority_score": 8.6,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful as a reported or official development rather than vendor-authored positioning."
+    },
+    {
+      "title": "Hong Kong and Taiwan founders are cheering the AI boom. Southeast Asia isn’t in the room",
+      "source": "e27 SEA Tech",
+      "date": "2026-10-22T05:38:00.000Z",
+      "summary": "A year ago, some of the most nervous entrepreneurs in the world were in Hong Kong, Taipei and Shanghai. Trade tensions, a property slump in mainland China and a stalled listings market had put founders there among the most cautious respondents in HSBC’s annual survey of business owners. Twelve months on, they are th...",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 8.6,
+      "priority_reasons": [
+        "policy_shift",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Shows practical adoption or rollout worth tracking."
+    },
+    {
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "source": "Google AI Blog",
+      "date": "2026-10-13T16:00:00.000Z",
+      "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+      "tags": [
+        "ai_automation",
+        "enterprise_tech"
+      ],
+      "priority_score": 8.2,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "Southeast Asia’s digital economy to hit $368 billion",
+      "source": "Google AI Blog",
+      "date": "2026-10-21T04:00:00.000Z",
+      "summary": "Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.",
+      "tags": [
+        "digital_policy"
+      ],
+      "priority_score": 8.1,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "policy_shift",
+        "material_technology_effect",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Worth watching for downstream regulatory impact."
+    },
+    {
+      "title": "AI agents broke into 100 firms for pocket change. SEA’s online shops fit the target profile",
+      "source": "e27 SEA Tech",
+      "date": "2026-10-22T01:00:30.000Z",
+      "summary": "For years, the small business owner in Penang or Cebu has relied on a quiet, unspoken form of security: obscurity. Who would bother hacking a family-run online furniture store when there are banks to rob? The logic was not wrong. Breaking in took skill, time and patience, and skilled criminals price their time like...",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 7.1,
+      "priority_reasons": [
+        "safety_or_governance",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Shows practical adoption or rollout worth tracking."
+    },
+    {
+      "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+      "source": "OpenAI Blog",
+      "date": "2026-10-21T00:00:00.000Z",
+      "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "priority_score": 6.1,
+      "priority_reasons": [
+        "vendor_authored_context",
+        "policy_shift",
+        "material_technology_effect",
+        "cybersecurity_or_resilience_signal",
+        "safety_or_governance",
+        "practical_usability_impact",
+        "editorial_source_confirmation",
+        "minor_or_routine",
+        "vendor_thought_leadership_demoted"
+      ],
+      "note": "Worth tracking for operating risk, compliance, or resilience implications."
+    },
+    {
+      "title": "What 9 Tokyo Deep Tech Startups Learned About Southeast Asia’s Appetite for Japanese Innovation",
+      "source": "e27 SEA Tech",
+      "date": "2026-10-20T07:46:54.000Z",
+      "summary": "On 14 October 2026, e27 hosted Borderless Innovation: X-HUB Tokyo-Singapore Demo Day 2026 with X-HUB TOKYO, the Tokyo Metropolitan Government’s global startup accelerator, run by Deloitte Tohmatsu. This is the third year e27 has partnered with Deloitte Tohmatsu to bring Tokyo’s startups to Southeast Asia, and this y...",
+      "tags": [
+        "startups_vc"
+      ],
+      "priority_score": 2.4,
+      "priority_reasons": [
+        "material_technology_effect",
+        "practical_usability_impact",
+        "editorial_source_confirmation",
+        "minor_or_routine"
+      ],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "The environmental price of the AI boom",
+      "source": "Philippine Star Business AI/Tech",
+      "date": "2026-10-24T16:00:00.000Z",
+      "summary": "During a recent trip to Baguio, a poster inside a convenience store caught my attention. Its bubbly lettering, pastel colors and cartoon-like illustrations gave it the polished, almost too-perfect look of an AI-generated image.",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 0.3,
+      "priority_reasons": [
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful supporting editorial signal."
+    }
+  ]
+}

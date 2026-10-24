@@ -1,18 +1,16 @@
 [
   {
     "source": "BusinessWorld Energy",
-    "success": false,
-    "health": "failing",
-    "fetchedCount": 0,
-    "normalizedCount": 0,
-    "droppedCount": 0,
-    "keptCount": 0,
-    "error": "Status code 502",
-    "errorKind": "http_error",
+    "success": true,
+    "health": "healthy",
+    "fetchedCount": 30,
+    "normalizedCount": 30,
+    "droppedCount": 29,
+    "keptCount": 1,
     "beat": "ph_sea_energy",
     "url": "https://www.bworldonline.com/feed/",
     "type": "rss",
-    "checkedAt": "2026-10-17T18:07:55.129Z"
+    "checkedAt": "2026-10-24T18:34:20.250Z"
   },
   {
     "source": "Inquirer Business Energy",
@@ -20,12 +18,12 @@
     "health": "healthy",
     "fetchedCount": 40,
     "normalizedCount": 40,
-    "droppedCount": 36,
-    "keptCount": 4,
+    "droppedCount": 35,
+    "keptCount": 5,
     "beat": "ph_sea_energy",
     "url": "https://business.inquirer.net/feed",
     "type": "rss",
-    "checkedAt": "2026-10-17T18:07:55.129Z"
+    "checkedAt": "2026-10-24T18:34:20.250Z"
   },
   {
     "source": "BusinessMirror Energy",
@@ -40,7 +38,7 @@
     "beat": "ph_sea_energy",
     "url": "https://businessmirror.com.ph/business/feed/",
     "type": "rss",
-    "checkedAt": "2026-10-17T18:07:55.129Z"
+    "checkedAt": "2026-10-24T18:34:20.250Z"
   },
   {
     "source": "Philippine Star Business Energy",
@@ -48,12 +46,12 @@
     "health": "healthy",
     "fetchedCount": 20,
     "normalizedCount": 20,
-    "droppedCount": 20,
-    "keptCount": 0,
+    "droppedCount": 19,
+    "keptCount": 1,
     "beat": "ph_sea_energy",
     "url": "https://www.philstar.com/rss/business",
     "type": "rss",
-    "checkedAt": "2026-10-17T18:07:55.129Z"
+    "checkedAt": "2026-10-24T18:34:20.250Z"
   },
   {
     "source": "Malaya Business",
@@ -68,21 +66,19 @@
     "beat": "ph_sea_energy",
     "url": "https://malaya.com.ph/feed/",
     "type": "rss",
-    "checkedAt": "2026-10-17T18:07:55.129Z"
+    "checkedAt": "2026-10-24T18:34:20.250Z"
   },
   {
     "source": "BusinessWorld Energy",
-    "success": false,
-    "health": "failing",
-    "fetchedCount": 0,
-    "normalizedCount": 0,
-    "droppedCount": 0,
-    "keptCount": 0,
-    "error": "Status code 502",
-    "errorKind": "http_error",
+    "success": true,
+    "health": "healthy",
+    "fetchedCount": 30,
+    "normalizedCount": 30,
+    "droppedCount": 29,
+    "keptCount": 1,
     "beat": "ph_sea_energy",
     "url": "https://www.bworldonline.com/feed/",
     "type": "rss",
-    "checkedAt": "2026-10-17T18:07:55.129Z"
+    "checkedAt": "2026-10-24T18:34:20.250Z"
   }
 ]

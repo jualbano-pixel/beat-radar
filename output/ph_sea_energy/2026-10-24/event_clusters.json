@@ -1,0 +1,31 @@
+[
+  {
+    "cluster_id": "energy_001",
+    "cluster_kind": "same_event",
+    "lead_story_id": "529cdf04b70a",
+    "story_count": 1,
+    "story_ids": [
+      "529cdf04b70a"
+    ],
+    "story_titles": [
+      "Diesel prices poised to climb next week"
+    ],
+    "associated_stories": [
+      {
+        "id": "529cdf04b70a",
+        "title": "Diesel prices poised to climb next week",
+        "url": "https://business.inquirer.net/617515/diesel-prices-poised-to-climb-next-week",
+        "source": "Inquirer Business Energy",
+        "published_at": "2026-10-23T10:28:25.000Z"
+      }
+    ],
+    "entities": [],
+    "event_label": "External shock transmitting locally",
+    "compression_line": "External fuel, commodity, or geopolitical pressure is transmitting into local Energy cost, supply, or generation behavior.",
+    "priority_score": 20,
+    "editorial_bucket": "background",
+    "cluster_type": "event",
+    "cluster_classification": "watch",
+    "supporting_story_ids": []
+  }
+]

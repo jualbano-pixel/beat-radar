@@ -1,0 +1,251 @@
+[
+  {
+    "theme_id": "enterprise_technology",
+    "theme_label": "enterprise technology adoption",
+    "theme_summary": "enterprise technology adoption is the shared editorial thread across 12 related stories. The strongest signal is enterprise adoption pressure rising.",
+    "story_count": 12,
+    "cluster_ids": [],
+    "story_ids": [
+      "045679fabc0a",
+      "3a389cc8bb53",
+      "03ca6a1df519",
+      "3016843e64d9",
+      "0e4bc17bbb31",
+      "6c727e661d97",
+      "a7b7c7dfeb9c",
+      "0f6e5657fb48",
+      "9fdd22fa30fb",
+      "74c9e10c0254",
+      "2896758265ce",
+      "637d3dfa247f"
+    ],
+    "associated_stories": [
+      {
+        "id": "045679fabc0a",
+        "title": "Tax perks and regulatory framework for secondhand smartphones pushed",
+        "url": "https://bworldonline.com/the-nation/2026/10/22/788773/tax-perks-and-regulatory-framework-for-secondhand-smartphones-pushed",
+        "source": "BusinessWorld AI/Tech",
+        "published_at": "2026-10-22T13:44:22.000Z"
+      },
+      {
+        "id": "3016843e64d9",
+        "title": "Who referees the AI agents? Enterprises aren’t sure, new report shows",
+        "url": "https://e27.co/who-referees-the-ai-agents-enterprises-arent-sure-new-report-shows-20261022",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-10-22T06:30:33.000Z"
+      },
+      {
+        "id": "9fdd22fa30fb",
+        "title": "Uber puts all 30,000 employees on ChatGPT Work",
+        "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work",
+        "source": "TechCrunch AI",
+        "published_at": "2026-10-22T16:00:00.000Z"
+      },
+      {
+        "id": "03ca6a1df519",
+        "title": "Red Hat opens Singapore AI centre to pull enterprises out of pilot purgatory",
+        "url": "https://e27.co/red-hat-opens-singapore-ai-centre-to-pull-enterprises-out-of-pilot-purgatory-20261023",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-10-23T05:19:38.000Z"
+      },
+      {
+        "id": "3a389cc8bb53",
+        "title": "Only 17% of Philippine businesses have a roadmap to scale AI",
+        "url": "https://technology.inquirer.net/149825/only-17-of-philippine-businesses-have-a-roadmap-to-scale-ai",
+        "source": "Inquirer Tech",
+        "published_at": "2026-10-17T14:36:28.000Z"
+      },
+      {
+        "id": "a7b7c7dfeb9c",
+        "title": "AI won’t tidy your business. It just moves the mess faster",
+        "url": "https://e27.co/ai-wont-tidy-your-business-it-just-moves-the-mess-faster-20261018",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-10-21T03:30:15.000Z"
+      },
+      {
+        "id": "0f6e5657fb48",
+        "title": "HSBC says AI will create jobs. Southeast Asia should read the fine print first",
+        "url": "https://e27.co/hsbc-says-ai-will-create-jobs-southeast-asia-should-read-the-fine-print-first-20261020",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-10-20T05:00:19.000Z"
+      },
+      {
+        "id": "637d3dfa247f",
+        "title": "How Albertsons Companies is reimagining retail from the inside out",
+        "url": "https://openai.com/index/albertsons-reimagining-retail",
+        "source": "OpenAI Blog",
+        "published_at": "2026-10-01T16:00:00.000Z"
+      },
+      {
+        "id": "74c9e10c0254",
+        "title": "Gemini 4 Argon: Built to solve your hardest problems",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
+        "source": "Google AI Blog",
+        "published_at": "2026-10-13T16:00:00.000Z"
+      },
+      {
+        "id": "2896758265ce",
+        "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+        "url": "https://openai.com/index/atlassian-partnership",
+        "source": "OpenAI Blog",
+        "published_at": "2026-10-06T16:00:00.000Z"
+      },
+      {
+        "id": "6c727e661d97",
+        "title": "AI agents broke into 100 firms for pocket change. SEA’s online shops fit the target profile",
+        "url": "https://e27.co/ai-agents-broke-into-100-firms-for-pocket-change-seas-online-shops-fit-the-target-profile-20261021",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-10-22T01:00:30.000Z"
+      },
+      {
+        "id": "0e4bc17bbb31",
+        "title": "Hong Kong and Taiwan founders are cheering the AI boom. Southeast Asia isn’t in the room",
+        "url": "https://e27.co/hong-kong-and-taiwan-founders-are-cheering-the-ai-boom-southeast-asia-isnt-in-the-room-20261022",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-10-22T05:38:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "policy_regulatory_move",
+      "developing_pattern",
+      "market_signal"
+    ],
+    "dominant_angle_signals": [
+      "enterprise adoption pressure rising",
+      "developer workflow changing",
+      "demand still unproven"
+    ],
+    "top_story_refs": [
+      "045679fabc0a",
+      "3016843e64d9",
+      "9fdd22fa30fb"
+    ]
+  },
+  {
+    "theme_id": "technology_investment",
+    "theme_label": "technology investment and startups",
+    "theme_summary": "technology investment and startups is the shared editorial thread across 3 related stories. The strongest signal is investment caution showing.",
+    "story_count": 3,
+    "cluster_ids": [],
+    "story_ids": [
+      "bf1272461e63",
+      "dc918926af93",
+      "b134c48aa1ea"
+    ],
+    "associated_stories": [
+      {
+        "id": "b134c48aa1ea",
+        "title": "The AI exit window is wide open. Southeast Asia isn’t standing anywhere near it",
+        "url": "https://e27.co/the-ai-exit-window-is-wide-open-southeast-asia-isnt-standing-anywhere-near-it-20261019",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-10-19T09:37:47.000Z"
+      },
+      {
+        "id": "bf1272461e63",
+        "title": "The world’s rich are turning inward. Southeast Asia’s entrepreneurs are packing their bags",
+        "url": "https://e27.co/the-worlds-rich-are-turning-inward-southeast-asias-entrepreneurs-are-packing-their-bags-20261021",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-10-21T06:00:47.000Z"
+      },
+      {
+        "id": "dc918926af93",
+        "title": "What 9 Tokyo Deep Tech Startups Learned About Southeast Asia’s Appetite for Japanese Innovation",
+        "url": "https://e27.co/deloitte-demo-day-2026-20261020",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-10-20T07:46:54.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "policy_regulatory_move",
+      "watchlist_signal"
+    ],
+    "dominant_angle_signals": [
+      "investment caution showing",
+      "ongoing platform expansion",
+      "narrative outrunning reality"
+    ],
+    "top_story_refs": [
+      "b134c48aa1ea",
+      "bf1272461e63",
+      "dc918926af93"
+    ]
+  },
+  {
+    "theme_id": "cybersecurity_resilience",
+    "theme_label": "cybersecurity and resilience",
+    "theme_summary": "cybersecurity and resilience is the shared editorial thread across 2 related stories. The strongest signal is cyber risk affecting operations.",
+    "story_count": 2,
+    "cluster_ids": [],
+    "story_ids": [
+      "55155f0e4db4",
+      "e270f5ba4688"
+    ],
+    "associated_stories": [
+      {
+        "id": "55155f0e4db4",
+        "title": "HPE’s Walter So on complexities of data sovereignty",
+        "url": "https://technology.inquirer.net/149922/hpes-walter-so-on-complexities-of-data-sovereignty",
+        "source": "Inquirer Tech",
+        "published_at": "2026-10-22T15:48:25.000Z"
+      },
+      {
+        "id": "e270f5ba4688",
+        "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+        "url": "https://openai.com/index/empowering-cyber-defenders",
+        "source": "OpenAI Blog",
+        "published_at": "2026-10-21T00:00:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "policy_regulatory_move"
+    ],
+    "dominant_angle_signals": [
+      "cyber risk affecting operations",
+      "infrastructure lag visible",
+      "developer workflow changing"
+    ],
+    "top_story_refs": [
+      "55155f0e4db4",
+      "e270f5ba4688"
+    ]
+  },
+  {
+    "theme_id": "data_centers_infrastructure",
+    "theme_label": "data centers and digital infrastructure",
+    "theme_summary": "data centers and digital infrastructure is the shared editorial thread across 2 related stories. The strongest signal is infrastructure lag visible.",
+    "story_count": 2,
+    "cluster_ids": [],
+    "story_ids": [
+      "a31c1e085b5f",
+      "95dedf578de7"
+    ],
+    "associated_stories": [
+      {
+        "id": "a31c1e085b5f",
+        "title": "ADB, Rönesans Sign Financing to Invest in Hyperscale Data Center, Boost Renewable Energy in Türkiye",
+        "url": "https://www.adb.org/news/adb-ronesans-sign-financing-invest-hyperscale-data-center-boost-renewable-energy-turkiye",
+        "source": "Asian Development Bank Digital Economy",
+        "published_at": "2026-10-22T00:00:00.000Z"
+      },
+      {
+        "id": "95dedf578de7",
+        "title": "OpenAI models are coming to Google Cloud",
+        "url": "https://openai.com/index/openai-models-google-cloud",
+        "source": "OpenAI Blog",
+        "published_at": "2026-10-21T12:00:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "market_signal"
+    ],
+    "dominant_angle_signals": [
+      "infrastructure lag visible",
+      "regulation moving ahead of capacity",
+      "investment caution showing"
+    ],
+    "top_story_refs": [
+      "a31c1e085b5f",
+      "95dedf578de7"
+    ]
+  }
+]
