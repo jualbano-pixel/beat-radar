@@ -2,67 +2,230 @@
   {
     "theme_id": "ev_transition_gap",
     "theme_label": "EV transition gap",
-    "theme_summary": "EV transition gap is the shared editorial thread across 5 related stories. The strongest signal is EV transition gap visible.",
-    "story_count": 5,
+    "theme_summary": "EV transition gap is the shared editorial thread across 7 related stories. The strongest signal is EV transition gap visible.",
+    "story_count": 7,
     "cluster_ids": [],
     "story_ids": [
-      "2674106bfa6b",
-      "cfef08f3b040",
-      "e0290b3106c3",
-      "4d3fd6a72818",
-      "518fa3f438b4"
+      "5b7fe4af2ebe",
+      "4b0b487faeb9",
+      "16b3f8b659d4",
+      "332577e9b524",
+      "b2f4e947dca0",
+      "cfa837af95bb",
+      "d6fcd1d2c542"
     ],
     "associated_stories": [
       {
-        "id": "cfef08f3b040",
-        "title": "Honda launches facelifted City and City Hatchback with prices starting at P998k",
-        "url": "https://www.topgear.com.ph/news/car-news/honda-city-2027-launch-philippines-a5361-20261017",
+        "id": "cfa837af95bb",
+        "title": "The all-new BYD Seagull has been unveiled in China with Flash Charging capability",
+        "url": "https://www.topgear.com.ph/news/car-news/byd-seagull-2027-launch-china-a6938-20261021",
         "source": "TopGear Philippines",
-        "published_at": "2026-10-17T03:43:00.000Z"
+        "published_at": "2026-10-21T04:03:00.000Z"
       },
       {
-        "id": "2674106bfa6b",
-        "title": "BYD supports extension of zero-tariff EV import incentive scheme until 2040",
-        "url": "https://bworldonline.com/economy/2026/10/18/787547/byd-supports-extension-of-zero-tariff-ev-import-incentive-scheme-until-2040",
+        "id": "332577e9b524",
+        "title": "Toyota to hold truck and EV displays at the SMX Convention Center Manila from Oct. 22-24",
+        "url": "https://www.topgear.com.ph/news/industry-news/toyota-pevs-pits-2026-smx-a2619-20261021",
+        "source": "TopGear Philippines",
+        "published_at": "2026-10-21T08:44:00.000Z"
+      },
+      {
+        "id": "4b0b487faeb9",
+        "title": "PITS 2026: A closer look at the Isuzu N-Series EV Concept",
+        "url": "https://www.topgear.com.ph/news/car-news/isuzu-nseries-ev-pits-2026-a6888-20261022",
+        "source": "TopGear Philippines",
+        "published_at": "2026-10-22T09:18:00.000Z"
+      },
+      {
+        "id": "16b3f8b659d4",
+        "title": "Mitsubishi PH reiterates its commitment to local hybrid vehicle manufacturing",
+        "url": "https://www.topgear.com.ph/news/industry-news/mitsubishi-ph-affirms-evis-commitment-a6888-20261022",
+        "source": "TopGear Philippines",
+        "published_at": "2026-10-21T23:38:00.000Z"
+      },
+      {
+        "id": "d6fcd1d2c542",
+        "title": "Subaru will have its own in-house AWD EV platform by 2029",
+        "url": "https://www.topgear.com.ph/news/industry-news/subaru-new-in-house-ev-platform-a6938-20261020",
+        "source": "TopGear Philippines",
+        "published_at": "2026-10-20T12:05:00.000Z"
+      },
+      {
+        "id": "5b7fe4af2ebe",
+        "title": "VinFast interested in EV incentives program",
+        "url": "https://bworldonline.com/economy/2026/10/25/789133/vinfast-interested-in-ev-incentives-program",
         "source": "BusinessWorld Online",
-        "published_at": "2026-10-18T12:42:19.000Z"
+        "published_at": "2026-10-25T12:33:47.000Z"
       },
       {
-        "id": "e0290b3106c3",
-        "title": "The 2026 Philippine EV Summit is happening next week",
-        "url": "https://www.topgear.com.ph/news/industry-news/philippine-ev-summit-2026-a6941-20261016",
+        "id": "b2f4e947dca0",
+        "title": "BMW introduces entry-level HEV variants of the X3 and X5 in PH",
+        "url": "https://www.topgear.com.ph/news/car-news/bmw-x3-x5-hev-ph-launch-a6941-20261021",
         "source": "TopGear Philippines",
-        "published_at": "2026-10-16T07:26:00.000Z"
+        "published_at": "2026-10-21T04:43:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "developing_pattern",
+      "product_signal",
+      "local_business_relevance"
+    ],
+    "dominant_angle_signals": [
+      "EV transition gap visible",
+      "product launch reveals market bet"
+    ],
+    "top_story_refs": [
+      "cfa837af95bb",
+      "332577e9b524",
+      "4b0b487faeb9"
+    ]
+  },
+  {
+    "theme_id": "consumer_demand_shift",
+    "theme_label": "consumer demand shift",
+    "theme_summary": "consumer demand shift is the shared editorial thread across 3 related stories. The strongest signal is EV transition gap visible.",
+    "story_count": 3,
+    "cluster_ids": [],
+    "story_ids": [
+      "106681061e75",
+      "6593e1f7d852",
+      "841597e40195"
+    ],
+    "associated_stories": [
+      {
+        "id": "106681061e75",
+        "title": "PEVS 2026: Dongfeng PH has launched the all-new Mage EV priced at P1.398-M",
+        "url": "https://www.topgear.com.ph/news/car-news/2027-dongfeng-mage-ev-ph-launch-a6938-20261022",
+        "source": "TopGear Philippines",
+        "published_at": "2026-10-22T07:24:00.000Z"
       },
       {
-        "id": "4d3fd6a72818",
-        "title": "The Tesla Roadster is here, and it (literally) sucks...and flips and flies",
-        "url": "https://www.topgear.com.ph/news/car-news/tesla-roadster-2027-reveal-a6941-20261016",
+        "id": "841597e40195",
+        "title": "UBE Express P2P buses from Nuvali to NAIA are now available",
+        "url": "https://www.topgear.com.ph/news/motoring-news/nuvali-naia-p2p-airport-bus-a5361-20261021",
         "source": "TopGear Philippines",
-        "published_at": "2026-10-16T03:20:00.000Z"
+        "published_at": "2026-10-21T06:14:00.000Z"
       },
       {
-        "id": "518fa3f438b4",
-        "title": "You can test drive MG’s hybrids and EVs in Nuvali this weekend",
-        "url": "https://www.topgear.com.ph/news/industry-news/mg-multiply-greatness-tour-2026-nuvali-a6941-20261015",
+        "id": "6593e1f7d852",
+        "title": "PEVS 2026: The Kia PV5 is here, and it stickers for P2.098-M",
+        "url": "https://www.topgear.com.ph/features/feature-articles/kia-pv5-2027-ph-launch-a5361-20261022",
         "source": "TopGear Philippines",
-        "published_at": "2026-10-15T07:19:00.000Z"
+        "published_at": "2026-10-22T03:12:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "product_signal",
+      "watchlist_signal"
+    ],
+    "dominant_angle_signals": [
+      "EV transition gap visible",
+      "consumer demand shifting by segment",
+      "pricing pressure building"
+    ],
+    "top_story_refs": [
+      "106681061e75",
+      "841597e40195",
+      "6593e1f7d852"
+    ]
+  },
+  {
+    "theme_id": "infrastructure_constraint",
+    "theme_label": "infrastructure constraint",
+    "theme_summary": "infrastructure constraint is the shared editorial thread across 3 related stories. The strongest signal is infrastructure constraint showing.",
+    "story_count": 3,
+    "cluster_ids": [],
+    "story_ids": [
+      "cbd5bea34f5e",
+      "17a6b022e1df",
+      "748faa6735d0"
+    ],
+    "associated_stories": [
+      {
+        "id": "cbd5bea34f5e",
+        "title": "International passenger traffic thru NAIA swells by 2.6%",
+        "url": "https://business.inquirer.net/617619/international-passenger-traffic-thru-naia-swells-by-2-6",
+        "source": "Inquirer Business",
+        "published_at": "2026-10-24T02:04:00.000Z"
+      },
+      {
+        "id": "17a6b022e1df",
+        "title": "These Ironman 4x4 off-road accessories for the Chery Stockman are badass",
+        "url": "https://www.topgear.com.ph/news/car-news/chery-stockman-ironman-4x4-accessories-a6938-20261023",
+        "source": "TopGear Philippines",
+        "published_at": "2026-10-23T06:43:00.000Z"
+      },
+      {
+        "id": "748faa6735d0",
+        "title": "ASEAN Summit: Pasay City will see temporary road closures starting October 24",
+        "url": "https://www.topgear.com.ph/news/motoring-news/pasay-road-closures-asean-summit-2026-a6938-20261023",
+        "source": "TopGear Philippines",
+        "published_at": "2026-10-23T02:41:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "watchlist_signal",
+      "local_business_relevance"
+    ],
+    "dominant_angle_signals": [
+      "infrastructure constraint showing",
+      "EV transition gap visible",
+      "product launch reveals market bet"
+    ],
+    "top_story_refs": [
+      "cbd5bea34f5e",
+      "17a6b022e1df",
+      "748faa6735d0"
+    ]
+  },
+  {
+    "theme_id": "pricing_pressure",
+    "theme_label": "pricing pressure",
+    "theme_summary": "pricing pressure is the shared editorial thread across 3 related stories. The strongest signal is pricing pressure building.",
+    "story_count": 3,
+    "cluster_ids": [],
+    "story_ids": [
+      "529cdf04b70a",
+      "783658d144e1",
+      "66eab36d29c3"
+    ],
+    "associated_stories": [
+      {
+        "id": "529cdf04b70a",
+        "title": "Diesel prices poised to climb next week",
+        "url": "https://business.inquirer.net/617515/diesel-prices-poised-to-climb-next-week",
+        "source": "Inquirer Business",
+        "published_at": "2026-10-23T10:28:25.000Z"
+      },
+      {
+        "id": "66eab36d29c3",
+        "title": "The Ferrari 849 Testarossa has landed in PH with a starting price of P40.6-M",
+        "url": "https://www.topgear.com.ph/news/car-news/ferrari-849-testarossa-ph-launch-a6938-20261021",
+        "source": "TopGear Philippines",
+        "published_at": "2026-10-21T12:15:00.000Z"
+      },
+      {
+        "id": "783658d144e1",
+        "title": "PEVS 2026: Deepal S07 BEV launches with P2.35-M introductory price tag",
+        "url": "https://www.topgear.com.ph/news/car-news/deepal-s07-2027-ph-launch-a6941-20261022",
+        "source": "TopGear Philippines",
+        "published_at": "2026-10-22T07:02:00.000Z"
       }
     ],
     "dominant_reason_codes": [
       "local_business_relevance",
-      "watchlist_signal",
-      "product_signal"
+      "product_signal",
+      "market_signal"
     ],
     "dominant_angle_signals": [
-      "EV transition gap visible",
+      "pricing pressure building",
       "product launch reveals market bet",
-      "supply constraint shaping choice"
+      "EV transition gap visible"
     ],
     "top_story_refs": [
-      "cfef08f3b040",
-      "2674106bfa6b",
-      "e0290b3106c3"
+      "529cdf04b70a",
+      "66eab36d29c3",
+      "783658d144e1"
     ]
   }
 ]
