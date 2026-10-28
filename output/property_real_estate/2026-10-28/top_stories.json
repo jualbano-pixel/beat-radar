@@ -1,0 +1,51 @@
+{
+  "top_stories": [
+    {
+      "title": "Cebu holds its residential ground",
+      "source": "Inquirer Business Property",
+      "date": "2026-10-28T11:10:00.000Z",
+      "summary": "CEBU, Philippines — The Bangko Sentral ng Pilipinas (BSP) policy rate was raised to 5.5 percent on Oct. 22, the fourth hike this year. September inflation accelerated to 7.2 percent, and the Philippine Statistics Authority put second-quarter gross domestic product growth at 2.3 percent, the weakest since 2021. Centr...",
+      "tags": [
+        "digital_policy"
+      ],
+      "priority_score": 7.8,
+      "priority_reasons": [
+        "policy_shift",
+        "material_technology_effect",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "Businesses less pessimistic in August, more optimistic ahead",
+      "source": "BSP Property Media Releases SharePoint",
+      "date": "2026-09-24T16:00:00.000Z",
+      "summary": "​Philippine business sentiment became less pessimistic in August 2026, results of the latest Business Expectations Survey (BES) of the Bangko Sentral ng Pilipinas (BSP) showed.[1] Firms attributed the improvement to expectations of higher demand for essential commodities, loan products, and construction activities.&...",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 4,
+      "priority_reasons": [
+        "enterprise_scale_signal",
+        "practical_usability_impact"
+      ],
+      "why_it_matters": "This is a strong editorial signal because it shows technology moving into real-world deployment at scale. It points to traction beyond experimentation."
+    },
+    {
+      "title": "Metro Manila Office Report Q3 2025",
+      "source": "Santos Knight Frank Market Reports",
+      "date": "2025-11-11T06:30:43.000Z",
+      "summary": "Metro Manila Office Report Q3 2025The Metro Manila office market in the third quarter of 2025 reflected steady adjustments to evolving workplace strategies amid tempered demand. Total office stock reached 8.9 million sqm, with new supply from Quezon City adding 72,000 sqm. Overall vacancy stood at 21.2%, while avera...",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 0.2,
+      "priority_reasons": [
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    }
+  ],
+  "secondary_signals": []
+}
