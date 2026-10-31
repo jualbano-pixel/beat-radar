@@ -1,112 +1,104 @@
 {
   "top_stories": [
     {
-      "title": "BSP unleashes jumbo rate hike vs inflation",
+      "title": "NGCP opposes DOE transmission circulars",
       "source": "Inquirer Business Energy",
-      "date": "2026-10-23T02:26:00.000Z",
-      "summary": "MANILA, Philippines — The Bangko Sentral ng Pilipinas (BSP) raised its policy rate by half a percentage point to 5.5 percent on Thursday, delivering a bigger-than-expected increase as it stepped up its fight against stubbornly high inflation. The decision by the Monetary Board, the central bank’s top policymaking bo...",
+      "date": "2026-10-30T17:39:28.000Z",
+      "summary": "MANILA, Philippines — The National Grid Corp. of the Philippines (NGCP) is seeking the withdrawal of two government circulars aimed at accelerating power project integration, saying these violate its exclusive mandate over the country’s transmission network. In a position paper, the local market’s sole grid operator...",
       "tags": [
-        "digital_policy"
+        "ai_automation"
       ],
-      "priority_score": 7.6,
+      "priority_score": 5.1,
+      "priority_reasons": [
+        "material_technology_effect",
+        "multi_group_impact"
+      ],
+      "why_it_matters": "This matters because it changes how more than one important group can build, buy, deploy, secure, or govern technology."
+    },
+    {
+      "title": "Cojuangco warns PNPP privatization may delay recommissioning",
+      "source": "BusinessWorld Energy",
+      "date": "2026-10-30T09:14:10.000Z",
+      "summary": "A Philippine lawmaker on Friday criticized the proposed privatization of the Philippine Nuclear Power Plant (PNPP) in Bataan,…",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 5.1,
       "priority_reasons": [
         "policy_shift",
-        "material_technology_effect",
-        "practical_usability_impact"
+        "broader_trend"
       ],
       "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
     },
     {
-      "title": "BSP surprises with jumbo rate hike, signals further tightening",
-      "source": "BusinessWorld Energy",
-      "date": "2026-10-22T13:51:37.000Z",
-      "summary": "THE BANGKO SENTRAL ng Pilipinas (BSP) on Thursday delivered a surprise 50-basis-point (bp) rate hike and signaled it was prepared to continue tightening amid broadening inflation risks from persistent price shocks and a strong El Niño.",
+      "title": "Gasoline prices set to rise next week",
+      "source": "Inquirer Business Energy",
+      "date": "2026-10-30T09:06:40.000Z",
+      "summary": "MANILA, Philippines — Mixed adjustments in fuel prices may greet the motorists in the first week of November, with gasoline slated for a price hike. Jetti Petroleum president Leo Bellas said gasoline prices may jump by P2.90 to P3.20 per liter. READ: US could strike Iran this weekend, envoy says Diesel may record a...",
       "tags": [
         "general_ph_sea_energy"
       ],
-      "priority_score": 3.6,
+      "priority_score": 5.1,
       "priority_reasons": [
-        "safety_or_governance",
+        "policy_shift",
         "broader_trend"
       ],
-      "why_it_matters": "This matters because it affects how AI systems are governed, evaluated, or deployed responsibly. Those choices can shape the broader direction of the market."
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
     },
     {
-      "title": "Japan debt watcher sees resilient PH economy",
+      "title": "Sy pitches P700-B plan to reduce PH power costs",
       "source": "Inquirer Business Energy",
-      "date": "2026-10-24T02:00:00.000Z",
-      "summary": "MANILA, Philippines — The Japan Credit Rating Agency (JCR) said the Philippine economy is likely to remain highly resilient to external shocks despite mounting tariff pressures, citing the country’s strong foreign exchange buffers and potential to diversify export markets. “Given its solid foreign currency liquidity...",
+      "date": "2026-10-30T02:22:00.000Z",
+      "summary": "MANILA, Philippines — Tycoon Henry Sy Jr. has pitched a P700-billion intervention to help ease the country’s high electricity cost over the long term: allow energy superhighway National Grid Corporation of the Philippines to invest in a nationwide chain of battery energy storage system (BESS) to stabilize supply. In...",
       "tags": [
         "general_ph_sea_energy"
       ],
-      "priority_score": 0.6,
-      "priority_reasons": [],
-      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
-    },
-    {
-      "title": "Peso breaches 63.6:$1 level",
-      "source": "Inquirer Business Energy",
-      "date": "2026-10-23T18:30:21.000Z",
-      "summary": "MANILA, Philippines — The Philippine peso fell to a record low on Friday as concerns about the domestic inflation outlook overshadowed an aggressive interest rate hike by the central bank. The currency weakened 9.5 centavos to close at 63.615 against the dollar, according to data from the Bankers Association of the...",
-      "tags": [
-        "general_ph_sea_energy"
-      ],
-      "priority_score": 0.6,
-      "priority_reasons": [],
-      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
-    },
-    {
-      "title": "Stocks suffer another selldown as peso extends record slide",
-      "source": "Philippine Star Business Energy",
-      "date": "2026-10-23T16:00:00.000Z",
-      "summary": "Philippine financial markets ended the week in the red, with stocks retreating as investors digested the Bangko Sentral ng Pilipinas (BSP)’s 50-basis-point rate hike while the peso sank to a fresh record low for the third straight trading session.",
-      "tags": [
-        "general_ph_sea_energy"
-      ],
-      "priority_score": 0.6,
-      "priority_reasons": [],
-      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
-    },
-    {
-      "title": "Diesel prices poised to climb next week",
-      "source": "Inquirer Business Energy",
-      "date": "2026-10-23T10:28:25.000Z",
-      "summary": "MANILA, Philippines — Motorists should plan and budget their fuel purchases, as fuel products will experience mixed price adjustments next week. Diesel products will see another round of price hikes next week due to escalating geopolitical conflict. READ: Attack on Saudi’s Dammam airport leaves 1 dead, 8 injured In...",
-      "tags": [
-        "general_ph_sea_energy"
-      ],
-      "priority_score": 0.6,
-      "priority_reasons": [],
-      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
-    },
-    {
-      "title": "PSEi falls to 5,728 on rate hike, weaker peso",
-      "source": "Inquirer Business Energy",
-      "date": "2026-10-23T18:43:46.000Z",
-      "summary": "MANILA, Philippines — Local stocks retreated on Friday as investors weighed the impact of higher borrowing costs on economic growth, while a weakening peso added to market jitters. The benchmark Philippine Stock Exchange Index (PSEi) dropped 0.88 percent, or 51.10 points, to close at 5,728.63. READ: BSP unleashes ju...",
-      "tags": [
-        "general_ph_sea_energy"
-      ],
-      "priority_score": -0.4,
+      "priority_score": 4.6,
       "priority_reasons": [
-        "minor_or_routine"
+        "policy_shift"
       ],
-      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
     },
     {
-      "title": "BSP surprises with jumbo rate hike, signals further tightening",
-      "source": "BusinessWorld Energy",
-      "date": "2026-10-22T13:51:37.000Z",
-      "summary": "THE BANGKO SENTRAL ng Pilipinas (BSP) on Thursday delivered a surprise 50-basis-point (bp) rate hike and signaled it was prepared to continue tightening amid broadening inflation risks from persistent price shocks and a strong El Niño.",
+      "title": "Gasoline prices may rise by P3.20/l next week",
+      "source": "Malaya Business",
+      "date": "2026-10-31T08:59:40.000Z",
+      "summary": "Motorists may face a gasoline price increase of as much as P3.20 per liter next week, while diesel prices could decline slightly, based on initial industry estimates. Gasoline prices are projected to rise by P2.90 to P3.20 per liter in the first week of November, while diesel prices may fall by 40 to 60 centavos […]...",
       "tags": [
         "general_ph_sea_energy"
       ],
-      "priority_score": 3.6,
+      "priority_score": 1.1,
       "priority_reasons": [
-        "safety_or_governance",
         "broader_trend"
       ],
-      "why_it_matters": "This matters because it affects how AI systems are governed, evaluated, or deployed responsibly. Those choices can shape the broader direction of the market."
+      "why_it_matters": "This surfaced because it looks like part of a larger theme rather than a one-off. Multiple related signals suggest it has wider editorial significance."
+    },
+    {
+      "title": "Power outages loom anew across Visayas",
+      "source": "Inquirer Business Energy",
+      "date": "2026-10-30T08:33:49.000Z",
+      "summary": "MANILA, Philippines — The Visayas power crunch persisted on Friday, with the grid operator declaring another red alert amid a thin electricity supply due to the unavailability of major coal power plants. The National Grid Corp. of the Philippines (NGCP) said the red alert status would be in effect from 5 p.m. to 7 p...",
+      "tags": [
+        "ai_automation"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Cojuangco warns PNPP privatization may delay recommissioning",
+      "source": "BusinessWorld Energy",
+      "date": "2026-10-30T09:14:10.000Z",
+      "summary": "A Philippine lawmaker on Friday criticized the proposed privatization of the Philippine Nuclear Power Plant (PNPP) in Bataan,…",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 5.1,
+      "priority_reasons": [
+        "policy_shift",
+        "broader_trend"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
     }
   ],
   "secondary_signals": []

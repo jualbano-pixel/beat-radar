@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "theme_id": "energy_fuel_prices_easing",
+    "theme_label": "Fuel prices are easing through rollbacks",
+    "theme_summary": "Pump-price movement is pointing downward, with diesel, gasoline, and fuel-monitor stories reinforcing the same cost direction.",
+    "story_count": 2,
+    "cluster_ids": [
+      "energy_002"
+    ],
+    "story_ids": [
+      "641752872784",
+      "6b32a84fd20b"
+    ],
+    "associated_stories": [
+      {
+        "id": "641752872784",
+        "title": "Gasoline prices may rise by P3.20/l next week",
+        "url": "https://malaya.com.ph/business/business-news/gasoline-prices-may-rise-by-p3-20-l-next-week",
+        "source": "Malaya Business",
+        "published_at": "2026-10-31T08:59:40.000Z"
+      },
+      {
+        "id": "6b32a84fd20b",
+        "title": "Gasoline prices set to rise next week",
+        "url": "https://business.inquirer.net/618809/gasoline-prices-set-to-rise-next-week",
+        "source": "Inquirer Business Energy",
+        "published_at": "2026-10-30T09:06:40.000Z"
+      }
+    ],
+    "dominant_reason_codes": [],
+    "dominant_angle_signals": [],
+    "top_story_refs": [
+      "641752872784"
+    ],
+    "theme_type": "secondary"
+  },
+  {
+    "theme_id": "energy_infrastructure_execution_advancing",
+    "theme_label": "Energy infrastructure execution is advancing",
+    "theme_summary": "Project execution signals show rehabilitation, EPC, commissioning, or delivery steps moving system capability forward.",
+    "story_count": 2,
+    "cluster_ids": [
+      "energy_003"
+    ],
+    "story_ids": [
+      "4294bcb2d3d1",
+      "4294bcb2d3d1"
+    ],
+    "associated_stories": [
+      {
+        "id": "4294bcb2d3d1",
+        "title": "Cojuangco warns PNPP privatization may delay recommissioning",
+        "url": "https://bworldonline.com/the-nation/2026/10/30/790524/cojuangco-warns-pnpp-privatization-may-delay-recommissioning",
+        "source": "BusinessWorld Energy",
+        "published_at": "2026-10-30T09:14:10.000Z"
+      },
+      {
+        "id": "4294bcb2d3d1",
+        "title": "Cojuangco warns PNPP privatization may delay recommissioning",
+        "url": "https://bworldonline.com/the-nation/2026/10/30/790524/cojuangco-warns-pnpp-privatization-may-delay-recommissioning",
+        "source": "BusinessWorld Energy",
+        "published_at": "2026-10-30T09:14:10.000Z"
+      }
+    ],
+    "dominant_reason_codes": [],
+    "dominant_angle_signals": [],
+    "top_story_refs": [
+      "4294bcb2d3d1"
+    ],
+    "theme_type": "secondary"
+  }
+]
