@@ -1,0 +1,221 @@
+[
+  {
+    "cluster_id": "banking_001",
+    "cluster_kind": "same_event",
+    "lead_story_id": "d25cdf20ec06",
+    "story_count": 5,
+    "story_ids": [
+      "d25cdf20ec06",
+      "f51ce43b86ef",
+      "8df886e59ef9",
+      "a7b78bbd46a6",
+      "3f0c7368fe46"
+    ],
+    "story_titles": [
+      "BSP welcomes Moody's latest analysis on PH monetary policy, banking system, external buffers",
+      "Monetary Board raises Target RRP Rate by 50 basis points",
+      "GIR settle at US$99.5B, BOP posts US$3.1-B deficit in Sept 2026",
+      "GIR settle at US$100B as of end-Sept 2026",
+      "Banks expect steady credit standards, loan demand in Q4 2026"
+    ],
+    "associated_stories": [
+      {
+        "id": "d25cdf20ec06",
+        "title": "BSP welcomes Moody's latest analysis on PH monetary policy, banking system, external buffers",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8124",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-10-30T01:13:24.000Z"
+      },
+      {
+        "id": "f51ce43b86ef",
+        "title": "Monetary Board raises Target RRP Rate by 50 basis points",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8115",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-10-22T06:17:02.000Z"
+      },
+      {
+        "id": "8df886e59ef9",
+        "title": "GIR settle at US$99.5B, BOP posts US$3.1-B deficit in Sept 2026",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8112",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-10-19T06:09:53.000Z"
+      },
+      {
+        "id": "a7b78bbd46a6",
+        "title": "GIR settle at US$100B as of end-Sept 2026",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8102",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-10-07T10:47:14.000Z"
+      },
+      {
+        "id": "3f0c7368fe46",
+        "title": "Banks expect steady credit standards, loan demand in Q4 2026",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8125",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-10-30T03:44:13.000Z"
+      }
+    ],
+    "entities": [
+      "regulator"
+    ],
+    "event_label": "Credit rules are moving onto the watchlist",
+    "compression_line": "Loan rules and regulatory signals are putting credit discipline back on the banking desk's watchlist.",
+    "priority_score": 64,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "pattern",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": [
+      "f51ce43b86ef",
+      "8df886e59ef9",
+      "a7b78bbd46a6",
+      "3f0c7368fe46"
+    ]
+  },
+  {
+    "cluster_id": "banking_002",
+    "cluster_kind": "same_event",
+    "lead_story_id": "5f76e51c68f7",
+    "story_count": 1,
+    "story_ids": [
+      "5f76e51c68f7"
+    ],
+    "story_titles": [
+      "Singapore’s wealthy keep 70% of assets in cash, more than US investors"
+    ],
+    "associated_stories": [
+      {
+        "id": "5f76e51c68f7",
+        "title": "Singapore’s wealthy keep 70% of assets in cash, more than US investors",
+        "url": "https://e.vnexpress.net/news/business/economy/singapore-s-wealthy-keep-70-of-assets-in-cash-more-than-us-investors-5137306.html",
+        "source": "VNExpress Business",
+        "published_at": "2026-10-28T03:22:47.000Z"
+      }
+    ],
+    "entities": [
+      "private_bank"
+    ],
+    "event_label": "System liquidity is easing",
+    "compression_line": "The grouped stories point to banks preserving buffers rather than stretching balance sheets for growth.",
+    "priority_score": 48,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "event",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": []
+  },
+  {
+    "cluster_id": "banking_003",
+    "cluster_kind": "same_event",
+    "lead_story_id": "531d920ea5dd",
+    "story_count": 1,
+    "story_ids": [
+      "531d920ea5dd"
+    ],
+    "story_titles": [
+      "EastWest 9-month profit falls 24% to P5B"
+    ],
+    "associated_stories": [
+      {
+        "id": "531d920ea5dd",
+        "title": "EastWest 9-month profit falls 24% to P5B",
+        "url": "https://business.inquirer.net/618883/eastwest-9-month-profit-falls-24-to-p5b",
+        "source": "Inquirer Business",
+        "published_at": "2026-10-30T18:20:23.000Z"
+      }
+    ],
+    "entities": [
+      "private_bank"
+    ],
+    "event_label": "Risk is starting to surface",
+    "compression_line": "Bad-loan and borrower-capacity signals suggest risk is beginning to surface beneath still-active lending.",
+    "priority_score": 56,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "event",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": []
+  },
+  {
+    "cluster_id": "banking_004",
+    "cluster_kind": "same_event",
+    "lead_story_id": "85798a0ff5a1",
+    "story_count": 3,
+    "story_ids": [
+      "85798a0ff5a1",
+      "f2a025c565c0",
+      "9e018ab17726"
+    ],
+    "story_titles": [
+      "Moody’s: Strong BSP oversight shields PH banks from risks",
+      "PH banks’ bad loans ratio eases to 9-mo low",
+      "BSP adopts new standardized approach for operational risk capital requirements"
+    ],
+    "associated_stories": [
+      {
+        "id": "85798a0ff5a1",
+        "title": "Moody’s: Strong BSP oversight shields PH banks from risks",
+        "url": "https://business.inquirer.net/618833/moodys-strong-bsp-oversight-shields-ph-banks-from-risks",
+        "source": "Inquirer Business",
+        "published_at": "2026-10-30T14:37:07.000Z"
+      },
+      {
+        "id": "f2a025c565c0",
+        "title": "PH banks’ bad loans ratio eases to 9-mo low",
+        "url": "https://business.inquirer.net/618742/ph-banks-bad-loans-ratio-eases-to-9-mo-low",
+        "source": "Inquirer Business",
+        "published_at": "2026-10-30T02:16:00.000Z"
+      },
+      {
+        "id": "9e018ab17726",
+        "title": "BSP adopts new standardized approach for operational risk capital requirements",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8108",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-10-13T11:25:04.000Z"
+      }
+    ],
+    "entities": [
+      "regulator"
+    ],
+    "event_label": "Risk is starting to surface",
+    "compression_line": "Bad-loan and borrower-capacity signals suggest risk is beginning to surface beneath still-active lending.",
+    "priority_score": 52,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "pattern",
+    "cluster_classification": "secondary",
+    "primary_theme_id": "risk_surface",
+    "primary_theme_label": "Risk is starting to surface",
+    "supporting_story_ids": [
+      "f2a025c565c0",
+      "9e018ab17726"
+    ]
+  },
+  {
+    "cluster_id": "banking_005",
+    "cluster_kind": "same_event",
+    "lead_story_id": "910066afdc25",
+    "story_count": 1,
+    "story_ids": [
+      "910066afdc25"
+    ],
+    "story_titles": [
+      "BDO sets new 9-month profit record high at P63.6B"
+    ],
+    "associated_stories": [
+      {
+        "id": "910066afdc25",
+        "title": "BDO sets new 9-month profit record high at P63.6B",
+        "url": "https://business.inquirer.net/618897/bdo-sets-new-9-month-profit-record-high-at-p63-6b",
+        "source": "Inquirer Business",
+        "published_at": "2026-10-31T02:12:00.000Z"
+      }
+    ],
+    "entities": [
+      "private_bank"
+    ],
+    "event_label": "Loan growth is still carrying the system",
+    "compression_line": "The cluster keeps loan growth in view, but the useful read is whether that growth is becoming harder for borrowers to carry.",
+    "priority_score": 52,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "event",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": []
+  }
+]

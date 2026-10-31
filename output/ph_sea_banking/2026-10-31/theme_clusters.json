@@ -1,0 +1,52 @@
+[
+  {
+    "theme_id": "risk_surface",
+    "theme_label": "Risk is starting to surface",
+    "theme_summary": "The useful signal is balance-sheet caution: bad loans, provisions, exposure, or stress are becoming harder to treat as background noise.",
+    "story_count": 3,
+    "cluster_ids": [
+      "banking_004"
+    ],
+    "story_ids": [
+      "85798a0ff5a1",
+      "f2a025c565c0",
+      "9e018ab17726"
+    ],
+    "associated_stories": [
+      {
+        "id": "85798a0ff5a1",
+        "title": "Moody’s: Strong BSP oversight shields PH banks from risks",
+        "url": "https://business.inquirer.net/618833/moodys-strong-bsp-oversight-shields-ph-banks-from-risks",
+        "source": "Inquirer Business",
+        "published_at": "2026-10-30T14:37:07.000Z"
+      },
+      {
+        "id": "f2a025c565c0",
+        "title": "PH banks’ bad loans ratio eases to 9-mo low",
+        "url": "https://business.inquirer.net/618742/ph-banks-bad-loans-ratio-eases-to-9-mo-low",
+        "source": "Inquirer Business",
+        "published_at": "2026-10-30T02:16:00.000Z"
+      },
+      {
+        "id": "9e018ab17726",
+        "title": "BSP adopts new standardized approach for operational risk capital requirements",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8108",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-10-13T11:25:04.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "policy_regulatory_move"
+    ],
+    "dominant_angle_signals": [
+      "risk repricing visible",
+      "regulatory pressure shaping bank behavior"
+    ],
+    "top_story_refs": [
+      "85798a0ff5a1",
+      "f2a025c565c0",
+      "9e018ab17726"
+    ],
+    "theme_type": "secondary"
+  }
+]
