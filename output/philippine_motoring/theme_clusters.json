@@ -2,230 +2,207 @@
   {
     "theme_id": "ev_transition_gap",
     "theme_label": "EV transition gap",
-    "theme_summary": "EV transition gap is the shared editorial thread across 7 related stories. The strongest signal is EV transition gap visible.",
-    "story_count": 7,
+    "theme_summary": "EV transition gap is the shared editorial thread across 6 related stories. The strongest signal is EV transition gap visible.",
+    "story_count": 6,
     "cluster_ids": [],
     "story_ids": [
-      "5b7fe4af2ebe",
-      "4b0b487faeb9",
-      "16b3f8b659d4",
-      "332577e9b524",
-      "b2f4e947dca0",
-      "cfa837af95bb",
-      "d6fcd1d2c542"
+      "88530af9c104",
+      "f238601b2feb",
+      "22c5b0245888",
+      "fd3aab450bec",
+      "35bd08c0a522",
+      "6dae46ccb158"
     ],
     "associated_stories": [
       {
-        "id": "cfa837af95bb",
-        "title": "The all-new BYD Seagull has been unveiled in China with Flash Charging capability",
-        "url": "https://www.topgear.com.ph/news/car-news/byd-seagull-2027-launch-china-a6938-20261021",
+        "id": "6dae46ccb158",
+        "title": "Mazda launches the all-new CX-80 PHEV with a P4.18-M starting price",
+        "url": "https://www.topgear.com.ph/news/car-news/mazda-cx-80-phev-2027-launch-ph-a5361-20261030",
         "source": "TopGear Philippines",
-        "published_at": "2026-10-21T04:03:00.000Z"
+        "published_at": "2026-10-30T04:37:00.000Z"
       },
       {
-        "id": "332577e9b524",
-        "title": "Toyota to hold truck and EV displays at the SMX Convention Center Manila from Oct. 22-24",
-        "url": "https://www.topgear.com.ph/news/industry-news/toyota-pevs-pits-2026-smx-a2619-20261021",
+        "id": "fd3aab450bec",
+        "title": "The seven-seater Jetour S08 i-DM launches with a P1.698-M introductory price",
+        "url": "https://www.topgear.com.ph/news/car-news/jetour-s08-idm-2027-launch-a6888-20261030",
         "source": "TopGear Philippines",
-        "published_at": "2026-10-21T08:44:00.000Z"
+        "published_at": "2026-10-30T11:24:00.000Z"
       },
       {
-        "id": "4b0b487faeb9",
-        "title": "PITS 2026: A closer look at the Isuzu N-Series EV Concept",
-        "url": "https://www.topgear.com.ph/news/car-news/isuzu-nseries-ev-pits-2026-a6888-20261022",
+        "id": "f238601b2feb",
+        "title": "ACMobility has opened its first EV Charging Hub in Tagbilaran City, Bohol",
+        "url": "https://www.topgear.com.ph/news/motoring-news/acmobility-ev-charging-station-bohol-a6938-20261030",
         "source": "TopGear Philippines",
-        "published_at": "2026-10-22T09:18:00.000Z"
+        "published_at": "2026-10-30T13:00:00.000Z"
       },
       {
-        "id": "16b3f8b659d4",
-        "title": "Mitsubishi PH reiterates its commitment to local hybrid vehicle manufacturing",
-        "url": "https://www.topgear.com.ph/news/industry-news/mitsubishi-ph-affirms-evis-commitment-a6888-20261022",
+        "id": "22c5b0245888",
+        "title": "Shotgun ride: The hybrid V16-powered Tourbillon previews Bugatti’s new direction",
+        "url": "https://www.topgear.com.ph/features/feature-articles/bugatti-tourbillon-shotgun-ride-tguk-a2624-20261030-lfrm2",
         "source": "TopGear Philippines",
-        "published_at": "2026-10-21T23:38:00.000Z"
+        "published_at": "2026-10-30T12:30:00.000Z"
       },
       {
-        "id": "d6fcd1d2c542",
-        "title": "Subaru will have its own in-house AWD EV platform by 2029",
-        "url": "https://www.topgear.com.ph/news/industry-news/subaru-new-in-house-ev-platform-a6938-20261020",
+        "id": "35bd08c0a522",
+        "title": "The all-new Jetour S08 i-DM shows a different side of the brand",
+        "url": "https://www.topgear.com.ph/sponsored-content/jetour-s08-i-dm-advcon-a6901-a6901-20261030",
         "source": "TopGear Philippines",
-        "published_at": "2026-10-20T12:05:00.000Z"
+        "published_at": "2026-10-30T10:59:00.000Z"
       },
       {
-        "id": "5b7fe4af2ebe",
-        "title": "VinFast interested in EV incentives program",
-        "url": "https://bworldonline.com/economy/2026/10/25/789133/vinfast-interested-in-ev-incentives-program",
+        "id": "88530af9c104",
+        "title": "Globe expands hybrid, electric vehicle fleet to 570 units",
+        "url": "https://bworldonline.com/corporate/2026/11/01/790596/globe-expands-hybrid-electric-vehicle-fleet-to-570-units",
         "source": "BusinessWorld Online",
-        "published_at": "2026-10-25T12:33:47.000Z"
-      },
-      {
-        "id": "b2f4e947dca0",
-        "title": "BMW introduces entry-level HEV variants of the X3 and X5 in PH",
-        "url": "https://www.topgear.com.ph/news/car-news/bmw-x3-x5-hev-ph-launch-a6941-20261021",
-        "source": "TopGear Philippines",
-        "published_at": "2026-10-21T04:43:00.000Z"
-      }
-    ],
-    "dominant_reason_codes": [
-      "developing_pattern",
-      "product_signal",
-      "local_business_relevance"
-    ],
-    "dominant_angle_signals": [
-      "EV transition gap visible",
-      "product launch reveals market bet"
-    ],
-    "top_story_refs": [
-      "cfa837af95bb",
-      "332577e9b524",
-      "4b0b487faeb9"
-    ]
-  },
-  {
-    "theme_id": "consumer_demand_shift",
-    "theme_label": "consumer demand shift",
-    "theme_summary": "consumer demand shift is the shared editorial thread across 3 related stories. The strongest signal is EV transition gap visible.",
-    "story_count": 3,
-    "cluster_ids": [],
-    "story_ids": [
-      "106681061e75",
-      "6593e1f7d852",
-      "841597e40195"
-    ],
-    "associated_stories": [
-      {
-        "id": "106681061e75",
-        "title": "PEVS 2026: Dongfeng PH has launched the all-new Mage EV priced at P1.398-M",
-        "url": "https://www.topgear.com.ph/news/car-news/2027-dongfeng-mage-ev-ph-launch-a6938-20261022",
-        "source": "TopGear Philippines",
-        "published_at": "2026-10-22T07:24:00.000Z"
-      },
-      {
-        "id": "841597e40195",
-        "title": "UBE Express P2P buses from Nuvali to NAIA are now available",
-        "url": "https://www.topgear.com.ph/news/motoring-news/nuvali-naia-p2p-airport-bus-a5361-20261021",
-        "source": "TopGear Philippines",
-        "published_at": "2026-10-21T06:14:00.000Z"
-      },
-      {
-        "id": "6593e1f7d852",
-        "title": "PEVS 2026: The Kia PV5 is here, and it stickers for P2.098-M",
-        "url": "https://www.topgear.com.ph/features/feature-articles/kia-pv5-2027-ph-launch-a5361-20261022",
-        "source": "TopGear Philippines",
-        "published_at": "2026-10-22T03:12:00.000Z"
-      }
-    ],
-    "dominant_reason_codes": [
-      "product_signal",
-      "watchlist_signal"
-    ],
-    "dominant_angle_signals": [
-      "EV transition gap visible",
-      "consumer demand shifting by segment",
-      "pricing pressure building"
-    ],
-    "top_story_refs": [
-      "106681061e75",
-      "841597e40195",
-      "6593e1f7d852"
-    ]
-  },
-  {
-    "theme_id": "infrastructure_constraint",
-    "theme_label": "infrastructure constraint",
-    "theme_summary": "infrastructure constraint is the shared editorial thread across 3 related stories. The strongest signal is infrastructure constraint showing.",
-    "story_count": 3,
-    "cluster_ids": [],
-    "story_ids": [
-      "cbd5bea34f5e",
-      "17a6b022e1df",
-      "748faa6735d0"
-    ],
-    "associated_stories": [
-      {
-        "id": "cbd5bea34f5e",
-        "title": "International passenger traffic thru NAIA swells by 2.6%",
-        "url": "https://business.inquirer.net/617619/international-passenger-traffic-thru-naia-swells-by-2-6",
-        "source": "Inquirer Business",
-        "published_at": "2026-10-24T02:04:00.000Z"
-      },
-      {
-        "id": "17a6b022e1df",
-        "title": "These Ironman 4x4 off-road accessories for the Chery Stockman are badass",
-        "url": "https://www.topgear.com.ph/news/car-news/chery-stockman-ironman-4x4-accessories-a6938-20261023",
-        "source": "TopGear Philippines",
-        "published_at": "2026-10-23T06:43:00.000Z"
-      },
-      {
-        "id": "748faa6735d0",
-        "title": "ASEAN Summit: Pasay City will see temporary road closures starting October 24",
-        "url": "https://www.topgear.com.ph/news/motoring-news/pasay-road-closures-asean-summit-2026-a6938-20261023",
-        "source": "TopGear Philippines",
-        "published_at": "2026-10-23T02:41:00.000Z"
+        "published_at": "2026-11-01T12:51:33.000Z"
       }
     ],
     "dominant_reason_codes": [
       "watchlist_signal",
-      "local_business_relevance"
+      "product_signal",
+      "ongoing_story_advance"
     ],
     "dominant_angle_signals": [
-      "infrastructure constraint showing",
       "EV transition gap visible",
-      "product launch reveals market bet"
+      "pricing pressure building",
+      "consumer demand shifting by segment"
     ],
     "top_story_refs": [
-      "cbd5bea34f5e",
-      "17a6b022e1df",
-      "748faa6735d0"
+      "6dae46ccb158",
+      "fd3aab450bec",
+      "f238601b2feb"
     ]
   },
   {
     "theme_id": "pricing_pressure",
     "theme_label": "pricing pressure",
-    "theme_summary": "pricing pressure is the shared editorial thread across 3 related stories. The strongest signal is pricing pressure building.",
-    "story_count": 3,
+    "theme_summary": "pricing pressure is the shared editorial thread across 4 related stories. The strongest signal is pricing pressure building.",
+    "story_count": 4,
     "cluster_ids": [],
     "story_ids": [
-      "529cdf04b70a",
-      "783658d144e1",
-      "66eab36d29c3"
+      "20887ebf6ed5",
+      "ab3f2440d245",
+      "6b32a84fd20b",
+      "f6150acef65f"
     ],
     "associated_stories": [
       {
-        "id": "529cdf04b70a",
-        "title": "Diesel prices poised to climb next week",
-        "url": "https://business.inquirer.net/617515/diesel-prices-poised-to-climb-next-week",
+        "id": "20887ebf6ed5",
+        "title": "Gasoline prices to rise anew in 1st week of November",
+        "url": "https://business.inquirer.net/619090/gasoline-prices-to-rise-anew-in-1st-week-of-november",
         "source": "Inquirer Business",
-        "published_at": "2026-10-23T10:28:25.000Z"
+        "published_at": "2026-10-31T05:42:00.000Z"
       },
       {
-        "id": "66eab36d29c3",
-        "title": "The Ferrari 849 Testarossa has landed in PH with a starting price of P40.6-M",
-        "url": "https://www.topgear.com.ph/news/car-news/ferrari-849-testarossa-ph-launch-a6938-20261021",
-        "source": "TopGear Philippines",
-        "published_at": "2026-10-21T12:15:00.000Z"
+        "id": "ab3f2440d245",
+        "title": "Looming oil price surge pulls PSEi back to 5,600",
+        "url": "https://business.inquirer.net/618875/looming-oil-price-surge-pulls-psei-back-to-5600",
+        "source": "Inquirer Business",
+        "published_at": "2026-10-30T17:13:50.000Z"
       },
       {
-        "id": "783658d144e1",
-        "title": "PEVS 2026: Deepal S07 BEV launches with P2.35-M introductory price tag",
-        "url": "https://www.topgear.com.ph/news/car-news/deepal-s07-2027-ph-launch-a6941-20261022",
+        "id": "6b32a84fd20b",
+        "title": "Gasoline prices set to rise next week",
+        "url": "https://business.inquirer.net/618809/gasoline-prices-set-to-rise-next-week",
+        "source": "Inquirer Business",
+        "published_at": "2026-10-30T09:06:40.000Z"
+      },
+      {
+        "id": "f6150acef65f",
+        "title": "Price, features, specs: Everything you need to know about the all-new Geely Monjaro EM-i",
+        "url": "https://www.topgear.com.ph/features/feature-articles/geely-monjaro-2027-ph-price-specs-features-a5361-20261029",
         "source": "TopGear Philippines",
-        "published_at": "2026-10-22T07:02:00.000Z"
+        "published_at": "2026-10-29T01:57:00.000Z"
       }
     ],
     "dominant_reason_codes": [
       "local_business_relevance",
-      "product_signal",
       "market_signal"
     ],
     "dominant_angle_signals": [
       "pricing pressure building",
       "product launch reveals market bet",
+      "ownership cost reality surfacing"
+    ],
+    "top_story_refs": [
+      "20887ebf6ed5",
+      "ab3f2440d245",
+      "6b32a84fd20b"
+    ]
+  },
+  {
+    "theme_id": "consumer_demand_shift",
+    "theme_label": "consumer demand shift",
+    "theme_summary": "consumer demand shift is the shared editorial thread across 2 related stories. The strongest signal is consumer demand shifting by segment.",
+    "story_count": 2,
+    "cluster_ids": [],
+    "story_ids": [
+      "28ee00157aa7",
+      "d5820a946cca"
+    ],
+    "associated_stories": [
+      {
+        "id": "28ee00157aa7",
+        "title": "Can the Chery Tiggo X7 rival the likes of the Toyota Land Cruiser?",
+        "url": "https://www.topgear.com.ph/news/car-news/chery-tiggo-x7-off-road-tguk-a4662-20261101",
+        "source": "TopGear Philippines",
+        "published_at": "2026-10-31T16:00:00.000Z"
+      },
+      {
+        "id": "d5820a946cca",
+        "title": "SEMA 2026: This slammed Toyota Crown Signia SUV is one wicked wagon",
+        "url": "https://www.topgear.com.ph/news/car-news/toyota-crown-signia-wagon-sema-2026-a3832-20261030",
+        "source": "TopGear Philippines",
+        "published_at": "2026-10-30T00:59:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "watchlist_signal"
+    ],
+    "dominant_angle_signals": [
+      "consumer demand shifting by segment"
+    ],
+    "top_story_refs": [
+      "28ee00157aa7",
+      "d5820a946cca"
+    ]
+  },
+  {
+    "theme_id": "regulation_enforcement",
+    "theme_label": "regulation and enforcement",
+    "theme_summary": "regulation and enforcement is the shared editorial thread across 2 related stories. The strongest signal is regulation moving into ownership reality.",
+    "story_count": 2,
+    "cluster_ids": [],
+    "story_ids": [
+      "e4279a6dd3a4",
+      "671f8a59354b"
+    ],
+    "associated_stories": [
+      {
+        "id": "671f8a59354b",
+        "title": "As the holidays approach, the LTO reminds motorists: Drunk driving will get licenses revoked",
+        "url": "https://www.topgear.com.ph/news/motoring-news/lto-revoke-licenses-drunk-drivers-a6938-20261030",
+        "source": "TopGear Philippines",
+        "published_at": "2026-10-30T01:54:00.000Z"
+      },
+      {
+        "id": "e4279a6dd3a4",
+        "title": "DoTr suspends two vessels from operations over maritime incidents",
+        "url": "https://bworldonline.com/the-nation/2026/11/01/790586/dotr-suspends-two-vessels-from-operations-over-maritime-incidents",
+        "source": "BusinessWorld Online",
+        "published_at": "2026-11-01T12:38:13.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "policy_regulatory_move"
+    ],
+    "dominant_angle_signals": [
+      "regulation moving into ownership reality",
       "EV transition gap visible"
     ],
     "top_story_refs": [
-      "529cdf04b70a",
-      "66eab36d29c3",
-      "783658d144e1"
+      "671f8a59354b",
+      "e4279a6dd3a4"
     ]
   }
 ]

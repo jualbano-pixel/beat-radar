@@ -1,0 +1,231 @@
+{
+  "top_stories": [
+    {
+      "title": "Gasoline prices to rise anew in 1st week of November",
+      "source": "Inquirer Business",
+      "date": "2026-10-31T05:42:00.000Z",
+      "summary": "MANILA, Philippines — Fuel retailers are expected to implement mixed adjustments in the prices of domestic petroleum products in the first week of November, with gasoline on track for another increase. Jetti Petroleum president Leo Bellas said gasoline may see a price jump ranging from P2.90 to P3.20 per liter. Dies...",
+      "tags": [
+        "pricing_pressure",
+        "ownership_cost",
+        "product_market_signal"
+      ],
+      "priority_score": 4.8,
+      "priority_reasons": [
+        "policy_shift",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "DoTr suspends two vessels from operations over maritime incidents",
+      "source": "BusinessWorld Online",
+      "date": "2026-11-01T12:38:13.000Z",
+      "summary": "THE Department of Transportation (DoTr) through the Maritime Industry Authority (MARINA) has suspended the operations of two vessels…",
+      "tags": [
+        "regulation_enforcement"
+      ],
+      "priority_score": 4.6,
+      "priority_reasons": [
+        "enterprise_scale_signal",
+        "practical_usability_impact"
+      ],
+      "why_it_matters": "This is a strong editorial signal because it shows technology moving into real-world deployment at scale. It points to traction beyond experimentation."
+    },
+    {
+      "title": "Gasoline prices set to rise next week",
+      "source": "Inquirer Business",
+      "date": "2026-10-30T09:06:40.000Z",
+      "summary": "MANILA, Philippines — Mixed adjustments in fuel prices may greet the motorists in the first week of November, with gasoline slated for a price hike. Jetti Petroleum president Leo Bellas said gasoline prices may jump by P2.90 to P3.20 per liter. READ: US could strike Iran this weekend, envoy says Diesel may record a...",
+      "tags": [
+        "pricing_pressure",
+        "ownership_cost",
+        "product_market_signal"
+      ],
+      "priority_score": 4.6,
+      "priority_reasons": [
+        "policy_shift",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "Globe expands hybrid, electric vehicle fleet to 570 units",
+      "source": "BusinessWorld Online",
+      "date": "2026-11-01T12:51:33.000Z",
+      "summary": "GLOBE TELECOM, INC. has expanded its hybrid and electric vehicle fleet to about 570 units as of August…",
+      "tags": [
+        "ev_transition_gap"
+      ],
+      "priority_score": 4.1,
+      "priority_reasons": [
+        "connectivity_expansion_signal"
+      ],
+      "why_it_matters": "This matters because connectivity buildout changes who can access digital services and where businesses can operate."
+    },
+    {
+      "title": "Shotgun ride: The hybrid V16-powered Tourbillon previews Bugatti’s new direction",
+      "source": "TopGear Philippines",
+      "date": "2026-10-30T12:30:00.000Z",
+      "summary": "Hang on tight—Mate Rimac has taken over the brand and has some wild ideas",
+      "tags": [
+        "ev_transition_gap"
+      ],
+      "priority_score": 3.4,
+      "priority_reasons": [
+        "policy_shift",
+        "minor_or_routine"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "As the holidays approach, the LTO reminds motorists: Drunk driving will get licenses revoked",
+      "source": "TopGear Philippines",
+      "date": "2026-10-30T01:54:00.000Z",
+      "summary": "Hefty penalties await violators",
+      "tags": [
+        "regulation_enforcement"
+      ],
+      "priority_score": 1.4,
+      "priority_reasons": [
+        "practical_usability_impact"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Can the Chery Tiggo X7 rival the likes of the Toyota Land Cruiser?",
+      "source": "TopGear Philippines",
+      "date": "2026-10-31T16:00:00.000Z",
+      "summary": "It’s totally unrelated to BMW’s flagship SUV, in case you were wondering...",
+      "tags": [
+        "consumer_demand_shift"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "ACMobility has opened its first EV Charging Hub in Tagbilaran City, Bohol",
+      "source": "TopGear Philippines",
+      "date": "2026-10-30T13:00:00.000Z",
+      "summary": "It’s located at the new Kia Bohol dealership",
+      "tags": [
+        "ev_transition_gap"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    }
+  ],
+  "secondary_signals": [
+    {
+      "title": "The all-new Jetour S08 i-DM shows a different side of the brand",
+      "source": "TopGear Philippines",
+      "date": "2026-10-30T10:59:00.000Z",
+      "summary": "This plug-in hybrid SUV isn’t your ordinary people hauler",
+      "tags": [
+        "ev_transition_gap",
+        "consumer_demand_shift"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Honda just made the Japan-spec HR-V more comfortable",
+      "source": "TopGear Philippines",
+      "date": "2026-10-30T05:50:00.000Z",
+      "summary": "Should Honda Cars Philippines update the HR-V next?",
+      "tags": [
+        "product_market_signal"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "SEMA 2026: This slammed Toyota Crown Signia SUV is one wicked wagon",
+      "source": "TopGear Philippines",
+      "date": "2026-10-30T00:59:00.000Z",
+      "summary": "Sporty wagons for life",
+      "tags": [
+        "consumer_demand_shift"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "NLEX-C5 Northlink Section 1A now open and remains toll-free until December 31",
+      "source": "TopGear Philippines",
+      "date": "2026-10-29T05:47:00.000Z",
+      "summary": "It stretches 2km from Mindanao Avenue to Quirino Highway",
+      "tags": [
+        "motoring_infrastructure"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Price, features, specs: Everything you need to know about the all-new Geely Monjaro EM-i",
+      "source": "TopGear Philippines",
+      "date": "2026-10-29T01:57:00.000Z",
+      "summary": "This new plug-in hybrid looks promising",
+      "tags": [
+        "pricing_pressure",
+        "ev_transition_gap"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Looming oil price surge pulls PSEi back to 5,600",
+      "source": "Inquirer Business",
+      "date": "2026-10-30T17:13:50.000Z",
+      "summary": "MANILA, Philippines — Local stocks fell on Friday as rising global oil prices and concerns over escalating tensions in the Middle East dampened investor sentiment. The benchmark Philippine Stock Exchange Index (PSEi) shed 0.44 percent, or 25.23 points, to close at 5,680.35. The broader all-shares index declined by 0...",
+      "tags": [
+        "pricing_pressure",
+        "product_market_signal"
+      ],
+      "priority_score": -0.2,
+      "priority_reasons": [
+        "editorial_source_confirmation",
+        "minor_or_routine"
+      ],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "The seven-seater Jetour S08 i-DM launches with a P1.698-M introductory price",
+      "source": "TopGear Philippines",
+      "date": "2026-10-30T11:24:00.000Z",
+      "summary": "Not bad for a plug-in hybrid family SUV",
+      "tags": [
+        "pricing_pressure",
+        "ev_transition_gap",
+        "consumer_demand_shift"
+      ],
+      "priority_score": -2.6,
+      "priority_reasons": [
+        "routine_launch_without_broader_impact"
+      ],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Mazda launches the all-new CX-80 PHEV with a P4.18-M starting price",
+      "source": "TopGear Philippines",
+      "date": "2026-10-30T04:37:00.000Z",
+      "summary": "Mazda has a plug-in hybrid now",
+      "tags": [
+        "pricing_pressure",
+        "ev_transition_gap"
+      ],
+      "priority_score": -2.6,
+      "priority_reasons": [
+        "routine_launch_without_broader_impact"
+      ],
+      "note": "Useful supporting editorial signal."
+    }
+  ]
+}
