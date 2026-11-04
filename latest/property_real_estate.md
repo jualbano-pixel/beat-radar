@@ -1,28 +1,20 @@
 # Weekly Editorial Packet — Property / Real Estate
 
-Week of 2026-10-26
+Week of 2026-11-02
 
 ## Editorial Read
 
-- Resilience is the visible office-market framing; the useful read is whether vacancy, rents, and leasing follow-through support it underneath.
-- Resilience and volatility are sitting inside the same property narrative, which makes the tension more useful than either headline by itself.
+- Office remains a visible stress channel, with vacancy, rents, and tenant demand carrying more weight than developer positioning.
 - The softer market reads add direction around the hard signals, but they do not by themselves prove a turn.
 
 ## What matters most
 
-### housing policy pressure
-- Why it matters: Regulatory and governance pressure is starting to shape rollout decisions before operating rules are fully settled.
-- Pattern: Policy is moving faster than operating clarity.
-- Tension: policy vs execution
-- Supporting stories:
-- [Cebu holds its residential ground](https://business.inquirer.net/618395/cebu-holds-its-residential-ground) | Inquirer Business Property | Adds a concrete read on Philippine property demand, supply, financing, or stress.
-
 ### affordability pressure
-- Why it matters: Affordability pressure determines who can still buy or rent, and where demand starts to break.
+- Why it matters: Standing reports and analyst calls can frame the market, but they do not move it without sustained tenant return.
 - Pattern: The week is mostly framing and persistence, not a new market turn.
 - Tension: standing research vs fresh demand signal
 - Supporting stories:
-- [Businesses less pessimistic in August, more optimistic ahead](https://www.bsp.gov.ph/SitePages/MediaAndResearch/MediaDisp.aspx?ItemId=8088&MType=Media+Releases) | BSP Property Media Releases SharePoint | Adds a concrete read on Philippine property demand, supply, financing, or stress.
+- [QC skyline to add 29-storey Bridgetowne One office tower by 2028](https://mb.com.ph/2026/11/04/qc-skyline-to-add-29-storey-bridgetowne-one-office-tower-by-2028) | Manila Bulletin Business Property JSON Fallback | Adds a concrete read on Philippine property demand, supply, financing, or stress.
 
 ### office market stress
 - Why it matters: Office stress matters because vacancy, rents, and leasing behavior reveal real utilization, not promotional demand.
@@ -31,8 +23,14 @@ Week of 2026-10-26
 - Supporting stories:
 - [Metro Manila Office Report Q3 2025](https://santosknightfrank.com/wp-content/uploads/2025/11/MMOR-Q325-v2.pdf) | Santos Knight Frank Market Reports | Shows real property utilization through vacancy, rents, or leasing demand.
 
+### supply pipeline shift
+- Why it matters: Supply additions matter because they can either validate demand or add to the overhang; the difference depends on pricing stabilization.
+- Pattern: Supply is becoming more uneven as construction, inventory, and geography matter more than headline expansion.
+- Tension: development pipeline vs market balance
+- Supporting stories:
+- [Robinsons Land starts work on 29-story Bridgetowne office tower](https://business.inquirer.net/619506/robinsons-land-starts-work-on-29-story-bridgetowne-office-tower) | Inquirer Business Property | Adds a concrete read on Philippine property demand, supply, financing, or stress.
+
 ## What seems to be happening
 
-- The office market generated optimistic framing without enough sustained tenant return to make it a recovery story.
-- Resilience and volatility are appearing in the same market frame, so the actual read sits between the two claims.
-- No clear sustained tenant return broke through strongly enough to validate a turn.
+- The office read still turns on vacancy, rents, leasing, and tenant behavior.
+- No clear occupancy improvement broke through strongly enough to validate a turn.
