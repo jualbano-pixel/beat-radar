@@ -2,59 +2,30 @@
   {
     "cluster_id": "energy_001",
     "cluster_kind": "same_event",
-    "lead_story_id": "1eca59466d4e",
-    "story_count": 1,
-    "story_ids": [
-      "1eca59466d4e"
-    ],
-    "story_titles": [
-      "Power outages loom anew across Visayas"
-    ],
-    "associated_stories": [
-      {
-        "id": "1eca59466d4e",
-        "title": "Power outages loom anew across Visayas",
-        "url": "https://business.inquirer.net/618805/power-outages-loom-anew-across-visayas",
-        "source": "Inquirer Business Energy",
-        "published_at": "2026-10-30T08:33:49.000Z"
-      }
-    ],
-    "entities": [],
-    "event_label": "Outage, alert, or reliability stress",
-    "compression_line": "Reliability stress is visible in grid, outage, reserve, or alert signals that point to pressure on the physical power system.",
-    "priority_score": 36,
-    "editorial_bucket": "context_watch",
-    "cluster_type": "event",
-    "cluster_classification": "primary",
-    "supporting_story_ids": []
-  },
-  {
-    "cluster_id": "energy_002",
-    "cluster_kind": "same_event",
-    "lead_story_id": "641752872784",
+    "lead_story_id": "4ac46be2db34",
     "story_count": 2,
     "story_ids": [
-      "641752872784",
-      "6b32a84fd20b"
+      "4ac46be2db34",
+      "2dd743216837"
     ],
     "story_titles": [
-      "Gasoline prices may rise by P3.20/l next week",
-      "Gasoline prices set to rise next week"
+      "Big oil price cuts seen, tied to Trump poll rout",
+      "US midterm results may cut fuel prices by up to P13.50/L"
     ],
     "associated_stories": [
       {
-        "id": "641752872784",
-        "title": "Gasoline prices may rise by P3.20/l next week",
-        "url": "https://malaya.com.ph/business/business-news/gasoline-prices-may-rise-by-p3-20-l-next-week",
-        "source": "Malaya Business",
-        "published_at": "2026-10-31T08:59:40.000Z"
+        "id": "4ac46be2db34",
+        "title": "Big oil price cuts seen, tied to Trump poll rout",
+        "url": "https://business.inquirer.net/619953/big-oil-price-cuts-seen-tied-to-trump-poll-rout",
+        "source": "Inquirer Business Energy",
+        "published_at": "2026-11-07T05:30:00.000Z"
       },
       {
-        "id": "6b32a84fd20b",
-        "title": "Gasoline prices set to rise next week",
-        "url": "https://business.inquirer.net/618809/gasoline-prices-set-to-rise-next-week",
+        "id": "2dd743216837",
+        "title": "US midterm results may cut fuel prices by up to P13.50/L",
+        "url": "https://business.inquirer.net/619824/us-midterm-results-may-cut-fuel-prices-by-up-to-p13-50-l",
         "source": "Inquirer Business Energy",
-        "published_at": "2026-10-30T09:06:40.000Z"
+        "published_at": "2026-11-06T09:24:12.000Z"
       }
     ],
     "entities": [],
@@ -65,51 +36,9 @@
     "cluster_type": "pattern",
     "cluster_classification": "secondary",
     "supporting_story_ids": [
-      "6b32a84fd20b"
+      "2dd743216837"
     ],
     "primary_theme_id": "energy_fuel_prices_easing",
     "primary_theme_label": "Fuel prices are easing through rollbacks"
-  },
-  {
-    "cluster_id": "energy_003",
-    "cluster_kind": "same_event",
-    "lead_story_id": "4294bcb2d3d1",
-    "story_count": 2,
-    "story_ids": [
-      "4294bcb2d3d1",
-      "4294bcb2d3d1"
-    ],
-    "story_titles": [
-      "Cojuangco warns PNPP privatization may delay recommissioning",
-      "Cojuangco warns PNPP privatization may delay recommissioning"
-    ],
-    "associated_stories": [
-      {
-        "id": "4294bcb2d3d1",
-        "title": "Cojuangco warns PNPP privatization may delay recommissioning",
-        "url": "https://bworldonline.com/the-nation/2026/10/30/790524/cojuangco-warns-pnpp-privatization-may-delay-recommissioning",
-        "source": "BusinessWorld Energy",
-        "published_at": "2026-10-30T09:14:10.000Z"
-      },
-      {
-        "id": "4294bcb2d3d1",
-        "title": "Cojuangco warns PNPP privatization may delay recommissioning",
-        "url": "https://bworldonline.com/the-nation/2026/10/30/790524/cojuangco-warns-pnpp-privatization-may-delay-recommissioning",
-        "source": "BusinessWorld Energy",
-        "published_at": "2026-10-30T09:14:10.000Z"
-      }
-    ],
-    "entities": [],
-    "event_label": "Project execution and infrastructure progress",
-    "compression_line": "Infrastructure execution is moving through rehabilitation, EPC, commissioning, or delivery steps that affect system capability.",
-    "priority_score": 20,
-    "editorial_bucket": "background",
-    "cluster_type": "pattern",
-    "cluster_classification": "secondary",
-    "supporting_story_ids": [
-      "4294bcb2d3d1"
-    ],
-    "primary_theme_id": "energy_infrastructure_execution_advancing",
-    "primary_theme_label": "Energy infrastructure execution is advancing"
   }
 ]

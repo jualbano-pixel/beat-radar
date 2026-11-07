@@ -1,6 +1,53 @@
 {
   "top_stories": [
     {
+      "title": "Converge earnings slipped to P8.1B at end-September",
+      "source": "Inquirer Business AI/Tech",
+      "date": "2026-11-07T02:18:00.000Z",
+      "summary": "MANILA, Philppines — Converge ICT Solutions Inc. saw its bottom line dip in the first three quarters of 2026, as rising costs offset modest revenue gains fueled by its booming enterprise business. On Friday, the fiber connectivity provider reported a net income after tax of P8.1 billion for the January-to-September...",
+      "tags": [
+        "tech_infrastructure",
+        "enterprise_tech",
+        "telecom_connectivity"
+      ],
+      "priority_score": 22.3,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "infrastructure_move",
+        "policy_shift",
+        "material_technology_effect",
+        "connectivity_expansion_signal",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
+    },
+    {
+      "title": "U Mobile opens its 5G-Advanced sandbox to Cradle’s startups, but the cheques are not part of the deal",
+      "source": "e27 SEA Tech",
+      "date": "2026-11-06T09:56:48.000Z",
+      "summary": "Malaysia’s second 5G operator wants startups to do something telcos across the region have struggled to make happen: build for its network before anyone has agreed to pay for the result. U Mobile said on Friday that its Enterprise Innovation Platform (EIP) is deepening its collaboration with Cradle Fund, the governm...",
+      "tags": [
+        "ai_automation",
+        "tech_infrastructure",
+        "enterprise_tech",
+        "telecom_connectivity",
+        "startups_vc"
+      ],
+      "priority_score": 21.3,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "infrastructure_move",
+        "material_technology_effect",
+        "connectivity_expansion_signal",
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the technology ecosystem, such as businesses, governments, infrastructure operators, consumers, or regulators."
+    },
+    {
       "title": "HPE’s Walter So on complexities of data sovereignty",
       "source": "Inquirer Tech",
       "date": "2026-10-22T15:48:25.000Z",
@@ -22,25 +69,89 @@
       "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
     },
     {
-      "title": "Converge receives top governance rating for the second straight year",
-      "source": "BusinessWorld AI/Tech",
-      "date": "2026-10-30T09:00:55.000Z",
-      "summary": "Leading fiber broadband and technology provider Converge ICT Solutions, Inc. (PSE: CNVRG) has been awarded once again the…",
+      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "source": "OpenAI Blog",
+      "date": "2026-11-04T07:00:00.000Z",
+      "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
       "tags": [
-        "tech_infrastructure",
-        "telecom_connectivity"
+        "ai_automation",
+        "cybersecurity"
       ],
-      "priority_score": 19.3,
+      "priority_score": 20.6,
       "priority_reasons": [
-        "reported_material_development",
+        "vendor_announcement_supporting_signal",
+        "model_or_platform_change",
         "infrastructure_move",
         "policy_shift",
         "material_technology_effect",
-        "connectivity_expansion_signal",
+        "cybersecurity_or_resilience_signal",
+        "safety_or_governance",
+        "broad_ecosystem_impact",
+        "editorial_source_confirmation",
+        "minor_or_routine",
+        "vendor_announcement_demoted"
+      ],
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the technology ecosystem, such as businesses, governments, infrastructure operators, consumers, or regulators."
+    },
+    {
+      "title": "As operational technology security matures, PH firms must address emerging risks",
+      "source": "Inquirer Business AI/Tech",
+      "date": "2026-11-07T02:22:00.000Z",
+      "summary": "MANILA, Philippines — Operational technology (OT) systems keep critical industrial processes, equipment, and infrastructure running. As organizations in the Philippines continue to digitize their operations and connect OT with IT, cloud platforms, and other technologies, these environments are becoming more connecte...",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 18.3,
+      "priority_reasons": [
+        "reported_material_development",
+        "infrastructure_move",
+        "material_technology_effect",
+        "safety_or_governance",
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the technology ecosystem, such as businesses, governments, infrastructure operators, consumers, or regulators."
+    },
+    {
+      "title": "OpenAI released a new cybersecurity model. Is that enough?",
+      "source": "TechCrunch AI",
+      "date": "2026-11-05T19:06:12.000Z",
+      "summary": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure.",
+      "tags": [
+        "ai_automation",
+        "cybersecurity"
+      ],
+      "priority_score": 18.1,
+      "priority_reasons": [
+        "reported_material_development",
+        "model_or_platform_change",
+        "policy_shift",
+        "material_technology_effect",
+        "cybersecurity_or_resilience_signal",
         "safety_or_governance",
         "practical_usability_impact",
-        "editorial_source_confirmation",
-        "minor_or_routine"
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because it is a concrete development in infrastructure, deployment, market behavior, or investment rather than vendor commentary."
+    },
+    {
+      "title": "Why Multiable HCM Is the Best AI HRIS in Singapore for Public Companies and Large Enterprises",
+      "source": "e27 SEA Tech",
+      "date": "2026-11-04T09:16:20.000Z",
+      "summary": "Enterprise Workforce Administration for Listed Corporations in Singapore Rising Governance Expectations in Public Company Human Resources Listed corporations and large enterprise groups operating on the Singapore Exchange face intense scrutiny regarding workforce governance, financial disclosure accuracy, and region...",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 17.1,
+      "priority_reasons": [
+        "reported_material_development",
+        "policy_shift",
+        "material_technology_effect",
+        "safety_or_governance",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
       ],
       "why_it_matters": "This matters because it is a concrete development in infrastructure, deployment, market behavior, or investment rather than vendor commentary."
     },
@@ -62,106 +173,126 @@
         "editorial_source_confirmation"
       ],
       "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
-    },
+    }
+  ],
+  "secondary_signals": [
     {
-      "title": "Meta sells voteless shares, SpaceX leases its chips. Johor should be paying attention",
-      "source": "e27 SEA Tech",
-      "date": "2026-10-28T03:00:24.000Z",
-      "summary": "Every few months, Southeast Asia’s startup ecosystem gets a headline that sounds like a resurrection. This October brought two. Tracxn reported that tech funding in the region rose 176 per cent to US$13.5 billion in the first nine months of 2026. Dealroom and Founders Forum went further, saying funding had tripled a...",
-      "tags": [
-        "tech_infrastructure",
-        "startups_vc"
-      ],
-      "priority_score": 16.6,
-      "priority_reasons": [
-        "reported_or_regulatory_development",
-        "infrastructure_move",
-        "policy_shift",
-        "material_technology_effect",
-        "strategic_finance",
-        "editorial_source_confirmation"
-      ],
-      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
-    },
-    {
-      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
-      "source": "TechCrunch AI",
-      "date": "2026-10-31T01:20:05.000Z",
-      "summary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
-      "tags": [
-        "tech_infrastructure"
-      ],
-      "priority_score": 15.3,
-      "priority_reasons": [
-        "reported_material_development",
-        "infrastructure_move",
-        "material_technology_effect",
-        "enterprise_scale_signal",
-        "strategic_finance",
-        "practical_usability_impact",
-        "editorial_source_confirmation"
-      ],
-      "why_it_matters": "This matters because it is a concrete development in infrastructure, deployment, market behavior, or investment rather than vendor commentary."
-    },
-    {
-      "title": "AWS will be a $1T business, Jassy says — but first, it will spend big",
-      "source": "TechCrunch AI",
-      "date": "2026-10-29T23:42:22.000Z",
-      "summary": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
+      "title": "AI adoption pays off only when businesses invest in people",
+      "source": "Inquirer Business AI/Tech",
+      "date": "2026-11-08T02:00:00.000Z",
+      "summary": "MANILA, Philippines — Businesses have spent the past decade racing to bring artificial intelligence (AI) into their operations. Much of the business world’s talk about AI has centered on its promise to slash costs, speed up operations and squeeze more productivity out of every hour. But for global learning platform...",
       "tags": [
         "enterprise_tech"
       ],
-      "priority_score": 14.3,
-      "priority_reasons": [
-        "reported_or_regulatory_development",
-        "infrastructure_move",
-        "enterprise_scale_signal",
-        "multi_group_impact",
-        "editorial_source_confirmation"
-      ],
-      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
-    },
-    {
-      "title": "Only 17% of Philippine businesses have a roadmap to scale AI",
-      "source": "Inquirer Tech",
-      "date": "2026-10-17T14:36:28.000Z",
-      "summary": "Only 17% of businesses in the Philippines have a roadmap for scaling artificial intelligence (AI), highlighting a gap between growing adoption of the technology and companies’ ability to integrate it more deeply into their operations. The finding comes from Unlocking the Philippines’ AI Potential 2026, a report comm...",
-      "tags": [
-        "general_ai_tech"
-      ],
-      "priority_score": 12.2,
+      "priority_score": 16.3,
       "priority_reasons": [
         "reported_material_development",
         "material_technology_effect",
         "enterprise_scale_signal",
         "ph_ai_economic_transformation",
-        "practical_usability_impact",
+        "broad_ecosystem_impact",
         "editorial_source_confirmation"
       ],
-      "why_it_matters": "This matters because it is a concrete development in infrastructure, deployment, market behavior, or investment rather than vendor commentary."
+      "note": "Useful because it has broad practical impact across the technology ecosystem."
     },
     {
-      "title": "Google’s first data center satellite is online and writing poetry",
-      "source": "TechCrunch AI",
-      "date": "2026-10-30T17:00:00.000Z",
-      "summary": "The first TPU in space is running a Google DeepMind Gemma 4 model and writing cheesy poetry.",
+      "title": "AI integration: The role of AI in Filipino MSMEs and BPO sectors",
+      "source": "Inquirer Tech",
+      "date": "2026-11-07T19:24:36.000Z",
+      "summary": "MANILA, Philippines – Experts believe that greater knowledge on the incorporation of artificial intelligence (AI) in businesses is essential in promoting and ensuring growth for PH businesses, especially MSMEs (Micro, Small, and Medium Enterprises). During the AIVF Manila 2026 on October 28, Chairman Wilson Chua rev...",
       "tags": [
-        "ai_automation",
-        "tech_infrastructure"
+        "general_ai_tech"
       ],
-      "priority_score": 11.8,
+      "priority_score": 15.8,
       "priority_reasons": [
         "reported_material_development",
-        "model_or_platform_change",
-        "infrastructure_move",
         "material_technology_effect",
-        "practical_usability_impact",
+        "enterprise_scale_signal",
+        "ph_ai_economic_transformation",
+        "broad_ecosystem_impact",
         "editorial_source_confirmation"
       ],
-      "why_it_matters": "This matters because it is a concrete development in infrastructure, deployment, market behavior, or investment rather than vendor commentary."
-    }
-  ],
-  "secondary_signals": [
+      "note": "Useful because it has broad practical impact across the technology ecosystem."
+    },
+    {
+      "title": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
+      "source": "TechCrunch AI",
+      "date": "2026-11-05T15:19:05.000Z",
+      "summary": "The deal is expected to support the development of DBX Agent Cloud, a new storage platform aimed at developers building AI models and agents.",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 14.6,
+      "priority_reasons": [
+        "reported_material_development",
+        "infrastructure_move",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
+    },
+    {
+      "title": "Heimstaden is changing residential real estate management with AI",
+      "source": "OpenAI Blog",
+      "date": "2026-11-03T08:00:00.000Z",
+      "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "tags": [
+        "ai_automation",
+        "enterprise_tech"
+      ],
+      "priority_score": 13.9,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "model_or_platform_change",
+        "policy_shift",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "Siargao now has upgraded 5G Internet coverage",
+      "source": "Inquirer Tech",
+      "date": "2026-11-05T08:14:03.000Z",
+      "summary": "Siargao residents and tourists can now experience much faster mobile speeds as Smart further boosted its 5G internet coverage on the island. Mobile services provider Smart Communications, Inc. (Smart), the wireless arm of PLDT Inc., is further enhancing its 5G coverage and capacity in key areas of Siargao Island in...",
+      "tags": [
+        "tech_infrastructure",
+        "telecom_connectivity"
+      ],
+      "priority_score": 12.6,
+      "priority_reasons": [
+        "reported_material_development",
+        "infrastructure_move",
+        "material_technology_effect",
+        "connectivity_expansion_signal",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
+    },
+    {
+      "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+      "source": "OpenAI Blog",
+      "date": "2026-11-04T00:00:00.000Z",
+      "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+      "tags": [
+        "ai_automation",
+        "enterprise_tech"
+      ],
+      "priority_score": 12.4,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "infrastructure_move",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
     {
       "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
       "source": "OpenAI Blog",
@@ -171,7 +302,7 @@
         "ai_automation",
         "enterprise_tech"
       ],
-      "priority_score": 11.6,
+      "priority_score": 11.2,
       "priority_reasons": [
         "vendor_announcement_supporting_signal",
         "model_or_platform_change",
@@ -206,6 +337,44 @@
       "note": "Useful because it has broad practical impact across the technology ecosystem."
     },
     {
+      "title": "How Cisco defends at machine speed with OpenAI",
+      "source": "OpenAI Blog",
+      "date": "2026-11-03T08:00:00.000Z",
+      "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 10.9,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "model_or_platform_change",
+        "material_technology_effect",
+        "safety_or_governance",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Shows practical adoption or rollout worth tracking."
+    },
+    {
+      "title": "Crusoe sells troubled Wyoming data center project to Google",
+      "source": "TechCrunch AI",
+      "date": "2026-11-07T01:40:28.000Z",
+      "summary": "The deal highlights the challenges of developing massive AI data centers.",
+      "tags": [
+        "tech_infrastructure"
+      ],
+      "priority_score": 10.3,
+      "priority_reasons": [
+        "reported_material_development",
+        "infrastructure_move",
+        "material_technology_effect",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
+    },
+    {
       "title": "OpenAI models are coming to Google Cloud",
       "source": "OpenAI Blog",
       "date": "2026-10-21T12:00:00.000Z",
@@ -226,221 +395,75 @@
       "note": "Useful because it affects more than one important audience or buyer group."
     },
     {
-      "title": "More telco infrastructure built as government speeds up permits",
-      "source": "Philippine Star Business AI/Tech",
-      "date": "2026-10-31T16:00:00.000Z",
-      "summary": "Telco-to-tech giant Globe Telecom Inc. is pressing the government to sustain efforts in speeding up the issuance of infrastructure permits to help improve network coverage and quality.",
-      "tags": [
-        "telecom_connectivity"
-      ],
-      "priority_score": 9.8,
-      "priority_reasons": [
-        "reported_material_development",
-        "material_technology_effect",
-        "connectivity_expansion_signal",
-        "practical_usability_impact",
-        "editorial_source_confirmation"
-      ],
-      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
-    },
-    {
-      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-      "source": "OpenAI Blog",
-      "date": "2026-10-06T16:00:00.000Z",
-      "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
-      "tags": [
-        "enterprise_tech"
-      ],
-      "priority_score": 9.7,
-      "priority_reasons": [
-        "vendor_announcement_supporting_signal",
-        "model_or_platform_change",
-        "material_technology_effect",
-        "strategic_partnership",
-        "enterprise_scale_signal",
-        "practical_usability_impact",
-        "editorial_source_confirmation",
-        "vendor_announcement_demoted"
-      ],
-      "note": "Shows practical adoption or rollout worth tracking."
-    },
-    {
-      "title": "Inside Singapore’s AI push: Lighthouses, rice importers and robot labs",
+      "title": "The frontier AI money is getting picky. Southeast Asia’s AI founders should price that in now",
       "source": "e27 SEA Tech",
-      "date": "2026-10-28T02:00:58.000Z",
-      "summary": "Singapore has a habit of announcing its future in instalments. On Tuesday, at the Singapore Week of Innovation and Technology (SWITCH) 2026, Deputy Prime Minister Gan Kim Yong unveiled the latest chapter: a suite of AI initiatives led by Enterprise Singapore (EnterpriseSG) that is meant to reach every rung of the AI...",
-      "tags": [
-        "enterprise_tech"
-      ],
-      "priority_score": 9.1,
-      "priority_reasons": [
-        "reported_material_development",
-        "material_technology_effect",
-        "enterprise_scale_signal",
-        "practical_usability_impact",
-        "editorial_source_confirmation"
-      ],
-      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
-    },
-    {
-      "title": "Evan Goldberg on AI trust: Confident answers aren’t enough, context is everything",
-      "source": "e27 SEA Tech",
-      "date": "2026-10-27T10:42:02.000Z",
-      "summary": "Every enterprise software vendor now has an AI agent story. Oracle NetSuite’s version, unveiled at SuiteWorld in Las Vegas on October 26, comes with two twists: its agents are meant to know your industry, and its newest offering is designed to catch tech startups on day one and keep them until IPO. The company annou...",
-      "tags": [
-        "enterprise_tech",
-        "startups_vc"
-      ],
-      "priority_score": 8.9,
-      "priority_reasons": [
-        "reported_material_development",
-        "material_technology_effect",
-        "enterprise_scale_signal",
-        "practical_usability_impact",
-        "editorial_source_confirmation"
-      ],
-      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
-    },
-    {
-      "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
-      "source": "OpenAI Blog",
-      "date": "2026-10-29T00:00:00.000Z",
-      "summary": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
-      "tags": [
-        "enterprise_tech"
-      ],
-      "priority_score": 8.6,
-      "priority_reasons": [
-        "vendor_announcement_supporting_signal",
-        "material_technology_effect",
-        "enterprise_scale_signal",
-        "multi_group_impact",
-        "editorial_source_confirmation"
-      ],
-      "note": "Useful because it affects more than one important audience or buyer group."
-    },
-    {
-      "title": "Your SME doesn’t need a chatbot. It needs the work after the chat done",
-      "source": "e27 SEA Tech",
-      "date": "2026-10-30T03:30:52.000Z",
-      "summary": "Most small businesses in Southeast Asia already run on WhatsApp. Orders arrive there, suppliers send invoices there, staff send photos of receipts there. So when owners hear “AI”, the first idea is usually a chatbot that answers customers faster. After building AI systems for food, professional services and property...",
+      "date": "2026-11-05T09:28:53.000Z",
+      "summary": "For two years, the rules of AI fundraising were simple: whoever asked for the biggest number got it. Last week, that stopped being true at the very top of the market. OpenAI cut its fundraising target by US$10 billion to US$20 billion as falling tech stocks and weaker investor demand complicated its plans ahead of [...",
       "tags": [
         "general_ai_tech"
       ],
-      "priority_score": 8.3,
+      "priority_score": 10.1,
       "priority_reasons": [
-        "reported_material_development",
-        "enterprise_scale_signal",
-        "multi_group_impact",
-        "editorial_source_confirmation"
-      ],
-      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
-    },
-    {
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "source": "Google AI Blog",
-      "date": "2026-10-13T16:00:00.000Z",
-      "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
-      "tags": [
-        "ai_automation",
-        "enterprise_tech"
-      ],
-      "priority_score": 8.2,
-      "priority_reasons": [
-        "vendor_announcement_supporting_signal",
-        "material_technology_effect",
-        "enterprise_scale_signal",
-        "multi_group_impact",
-        "editorial_source_confirmation"
-      ],
-      "note": "Useful because it affects more than one important audience or buyer group."
-    },
-    {
-      "title": "Southeast Asia’s digital economy to hit $368 billion",
-      "source": "Google AI Blog",
-      "date": "2026-10-21T04:00:00.000Z",
-      "summary": "Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.",
-      "tags": [
-        "digital_policy"
-      ],
-      "priority_score": 7.7,
-      "priority_reasons": [
-        "vendor_announcement_supporting_signal",
+        "reported_or_regulatory_development",
         "policy_shift",
-        "material_technology_effect",
-        "practical_usability_impact",
+        "strategic_finance",
         "editorial_source_confirmation"
       ],
-      "note": "Worth watching for downstream regulatory impact."
+      "note": "Useful as a reported or official development rather than vendor-authored positioning."
     },
     {
-      "title": "The AI era is forcing startups to rethink what they should own",
+      "title": "The step zero problem of the startup ecosystem",
       "source": "e27 SEA Tech",
-      "date": "2026-10-27T04:00:53.000Z",
-      "summary": "For years, the logic of startup building was closely associated with ownership. A company developed its own technology, recruited its own specialised teams, accumulated proprietary tools and built infrastructure that competitors would struggle to reproduce. The more difficult those capabilities were to access elsewh...",
+      "date": "2026-11-05T04:00:42.000Z",
+      "summary": "Over the last decade, Southeast Asia has built an increasingly sophisticated infrastructure for startups, and countries such as Singapore and Vietnam are known for their reputation as regional startup hubs. Southeast Asia’s tech startup ecosystem was valued at US$454 billion in the first half of 2024, more than trip...",
       "tags": [
         "startups_vc"
       ],
-      "priority_score": 7.4,
+      "priority_score": 10.1,
       "priority_reasons": [
         "reported_material_development",
+        "policy_shift",
         "material_technology_effect",
-        "multi_group_impact",
+        "practical_usability_impact",
         "editorial_source_confirmation"
       ],
       "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
     },
     {
-      "title": "PH exports hit new peak in Sept; semiconductors for AI lead surge",
-      "source": "Inquirer Business AI/Tech",
-      "date": "2026-10-31T02:14:00.000Z",
-      "summary": "MANILA, Philippines — Philippine exports hit a record high in September, buoyed by the global artificial intelligence (AI) boom, which fueled demand for locally made electronics. But the semiconductor-led surge underscored the need to diversify the country’s export base to protect the gains should the technology-dri...",
-      "tags": [
-        "tech_infrastructure"
-      ],
-      "priority_score": 7.3,
-      "priority_reasons": [
-        "reported_material_development",
-        "infrastructure_move",
-        "editorial_source_confirmation"
-      ],
-      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
-    },
-    {
-      "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
       "source": "OpenAI Blog",
-      "date": "2026-10-21T00:00:00.000Z",
-      "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+      "date": "2026-11-02T00:00:00.000Z",
+      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
       "tags": [
         "cybersecurity"
       ],
-      "priority_score": 5.7,
+      "priority_score": 9.9,
       "priority_reasons": [
         "vendor_authored_context",
-        "policy_shift",
-        "material_technology_effect",
         "cybersecurity_or_resilience_signal",
+        "strategic_partnership",
         "safety_or_governance",
         "practical_usability_impact",
-        "editorial_source_confirmation",
-        "minor_or_routine",
-        "vendor_thought_leadership_demoted"
+        "editorial_source_confirmation"
       ],
       "note": "Worth tracking for operating risk, compliance, or resilience implications."
     },
     {
-      "title": "The 70/30 rule: Why ASEAN banks still need humans as AI takes over",
-      "source": "e27 SEA Tech",
-      "date": "2026-10-29T02:00:57.000Z",
-      "summary": "There was a time when a bank in Southeast Asia could win customers simply by shipping an app that did not crash on payday. That era, a new study suggests, is over. Twimbit, the Singapore-based research and advisory firm, unveiled its inaugural State of CX in ASEAN Banking 2026 at the Twimbit Banking Summit & […] The...",
+      "title": "How a Blue Wave midterm might reshape the AI industry",
+      "source": "TechCrunch AI",
+      "date": "2026-11-06T18:00:00.000Z",
+      "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ball...",
       "tags": [
-        "general_ai_tech"
+        "tech_infrastructure"
       ],
-      "priority_score": 5.1,
+      "priority_score": 9.3,
       "priority_reasons": [
         "reported_material_development",
-        "multi_group_impact",
-        "editorial_source_confirmation"
+        "infrastructure_move",
+        "material_technology_effect",
+        "practical_usability_impact",
+        "editorial_source_confirmation",
+        "minor_or_routine"
       ],
       "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
     }

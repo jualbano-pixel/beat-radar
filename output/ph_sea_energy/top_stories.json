@@ -1,102 +1,32 @@
 {
   "top_stories": [
     {
-      "title": "NGCP opposes DOE transmission circulars",
+      "title": "Big oil price cuts seen, tied to Trump poll rout",
       "source": "Inquirer Business Energy",
-      "date": "2026-10-30T17:39:28.000Z",
-      "summary": "MANILA, Philippines — The National Grid Corp. of the Philippines (NGCP) is seeking the withdrawal of two government circulars aimed at accelerating power project integration, saying these violate its exclusive mandate over the country’s transmission network. In a position paper, the local market’s sole grid operator...",
-      "tags": [
-        "ai_automation"
-      ],
-      "priority_score": 5.1,
-      "priority_reasons": [
-        "material_technology_effect",
-        "multi_group_impact"
-      ],
-      "why_it_matters": "This matters because it changes how more than one important group can build, buy, deploy, secure, or govern technology."
-    },
-    {
-      "title": "Cojuangco warns PNPP privatization may delay recommissioning",
-      "source": "BusinessWorld Energy",
-      "date": "2026-10-30T09:14:10.000Z",
-      "summary": "A Philippine lawmaker on Friday criticized the proposed privatization of the Philippine Nuclear Power Plant (PNPP) in Bataan,…",
+      "date": "2026-11-07T05:30:00.000Z",
+      "summary": "The motoring public is expected to get a big break from elevated fuel prices over renewed optimism that the Middle East war will end after Democrats won control of the United States Congress. Jetti Petroleum president Leo Bellas said gasoline prices may significantly drop by P12.50 to P13.50 per liter starting Nov....",
       "tags": [
         "general_ph_sea_energy"
       ],
-      "priority_score": 5.1,
+      "priority_score": 3.6,
       "priority_reasons": [
         "policy_shift",
-        "broader_trend"
+        "minor_or_routine"
       ],
       "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
     },
     {
-      "title": "Gasoline prices set to rise next week",
+      "title": "US midterm results may cut fuel prices by up to P13.50/L",
       "source": "Inquirer Business Energy",
-      "date": "2026-10-30T09:06:40.000Z",
-      "summary": "MANILA, Philippines — Mixed adjustments in fuel prices may greet the motorists in the first week of November, with gasoline slated for a price hike. Jetti Petroleum president Leo Bellas said gasoline prices may jump by P2.90 to P3.20 per liter. READ: US could strike Iran this weekend, envoy says Diesel may record a...",
+      "date": "2026-11-06T09:24:12.000Z",
+      "summary": "MANILA, Philippines — Motorists will breathe a sigh of relief next week as fuel prices may drop amid renewed optimism that the Middle East war will end after Democrats won control of the United States (US) Congress. Jetti Petroleum president Leo Bellas said gasoline prices may significantly drop by P12.50 to P13.50...",
       "tags": [
         "general_ph_sea_energy"
       ],
-      "priority_score": 5.1,
+      "priority_score": 3.6,
       "priority_reasons": [
         "policy_shift",
-        "broader_trend"
-      ],
-      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
-    },
-    {
-      "title": "Sy pitches P700-B plan to reduce PH power costs",
-      "source": "Inquirer Business Energy",
-      "date": "2026-10-30T02:22:00.000Z",
-      "summary": "MANILA, Philippines — Tycoon Henry Sy Jr. has pitched a P700-billion intervention to help ease the country’s high electricity cost over the long term: allow energy superhighway National Grid Corporation of the Philippines to invest in a nationwide chain of battery energy storage system (BESS) to stabilize supply. In...",
-      "tags": [
-        "general_ph_sea_energy"
-      ],
-      "priority_score": 4.6,
-      "priority_reasons": [
-        "policy_shift"
-      ],
-      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
-    },
-    {
-      "title": "Gasoline prices may rise by P3.20/l next week",
-      "source": "Malaya Business",
-      "date": "2026-10-31T08:59:40.000Z",
-      "summary": "Motorists may face a gasoline price increase of as much as P3.20 per liter next week, while diesel prices could decline slightly, based on initial industry estimates. Gasoline prices are projected to rise by P2.90 to P3.20 per liter in the first week of November, while diesel prices may fall by 40 to 60 centavos […]...",
-      "tags": [
-        "general_ph_sea_energy"
-      ],
-      "priority_score": 1.1,
-      "priority_reasons": [
-        "broader_trend"
-      ],
-      "why_it_matters": "This surfaced because it looks like part of a larger theme rather than a one-off. Multiple related signals suggest it has wider editorial significance."
-    },
-    {
-      "title": "Power outages loom anew across Visayas",
-      "source": "Inquirer Business Energy",
-      "date": "2026-10-30T08:33:49.000Z",
-      "summary": "MANILA, Philippines — The Visayas power crunch persisted on Friday, with the grid operator declaring another red alert amid a thin electricity supply due to the unavailability of major coal power plants. The National Grid Corp. of the Philippines (NGCP) said the red alert status would be in effect from 5 p.m. to 7 p...",
-      "tags": [
-        "ai_automation"
-      ],
-      "priority_score": 0.6,
-      "priority_reasons": [],
-      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
-    },
-    {
-      "title": "Cojuangco warns PNPP privatization may delay recommissioning",
-      "source": "BusinessWorld Energy",
-      "date": "2026-10-30T09:14:10.000Z",
-      "summary": "A Philippine lawmaker on Friday criticized the proposed privatization of the Philippine Nuclear Power Plant (PNPP) in Bataan,…",
-      "tags": [
-        "general_ph_sea_energy"
-      ],
-      "priority_score": 5.1,
-      "priority_reasons": [
-        "policy_shift",
-        "broader_trend"
+        "minor_or_routine"
       ],
       "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
     }

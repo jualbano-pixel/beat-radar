@@ -1,0 +1,416 @@
+[
+  {
+    "theme_id": "enterprise_technology",
+    "theme_label": "enterprise technology adoption",
+    "theme_summary": "enterprise technology adoption is the shared editorial thread across 12 related stories. The strongest signal is enterprise adoption pressure rising.",
+    "story_count": 12,
+    "cluster_ids": [],
+    "story_ids": [
+      "fcbdfa1475b2",
+      "aee21c207ba0",
+      "dfcf4f47042f",
+      "2a80c7edc1d0",
+      "2a8256897722",
+      "981785a01550",
+      "34e7d6261520",
+      "fc87a45dcfbf",
+      "85f94c0fe8f0",
+      "a395c7da350b",
+      "d3b9ba6f7bd0",
+      "74c9e10c0254"
+    ],
+    "associated_stories": [
+      {
+        "id": "aee21c207ba0",
+        "title": "U Mobile opens its 5G-Advanced sandbox to Cradle’s startups, but the cheques are not part of the deal",
+        "url": "https://e27.co/u-mobile-opens-its-5g-advanced-sandbox-to-cradles-startups-but-the-cheques-are-not-part-of-the-deal-20261106",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-11-06T09:56:48.000Z"
+      },
+      {
+        "id": "dfcf4f47042f",
+        "title": "Why Multiable HCM Is the Best AI HRIS in Singapore for Public Companies and Large Enterprises",
+        "url": "https://e27.co/ai-hris-singapore-public-company-multiable-hcm-20261104",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-11-04T09:16:20.000Z"
+      },
+      {
+        "id": "2a8256897722",
+        "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
+        "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027",
+        "source": "TechCrunch AI",
+        "published_at": "2026-11-05T18:02:27.000Z"
+      },
+      {
+        "id": "2a80c7edc1d0",
+        "title": "Singapore’s factories are riding the AI wave, but the optimism rests on a narrow base",
+        "url": "https://e27.co/singapores-factories-are-riding-the-ai-wave-but-the-optimism-rests-on-a-narrow-base-20261103",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-11-03T08:06:29.000Z"
+      },
+      {
+        "id": "fcbdfa1475b2",
+        "title": "AI adoption pays off only when businesses invest in people",
+        "url": "https://business.inquirer.net/620041/ai-adoption-pays-off-only-when-businesses-invest-in-people",
+        "source": "Inquirer Business AI/Tech",
+        "published_at": "2026-11-08T02:00:00.000Z"
+      },
+      {
+        "id": "a395c7da350b",
+        "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+        "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+        "source": "OpenAI Blog",
+        "published_at": "2026-10-28T13:15:00.000Z"
+      },
+      {
+        "id": "981785a01550",
+        "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+        "url": "https://openai.com/index/devrev-enterprise-self-service",
+        "source": "OpenAI Blog",
+        "published_at": "2026-11-04T00:00:00.000Z"
+      },
+      {
+        "id": "34e7d6261520",
+        "title": "How Cisco defends at machine speed with OpenAI",
+        "url": "https://openai.com/index/cisco-cyber",
+        "source": "OpenAI Blog",
+        "published_at": "2026-11-03T08:00:00.000Z"
+      },
+      {
+        "id": "74c9e10c0254",
+        "title": "Gemini 4 Argon: Built to solve your hardest problems",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
+        "source": "Google AI Blog",
+        "published_at": "2026-10-13T16:00:00.000Z"
+      },
+      {
+        "id": "fc87a45dcfbf",
+        "title": "Heimstaden is changing residential real estate management with AI",
+        "url": "https://openai.com/index/heimstaden",
+        "source": "OpenAI Blog",
+        "published_at": "2026-11-03T08:00:00.000Z"
+      },
+      {
+        "id": "85f94c0fe8f0",
+        "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+        "url": "https://openai.com/index/credit-saison",
+        "source": "OpenAI Blog",
+        "published_at": "2026-10-29T00:00:00.000Z"
+      },
+      {
+        "id": "d3b9ba6f7bd0",
+        "title": "How Localiza reorganized work around generative AI",
+        "url": "https://openai.com/index/localiza-generative-ai",
+        "source": "OpenAI Blog",
+        "published_at": "2026-10-16T00:00:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "developing_pattern",
+      "policy_regulatory_move",
+      "market_signal"
+    ],
+    "dominant_angle_signals": [
+      "enterprise adoption pressure rising",
+      "cost pressure building",
+      "infrastructure lag visible"
+    ],
+    "top_story_refs": [
+      "aee21c207ba0",
+      "dfcf4f47042f",
+      "2a8256897722"
+    ]
+  },
+  {
+    "theme_id": "data_centers_infrastructure",
+    "theme_label": "data centers and digital infrastructure",
+    "theme_summary": "data centers and digital infrastructure is the shared editorial thread across 7 related stories. The strongest signal is infrastructure lag visible.",
+    "story_count": 7,
+    "cluster_ids": [],
+    "story_ids": [
+      "41a5fdcf84e0",
+      "a31c1e085b5f",
+      "ec2480d446f6",
+      "98f2cdcbd959",
+      "b7e06d2c4d9d",
+      "25fa4dd18ec7",
+      "95dedf578de7"
+    ],
+    "associated_stories": [
+      {
+        "id": "a31c1e085b5f",
+        "title": "ADB, Rönesans Sign Financing to Invest in Hyperscale Data Center, Boost Renewable Energy in Türkiye",
+        "url": "https://www.adb.org/news/adb-ronesans-sign-financing-invest-hyperscale-data-center-boost-renewable-energy-turkiye",
+        "source": "Asian Development Bank Digital Economy",
+        "published_at": "2026-10-22T00:00:00.000Z"
+      },
+      {
+        "id": "41a5fdcf84e0",
+        "title": "As operational technology security matures, PH firms must address emerging risks",
+        "url": "https://business.inquirer.net/619875/as-operational-technology-security-matures-ph-firms-must-address-emerging-risks",
+        "source": "Inquirer Business AI/Tech",
+        "published_at": "2026-11-07T02:22:00.000Z"
+      },
+      {
+        "id": "ec2480d446f6",
+        "title": "Crusoe sells troubled Wyoming data center project to Google",
+        "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google",
+        "source": "TechCrunch AI",
+        "published_at": "2026-11-07T01:40:28.000Z"
+      },
+      {
+        "id": "98f2cdcbd959",
+        "title": "How a Blue Wave midterm might reshape the AI industry",
+        "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry",
+        "source": "TechCrunch AI",
+        "published_at": "2026-11-06T18:00:00.000Z"
+      },
+      {
+        "id": "b7e06d2c4d9d",
+        "title": "After the midterms, is the AI industry in for a rough two years?",
+        "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years",
+        "source": "TechCrunch AI",
+        "published_at": "2026-11-06T17:23:52.000Z"
+      },
+      {
+        "id": "95dedf578de7",
+        "title": "OpenAI models are coming to Google Cloud",
+        "url": "https://openai.com/index/openai-models-google-cloud",
+        "source": "OpenAI Blog",
+        "published_at": "2026-10-21T12:00:00.000Z"
+      },
+      {
+        "id": "25fa4dd18ec7",
+        "title": "Setting a new standard for responsible AI infrastructure",
+        "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+        "source": "OpenAI Blog",
+        "published_at": "2026-11-05T02:00:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "developing_pattern",
+      "policy_regulatory_move",
+      "market_signal"
+    ],
+    "dominant_angle_signals": [
+      "infrastructure lag visible",
+      "regulation moving ahead of capacity",
+      "competitive position shifting"
+    ],
+    "top_story_refs": [
+      "a31c1e085b5f",
+      "41a5fdcf84e0",
+      "ec2480d446f6"
+    ]
+  },
+  {
+    "theme_id": "cybersecurity_resilience",
+    "theme_label": "cybersecurity and resilience",
+    "theme_summary": "cybersecurity and resilience is the shared editorial thread across 6 related stories. The strongest signal is cyber risk affecting operations.",
+    "story_count": 6,
+    "cluster_ids": [],
+    "story_ids": [
+      "55155f0e4db4",
+      "73d870877626",
+      "42370702883d",
+      "a3433e936d2c",
+      "945f879ef3a4",
+      "e270f5ba4688"
+    ],
+    "associated_stories": [
+      {
+        "id": "55155f0e4db4",
+        "title": "HPE’s Walter So on complexities of data sovereignty",
+        "url": "https://technology.inquirer.net/149922/hpes-walter-so-on-complexities-of-data-sovereignty",
+        "source": "Inquirer Tech",
+        "published_at": "2026-10-22T15:48:25.000Z"
+      },
+      {
+        "id": "73d870877626",
+        "title": "The frontier AI money is getting picky. Southeast Asia’s AI founders should price that in now",
+        "url": "https://e27.co/the-frontier-ai-money-is-getting-picky-southeast-asias-ai-founders-should-price-that-in-now-20261105",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-11-05T09:28:53.000Z"
+      },
+      {
+        "id": "42370702883d",
+        "title": "OpenAI released a new cybersecurity model. Is that enough?",
+        "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough",
+        "source": "TechCrunch AI",
+        "published_at": "2026-11-05T19:06:12.000Z"
+      },
+      {
+        "id": "a3433e936d2c",
+        "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+        "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+        "source": "OpenAI Blog",
+        "published_at": "2026-11-04T07:00:00.000Z"
+      },
+      {
+        "id": "945f879ef3a4",
+        "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+        "url": "https://openai.com/index/dan-driscoll-joins-openai",
+        "source": "OpenAI Blog",
+        "published_at": "2026-11-02T00:00:00.000Z"
+      },
+      {
+        "id": "e270f5ba4688",
+        "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+        "url": "https://openai.com/index/empowering-cyber-defenders",
+        "source": "OpenAI Blog",
+        "published_at": "2026-10-21T00:00:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "policy_regulatory_move"
+    ],
+    "dominant_angle_signals": [
+      "cyber risk affecting operations",
+      "safety pressure building",
+      "infrastructure lag visible"
+    ],
+    "top_story_refs": [
+      "55155f0e4db4",
+      "73d870877626",
+      "42370702883d"
+    ]
+  },
+  {
+    "theme_id": "ai_automation",
+    "theme_label": "AI and automation adoption",
+    "theme_summary": "AI and automation adoption is the shared editorial thread across 3 related stories. The strongest signal is enterprise adoption pressure rising.",
+    "story_count": 3,
+    "cluster_ids": [],
+    "story_ids": [
+      "ab90e7e0c9e2",
+      "9c6e67cc6514",
+      "e79288c48dc9"
+    ],
+    "associated_stories": [
+      {
+        "id": "e79288c48dc9",
+        "title": "Aina’s smart ring has a screen, a joystick, and a mic so you can talk to AI agents",
+        "url": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents",
+        "source": "TechCrunch AI",
+        "published_at": "2026-11-05T14:42:00.000Z"
+      },
+      {
+        "id": "9c6e67cc6514",
+        "title": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
+        "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure",
+        "source": "TechCrunch AI",
+        "published_at": "2026-11-05T15:19:05.000Z"
+      },
+      {
+        "id": "ab90e7e0c9e2",
+        "title": "AI integration: The role of AI in Filipino MSMEs and BPO sectors",
+        "url": "https://technology.inquirer.net/150279/ai-integration-the-role-of-ai-in-filipino-msmes-and-bpo-sectors",
+        "source": "Inquirer Tech",
+        "published_at": "2026-11-07T19:24:36.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "policy_regulatory_move",
+      "developing_pattern"
+    ],
+    "dominant_angle_signals": [
+      "enterprise adoption pressure rising",
+      "local operators exposed",
+      "regulation moving ahead of capacity"
+    ],
+    "top_story_refs": [
+      "e79288c48dc9",
+      "9c6e67cc6514",
+      "ab90e7e0c9e2"
+    ]
+  },
+  {
+    "theme_id": "technology_investment",
+    "theme_label": "technology investment and startups",
+    "theme_summary": "technology investment and startups is the shared editorial thread across 3 related stories. The strongest signal is investment caution showing.",
+    "story_count": 3,
+    "cluster_ids": [],
+    "story_ids": [
+      "77bd116db1cf",
+      "574586eb48a6",
+      "c822924fc1f2"
+    ],
+    "associated_stories": [
+      {
+        "id": "c822924fc1f2",
+        "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+        "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m",
+        "source": "TechCrunch AI",
+        "published_at": "2026-11-06T06:28:32.000Z"
+      },
+      {
+        "id": "77bd116db1cf",
+        "title": "The step zero problem of the startup ecosystem",
+        "url": "https://e27.co/the-step-zero-problem-of-the-startup-ecosystem-20261101",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-11-05T04:00:42.000Z"
+      },
+      {
+        "id": "574586eb48a6",
+        "title": "In Southeast Asia, winning at home may no longer be enough",
+        "url": "https://e27.co/in-southeast-asia-winning-at-home-may-no-longer-be-enough-20261016",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-11-03T01:00:36.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "policy_regulatory_move",
+      "market_signal"
+    ],
+    "dominant_angle_signals": [
+      "investment caution showing",
+      "regulation moving ahead of capacity",
+      "narrative outrunning reality"
+    ],
+    "top_story_refs": [
+      "c822924fc1f2",
+      "77bd116db1cf",
+      "574586eb48a6"
+    ]
+  },
+  {
+    "theme_id": "telecom_connectivity",
+    "theme_label": "connectivity buildout",
+    "theme_summary": "connectivity buildout is the shared editorial thread across 2 related stories. The strongest signal is infrastructure lag visible.",
+    "story_count": 2,
+    "cluster_ids": [],
+    "story_ids": [
+      "4cca6161e0b8",
+      "52a2f201edc1"
+    ],
+    "associated_stories": [
+      {
+        "id": "4cca6161e0b8",
+        "title": "Converge earnings slipped to P8.1B at end-September",
+        "url": "https://business.inquirer.net/619882/converge-earnings-slipped-to-p8-1b-at-end-september",
+        "source": "Inquirer Business AI/Tech",
+        "published_at": "2026-11-07T02:18:00.000Z"
+      },
+      {
+        "id": "52a2f201edc1",
+        "title": "Siargao now has upgraded 5G Internet coverage",
+        "url": "https://technology.inquirer.net/150190/siargao-now-has-upgraded-5g-internet-coverage",
+        "source": "Inquirer Tech",
+        "published_at": "2026-11-05T08:14:03.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "policy_regulatory_move",
+      "local_business_relevance"
+    ],
+    "dominant_angle_signals": [
+      "infrastructure lag visible",
+      "connectivity buildout changing access",
+      "enterprise adoption pressure rising"
+    ],
+    "top_story_refs": [
+      "4cca6161e0b8",
+      "52a2f201edc1"
+    ]
+  }
+]

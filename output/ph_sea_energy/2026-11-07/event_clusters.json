@@ -1,0 +1,44 @@
+[
+  {
+    "cluster_id": "energy_001",
+    "cluster_kind": "same_event",
+    "lead_story_id": "4ac46be2db34",
+    "story_count": 2,
+    "story_ids": [
+      "4ac46be2db34",
+      "2dd743216837"
+    ],
+    "story_titles": [
+      "Big oil price cuts seen, tied to Trump poll rout",
+      "US midterm results may cut fuel prices by up to P13.50/L"
+    ],
+    "associated_stories": [
+      {
+        "id": "4ac46be2db34",
+        "title": "Big oil price cuts seen, tied to Trump poll rout",
+        "url": "https://business.inquirer.net/619953/big-oil-price-cuts-seen-tied-to-trump-poll-rout",
+        "source": "Inquirer Business Energy",
+        "published_at": "2026-11-07T05:30:00.000Z"
+      },
+      {
+        "id": "2dd743216837",
+        "title": "US midterm results may cut fuel prices by up to P13.50/L",
+        "url": "https://business.inquirer.net/619824/us-midterm-results-may-cut-fuel-prices-by-up-to-p13-50-l",
+        "source": "Inquirer Business Energy",
+        "published_at": "2026-11-06T09:24:12.000Z"
+      }
+    ],
+    "entities": [],
+    "event_label": "Fuel price movement",
+    "compression_line": "Fuel prices are moving through pump-price signals, changing the near-term cost read for consumers and fuel-sensitive sectors.",
+    "priority_score": 20,
+    "editorial_bucket": "background",
+    "cluster_type": "pattern",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": [
+      "2dd743216837"
+    ],
+    "primary_theme_id": "energy_fuel_prices_easing",
+    "primary_theme_label": "Fuel prices are easing through rollbacks"
+  }
+]

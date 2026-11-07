@@ -1,0 +1,37 @@
+[
+  {
+    "theme_id": "energy_fuel_prices_easing",
+    "theme_label": "Fuel prices are easing through rollbacks",
+    "theme_summary": "Pump-price movement is pointing downward, with diesel, gasoline, and fuel-monitor stories reinforcing the same cost direction.",
+    "story_count": 2,
+    "cluster_ids": [
+      "energy_001"
+    ],
+    "story_ids": [
+      "4ac46be2db34",
+      "2dd743216837"
+    ],
+    "associated_stories": [
+      {
+        "id": "4ac46be2db34",
+        "title": "Big oil price cuts seen, tied to Trump poll rout",
+        "url": "https://business.inquirer.net/619953/big-oil-price-cuts-seen-tied-to-trump-poll-rout",
+        "source": "Inquirer Business Energy",
+        "published_at": "2026-11-07T05:30:00.000Z"
+      },
+      {
+        "id": "2dd743216837",
+        "title": "US midterm results may cut fuel prices by up to P13.50/L",
+        "url": "https://business.inquirer.net/619824/us-midterm-results-may-cut-fuel-prices-by-up-to-p13-50-l",
+        "source": "Inquirer Business Energy",
+        "published_at": "2026-11-06T09:24:12.000Z"
+      }
+    ],
+    "dominant_reason_codes": [],
+    "dominant_angle_signals": [],
+    "top_story_refs": [
+      "4ac46be2db34"
+    ],
+    "theme_type": "secondary"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "top_stories": [
+    {
+      "title": "Big oil price cuts seen, tied to Trump poll rout",
+      "source": "Inquirer Business Energy",
+      "date": "2026-11-07T05:30:00.000Z",
+      "summary": "The motoring public is expected to get a big break from elevated fuel prices over renewed optimism that the Middle East war will end after Democrats won control of the United States Congress. Jetti Petroleum president Leo Bellas said gasoline prices may significantly drop by P12.50 to P13.50 per liter starting Nov....",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 3.6,
+      "priority_reasons": [
+        "policy_shift",
+        "minor_or_routine"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "US midterm results may cut fuel prices by up to P13.50/L",
+      "source": "Inquirer Business Energy",
+      "date": "2026-11-06T09:24:12.000Z",
+      "summary": "MANILA, Philippines — Motorists will breathe a sigh of relief next week as fuel prices may drop amid renewed optimism that the Middle East war will end after Democrats won control of the United States (US) Congress. Jetti Petroleum president Leo Bellas said gasoline prices may significantly drop by P12.50 to P13.50...",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 3.6,
+      "priority_reasons": [
+        "policy_shift",
+        "minor_or_routine"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    }
+  ],
+  "secondary_signals": []
+}
