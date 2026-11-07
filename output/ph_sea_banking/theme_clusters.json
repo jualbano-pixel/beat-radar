@@ -1,31 +1,75 @@
 [
   {
-    "theme_id": "risk_surface",
-    "theme_label": "Risk is starting to surface",
-    "theme_summary": "The useful signal is balance-sheet caution: bad loans, provisions, exposure, or stress are becoming harder to treat as background noise.",
+    "theme_id": "funding_margin_pressure",
+    "theme_label": "Funding costs are pressing margins",
+    "theme_summary": "Funding pressure matters because higher cost of funds can squeeze margins and force banks to reprice risk.",
     "story_count": 3,
     "cluster_ids": [
-      "banking_004"
+      "banking_001"
     ],
     "story_ids": [
-      "85798a0ff5a1",
-      "f2a025c565c0",
+      "04914e09008f",
+      "1ec0764ccf2d",
+      "142f4d04b3fb"
+    ],
+    "associated_stories": [
+      {
+        "id": "04914e09008f",
+        "title": "Asia banks hit as funding costs, credit charges crimp profit",
+        "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/asia-banks-hit-funding-costs-credit-charges-crimp-profit",
+        "source": "The Business Times Banking",
+        "published_at": "2026-11-05T13:01:19.000Z"
+      },
+      {
+        "id": "1ec0764ccf2d",
+        "title": "PH banks remain sound and supportive of economic activity",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8135",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-11-06T04:24:43.000Z"
+      },
+      {
+        "id": "142f4d04b3fb",
+        "title": "Singapore banks’ wealth fees may ease in Q3 as AI lending, bond yields draw scrutiny",
+        "url": "https://www.businesstimes.com.sg/companies-markets/singapore-banks-wealth-fees-may-ease-q3-ai-lending-bond-yields-draw-scrutiny",
+        "source": "The Business Times Banking",
+        "published_at": "2026-11-01T23:00:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "market_signal",
+      "execution_consequence"
+    ],
+    "dominant_angle_signals": [
+      "risk repricing visible",
+      "regional signal adds banking-system context",
+      "funding cost pressure building"
+    ],
+    "top_story_refs": [
+      "04914e09008f",
+      "1ec0764ccf2d",
+      "142f4d04b3fb"
+    ],
+    "theme_type": "primary"
+  },
+  {
+    "theme_id": "liquidity_preservation",
+    "theme_label": "Liquidity is being preserved over growth",
+    "theme_summary": "Liquidity is the core read: banks appear more focused on buffers and optionality than on stretching for growth.",
+    "story_count": 2,
+    "cluster_ids": [
+      "banking_002"
+    ],
+    "story_ids": [
+      "6efb8ea086ac",
       "9e018ab17726"
     ],
     "associated_stories": [
       {
-        "id": "85798a0ff5a1",
-        "title": "Moody’s: Strong BSP oversight shields PH banks from risks",
-        "url": "https://business.inquirer.net/618833/moodys-strong-bsp-oversight-shields-ph-banks-from-risks",
+        "id": "6efb8ea086ac",
+        "title": "PH banks remain resilient despite rise in NPLs, says BSP",
+        "url": "https://business.inquirer.net/619873/ph-banks-remain-resilient-despite-rise-in-npls-says-bsp",
         "source": "Inquirer Business",
-        "published_at": "2026-10-30T14:37:07.000Z"
-      },
-      {
-        "id": "f2a025c565c0",
-        "title": "PH banks’ bad loans ratio eases to 9-mo low",
-        "url": "https://business.inquirer.net/618742/ph-banks-bad-loans-ratio-eases-to-9-mo-low",
-        "source": "Inquirer Business",
-        "published_at": "2026-10-30T02:16:00.000Z"
+        "published_at": "2026-11-07T02:26:00.000Z"
       },
       {
         "id": "9e018ab17726",
@@ -40,13 +84,13 @@
     ],
     "dominant_angle_signals": [
       "risk repricing visible",
-      "regulatory pressure shaping bank behavior"
+      "regulatory pressure shaping bank behavior",
+      "liquidity preservation showing"
     ],
     "top_story_refs": [
-      "85798a0ff5a1",
-      "f2a025c565c0",
+      "6efb8ea086ac",
       "9e018ab17726"
     ],
-    "theme_type": "secondary"
+    "theme_type": "primary"
   }
 ]

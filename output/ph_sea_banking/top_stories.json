@@ -1,16 +1,91 @@
 {
   "top_stories": [
     {
-      "title": "BSP welcomes Moody's latest analysis on PH monetary policy, banking system, external buffers",
+      "title": "GIR settle at US$97.4B as of end-Oct 2026",
       "source": "Bangko Sentral ng Pilipinas",
-      "date": "2026-10-30T01:13:24.000Z",
-      "summary": "PDate: 10/30/2026 Content: ​The Bangko Sentral ng Pilipinas (BSP) welcomed the latest credit analysis by Moody's Ratings (Moody’s), which highlighted the Philippines' strong monetary policy framework, resilient banking system, and robust external buffers. BSP Governor Eli M. Remolona, Jr. said, \"Moody's assessment a...",
+      "date": "2026-11-06T11:53:37.000Z",
+      "summary": "PDate: 11/6/2026 Content: ​Gross international reserves (GIR) declined to US$97.4 billion as of end-October 2026[1]. The decrease was mainly driven by the following: Bangko Sentral ng Pilipinas (BSP)’s net foreign exchange operations; Downward valuation adjustments, primarily of gold, due to lower global prices; and...",
+      "tags": [
+        "banking_liquidity",
+        "banking_regulation",
+        "banking_falling",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_regulator"
+      ],
+      "priority_score": 16.3,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+    },
+    {
+      "title": "PH banks remain resilient despite rise in NPLs, says BSP",
+      "source": "Inquirer Business",
+      "date": "2026-11-07T02:26:00.000Z",
+      "summary": "MANILA, Philippines — Philippine banks remained in good shape in the first half of the year despite a rise in bad loans, with the Bangko Sentral ng Pilipinas (BSP) citing strong earnings, ample liquidity, adequate capital and stable funding as key buffers. In its latest Report on the Philippine Financial System for...",
       "tags": [
         "banking_lending",
+        "banking_liquidity",
+        "banking_funding",
         "banking_regulation",
+        "banking_rising",
         "banking_preserving",
         "banking_system",
         "banking_driver_policy",
+        "banking_driver_institution",
+        "banking_regulator"
+      ],
+      "priority_score": 15.8,
+      "priority_reasons": [
+        "banking_top_movement",
+        "banking_policy_pressure",
+        "banking_deposit_funding_signal",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it points to a live shift in banking-system behavior, not just a company headline."
+    },
+    {
+      "title": "Asia banks hit as funding costs, credit charges crimp profit",
+      "source": "The Business Times Banking",
+      "date": "2026-11-05T13:01:19.000Z",
+      "summary": "Leaders of lenders warn of a tougher road ahead, given geopolitical risks and higher energy prices",
+      "tags": [
+        "banking_lending",
+        "banking_funding",
+        "banking_rising",
+        "banking_repricing",
+        "banking_system",
+        "banking_driver_market",
+        "banking_driver_institution",
+        "banking_driver_regional",
+        "banking_private_bank"
+      ],
+      "priority_score": 15.8,
+      "priority_reasons": [
+        "banking_top_movement",
+        "banking_deposit_funding_signal",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it points to a live shift in banking-system behavior, not just a company headline."
+    },
+    {
+      "title": "Philippine bank lending jumps 11.4% in September",
+      "source": "BusinessWorld Banking",
+      "date": "2026-11-05T13:21:03.000Z",
+      "summary": "PHILIPPINE BANK LENDING growth picked up to a four-month high in September as demand for credit from businesses and consumers remained resilient, data from the Bangko Sentral ng Pilipinas (BSP) showed.",
+      "tags": [
+        "banking_lending",
+        "banking_regulation",
+        "banking_rising",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_driver_institution",
         "banking_regulator"
       ],
       "priority_score": 15.55,
@@ -23,14 +98,58 @@
       "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
     },
     {
-      "title": "EastWest 9-month profit falls 24% to P5B",
-      "source": "Inquirer Business",
-      "date": "2026-10-30T18:20:23.000Z",
-      "summary": "MANILA, Philippines — East West Banking Corp.’s net income fell by 24.2 percent to P5 billion in the first nine months of 2026 from P6.6 billion a year earlier, as heightened credit risks weighed on otherwise stronger operations. On Friday, the Gotianun family-led bank said it booked P15.9 billion in provisions for...",
+      "title": "BSP welcomes Moody's latest analysis on PH monetary policy, banking system, external buffers",
+      "source": "Bangko Sentral ng Pilipinas",
+      "date": "2026-10-30T01:13:24.000Z",
+      "summary": "PDate: 10/30/2026 Content: ​The Bangko Sentral ng Pilipinas (BSP) welcomed the latest credit analysis by Moody's Ratings (Moody’s), which highlighted the Philippines' strong monetary policy framework, resilient banking system, and robust external buffers. BSP Governor Eli M. Remolona, Jr. said, \"Moody's assessment a...",
       "tags": [
         "banking_lending",
-        "banking_risk",
-        "banking_falling",
+        "banking_regulation",
+        "banking_preserving",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_regulator"
+      ],
+      "priority_score": 14.95,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+    },
+    {
+      "title": "BSP: Economic stability vital to growth of emerging industries",
+      "source": "Bangko Sentral ng Pilipinas",
+      "date": "2026-11-06T11:03:01.000Z",
+      "summary": "PDate: 11/6/2026 Content: ​Bangko Sentral ng Pilipinas (BSP) Deputy Governor Zeno Ronald R. Abenoja (second from left) shares insights on monetary policy to address inflation at the Philippine Economic and Investment Briefing in Iloilo City on 6 November 2026. He is joined by (from left) moderator Cathy Yang, Depart...",
+      "tags": [
+        "banking_regulation",
+        "banking_rising",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_driver_market",
+        "banking_regulator"
+      ],
+      "priority_score": 13.8,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+    },
+    {
+      "title": "Domestic liquidity grows by 9.3% in September",
+      "source": "Bangko Sentral ng Pilipinas",
+      "date": "2026-11-05T06:21:46.000Z",
+      "summary": "PDate: 11/5/2026 Content: ​Money supply in the Philippines grew by 9.3 percent year-on-year to ₱20.7 trillion in September[1] amid sustained growth in credit activity, preliminary data show. Borrowing by the private and public sectors grew by 12.0 percent, supporting the expansion in money supply, also known as dome...",
+      "tags": [
+        "banking_lending",
+        "banking_liquidity",
+        "banking_rising",
         "banking_single_bank",
         "banking_driver_institution",
         "banking_private_bank"
@@ -38,12 +157,34 @@
       "priority_score": 13.55,
       "priority_reasons": [
         "banking_secondary_movement",
-        "banking_risk_signal",
         "banking_behavior_shift",
         "editorial_source_confirmation"
       ],
-      "why_it_matters": "This matters because provisioning, NPLs, exposure, or stress signals reveal whether banks are protecting balance sheets or still leaning into growth."
+      "why_it_matters": "This matters because it shows banks changing behavior through lending, liquidity, risk appetite, or pricing."
     },
+    {
+      "title": "Deutsche Bank raises 2026 PH inflation forecast to 5.9%",
+      "source": "Inquirer Business",
+      "date": "2026-11-07T02:24:00.000Z",
+      "summary": "MANILA, Philippines — German lender Deutsche Bank raised its full-year inflation forecast for the Philippines to 5.9 percent following the faster-than-expected October consumer price jump, though it maintained that the Bangko Sentral ng Pilipinas (BSP) has little need to raise interest rates again as price pressures...",
+      "tags": [
+        "banking_regulation",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_driver_market",
+        "banking_driver_institution",
+        "banking_regulator"
+      ],
+      "priority_score": 13.05,
+      "priority_reasons": [
+        "banking_weak_cluster_signal",
+        "banking_policy_pressure",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+    }
+  ],
+  "secondary_signals": [
     {
       "title": "Monetary Board raises Target RRP Rate by 50 basis points",
       "source": "Bangko Sentral ng Pilipinas",
@@ -65,7 +206,7 @@
         "banking_deposit_funding_signal",
         "editorial_source_confirmation"
       ],
-      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+      "note": "Useful supporting signal on banking-system behavior."
     },
     {
       "title": "GIR settle at US$99.5B, BOP posts US$3.1-B deficit in Sept 2026",
@@ -85,95 +226,8 @@
         "banking_policy_pressure",
         "editorial_source_confirmation"
       ],
-      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+      "note": "Useful supporting signal on banking-system behavior."
     },
-    {
-      "title": "GIR settle at US$100B as of end-Sept 2026",
-      "source": "Bangko Sentral ng Pilipinas",
-      "date": "2026-10-07T10:47:14.000Z",
-      "summary": "PDate: 10/7/2026 Content: ​Gross international reserves (GIR) declined to US$100.0 billion as of end-September 2026.[1] The decrease was mainly driven by the following: Bangko Sentral ng Pilipinas (BSP)’s net foreign exchange operations; downward valuation adjustments, primarily driven by changes in the prices of th...",
-      "tags": [
-        "banking_liquidity",
-        "banking_regulation",
-        "banking_system",
-        "banking_driver_policy",
-        "banking_regulator"
-      ],
-      "priority_score": 12.7,
-      "priority_reasons": [
-        "banking_secondary_movement",
-        "banking_policy_pressure",
-        "editorial_source_confirmation"
-      ],
-      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
-    },
-    {
-      "title": "BDO sets new 9-month profit record high at P63.6B",
-      "source": "Inquirer Business",
-      "date": "2026-10-31T02:12:00.000Z",
-      "summary": "MANILA, Philippines — BDO Unibank Inc. set a new record for its nine-month net income at P63.6 billion in 2026, up from P63.1 billion a year earlier, as stronger lending and improved asset quality supported its core businesses. The Sy family-led bank said on Friday that its net income grew by about 0.8 percent despite",
-      "tags": [
-        "banking_lending",
-        "banking_rising",
-        "banking_single_bank",
-        "banking_driver_institution",
-        "banking_private_bank"
-      ],
-      "priority_score": 12.55,
-      "priority_reasons": [
-        "banking_weak_cluster_signal",
-        "banking_behavior_shift",
-        "editorial_source_confirmation"
-      ],
-      "why_it_matters": "This matters because it shows banks changing behavior through lending, liquidity, risk appetite, or pricing."
-    },
-    {
-      "title": "Moody’s: Strong BSP oversight shields PH banks from risks",
-      "source": "Inquirer Business",
-      "date": "2026-10-30T14:37:07.000Z",
-      "summary": "MANILA, Philippines — Philippine banks remain healthy and well-capitalized despite mounting economic challenges, supported by strong regulatory oversight from the Bangko Sentral ng Pilipinas (BSP), Moody’s Ratings said. In a report dated Oct. 29, the global debt watcher assigned the Philippines a banking sector risk...",
-      "tags": [
-        "banking_risk",
-        "banking_regulation",
-        "banking_system",
-        "banking_driver_policy",
-        "banking_driver_institution",
-        "banking_regulator"
-      ],
-      "priority_score": 12.55,
-      "priority_reasons": [
-        "banking_secondary_movement",
-        "banking_policy_pressure",
-        "banking_risk_signal",
-        "editorial_source_confirmation"
-      ],
-      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
-    },
-    {
-      "title": "PH banks’ bad loans ratio eases to 9-mo low",
-      "source": "Inquirer Business",
-      "date": "2026-10-30T02:16:00.000Z",
-      "summary": "MANILA, Philippines — The share of bad loans on Philippine banks’ books declined to a nine-month low in September, as both lenders and borrowers stayed resilient amid a difficult economic landscape Preliminary data from the Bangko Sentral ng Pilipinas (BSP) showed nonperforming loans (NPLs), or debts that remain unp...",
-      "tags": [
-        "banking_lending",
-        "banking_risk",
-        "banking_regulation",
-        "banking_system",
-        "banking_driver_policy",
-        "banking_driver_institution",
-        "banking_regulator"
-      ],
-      "priority_score": 12.55,
-      "priority_reasons": [
-        "banking_secondary_movement",
-        "banking_policy_pressure",
-        "banking_risk_signal",
-        "editorial_source_confirmation"
-      ],
-      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
-    }
-  ],
-  "secondary_signals": [
     {
       "title": "Banks expect steady credit standards, loan demand in Q4 2026",
       "source": "Bangko Sentral ng Pilipinas",
@@ -185,7 +239,7 @@
         "banking_driver_institution",
         "banking_regulator"
       ],
-      "priority_score": 12.3,
+      "priority_score": 11.9,
       "priority_reasons": [
         "banking_weak_cluster_signal",
         "editorial_source_confirmation"
@@ -193,23 +247,21 @@
       "note": "Weak but relevant banking signal retained because it may cluster into a larger pattern."
     },
     {
-      "title": "Singapore’s wealthy keep 70% of assets in cash, more than US investors",
-      "source": "VNExpress Business",
-      "date": "2026-10-28T03:22:47.000Z",
-      "summary": "Singapore’s wealthy investors are keeping over 70% of their money in cash and deposits, higher than those in the U.S., reflecting a preference for liquidity.",
+      "title": "PH banks remain sound and supportive of economic activity",
+      "source": "Bangko Sentral ng Pilipinas",
+      "date": "2026-11-06T04:24:43.000Z",
+      "summary": "PDate: 11/6/2026 Content: ​The Philippine banking system remained sound and resilient in the first half of 2026. Banks were well-capitalized, well-provisioned, and flush with liquidity. Likewise, profitability was sustained, funding conditions remained stable, and asset quality was manageable. In its Report on the P...",
       "tags": [
-        "banking_deposits",
         "banking_liquidity",
-        "banking_rising",
-        "banking_single_bank",
-        "banking_driver_regional",
+        "banking_funding",
+        "banking_system",
+        "banking_driver_institution",
         "banking_private_bank"
       ],
-      "priority_score": 11.85,
+      "priority_score": 11.8,
       "priority_reasons": [
         "banking_secondary_movement",
         "banking_deposit_funding_signal",
-        "banking_behavior_shift",
         "editorial_source_confirmation"
       ],
       "note": "Useful supporting signal on banking-system behavior."
@@ -235,6 +287,47 @@
         "editorial_source_confirmation"
       ],
       "note": "Useful supporting signal on banking-system behavior."
+    },
+    {
+      "title": "Singapore banks’ wealth fees may ease in Q3 as AI lending, bond yields draw scrutiny",
+      "source": "The Business Times Banking",
+      "date": "2026-11-01T23:00:00.000Z",
+      "summary": "Analysts expect interest margins to stay under pressure, but asset quality and capital positions to hold firm",
+      "tags": [
+        "banking_lending",
+        "banking_funding",
+        "banking_system",
+        "banking_driver_institution",
+        "banking_driver_regional",
+        "banking_private_bank"
+      ],
+      "priority_score": 10.65,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_deposit_funding_signal",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful supporting signal on banking-system behavior."
+    },
+    {
+      "title": "BSP: Central banks should consider AI's impact in promoting price stability",
+      "source": "Bangko Sentral ng Pilipinas",
+      "date": "2026-11-04T10:13:16.000Z",
+      "summary": "PDate: 11/4/2026 Content: ​Central banks must be ready for both opportunities and challenges that artificial intelligence (AI) brings as they pursue their mandates in price and financial stability. Bangko Sentral ng Pilipinas (BSP) Governor Eli M. Remolona, Jr. highlighted this during the International Monetary Fund...",
+      "tags": [
+        "banking_regulation",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_driver_institution",
+        "banking_regulator"
+      ],
+      "priority_score": 10.6,
+      "priority_reasons": [
+        "banking_weak_cluster_signal",
+        "banking_policy_pressure",
+        "editorial_source_confirmation"
+      ],
+      "note": "Weak but relevant banking signal retained because it may cluster into a larger pattern."
     }
   ]
 }

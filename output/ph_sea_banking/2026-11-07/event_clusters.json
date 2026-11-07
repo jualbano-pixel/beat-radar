@@ -1,0 +1,285 @@
+[
+  {
+    "cluster_id": "banking_001",
+    "cluster_kind": "same_event",
+    "lead_story_id": "04914e09008f",
+    "story_count": 3,
+    "story_ids": [
+      "04914e09008f",
+      "1ec0764ccf2d",
+      "142f4d04b3fb"
+    ],
+    "story_titles": [
+      "Asia banks hit as funding costs, credit charges crimp profit",
+      "PH banks remain sound and supportive of economic activity",
+      "Singapore banks’ wealth fees may ease in Q3 as AI lending, bond yields draw scrutiny"
+    ],
+    "associated_stories": [
+      {
+        "id": "04914e09008f",
+        "title": "Asia banks hit as funding costs, credit charges crimp profit",
+        "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/asia-banks-hit-funding-costs-credit-charges-crimp-profit",
+        "source": "The Business Times Banking",
+        "published_at": "2026-11-05T13:01:19.000Z"
+      },
+      {
+        "id": "1ec0764ccf2d",
+        "title": "PH banks remain sound and supportive of economic activity",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8135",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-11-06T04:24:43.000Z"
+      },
+      {
+        "id": "142f4d04b3fb",
+        "title": "Singapore banks’ wealth fees may ease in Q3 as AI lending, bond yields draw scrutiny",
+        "url": "https://www.businesstimes.com.sg/companies-markets/singapore-banks-wealth-fees-may-ease-q3-ai-lending-bond-yields-draw-scrutiny",
+        "source": "The Business Times Banking",
+        "published_at": "2026-11-01T23:00:00.000Z"
+      }
+    ],
+    "entities": [
+      "private_bank"
+    ],
+    "event_label": "Funding costs are pressing margins",
+    "compression_line": "The stories belong together as early banking-system signals, but the direction still needs confirmation.",
+    "priority_score": 64,
+    "editorial_bucket": "urgent_important",
+    "cluster_type": "pattern",
+    "cluster_classification": "primary",
+    "primary_theme_id": "funding_margin_pressure",
+    "primary_theme_label": "Funding costs are pressing margins",
+    "supporting_story_ids": [
+      "1ec0764ccf2d",
+      "142f4d04b3fb"
+    ]
+  },
+  {
+    "cluster_id": "banking_002",
+    "cluster_kind": "same_event",
+    "lead_story_id": "6efb8ea086ac",
+    "story_count": 2,
+    "story_ids": [
+      "6efb8ea086ac",
+      "9e018ab17726"
+    ],
+    "story_titles": [
+      "PH banks remain resilient despite rise in NPLs, says BSP",
+      "BSP adopts new standardized approach for operational risk capital requirements"
+    ],
+    "associated_stories": [
+      {
+        "id": "6efb8ea086ac",
+        "title": "PH banks remain resilient despite rise in NPLs, says BSP",
+        "url": "https://business.inquirer.net/619873/ph-banks-remain-resilient-despite-rise-in-npls-says-bsp",
+        "source": "Inquirer Business",
+        "published_at": "2026-11-07T02:26:00.000Z"
+      },
+      {
+        "id": "9e018ab17726",
+        "title": "BSP adopts new standardized approach for operational risk capital requirements",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8108",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-10-13T11:25:04.000Z"
+      }
+    ],
+    "entities": [
+      "regulator"
+    ],
+    "event_label": "Liquidity is being preserved over growth",
+    "compression_line": "Bad-loan and borrower-capacity signals suggest risk is beginning to surface beneath still-active lending.",
+    "priority_score": 64,
+    "editorial_bucket": "urgent_important",
+    "cluster_type": "pattern",
+    "cluster_classification": "primary",
+    "primary_theme_id": "liquidity_preservation",
+    "primary_theme_label": "Liquidity is being preserved over growth",
+    "supporting_story_ids": [
+      "9e018ab17726"
+    ]
+  },
+  {
+    "cluster_id": "banking_003",
+    "cluster_kind": "same_event",
+    "lead_story_id": "d25cdf20ec06",
+    "story_count": 7,
+    "story_ids": [
+      "d25cdf20ec06",
+      "e171db9060c0",
+      "f6b78c6f9058",
+      "f51ce43b86ef",
+      "8df886e59ef9",
+      "3f0c7368fe46",
+      "7325b3080e10"
+    ],
+    "story_titles": [
+      "BSP welcomes Moody's latest analysis on PH monetary policy, banking system, external buffers",
+      "Deutsche Bank raises 2026 PH inflation forecast to 5.9%",
+      "BSP: Economic stability vital to growth of emerging industries",
+      "Monetary Board raises Target RRP Rate by 50 basis points",
+      "GIR settle at US$99.5B, BOP posts US$3.1-B deficit in Sept 2026",
+      "Banks expect steady credit standards, loan demand in Q4 2026",
+      "BSP: Central banks should consider AI's impact in promoting price stability"
+    ],
+    "associated_stories": [
+      {
+        "id": "d25cdf20ec06",
+        "title": "BSP welcomes Moody's latest analysis on PH monetary policy, banking system, external buffers",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8124",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-10-30T01:13:24.000Z"
+      },
+      {
+        "id": "e171db9060c0",
+        "title": "Deutsche Bank raises 2026 PH inflation forecast to 5.9%",
+        "url": "https://business.inquirer.net/619871/deutsche-bank-raises-2026-ph-inflation-forecast-to-5-9",
+        "source": "Inquirer Business",
+        "published_at": "2026-11-07T02:24:00.000Z"
+      },
+      {
+        "id": "f6b78c6f9058",
+        "title": "BSP: Economic stability vital to growth of emerging industries",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8136",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-11-06T11:03:01.000Z"
+      },
+      {
+        "id": "f51ce43b86ef",
+        "title": "Monetary Board raises Target RRP Rate by 50 basis points",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8115",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-10-22T06:17:02.000Z"
+      },
+      {
+        "id": "8df886e59ef9",
+        "title": "GIR settle at US$99.5B, BOP posts US$3.1-B deficit in Sept 2026",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8112",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-10-19T06:09:53.000Z"
+      },
+      {
+        "id": "3f0c7368fe46",
+        "title": "Banks expect steady credit standards, loan demand in Q4 2026",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8125",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-10-30T03:44:13.000Z"
+      },
+      {
+        "id": "7325b3080e10",
+        "title": "BSP: Central banks should consider AI's impact in promoting price stability",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8130",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-11-04T10:13:16.000Z"
+      }
+    ],
+    "entities": [
+      "regulator"
+    ],
+    "event_label": "Credit rules are moving onto the watchlist",
+    "compression_line": "Loan rules and regulatory signals are putting credit discipline back on the banking desk's watchlist.",
+    "priority_score": 64,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "pattern",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": [
+      "e171db9060c0",
+      "f6b78c6f9058",
+      "f51ce43b86ef",
+      "8df886e59ef9",
+      "3f0c7368fe46",
+      "7325b3080e10"
+    ]
+  },
+  {
+    "cluster_id": "banking_004",
+    "cluster_kind": "same_event",
+    "lead_story_id": "9971b001fdf5",
+    "story_count": 1,
+    "story_ids": [
+      "9971b001fdf5"
+    ],
+    "story_titles": [
+      "Philippine bank lending jumps 11.4% in September"
+    ],
+    "associated_stories": [
+      {
+        "id": "9971b001fdf5",
+        "title": "Philippine bank lending jumps 11.4% in September",
+        "url": "https://bworldonline.com/top-stories/2026/11/05/791813/philippine-bank-lending-jumps-11-4-in-september",
+        "source": "BusinessWorld Banking",
+        "published_at": "2026-11-05T13:21:03.000Z"
+      }
+    ],
+    "entities": [
+      "regulator"
+    ],
+    "event_label": "Loan growth is still carrying the system",
+    "compression_line": "The cluster keeps loan growth in view, but the useful read is whether that growth is becoming harder for borrowers to carry.",
+    "priority_score": 64,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "event",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": []
+  },
+  {
+    "cluster_id": "banking_005",
+    "cluster_kind": "same_event",
+    "lead_story_id": "0faaea1ebdbb",
+    "story_count": 1,
+    "story_ids": [
+      "0faaea1ebdbb"
+    ],
+    "story_titles": [
+      "GIR settle at US$97.4B as of end-Oct 2026"
+    ],
+    "associated_stories": [
+      {
+        "id": "0faaea1ebdbb",
+        "title": "GIR settle at US$97.4B as of end-Oct 2026",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8137",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-11-06T11:53:37.000Z"
+      }
+    ],
+    "entities": [
+      "regulator"
+    ],
+    "event_label": "System liquidity is tightening",
+    "compression_line": "The grouped stories point to banks preserving buffers rather than stretching balance sheets for growth.",
+    "priority_score": 68,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "event",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": []
+  },
+  {
+    "cluster_id": "banking_006",
+    "cluster_kind": "same_event",
+    "lead_story_id": "970ba7f19d2b",
+    "story_count": 1,
+    "story_ids": [
+      "970ba7f19d2b"
+    ],
+    "story_titles": [
+      "Domestic liquidity grows by 9.3% in September"
+    ],
+    "associated_stories": [
+      {
+        "id": "970ba7f19d2b",
+        "title": "Domestic liquidity grows by 9.3% in September",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8131",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-11-05T06:21:46.000Z"
+      }
+    ],
+    "entities": [
+      "private_bank"
+    ],
+    "event_label": "System liquidity is easing",
+    "compression_line": "The grouped stories point to banks preserving buffers rather than stretching balance sheets for growth.",
+    "priority_score": 56,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "event",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": []
+  }
+]
