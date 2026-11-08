@@ -1,0 +1,137 @@
+{
+  "top_stories": [
+    {
+      "title": "Big oil price cuts seen, tied to Trump poll rout",
+      "source": "Inquirer Business",
+      "date": "2026-11-07T05:30:00.000Z",
+      "summary": "The motoring public is expected to get a big break from elevated fuel prices over renewed optimism that the Middle East war will end after Democrats won control of the United States Congress. Jetti Petroleum president Leo Bellas said gasoline prices may significantly drop by P12.50 to P13.50 per liter starting Nov....",
+      "tags": [
+        "pricing_pressure",
+        "ownership_cost"
+      ],
+      "priority_score": 3.8,
+      "priority_reasons": [
+        "policy_shift",
+        "editorial_source_confirmation",
+        "minor_or_routine"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "US midterm results may cut fuel prices by up to P13.50/L",
+      "source": "Inquirer Business",
+      "date": "2026-11-06T09:24:12.000Z",
+      "summary": "MANILA, Philippines — Motorists will breathe a sigh of relief next week as fuel prices may drop amid renewed optimism that the Middle East war will end after Democrats won control of the United States (US) Congress. Jetti Petroleum president Leo Bellas said gasoline prices may significantly drop by P12.50 to P13.50...",
+      "tags": [
+        "pricing_pressure",
+        "ownership_cost",
+        "product_market_signal"
+      ],
+      "priority_score": 3.6,
+      "priority_reasons": [
+        "policy_shift",
+        "editorial_source_confirmation",
+        "minor_or_routine"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "EV incentive program to accept applications next year",
+      "source": "BusinessWorld Online",
+      "date": "2026-11-08T12:20:29.000Z",
+      "summary": "THE Department of Trade and Industry (DTI) expects to open applications for carmakers seeking to register with the…",
+      "tags": [
+        "ev_transition_gap"
+      ],
+      "priority_score": 1.6,
+      "priority_reasons": [
+        "practical_usability_impact"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "The Lynk & Co 900 debuts in PH with a P4.28-M price tag",
+      "source": "TopGear Philippines",
+      "date": "2026-11-06T07:33:00.000Z",
+      "summary": "It seeks to rival luxury SUVs with its premium interior and host of features",
+      "tags": [
+        "pricing_pressure"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Honda teases all-new Avancier hybrid SUV",
+      "source": "TopGear Philippines",
+      "date": "2026-11-06T05:14:00.000Z",
+      "summary": "It’s bound for Australia and could debut in 2027",
+      "tags": [
+        "ev_transition_gap",
+        "consumer_demand_shift"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "EICMA 2026: You’re looking at the all-new, fully electric Yamaha NMax E",
+      "source": "TopGear Philippines",
+      "date": "2026-11-04T00:55:00.000Z",
+      "summary": "The famed scooter has been electrified",
+      "tags": [
+        "general_philippine_motoring"
+      ],
+      "priority_score": 0.2,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Review: 2027 MG4 Urban EV",
+      "source": "TopGear Philippines",
+      "date": "2026-11-03T10:30:00.000Z",
+      "summary": "MG wants in on the affordable EV action",
+      "tags": [
+        "pricing_pressure",
+        "ev_transition_gap"
+      ],
+      "priority_score": 0.2,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Just launched: The Nissan Navara Pro plug-in hybrid is here, with prices starting at P2.448-M",
+      "source": "TopGear Philippines",
+      "date": "2026-11-06T10:22:00.000Z",
+      "summary": "Two 4x4 variants are available for the local market",
+      "tags": [
+        "pricing_pressure",
+        "ev_transition_gap",
+        "product_market_signal"
+      ],
+      "priority_score": -2.6,
+      "priority_reasons": [
+        "routine_launch_without_broader_impact"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    }
+  ],
+  "secondary_signals": [
+    {
+      "title": "Nissan PH reintroduces the Primera as a BEV with a P1.999-M introductory price",
+      "source": "TopGear Philippines",
+      "date": "2026-11-06T10:15:00.000Z",
+      "summary": "It has just been launched alongside the plug-in hybrid Navara Pro",
+      "tags": [
+        "pricing_pressure",
+        "ev_transition_gap",
+        "product_market_signal"
+      ],
+      "priority_score": -2.6,
+      "priority_reasons": [
+        "routine_launch_without_broader_impact"
+      ],
+      "note": "Useful supporting editorial signal."
+    }
+  ]
+}

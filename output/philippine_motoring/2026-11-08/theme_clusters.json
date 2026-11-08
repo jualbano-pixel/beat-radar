@@ -1,0 +1,106 @@
+[
+  {
+    "theme_id": "ev_transition_gap",
+    "theme_label": "EV transition gap",
+    "theme_summary": "EV transition gap is the shared editorial thread across 5 related stories. The strongest signal is EV transition gap visible.",
+    "story_count": 5,
+    "cluster_ids": [],
+    "story_ids": [
+      "2d4def75cfc5",
+      "205d5797aec3",
+      "241bfb510afa",
+      "b118f7286849",
+      "862c2f996d3e"
+    ],
+    "associated_stories": [
+      {
+        "id": "205d5797aec3",
+        "title": "Just launched: The Nissan Navara Pro plug-in hybrid is here, with prices starting at P2.448-M",
+        "url": "https://www.topgear.com.ph/news/car-news/nissan-navara-pro-phev-2027-ph-launch-a6888-20261106",
+        "source": "TopGear Philippines",
+        "published_at": "2026-11-06T10:22:00.000Z"
+      },
+      {
+        "id": "241bfb510afa",
+        "title": "Nissan PH reintroduces the Primera as a BEV with a P1.999-M introductory price",
+        "url": "https://www.topgear.com.ph/news/car-news/nissan-primera-ev-2027-ph-launch-a6888-20261106",
+        "source": "TopGear Philippines",
+        "published_at": "2026-11-06T10:15:00.000Z"
+      },
+      {
+        "id": "862c2f996d3e",
+        "title": "Review: 2027 MG4 Urban EV",
+        "url": "https://www.topgear.com.ph/drives/car-reviews/mg-4-urban-ev-2027-ph-review-a6937-20261103-lfrm",
+        "source": "TopGear Philippines",
+        "published_at": "2026-11-03T10:30:00.000Z"
+      },
+      {
+        "id": "b118f7286849",
+        "title": "Honda teases all-new Avancier hybrid SUV",
+        "url": "https://www.topgear.com.ph/news/car-news/honda-avancier-hybrid-suv-teaser-a5361-20261106",
+        "source": "TopGear Philippines",
+        "published_at": "2026-11-06T05:14:00.000Z"
+      },
+      {
+        "id": "2d4def75cfc5",
+        "title": "EV incentive program to accept applications next year",
+        "url": "https://bworldonline.com/economy/2026/11/08/792144/ev-incentive-program-to-accept-applications-next-year",
+        "source": "BusinessWorld Online",
+        "published_at": "2026-11-08T12:20:29.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "watchlist_signal",
+      "product_signal"
+    ],
+    "dominant_angle_signals": [
+      "EV transition gap visible",
+      "pricing pressure building",
+      "product launch reveals market bet"
+    ],
+    "top_story_refs": [
+      "205d5797aec3",
+      "241bfb510afa",
+      "862c2f996d3e"
+    ]
+  },
+  {
+    "theme_id": "pricing_pressure",
+    "theme_label": "pricing pressure",
+    "theme_summary": "pricing pressure is the shared editorial thread across 2 related stories. The strongest signal is pricing pressure building.",
+    "story_count": 2,
+    "cluster_ids": [],
+    "story_ids": [
+      "4ac46be2db34",
+      "d6dd2ec2b86f"
+    ],
+    "associated_stories": [
+      {
+        "id": "4ac46be2db34",
+        "title": "Big oil price cuts seen, tied to Trump poll rout",
+        "url": "https://business.inquirer.net/619953/big-oil-price-cuts-seen-tied-to-trump-poll-rout",
+        "source": "Inquirer Business",
+        "published_at": "2026-11-07T05:30:00.000Z"
+      },
+      {
+        "id": "d6dd2ec2b86f",
+        "title": "The Lynk & Co 900 debuts in PH with a P4.28-M price tag",
+        "url": "https://www.topgear.com.ph/news/car-news/lynk-co-900-2027-ph-launch-a5361-20261106",
+        "source": "TopGear Philippines",
+        "published_at": "2026-11-06T07:33:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "market_signal"
+    ],
+    "dominant_angle_signals": [
+      "pricing pressure building",
+      "ownership cost reality surfacing",
+      "EV transition gap visible"
+    ],
+    "top_story_refs": [
+      "4ac46be2db34",
+      "d6dd2ec2b86f"
+    ]
+  }
+]

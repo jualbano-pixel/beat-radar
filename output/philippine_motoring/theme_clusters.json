@@ -2,207 +2,105 @@
   {
     "theme_id": "ev_transition_gap",
     "theme_label": "EV transition gap",
-    "theme_summary": "EV transition gap is the shared editorial thread across 6 related stories. The strongest signal is EV transition gap visible.",
-    "story_count": 6,
+    "theme_summary": "EV transition gap is the shared editorial thread across 5 related stories. The strongest signal is EV transition gap visible.",
+    "story_count": 5,
     "cluster_ids": [],
     "story_ids": [
-      "88530af9c104",
-      "f238601b2feb",
-      "22c5b0245888",
-      "fd3aab450bec",
-      "35bd08c0a522",
-      "6dae46ccb158"
+      "2d4def75cfc5",
+      "205d5797aec3",
+      "241bfb510afa",
+      "b118f7286849",
+      "862c2f996d3e"
     ],
     "associated_stories": [
       {
-        "id": "6dae46ccb158",
-        "title": "Mazda launches the all-new CX-80 PHEV with a P4.18-M starting price",
-        "url": "https://www.topgear.com.ph/news/car-news/mazda-cx-80-phev-2027-launch-ph-a5361-20261030",
+        "id": "205d5797aec3",
+        "title": "Just launched: The Nissan Navara Pro plug-in hybrid is here, with prices starting at P2.448-M",
+        "url": "https://www.topgear.com.ph/news/car-news/nissan-navara-pro-phev-2027-ph-launch-a6888-20261106",
         "source": "TopGear Philippines",
-        "published_at": "2026-10-30T04:37:00.000Z"
+        "published_at": "2026-11-06T10:22:00.000Z"
       },
       {
-        "id": "fd3aab450bec",
-        "title": "The seven-seater Jetour S08 i-DM launches with a P1.698-M introductory price",
-        "url": "https://www.topgear.com.ph/news/car-news/jetour-s08-idm-2027-launch-a6888-20261030",
+        "id": "241bfb510afa",
+        "title": "Nissan PH reintroduces the Primera as a BEV with a P1.999-M introductory price",
+        "url": "https://www.topgear.com.ph/news/car-news/nissan-primera-ev-2027-ph-launch-a6888-20261106",
         "source": "TopGear Philippines",
-        "published_at": "2026-10-30T11:24:00.000Z"
+        "published_at": "2026-11-06T10:15:00.000Z"
       },
       {
-        "id": "f238601b2feb",
-        "title": "ACMobility has opened its first EV Charging Hub in Tagbilaran City, Bohol",
-        "url": "https://www.topgear.com.ph/news/motoring-news/acmobility-ev-charging-station-bohol-a6938-20261030",
+        "id": "862c2f996d3e",
+        "title": "Review: 2027 MG4 Urban EV",
+        "url": "https://www.topgear.com.ph/drives/car-reviews/mg-4-urban-ev-2027-ph-review-a6937-20261103-lfrm",
         "source": "TopGear Philippines",
-        "published_at": "2026-10-30T13:00:00.000Z"
+        "published_at": "2026-11-03T10:30:00.000Z"
       },
       {
-        "id": "22c5b0245888",
-        "title": "Shotgun ride: The hybrid V16-powered Tourbillon previews Bugatti’s new direction",
-        "url": "https://www.topgear.com.ph/features/feature-articles/bugatti-tourbillon-shotgun-ride-tguk-a2624-20261030-lfrm2",
+        "id": "b118f7286849",
+        "title": "Honda teases all-new Avancier hybrid SUV",
+        "url": "https://www.topgear.com.ph/news/car-news/honda-avancier-hybrid-suv-teaser-a5361-20261106",
         "source": "TopGear Philippines",
-        "published_at": "2026-10-30T12:30:00.000Z"
+        "published_at": "2026-11-06T05:14:00.000Z"
       },
       {
-        "id": "35bd08c0a522",
-        "title": "The all-new Jetour S08 i-DM shows a different side of the brand",
-        "url": "https://www.topgear.com.ph/sponsored-content/jetour-s08-i-dm-advcon-a6901-a6901-20261030",
-        "source": "TopGear Philippines",
-        "published_at": "2026-10-30T10:59:00.000Z"
-      },
-      {
-        "id": "88530af9c104",
-        "title": "Globe expands hybrid, electric vehicle fleet to 570 units",
-        "url": "https://bworldonline.com/corporate/2026/11/01/790596/globe-expands-hybrid-electric-vehicle-fleet-to-570-units",
+        "id": "2d4def75cfc5",
+        "title": "EV incentive program to accept applications next year",
+        "url": "https://bworldonline.com/economy/2026/11/08/792144/ev-incentive-program-to-accept-applications-next-year",
         "source": "BusinessWorld Online",
-        "published_at": "2026-11-01T12:51:33.000Z"
+        "published_at": "2026-11-08T12:20:29.000Z"
       }
     ],
     "dominant_reason_codes": [
       "watchlist_signal",
-      "product_signal",
-      "ongoing_story_advance"
+      "product_signal"
     ],
     "dominant_angle_signals": [
       "EV transition gap visible",
       "pricing pressure building",
-      "consumer demand shifting by segment"
+      "product launch reveals market bet"
     ],
     "top_story_refs": [
-      "6dae46ccb158",
-      "fd3aab450bec",
-      "f238601b2feb"
+      "205d5797aec3",
+      "241bfb510afa",
+      "862c2f996d3e"
     ]
   },
   {
     "theme_id": "pricing_pressure",
     "theme_label": "pricing pressure",
-    "theme_summary": "pricing pressure is the shared editorial thread across 4 related stories. The strongest signal is pricing pressure building.",
-    "story_count": 4,
+    "theme_summary": "pricing pressure is the shared editorial thread across 2 related stories. The strongest signal is pricing pressure building.",
+    "story_count": 2,
     "cluster_ids": [],
     "story_ids": [
-      "20887ebf6ed5",
-      "ab3f2440d245",
-      "6b32a84fd20b",
-      "f6150acef65f"
+      "4ac46be2db34",
+      "d6dd2ec2b86f"
     ],
     "associated_stories": [
       {
-        "id": "20887ebf6ed5",
-        "title": "Gasoline prices to rise anew in 1st week of November",
-        "url": "https://business.inquirer.net/619090/gasoline-prices-to-rise-anew-in-1st-week-of-november",
+        "id": "4ac46be2db34",
+        "title": "Big oil price cuts seen, tied to Trump poll rout",
+        "url": "https://business.inquirer.net/619953/big-oil-price-cuts-seen-tied-to-trump-poll-rout",
         "source": "Inquirer Business",
-        "published_at": "2026-10-31T05:42:00.000Z"
+        "published_at": "2026-11-07T05:30:00.000Z"
       },
       {
-        "id": "ab3f2440d245",
-        "title": "Looming oil price surge pulls PSEi back to 5,600",
-        "url": "https://business.inquirer.net/618875/looming-oil-price-surge-pulls-psei-back-to-5600",
-        "source": "Inquirer Business",
-        "published_at": "2026-10-30T17:13:50.000Z"
-      },
-      {
-        "id": "6b32a84fd20b",
-        "title": "Gasoline prices set to rise next week",
-        "url": "https://business.inquirer.net/618809/gasoline-prices-set-to-rise-next-week",
-        "source": "Inquirer Business",
-        "published_at": "2026-10-30T09:06:40.000Z"
-      },
-      {
-        "id": "f6150acef65f",
-        "title": "Price, features, specs: Everything you need to know about the all-new Geely Monjaro EM-i",
-        "url": "https://www.topgear.com.ph/features/feature-articles/geely-monjaro-2027-ph-price-specs-features-a5361-20261029",
+        "id": "d6dd2ec2b86f",
+        "title": "The Lynk & Co 900 debuts in PH with a P4.28-M price tag",
+        "url": "https://www.topgear.com.ph/news/car-news/lynk-co-900-2027-ph-launch-a5361-20261106",
         "source": "TopGear Philippines",
-        "published_at": "2026-10-29T01:57:00.000Z"
+        "published_at": "2026-11-06T07:33:00.000Z"
       }
     ],
     "dominant_reason_codes": [
-      "local_business_relevance",
       "market_signal"
     ],
     "dominant_angle_signals": [
       "pricing pressure building",
-      "product launch reveals market bet",
-      "ownership cost reality surfacing"
-    ],
-    "top_story_refs": [
-      "20887ebf6ed5",
-      "ab3f2440d245",
-      "6b32a84fd20b"
-    ]
-  },
-  {
-    "theme_id": "consumer_demand_shift",
-    "theme_label": "consumer demand shift",
-    "theme_summary": "consumer demand shift is the shared editorial thread across 2 related stories. The strongest signal is consumer demand shifting by segment.",
-    "story_count": 2,
-    "cluster_ids": [],
-    "story_ids": [
-      "28ee00157aa7",
-      "d5820a946cca"
-    ],
-    "associated_stories": [
-      {
-        "id": "28ee00157aa7",
-        "title": "Can the Chery Tiggo X7 rival the likes of the Toyota Land Cruiser?",
-        "url": "https://www.topgear.com.ph/news/car-news/chery-tiggo-x7-off-road-tguk-a4662-20261101",
-        "source": "TopGear Philippines",
-        "published_at": "2026-10-31T16:00:00.000Z"
-      },
-      {
-        "id": "d5820a946cca",
-        "title": "SEMA 2026: This slammed Toyota Crown Signia SUV is one wicked wagon",
-        "url": "https://www.topgear.com.ph/news/car-news/toyota-crown-signia-wagon-sema-2026-a3832-20261030",
-        "source": "TopGear Philippines",
-        "published_at": "2026-10-30T00:59:00.000Z"
-      }
-    ],
-    "dominant_reason_codes": [
-      "watchlist_signal"
-    ],
-    "dominant_angle_signals": [
-      "consumer demand shifting by segment"
-    ],
-    "top_story_refs": [
-      "28ee00157aa7",
-      "d5820a946cca"
-    ]
-  },
-  {
-    "theme_id": "regulation_enforcement",
-    "theme_label": "regulation and enforcement",
-    "theme_summary": "regulation and enforcement is the shared editorial thread across 2 related stories. The strongest signal is regulation moving into ownership reality.",
-    "story_count": 2,
-    "cluster_ids": [],
-    "story_ids": [
-      "e4279a6dd3a4",
-      "671f8a59354b"
-    ],
-    "associated_stories": [
-      {
-        "id": "671f8a59354b",
-        "title": "As the holidays approach, the LTO reminds motorists: Drunk driving will get licenses revoked",
-        "url": "https://www.topgear.com.ph/news/motoring-news/lto-revoke-licenses-drunk-drivers-a6938-20261030",
-        "source": "TopGear Philippines",
-        "published_at": "2026-10-30T01:54:00.000Z"
-      },
-      {
-        "id": "e4279a6dd3a4",
-        "title": "DoTr suspends two vessels from operations over maritime incidents",
-        "url": "https://bworldonline.com/the-nation/2026/11/01/790586/dotr-suspends-two-vessels-from-operations-over-maritime-incidents",
-        "source": "BusinessWorld Online",
-        "published_at": "2026-11-01T12:38:13.000Z"
-      }
-    ],
-    "dominant_reason_codes": [
-      "policy_regulatory_move"
-    ],
-    "dominant_angle_signals": [
-      "regulation moving into ownership reality",
+      "ownership cost reality surfacing",
       "EV transition gap visible"
     ],
     "top_story_refs": [
-      "671f8a59354b",
-      "e4279a6dd3a4"
+      "4ac46be2db34",
+      "d6dd2ec2b86f"
     ]
   }
 ]
