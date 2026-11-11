@@ -1,10 +1,40 @@
 {
   "top_stories": [
     {
-      "title": "QC skyline to add 29-storey Bridgetowne One office tower by 2028",
+      "title": "Rich are buying up Ayala Land properties despite high interest rates",
       "source": "Manila Bulletin Business Property JSON Fallback",
-      "date": "2026-11-04T12:57:00.000Z",
-      "summary": "Robinsons Land Corp. (RLC) has broken ground on Bridgetowne One, a 29-storey office tower in Quezon City, expanding its commercial real estate presence in Metro Manila’s primary business corridors as demand for high-spec corporate space remains steady. In a statement, RLC said the new development...",
+      "date": "2026-11-11T05:28:00.000Z",
+      "summary": "Ayala Land Inc. (ALI) booked ₱67 billion in residential sales reservations in the first nine months of the year, driven primarily by affluent buyers seeking upscale properties. In a statement, ALI said high-end developments accounted for ₱46.2 billion, or roughly 69 percent of overall...",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 7.6,
+      "priority_reasons": [
+        "policy_shift",
+        "enterprise_scale_signal"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "Filinvest sets up own insurer, shuts down in-house construction firm",
+      "source": "Manila Bulletin Business Property JSON Fallback",
+      "date": "2026-11-11T13:47:00.000Z",
+      "summary": "Filinvest Development Corp. (FDC) is setting up an in-house insurance company to serve the Gotianun Group’s businesses while also shutting down its own construction company. In a disclosure to the Philippine Stock Exchange (PSE) on Wednesday, Nov. 11, FDC said its board of directors has approved...",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 6.1,
+      "priority_reasons": [
+        "enterprise_scale_signal",
+        "multi_group_impact"
+      ],
+      "why_it_matters": "This matters because it changes how more than one important group can build, buy, deploy, secure, or govern technology."
+    },
+    {
+      "title": "Ayala Land cutting back Metro Manila condos to focus on malls",
+      "source": "Manila Bulletin Business Property JSON Fallback",
+      "date": "2026-11-11T15:21:00.000Z",
+      "summary": "Ayala Land Inc. is retooling its strategy through 2027 to prioritize higher-margin commercial leasing, capital recycling, and tighter balance sheet discipline as the local real estate developer seeks to outpace broader economic growth. In a statement, Ayala Land said the country’s largest...",
       "tags": [
         "enterprise_tech"
       ],
@@ -16,29 +46,14 @@
       "why_it_matters": "This is a strong editorial signal because it shows technology moving into real-world deployment at scale. It points to traction beyond experimentation."
     },
     {
-      "title": "Robinsons Land starts work on 29-story Bridgetowne office tower",
-      "source": "Inquirer Business Property",
-      "date": "2026-11-04T13:34:13.000Z",
-      "summary": "MANILA, Phililippines — Robinsons Land Corp. (RLC) has started construction of a 29-story office tower in Quezon City that will add 51,400 square meters (sq m) of gross leasable area (GLA) to its Bridgetowne estate by 2028. The project, called Bridgetowne One, will expand the estate’s office footprint to approximate...",
+      "title": "Filinvest Group to shut down in-house construction arm",
+      "source": "Philippine Star Property",
+      "date": "2026-11-11T16:00:00.000Z",
+      "summary": "The Filinvest Group of the Gotianun family is shutting down its in-house construction company, Dreambuilders Pro Inc., by year-end.",
       "tags": [
         "general_property_real_estate"
       ],
-      "priority_score": 1.8,
-      "priority_reasons": [
-        "practical_usability_impact",
-        "editorial_source_confirmation"
-      ],
-      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
-    },
-    {
-      "title": "Metro Manila Office Report Q3 2025",
-      "source": "Santos Knight Frank Market Reports",
-      "date": "2025-11-11T06:30:43.000Z",
-      "summary": "Metro Manila Office Report Q3 2025The Metro Manila office market in the third quarter of 2025 reflected steady adjustments to evolving workplace strategies amid tempered demand. Total office stock reached 8.9 million sqm, with new supply from Quezon City adding 72,000 sqm. Overall vacancy stood at 21.2%, while avera...",
-      "tags": [
-        "general_property_real_estate"
-      ],
-      "priority_score": 0.2,
+      "priority_score": 0.8,
       "priority_reasons": [
         "editorial_source_confirmation"
       ],

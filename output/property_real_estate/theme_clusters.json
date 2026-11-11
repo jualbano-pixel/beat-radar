@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "theme_id": "enterprise_technology",
+    "theme_label": "enterprise technology adoption",
+    "theme_summary": "enterprise technology adoption is the shared editorial thread across 2 related stories. The strongest signal is enterprise adoption pressure rising.",
+    "story_count": 2,
+    "cluster_ids": [],
+    "story_ids": [
+      "e79c4b66cef8",
+      "dd13f646d493"
+    ],
+    "associated_stories": [
+      {
+        "id": "e79c4b66cef8",
+        "title": "Ayala Land cutting back Metro Manila condos to focus on malls",
+        "url": "https://mb.com.ph/2026/11/11/ayala-land-cutting-back-metro-manila-condos-to-focus-on-malls",
+        "source": "Manila Bulletin Business Property JSON Fallback",
+        "published_at": "2026-11-11T15:21:00.000Z"
+      },
+      {
+        "id": "dd13f646d493",
+        "title": "Filinvest sets up own insurer, shuts down in-house construction firm",
+        "url": "https://mb.com.ph/2026/11/11/filinvest-sets-up-own-insurer-shuts-down-in-house-construction-firm",
+        "source": "Manila Bulletin Business Property JSON Fallback",
+        "published_at": "2026-11-11T13:47:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "local_business_relevance"
+    ],
+    "dominant_angle_signals": [
+      "enterprise adoption pressure rising",
+      "local operators exposed",
+      "developer workflow changing"
+    ],
+    "top_story_refs": [
+      "e79c4b66cef8",
+      "dd13f646d493"
+    ]
+  }
+]
