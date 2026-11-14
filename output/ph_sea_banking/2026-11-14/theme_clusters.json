@@ -1,0 +1,43 @@
+[
+  {
+    "theme_id": "credit_tightening",
+    "theme_label": "Credit tightening is emerging",
+    "theme_summary": "Banks and regulators are giving more attention to loan terms, borrower capacity, and credit discipline than to simple volume growth.",
+    "story_count": 2,
+    "cluster_ids": [
+      "banking_002"
+    ],
+    "story_ids": [
+      "3acfdf00e59f",
+      "9465e503d043"
+    ],
+    "associated_stories": [
+      {
+        "id": "3acfdf00e59f",
+        "title": "BSP keeps 3% cap on credit card finance charges; add-on rate, processing fee adjusted",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8142",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-11-12T02:17:48.000Z"
+      },
+      {
+        "id": "9465e503d043",
+        "title": "BSP keeps cap on credit card finance charges",
+        "url": "https://business.inquirer.net/620641/bsp-keeps-cap-on-credit-card-finance-charges",
+        "source": "Inquirer Business",
+        "published_at": "2026-11-13T02:18:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "policy_regulatory_move"
+    ],
+    "dominant_angle_signals": [
+      "credit behavior tightening",
+      "regulatory pressure shaping bank behavior"
+    ],
+    "top_story_refs": [
+      "3acfdf00e59f",
+      "9465e503d043"
+    ],
+    "theme_type": "primary"
+  }
+]

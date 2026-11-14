@@ -1,0 +1,273 @@
+[
+  {
+    "cluster_id": "banking_001",
+    "cluster_kind": "same_event",
+    "lead_story_id": "d25cdf20ec06",
+    "story_count": 5,
+    "story_ids": [
+      "d25cdf20ec06",
+      "a6a9ec3c1c08",
+      "f6b78c6f9058",
+      "3f0c7368fe46",
+      "7325b3080e10"
+    ],
+    "story_titles": [
+      "BSP welcomes Moody's latest analysis on PH monetary policy, banking system, external buffers",
+      "BSP Statement",
+      "BSP: Economic stability vital to growth of emerging industries",
+      "Banks expect steady credit standards, loan demand in Q4 2026",
+      "BSP: Central banks should consider AI's impact in promoting price stability"
+    ],
+    "associated_stories": [
+      {
+        "id": "d25cdf20ec06",
+        "title": "BSP welcomes Moody's latest analysis on PH monetary policy, banking system, external buffers",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8124",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-10-30T01:13:24.000Z"
+      },
+      {
+        "id": "a6a9ec3c1c08",
+        "title": "BSP Statement",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8141",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-11-11T10:35:09.000Z"
+      },
+      {
+        "id": "f6b78c6f9058",
+        "title": "BSP: Economic stability vital to growth of emerging industries",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8136",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-11-06T11:03:01.000Z"
+      },
+      {
+        "id": "3f0c7368fe46",
+        "title": "Banks expect steady credit standards, loan demand in Q4 2026",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8125",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-10-30T03:44:13.000Z"
+      },
+      {
+        "id": "7325b3080e10",
+        "title": "BSP: Central banks should consider AI's impact in promoting price stability",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8130",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-11-04T10:13:16.000Z"
+      }
+    ],
+    "entities": [
+      "regulator"
+    ],
+    "event_label": "Credit rules are moving onto the watchlist",
+    "compression_line": "Loan rules and regulatory signals are putting credit discipline back on the banking desk's watchlist.",
+    "priority_score": 64,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "pattern",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": [
+      "a6a9ec3c1c08",
+      "f6b78c6f9058",
+      "3f0c7368fe46",
+      "7325b3080e10"
+    ]
+  },
+  {
+    "cluster_id": "banking_002",
+    "cluster_kind": "same_event",
+    "lead_story_id": "3acfdf00e59f",
+    "story_count": 2,
+    "story_ids": [
+      "3acfdf00e59f",
+      "9465e503d043"
+    ],
+    "story_titles": [
+      "BSP keeps 3% cap on credit card finance charges; add-on rate, processing fee adjusted",
+      "BSP keeps cap on credit card finance charges"
+    ],
+    "associated_stories": [
+      {
+        "id": "3acfdf00e59f",
+        "title": "BSP keeps 3% cap on credit card finance charges; add-on rate, processing fee adjusted",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8142",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-11-12T02:17:48.000Z"
+      },
+      {
+        "id": "9465e503d043",
+        "title": "BSP keeps cap on credit card finance charges",
+        "url": "https://business.inquirer.net/620641/bsp-keeps-cap-on-credit-card-finance-charges",
+        "source": "Inquirer Business",
+        "published_at": "2026-11-13T02:18:00.000Z"
+      }
+    ],
+    "entities": [
+      "regulator"
+    ],
+    "event_label": "Credit tightening is emerging",
+    "compression_line": "Regulatory and lending signals are pointing in the same direction: tighter credit discipline across the system.",
+    "priority_score": 72,
+    "editorial_bucket": "urgent_important",
+    "cluster_type": "pattern",
+    "cluster_classification": "primary",
+    "primary_theme_id": "credit_tightening",
+    "primary_theme_label": "Credit tightening is emerging",
+    "supporting_story_ids": [
+      "9465e503d043"
+    ]
+  },
+  {
+    "cluster_id": "banking_003",
+    "cluster_kind": "same_event",
+    "lead_story_id": "0faaea1ebdbb",
+    "story_count": 1,
+    "story_ids": [
+      "0faaea1ebdbb"
+    ],
+    "story_titles": [
+      "GIR settle at US$97.4B as of end-Oct 2026"
+    ],
+    "associated_stories": [
+      {
+        "id": "0faaea1ebdbb",
+        "title": "GIR settle at US$97.4B as of end-Oct 2026",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8137",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-11-06T11:53:37.000Z"
+      }
+    ],
+    "entities": [
+      "regulator"
+    ],
+    "event_label": "System liquidity is tightening",
+    "compression_line": "The grouped stories point to banks preserving buffers rather than stretching balance sheets for growth.",
+    "priority_score": 68,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "event",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": []
+  },
+  {
+    "cluster_id": "banking_004",
+    "cluster_kind": "same_event",
+    "lead_story_id": "970ba7f19d2b",
+    "story_count": 1,
+    "story_ids": [
+      "970ba7f19d2b"
+    ],
+    "story_titles": [
+      "Domestic liquidity grows by 9.3% in September"
+    ],
+    "associated_stories": [
+      {
+        "id": "970ba7f19d2b",
+        "title": "Domestic liquidity grows by 9.3% in September",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8131",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-11-05T06:21:46.000Z"
+      }
+    ],
+    "entities": [
+      "private_bank"
+    ],
+    "event_label": "System liquidity is easing",
+    "compression_line": "The grouped stories point to banks preserving buffers rather than stretching balance sheets for growth.",
+    "priority_score": 56,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "event",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": []
+  },
+  {
+    "cluster_id": "banking_005",
+    "cluster_kind": "same_event",
+    "lead_story_id": "1ec0764ccf2d",
+    "story_count": 1,
+    "story_ids": [
+      "1ec0764ccf2d"
+    ],
+    "story_titles": [
+      "PH banks remain sound and supportive of economic activity"
+    ],
+    "associated_stories": [
+      {
+        "id": "1ec0764ccf2d",
+        "title": "PH banks remain sound and supportive of economic activity",
+        "url": "https://www.bsp.gov.ph/Lists/Media%20Releases%20and%20Advisories/cDispForm.aspx?ID=8135",
+        "source": "Bangko Sentral ng Pilipinas",
+        "published_at": "2026-11-06T04:24:43.000Z"
+      }
+    ],
+    "entities": [
+      "private_bank"
+    ],
+    "event_label": "Funding pressure is on watch",
+    "compression_line": "The stories belong together as early banking-system signals, but the direction still needs confirmation.",
+    "priority_score": 48,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "event",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": []
+  },
+  {
+    "cluster_id": "banking_006",
+    "cluster_kind": "same_event",
+    "lead_story_id": "97fd1c62025b",
+    "story_count": 1,
+    "story_ids": [
+      "97fd1c62025b"
+    ],
+    "story_titles": [
+      "DBS, OCBC or UOB? Investors urged to be selective as Q3 reveals widening performance gap"
+    ],
+    "associated_stories": [
+      {
+        "id": "97fd1c62025b",
+        "title": "DBS, OCBC or UOB? Investors urged to be selective as Q3 reveals widening performance gap",
+        "url": "https://www.businesstimes.com.sg/companies-markets/dbs-ocbc-or-uob-investors-urged-be-selective-q3-reveals-widening-performance-gap",
+        "source": "The Business Times Banking",
+        "published_at": "2026-11-11T00:00:00.000Z"
+      }
+    ],
+    "entities": [
+      "private_bank"
+    ],
+    "event_label": "Funding costs are pressing margins",
+    "compression_line": "The stories belong together as early banking-system signals, but the direction still needs confirmation.",
+    "priority_score": 48,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "event",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": []
+  },
+  {
+    "cluster_id": "banking_007",
+    "cluster_kind": "same_event",
+    "lead_story_id": "f0c417da3aa8",
+    "story_count": 1,
+    "story_ids": [
+      "f0c417da3aa8"
+    ],
+    "story_titles": [
+      "‘Fight AI with AI’: Singapore banks warn against third-party AI agents as observers flag liability risk"
+    ],
+    "associated_stories": [
+      {
+        "id": "f0c417da3aa8",
+        "title": "‘Fight AI with AI’: Singapore banks warn against third-party AI agents as observers flag liability risk",
+        "url": "https://www.businesstimes.com.sg/companies-markets/fight-ai-ai-singapore-banks-warn-against-third-party-ai-agents-observers-flag-liability-risk",
+        "source": "The Business Times Banking",
+        "published_at": "2026-11-12T23:00:00.000Z"
+      }
+    ],
+    "entities": [
+      "private_bank"
+    ],
+    "event_label": "Risk is starting to surface",
+    "compression_line": "Bad-loan and borrower-capacity signals suggest risk is beginning to surface beneath still-active lending.",
+    "priority_score": 44,
+    "editorial_bucket": "context_watch",
+    "cluster_type": "event",
+    "cluster_classification": "watch",
+    "supporting_story_ids": []
+  }
+]

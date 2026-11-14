@@ -1,6 +1,29 @@
 {
   "top_stories": [
     {
+      "title": "BSP keeps 3% cap on credit card finance charges; add-on rate, processing fee adjusted",
+      "source": "Bangko Sentral ng Pilipinas",
+      "date": "2026-11-12T02:17:48.000Z",
+      "summary": "PDate: 11/12/2026 Content: ​The Bangko Sentral ng Pilipinas (BSP) has kept the 3.0-percent monthly cap on finance charges for credit-card loans to continue protecting credit-card customers.[1] At the same time, the BSP has raised the monthly add-on rate ceiling for credit card installment loans from 1.0 percent to 1...",
+      "tags": [
+        "banking_lending",
+        "banking_regulation",
+        "banking_tightening",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_regulator"
+      ],
+      "priority_score": 17.8,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "banking_behavior_shift",
+        "broader_trend",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+    },
+    {
       "title": "GIR settle at US$97.4B as of end-Oct 2026",
       "source": "Bangko Sentral ng Pilipinas",
       "date": "2026-11-06T11:53:37.000Z",
@@ -13,82 +36,7 @@
         "banking_driver_policy",
         "banking_regulator"
       ],
-      "priority_score": 16.3,
-      "priority_reasons": [
-        "banking_secondary_movement",
-        "banking_policy_pressure",
-        "banking_behavior_shift",
-        "editorial_source_confirmation"
-      ],
-      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
-    },
-    {
-      "title": "PH banks remain resilient despite rise in NPLs, says BSP",
-      "source": "Inquirer Business",
-      "date": "2026-11-07T02:26:00.000Z",
-      "summary": "MANILA, Philippines — Philippine banks remained in good shape in the first half of the year despite a rise in bad loans, with the Bangko Sentral ng Pilipinas (BSP) citing strong earnings, ample liquidity, adequate capital and stable funding as key buffers. In its latest Report on the Philippine Financial System for...",
-      "tags": [
-        "banking_lending",
-        "banking_liquidity",
-        "banking_funding",
-        "banking_regulation",
-        "banking_rising",
-        "banking_preserving",
-        "banking_system",
-        "banking_driver_policy",
-        "banking_driver_institution",
-        "banking_regulator"
-      ],
-      "priority_score": 15.8,
-      "priority_reasons": [
-        "banking_top_movement",
-        "banking_policy_pressure",
-        "banking_deposit_funding_signal",
-        "banking_behavior_shift",
-        "editorial_source_confirmation"
-      ],
-      "why_it_matters": "This belongs in the top group because it points to a live shift in banking-system behavior, not just a company headline."
-    },
-    {
-      "title": "Asia banks hit as funding costs, credit charges crimp profit",
-      "source": "The Business Times Banking",
-      "date": "2026-11-05T13:01:19.000Z",
-      "summary": "Leaders of lenders warn of a tougher road ahead, given geopolitical risks and higher energy prices",
-      "tags": [
-        "banking_lending",
-        "banking_funding",
-        "banking_rising",
-        "banking_repricing",
-        "banking_system",
-        "banking_driver_market",
-        "banking_driver_institution",
-        "banking_driver_regional",
-        "banking_private_bank"
-      ],
-      "priority_score": 15.8,
-      "priority_reasons": [
-        "banking_top_movement",
-        "banking_deposit_funding_signal",
-        "banking_behavior_shift",
-        "editorial_source_confirmation"
-      ],
-      "why_it_matters": "This belongs in the top group because it points to a live shift in banking-system behavior, not just a company headline."
-    },
-    {
-      "title": "Philippine bank lending jumps 11.4% in September",
-      "source": "BusinessWorld Banking",
-      "date": "2026-11-05T13:21:03.000Z",
-      "summary": "PHILIPPINE BANK LENDING growth picked up to a four-month high in September as demand for credit from businesses and consumers remained resilient, data from the Bangko Sentral ng Pilipinas (BSP) showed.",
-      "tags": [
-        "banking_lending",
-        "banking_regulation",
-        "banking_rising",
-        "banking_system",
-        "banking_driver_policy",
-        "banking_driver_institution",
-        "banking_regulator"
-      ],
-      "priority_score": 15.55,
+      "priority_score": 15.9,
       "priority_reasons": [
         "banking_secondary_movement",
         "banking_policy_pressure",
@@ -120,6 +68,28 @@
       "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
     },
     {
+      "title": "BSP Statement",
+      "source": "Bangko Sentral ng Pilipinas",
+      "date": "2026-11-11T10:35:09.000Z",
+      "summary": "PDate: 11/11/2026 Content: ​In the face of a difficult combination of elevated inflation and slowing economic growth, the Bangko Sentral ng Pilipinas (BSP) remains determined to fulfill our mandate of pursuing price stability conducive to sustained and balanced growth. Since monetary policy is unable to control the...",
+      "tags": [
+        "banking_regulation",
+        "banking_rising",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_driver_market",
+        "banking_regulator"
+      ],
+      "priority_score": 13.6,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+    },
+    {
       "title": "BSP: Economic stability vital to growth of emerging industries",
       "source": "Bangko Sentral ng Pilipinas",
       "date": "2026-11-06T11:03:01.000Z",
@@ -132,7 +102,7 @@
         "banking_driver_market",
         "banking_regulator"
       ],
-      "priority_score": 13.8,
+      "priority_score": 13.4,
       "priority_reasons": [
         "banking_secondary_movement",
         "banking_policy_pressure",
@@ -154,7 +124,7 @@
         "banking_driver_institution",
         "banking_private_bank"
       ],
-      "priority_score": 13.55,
+      "priority_score": 12.95,
       "priority_reasons": [
         "banking_secondary_movement",
         "banking_behavior_shift",
@@ -163,70 +133,25 @@
       "why_it_matters": "This matters because it shows banks changing behavior through lending, liquidity, risk appetite, or pricing."
     },
     {
-      "title": "Deutsche Bank raises 2026 PH inflation forecast to 5.9%",
-      "source": "Inquirer Business",
-      "date": "2026-11-07T02:24:00.000Z",
-      "summary": "MANILA, Philippines — German lender Deutsche Bank raised its full-year inflation forecast for the Philippines to 5.9 percent following the faster-than-expected October consumer price jump, though it maintained that the Bangko Sentral ng Pilipinas (BSP) has little need to raise interest rates again as price pressures...",
+      "title": "BSP: PH banking system safe, sound; banks reminded to maintain uninterrupted services during holidays",
+      "source": "Bangko Sentral ng Pilipinas",
+      "date": "2026-11-13T10:47:17.000Z",
+      "summary": "PDate: 11/13/2026 Content: ​The Bangko Sentral ng Pilipinas (BSP) assures the public that the Philippine banking system remains safe and sound. As part of the standard preparations ahead of the long holiday break in Metro Manila for the 49th ASEAN Summit and Related Summits, the BSP has reminded banks and other BSP-...",
       "tags": [
         "banking_regulation",
         "banking_system",
         "banking_driver_policy",
-        "banking_driver_market",
         "banking_driver_institution",
+        "banking_driver_regional",
         "banking_regulator"
       ],
-      "priority_score": 13.05,
+      "priority_score": 11.8,
       "priority_reasons": [
         "banking_weak_cluster_signal",
         "banking_policy_pressure",
         "editorial_source_confirmation"
       ],
       "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
-    }
-  ],
-  "secondary_signals": [
-    {
-      "title": "Monetary Board raises Target RRP Rate by 50 basis points",
-      "source": "Bangko Sentral ng Pilipinas",
-      "date": "2026-10-22T06:17:02.000Z",
-      "summary": "PDate: 10/22/2026 Content: ​At its monetary policy meeting today, the Monetary Board decided to raise the BSP’s Target Reverse Repurchase (RRP) Rate by 50 basis points to 5.50 percent. The interest rates on the overnight deposit and lending facilities were adjusted to 5.00 percent and 6.00 percent, respectively. Inf...",
-      "tags": [
-        "banking_lending",
-        "banking_deposits",
-        "banking_regulation",
-        "banking_system",
-        "banking_driver_policy",
-        "banking_driver_market",
-        "banking_regulator"
-      ],
-      "priority_score": 12.7,
-      "priority_reasons": [
-        "banking_secondary_movement",
-        "banking_policy_pressure",
-        "banking_deposit_funding_signal",
-        "editorial_source_confirmation"
-      ],
-      "note": "Useful supporting signal on banking-system behavior."
-    },
-    {
-      "title": "GIR settle at US$99.5B, BOP posts US$3.1-B deficit in Sept 2026",
-      "source": "Bangko Sentral ng Pilipinas",
-      "date": "2026-10-19T06:09:53.000Z",
-      "summary": "PDate: 10/19/2026 Content: ​Gross international reserves (GIR) declined to US$99.5 billion as of end-September 2026[1] from the previous month. The decrease was mainly driven by the following: Bangko Sentral ng Pilipinas (BSP)’s net foreign exchange operations; downward valuation adjustments, primarily due to change...",
-      "tags": [
-        "banking_liquidity",
-        "banking_regulation",
-        "banking_system",
-        "banking_driver_policy",
-        "banking_regulator"
-      ],
-      "priority_score": 12.7,
-      "priority_reasons": [
-        "banking_secondary_movement",
-        "banking_policy_pressure",
-        "editorial_source_confirmation"
-      ],
-      "note": "Useful supporting signal on banking-system behavior."
     },
     {
       "title": "Banks expect steady credit standards, loan demand in Q4 2026",
@@ -239,9 +164,56 @@
         "banking_driver_institution",
         "banking_regulator"
       ],
-      "priority_score": 11.9,
+      "priority_score": 11.7,
       "priority_reasons": [
         "banking_weak_cluster_signal",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This surfaced because it carries a concrete banking-system signal rather than generic finance noise."
+    }
+  ],
+  "secondary_signals": [
+    {
+      "title": "BSP keeps cap on credit card finance charges",
+      "source": "Inquirer Business",
+      "date": "2026-11-13T02:18:00.000Z",
+      "summary": "MANILA, Philippines — The Bangko Sentral ng Pilipinas (BSP) has decided to keep the current cap on finance charges that credit card issuers can collect from borrowers, but raised the fees for installment loans and cash advances. In a statement, the BSP said the move was meant to protect consumers while providing cre...",
+      "tags": [
+        "banking_lending",
+        "banking_regulation",
+        "banking_tightening",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_regulator"
+      ],
+      "priority_score": 17.05,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "banking_behavior_shift",
+        "broader_trend",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful supporting signal on banking-system behavior."
+    },
+    {
+      "title": "DBS, OCBC or UOB? Investors urged to be selective as Q3 reveals widening performance gap",
+      "source": "The Business Times Banking",
+      "date": "2026-11-11T00:00:00.000Z",
+      "summary": "Singapore banking trio face a growing earnings divide as funding costs cloud their 2027 outlook",
+      "tags": [
+        "banking_funding",
+        "banking_repricing",
+        "banking_single_bank",
+        "banking_driver_market",
+        "banking_driver_regional",
+        "banking_private_bank"
+      ],
+      "priority_score": 11.6,
+      "priority_reasons": [
+        "banking_weak_cluster_signal",
+        "banking_deposit_funding_signal",
+        "banking_behavior_shift",
         "editorial_source_confirmation"
       ],
       "note": "Weak but relevant banking signal retained because it may cluster into a larger pattern."
@@ -258,7 +230,7 @@
         "banking_driver_institution",
         "banking_private_bank"
       ],
-      "priority_score": 11.8,
+      "priority_score": 11.4,
       "priority_reasons": [
         "banking_secondary_movement",
         "banking_deposit_funding_signal",
@@ -267,47 +239,24 @@
       "note": "Useful supporting signal on banking-system behavior."
     },
     {
-      "title": "BSP adopts new standardized approach for operational risk capital requirements",
-      "source": "Bangko Sentral ng Pilipinas",
-      "date": "2026-10-13T11:25:04.000Z",
-      "summary": "PDate: 10/13/2026 Content: ​The Bangko Sentral ng Pilipinas (BSP) has adopted the Basel III[1] New Standardized Approach (NSA) for determining the capital that banks must hold to absorb unexpected losses from operational risk. The adoption is expected to strengthen banks’ resilience and align BSP’s risk-based capita...",
+      "title": "‘Fight AI with AI’: Singapore banks warn against third-party AI agents as observers flag liability risk",
+      "source": "The Business Times Banking",
+      "date": "2026-11-12T23:00:00.000Z",
+      "summary": "Financial institutions around the world are grappling with security risks",
       "tags": [
         "banking_risk",
-        "banking_regulation",
-        "banking_system",
-        "banking_driver_policy",
-        "banking_driver_institution",
-        "banking_regulator"
-      ],
-      "priority_score": 11.2,
-      "priority_reasons": [
-        "banking_secondary_movement",
-        "banking_policy_pressure",
-        "banking_risk_signal",
-        "editorial_source_confirmation"
-      ],
-      "note": "Useful supporting signal on banking-system behavior."
-    },
-    {
-      "title": "Singapore banks’ wealth fees may ease in Q3 as AI lending, bond yields draw scrutiny",
-      "source": "The Business Times Banking",
-      "date": "2026-11-01T23:00:00.000Z",
-      "summary": "Analysts expect interest margins to stay under pressure, but asset quality and capital positions to hold firm",
-      "tags": [
-        "banking_lending",
-        "banking_funding",
         "banking_system",
         "banking_driver_institution",
         "banking_driver_regional",
         "banking_private_bank"
       ],
-      "priority_score": 10.65,
+      "priority_score": 11.05,
       "priority_reasons": [
-        "banking_secondary_movement",
-        "banking_deposit_funding_signal",
+        "banking_weak_cluster_signal",
+        "banking_risk_signal",
         "editorial_source_confirmation"
       ],
-      "note": "Useful supporting signal on banking-system behavior."
+      "note": "Weak but relevant banking signal retained because it may cluster into a larger pattern."
     },
     {
       "title": "BSP: Central banks should consider AI's impact in promoting price stability",
@@ -321,7 +270,7 @@
         "banking_driver_institution",
         "banking_regulator"
       ],
-      "priority_score": 10.6,
+      "priority_score": 10.2,
       "priority_reasons": [
         "banking_weak_cluster_signal",
         "banking_policy_pressure",
