@@ -1,0 +1,466 @@
+{
+  "top_stories": [
+    {
+      "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+      "source": "TechCrunch AI",
+      "date": "2026-11-12T21:27:10.000Z",
+      "summary": "Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
+      "tags": [
+        "ai_automation",
+        "tech_infrastructure"
+      ],
+      "priority_score": 20.8,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "model_or_platform_change",
+        "infrastructure_move",
+        "policy_shift",
+        "material_technology_effect",
+        "strategic_finance",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
+    },
+    {
+      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "source": "OpenAI Blog",
+      "date": "2026-11-04T07:00:00.000Z",
+      "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+      "tags": [
+        "ai_automation",
+        "cybersecurity"
+      ],
+      "priority_score": 20.2,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "model_or_platform_change",
+        "infrastructure_move",
+        "policy_shift",
+        "material_technology_effect",
+        "cybersecurity_or_resilience_signal",
+        "safety_or_governance",
+        "broad_ecosystem_impact",
+        "editorial_source_confirmation",
+        "minor_or_routine",
+        "vendor_announcement_demoted"
+      ],
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the technology ecosystem, such as businesses, governments, infrastructure operators, consumers, or regulators."
+    },
+    {
+      "title": "Cybersecurity in the Age of AI",
+      "source": "Inquirer Tech",
+      "date": "2026-11-14T09:13:28.000Z",
+      "summary": "The patch-and-pray era is ending. October 2026 has delivered an extraordinary cluster of critical security disclosures, including flaws in foundational internet infrastructure. Some are calling it “Black October.” Others call it the start of the “Vulnpocalypse.” Regardless of the label, AI-accelerated discovery is s...",
+      "tags": [
+        "cybersecurity"
+      ],
+      "priority_score": 18.3,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "policy_shift",
+        "material_technology_effect",
+        "cybersecurity_or_resilience_signal",
+        "safety_or_governance",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
+    },
+    {
+      "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+      "source": "TechCrunch AI",
+      "date": "2026-11-12T17:17:58.000Z",
+      "summary": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "priority_score": 18.1,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "policy_shift",
+        "material_technology_effect",
+        "cybersecurity_or_resilience_signal",
+        "safety_or_governance",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
+    },
+    {
+      "title": "1.89 million BPO workers, 53,500 training seats: The Philippines’s AI maths doesn’t add up",
+      "source": "e27 SEA Tech",
+      "date": "2026-11-11T04:08:03.000Z",
+      "summary": "Industry bodies rarely talk down their own industries. So when the IT and Business Process Association of the Philippines (IBPAP) rewrote its 2028 roadmap in July, the revision said more than any press release could. The workforce target fell from 2.5 million to a best-case 2.14 million, and the revenue goal dropped...",
+      "tags": [
+        "tech_infrastructure",
+        "enterprise_tech"
+      ],
+      "priority_score": 16.6,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "infrastructure_move",
+        "enterprise_scale_signal",
+        "ph_ai_economic_transformation",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
+    },
+    {
+      "title": "Softer bank, property earnings pull Ayala core profit down by 6%",
+      "source": "Inquirer Business AI/Tech",
+      "date": "2026-11-13T02:14:00.000Z",
+      "summary": "MANILA, Philippines — Ayala Corp.’s core net income fell 6 percent to P34.5 billion in the first nine months of 2026 as weaker earnings from its banking and property businesses and lower non-operating income weighed on the conglomerate. On Thursday, the conglomerate said steady core earnings from Globe Telecom Inc.,...",
+      "tags": [
+        "telecom_connectivity"
+      ],
+      "priority_score": 16.3,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "policy_shift",
+        "connectivity_expansion_signal",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
+    },
+    {
+      "title": "Microsoft Outlook outage: perils of relying on big tech",
+      "source": "Inquirer Tech",
+      "date": "2026-11-13T20:29:36.000Z",
+      "summary": "“I hope this email finds you well.” It apparently has not. Filipinos woke up today to an outage of Microsoft cloud services including Microsoft Outlook, MS Teams, and Office 365, the premiere suite for the backbone of most global enterprises across different industries. It has been more than 12 hours since the outag...",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 15.8,
+      "priority_reasons": [
+        "reported_material_development",
+        "infrastructure_move",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the technology ecosystem, such as businesses, governments, infrastructure operators, consumers, or regulators."
+    },
+    {
+      "title": "AI integration: The role of AI in Filipino MSMEs and BPO sectors",
+      "source": "Inquirer Tech",
+      "date": "2026-11-07T19:24:36.000Z",
+      "summary": "MANILA, Philippines – Experts believe that greater knowledge on the incorporation of artificial intelligence (AI) in businesses is essential in promoting and ensuring growth for PH businesses, especially MSMEs (Micro, Small, and Medium Enterprises). During the AIVF Manila 2026 on October 28, Chairman Wilson Chua rev...",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 15.4,
+      "priority_reasons": [
+        "reported_material_development",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "ph_ai_economic_transformation",
+        "broad_ecosystem_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the technology ecosystem, such as businesses, governments, infrastructure operators, consumers, or regulators."
+    }
+  ],
+  "secondary_signals": [
+    {
+      "title": "DEFA 2026: Three ways it benefits Filipinos",
+      "source": "Inquirer Tech",
+      "date": "2026-11-14T17:56:26.000Z",
+      "summary": "MANILA, Philippines – At the ASEAN Business & Investment Summit held today at the Solaire Resort Grand Ballroom, H.E. DTI Secretary Cristina Roque announced that the ASEAN Digital Economy Framework Agreement (DEFA) had just been signed and will be presented to the President tomorrow. What is DEFA? This agreement has...",
+      "tags": [
+        "enterprise_tech",
+        "digital_policy"
+      ],
+      "priority_score": 14.8,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "policy_shift",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful as a reported or official development rather than vendor-authored positioning."
+    },
+    {
+      "title": "Security Bank trains more staff, develops AI agents",
+      "source": "Philippine Star Business AI/Tech",
+      "date": "2026-11-14T16:00:00.000Z",
+      "summary": "Security Bank Corp. has trained more than 3,000 employees in agentic artificial intelligence and seen its workforce develop 3,100 AI agents, as the lender moves to embed the technology in daily operations without removing human oversight from decisions that affect customers.",
+      "tags": [
+        "ai_automation"
+      ],
+      "priority_score": 13.8,
+      "priority_reasons": [
+        "reported_material_development",
+        "safety_or_governance",
+        "enterprise_scale_signal",
+        "ph_ai_economic_transformation",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
+    },
+    {
+      "title": "Heimstaden is changing residential real estate management with AI",
+      "source": "OpenAI Blog",
+      "date": "2026-11-03T08:00:00.000Z",
+      "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "tags": [
+        "ai_automation",
+        "enterprise_tech"
+      ],
+      "priority_score": 13.7,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "model_or_platform_change",
+        "policy_shift",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "What happens to the subscription economy when AI agents review every payment?",
+      "source": "e27 SEA Tech",
+      "date": "2026-11-11T01:00:45.000Z",
+      "summary": "Subscription businesses have spent the past two decades making revenue more predictable. Instead of selling a product once and persuading the customer to buy again, they persuade the customer to keep paying every month or every year. That creates an important advantage: once the subscription has started, continuing...",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 13.6,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "policy_shift",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful as a reported or official development rather than vendor-authored positioning."
+    },
+    {
+      "title": "Marcos pushes AI access for small ASEAN firms",
+      "source": "Malaya Business AI/Tech",
+      "date": "2026-11-14T09:41:00.000Z",
+      "summary": "President Ferdinand Marcos Jr. on Saturday urged technology firms, investors and major corporations to help micro, small and medium enterprises adopt artificial intelligence, warning that smaller businesses need skills training and safeguards to share in the technology’s economic gains. In a video message to the ASE...",
+      "tags": [
+        "tech_infrastructure"
+      ],
+      "priority_score": 13.3,
+      "priority_reasons": [
+        "reported_material_development",
+        "infrastructure_move",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
+    },
+    {
+      "title": "Siargao now has upgraded 5G Internet coverage",
+      "source": "Inquirer Tech",
+      "date": "2026-11-05T08:14:03.000Z",
+      "summary": "Siargao residents and tourists can now experience much faster mobile speeds as Smart further boosted its 5G internet coverage on the island. Mobile services provider Smart Communications, Inc. (Smart), the wireless arm of PLDT Inc., is further enhancing its 5G coverage and capacity in key areas of Siargao Island in...",
+      "tags": [
+        "tech_infrastructure",
+        "telecom_connectivity"
+      ],
+      "priority_score": 12.2,
+      "priority_reasons": [
+        "reported_material_development",
+        "infrastructure_move",
+        "material_technology_effect",
+        "connectivity_expansion_signal",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
+    },
+    {
+      "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+      "source": "OpenAI Blog",
+      "date": "2026-11-04T00:00:00.000Z",
+      "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+      "tags": [
+        "ai_automation",
+        "enterprise_tech"
+      ],
+      "priority_score": 12.2,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "infrastructure_move",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "source": "OpenAI Blog",
+      "date": "2026-10-28T13:15:00.000Z",
+      "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "tags": [
+        "ai_automation",
+        "enterprise_tech"
+      ],
+      "priority_score": 11.2,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "model_or_platform_change",
+        "material_technology_effect",
+        "strategic_partnership",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation",
+        "vendor_announcement_demoted"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "How Localiza reorganized work around generative AI",
+      "source": "OpenAI Blog",
+      "date": "2026-10-16T00:00:00.000Z",
+      "summary": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
+      "tags": [
+        "ai_automation",
+        "tech_infrastructure",
+        "enterprise_tech"
+      ],
+      "priority_score": 11.2,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "model_or_platform_change",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "broad_ecosystem_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it has broad practical impact across the technology ecosystem."
+    },
+    {
+      "title": "How Cisco defends at machine speed with OpenAI",
+      "source": "OpenAI Blog",
+      "date": "2026-11-03T08:00:00.000Z",
+      "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 10.7,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "model_or_platform_change",
+        "material_technology_effect",
+        "safety_or_governance",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Shows practical adoption or rollout worth tracking."
+    },
+    {
+      "title": "The most expensive AI mistakes don’t look like mistakes",
+      "source": "e27 SEA Tech",
+      "date": "2026-11-11T05:00:27.000Z",
+      "summary": "I saw this play out in an enterprise knowledge management workflow. AI had been used to turn years of internal documentation into a clean wiki article explaining the engineering setup behind a legacy product. The goal was simple. Give new engineers one reliable place to understand the product before they started wor...",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 10.6,
+      "priority_reasons": [
+        "reported_material_development",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
+    },
+    {
+      "title": "Sionic AI brings its Thai-reading model to SEA, with banks as the real exam",
+      "source": "e27 SEA Tech",
+      "date": "2026-11-10T04:42:11.000Z",
+      "summary": "Most AI models read Thai the way a tourist reads a Bangkok street menu: confidently, and often wrongly. Sionic AI says it has closed part of that language gap, and it is using the result to push into Southeast Asia. The Seoul-based enterprise AI company said last week it is expanding in Thailand and Singapore […] Th...",
+      "tags": [
+        "ai_automation",
+        "enterprise_tech"
+      ],
+      "priority_score": 10.4,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful as a reported or official development rather than vendor-authored positioning."
+    },
+    {
+      "title": "OpenAI models are coming to Google Cloud",
+      "source": "OpenAI Blog",
+      "date": "2026-10-21T12:00:00.000Z",
+      "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+      "tags": [
+        "ai_automation"
+      ],
+      "priority_score": 10.2,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "model_or_platform_change",
+        "infrastructure_move",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation",
+        "vendor_announcement_demoted"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "source": "OpenAI Blog",
+      "date": "2026-11-09T19:00:00.000Z",
+      "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 9.9,
+      "priority_reasons": [
+        "vendor_announcement_supporting_signal",
+        "policy_shift",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation",
+        "minor_or_routine",
+        "vendor_announcement_demoted"
+      ],
+      "note": "Useful because it affects more than one important audience or buyer group."
+    },
+    {
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "source": "OpenAI Blog",
+      "date": "2026-11-02T00:00:00.000Z",
+      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+      "tags": [
+        "cybersecurity"
+      ],
+      "priority_score": 9.7,
+      "priority_reasons": [
+        "vendor_authored_context",
+        "cybersecurity_or_resilience_signal",
+        "strategic_partnership",
+        "safety_or_governance",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Worth tracking for operating risk, compliance, or resilience implications."
+    }
+  ]
+}

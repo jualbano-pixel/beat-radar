@@ -1,68 +1,22 @@
 {
   "top_stories": [
     {
-      "title": "Converge earnings slipped to P8.1B at end-September",
-      "source": "Inquirer Business AI/Tech",
-      "date": "2026-11-07T02:18:00.000Z",
-      "summary": "MANILA, Philppines — Converge ICT Solutions Inc. saw its bottom line dip in the first three quarters of 2026, as rising costs offset modest revenue gains fueled by its booming enterprise business. On Friday, the fiber connectivity provider reported a net income after tax of P8.1 billion for the January-to-September...",
-      "tags": [
-        "tech_infrastructure",
-        "enterprise_tech",
-        "telecom_connectivity"
-      ],
-      "priority_score": 22.3,
-      "priority_reasons": [
-        "reported_or_regulatory_development",
-        "infrastructure_move",
-        "policy_shift",
-        "material_technology_effect",
-        "connectivity_expansion_signal",
-        "enterprise_scale_signal",
-        "practical_usability_impact",
-        "editorial_source_confirmation"
-      ],
-      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
-    },
-    {
-      "title": "U Mobile opens its 5G-Advanced sandbox to Cradle’s startups, but the cheques are not part of the deal",
-      "source": "e27 SEA Tech",
-      "date": "2026-11-06T09:56:48.000Z",
-      "summary": "Malaysia’s second 5G operator wants startups to do something telcos across the region have struggled to make happen: build for its network before anyone has agreed to pay for the result. U Mobile said on Friday that its Enterprise Innovation Platform (EIP) is deepening its collaboration with Cradle Fund, the governm...",
+      "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+      "source": "TechCrunch AI",
+      "date": "2026-11-12T21:27:10.000Z",
+      "summary": "Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
       "tags": [
         "ai_automation",
-        "tech_infrastructure",
-        "enterprise_tech",
-        "telecom_connectivity",
-        "startups_vc"
+        "tech_infrastructure"
       ],
-      "priority_score": 21.3,
+      "priority_score": 20.8,
       "priority_reasons": [
         "reported_or_regulatory_development",
-        "infrastructure_move",
-        "material_technology_effect",
-        "connectivity_expansion_signal",
-        "enterprise_scale_signal",
-        "broad_ecosystem_impact",
-        "editorial_source_confirmation"
-      ],
-      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the technology ecosystem, such as businesses, governments, infrastructure operators, consumers, or regulators."
-    },
-    {
-      "title": "HPE’s Walter So on complexities of data sovereignty",
-      "source": "Inquirer Tech",
-      "date": "2026-10-22T15:48:25.000Z",
-      "summary": "Data sovereignty is not as simply as we thought When the government passed Executive Order 119 to push for data privacy and sovereign data in Philippine soil, there’s more to the context than just having physical data centers to house private citizen data. Whenever you query into an AI tool, the data travels across...",
-      "tags": [
-        "cybersecurity",
-        "digital_policy"
-      ],
-      "priority_score": 20.7,
-      "priority_reasons": [
-        "reported_or_regulatory_development",
+        "model_or_platform_change",
         "infrastructure_move",
         "policy_shift",
         "material_technology_effect",
-        "cybersecurity_or_resilience_signal",
+        "strategic_finance",
         "multi_group_impact",
         "editorial_source_confirmation"
       ],
@@ -77,7 +31,7 @@
         "ai_automation",
         "cybersecurity"
       ],
-      "priority_score": 20.6,
+      "priority_score": 20.2,
       "priority_reasons": [
         "vendor_announcement_supporting_signal",
         "model_or_platform_change",
@@ -94,38 +48,16 @@
       "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the technology ecosystem, such as businesses, governments, infrastructure operators, consumers, or regulators."
     },
     {
-      "title": "As operational technology security matures, PH firms must address emerging risks",
-      "source": "Inquirer Business AI/Tech",
-      "date": "2026-11-07T02:22:00.000Z",
-      "summary": "MANILA, Philippines — Operational technology (OT) systems keep critical industrial processes, equipment, and infrastructure running. As organizations in the Philippines continue to digitize their operations and connect OT with IT, cloud platforms, and other technologies, these environments are becoming more connecte...",
+      "title": "Cybersecurity in the Age of AI",
+      "source": "Inquirer Tech",
+      "date": "2026-11-14T09:13:28.000Z",
+      "summary": "The patch-and-pray era is ending. October 2026 has delivered an extraordinary cluster of critical security disclosures, including flaws in foundational internet infrastructure. Some are calling it “Black October.” Others call it the start of the “Vulnpocalypse.” Regardless of the label, AI-accelerated discovery is s...",
       "tags": [
-        "general_ai_tech"
+        "cybersecurity"
       ],
       "priority_score": 18.3,
       "priority_reasons": [
-        "reported_material_development",
-        "infrastructure_move",
-        "material_technology_effect",
-        "safety_or_governance",
-        "enterprise_scale_signal",
-        "broad_ecosystem_impact",
-        "editorial_source_confirmation"
-      ],
-      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the technology ecosystem, such as businesses, governments, infrastructure operators, consumers, or regulators."
-    },
-    {
-      "title": "OpenAI released a new cybersecurity model. Is that enough?",
-      "source": "TechCrunch AI",
-      "date": "2026-11-05T19:06:12.000Z",
-      "summary": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure.",
-      "tags": [
-        "ai_automation",
-        "cybersecurity"
-      ],
-      "priority_score": 18.1,
-      "priority_reasons": [
-        "reported_material_development",
-        "model_or_platform_change",
+        "reported_or_regulatory_development",
         "policy_shift",
         "material_technology_effect",
         "cybersecurity_or_resilience_signal",
@@ -133,67 +65,85 @@
         "practical_usability_impact",
         "editorial_source_confirmation"
       ],
-      "why_it_matters": "This matters because it is a concrete development in infrastructure, deployment, market behavior, or investment rather than vendor commentary."
+      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
     },
     {
-      "title": "Why Multiable HCM Is the Best AI HRIS in Singapore for Public Companies and Large Enterprises",
-      "source": "e27 SEA Tech",
-      "date": "2026-11-04T09:16:20.000Z",
-      "summary": "Enterprise Workforce Administration for Listed Corporations in Singapore Rising Governance Expectations in Public Company Human Resources Listed corporations and large enterprise groups operating on the Singapore Exchange face intense scrutiny regarding workforce governance, financial disclosure accuracy, and region...",
+      "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+      "source": "TechCrunch AI",
+      "date": "2026-11-12T17:17:58.000Z",
+      "summary": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
       "tags": [
-        "enterprise_tech"
+        "cybersecurity"
       ],
-      "priority_score": 17.1,
+      "priority_score": 18.1,
       "priority_reasons": [
-        "reported_material_development",
+        "reported_or_regulatory_development",
         "policy_shift",
         "material_technology_effect",
+        "cybersecurity_or_resilience_signal",
         "safety_or_governance",
-        "enterprise_scale_signal",
-        "multi_group_impact",
+        "practical_usability_impact",
         "editorial_source_confirmation"
       ],
-      "why_it_matters": "This matters because it is a concrete development in infrastructure, deployment, market behavior, or investment rather than vendor commentary."
+      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
     },
     {
-      "title": "ADB, Rönesans Sign Financing to Invest in Hyperscale Data Center, Boost Renewable Energy in Türkiye",
-      "source": "Asian Development Bank Digital Economy",
-      "date": "2026-10-22T00:00:00.000Z",
-      "summary": "ADB and Rönesans Holding A.Ş. have signed a $75 million loan to expand renewable energy investments and develop digital infrastructure in Türkiye—ADB’s first loan with Rönesans and first financing for digital infrastructure in the country.",
+      "title": "1.89 million BPO workers, 53,500 training seats: The Philippines’s AI maths doesn’t add up",
+      "source": "e27 SEA Tech",
+      "date": "2026-11-11T04:08:03.000Z",
+      "summary": "Industry bodies rarely talk down their own industries. So when the IT and Business Process Association of the Philippines (IBPAP) rewrote its 2028 roadmap in July, the revision said more than any press release could. The workforce target fell from 2.5 million to a best-case 2.14 million, and the revenue goal dropped...",
       "tags": [
-        "tech_infrastructure"
+        "tech_infrastructure",
+        "enterprise_tech"
       ],
-      "priority_score": 16.7,
+      "priority_score": 16.6,
       "priority_reasons": [
         "reported_or_regulatory_development",
         "infrastructure_move",
-        "systemic_importance",
+        "enterprise_scale_signal",
+        "ph_ai_economic_transformation",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
+    },
+    {
+      "title": "Softer bank, property earnings pull Ayala core profit down by 6%",
+      "source": "Inquirer Business AI/Tech",
+      "date": "2026-11-13T02:14:00.000Z",
+      "summary": "MANILA, Philippines — Ayala Corp.’s core net income fell 6 percent to P34.5 billion in the first nine months of 2026 as weaker earnings from its banking and property businesses and lower non-operating income weighed on the conglomerate. On Thursday, the conglomerate said steady core earnings from Globe Telecom Inc.,...",
+      "tags": [
+        "telecom_connectivity"
+      ],
+      "priority_score": 16.3,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "policy_shift",
+        "connectivity_expansion_signal",
         "enterprise_scale_signal",
         "practical_usability_impact",
         "editorial_source_confirmation"
       ],
       "why_it_matters": "This belongs in the top group because it is a reported or official development with consequences beyond vendor positioning."
-    }
-  ],
-  "secondary_signals": [
+    },
     {
-      "title": "AI adoption pays off only when businesses invest in people",
-      "source": "Inquirer Business AI/Tech",
-      "date": "2026-11-08T02:00:00.000Z",
-      "summary": "MANILA, Philippines — Businesses have spent the past decade racing to bring artificial intelligence (AI) into their operations. Much of the business world’s talk about AI has centered on its promise to slash costs, speed up operations and squeeze more productivity out of every hour. But for global learning platform...",
+      "title": "Microsoft Outlook outage: perils of relying on big tech",
+      "source": "Inquirer Tech",
+      "date": "2026-11-13T20:29:36.000Z",
+      "summary": "“I hope this email finds you well.” It apparently has not. Filipinos woke up today to an outage of Microsoft cloud services including Microsoft Outlook, MS Teams, and Office 365, the premiere suite for the backbone of most global enterprises across different industries. It has been more than 12 hours since the outag...",
       "tags": [
-        "enterprise_tech"
+        "general_ai_tech"
       ],
-      "priority_score": 16.3,
+      "priority_score": 15.8,
       "priority_reasons": [
         "reported_material_development",
+        "infrastructure_move",
         "material_technology_effect",
         "enterprise_scale_signal",
-        "ph_ai_economic_transformation",
         "broad_ecosystem_impact",
         "editorial_source_confirmation"
       ],
-      "note": "Useful because it has broad practical impact across the technology ecosystem."
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the technology ecosystem, such as businesses, governments, infrastructure operators, consumers, or regulators."
     },
     {
       "title": "AI integration: The role of AI in Filipino MSMEs and BPO sectors",
@@ -203,7 +153,7 @@
       "tags": [
         "general_ai_tech"
       ],
-      "priority_score": 15.8,
+      "priority_score": 15.4,
       "priority_reasons": [
         "reported_material_development",
         "material_technology_effect",
@@ -212,23 +162,45 @@
         "broad_ecosystem_impact",
         "editorial_source_confirmation"
       ],
-      "note": "Useful because it has broad practical impact across the technology ecosystem."
-    },
+      "why_it_matters": "This belongs in the top group because its effects reach across multiple parts of the technology ecosystem, such as businesses, governments, infrastructure operators, consumers, or regulators."
+    }
+  ],
+  "secondary_signals": [
     {
-      "title": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
-      "source": "TechCrunch AI",
-      "date": "2026-11-05T15:19:05.000Z",
-      "summary": "The deal is expected to support the development of DBX Agent Cloud, a new storage platform aimed at developers building AI models and agents.",
+      "title": "DEFA 2026: Three ways it benefits Filipinos",
+      "source": "Inquirer Tech",
+      "date": "2026-11-14T17:56:26.000Z",
+      "summary": "MANILA, Philippines – At the ASEAN Business & Investment Summit held today at the Solaire Resort Grand Ballroom, H.E. DTI Secretary Cristina Roque announced that the ASEAN Digital Economy Framework Agreement (DEFA) had just been signed and will be presented to the President tomorrow. What is DEFA? This agreement has...",
       "tags": [
-        "enterprise_tech"
+        "enterprise_tech",
+        "digital_policy"
       ],
-      "priority_score": 14.6,
+      "priority_score": 14.8,
       "priority_reasons": [
-        "reported_material_development",
-        "infrastructure_move",
+        "reported_or_regulatory_development",
+        "policy_shift",
         "material_technology_effect",
         "enterprise_scale_signal",
-        "multi_group_impact",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful as a reported or official development rather than vendor-authored positioning."
+    },
+    {
+      "title": "Security Bank trains more staff, develops AI agents",
+      "source": "Philippine Star Business AI/Tech",
+      "date": "2026-11-14T16:00:00.000Z",
+      "summary": "Security Bank Corp. has trained more than 3,000 employees in agentic artificial intelligence and seen its workforce develop 3,100 AI agents, as the lender moves to embed the technology in daily operations without removing human oversight from decisions that affect customers.",
+      "tags": [
+        "ai_automation"
+      ],
+      "priority_score": 13.8,
+      "priority_reasons": [
+        "reported_material_development",
+        "safety_or_governance",
+        "enterprise_scale_signal",
+        "ph_ai_economic_transformation",
+        "practical_usability_impact",
         "editorial_source_confirmation"
       ],
       "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
@@ -242,7 +214,7 @@
         "ai_automation",
         "enterprise_tech"
       ],
-      "priority_score": 13.9,
+      "priority_score": 13.7,
       "priority_reasons": [
         "vendor_announcement_supporting_signal",
         "model_or_platform_change",
@@ -255,6 +227,43 @@
       "note": "Useful because it affects more than one important audience or buyer group."
     },
     {
+      "title": "What happens to the subscription economy when AI agents review every payment?",
+      "source": "e27 SEA Tech",
+      "date": "2026-11-11T01:00:45.000Z",
+      "summary": "Subscription businesses have spent the past two decades making revenue more predictable. Instead of selling a product once and persuading the customer to buy again, they persuade the customer to keep paying every month or every year. That creates an important advantage: once the subscription has started, continuing...",
+      "tags": [
+        "general_ai_tech"
+      ],
+      "priority_score": 13.6,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "policy_shift",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful as a reported or official development rather than vendor-authored positioning."
+    },
+    {
+      "title": "Marcos pushes AI access for small ASEAN firms",
+      "source": "Malaya Business AI/Tech",
+      "date": "2026-11-14T09:41:00.000Z",
+      "summary": "President Ferdinand Marcos Jr. on Saturday urged technology firms, investors and major corporations to help micro, small and medium enterprises adopt artificial intelligence, warning that smaller businesses need skills training and safeguards to share in the technology’s economic gains. In a video message to the ASE...",
+      "tags": [
+        "tech_infrastructure"
+      ],
+      "priority_score": 13.3,
+      "priority_reasons": [
+        "reported_material_development",
+        "infrastructure_move",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
+    },
+    {
       "title": "Siargao now has upgraded 5G Internet coverage",
       "source": "Inquirer Tech",
       "date": "2026-11-05T08:14:03.000Z",
@@ -263,7 +272,7 @@
         "tech_infrastructure",
         "telecom_connectivity"
       ],
-      "priority_score": 12.6,
+      "priority_score": 12.2,
       "priority_reasons": [
         "reported_material_development",
         "infrastructure_move",
@@ -282,7 +291,7 @@
         "ai_automation",
         "enterprise_tech"
       ],
-      "priority_score": 12.4,
+      "priority_score": 12.2,
       "priority_reasons": [
         "vendor_announcement_supporting_signal",
         "infrastructure_move",
@@ -344,7 +353,7 @@
       "tags": [
         "enterprise_tech"
       ],
-      "priority_score": 10.9,
+      "priority_score": 10.7,
       "priority_reasons": [
         "vendor_announcement_supporting_signal",
         "model_or_platform_change",
@@ -357,22 +366,41 @@
       "note": "Shows practical adoption or rollout worth tracking."
     },
     {
-      "title": "Crusoe sells troubled Wyoming data center project to Google",
-      "source": "TechCrunch AI",
-      "date": "2026-11-07T01:40:28.000Z",
-      "summary": "The deal highlights the challenges of developing massive AI data centers.",
+      "title": "The most expensive AI mistakes don’t look like mistakes",
+      "source": "e27 SEA Tech",
+      "date": "2026-11-11T05:00:27.000Z",
+      "summary": "I saw this play out in an enterprise knowledge management workflow. AI had been used to turn years of internal documentation into a clean wiki article explaining the engineering setup behind a legacy product. The goal was simple. Give new engineers one reliable place to understand the product before they started wor...",
       "tags": [
-        "tech_infrastructure"
+        "enterprise_tech"
       ],
-      "priority_score": 10.3,
+      "priority_score": 10.6,
       "priority_reasons": [
         "reported_material_development",
-        "infrastructure_move",
         "material_technology_effect",
-        "practical_usability_impact",
+        "enterprise_scale_signal",
+        "multi_group_impact",
         "editorial_source_confirmation"
       ],
       "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
+    },
+    {
+      "title": "Sionic AI brings its Thai-reading model to SEA, with banks as the real exam",
+      "source": "e27 SEA Tech",
+      "date": "2026-11-10T04:42:11.000Z",
+      "summary": "Most AI models read Thai the way a tourist reads a Bangkok street menu: confidently, and often wrongly. Sionic AI says it has closed part of that language gap, and it is using the result to push into Southeast Asia. The Seoul-based enterprise AI company said last week it is expanding in Thailand and Singapore […] Th...",
+      "tags": [
+        "ai_automation",
+        "enterprise_tech"
+      ],
+      "priority_score": 10.4,
+      "priority_reasons": [
+        "reported_or_regulatory_development",
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "note": "Useful as a reported or official development rather than vendor-authored positioning."
     },
     {
       "title": "OpenAI models are coming to Google Cloud",
@@ -395,39 +423,25 @@
       "note": "Useful because it affects more than one important audience or buyer group."
     },
     {
-      "title": "The frontier AI money is getting picky. Southeast Asia’s AI founders should price that in now",
-      "source": "e27 SEA Tech",
-      "date": "2026-11-05T09:28:53.000Z",
-      "summary": "For two years, the rules of AI fundraising were simple: whoever asked for the biggest number got it. Last week, that stopped being true at the very top of the market. OpenAI cut its fundraising target by US$10 billion to US$20 billion as falling tech stocks and weaker investor demand complicated its plans ahead of [...",
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "source": "OpenAI Blog",
+      "date": "2026-11-09T19:00:00.000Z",
+      "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
       "tags": [
-        "general_ai_tech"
+        "enterprise_tech"
       ],
-      "priority_score": 10.1,
+      "priority_score": 9.9,
       "priority_reasons": [
-        "reported_or_regulatory_development",
-        "policy_shift",
-        "strategic_finance",
-        "editorial_source_confirmation"
-      ],
-      "note": "Useful as a reported or official development rather than vendor-authored positioning."
-    },
-    {
-      "title": "The step zero problem of the startup ecosystem",
-      "source": "e27 SEA Tech",
-      "date": "2026-11-05T04:00:42.000Z",
-      "summary": "Over the last decade, Southeast Asia has built an increasingly sophisticated infrastructure for startups, and countries such as Singapore and Vietnam are known for their reputation as regional startup hubs. Southeast Asia’s tech startup ecosystem was valued at US$454 billion in the first half of 2024, more than trip...",
-      "tags": [
-        "startups_vc"
-      ],
-      "priority_score": 10.1,
-      "priority_reasons": [
-        "reported_material_development",
+        "vendor_announcement_supporting_signal",
         "policy_shift",
         "material_technology_effect",
-        "practical_usability_impact",
-        "editorial_source_confirmation"
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation",
+        "minor_or_routine",
+        "vendor_announcement_demoted"
       ],
-      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
+      "note": "Useful because it affects more than one important audience or buyer group."
     },
     {
       "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
@@ -437,7 +451,7 @@
       "tags": [
         "cybersecurity"
       ],
-      "priority_score": 9.9,
+      "priority_score": 9.7,
       "priority_reasons": [
         "vendor_authored_context",
         "cybersecurity_or_resilience_signal",
@@ -447,25 +461,6 @@
         "editorial_source_confirmation"
       ],
       "note": "Worth tracking for operating risk, compliance, or resilience implications."
-    },
-    {
-      "title": "How a Blue Wave midterm might reshape the AI industry",
-      "source": "TechCrunch AI",
-      "date": "2026-11-06T18:00:00.000Z",
-      "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ball...",
-      "tags": [
-        "tech_infrastructure"
-      ],
-      "priority_score": 9.3,
-      "priority_reasons": [
-        "reported_material_development",
-        "infrastructure_move",
-        "material_technology_effect",
-        "practical_usability_impact",
-        "editorial_source_confirmation",
-        "minor_or_routine"
-      ],
-      "note": "Useful because it points to a concrete development in infrastructure, deployment, market behavior, or investment."
     }
   ]
 }

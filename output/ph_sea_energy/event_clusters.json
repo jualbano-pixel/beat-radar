@@ -2,41 +2,155 @@
   {
     "cluster_id": "energy_001",
     "cluster_kind": "same_event",
-    "lead_story_id": "4ac46be2db34",
-    "story_count": 2,
+    "lead_story_id": "b07d84313c6b",
+    "story_count": 4,
     "story_ids": [
-      "4ac46be2db34",
-      "2dd743216837"
+      "b07d84313c6b",
+      "b07d84313c6b",
+      "ffe0db2b731a",
+      "ffe0db2b731a"
     ],
     "story_titles": [
-      "Big oil price cuts seen, tied to Trump poll rout",
-      "US midterm results may cut fuel prices by up to P13.50/L"
+      "Microsoft outage disrupts email services of PHL Supreme Court, businesses",
+      "Microsoft outage disrupts email services of PHL Supreme Court, businesses",
+      "Microsoft outage drags on for hours, disrupting Outlook, Teams for thousands",
+      "Microsoft outage drags on for hours, disrupting Outlook, Teams for thousands"
     ],
     "associated_stories": [
       {
-        "id": "4ac46be2db34",
-        "title": "Big oil price cuts seen, tied to Trump poll rout",
-        "url": "https://business.inquirer.net/619953/big-oil-price-cuts-seen-tied-to-trump-poll-rout",
-        "source": "Inquirer Business Energy",
-        "published_at": "2026-11-07T05:30:00.000Z"
+        "id": "b07d84313c6b",
+        "title": "Microsoft outage disrupts email services of PHL Supreme Court, businesses",
+        "url": "https://bworldonline.com/the-nation/2026/11/13/793882/microsoft-outage-disrupts-email-services-of-phl-supreme-court-businesses",
+        "source": "BusinessWorld Energy",
+        "published_at": "2026-11-13T08:10:33.000Z"
       },
       {
-        "id": "2dd743216837",
-        "title": "US midterm results may cut fuel prices by up to P13.50/L",
-        "url": "https://business.inquirer.net/619824/us-midterm-results-may-cut-fuel-prices-by-up-to-p13-50-l",
+        "id": "b07d84313c6b",
+        "title": "Microsoft outage disrupts email services of PHL Supreme Court, businesses",
+        "url": "https://bworldonline.com/the-nation/2026/11/13/793882/microsoft-outage-disrupts-email-services-of-phl-supreme-court-businesses",
+        "source": "BusinessWorld Energy",
+        "published_at": "2026-11-13T08:10:33.000Z"
+      },
+      {
+        "id": "ffe0db2b731a",
+        "title": "Microsoft outage drags on for hours, disrupting Outlook, Teams for thousands",
+        "url": "https://bworldonline.com/technology/2026/11/13/793676/microsoft-outage-drags-on-for-hours-disrupting-outlook-teams-for-thousands",
+        "source": "BusinessWorld Energy",
+        "published_at": "2026-11-13T06:15:35.000Z"
+      },
+      {
+        "id": "ffe0db2b731a",
+        "title": "Microsoft outage drags on for hours, disrupting Outlook, Teams for thousands",
+        "url": "https://bworldonline.com/technology/2026/11/13/793676/microsoft-outage-drags-on-for-hours-disrupting-outlook-teams-for-thousands",
+        "source": "BusinessWorld Energy",
+        "published_at": "2026-11-13T06:15:35.000Z"
+      }
+    ],
+    "entities": [],
+    "event_label": "Outage, alert, or reliability stress",
+    "compression_line": "Reliability stress is visible in grid, outage, reserve, or alert signals that point to pressure on the physical power system.",
+    "priority_score": 40,
+    "editorial_bucket": "context_watch",
+    "cluster_type": "pattern",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": [
+      "b07d84313c6b",
+      "ffe0db2b731a",
+      "ffe0db2b731a"
+    ],
+    "primary_theme_id": "energy_reliability_pressure_building",
+    "primary_theme_label": "Reliability pressure is building in the power system"
+  },
+  {
+    "cluster_id": "energy_002",
+    "cluster_kind": "same_event",
+    "lead_story_id": "dd0d82384961",
+    "story_count": 2,
+    "story_ids": [
+      "dd0d82384961",
+      "cc8da1458a7e"
+    ],
+    "story_titles": [
+      "Meralco power rates rise this month",
+      "Trump visit no quick fix for PH tariff troubles"
+    ],
+    "associated_stories": [
+      {
+        "id": "dd0d82384961",
+        "title": "Meralco power rates rise this month",
+        "url": "https://business.inquirer.net/620733/meralco-power-rates-to-rise-in-november",
         "source": "Inquirer Business Energy",
-        "published_at": "2026-11-06T09:24:12.000Z"
+        "published_at": "2026-11-13T13:20:23.000Z"
+      },
+      {
+        "id": "cc8da1458a7e",
+        "title": "Trump visit no quick fix for PH tariff troubles",
+        "url": "https://business.inquirer.net/621042/trump-visit-no-quick-fix-for-ph-tariff-troubles",
+        "source": "Inquirer Business Energy",
+        "published_at": "2026-11-14T11:00:07.000Z"
+      }
+    ],
+    "entities": [],
+    "event_label": "Electricity rate, tariff, or recovery movement",
+    "compression_line": "Electricity cost recovery or tariff signals are moving through the regulated price chain rather than appearing as isolated company news.",
+    "priority_score": 32,
+    "editorial_bucket": "background",
+    "cluster_type": "pattern",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": [
+      "cc8da1458a7e"
+    ],
+    "primary_theme_id": "energy_power_costs_moving_through_recovery",
+    "primary_theme_label": "Electricity costs are moving through rates and recovery"
+  },
+  {
+    "cluster_id": "energy_003",
+    "cluster_kind": "same_event",
+    "lead_story_id": "4d5722dcb639",
+    "story_count": 3,
+    "story_ids": [
+      "4d5722dcb639",
+      "6c987cb2c06b",
+      "51f80c71fd67"
+    ],
+    "story_titles": [
+      "Fuel price rollbacks expected next week",
+      "Filipinos to enjoy cheaper airfares from Nov 16-30",
+      "Oil price cuts may extend next week"
+    ],
+    "associated_stories": [
+      {
+        "id": "4d5722dcb639",
+        "title": "Fuel price rollbacks expected next week",
+        "url": "https://malaya.com.ph/business/business-news/fuel-price-rollbacks-expected-next-week",
+        "source": "Malaya Business",
+        "published_at": "2026-11-14T08:39:00.000Z"
+      },
+      {
+        "id": "6c987cb2c06b",
+        "title": "Filipinos to enjoy cheaper airfares from Nov 16-30",
+        "url": "https://business.inquirer.net/620866/filipinos-to-enjoy-cheaper-airfares-from-nov-16-30",
+        "source": "Inquirer Business Energy",
+        "published_at": "2026-11-14T02:00:00.000Z"
+      },
+      {
+        "id": "51f80c71fd67",
+        "title": "Oil price cuts may extend next week",
+        "url": "https://business.inquirer.net/620706/oil-price-cuts-may-extend-next-week",
+        "source": "Inquirer Business Energy",
+        "published_at": "2026-11-13T11:13:35.000Z"
       }
     ],
     "entities": [],
     "event_label": "Fuel price movement",
     "compression_line": "Fuel prices are moving through pump-price signals, changing the near-term cost read for consumers and fuel-sensitive sectors.",
-    "priority_score": 20,
+    "priority_score": 24,
     "editorial_bucket": "background",
     "cluster_type": "pattern",
     "cluster_classification": "secondary",
     "supporting_story_ids": [
-      "2dd743216837"
+      "6c987cb2c06b",
+      "51f80c71fd67"
     ],
     "primary_theme_id": "energy_fuel_prices_easing",
     "primary_theme_label": "Fuel prices are easing through rollbacks"

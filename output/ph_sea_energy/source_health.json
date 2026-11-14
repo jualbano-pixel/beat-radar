@@ -7,12 +7,12 @@
     "normalizedCount": 0,
     "droppedCount": 0,
     "keptCount": 0,
-    "error": "Status code 522",
-    "errorKind": "http_error",
+    "error": "Request timed out after 60000ms",
+    "errorKind": "unknown_error",
     "beat": "ph_sea_energy",
     "url": "https://www.bworldonline.com/feed/",
     "type": "rss",
-    "checkedAt": "2026-11-07T19:48:58.782Z"
+    "checkedAt": "2026-11-14T20:20:08.949Z"
   },
   {
     "source": "Inquirer Business Energy",
@@ -20,12 +20,12 @@
     "health": "healthy",
     "fetchedCount": 40,
     "normalizedCount": 40,
-    "droppedCount": 38,
-    "keptCount": 2,
+    "droppedCount": 36,
+    "keptCount": 4,
     "beat": "ph_sea_energy",
     "url": "https://business.inquirer.net/feed",
     "type": "rss",
-    "checkedAt": "2026-11-07T19:48:58.782Z"
+    "checkedAt": "2026-11-14T20:20:08.949Z"
   },
   {
     "source": "BusinessMirror Energy",
@@ -40,7 +40,7 @@
     "beat": "ph_sea_energy",
     "url": "https://businessmirror.com.ph/business/feed/",
     "type": "rss",
-    "checkedAt": "2026-11-07T19:48:58.782Z"
+    "checkedAt": "2026-11-14T20:20:08.949Z"
   },
   {
     "source": "Philippine Star Business Energy",
@@ -53,7 +53,7 @@
     "beat": "ph_sea_energy",
     "url": "https://www.philstar.com/rss/business",
     "type": "rss",
-    "checkedAt": "2026-11-07T19:48:58.782Z"
+    "checkedAt": "2026-11-14T20:20:08.949Z"
   },
   {
     "source": "Malaya Business",
@@ -61,12 +61,12 @@
     "health": "healthy",
     "fetchedCount": 10,
     "normalizedCount": 10,
-    "droppedCount": 10,
-    "keptCount": 0,
+    "droppedCount": 9,
+    "keptCount": 1,
     "beat": "ph_sea_energy",
     "url": "https://malaya.com.ph/feed/",
     "type": "rss",
-    "checkedAt": "2026-11-07T19:48:58.782Z"
+    "checkedAt": "2026-11-14T20:20:08.949Z"
   },
   {
     "source": "BusinessWorld Energy",
@@ -76,11 +76,11 @@
     "normalizedCount": 0,
     "droppedCount": 0,
     "keptCount": 0,
-    "error": "Status code 522",
-    "errorKind": "http_error",
+    "error": "Request timed out after 60000ms",
+    "errorKind": "unknown_error",
     "beat": "ph_sea_energy",
     "url": "https://www.bworldonline.com/feed/",
     "type": "rss",
-    "checkedAt": "2026-11-07T19:48:58.782Z"
+    "checkedAt": "2026-11-14T20:20:08.949Z"
   }
 ]
