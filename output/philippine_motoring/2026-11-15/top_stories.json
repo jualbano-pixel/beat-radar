@@ -1,0 +1,146 @@
+{
+  "top_stories": [
+    {
+      "title": "‘Careful review needed for air traffic control PPP’",
+      "source": "Philstar Business",
+      "date": "2026-11-15T16:00:00.000Z",
+      "summary": "The government is taking a cautious approach in reviewing the P33-billion offer to privatize air traffic control (ATC) through a public-private partnership (PPP) given the financial impact of the project.",
+      "tags": [
+        "motoring_infrastructure"
+      ],
+      "priority_score": 7.8,
+      "priority_reasons": [
+        "policy_shift",
+        "material_technology_effect",
+        "practical_usability_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "BYD Cars PH adds a second variant to the Sealion 6 DM-i lineup; prices start at P1.548-M",
+      "source": "TopGear Philippines",
+      "date": "2026-11-12T03:36:00.000Z",
+      "summary": "The Premium trim gets added ADAS and DC charging and is priced at P1.798-M",
+      "tags": [
+        "pricing_pressure",
+        "ev_transition_gap",
+        "product_market_signal"
+      ],
+      "priority_score": 4.4,
+      "priority_reasons": [
+        "policy_shift"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "Honda to debut all-new CR-V in 2027",
+      "source": "TopGear Philippines",
+      "date": "2026-11-13T01:01:00.000Z",
+      "summary": "It will be the first vehicle on the Honda Hybrid platform",
+      "tags": [
+        "ev_transition_gap"
+      ],
+      "priority_score": 1.4,
+      "priority_reasons": [
+        "practical_usability_impact"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "DOE calls on motorists to report gas stations not applying fuel price rollbacks",
+      "source": "TopGear Philippines",
+      "date": "2026-11-12T07:44:00.000Z",
+      "summary": "Have gas stations in your area been evading this week’s major rollback?",
+      "tags": [
+        "pricing_pressure",
+        "ownership_cost"
+      ],
+      "priority_score": 1.4,
+      "priority_reasons": [
+        "practical_usability_impact"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Specs, prices, features: Everything you need to know about the all-new Jetour S08 i-DM",
+      "source": "TopGear Philippines",
+      "date": "2026-11-12T11:26:00.000Z",
+      "summary": "In the market for a seven-seater plug-in hybrid?",
+      "tags": [
+        "pricing_pressure",
+        "ev_transition_gap"
+      ],
+      "priority_score": 0.9,
+      "priority_reasons": [
+        "broader_trend"
+      ],
+      "why_it_matters": "This surfaced because it looks like part of a larger theme rather than a one-off. Multiple related signals suggest it has wider editorial significance."
+    },
+    {
+      "title": "Specs, price, features: Everything you need to know about the all-new Nissan Primera EV",
+      "source": "TopGear Philippines",
+      "date": "2026-11-12T04:45:00.000Z",
+      "summary": "This midsize sedan succeeds the outgoing Nissan Leaf",
+      "tags": [
+        "pricing_pressure",
+        "ev_transition_gap"
+      ],
+      "priority_score": 0.9,
+      "priority_reasons": [
+        "broader_trend"
+      ],
+      "why_it_matters": "This surfaced because it looks like part of a larger theme rather than a one-off. Multiple related signals suggest it has wider editorial significance."
+    },
+    {
+      "title": "Slovakia seeks to expand PHL ties on auto industry, nuclear power",
+      "source": "BusinessWorld Online",
+      "date": "2026-11-15T12:59:58.000Z",
+      "summary": "By Francessca S. Abalos SLOVAKIA is aiming to expand ties with the Philippines following the establishment of its…",
+      "tags": [
+        "product_market_signal"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Toyota Tugbok Davao is the brand’s 12th dealership in Mindanao",
+      "source": "TopGear Philippines",
+      "date": "2026-11-13T13:30:00.000Z",
+      "summary": "The facility spans a total floor area of 11,470sqm",
+      "tags": [
+        "general_philippine_motoring"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    }
+  ],
+  "secondary_signals": [
+    {
+      "title": "Auto Salon 2026: This Nissan Navara Pro PHEV is for your next overland adventure",
+      "source": "TopGear Philippines",
+      "date": "2026-11-13T08:09:00.000Z",
+      "summary": "And it was built by Overland Kings, no less",
+      "tags": [
+        "general_philippine_motoring"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    },
+    {
+      "title": "Only 80 of these special MG4 Urban EVs will be sold in PH; priced just under P1.2-M",
+      "source": "TopGear Philippines",
+      "date": "2026-11-12T11:39:00.000Z",
+      "summary": "You can see it for yourself at the SM MOA Concert Grounds this weekend",
+      "tags": [
+        "general_philippine_motoring"
+      ],
+      "priority_score": 0.4,
+      "priority_reasons": [],
+      "note": "Useful supporting editorial signal."
+    }
+  ]
+}

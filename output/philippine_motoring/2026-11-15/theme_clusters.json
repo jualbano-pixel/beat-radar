@@ -1,0 +1,108 @@
+[
+  {
+    "theme_id": "pricing_pressure",
+    "theme_label": "pricing pressure",
+    "theme_summary": "pricing pressure is the shared editorial thread across 4 related stories. The strongest signal is pricing pressure building.",
+    "story_count": 4,
+    "cluster_ids": [],
+    "story_ids": [
+      "fded7d61ec2b",
+      "0042a1a4e12e",
+      "22cfae448ced",
+      "656cf9e57c8f"
+    ],
+    "associated_stories": [
+      {
+        "id": "22cfae448ced",
+        "title": "DOE calls on motorists to report gas stations not applying fuel price rollbacks",
+        "url": "https://www.topgear.com.ph/news/industry-news/doe-gas-station-missing-rollback-a6941-20261112",
+        "source": "TopGear Philippines",
+        "published_at": "2026-11-12T07:44:00.000Z"
+      },
+      {
+        "id": "0042a1a4e12e",
+        "title": "Specs, prices, features: Everything you need to know about the all-new Jetour S08 i-DM",
+        "url": "https://www.topgear.com.ph/features/feature-articles/jetour-s08-i-dm-2027-ph-price-specs-features-a6938-20261112",
+        "source": "TopGear Philippines",
+        "published_at": "2026-11-12T11:26:00.000Z"
+      },
+      {
+        "id": "656cf9e57c8f",
+        "title": "Specs, price, features: Everything you need to know about the all-new Nissan Primera EV",
+        "url": "https://www.topgear.com.ph/features/feature-articles/nissan-primera-2027-ph-specs-price-features-a6941-20261112",
+        "source": "TopGear Philippines",
+        "published_at": "2026-11-12T04:45:00.000Z"
+      },
+      {
+        "id": "fded7d61ec2b",
+        "title": "Only 80 of these special MG4 Urban EVs will be sold in PH; priced just under P1.2-M",
+        "url": "https://www.topgear.com.ph/news/car-news/mg4-urban-ev-limited-edition-ph-launch-a6888-20261112",
+        "source": "TopGear Philippines",
+        "published_at": "2026-11-12T11:39:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "market_signal"
+    ],
+    "dominant_angle_signals": [
+      "pricing pressure building",
+      "EV transition gap visible",
+      "ownership cost reality surfacing"
+    ],
+    "top_story_refs": [
+      "22cfae448ced",
+      "0042a1a4e12e",
+      "656cf9e57c8f"
+    ]
+  },
+  {
+    "theme_id": "ev_transition_gap",
+    "theme_label": "EV transition gap",
+    "theme_summary": "EV transition gap is the shared editorial thread across 3 related stories. The strongest signal is EV transition gap visible.",
+    "story_count": 3,
+    "cluster_ids": [],
+    "story_ids": [
+      "906359db4000",
+      "bfab2ccd0347",
+      "5b4a8ad0da47"
+    ],
+    "associated_stories": [
+      {
+        "id": "5b4a8ad0da47",
+        "title": "BYD Cars PH adds a second variant to the Sealion 6 DM-i lineup; prices start at P1.548-M",
+        "url": "https://www.topgear.com.ph/news/car-news/byd-sealion-6-2027-new-variant-a5361-20261112",
+        "source": "TopGear Philippines",
+        "published_at": "2026-11-12T03:36:00.000Z"
+      },
+      {
+        "id": "bfab2ccd0347",
+        "title": "Honda to debut all-new CR-V in 2027",
+        "url": "https://www.topgear.com.ph/news/car-news/honda-crv-all-new-2027-launch-a6888-20261113",
+        "source": "TopGear Philippines",
+        "published_at": "2026-11-13T01:01:00.000Z"
+      },
+      {
+        "id": "906359db4000",
+        "title": "Auto Salon 2026: This Nissan Navara Pro PHEV is for your next overland adventure",
+        "url": "https://www.topgear.com.ph/car-culture/nissan-navara-overland-kings-manila-auto-salon-2026-a6888-20261113",
+        "source": "TopGear Philippines",
+        "published_at": "2026-11-13T08:09:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "watchlist_signal",
+      "industry_repositioning",
+      "product_signal"
+    ],
+    "dominant_angle_signals": [
+      "EV transition gap visible",
+      "pricing pressure building",
+      "product launch reveals market bet"
+    ],
+    "top_story_refs": [
+      "5b4a8ad0da47",
+      "bfab2ccd0347",
+      "906359db4000"
+    ]
+  }
+]
