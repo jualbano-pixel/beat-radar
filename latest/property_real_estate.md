@@ -1,36 +1,21 @@
 # Weekly Editorial Packet — Property / Real Estate
 
-Week of 2026-11-09
+Week of 2026-11-16
 
 ## Editorial Read
 
-- Office remains a visible stress channel, with vacancy, rents, and tenant demand carrying more weight than developer positioning.
-- The lack of clear occupancy improvement keeps this in stabilization territory, not a clean recovery call.
-- Most of the week is interpretive, so the read should stay cautious until harder price, vacancy, inventory, lending, or policy evidence appears.
+- Housing finance and rental-housing policy are present, but support signals have not yet outweighed the pressure signs.
+- The softer market reads add direction around the hard signals, but they do not by themselves prove a turn.
 
 ## What matters most
 
-### usage and occupancy shift
-- Why it matters: Vendors are pushing enterprise positioning before usage patterns, ROI, and buyer confidence have fully stabilized.
-- Pattern: Enterprise positioning is getting pushed ahead of proven demand.
-- Tension: adoption vs proof
+### property credit conditions
+- Why it matters: REIT scale and possible index inclusion are capital-market positioning signals; they still need to be read separately from the tenant-side demand picture.
+- Pattern: REIT growth is strengthening the capital-market story without settling the practical utilization picture.
+- Tension: market-cap growth vs property utilization
 - Supporting stories:
-- [Ayala Land cutting back Metro Manila condos to focus on malls](https://mb.com.ph/2026/11/11/ayala-land-cutting-back-metro-manila-condos-to-focus-on-malls) | Manila Bulletin Business Property JSON Fallback | Adds a concrete read on Philippine property demand, supply, financing, or stress.
-
-### supply pipeline shift
-- Why it matters: Pipeline shifts matter because new supply can worsen imbalance if demand is not keeping up.
-- Pattern: The week is mostly framing and persistence, not a new market turn.
-- Tension: standing research vs fresh demand signal
-- Supporting stories:
-- [Filinvest sets up own insurer, shuts down in-house construction firm](https://mb.com.ph/2026/11/11/filinvest-sets-up-own-insurer-shuts-down-in-house-construction-firm) | Manila Bulletin Business Property JSON Fallback | Adds a concrete read on Philippine property demand, supply, financing, or stress.
-- [Filinvest Group to shut down in-house construction arm](https://www.philstar.com/business/2026/11/12/2569450/filinvest-group-shut-down-house-construction-arm) | Philippine Star Property | Adds a concrete read on Philippine property demand, supply, financing, or stress.
-
-### affordability pressure
-- Why it matters: Affordability pressure determines who can still buy or rent, and where demand starts to break.
-- Pattern: The market is being shaped by who can still buy, rent, or absorb higher housing costs.
-- Tension: prices vs purchasing power
-- Supporting stories:
-- [Rich are buying up Ayala Land properties despite high interest rates](https://mb.com.ph/2026/11/11/rich-are-buying-up-ayala-land-properties-despite-high-interest-rates) | Manila Bulletin Business Property JSON Fallback | Adds a concrete read on Philippine property demand, supply, financing, or stress.
+- [BSP eyes lower capital charges for consumer, MSME loans](https://www.philstar.com/business/2026/11/19/2571081/bsp-eyes-lower-capital-charges-consumer-msme-loans) | Philippine Star Property | Adds a concrete read on Philippine property demand, supply, financing, or stress.
+- [GSIS mulls clean energy investments](https://www.philstar.com/business/2026/11/19/2571097/gsis-mulls-clean-energy-investments) | Philippine Star Property | Adds a concrete read on Philippine property demand, supply, financing, or stress.
 
 ## What seems to be happening
 

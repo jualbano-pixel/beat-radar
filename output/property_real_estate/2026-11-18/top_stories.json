@@ -1,0 +1,37 @@
+{
+  "top_stories": [
+    {
+      "title": "BSP eyes lower capital charges for consumer, MSME loans",
+      "source": "Philippine Star Property",
+      "date": "2026-11-18T16:00:00.000Z",
+      "summary": "The Bangko Sentral ng Pilipinas is proposing lower capital charges for qualified consumer and small-business loans while imposing heavier requirements on riskier property and project financing as it updates banking rules in line with Basel III standards.",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 8.8,
+      "priority_reasons": [
+        "safety_or_governance",
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because it changes how more than one important group can build, buy, deploy, secure, or govern technology."
+    },
+    {
+      "title": "GSIS mulls clean energy investments",
+      "source": "Philippine Star Property",
+      "date": "2026-11-18T16:00:00.000Z",
+      "summary": "The Government Service Insurance System is looking at renewable energy as a potential investment area while helping government agencies acquire their own office buildings through a financing initiative.",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 2.8,
+      "priority_reasons": [
+        "material_technology_effect",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    }
+  ],
+  "secondary_signals": []
+}
