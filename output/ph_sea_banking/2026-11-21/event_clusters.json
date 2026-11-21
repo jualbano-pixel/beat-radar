@@ -1,0 +1,143 @@
+[
+  {
+    "cluster_id": "banking_001",
+    "cluster_kind": "same_event",
+    "lead_story_id": "3e07afa14bcf",
+    "story_count": 2,
+    "story_ids": [
+      "3e07afa14bcf",
+      "b08cd05ab758"
+    ],
+    "story_titles": [
+      "Fitch warns of higher bank risks under BSP capital plan",
+      "Ex-MAS chief Ravi Menon: Banks, wealth managers must curb AI agents’ autonomy over clients’ money as risks grow"
+    ],
+    "associated_stories": [
+      {
+        "id": "3e07afa14bcf",
+        "title": "Fitch warns of higher bank risks under BSP capital plan",
+        "url": "https://business.inquirer.net/621809/fitch-warns-of-higher-bank-risks-under-bsp-capital-plan",
+        "source": "Inquirer Business",
+        "published_at": "2026-11-20T02:32:00.000Z"
+      },
+      {
+        "id": "b08cd05ab758",
+        "title": "Ex-MAS chief Ravi Menon: Banks, wealth managers must curb AI agents’ autonomy over clients’ money as risks grow",
+        "url": "https://www.businesstimes.com.sg/companies-markets/ex-mas-chief-ravi-menon-banks-wealth-managers-must-curb-ai-agents-autonomy-over-clients-money-risks",
+        "source": "The Business Times Banking",
+        "published_at": "2026-11-17T10:54:40.000Z"
+      }
+    ],
+    "entities": [
+      "regulator",
+      "private_bank"
+    ],
+    "event_label": "Risk is starting to surface",
+    "compression_line": "Bad-loan and borrower-capacity signals suggest risk is beginning to surface beneath still-active lending.",
+    "priority_score": 60,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "pattern",
+    "cluster_classification": "primary",
+    "primary_theme_id": "risk_surface",
+    "primary_theme_label": "Risk is starting to surface",
+    "supporting_story_ids": [
+      "b08cd05ab758"
+    ]
+  },
+  {
+    "cluster_id": "banking_002",
+    "cluster_kind": "same_event",
+    "lead_story_id": "fa8c7c87890a",
+    "story_count": 3,
+    "story_ids": [
+      "fa8c7c87890a",
+      "28b7c6b93ccd",
+      "8c9fffe02f91"
+    ],
+    "story_titles": [
+      "‘More rate hikes needed despite sluggish growth’",
+      "DBP lends P100M to Cagayan Valley farmers’ cooperative",
+      "Peso may slide to 66:$1 in 2027 – UBS"
+    ],
+    "associated_stories": [
+      {
+        "id": "fa8c7c87890a",
+        "title": "‘More rate hikes needed despite sluggish growth’",
+        "url": "https://www.philstar.com/business/2026/11/21/2571480/more-rate-hikes-needed-despite-sluggish-growth",
+        "source": "Philstar Business",
+        "published_at": "2026-11-20T16:00:00.000Z"
+      },
+      {
+        "id": "28b7c6b93ccd",
+        "title": "DBP lends P100M to Cagayan Valley farmers’ cooperative",
+        "url": "https://business.inquirer.net/621801/dbp-lends-p100m-to-cagayan-valley-farmers-cooperative",
+        "source": "Inquirer Business",
+        "published_at": "2026-11-20T02:26:00.000Z"
+      },
+      {
+        "id": "8c9fffe02f91",
+        "title": "Peso may slide to 66:$1 in 2027 – UBS",
+        "url": "https://business.inquirer.net/621806/peso-may-slide-to-661-in-2027-ubs",
+        "source": "Inquirer Business",
+        "published_at": "2026-11-20T02:30:00.000Z"
+      }
+    ],
+    "entities": [
+      "regulator",
+      "state_bank"
+    ],
+    "event_label": "Credit rules are moving onto the watchlist",
+    "compression_line": "Loan rules and regulatory signals are putting credit discipline back on the banking desk's watchlist.",
+    "priority_score": 56,
+    "editorial_bucket": "structural_trend",
+    "cluster_type": "pattern",
+    "cluster_classification": "secondary",
+    "supporting_story_ids": [
+      "28b7c6b93ccd",
+      "8c9fffe02f91"
+    ]
+  },
+  {
+    "cluster_id": "banking_003",
+    "cluster_kind": "same_event",
+    "lead_story_id": "773e4fa04917",
+    "story_count": 2,
+    "story_ids": [
+      "773e4fa04917",
+      "e2df6a2495e7"
+    ],
+    "story_titles": [
+      "ACEN unit secures $175M in fresh capital",
+      "‘Philippines faces widening MSME credit gap’"
+    ],
+    "associated_stories": [
+      {
+        "id": "773e4fa04917",
+        "title": "ACEN unit secures $175M in fresh capital",
+        "url": "https://business.inquirer.net/621807/acen-unit-secures-175m-in-fresh-capital",
+        "source": "Inquirer Business",
+        "published_at": "2026-11-20T02:18:00.000Z"
+      },
+      {
+        "id": "e2df6a2495e7",
+        "title": "‘Philippines faces widening MSME credit gap’",
+        "url": "https://www.philstar.com/business/2026/11/22/2571715/philippines-faces-widening-msme-credit-gap",
+        "source": "Philstar Business",
+        "published_at": "2026-11-21T16:00:00.000Z"
+      }
+    ],
+    "entities": [
+      "private_bank",
+      "multilateral"
+    ],
+    "event_label": "Credit rules are moving onto the watchlist",
+    "compression_line": "Loan rules and regulatory signals are putting credit discipline back on the banking desk's watchlist.",
+    "priority_score": 36,
+    "editorial_bucket": "context_watch",
+    "cluster_type": "pattern",
+    "cluster_classification": "watch",
+    "supporting_story_ids": [
+      "e2df6a2495e7"
+    ]
+  }
+]

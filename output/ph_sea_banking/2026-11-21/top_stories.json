@@ -1,0 +1,155 @@
+{
+  "top_stories": [
+    {
+      "title": "Ex-MAS chief Ravi Menon: Banks, wealth managers must curb AI agents’ autonomy over clients’ money as risks grow",
+      "source": "The Business Times Banking",
+      "date": "2026-11-17T10:54:40.000Z",
+      "summary": "Separately, Minister of State Alvin Tan says Singapore wants guardrails in finance, but must be risk-proportionate",
+      "tags": [
+        "banking_risk",
+        "banking_rising",
+        "banking_tightening",
+        "banking_system",
+        "banking_driver_institution",
+        "banking_driver_regional",
+        "banking_private_bank"
+      ],
+      "priority_score": 14.65,
+      "priority_reasons": [
+        "banking_top_movement",
+        "banking_risk_signal",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This belongs in the top group because it points to a live shift in banking-system behavior, not just a company headline."
+    },
+    {
+      "title": "Fitch warns of higher bank risks under BSP capital plan",
+      "source": "Inquirer Business",
+      "date": "2026-11-20T02:32:00.000Z",
+      "summary": "MANILA, Philippines — The plan of the Bangko Sentral ng Pilipinas (BSP) to ease lending risk rules for key sectors, including consumers, small businesses and local government units (LGU), would free up capital for banks to lend more, Fitch Ratings said. While the changes could help banks boost profits by putting tha...",
+      "tags": [
+        "banking_lending",
+        "banking_risk",
+        "banking_regulation",
+        "banking_rising",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_driver_institution",
+        "banking_regulator"
+      ],
+      "priority_score": 14.55,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "banking_risk_signal",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+    },
+    {
+      "title": "‘More rate hikes needed despite sluggish growth’",
+      "source": "Philstar Business",
+      "date": "2026-11-20T16:00:00.000Z",
+      "summary": "The Bangko Sentral ng Pilipinas (BSP) should continue raising interest rates cautiously to contain stubborn inflation despite slowing economic growth, while other government agencies must step up efforts to address supply constraints, according to Bank of the Philippine Islands.",
+      "tags": [
+        "banking_regulation",
+        "banking_rising",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_driver_market",
+        "banking_driver_institution",
+        "banking_regulator"
+      ],
+      "priority_score": 13.8,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "banking_behavior_shift",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+    },
+    {
+      "title": "DBP lends P100M to Cagayan Valley farmers’ cooperative",
+      "source": "Inquirer Business",
+      "date": "2026-11-20T02:26:00.000Z",
+      "summary": "MANILA, Philippines — State-run Development Bank of the Philippines (DBP) has granted a P100-million loan to an agricultural cooperative to fund the working capital requirements of small-scale farmers in Cagayan Valley. In a statement, DBP said it extended the loan to the Unified Tillers Agriculture Cooperative (UTA...",
+      "tags": [
+        "banking_lending",
+        "banking_regulation",
+        "banking_system",
+        "banking_driver_institution",
+        "banking_state_bank"
+      ],
+      "priority_score": 12.55,
+      "priority_reasons": [
+        "banking_secondary_movement",
+        "banking_policy_pressure",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+    },
+    {
+      "title": "Peso may slide to 66:$1 in 2027 – UBS",
+      "source": "Inquirer Business",
+      "date": "2026-11-20T02:30:00.000Z",
+      "summary": "MANILA, Philippines — The Philippine peso could weaken to 66:$1 by the end of 2027, even as the Bangko Sentral ng Pilipinas (BSP) is unlikely to begin cutting interest rates until 2028, Swiss banking giant UBS Group AG said. In a research note, UBS said the central bank could deliver two more quarter-point rate incr...",
+      "tags": [
+        "banking_regulation",
+        "banking_system",
+        "banking_driver_policy",
+        "banking_driver_market",
+        "banking_driver_institution",
+        "banking_regulator"
+      ],
+      "priority_score": 11.55,
+      "priority_reasons": [
+        "banking_weak_cluster_signal",
+        "banking_policy_pressure",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+    },
+    {
+      "title": "ACEN unit secures $175M in fresh capital",
+      "source": "Inquirer Business",
+      "date": "2026-11-20T02:18:00.000Z",
+      "summary": "MANILA, Philippines — ACEN Corp., the listed energy arm of the Ayala Group, has obtained a fresh $175-million loan facility for its international operations. In a regulatory filing on Thursday, the company said it acted as a guarantor for its subsidiary, ACEN Cayman Ltd., in a loan agreement with Philippine National...",
+      "tags": [
+        "banking_lending",
+        "banking_regulation",
+        "banking_single_bank",
+        "banking_driver_institution",
+        "banking_private_bank"
+      ],
+      "priority_score": 9.05,
+      "priority_reasons": [
+        "banking_weak_cluster_signal",
+        "banking_policy_pressure",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because policy pressure can change how banks lend, preserve liquidity, price risk, or compete for deposits."
+    },
+    {
+      "title": "‘Philippines faces widening MSME credit gap’",
+      "source": "Philstar Business",
+      "date": "2026-11-21T16:00:00.000Z",
+      "summary": "The Philippines is among developing economies with a widening micro, small and medium enterprise finance gap as loan demand is outpacing supply, according to the World Bank Group.",
+      "tags": [
+        "banking_lending",
+        "banking_single_bank",
+        "banking_driver_institution",
+        "banking_multilateral"
+      ],
+      "priority_score": 8.3,
+      "priority_reasons": [
+        "banking_weak_cluster_signal",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This surfaced because it carries a concrete banking-system signal rather than generic finance noise."
+    }
+  ],
+  "secondary_signals": []
+}
