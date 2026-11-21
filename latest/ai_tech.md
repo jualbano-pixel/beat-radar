@@ -1,6 +1,6 @@
 # Weekly Editorial Packet — Technology / Digital Economy
 
-Week of 2026-11-09
+Week of 2026-11-16
 
 ## Editorial Read
 
@@ -12,14 +12,14 @@ Week of 2026-11-09
 ## What matters most
 
 ### digital policy pressure
-- Why it matters: Regulatory and governance pressure is starting to shape rollout decisions before operating rules are fully settled.
-- Pattern: Policy is moving faster than operating clarity.
-- Tension: policy vs execution
+- Why it matters: Multiple players are adding capability faster than they can secure capacity, coordination, or deployment discipline.
+- Pattern: Infrastructure is scaling faster than coordination.
+- Tension: ambition vs capacity
 - Supporting stories:
-- [1.89 million BPO workers, 53,500 training seats: The Philippines’s AI maths doesn’t add up](https://e27.co/1-89-million-bpo-workers-53500-training-seats-the-philippiness-ai-maths-doesnt-add-up-20261111) | e27 SEA Tech | Shows where policy pressure is starting to change operating choices.
-- [DEFA 2026: Three ways it benefits Filipinos](https://technology.inquirer.net/150411/defa-2026-three-ways-it-benefits-filipinos) | Inquirer Tech | Shows how regulation is starting to shape the playbook.
+- [DEFA 2026: Three ways it benefits Filipinos](https://technology.inquirer.net/150411/defa-2026-three-ways-it-benefits-filipinos) | Inquirer Tech | Shows where policy pressure is starting to change operating choices.
 - [Cybersecurity in the Age of AI](https://technology.inquirer.net/150393/cybersecurity-in-the-age-of-ai) | Inquirer Tech | Shows how safety posture is becoming part of product strategy.
-- [ADB Completes $30 Billion ASEAN Pledge with $13 Billion for Resilient Rivers and Digital Economy](https://www.adb.org/news/adb-completes-30-billion-asean-pledge-13-billion-resilient-rivers-and-digital-economy) | Asian Development Bank Digital Economy | Makes the compliance pressure more concrete.
+- [De Claro brings proven leadership from SSS to DICT, emerges as key player in government digital transformation](https://www.philstar.com/business/2026/11/21/2571576/de-claro-brings-proven-leadership-sss-dict-emerges-key-player-government-digital-transformation) | Philippine Star Business AI/Tech | Shows how regulation is starting to shape the playbook.
+- [Iterative’s pivot is an uncomfortable verdict on Southeast Asia’s place in the AI race](https://e27.co/iteratives-pivot-is-an-uncomfortable-verdict-on-southeast-asias-place-in-the-ai-race-20261117) | e27 SEA Tech | Gives the theme a concrete operating example.
 
 ### data center and cloud capacity
 - Why it matters: Data-center and cloud capacity matter because they set practical limits on deployment, cost, resilience, and energy demand.
@@ -27,51 +27,50 @@ Week of 2026-11-09
 - Tension: digital growth vs infrastructure readiness
 - Supporting stories:
 - [Microsoft Outlook outage: perils of relying on big tech](https://technology.inquirer.net/150382/microsoft-outlook-outage-perils-of-relying-on-big-tech) | Inquirer Tech | Shows how vendors are adjusting price and packaging to pull users deeper in.
+- [A 750-chip ceiling: How US curbs redraw the map for Malaysia’s AI data centres](https://e27.co/a-750-chip-ceiling-how-us-curbs-redraw-the-map-for-malaysias-ai-data-centres-20261118) | e27 SEA Tech | Shows where supply strain is starting to hit the story.
 - [Google Cloud launches Gemini for healthcare.](https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare) | Google AI Blog | Makes the infrastructure strain visible.
-- [Copper is choking AI. Staera secures US$4.6M to swap it for light](https://e27.co/copper-is-choking-ai-staera-secures-us4-6m-to-swap-it-for-light-20261111) | e27 SEA Tech | Shows where supply strain is starting to hit the story.
 
 ### AI and automation adoption
 - Why it matters: Multiple players are adding capability faster than they can secure capacity, coordination, or deployment discipline.
 - Pattern: Infrastructure is scaling faster than coordination.
 - Tension: ambition vs capacity
 - Supporting stories:
-- [Nebius tests the neocloud playbook with $40 billion in planned spending](https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending) | TechCrunch AI | Shows where policy pressure is starting to change operating choices.
-- [Sionic AI brings its Thai-reading model to SEA, with banks as the real exam](https://e27.co/sionic-ai-brings-its-thai-reading-model-to-sea-with-banks-as-the-real-exam-20261110) | e27 SEA Tech | Shows how vendors are trying to lock in enterprise trust before demand settles.
-- [United Airlines blocks AI agents from booking flights, citing cybersecurity risks](https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks) | TechCrunch AI | Shows how safety posture is becoming part of product strategy.
-- [What happens to the subscription economy when AI agents review every payment?](https://e27.co/what-happens-to-the-subscription-economy-when-ai-agents-review-every-payment-20261101) | e27 SEA Tech | Shows how regulation is starting to shape the playbook.
-
-### connectivity buildout
-- Why it matters: Connectivity buildout matters when it changes who can participate in digital services, where firms can operate, and what public services can reach.
-- Pattern: Connectivity expansion is changing access, coverage, and the geography of digital services.
-- Tension: network ambition vs useful access
-- Supporting stories:
-- [Softer bank, property earnings pull Ayala core profit down by 6%](https://business.inquirer.net/620635/softer-bank-property-earnings-pull-ayala-core-profit-down-by-6) | Inquirer Business AI/Tech | Shows where policy pressure is starting to change operating choices.
-- [Siargao now has upgraded 5G Internet coverage](https://technology.inquirer.net/150190/siargao-now-has-upgraded-5g-internet-coverage) | Inquirer Tech | Strong local business relevance with likely downstream effects.
-- [Kuken Industries searches 70 years of drawings in minutes](https://openai.com/index/kuken) | OpenAI Blog | Shows where platform control is shifting into developer workflow.
-
-## Structural shifts
+- [AI to reshape banking landscape, challenge customer loyalty](https://business.inquirer.net/622206/ai-to-reshape-banking-landscape-challenge-customer-loyalty) | Inquirer Business AI/Tech | Strong local business relevance with likely downstream effects.
+- [Southeast Asia’s robot vacuum boom puts local execution to the test](https://e27.co/southeast-asias-robot-vacuum-boom-puts-local-execution-to-the-test-20261119) | e27 SEA Tech | Makes the demand and pricing question harder to ignore.
+- [Anthropic’s IPO puts AI’s circular financing boom to the test](https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test) | TechCrunch AI | Makes the infrastructure strain visible.
+- [GITEX GLOBAL 2026: The race to bring AI out of the cloud and into the physical world](https://e27.co/gitex-global-2026-the-race-to-bring-ai-out-of-the-cloud-and-into-the-physical-world-20261118) | e27 SEA Tech | Shows where the build-out starts to drag on execution.
 
 ### enterprise technology adoption
-- Editorial note: Regulatory and governance pressure is starting to shape rollout decisions before operating rules are fully settled.
-- Pattern: Policy is moving faster than operating clarity.
-- Tension: policy vs execution
+- Why it matters: Vendors are pushing enterprise positioning before usage patterns, ROI, and buyer confidence have fully stabilized.
+- Pattern: Enterprise positioning is getting pushed ahead of proven demand.
+- Tension: adoption vs proof
 - Supporting stories:
-- [The most expensive AI mistakes don’t look like mistakes](https://e27.co/the-most-expensive-ai-mistakes-dont-look-like-mistakes-20261109) | e27 SEA Tech | Shows how vendors are trying to lock in enterprise trust before demand settles.
-- [Marcos orders creation of national AI framework](https://malaya.com.ph/news/national-news/marcos-orders-creation-of-national-ai-framework) | Malaya Business AI/Tech | Makes the demand and pricing question harder to ignore.
-- [ChatGPT Enterprise now available in AWS Marketplace](https://openai.com/index/chatgpt-enterprise-aws-marketplace) | OpenAI Blog | Shows where policy pressure is starting to change operating choices.
-- [DevRev delivers autonomous self-service with GPT-6.1 Sol](https://openai.com/index/devrev-enterprise-self-service) | OpenAI Blog | Shows where strategy is running into execution reality.
+- [My spam folder found me a business lead. Here’s what else AI took off my plate](https://e27.co/my-spam-folder-found-me-a-business-lead-heres-what-else-ai-took-off-my-plate-20261111) | e27 SEA Tech | Strong local business relevance with likely downstream effects.
+- [High performing teams don’t avoid conflict. They know how to lead through it](https://e27.co/high-performing-teams-dont-avoid-conflict-they-know-how-to-lead-through-it-20261111) | e27 SEA Tech | Shows where policy pressure is starting to change operating choices.
+- [AI use rises in PH amid Asean push, Pax Silica protests](https://technology.inquirer.net/150462/ai-use-rises-in-ph-amid-asean-push-pax-silica-protests) | Inquirer Tech | Shows how vendors are trying to lock in enterprise trust before demand settles.
+- [ChatGPT Enterprise now available in AWS Marketplace](https://openai.com/index/chatgpt-enterprise-aws-marketplace) | OpenAI Blog | Shows how regulation is starting to shape the playbook.
+
+## Structural shifts
 
 ### consumer technology shift
 - Editorial note: Consumer technology is editorially useful when it shows behavior, adoption, or market share moving rather than just another device launch.
 - Pattern: Consumer technology signals matter where they reveal adoption, market share, or ecosystem direction.
 - Tension: product novelty vs behavior change
 - Supporting stories:
-- [Why South Korea and Southeast Asia could be the next cross-border AI and blockchain corridor](https://e27.co/why-south-korea-and-southeast-asia-could-be-the-next-cross-border-ai-and-blockchain-corridor-20261101) | e27 SEA Tech | Makes the demand and pricing question harder to ignore.
+- [US signed off on sales of nearly 900,000 AI chips to China in six months, House committee says](https://bworldonline.com/technology/2026/11/20/795443/us-signed-off-on-sales-of-nearly-900000-ai-chips-to-china-in-six-months-house-committee-says) | BusinessWorld AI/Tech | Shows where supply strain is starting to hit the story.
+
+### connectivity buildout
+- Editorial note: Connectivity buildout matters when it changes who can participate in digital services, where firms can operate, and what public services can reach.
+- Pattern: Connectivity expansion is changing access, coverage, and the geography of digital services.
+- Tension: network ambition vs useful access
+- Supporting stories:
+- [Smart feted for AI voice enhancement service](https://www.philstar.com/telecoms/2026/11/21/2571673/smart-feted-ai-voice-enhancement-service) | Philippine Star Business AI/Tech | Strong local business relevance with likely downstream effects.
+- [Kuken Industries searches 70 years of drawings in minutes](https://openai.com/index/kuken) | OpenAI Blog | Shows where platform control is shifting into developer workflow.
 
 ## What seems to be happening
 
-- Policy is moving faster than operating clarity.
-- Digital infrastructure demand is turning capacity, power, and location into strategic constraints.
 - Infrastructure is scaling faster than coordination.
-- Connectivity expansion is changing access, coverage, and the geography of digital services.
+- Digital infrastructure demand is turning capacity, power, and location into strategic constraints.
+- Enterprise positioning is getting pushed ahead of proven demand.
 - Consumer technology signals matter where they reveal adoption, market share, or ecosystem direction.
+- Connectivity expansion is changing access, coverage, and the geography of digital services.

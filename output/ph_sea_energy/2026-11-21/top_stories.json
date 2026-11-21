@@ -1,0 +1,86 @@
+{
+  "top_stories": [
+    {
+      "title": "Manila in nuclear energy talks with US, Russia, Canada",
+      "source": "Inquirer Business Energy",
+      "date": "2026-11-21T02:10:00.000Z",
+      "summary": "MANILA, Philippines — The Philippine government and private utility leaders are pursuing bilateral agreements with major foreign nuclear energy developers as the country aims to integrate nuclear power into its national electricity grid by 2032. Energy Secretary Sharon Garin on Friday confirmed that the agency has i...",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 6.6,
+      "priority_reasons": [
+        "material_technology_effect",
+        "enterprise_scale_signal",
+        "practical_usability_impact"
+      ],
+      "why_it_matters": "This is a strong editorial signal because it shows technology moving into real-world deployment at scale. It points to traction beyond experimentation."
+    },
+    {
+      "title": "Business groups hail swift action on port congestion",
+      "source": "Philippine Star Business Energy",
+      "date": "2026-11-21T02:16:00.000Z",
+      "summary": "Various business organizations have expressed their appreciation to Cabinet Secretary Benhur Abalos for his continued commitment, decisive leadership, and swift action in addressing the country's worsening port congestion.",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 6.1,
+      "priority_reasons": [
+        "enterprise_scale_signal",
+        "multi_group_impact"
+      ],
+      "why_it_matters": "This matters because it changes how more than one important group can build, buy, deploy, secure, or govern technology."
+    },
+    {
+      "title": "Diesel, gas rollbacks seen next week",
+      "source": "Inquirer Business Energy",
+      "date": "2026-11-20T10:27:19.000Z",
+      "summary": "MANILA, Philippines — Motorists can expect another wave of oil price rollbacks next week, amid projections of weaker global fuel demand. Jetti Petroleum president Leo Bellas said diesel could drop by P2.35 to P2.55 per liter. READ: Gulf nations on alert after US strikes Iranian island Gasoline prices may likewise de...",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 4.6,
+      "priority_reasons": [
+        "policy_shift"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "Diesel, gasoline prices set for 3rd straight rollback next week",
+      "source": "Malaya Business",
+      "date": "2026-11-21T08:13:00.000Z",
+      "summary": "Motorists are in line for a third consecutive week of fuel price rollbacks, with diesel projected to drop by as much as P2.55 per liter and gasoline by up to P2.15 per liter. Initial industry estimates point to a reduction of P2.35 to P2.55 per liter for diesel and P2 to P2.15 per liter for […] The post Diesel, gaso...",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "PH, Chinese firm ink offshore wind deal",
+      "source": "Malaya Business",
+      "date": "2026-11-21T07:19:00.000Z",
+      "summary": "The Philippines and Chinese renewable energy firm Ming Yang Smart Energy Group have signed an agreement to cooperate on offshore wind development as Manila moves to expand clean power capacity and harden its grid against extreme weather. President Ferdinand Marcos Jr. met with Ming Yang Chairman Zhang Chuanwei and c...",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "Red alert hits Visayas power grid anew",
+      "source": "Inquirer Business Energy",
+      "date": "2026-11-20T10:46:06.000Z",
+      "summary": "MANILA, Philippines — Consumers in the Visayas may need to brace for power interruptions as power plant outages have placed the grid under red alert. The National Grid Corp. of the Philippines (NGCP) said the red alert would be in effect from 5 p.m. to 6 p.m. READ: Visayas power woes may persist until 2028,",
+      "tags": [
+        "general_ph_sea_energy"
+      ],
+      "priority_score": 0.6,
+      "priority_reasons": [],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    }
+  ],
+  "secondary_signals": []
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "cluster_id": "energy_001",
+    "cluster_kind": "same_event",
+    "lead_story_id": "9bc1c9251aed",
+    "story_count": 1,
+    "story_ids": [
+      "9bc1c9251aed"
+    ],
+    "story_titles": [
+      "Red alert hits Visayas power grid anew"
+    ],
+    "associated_stories": [
+      {
+        "id": "9bc1c9251aed",
+        "title": "Red alert hits Visayas power grid anew",
+        "url": "https://business.inquirer.net/621883/red-alert-hits-visayas-power-grid-anew",
+        "source": "Inquirer Business Energy",
+        "published_at": "2026-11-20T10:46:06.000Z"
+      }
+    ],
+    "entities": [],
+    "event_label": "Outage, alert, or reliability stress",
+    "compression_line": "Reliability stress is visible in grid, outage, reserve, or alert signals that point to pressure on the physical power system.",
+    "priority_score": 28,
+    "editorial_bucket": "background",
+    "cluster_type": "event",
+    "cluster_classification": "primary",
+    "supporting_story_ids": []
+  },
+  {
+    "cluster_id": "energy_002",
+    "cluster_kind": "same_event",
+    "lead_story_id": "204f2ddd9694",
+    "story_count": 1,
+    "story_ids": [
+      "204f2ddd9694"
+    ],
+    "story_titles": [
+      "PH, Chinese firm ink offshore wind deal"
+    ],
+    "associated_stories": [
+      {
+        "id": "204f2ddd9694",
+        "title": "PH, Chinese firm ink offshore wind deal",
+        "url": "https://malaya.com.ph/business/business-news/ph-chinese-firm-ink-offshore-wind-deal",
+        "source": "Malaya Business",
+        "published_at": "2026-11-21T07:19:00.000Z"
+      }
+    ],
+    "entities": [],
+    "event_label": "Project execution and infrastructure progress",
+    "compression_line": "Infrastructure execution is moving through rehabilitation, EPC, commissioning, or delivery steps that affect system capability.",
+    "priority_score": 28,
+    "editorial_bucket": "context_watch",
+    "cluster_type": "event",
+    "cluster_classification": "watch",
+    "supporting_story_ids": []
+  },
+  {
+    "cluster_id": "energy_003",
+    "cluster_kind": "same_event",
+    "lead_story_id": "0d80a898df47",
+    "story_count": 2,
+    "story_ids": [
+      "0d80a898df47",
+      "ad97fc8a18e8"
+    ],
+    "story_titles": [
+      "Diesel, gasoline prices set for 3rd straight rollback next week",
+      "Diesel, gas rollbacks seen next week"
+    ],
+    "associated_stories": [
+      {
+        "id": "0d80a898df47",
+        "title": "Diesel, gasoline prices set for 3rd straight rollback next week",
+        "url": "https://malaya.com.ph/business/business-news/diesel-gasoline-prices-set-for-3rd-straight-rollback-next-week",
+        "source": "Malaya Business",
+        "published_at": "2026-11-21T08:13:00.000Z"
+      },
+      {
+        "id": "ad97fc8a18e8",
+        "title": "Diesel, gas rollbacks seen next week",
+        "url": "https://business.inquirer.net/621886/diesel-gas-rollbacks-seen-next-week",
+        "source": "Inquirer Business Energy",
+        "published_at": "2026-11-20T10:27:19.000Z"
+      }
+    ],
+    "entities": [],
+    "event_label": "Fuel price movement",
+    "compression_line": "Fuel prices are moving through pump-price signals, changing the near-term cost read for consumers and fuel-sensitive sectors.",
+    "priority_score": 20,
+    "editorial_bucket": "background",
+    "cluster_type": "pattern",
+    "cluster_classification": "primary",
+    "supporting_story_ids": [
+      "ad97fc8a18e8"
+    ],
+    "primary_theme_id": "energy_fuel_prices_easing",
+    "primary_theme_label": "Fuel prices are easing through rollbacks"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "theme_id": "energy_fuel_prices_easing",
+    "theme_label": "Fuel prices are easing through rollbacks",
+    "theme_summary": "Pump-price movement is pointing downward, with diesel, gasoline, and fuel-monitor stories reinforcing the same cost direction.",
+    "story_count": 2,
+    "cluster_ids": [
+      "energy_003"
+    ],
+    "story_ids": [
+      "0d80a898df47",
+      "ad97fc8a18e8"
+    ],
+    "associated_stories": [
+      {
+        "id": "0d80a898df47",
+        "title": "Diesel, gasoline prices set for 3rd straight rollback next week",
+        "url": "https://malaya.com.ph/business/business-news/diesel-gasoline-prices-set-for-3rd-straight-rollback-next-week",
+        "source": "Malaya Business",
+        "published_at": "2026-11-21T08:13:00.000Z"
+      },
+      {
+        "id": "ad97fc8a18e8",
+        "title": "Diesel, gas rollbacks seen next week",
+        "url": "https://business.inquirer.net/621886/diesel-gas-rollbacks-seen-next-week",
+        "source": "Inquirer Business Energy",
+        "published_at": "2026-11-20T10:27:19.000Z"
+      }
+    ],
+    "dominant_reason_codes": [],
+    "dominant_angle_signals": [],
+    "top_story_refs": [
+      "0d80a898df47"
+    ],
+    "theme_type": "primary"
+  }
+]

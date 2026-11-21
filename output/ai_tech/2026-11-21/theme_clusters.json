@@ -1,0 +1,422 @@
+[
+  {
+    "theme_id": "enterprise_technology",
+    "theme_label": "enterprise technology adoption",
+    "theme_summary": "enterprise technology adoption is the shared editorial thread across 18 related stories. The strongest signal is enterprise adoption pressure rising.",
+    "story_count": 18,
+    "cluster_ids": [],
+    "story_ids": [
+      "93236ebbb041",
+      "6f63732b535d",
+      "1ea570afd9fc",
+      "ac65acd71ff3",
+      "97ed54d30e98",
+      "19157a536ae4",
+      "7a06fd56f905",
+      "53d809d7420a",
+      "99be0c0a7e07",
+      "b43ef08ac3ed",
+      "9092d5eb66f2",
+      "37e4452e64c8",
+      "caa9073cefb4",
+      "981785a01550",
+      "34e7d6261520",
+      "fc87a45dcfbf",
+      "85f94c0fe8f0",
+      "a395c7da350b"
+    ],
+    "associated_stories": [
+      {
+        "id": "93236ebbb041",
+        "title": "AI to reshape banking landscape, challenge customer loyalty",
+        "url": "https://business.inquirer.net/622206/ai-to-reshape-banking-landscape-challenge-customer-loyalty",
+        "source": "Inquirer Business AI/Tech",
+        "published_at": "2026-11-22T02:05:00.000Z"
+      },
+      {
+        "id": "7a06fd56f905",
+        "title": "My spam folder found me a business lead. Here’s what else AI took off my plate",
+        "url": "https://e27.co/my-spam-folder-found-me-a-business-lead-heres-what-else-ai-took-off-my-plate-20261111",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-11-17T04:00:12.000Z"
+      },
+      {
+        "id": "1ea570afd9fc",
+        "title": "De Claro brings proven leadership from SSS to DICT, emerges as key player in government digital transformation",
+        "url": "https://www.philstar.com/business/2026/11/21/2571576/de-claro-brings-proven-leadership-sss-dict-emerges-key-player-government-digital-transformation",
+        "source": "Philippine Star Business AI/Tech",
+        "published_at": "2026-11-20T16:08:00.000Z"
+      },
+      {
+        "id": "19157a536ae4",
+        "title": "Why I filed a consumer complaint against 7 global AI giants over the ‘linguistic tax’",
+        "url": "https://e27.co/why-i-filed-a-consumer-complaint-against-7-global-ai-giants-over-the-linguistic-tax-20261111",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-11-18T04:00:26.000Z"
+      },
+      {
+        "id": "97ed54d30e98",
+        "title": "High performing teams don’t avoid conflict. They know how to lead through it",
+        "url": "https://e27.co/high-performing-teams-dont-avoid-conflict-they-know-how-to-lead-through-it-20261111",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-11-18T05:00:06.000Z"
+      },
+      {
+        "id": "6f63732b535d",
+        "title": "AI use rises in PH amid Asean push, Pax Silica protests",
+        "url": "https://technology.inquirer.net/150462/ai-use-rises-in-ph-amid-asean-push-pax-silica-protests",
+        "source": "Inquirer Tech",
+        "published_at": "2026-11-18T07:59:18.000Z"
+      },
+      {
+        "id": "a395c7da350b",
+        "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+        "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+        "source": "OpenAI Blog",
+        "published_at": "2026-10-28T13:15:00.000Z"
+      },
+      {
+        "id": "b43ef08ac3ed",
+        "title": "Astra for Law leads in legal intelligence",
+        "url": "https://openai.com/index/astra-law-6-2",
+        "source": "OpenAI Blog",
+        "published_at": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "id": "caa9073cefb4",
+        "title": "ChatGPT Enterprise now available in AWS Marketplace",
+        "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+        "source": "OpenAI Blog",
+        "published_at": "2026-11-09T19:00:00.000Z"
+      },
+      {
+        "id": "53d809d7420a",
+        "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+        "url": "https://openai.com/business/customer-stories/sumitomo-life",
+        "source": "OpenAI Blog",
+        "published_at": "2026-11-18T08:00:00.000Z"
+      },
+      {
+        "id": "981785a01550",
+        "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+        "url": "https://openai.com/index/devrev-enterprise-self-service",
+        "source": "OpenAI Blog",
+        "published_at": "2026-11-04T00:00:00.000Z"
+      },
+      {
+        "id": "34e7d6261520",
+        "title": "How Cisco defends at machine speed with OpenAI",
+        "url": "https://openai.com/index/cisco-cyber",
+        "source": "OpenAI Blog",
+        "published_at": "2026-11-03T08:00:00.000Z"
+      },
+      {
+        "id": "9092d5eb66f2",
+        "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+        "url": "https://openai.com/index/singapore-airlines-travel-work",
+        "source": "OpenAI Blog",
+        "published_at": "2026-11-10T08:00:00.000Z"
+      },
+      {
+        "id": "37e4452e64c8",
+        "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+        "url": "https://openai.com/index/cogent-security",
+        "source": "OpenAI Blog",
+        "published_at": "2026-11-10T00:00:00.000Z"
+      },
+      {
+        "id": "fc87a45dcfbf",
+        "title": "Heimstaden is changing residential real estate management with AI",
+        "url": "https://openai.com/index/heimstaden",
+        "source": "OpenAI Blog",
+        "published_at": "2026-11-03T08:00:00.000Z"
+      },
+      {
+        "id": "85f94c0fe8f0",
+        "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+        "url": "https://openai.com/index/credit-saison",
+        "source": "OpenAI Blog",
+        "published_at": "2026-10-29T00:00:00.000Z"
+      },
+      {
+        "id": "99be0c0a7e07",
+        "title": "Managing frontier AI risk: From training to deployment",
+        "url": "https://openai.com/index/managing-frontier-ai-risk",
+        "source": "OpenAI Blog",
+        "published_at": "2026-11-18T06:00:00.000Z"
+      },
+      {
+        "id": "ac65acd71ff3",
+        "title": "Beyond who you know: Why value is becoming the new currency of business access",
+        "url": "https://e27.co/beyond-who-you-know-why-value-is-becoming-the-new-currency-of-business-access-20261112",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-11-19T04:00:23.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "developing_pattern",
+      "policy_regulatory_move",
+      "local_business_relevance"
+    ],
+    "dominant_angle_signals": [
+      "enterprise adoption pressure rising",
+      "demand still unproven",
+      "infrastructure lag visible"
+    ],
+    "top_story_refs": [
+      "93236ebbb041",
+      "7a06fd56f905",
+      "1ea570afd9fc"
+    ]
+  },
+  {
+    "theme_id": "data_centers_infrastructure",
+    "theme_label": "data centers and digital infrastructure",
+    "theme_summary": "data centers and digital infrastructure is the shared editorial thread across 8 related stories. The strongest signal is infrastructure lag visible.",
+    "story_count": 8,
+    "cluster_ids": [],
+    "story_ids": [
+      "6a4e917ed40d",
+      "06c1374fcc99",
+      "2d25c7465758",
+      "f2bebeae1e9c",
+      "ddb4b8e8befa",
+      "ef83b8dc18b1",
+      "2e34e84f0999",
+      "25fa4dd18ec7"
+    ],
+    "associated_stories": [
+      {
+        "id": "6a4e917ed40d",
+        "title": "TSMC tightens China AI chip curbs as new US rules close manufacturing loophole, sources say",
+        "url": "https://bworldonline.com/technology/2026/11/20/795546/tsmc-tightens-china-ai-chip-curbs-as-new-us-rules-close-manufacturing-loophole-sources-say",
+        "source": "BusinessWorld AI/Tech",
+        "published_at": "2026-11-20T05:30:46.000Z"
+      },
+      {
+        "id": "ddb4b8e8befa",
+        "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+        "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test",
+        "source": "TechCrunch AI",
+        "published_at": "2026-11-19T14:54:39.000Z"
+      },
+      {
+        "id": "f2bebeae1e9c",
+        "title": "GITEX GLOBAL 2026: The race to bring AI out of the cloud and into the physical world",
+        "url": "https://e27.co/gitex-global-2026-the-race-to-bring-ai-out-of-the-cloud-and-into-the-physical-world-20261118",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-11-18T02:54:17.000Z"
+      },
+      {
+        "id": "06c1374fcc99",
+        "title": "Microsoft Outlook outage: perils of relying on big tech",
+        "url": "https://technology.inquirer.net/150382/microsoft-outlook-outage-perils-of-relying-on-big-tech",
+        "source": "Inquirer Tech",
+        "published_at": "2026-11-13T20:29:36.000Z"
+      },
+      {
+        "id": "2d25c7465758",
+        "title": "A 750-chip ceiling: How US curbs redraw the map for Malaysia’s AI data centres",
+        "url": "https://e27.co/a-750-chip-ceiling-how-us-curbs-redraw-the-map-for-malaysias-ai-data-centres-20261118",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-11-18T09:41:02.000Z"
+      },
+      {
+        "id": "ef83b8dc18b1",
+        "title": "Google Cloud launches Gemini for healthcare.",
+        "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare",
+        "source": "Google AI Blog",
+        "published_at": "2026-11-10T13:00:00.000Z"
+      },
+      {
+        "id": "2e34e84f0999",
+        "title": "Kuken Industries searches 70 years of drawings in minutes",
+        "url": "https://openai.com/index/kuken",
+        "source": "OpenAI Blog",
+        "published_at": "2026-11-09T08:00:00.000Z"
+      },
+      {
+        "id": "25fa4dd18ec7",
+        "title": "Setting a new standard for responsible AI infrastructure",
+        "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+        "source": "OpenAI Blog",
+        "published_at": "2026-11-05T02:00:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "developing_pattern",
+      "market_signal",
+      "policy_regulatory_move"
+    ],
+    "dominant_angle_signals": [
+      "infrastructure lag visible",
+      "regulation moving ahead of capacity",
+      "supply risk rising"
+    ],
+    "top_story_refs": [
+      "6a4e917ed40d",
+      "ddb4b8e8befa",
+      "f2bebeae1e9c"
+    ]
+  },
+  {
+    "theme_id": "cybersecurity_resilience",
+    "theme_label": "cybersecurity and resilience",
+    "theme_summary": "cybersecurity and resilience is the shared editorial thread across 5 related stories. The strongest signal is cyber risk affecting operations.",
+    "story_count": 5,
+    "cluster_ids": [],
+    "story_ids": [
+      "a63885f15ea4",
+      "b74420c0988a",
+      "802831022001",
+      "a3433e936d2c",
+      "945f879ef3a4"
+    ],
+    "associated_stories": [
+      {
+        "id": "a63885f15ea4",
+        "title": "Cybersecurity in the Age of AI",
+        "url": "https://technology.inquirer.net/150393/cybersecurity-in-the-age-of-ai",
+        "source": "Inquirer Tech",
+        "published_at": "2026-11-14T09:13:28.000Z"
+      },
+      {
+        "id": "b74420c0988a",
+        "title": "Iterative’s pivot is an uncomfortable verdict on Southeast Asia’s place in the AI race",
+        "url": "https://e27.co/iteratives-pivot-is-an-uncomfortable-verdict-on-southeast-asias-place-in-the-ai-race-20261117",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-11-17T10:46:47.000Z"
+      },
+      {
+        "id": "a3433e936d2c",
+        "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+        "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+        "source": "OpenAI Blog",
+        "published_at": "2026-11-04T07:00:00.000Z"
+      },
+      {
+        "id": "802831022001",
+        "title": "These tech outages are giving Y2K, AI agent style",
+        "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style",
+        "source": "TechCrunch AI",
+        "published_at": "2026-11-19T21:42:31.000Z"
+      },
+      {
+        "id": "945f879ef3a4",
+        "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+        "url": "https://openai.com/index/dan-driscoll-joins-openai",
+        "source": "OpenAI Blog",
+        "published_at": "2026-11-02T00:00:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "policy_regulatory_move"
+    ],
+    "dominant_angle_signals": [
+      "cyber risk affecting operations",
+      "safety pressure building",
+      "regulation moving ahead of capacity"
+    ],
+    "top_story_refs": [
+      "a63885f15ea4",
+      "b74420c0988a",
+      "a3433e936d2c"
+    ]
+  },
+  {
+    "theme_id": "digital_policy_regulation",
+    "theme_label": "digital policy and regulation",
+    "theme_summary": "digital policy and regulation is the shared editorial thread across 4 related stories. The strongest signal is enterprise adoption pressure rising.",
+    "story_count": 4,
+    "cluster_ids": [],
+    "story_ids": [
+      "68b301d318ca",
+      "79b91e6e0af5",
+      "9566f8163308",
+      "3a579d257208"
+    ],
+    "associated_stories": [
+      {
+        "id": "79b91e6e0af5",
+        "title": "DEFA 2026: Three ways it benefits Filipinos",
+        "url": "https://technology.inquirer.net/150411/defa-2026-three-ways-it-benefits-filipinos",
+        "source": "Inquirer Tech",
+        "published_at": "2026-11-14T17:56:26.000Z"
+      },
+      {
+        "id": "3a579d257208",
+        "title": "ADB Completes $30 Billion ASEAN Pledge with $13 Billion for Resilient Rivers and Digital Economy",
+        "url": "https://www.adb.org/news/adb-completes-30-billion-asean-pledge-13-billion-resilient-rivers-and-digital-economy",
+        "source": "Asian Development Bank Digital Economy",
+        "published_at": "2026-11-14T00:00:00.000Z"
+      },
+      {
+        "id": "68b301d318ca",
+        "title": "Executive Order No. 131 or the adoption of the Philippine AI Governance Framework explained",
+        "url": "https://bworldonline.com/technology/2026/11/20/795568/executive-order-no-131-or-the-adoption-of-the-philippine-ai-governance-framework-explained",
+        "source": "BusinessWorld AI/Tech",
+        "published_at": "2026-11-20T08:34:17.000Z"
+      },
+      {
+        "id": "9566f8163308",
+        "title": "After Megaspeed, Indonesia pays the compliance bill for Asia’s AI chip race",
+        "url": "https://e27.co/after-megaspeed-indonesia-pays-the-compliance-bill-for-asias-ai-chip-race-20261119",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-11-19T05:59:40.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "policy_regulatory_move"
+    ],
+    "dominant_angle_signals": [
+      "enterprise adoption pressure rising",
+      "regulation moving ahead of capacity",
+      "safety pressure building"
+    ],
+    "top_story_refs": [
+      "79b91e6e0af5",
+      "3a579d257208",
+      "68b301d318ca"
+    ]
+  },
+  {
+    "theme_id": "ai_automation",
+    "theme_label": "AI and automation adoption",
+    "theme_summary": "AI and automation adoption is the shared editorial thread across 2 related stories. The strongest signal is enterprise adoption pressure rising.",
+    "story_count": 2,
+    "cluster_ids": [],
+    "story_ids": [
+      "ab90e7e0c9e2",
+      "44c7f6df6395"
+    ],
+    "associated_stories": [
+      {
+        "id": "44c7f6df6395",
+        "title": "Southeast Asia’s robot vacuum boom puts local execution to the test",
+        "url": "https://e27.co/southeast-asias-robot-vacuum-boom-puts-local-execution-to-the-test-20261119",
+        "source": "e27 SEA Tech",
+        "published_at": "2026-11-20T05:00:41.000Z"
+      },
+      {
+        "id": "ab90e7e0c9e2",
+        "title": "AI integration: The role of AI in Filipino MSMEs and BPO sectors",
+        "url": "https://technology.inquirer.net/150279/ai-integration-the-role-of-ai-in-filipino-msmes-and-bpo-sectors",
+        "source": "Inquirer Tech",
+        "published_at": "2026-11-07T19:24:36.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "policy_regulatory_move",
+      "market_signal"
+    ],
+    "dominant_angle_signals": [
+      "enterprise adoption pressure rising",
+      "local operators exposed",
+      "demand still unproven"
+    ],
+    "top_story_refs": [
+      "44c7f6df6395",
+      "ab90e7e0c9e2"
+    ]
+  }
+]

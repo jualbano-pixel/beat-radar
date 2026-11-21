@@ -1,131 +1,37 @@
 [
   {
-    "theme_id": "energy_reliability_pressure_building",
-    "theme_label": "Reliability pressure is building in the power system",
-    "theme_summary": "Grid, outage, reserve, or alert signals point to tightening physical reliability rather than isolated operational noise.",
-    "story_count": 4,
-    "cluster_ids": [
-      "energy_001"
-    ],
-    "story_ids": [
-      "b07d84313c6b",
-      "b07d84313c6b",
-      "ffe0db2b731a",
-      "ffe0db2b731a"
-    ],
-    "associated_stories": [
-      {
-        "id": "b07d84313c6b",
-        "title": "Microsoft outage disrupts email services of PHL Supreme Court, businesses",
-        "url": "https://bworldonline.com/the-nation/2026/11/13/793882/microsoft-outage-disrupts-email-services-of-phl-supreme-court-businesses",
-        "source": "BusinessWorld Energy",
-        "published_at": "2026-11-13T08:10:33.000Z"
-      },
-      {
-        "id": "b07d84313c6b",
-        "title": "Microsoft outage disrupts email services of PHL Supreme Court, businesses",
-        "url": "https://bworldonline.com/the-nation/2026/11/13/793882/microsoft-outage-disrupts-email-services-of-phl-supreme-court-businesses",
-        "source": "BusinessWorld Energy",
-        "published_at": "2026-11-13T08:10:33.000Z"
-      },
-      {
-        "id": "ffe0db2b731a",
-        "title": "Microsoft outage drags on for hours, disrupting Outlook, Teams for thousands",
-        "url": "https://bworldonline.com/technology/2026/11/13/793676/microsoft-outage-drags-on-for-hours-disrupting-outlook-teams-for-thousands",
-        "source": "BusinessWorld Energy",
-        "published_at": "2026-11-13T06:15:35.000Z"
-      },
-      {
-        "id": "ffe0db2b731a",
-        "title": "Microsoft outage drags on for hours, disrupting Outlook, Teams for thousands",
-        "url": "https://bworldonline.com/technology/2026/11/13/793676/microsoft-outage-drags-on-for-hours-disrupting-outlook-teams-for-thousands",
-        "source": "BusinessWorld Energy",
-        "published_at": "2026-11-13T06:15:35.000Z"
-      }
-    ],
-    "dominant_reason_codes": [],
-    "dominant_angle_signals": [],
-    "top_story_refs": [
-      "b07d84313c6b"
-    ],
-    "theme_type": "secondary"
-  },
-  {
     "theme_id": "energy_fuel_prices_easing",
     "theme_label": "Fuel prices are easing through rollbacks",
     "theme_summary": "Pump-price movement is pointing downward, with diesel, gasoline, and fuel-monitor stories reinforcing the same cost direction.",
-    "story_count": 3,
+    "story_count": 2,
     "cluster_ids": [
       "energy_003"
     ],
     "story_ids": [
-      "4d5722dcb639",
-      "6c987cb2c06b",
-      "51f80c71fd67"
+      "0d80a898df47",
+      "ad97fc8a18e8"
     ],
     "associated_stories": [
       {
-        "id": "4d5722dcb639",
-        "title": "Fuel price rollbacks expected next week",
-        "url": "https://malaya.com.ph/business/business-news/fuel-price-rollbacks-expected-next-week",
+        "id": "0d80a898df47",
+        "title": "Diesel, gasoline prices set for 3rd straight rollback next week",
+        "url": "https://malaya.com.ph/business/business-news/diesel-gasoline-prices-set-for-3rd-straight-rollback-next-week",
         "source": "Malaya Business",
-        "published_at": "2026-11-14T08:39:00.000Z"
+        "published_at": "2026-11-21T08:13:00.000Z"
       },
       {
-        "id": "6c987cb2c06b",
-        "title": "Filipinos to enjoy cheaper airfares from Nov 16-30",
-        "url": "https://business.inquirer.net/620866/filipinos-to-enjoy-cheaper-airfares-from-nov-16-30",
+        "id": "ad97fc8a18e8",
+        "title": "Diesel, gas rollbacks seen next week",
+        "url": "https://business.inquirer.net/621886/diesel-gas-rollbacks-seen-next-week",
         "source": "Inquirer Business Energy",
-        "published_at": "2026-11-14T02:00:00.000Z"
-      },
-      {
-        "id": "51f80c71fd67",
-        "title": "Oil price cuts may extend next week",
-        "url": "https://business.inquirer.net/620706/oil-price-cuts-may-extend-next-week",
-        "source": "Inquirer Business Energy",
-        "published_at": "2026-11-13T11:13:35.000Z"
+        "published_at": "2026-11-20T10:27:19.000Z"
       }
     ],
     "dominant_reason_codes": [],
     "dominant_angle_signals": [],
     "top_story_refs": [
-      "4d5722dcb639"
+      "0d80a898df47"
     ],
-    "theme_type": "secondary"
-  },
-  {
-    "theme_id": "energy_power_costs_moving_through_recovery",
-    "theme_label": "Electricity costs are moving through rates and recovery",
-    "theme_summary": "Regulated rate, tariff, and recovery signals are changing how generation and electricity costs pass through the system.",
-    "story_count": 2,
-    "cluster_ids": [
-      "energy_002"
-    ],
-    "story_ids": [
-      "dd0d82384961",
-      "cc8da1458a7e"
-    ],
-    "associated_stories": [
-      {
-        "id": "dd0d82384961",
-        "title": "Meralco power rates rise this month",
-        "url": "https://business.inquirer.net/620733/meralco-power-rates-to-rise-in-november",
-        "source": "Inquirer Business Energy",
-        "published_at": "2026-11-13T13:20:23.000Z"
-      },
-      {
-        "id": "cc8da1458a7e",
-        "title": "Trump visit no quick fix for PH tariff troubles",
-        "url": "https://business.inquirer.net/621042/trump-visit-no-quick-fix-for-ph-tariff-troubles",
-        "source": "Inquirer Business Energy",
-        "published_at": "2026-11-14T11:00:07.000Z"
-      }
-    ],
-    "dominant_reason_codes": [],
-    "dominant_angle_signals": [],
-    "top_story_refs": [
-      "dd0d82384961"
-    ],
-    "theme_type": "secondary"
+    "theme_type": "primary"
   }
 ]

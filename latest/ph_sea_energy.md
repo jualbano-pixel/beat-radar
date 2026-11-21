@@ -1,41 +1,34 @@
 # Weekly Editorial Packet — Philippine / SEA Energy
 
-Week of 2026-11-09
+Week of 2026-11-16
 
 ## Editorial Read
 
-- Fuel and policy signals are moving together, so the pressure is not just price direction but who absorbs the cost.
-- Supply conditions remain the constraint to watch where reserves, outages, or generation availability move.
+- Fuel prices are the clearest near-term signal, with pump-price movement still shaping household and business costs.
+- Grid and project-execution signals keep capacity risk on the desk, even when price stories dominate the week.
+- Demand pressure matters because it can turn ordinary supply tightness into a reliability or price problem.
 
 ## What matters most
 
-### supply reliability risk
-- Why it matters: Reliability risk matters when supply tightness can turn into outages, reserves pressure, or higher prices.
-- Pattern: Supply and reserve signals are keeping reliability risk close to the surface.
-- Tension: demand needs vs available supply
+### grid capacity risk
+- Why it matters: Grid and project execution determine whether new capacity can actually reach users.
+- Pattern: Grid and project execution are shaping how much capacity the system can actually use.
+- Tension: infrastructure ambition vs delivery
 - Supporting stories:
-- [Microsoft outage disrupts email services of PHL Supreme Court, businesses](https://bworldonline.com/the-nation/2026/11/13/793882/microsoft-outage-disrupts-email-services-of-phl-supreme-court-businesses) | BusinessWorld Energy | Shows where supply conditions could become a reliability problem.
-- [Microsoft outage drags on for hours, disrupting Outlook, Teams for thousands](https://bworldonline.com/technology/2026/11/13/793676/microsoft-outage-drags-on-for-hours-disrupting-outlook-teams-for-thousands) | BusinessWorld Energy | Shows where supply conditions could become a reliability problem.
-
-### energy price pressure
-- Why it matters: Energy-price pressure feeds through to households, operators, and policy decisions.
-- Pattern: Energy costs are still feeding into household and business pressure.
-- Tension: cost recovery vs affordability
-- Supporting stories:
-- [Meralco power rates rise this month](https://business.inquirer.net/620733/meralco-power-rates-to-rise-in-november) | Inquirer Business Energy | Adds a concrete read on price, supply, reliability, or policy pressure.
-- [Trump visit no quick fix for PH tariff troubles](https://business.inquirer.net/621042/trump-visit-no-quick-fix-for-ph-tariff-troubles) | Inquirer Business Energy | Shows how policy decisions can shift who absorbs energy costs.
-- [Filipinos to enjoy cheaper airfares from Nov 16-30](https://business.inquirer.net/620866/filipinos-to-enjoy-cheaper-airfares-from-nov-16-30) | Inquirer Business Energy | Adds a concrete read on price, supply, reliability, or policy pressure.
+- [Business groups hail swift action on port congestion](https://www.philstar.com/biz-memos/2026/11/21/2571670/business-groups-hail-swift-action-port-congestion) | Philippine Star Business Energy | Adds a concrete read on price, supply, reliability, or policy pressure.
+- [Manila in nuclear energy talks with US, Russia, Canada](https://business.inquirer.net/621961/manila-in-nuclear-energy-talks-with-us-russia-canada) | Inquirer Business Energy | Makes the capacity and delivery constraint concrete.
+- [PH, Chinese firm ink offshore wind deal](https://malaya.com.ph/business/business-news/ph-chinese-firm-ink-offshore-wind-deal) | Malaya Business | Shows where supply conditions could become a reliability problem.
+- [Red alert hits Visayas power grid anew](https://business.inquirer.net/621883/red-alert-hits-visayas-power-grid-anew) | Inquirer Business Energy | Makes the capacity and delivery constraint concrete.
 
 ### fuel price easing
 - Why it matters: Pump-price relief matters because it quickly changes household transport costs and business operating pressure.
 - Pattern: Fuel prices are easing at the pump, but cost relief remains exposed to external swings.
 - Tension: short-term relief vs oil exposure
 - Supporting stories:
-- [Fuel price rollbacks expected next week](https://malaya.com.ph/business/business-news/fuel-price-rollbacks-expected-next-week) | Malaya Business | Shows how fuel-price movement is feeding into household and operating costs.
-- [Oil price cuts may extend next week](https://business.inquirer.net/620706/oil-price-cuts-may-extend-next-week) | Inquirer Business Energy | Shows how policy decisions can shift who absorbs energy costs.
+- [Diesel, gasoline prices set for 3rd straight rollback next week](https://malaya.com.ph/business/business-news/diesel-gasoline-prices-set-for-3rd-straight-rollback-next-week) | Malaya Business | Shows how fuel-price movement is feeding into household and operating costs.
+- [Diesel, gas rollbacks seen next week](https://business.inquirer.net/621886/diesel-gas-rollbacks-seen-next-week) | Inquirer Business Energy | Shows how fuel-price movement is feeding into household and operating costs.
 
 ## What seems to be happening
 
-- Supply and reserve signals are keeping reliability risk close to the surface.
-- Energy costs are still feeding into household and business pressure.
+- Grid and project execution are shaping how much capacity the system can actually use.
 - Fuel prices are easing at the pump, but cost relief remains exposed to external swings.
