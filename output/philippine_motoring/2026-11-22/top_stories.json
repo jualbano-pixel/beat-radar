@@ -1,0 +1,52 @@
+{
+  "top_stories": [
+    {
+      "title": "Diesel, gas rollbacks seen next week",
+      "source": "Inquirer Business",
+      "date": "2026-11-20T10:27:19.000Z",
+      "summary": "MANILA, Philippines — Motorists can expect another wave of oil price rollbacks next week, amid projections of weaker global fuel demand. Jetti Petroleum president Leo Bellas said diesel could drop by P2.35 to P2.55 per liter. READ: Gulf nations on alert after US strikes Iranian island Gasoline prices may likewise de...",
+      "tags": [
+        "pricing_pressure",
+        "ownership_cost",
+        "consumer_demand_shift",
+        "product_market_signal"
+      ],
+      "priority_score": 4.6,
+      "priority_reasons": [
+        "policy_shift",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "BoI seeking ‘complementary’ EV imports, local assembly",
+      "source": "BusinessWorld Online",
+      "date": "2026-11-22T13:20:43.000Z",
+      "summary": "THE Board of Investments (BoI) said electric vehicle (EV) imports and domestic manufacturing need to be complementary because…",
+      "tags": [
+        "ev_transition_gap"
+      ],
+      "priority_score": 2.6,
+      "priority_reasons": [
+        "material_technology_effect"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    },
+    {
+      "title": "PH vehicle sales inched up 3% in Oct; electrified vehicles provide boost",
+      "source": "Inquirer Business",
+      "date": "2026-11-21T02:24:00.000Z",
+      "summary": "MANILA, Philippines — The local automotive sector continues to build sales momentum despite generally weak consumer demand with total unit sales climbing 3 percent in October from the previous month. Chamber of Automotive Manufacturers of the Philippines Inc. (Campi) and the Truck Manufacturers Association Inc. (TMA...",
+      "tags": [
+        "consumer_demand_shift",
+        "product_market_signal"
+      ],
+      "priority_score": 0.8,
+      "priority_reasons": [
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    }
+  ],
+  "secondary_signals": []
+}
