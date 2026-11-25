@@ -1,0 +1,99 @@
+{
+  "top_stories": [
+    {
+      "title": "PH raises $1.26 B from retail T-bond offer",
+      "source": "Inquirer Business Property",
+      "date": "2026-11-26T02:10:00.000Z",
+      "summary": "MANILA, Philippines — The national government raised more than planned in its third tranche of onshore retail dollar bonds, breaching the billion-dollar mark amid strong demand. Results from the four-day offer period showed that the government raised $1.26 billion, more than six times the original $200-million minim...",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 6.8,
+      "priority_reasons": [
+        "policy_shift",
+        "material_technology_effect",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "C&U Group invests P5.2B in Batangas industrial park",
+      "source": "Inquirer Business Property",
+      "date": "2026-11-26T02:06:00.000Z",
+      "summary": "MANILA, Philippines — China-based C&U Group is investing $87 million (P5.2 billion) to develop a planned industrial park in Batangas province, its largest overseas manufacturing hub. The Department of Trade and Industry (DTI) said the Chinese bearings manufacturer’s multimillion-dollar investment covers the first ph...",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 6.8,
+      "priority_reasons": [
+        "policy_shift",
+        "material_technology_effect",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "Government pockets $1.26 billion from dollar bond issue",
+      "source": "Philippine Star Property",
+      "date": "2026-11-25T16:00:00.000Z",
+      "summary": "The government raised $1.26 billion (roughly P80.4 billion) from the sale of the third tranche of retail dollar bonds offering, exceeding its initial target as investors gobbled up the three-year debt papers.",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 6.8,
+      "priority_reasons": [
+        "policy_shift",
+        "material_technology_effect",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "BTr raises $1.26B from retail bond sale",
+      "source": "BusinessWorld Property",
+      "date": "2026-11-25T13:46:20.000Z",
+      "summary": "THE GOVERNMENT raised $1.26 billion (P80.2 billion) from its third retail dollar bond offer, giving the Treasury greater flexibility to manage its borrowing requirements and easing pressure on future debt auctions.",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 6.8,
+      "priority_reasons": [
+        "policy_shift",
+        "material_technology_effect",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This could change the rules or incentives around how AI companies build and ship products. It has consequences beyond a single product cycle."
+    },
+    {
+      "title": "NOTICE OF ANNUAL STOCKHOLDERS’ MEETING: DDMP REIT, INC.",
+      "source": "Malaya Business Property",
+      "date": "2026-11-25T16:00:00.000Z",
+      "summary": "The post NOTICE OF ANNUAL STOCKHOLDERS’ MEETING: DDMP REIT, INC. appeared first on Malaya Business Insight.",
+      "tags": [
+        "enterprise_tech"
+      ],
+      "priority_score": 6.3,
+      "priority_reasons": [
+        "enterprise_scale_signal",
+        "multi_group_impact",
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This matters because it changes how more than one important group can build, buy, deploy, secure, or govern technology."
+    },
+    {
+      "title": "Personal loan defaults rise as costs mount",
+      "source": "BusinessWorld Property",
+      "date": "2026-11-25T13:43:44.000Z",
+      "summary": "PERSONAL LOAN delinquencies are rising as higher living costs squeeze borrowers’ ability to repay, even as payment trends for auto, mortgage and credit card loans remain stable, TransUnion Philippines said.",
+      "tags": [
+        "general_property_real_estate"
+      ],
+      "priority_score": 0.8,
+      "priority_reasons": [
+        "editorial_source_confirmation"
+      ],
+      "why_it_matters": "This surfaced because it appears to have meaningful ecosystem impact and is stronger than the average item in the daily radar."
+    }
+  ],
+  "secondary_signals": []
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "theme_id": "cybersecurity_resilience",
+    "theme_label": "cybersecurity and resilience",
+    "theme_summary": "cybersecurity and resilience is the shared editorial thread across 4 related stories. The strongest signal is policy pressure worth watching.",
+    "story_count": 4,
+    "cluster_ids": [],
+    "story_ids": [
+      "4f9855dd232b",
+      "a3358b866627",
+      "0d9e60654b95",
+      "56e9aac07039"
+    ],
+    "associated_stories": [
+      {
+        "id": "a3358b866627",
+        "title": "PH raises $1.26 B from retail T-bond offer",
+        "url": "https://business.inquirer.net/622855/ph-raises-1-26-b-from-retail-t-bond-offer",
+        "source": "Inquirer Business Property",
+        "published_at": "2026-11-26T02:10:00.000Z"
+      },
+      {
+        "id": "4f9855dd232b",
+        "title": "BTr raises $1.26B from retail bond sale",
+        "url": "https://bworldonline.com/top-stories/2026/11/25/796769/btr-raises-1-26b-from-retail-bond-sale",
+        "source": "BusinessWorld Property",
+        "published_at": "2026-11-25T13:46:20.000Z"
+      },
+      {
+        "id": "0d9e60654b95",
+        "title": "C&U Group invests P5.2B in Batangas industrial park",
+        "url": "https://business.inquirer.net/622848/cu-group-invests-p5-2b-in-batangas-industrial-park",
+        "source": "Inquirer Business Property",
+        "published_at": "2026-11-26T02:06:00.000Z"
+      },
+      {
+        "id": "56e9aac07039",
+        "title": "Government pockets $1.26 billion from dollar bond issue",
+        "url": "https://www.philstar.com/business/2026/11/26/2572605/government-pockets-126-billion-dollar-bond-issue",
+        "source": "Philippine Star Property",
+        "published_at": "2026-11-25T16:00:00.000Z"
+      }
+    ],
+    "dominant_reason_codes": [
+      "policy_regulatory_move"
+    ],
+    "dominant_angle_signals": [
+      "policy pressure worth watching",
+      "local operators exposed",
+      "demand still unproven"
+    ],
+    "top_story_refs": [
+      "a3358b866627",
+      "4f9855dd232b",
+      "0d9e60654b95"
+    ]
+  }
+]
